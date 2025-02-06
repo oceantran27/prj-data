@@ -1,0 +1,23 @@
+#include <bits/stdc++.h>
+#include <vector>
+#include <iostream>
+#include <string>
+#include <map>
+#include <set>
+#include <unordered_map>
+#include <algorithm>
+using namespace std;
+
+class Solution 
+{
+public:
+    vector<int> decompressRLElist(vector<int>& nums) 
+    {
+        vector<int> res;
+        for (int i = 0; i < nums.size(); i += 2)
+        {
+            res.insert(res.end(), nums[i], nums[i + 1]);
+        }
+        return res;
+    }
+};

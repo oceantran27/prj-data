@@ -1,0 +1,256 @@
+Array scanning
+Array scanning>Contiguous region
+Array scanning>Cyclic array
+Array scanning>From both ends of array
+Array scanning>From both ends of array>Element exclusion
+Array scanning>In-place modification
+Array scanning>Location of first element with same value
+Array scanning>Location of previous element with bit value
+Array scanning>Location of previous element with same value
+Array scanning>Middle element of triplet
+Array scanning>Modify element with index
+Array scanning>Right to left
+Averaging from total and count
+Backtracking
+Backtracking>Minimum option optimisation
+Backtracking>Push and pop for efficient state update
+Binary lifting
+Binary search
+Binary search>C++ set
+Binary search>Exponential-binary search
+Binary search>Prefix sum
+Binary search>Python SortedList
+Bitwise operation
+Bitwise operation>Build result bit-by-bit
+Bitwise operation>Self-inverse property of xor
+Bitwise operation>Subset enumeration
+Brute force enumeration
+Brute force enumeration>Combinatorial
+Brute force enumeration>Elementwise processing using a vector
+Case-by-case analysis
+ChatGPT
+ChatGPT>Fixed
+Concurrency
+Construction
+Counting elements in array
+Deque
+Deque>Monotonic deque
+Design data structure
+Design data structure>Interconversion
+Design data structure>Persistent
+Disjoint set union
+Divide and conquer
+Dynamic programming
+Dynamic programming>Array reuse
+Dynamic programming>Auxiliary array
+Dynamic programming>Auxiliary array>Prefix sum
+Dynamic programming>Binary lifting
+Dynamic programming>Complexity reduction with algebra
+Dynamic programming>Construction
+Dynamic programming>Cyclic array
+Dynamic programming>Digits
+Dynamic programming>Element with special meaning
+Dynamic programming>Graph-like state transitions
+Dynamic programming>Grid
+Dynamic programming>Intervals
+Dynamic programming>Knapsack
+Dynamic programming>Knapsack>State modification
+Dynamic programming>Length-wise processing
+Dynamic programming>Longest common subsequence
+Dynamic programming>Longest increasing subsequence
+Dynamic programming>Matrix exponentiation
+Dynamic programming>Memoised recursion
+Dynamic programming>Monotonic stack/deque
+Dynamic programming>Number theory
+Dynamic programming>Partial bottom-up
+Dynamic programming>Reconstructing optimal solution
+Dynamic programming>Segment tree
+Dynamic programming>Subsets
+Dynamic programming>Topological sort
+Dynamic programming>Trees
+Dynamic programming>Trees>DP over children
+Dynamic programming>Trie
+Dynamic update of left and right neighbours
+Encoding and decoding
+Flattening
+Formatted output
+Fraud
+Graph theory
+Graph theory>Addition of auxiliary vertices
+Graph theory>Bipartite graph
+Graph theory>Breadth first search
+Graph theory>Breadth first search>0-1 BFS
+Graph theory>Bridges/Articulation points
+Graph theory>Cycle detection
+Graph theory>Degree counting
+Graph theory>Depth first search
+Graph theory>Depth first search>Colouring
+Graph theory>Depth first search>Component decomposition
+Graph theory>Depth first search>Flood fill
+Graph theory>Depth first search>Iterative
+Graph theory>Depth first search>Tree diameter
+Graph theory>Dijkstra's algorithm
+Graph theory>Dijkstra's algorithm>Forward and backward
+Graph theory>Directed acyclic graph
+Graph theory>Euler tour
+Graph theory>Floyd-Warshall algorithm
+Graph theory>Iterative leaf removal
+Graph theory>Lewel-wise processing
+Graph theory>Lowest common ancestor
+Graph theory>Minimum spanning tree
+Graph theory>Multi source search
+Graph theory>Prim's algorithm
+Graph theory>Reuse visited array
+Graph theory>Search from source and target
+Graph theory>Single cycle graphs
+Graph theory>Single outdegree graphs
+Graph theory>Topological sort
+Graph theory>Topological sort>Dynamic Programming
+Graph theory>Travelling salesman problem
+Greedy
+Hashmap
+Hashmap>Coordinate compression
+Hashmap>Counter
+Hashmap>Forward and backward
+Hashmap>Group items
+Hashmap>Update using insert and delete
+Heuristic optimisation
+Integer operations on strings
+Intervals
+Intervals>2D
+Intervals>Dynamic Programming
+Intervals>Dynamic programming>With binary search
+Intervals>Endpoint sorting
+Intervals>Non-overlapping decomposition
+Intervals>Overlap
+Intervals>Union
+Linked list>Iteration
+Linked list>Iteration>Slow and fast pointers
+Linked list>Recursion
+Majority element
+Mathematics
+Mathematics>Advanced
+Mathematics>Basic
+Mathematics>Closed form expressions
+Mathematics>Combinatorics
+Mathematics>Combinatorics>Inclusion-exclusion
+Mathematics>Composition of operations
+Mathematics>Expression rearrangement
+Mathematics>Geometry
+Mathematics>Geometry>Convex hull
+Mathematics>Geometry>Geometric median
+Mathematics>Invariants
+Mathematics>Median
+Mathematics>Number theory>Basic
+Mathematics>Number theory>Dynamic programming
+Mathematics>Number theory>Factor listing in sqrt(N)
+Mathematics>Number theory>GCD/LCM
+Mathematics>Number theory>Inclusion-exclusion
+Mathematics>Number theory>Modular exponentiation/inverse
+Mathematics>Number theory>Prime sieving
+Mathematics>Number theory>Theorems
+Mathematics>Observation
+Mathematics>Parity
+Mathematics>Physics observation
+Mathematics>Probability
+Mathematics>Reduce problem dimension with proofs
+Mathematics>Set theory
+Matrix
+Matrix>Geometric transformation
+Matrix>Path
+Matrix>Prefix
+Matrix>Row pair processing
+Matrix>Subdivision
+Matrix>Traversal
+Meet in the middle
+Number transformations based on mathematical rules
+Offline query processing
+Palindrome
+Palindrome>Hashing
+Permutation
+Permutation>Cycle
+Permutation>Inverse
+Permutation>Inversions
+Permutation>Next/Previous
+Permutation>Swaps
+Pointers
+Points in 2D plane
+Precomputation to answer queries efficiently with delta
+Prefix>Bitwise operation
+Prefix>Extremum
+Prefix>Extremum>2D
+Prefix>Of Prefix
+Prefix>Sum
+Prefix>Sum>2D
+Prefix>Sum>For range updates
+Prefix>Sum>Valid brackets
+Priority queue
+Priority queue>Dijkstra's algorithm
+Priority queue>Dijkstra-like processing of subarrays
+Priority queue>Dynamic sorted neighbour
+Priority queue>K smallest/largest elements
+Priority queue>K smallest/largest elements>Transfer between the two
+Priority queue>Key update using insert and remove
+Priority queue>Key update using insert and remove on C++ set
+Priority queue>Python SortedList
+Process in unusual order
+Process multiple vectors together
+QuadTree
+Queue
+Quick Select
+Range updates using prefix sum
+Search by iterative bound improvement
+Segment tree
+Segment tree>Lazy propagation
+Simple implementation
+Sliding window
+Sliding window>Monotonic deque
+Sliding window>String hashing
+Sliding window>Two windows
+Sorting
+Sorting>Custom
+Sorting>Implementation
+Sorting>Index array
+Sorting>Merge sort
+Sorting>Partial
+Sorting>Queries and updates together
+Sorting>Remembering index
+Sorting>Sorted container
+Sorting>Stable
+Stack
+Stack>Depth first search
+Stack>From array elements
+Stack>Monotonic stack
+Stack>Numerical operations
+Stack>Valid brackets
+String
+String>Anagrams
+String>Parsing
+String>Parsing>Recursive
+String>Search
+String>Search>Cylic array
+String>Search>Hashing
+String>Search>Hashing>Double hashing
+String>Search>Prefix/Suffix
+String>Search>Trie
+String>Subsequence
+String>Suffix array
+String>Validation
+Suboptimal solution
+Time reversed simulation
+Tree>Binary search tree
+Tree>Binary search tree>Traversal
+Tree>Binary tree
+Tree>Binary tree>Iteration
+Tree>Binary tree>Recursion
+Tree>Hashing
+Tree>Level-wise processing
+Tree>N-ary tree
+Tree>Order traversal
+Tree>Rerooting
+Trie
+Two player games
+Two pointers
+Unique elements in subarray
+Unique/duplicate element finding with bizarro algorithms
+Valid subarray counting>Iterate one endpoint and keep valid range for other

@@ -1,0 +1,23 @@
+#include <bits/stdc++.h>
+#include <vector>
+#include <iostream>
+#include <string>
+#include <map>
+#include <set>
+#include <unordered_map>
+#include <algorithm>
+using namespace std;
+
+class Solution {
+ public:
+  int minimumBoxes(int n) {
+    int x = cbrt(6L * n);
+    int res = x * (x + 1) / 2;
+    int max_n = x * (x + 1ll) * (x + 2ll) / 6ll;
+    if (max_n > n) {
+      max_n -= res;
+      res -= x;
+    }
+    return res + ceil((-1 + sqrt(1 + 8 * (n - max_n))) / 2);
+  }
+};

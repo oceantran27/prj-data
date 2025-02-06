@@ -1,0 +1,5 @@
+online: reduce to the list indexing problem, O(n log n/log log n). see 315. Count of Smaller Numbers After Self.
+
+remark. can we do faster in the offline case, e.g. can we adapt the O(n sqrt(log n)) offline algorithm for dominance counting in 2D?
+
+

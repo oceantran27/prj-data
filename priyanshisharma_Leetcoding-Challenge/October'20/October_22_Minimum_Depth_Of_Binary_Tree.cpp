@@ -1,0 +1,35 @@
+#include <bits/stdc++.h>
+#include <vector>
+#include <iostream>
+#include <string>
+#include <map>
+#include <set>
+#include <unordered_map>
+#include <algorithm>
+using namespace std;
+
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode() : val(0), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+ *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+ * };
+ */
+class Solution {
+public:
+    int minDepth(TreeNode* root) {
+        if (root == NULL) 
+            return 0;
+        if (root->left == NULL && root->right == NULL) // Reach to leaf node
+            return 1; 
+        if (root->left == NULL) 
+            return minDepth(root->right) + 1;
+        if (root->right == NULL) 
+            return minDepth(root->left) + 1;
+        return min(minDepth(root->left), minDepth(root->right)) + 1;
+    }
+};    

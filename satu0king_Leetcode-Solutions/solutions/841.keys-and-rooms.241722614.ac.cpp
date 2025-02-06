@@ -1,0 +1,28 @@
+#include <bits/stdc++.h>
+#include <vector>
+#include <iostream>
+#include <string>
+#include <map>
+#include <set>
+#include <unordered_map>
+#include <algorithm>
+using namespace std;
+
+class Solution {
+public:
+  bool canVisitAllRooms(vector<vector<int>> &rooms) {
+    int n = rooms.size();
+    vector<bool> visited(n);
+    vector<int> stack;
+    stack.push_back(0);
+    while (!stack.empty()) {
+      int room = stack.back();
+      stack.pop_back();
+      visited[room] = true;
+      for (auto r : rooms[room])
+        if (!visited[r])
+          stack.push_back(r);
+    }
+    return find(visited.begin(), visited.end(), false) == visited.end();
+  }
+};

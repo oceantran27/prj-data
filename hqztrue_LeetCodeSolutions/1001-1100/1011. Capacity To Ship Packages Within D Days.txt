@@ -1,0 +1,2 @@
+same as 410. Split Array Largest Sum. O(n).
+

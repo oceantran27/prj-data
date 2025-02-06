@@ -1,0 +1,2 @@
+bit operation, binary search. O(log log W).
+

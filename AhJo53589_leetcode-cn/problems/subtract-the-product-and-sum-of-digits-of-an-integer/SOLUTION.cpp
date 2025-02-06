@@ -1,0 +1,45 @@
+#include <bits/stdc++.h>
+#include <vector>
+#include <iostream>
+#include <string>
+#include <map>
+#include <set>
+#include <unordered_map>
+#include <algorithm>
+using namespace std;
+
+
+
+
+//////////////////////////////////////////////////////////////////////////
+int subtractProductAndSum(int n) 
+{
+    string num = to_string(n);
+    int a = 1;
+    int b = 0;
+    for (auto i = 0; i < num.size(); i++)
+    {
+        a *= num[i] - '0';
+        b += num[i] - '0';
+    }
+    return a - b;
+}
+
+//////////////////////////////////////////////////////////////////////////
+int _solution_run(int n)
+{
+	return subtractProductAndSum(n);
+}
+
+//#define USE_SOLUTION_CUSTOM
+//int _solution_custom(TestCases &tc)
+//{
+//}
+
+//////////////////////////////////////////////////////////////////////////
+//#define USE_GET_TEST_CASES_IN_CPP
+//vector<string> _get_test_cases_string()
+//{
+//	return {};
+//}
+

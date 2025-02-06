@@ -1,0 +1,53 @@
+#include <bits/stdc++.h>
+#include <vector>
+#include <iostream>
+#include <string>
+#include <map>
+#include <set>
+#include <unordered_map>
+#include <algorithm>
+using namespace std;
+
+
+
+
+//////////////////////////////////////////////////////////////////////////
+class Solution {
+public:
+    int firstMissingPositive(vector<int>& nums) {
+        for (size_t i = 0; i < nums.size(); i++) {
+            if (nums[i] >= 1 && nums[i] < nums.size()) {
+                int t = nums[i] - 1;
+                if (nums[i] != nums[t]) {
+                    swap(nums[i], nums[t]);
+                    i -= (t > i);
+                }
+            }
+        }
+        
+        for (size_t i = 0; i < nums.size(); i++) {
+            if (nums[i] != i + 1) return i + 1;
+        }
+        
+        return nums.size() + 1;
+    }
+};
+
+//////////////////////////////////////////////////////////////////////////
+int _solution_run(vector<int>& nums)
+{
+	return firstMissingPositive(nums);
+}
+
+//#define USE_SOLUTION_CUSTOM
+//int _solution_custom(TestCases &tc)
+//{
+//}
+
+//////////////////////////////////////////////////////////////////////////
+//#define USE_GET_TEST_CASES_IN_CPP
+//vector<string> _get_test_cases_string()
+//{
+//	return {};
+//}
+

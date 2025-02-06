@@ -1,0 +1,29 @@
+#include <bits/stdc++.h>
+#include <vector>
+#include <iostream>
+#include <string>
+#include <map>
+#include <set>
+#include <unordered_map>
+#include <algorithm>
+using namespace std;
+
+
+// 338. Counting Bits 
+
+class Solution {
+public:
+    vector<int> countBits(int num) {
+        vector<int> dp(num + 1, 0);
+
+        for (int i = 1; i <= num; i++) {
+            if ((i & 1) == 1) {
+                dp[i] = dp[i - 1] + 1;
+            } else {
+                dp[i] = dp[i >> 1];
+            }
+        }
+
+        return dp;
+    }
+};

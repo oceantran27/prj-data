@@ -1,0 +1,23 @@
+#include <bits/stdc++.h>
+#include <vector>
+#include <iostream>
+#include <string>
+#include <map>
+#include <set>
+#include <unordered_map>
+#include <algorithm>
+using namespace std;
+
+class Solution {
+public:
+    vector<int> getRow(int rowIndex) {
+        vector<int> row(rowIndex + 1);
+        row[0] = 1;
+        for (int i = 1; i <= rowIndex; ++i) {
+            for (int j = i; j > 0; --j) {
+                row[j] += row[j - 1];
+            } 
+        }
+        return row;
+    }
+};

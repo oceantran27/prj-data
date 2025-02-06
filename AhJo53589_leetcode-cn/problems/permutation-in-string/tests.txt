@@ -1,0 +1,12 @@
+"ab"
+"eidbaooo"
+true
+"ab"
+"eidboaoo"
+false
+"trinitrophenylmethylnitramine"
+"dinitrophenylhydrazinetrinitrophenylmethylnitramine"
+true
+"dinitrophenylhydrazine"
+"dimethylhydrazine"
+false

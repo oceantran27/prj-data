@@ -1,0 +1,4 @@
+﻿  _100 Same Tree.cpp
+f:\myprojects2017\vs2013\leetcode\leetcode\_100 same tree\_100 same tree.cpp(30): warning C4554: “&”: 检查运算符优先级可能存在的错误；使用圆括号阐明优先级
+  _100 Same Tree.vcxproj -> F:\myprojects2017\vs2013\leetcode\Leetcode\Debug\_100 Same Tree.exe
+  _100 Same Tree.vcxproj -> F:\myprojects2017\vs2013\leetcode\Leetcode\Debug\_100 Same Tree.pdb (Full PDB)

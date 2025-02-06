@@ -1,0 +1,52 @@
+#include <bits/stdc++.h>
+#include <vector>
+#include <iostream>
+#include <string>
+#include <map>
+#include <set>
+#include <unordered_map>
+#include <algorithm>
+using namespace std;
+
+class Solution {
+public:
+    map<vector<int>,int> mp;
+    int shoppingOffers(vector<int>& price, vector<vector<int>>& special, vector<int>& needs) {
+        if(mp.count(needs)) return mp[needs];
+        int bestPrice = calculateWOOffers(price, needs);
+        for (const auto& sp : special) {
+            substractOffer(sp, needs);
+            if (noNegatives(needs)) {
+                int withOffer = sp.back() + shoppingOffers(price, special, needs);
+                bestPrice = min(bestPrice, withOffer);
+            }
+            addOffer(sp, needs);
+        }
+
+        return mp[needs] = bestPrice;
+    }
+    
+    int calculateWOOffers(const vector<int>& price, const vector<int>& needs) {
+        int totalPrice{0};
+        for (size_t i = 0; i < price.size(); ++i)
+            totalPrice += price[i] * needs[i];
+        return totalPrice;
+    }
+    
+    void substractOffer(const vector<int>& special, vector<int>& needs) {
+        for (size_t i = 0; i < needs.size(); ++i)
+            needs[i] -= special[i];
+    }
+    
+    void addOffer(const vector<int>& special, vector<int>& needs) {
+        for (size_t i = 0; i < needs.size(); ++i)
+            needs[i] += special[i];
+    }
+    
+    bool noNegatives(const vector<int>& needs) {
+        for (int n : needs)
+            if (n < 0)
+                return false;
+        return true;
+    }
+};

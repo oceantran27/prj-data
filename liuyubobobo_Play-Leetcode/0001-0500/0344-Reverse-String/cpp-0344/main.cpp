@@ -1,0 +1,38 @@
+#include <bits/stdc++.h>
+#include <vector>
+#include <string>
+#include <map>
+#include <set>
+#include <unordered_map>
+#include <algorithm>
+/// Source : https://leetcode.com/problems/reverse-string/description/
+/// Author : liuyubobobo
+/// Time   : 2018-06-04
+
+#include <iostream>
+
+using namespace std;
+
+/// Two Pointers
+/// Time Complexity: O(n)
+/// Space Complexity: O(1)
+class Solution {
+public:
+    void reverseString(vector<char>& s) {
+
+        int i = 0, j = s.size() - 1;
+        while(i < j){
+            swap(s[i], s[j]);
+            i ++;
+            j --;
+        }
+    }
+};
+
+
+int main() {
+
+    cout << Solution().reverseString("hello") << endl;
+
+    return 0;
+}

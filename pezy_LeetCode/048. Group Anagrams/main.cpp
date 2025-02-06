@@ -1,0 +1,23 @@
+#include <bits/stdc++.h>
+#include <vector>
+#include <string>
+#include <map>
+#include <set>
+#include <unordered_map>
+#include <algorithm>
+#include "solution.h"
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    Solution s;
+    vector<string> vec = {"cat","rye","aye","dog", "god","cud","cat","old","fop","bra"};
+    for (const auto &str : s.anagrams(vec))
+        cout << str << " ";
+    cout << endl;
+
+    return 0;
+}
+

@@ -1,0 +1,42 @@
+#include <bits/stdc++.h>
+#include <vector>
+#include <string>
+#include <map>
+#include <set>
+#include <unordered_map>
+#include <algorithm>
+using namespace std;
+
+#include <iostream>
+#include "solution.h"
+
+/// Test Unit
+/* 
+ *          1
+ *         / \
+ *        2   3
+ *           /
+ *          4
+ *           \
+ *            5
+ */
+
+int main(int argc, char** argv) {
+    TreeNode root(1);
+    TreeNode node2(2);
+    TreeNode node3(3);
+    TreeNode node4(4);
+    TreeNode node5(5);
+    
+    root.left = &node2;
+    root.right = &node3;
+    node3.left = &node4;
+    node4.right = &node5;
+    
+    Solution s;
+    for (auto i : s.preorderTraversal(&root))
+        std::cout << i << " ";
+    std::cout << std::endl; 
+    
+	return 0;
+}

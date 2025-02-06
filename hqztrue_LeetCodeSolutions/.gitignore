@@ -1,0 +1,34 @@
+# *.cpp
+# *.c
+# *.java
+# *.py
+
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.bak
+*.exe
+*.bat
+*.htm
+*.html
+*.in
+*.class
+
+*.synctex.gz
+*.synctex
+materials
+others
+chk_all
+/tmp
+template*
+!templates
+!template.cpp
+cite_test*
+*.tex
+*.sav
+codes.h
+tmp12345.out.txt
+
+

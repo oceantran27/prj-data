@@ -1,0 +1,2 @@
+use the "next" array in KMP. O(n).
+

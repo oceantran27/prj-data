@@ -1,0 +1,24 @@
+#include <bits/stdc++.h>
+#include <vector>
+#include <iostream>
+#include <string>
+#include <map>
+#include <set>
+#include <unordered_map>
+#include <algorithm>
+using namespace std;
+
+class Solution {
+public:
+    int countPairs(vector<int>& a) {
+        unordered_map<int,int> lks;
+        long long ans=0;
+        for(int x : a){
+            for(int i=1;i<=(1<<22);i*=2){
+                if(lks.count(i-x)) ans+=lks[i-x];
+            }
+            lks[x]+=1;
+        }
+        return ans % (int)(1e9 + 7);
+    }
+};

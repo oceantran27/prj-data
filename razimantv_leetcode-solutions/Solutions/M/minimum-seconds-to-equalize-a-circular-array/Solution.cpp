@@ -1,0 +1,27 @@
+#include <bits/stdc++.h>
+#include <vector>
+#include <iostream>
+#include <string>
+#include <map>
+#include <set>
+#include <unordered_map>
+#include <algorithm>
+using namespace std;
+
+// https://leetcode.com/problems/minimum-seconds-to-equalize-a-circular-array/
+
+class Solution {
+ public:
+  int minimumSeconds(vector<int>& nums) {
+    unordered_map<int, vector<int>> pos;
+    int n = nums.size(), ret = n / 2;
+    for (int i = 0; i < n; ++i) pos[nums[i]].push_back(i);
+    for (auto& [k, vec] : pos) {
+      int gap{n + vec[0] - vec.back() - 1};
+      for (int i = 1, l = vec.size(); i < l; ++i)
+        gap = max(gap, vec[i] - vec[i - 1] - 1);
+      ret = min(ret, (gap + 1) / 2);
+    }
+    return ret;
+  }
+};

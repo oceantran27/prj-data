@@ -1,0 +1,2 @@
+weighted maximum independent set for intervals. we can use counting sort. O(sort(n))=O(n).
+

@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="python3版">
+      <UniqueIdentifier>{c072be30-c06b-4eb2-be8b-1472dc2bb15c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HuaWei.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="HuaWei.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="计算字符串的距离.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="找出字符串中第一个只出现一次的字符.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="火车进站.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="成绩排序.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="1字符串最后一个单词的长度.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="2计算字符个数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="3明明的随机数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="4字符串分隔.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="5进制转换.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="6质数因子.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="7取近似值.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="8合并表记录.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="9提取不重复的整数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="10字符个数统计.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="11数字颠倒.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="12字符串反转.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="13句子逆序.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="14字串的连接最长路径查找.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="15求int型正整数在内存中存储时1的个数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="16购物单.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="高精度整数加法.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="17坐标移动.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="18识别有效的IP地址和掩码并进行分类统计.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="19简单错误练习.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="20密码验证合格程序.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="21简单密码.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="22汽水瓶.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="23删除字符串中出现次数最少的字符.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="24合唱队.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="25数据分类处理.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="26字符串排序.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="27查找兄弟单词.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="28素数伴侣.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="29字符串加解密.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="30字符串合并处理.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="31单词倒排.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="32字符串运用-密码截取.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="33整数与IP地址间的转换.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="34图片整理.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="a清一色.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="35蛇形矩阵.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="36字符串加密.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="37统计每个月兔子的总数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="38求小球落地5次后所经历的路程和第5次反弹的高度.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="39判断两个IP是否属于同一子网.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="40输入一行字符，分别统计出包含英文字母空格数字和其它字符的个数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="41称砝码.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="42学英语.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="43迷宫问题.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="44Sudoku.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="45名字的漂亮度.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="46按字节截取字符串.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="47线性插值.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="48从单向链表中删除指定值的节点.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="49多线程.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="50四则运算.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="高精度整数加法.py">
+      <Filter>python3版</Filter>
+    </None>
+  </ItemGroup>
+</Project>

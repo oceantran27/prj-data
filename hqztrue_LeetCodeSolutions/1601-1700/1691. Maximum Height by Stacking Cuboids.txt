@@ -1,0 +1,3 @@
+sort the edge lengths, then compute 2D LIS in increasing max(w,l,h) order, by 2D range max. O(n log^2 n).
+remark. we can do slightly faster in the word-RAM model.
+

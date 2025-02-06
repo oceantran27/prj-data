@@ -1,0 +1,2 @@
+Counting the number of independent sets in a set of disjoint chains. Deal with each chain separately. O(n).
+

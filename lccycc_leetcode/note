@@ -1,0 +1,174 @@
+Surrounded_Regions:
+    take care of the boundary. block O next to boundery is not counted.
+
+Palindrome_Partitioning:
+    the initial value of m[0] should push_back an empty vector<string>
+    not push_back a vector of {""}
+
+Palindrome_Partitioning_II:
+    don't forget to sort (i,j) while coding.
+    write down steps before coding.
+
+Longest_Consecutive_Sequence:
+    link_jump, or union-set
+
+Word_Ladder:
+    O(n*len*26) bfs. don't think too complicate!
+
+Valid Palindrome:
+    numbers are belong to alphanumeric. use isalpha(c) and isdigit(c)
+
+Binary_Tree_Maximum_Path_Sum:
+    should return a valid path, include at least a node.
+    if all node is negative, should not return 0.
+
+Best_Time_To_Buy_and_Sell_Stock_III:
+    if n < 2 return 0
+
+Pascal'sTriangle:
+    take care n = 0!
+Pascal'sTriangle II:
+    when n = 0, output the 1th row [1]
+
+Populating Next Right Pointers in Each Node:
+Populating Next Right Pointers in Each Node II:
+    use the next point of last level
+    
+Binary Tree Level Order Traversal:
+Binary Tree Level Order Traversal II:
+    take care!!!
+
+Symmetric Tree:
+    How to solve it iteratorily?
+    Initilize every variable when declare and use!
+    
+Recover Binary Search Tree:
+    remember to return at the end of a function!
+    
+Validate Binary Search Tree:
+    There should not be duplicate in a BST.
+
+Interleaving String:
+    if (s1.length() + s2.length() != s3.length()) return false;
+    
+Restore IP Addresse:
+    when cut into small piece, take care of those start with 0
+
+Reverse Linked List II:
+    use for( ) instead of while (cnt++<n)
+
+Decode Ways:
+    take care of s.size() == 0!!
+
+Scramble String：
+    read the problem carefully.
+    
+Partition List:
+    use NodeList *p instead of NodeList* p;
+    consider every pointer that could be NULL
+    
+Largest Rectangle in Histogram:
+    if could not find one that is lower than height[i], then l[i] = -1, but r[i] = n
+
+Remove Duplicates from Sorted List II:
+    read the example!
+
+Remove Duplicates from Sorted List:
+    always take care of NULL pointer. consider
+    1: whether a pointer could be NULL when initial, or the value is pass in
+    2: when p = p->next, consider whether p could be NULL
+    3: when remove some node of linklist, p->next could be NULL
+    
+Word Search：
+    There are two ways writing DFS:
+    1 judge word[k] == board[x][y] at the beginning, then return true immediately after that if (k==word.size()-1)
+    2 judge workd[k] == board[dx][dy] inside the for(direction), then should backup the cell again at the outside main loop.
+    should not forget to judge the first cell! should not wander one more step before k == word.size()-1!
+
+Combinations:
+    Numbers start from 1, not from 0
+    the combination should sort. not return [3, 2]
+    
+Set Matrix Zeroe：
+    after record row0 and col0, all for loop should be settle into [1, n-1][1, m-1], do no judge row0 or col0!
+    and the whole "fill 0" operation should also be in [1, n-1][1, m-1]
+    after all, do work with 0.
+
+Edit Distance:
+    min, no max!!!!!!
+
+Text Justification:
+    1 words.size() could be 0, but we always find the first word of one line, thus could not deal this case
+    2 the last line should also be filled with exactly L characters.
+
+Valid Number:
+    Those are numbers:
+    .1
+    +.1
+    +1.
+    1e+0
+    which means, "+" is allow and one side of "." could be empty, but not both side.
+    and, delete space at the beginning and at the end.
+
+Implement strStr():
+    needle could be empty, which KMP fail.
+
+Spiral Matrix:
+    Take care when write subindex of array, which is x/n, which is y/m
+    
+Permutations II:
+    use for instead of something like while (i++);
+
+Jump Game II:
+    the initial value!
+    
+Trapping Rain Water:
+    consider those bars that have the same height
+
+First Missing Positive:
+    problem description! whether include 0, and whether there will be negective numbers
+    and when delete nodes, the current node could turn into invalid
+
+Search in Rotated Sorted Array:
+    when binarySearch on a subset of array, the return index should be added by deta
+    
+Longest Valid Parentheses:
+    when need to hash negetive numbers using hash[x + n], check every access
+    (expecially the initial part, such as x = 0 at the beginning of program) whether the (+n) operation is done.
+    
+Reverse Nodes in k-Group:
+    when need to save something (such as an pointer) so that could use after change,
+    take care that the one saved may be changed too!
+
+Merge k Sorted Lists:
+    NULL pointer
+    
+4Sum:
+    how to solve in O(N^2)?
+    
+Add Two Numbers:
+    *head = NULL, *p = NULL;
+    if (!p) p = new ListNode(..)  <--- should update head at the same time
+
+Search in Rotated Sorted Array:
+    directory binary search. for A[l]..A[mid] and A[mid]..A[r], there is at least one increasing sequence.
+
+Regular Expression Matching:
+    when matching a*, break once not match 'a'.
+    use 'while' here is better than for, since for will forget to break.
+    
+Wildcard Matching:
+    for safety reason, always judge the length of string.
+    do never use the trick that s[length(s)] = 0
+
+Multiply Strings:
+    when num1 == 0 or num2 == 0, there will be more than 1 zero before the result.
+    
+Reverse Integer:
+    how to judge overflow situation?
+    
+Pow(x, n):
+    n = MIN_INT! should not n = -n!
+    
+String to Integer (atoi):
+    space*[+/-](number+) ---ignore rest illegal chars

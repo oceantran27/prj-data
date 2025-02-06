@@ -1,0 +1,17 @@
+#include <bits/stdc++.h>
+#include <vector>
+#include <iostream>
+#include <string>
+#include <map>
+#include <set>
+#include <unordered_map>
+#include <algorithm>
+using namespace std;
+
+// easy
+class Solution {
+public:
+    bool isPowerOfTwo(int n) {
+        return n > 0 && (n & n - 1) == 0;
+    }
+};

@@ -1,0 +1,19 @@
+#include <bits/stdc++.h>
+#include <vector>
+#include <iostream>
+#include <string>
+#include <map>
+#include <set>
+#include <unordered_map>
+#include <algorithm>
+using namespace std;
+
+class Solution {
+public:
+    TreeNode* insertIntoBST(TreeNode* root, int val) {
+        if(root == NULL) return new TreeNode(val);
+        if (val > root->val) root->right = insertIntoBST(root->right, val); 
+        else root->left = insertIntoBST(root->left, val); 
+        return root;
+    }
+};

@@ -1,0 +1,12 @@
+["SEND","MORE"]
+"MONEY"
+true
+["SIX","SEVEN","SEVEN"]
+"TWENTY"
+true
+["THIS","IS","TOO"]
+"FUNNY"
+true
+["LEET","CODE"]
+"POINT"
+false

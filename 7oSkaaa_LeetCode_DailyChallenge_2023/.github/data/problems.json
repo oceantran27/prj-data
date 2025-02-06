@@ -1,0 +1,1490 @@
+{
+    "01- January": [
+        {
+            "day": "01",
+            "title": "Word Pattern"
+        },
+        {
+            "day": "02",
+            "title": "Detect Capital"
+        },
+        {
+            "day": "03",
+            "title": "Delete Columns to Make Sorted"
+        },
+        {
+            "day": "04",
+            "title": "Minimum Rounds to Complete All Tasks"
+        },
+        {
+            "day": "05",
+            "title": "Minimum Number of Arrows to Burst Balloons"
+        },
+        {
+            "day": "06",
+            "title": "Maximum Ice Cream Bars"
+        },
+        {
+            "day": "07",
+            "title": "Gas Station"
+        },
+        {
+            "day": "08",
+            "title": "Max Points on a Line"
+        },
+        {
+            "day": "09",
+            "title": "Binary Tree Preorder Traversal"
+        },
+        {
+            "day": "10",
+            "title": "Same Tree"
+        },
+        {
+            "day": "11",
+            "title": "Minimum Time to Collect All Apples in a Tree"
+        },
+        {
+            "day": "12",
+            "title": "Number of Nodes in the Sub-Tree With the Same Label"
+        },
+        {
+            "day": "13",
+            "title": "Longest Path With Different Adjacent Characters"
+        },
+        {
+            "day": "14",
+            "title": "Lexicographically Smallest Equivalent String"
+        },
+        {
+            "day": "15",
+            "title": "Number of Good Paths"
+        },
+        {
+            "day": "16",
+            "title": "Insert Interval"
+        },
+        {
+            "day": "17",
+            "title": "Flip String to Monotone Increasing"
+        },
+        {
+            "day": "18",
+            "title": "Maximum Sum Circular Subarray"
+        },
+        {
+            "day": "19",
+            "title": "Subarray Sums Divisible by K"
+        },
+        {
+            "day": "20",
+            "title": "Non-decreasing Subsequences"
+        },
+        {
+            "day": "21",
+            "title": "Restore IP Addresses"
+        },
+        {
+            "day": "22",
+            "title": "Palindrome Partitioning"
+        },
+        {
+            "day": "23",
+            "title": "Find the Town Judge"
+        },
+        {
+            "day": "24",
+            "title": "Snakes and Ladders"
+        },
+        {
+            "day": "25",
+            "title": "Find Closest Node to Given Two Nodes"
+        },
+        {
+            "day": "26",
+            "title": "Cheapest Flights Within K Stops"
+        },
+        {
+            "day": "27",
+            "title": "Concatenated Words"
+        },
+        {
+            "day": "28",
+            "title": "Data Stream as Disjoint Intervals"
+        },
+        {
+            "day": "29",
+            "title": "LFU Cache"
+        },
+        {
+            "day": "30",
+            "title": "N-th Tribonacci Number"
+        },
+        {
+            "day": "31",
+            "title": "Best Team With No Conflicts"
+        },
+        {
+            "day": "01",
+            "title": "Assign Cookies"
+        }
+    ],
+    "02- February": [
+        {
+            "day": "01",
+            "title": "Greatest Common Divisor of Strings"
+        },
+        {
+            "day": "02",
+            "title": "Verifying an Alien Dictionary"
+        },
+        {
+            "day": "03",
+            "title": "Zigzag Conversion"
+        },
+        {
+            "day": "04",
+            "title": "Permutation in String"
+        },
+        {
+            "day": "05",
+            "title": "Find All Anagrams in a String"
+        },
+        {
+            "day": "06",
+            "title": "Shuffle the Array"
+        },
+        {
+            "day": "07",
+            "title": "Fruit Into Baskets"
+        },
+        {
+            "day": "08",
+            "title": "Jump Game II"
+        },
+        {
+            "day": "09",
+            "title": "Naming a Company"
+        },
+        {
+            "day": "10",
+            "title": "As Far from Land as Possible"
+        },
+        {
+            "day": "11",
+            "title": "Shortest Path with Alternating Colors"
+        },
+        {
+            "day": "12",
+            "title": "Minimum Fuel Cost to Report to the Capital"
+        },
+        {
+            "day": "13",
+            "title": "Count Odd Numbers in an Interval Range"
+        },
+        {
+            "day": "14",
+            "title": "Add Binary"
+        },
+        {
+            "day": "15",
+            "title": "Add to Array-Form of Integer"
+        },
+        {
+            "day": "16",
+            "title": "Maximum Depth of Binary Tree"
+        },
+        {
+            "day": "17",
+            "title": "Minimum Distance Between BST Nodes"
+        },
+        {
+            "day": "18",
+            "title": "Invert Binary Tree"
+        },
+        {
+            "day": "19",
+            "title": "Binary Tree Zigzag Level Order Traversal"
+        },
+        {
+            "day": "20",
+            "title": "Search Insert Position"
+        },
+        {
+            "day": "21",
+            "title": "Single Element in a Sorted Array"
+        },
+        {
+            "day": "22",
+            "title": "Capacity To Ship Packages Within D Days"
+        },
+        {
+            "day": "23",
+            "title": "IPO"
+        },
+        {
+            "day": "24",
+            "title": "Minimize Deviation in Array"
+        },
+        {
+            "day": "25",
+            "title": "Best Time to Buy and Sell Stock"
+        },
+        {
+            "day": "26",
+            "title": "Edit Distance"
+        },
+        {
+            "day": "27",
+            "title": "Construct Quad Tree"
+        },
+        {
+            "day": "28",
+            "title": "Find Duplicate Subtrees"
+        }
+    ],
+    "03- March": [
+        {
+            "day": "01",
+            "title": "Sort an Array"
+        },
+        {
+            "day": "02",
+            "title": "String Compression"
+        },
+        {
+            "day": "03",
+            "title": "Find the Index of the First Occurrence in a String"
+        },
+        {
+            "day": "04",
+            "title": "Count Subarrays With Fixed Bounds"
+        },
+        {
+            "day": "05",
+            "title": "Jump Game IV"
+        },
+        {
+            "day": "06",
+            "title": "Kth Missing Positive Number"
+        },
+        {
+            "day": "07",
+            "title": "Minimum Time to Complete Trips"
+        },
+        {
+            "day": "08",
+            "title": "Koko Eating Bananas"
+        },
+        {
+            "day": "09",
+            "title": "Linked List Cycle II"
+        },
+        {
+            "day": "10",
+            "title": "Linked List Random Node"
+        },
+        {
+            "day": "11",
+            "title": "Convert Sorted List to Binary Search Tree"
+        },
+        {
+            "day": "12",
+            "title": "Merge k Sorted Lists"
+        },
+        {
+            "day": "13",
+            "title": "Symmetric Tree"
+        },
+        {
+            "day": "14",
+            "title": "Sum Root to Leaf Numbers"
+        },
+        {
+            "day": "15",
+            "title": "Check Completeness of a Binary Tree"
+        },
+        {
+            "day": "16",
+            "title": "Construct Binary Tree from Inorder and Postorder Traversal"
+        },
+        {
+            "day": "17",
+            "title": "Implement Trie (Prefix Tree)"
+        },
+        {
+            "day": "18",
+            "title": "Design Browser History"
+        },
+        {
+            "day": "19",
+            "title": "Design Add and Search Words Data Structure"
+        },
+        {
+            "day": "20",
+            "title": "Can Place Flowers"
+        },
+        {
+            "day": "21",
+            "title": "Number of Zero-Filled Subarrays"
+        },
+        {
+            "day": "22",
+            "title": "Minimum Score of a Path Between Two Cities"
+        },
+        {
+            "day": "23",
+            "title": "Number of Operations to Make Network Connected"
+        },
+        {
+            "day": "24",
+            "title": "Reorder Routes to Make All Paths Lead to the City Zero"
+        },
+        {
+            "day": "25",
+            "title": "Count Unreachable Pairs of Nodes in an Undirected Graph"
+        },
+        {
+            "day": "26",
+            "title": "Longest Cycle in a Graph"
+        },
+        {
+            "day": "27",
+            "title": "Minimum Path Sum"
+        },
+        {
+            "day": "28",
+            "title": "Minimum Cost For Tickets"
+        },
+        {
+            "day": "29",
+            "title": "Reducing Dishes"
+        },
+        {
+            "day": "30",
+            "title": "Scramble String"
+        },
+        {
+            "day": "31",
+            "title": "Number of Ways of Cutting a Pizza"
+        }
+    ],
+    "04- April": [
+        {
+            "day": "01",
+            "title": "Binary Search"
+        },
+        {
+            "day": "02",
+            "title": "Successful Pairs of Spells and Potions"
+        },
+        {
+            "day": "03",
+            "title": "Boats to Save People"
+        },
+        {
+            "day": "04",
+            "title": "Optimal Partition of String"
+        },
+        {
+            "day": "05",
+            "title": "Minimize Maximum of Array"
+        },
+        {
+            "day": "06",
+            "title": "Number of Closed Islands"
+        },
+        {
+            "day": "07",
+            "title": "Number of Enclaves"
+        },
+        {
+            "day": "08",
+            "title": "Clone Graph"
+        },
+        {
+            "day": "09",
+            "title": "Largest Color Value in a Directed Graph"
+        },
+        {
+            "day": "10",
+            "title": "Valid Parentheses"
+        },
+        {
+            "day": "11",
+            "title": "Removing Stars From a String"
+        },
+        {
+            "day": "12",
+            "title": "Simplify Path"
+        },
+        {
+            "day": "13",
+            "title": "Validate Stack Sequences"
+        },
+        {
+            "day": "14",
+            "title": "Longest Palindromic Subsequence"
+        },
+        {
+            "day": "15",
+            "title": "Maximum Value of K Coins From Piles"
+        },
+        {
+            "day": "16",
+            "title": "Number of Ways to Form a Target String Given a Dictionary"
+        },
+        {
+            "day": "17",
+            "title": "Kids With the Greatest Number of Candies"
+        },
+        {
+            "day": "18",
+            "title": "Merge Strings Alternately"
+        },
+        {
+            "day": "19",
+            "title": "Longest ZigZag Path in a Binary Tree"
+        },
+        {
+            "day": "20",
+            "title": "Maximum Width of Binary Tree"
+        },
+        {
+            "day": "21",
+            "title": "Profitable Schemes"
+        },
+        {
+            "day": "22",
+            "title": "Minimum Insertion Steps to Make a String Palindrome"
+        },
+        {
+            "day": "23",
+            "title": "Restore The Array"
+        },
+        {
+            "day": "24",
+            "title": "Last Stone Weight"
+        },
+        {
+            "day": "25",
+            "title": "Smallest Number in Infinite Set"
+        },
+        {
+            "day": "26",
+            "title": "Add Digits"
+        },
+        {
+            "day": "27",
+            "title": "Bulb Switcher"
+        },
+        {
+            "day": "28",
+            "title": "Similar String Groups"
+        },
+        {
+            "day": "29",
+            "title": "Checking Existence of Edge Length Limited Paths"
+        },
+        {
+            "day": "30",
+            "title": "Remove Max Number of Edges to Keep Graph Fully Traversable"
+        }
+    ],
+    "05- May": [
+        {
+            "day": "01",
+            "title": "Average Salary Excluding the Minimum and Maximum Salary"
+        },
+        {
+            "day": "02",
+            "title": "Sign of the Product of an Array"
+        },
+        {
+            "day": "03",
+            "title": "Find the Difference of Two Arrays"
+        },
+        {
+            "day": "04",
+            "title": "Dota2 Senate"
+        },
+        {
+            "day": "05",
+            "title": "Maximum Number of Vowels in a Substring of Given Length"
+        },
+        {
+            "day": "06",
+            "title": "Number of Subsequences That Satisfy the Given Sum Condition"
+        },
+        {
+            "day": "07",
+            "title": "Find the Longest Valid Obstacle Course at Each Position"
+        },
+        {
+            "day": "08",
+            "title": "Matrix Diagonal Sum"
+        },
+        {
+            "day": "09",
+            "title": "Spiral Matrix"
+        },
+        {
+            "day": "10",
+            "title": "Spiral Matrix II"
+        },
+        {
+            "day": "11",
+            "title": "Uncrossed Lines"
+        },
+        {
+            "day": "12",
+            "title": "Solving Questions With Brainpower"
+        },
+        {
+            "day": "13",
+            "title": "Count Ways To Build Good Strings"
+        },
+        {
+            "day": "14",
+            "title": "Maximize Score After N Operations"
+        },
+        {
+            "day": "15",
+            "title": "Swapping Nodes in a Linked List"
+        },
+        {
+            "day": "16",
+            "title": "Swap Nodes in Pairs"
+        },
+        {
+            "day": "17",
+            "title": "Maximum Twin Sum of a Linked List"
+        },
+        {
+            "day": "18",
+            "title": "Minimum Number of Vertices to Reach All Nodes"
+        },
+        {
+            "day": "19",
+            "title": "Is Graph Bipartite"
+        },
+        {
+            "day": "20",
+            "title": "Evaluate Division"
+        },
+        {
+            "day": "21",
+            "title": "Shortest Bridge"
+        },
+        {
+            "day": "22",
+            "title": "Top K Frequent Elements"
+        },
+        {
+            "day": "23",
+            "title": "Kth Largest Element in a Stream"
+        },
+        {
+            "day": "24",
+            "title": "Maximum Subsequence Score"
+        },
+        {
+            "day": "25",
+            "title": "New 21 Game"
+        },
+        {
+            "day": "26",
+            "title": "Stone Game II"
+        },
+        {
+            "day": "27",
+            "title": "Stone Game III"
+        },
+        {
+            "day": "28",
+            "title": "Minimum Cost to Cut a Stick"
+        },
+        {
+            "day": "29",
+            "title": "Design Parking System"
+        },
+        {
+            "day": "30",
+            "title": "Design HashSet"
+        },
+        {
+            "day": "31",
+            "title": "Design Underground System"
+        }
+    ],
+    "06- June": [
+        {
+            "day": "01",
+            "title": "Shortest Path in Binary Matrix"
+        },
+        {
+            "day": "02",
+            "title": "Detonate the Maximum Bombs"
+        },
+        {
+            "day": "03",
+            "title": "Time Needed to Inform All Employees"
+        },
+        {
+            "day": "04",
+            "title": "Number of Provinces"
+        },
+        {
+            "day": "05",
+            "title": "Check If It Is a Straight Line"
+        },
+        {
+            "day": "06",
+            "title": "Can Make Arithmetic Progression From Sequence"
+        },
+        {
+            "day": "07",
+            "title": "Minimum Flips to Make a OR b Equal to c"
+        },
+        {
+            "day": "08",
+            "title": "Count Negative Numbers in a Sorted Matrix"
+        },
+        {
+            "day": "09",
+            "title": "Find Smallest Letter Greater Than Target"
+        },
+        {
+            "day": "10",
+            "title": "Maximum Value at a Given Index in a Bounded Array"
+        },
+        {
+            "day": "11",
+            "title": "Snapshot Array"
+        },
+        {
+            "day": "12",
+            "title": "Summary Ranges"
+        },
+        {
+            "day": "13",
+            "title": "Equal Row and Column Pairs"
+        },
+        {
+            "day": "14",
+            "title": "Minimum Absolute Difference in BST"
+        },
+        {
+            "day": "15",
+            "title": "Maximum Level Sum of a Binary Tree"
+        },
+        {
+            "day": "16",
+            "title": "Number of Ways to Reorder Array to Get Same BST"
+        },
+        {
+            "day": "17",
+            "title": "Make Array Strictly Increasing"
+        },
+        {
+            "day": "18",
+            "title": "Number of Increasing Paths in a Grid"
+        },
+        {
+            "day": "19",
+            "title": "Find the Highest Altitude"
+        },
+        {
+            "day": "20",
+            "title": "K Radius Subarray Averages"
+        },
+        {
+            "day": "21",
+            "title": "Minimum Cost to Make Array Equal"
+        },
+        {
+            "day": "22",
+            "title": "Best Time to Buy and Sell Stock with Transaction Fee"
+        },
+        {
+            "day": "23",
+            "title": "Longest Arithmetic Subsequence"
+        },
+        {
+            "day": "24",
+            "title": "Tallest Billboard"
+        },
+        {
+            "day": "25",
+            "title": "Count All Possible Routes"
+        },
+        {
+            "day": "26",
+            "title": "Total Cost to Hire K Workers"
+        },
+        {
+            "day": "27",
+            "title": "Find K Pairs with Smallest Sums"
+        },
+        {
+            "day": "28",
+            "title": "Path with Maximum Probability"
+        },
+        {
+            "day": "29",
+            "title": "Shortest Path to Get All Keys"
+        },
+        {
+            "day": "30",
+            "title": "Last Day Where You Can Still Cross"
+        }
+    ],
+    "07- July": [
+        {
+            "day": "01",
+            "title": "Fair Distribution of Cookies"
+        },
+        {
+            "day": "02",
+            "title": "Maximum Number of Achievable Transfer Requests"
+        },
+        {
+            "day": "03",
+            "title": "Buddy Strings"
+        },
+        {
+            "day": "04",
+            "title": "Single Number II"
+        },
+        {
+            "day": "05",
+            "title": "Longest Subarray of 1's After Deleting One Element"
+        },
+        {
+            "day": "06",
+            "title": "Minimum Size Subarray Sum"
+        },
+        {
+            "day": "07",
+            "title": "Maximize the Confusion of an Exam"
+        },
+        {
+            "day": "08",
+            "title": "Put Marbles in Bags"
+        },
+        {
+            "day": "09",
+            "title": "Substring With Largest Variance"
+        },
+        {
+            "day": "10",
+            "title": "Minimum Depth of Binary Tree"
+        },
+        {
+            "day": "11",
+            "title": "All Nodes Distance K in Binary Tree"
+        },
+        {
+            "day": "12",
+            "title": "Find Eventual Safe States"
+        },
+        {
+            "day": "13",
+            "title": "Course Schedule"
+        },
+        {
+            "day": "14",
+            "title": "Longest Arithmetic Subsequence of Given Difference"
+        },
+        {
+            "day": "15",
+            "title": "Maximum Number of Events That Can Be Attended II"
+        },
+        {
+            "day": "16",
+            "title": "Smallest Sufficient Team"
+        },
+        {
+            "day": "17",
+            "title": "Add Two Numbers II"
+        },
+        {
+            "day": "18",
+            "title": "LRU Cache"
+        },
+        {
+            "day": "19",
+            "title": "Non-overlapping Intervals"
+        },
+        {
+            "day": "20",
+            "title": "Asteroid Collision"
+        },
+        {
+            "day": "21",
+            "title": "Number of Longest Increasing Subsequence"
+        },
+        {
+            "day": "22",
+            "title": "Knight Probability in Chessboard"
+        },
+        {
+            "day": "23",
+            "title": "All Possible Full Binary Trees"
+        },
+        {
+            "day": "24",
+            "title": "Pow(x, n)"
+        },
+        {
+            "day": "25",
+            "title": "Peak Index in a Mountain Array"
+        },
+        {
+            "day": "26",
+            "title": "Minimum Speed to Arrive on Time"
+        },
+        {
+            "day": "27",
+            "title": "Maximum Running Time of N Computers"
+        },
+        {
+            "day": "28",
+            "title": "Predict the Winner"
+        },
+        {
+            "day": "29",
+            "title": "Soup Servings"
+        },
+        {
+            "day": "30",
+            "title": "Strange Printer"
+        },
+        {
+            "day": "31",
+            "title": "Minimum ASCII Delete Sum for Two Strings"
+        }
+    ],
+    "08- August": [
+        {
+            "day": "01",
+            "title": "Combinations"
+        },
+        {
+            "day": "02",
+            "title": "Permutations"
+        },
+        {
+            "day": "03",
+            "title": "Letter Combinations of a Phone Number"
+        },
+        {
+            "day": "04",
+            "title": "Word Break"
+        },
+        {
+            "day": "05",
+            "title": "Unique Binary Search Trees II"
+        },
+        {
+            "day": "06",
+            "title": "Number of Music Playlists"
+        },
+        {
+            "day": "07",
+            "title": "Search a 2D Matrix"
+        },
+        {
+            "day": "08",
+            "title": "Search in Rotated Sorted Array"
+        },
+        {
+            "day": "09",
+            "title": "Minimize the Maximum Difference of Pairs"
+        },
+        {
+            "day": "10",
+            "title": "Search in Rotated Sorted Array II"
+        },
+        {
+            "day": "11",
+            "title": "Coin Change II"
+        },
+        {
+            "day": "12",
+            "title": "Unique Paths II"
+        },
+        {
+            "day": "13",
+            "title": "Check if There is a Valid Partition For The Array"
+        },
+        {
+            "day": "14",
+            "title": "Kth Largest Element in an Array"
+        },
+        {
+            "day": "15",
+            "title": "Partition List"
+        },
+        {
+            "day": "16",
+            "title": "Sliding Window Maximum"
+        },
+        {
+            "day": "17",
+            "title": "01 Matrix"
+        },
+        {
+            "day": "18",
+            "title": "Maximal Network Rank"
+        },
+        {
+            "day": "19",
+            "title": "Find Critical and Pseudo-Critical Edges in Minimum Spanning Tree"
+        },
+        {
+            "day": "20",
+            "title": "Sort Items by Groups Respecting Dependencies"
+        },
+        {
+            "day": "21",
+            "title": "Repeated Substring Pattern"
+        },
+        {
+            "day": "22",
+            "title": "Excel Sheet Column Title"
+        },
+        {
+            "day": "23",
+            "title": "Reorganize String"
+        },
+        {
+            "day": "24",
+            "title": "Text Justification"
+        },
+        {
+            "day": "25",
+            "title": "Interleaving String"
+        },
+        {
+            "day": "26",
+            "title": "Maximum Length of Pair Chain"
+        },
+        {
+            "day": "27",
+            "title": "Frog Jump"
+        },
+        {
+            "day": "28",
+            "title": "Implement Stack using Queues"
+        },
+        {
+            "day": "29",
+            "title": "Minimum Penalty for a Shop"
+        },
+        {
+            "day": "30",
+            "title": "Minimum Replacements to Sort the Array"
+        },
+        {
+            "day": "31",
+            "title": "Minimum Number of Taps to Open to Water a Garden"
+        }
+    ],
+    "09- September": [
+        {
+            "day": "01",
+            "title": "Counting Bits"
+        },
+        {
+            "day": "02",
+            "title": "Extra Characters in a String"
+        },
+        {
+            "day": "03",
+            "title": "Unique Paths"
+        },
+        {
+            "day": "04",
+            "title": "Linked List Cycle"
+        },
+        {
+            "day": "05",
+            "title": "Copy List with Random Pointer"
+        },
+        {
+            "day": "06",
+            "title": "Split Linked List in Parts"
+        },
+        {
+            "day": "07",
+            "title": "Reverse Linked List II"
+        },
+        {
+            "day": "08",
+            "title": "Pascal's Triangle"
+        },
+        {
+            "day": "09",
+            "title": "Combination Sum IV"
+        },
+        {
+            "day": "10",
+            "title": "Count All Valid Pickup and Delivery Options"
+        },
+        {
+            "day": "11",
+            "title": "Group the People Given the Group Size They Belong To"
+        },
+        {
+            "day": "12",
+            "title": "Minimum Deletions to Make Character Frequencies Unique"
+        },
+        {
+            "day": "13",
+            "title": "Candy"
+        },
+        {
+            "day": "14",
+            "title": "Reconstruct Itinerary"
+        },
+        {
+            "day": "15",
+            "title": "Min Cost to Connect All Points"
+        },
+        {
+            "day": "16",
+            "title": "Path With Minimum Effort"
+        },
+        {
+            "day": "17",
+            "title": "Shortest Path Visiting All Nodes"
+        },
+        {
+            "day": "18",
+            "title": "The K Weakest Rows in a Matrix"
+        },
+        {
+            "day": "19",
+            "title": "Find the Duplicate Number"
+        },
+        {
+            "day": "20",
+            "title": "Minimum Operations to Reduce X to Zero"
+        },
+        {
+            "day": "21",
+            "title": "Median of Two Sorted Arrays"
+        },
+        {
+            "day": "22",
+            "title": "Is Subsequence"
+        },
+        {
+            "day": "23",
+            "title": "Longest String Chain"
+        },
+        {
+            "day": "24",
+            "title": "Champagne Tower"
+        },
+        {
+            "day": "25",
+            "title": "Find the Difference"
+        },
+        {
+            "day": "26",
+            "title": "Remove Duplicate Letters"
+        },
+        {
+            "day": "27",
+            "title": "Decoded String at Index"
+        },
+        {
+            "day": "28",
+            "title": "Sort Array By Parity"
+        },
+        {
+            "day": "29",
+            "title": "Monotonic Array"
+        },
+        {
+            "day": "30",
+            "title": "132 Pattern"
+        }
+    ],
+    "10- October": [
+        {
+            "day": "01",
+            "title": "Reverse Words in a String III"
+        },
+        {
+            "day": "02",
+            "title": "Remove Colored Pieces if Both Neighbors are the Same Color"
+        },
+        {
+            "day": "03",
+            "title": "Number of Good Pairs"
+        },
+        {
+            "day": "04",
+            "title": "Design HashMap"
+        },
+        {
+            "day": "05",
+            "title": "Majority Element II"
+        },
+        {
+            "day": "06",
+            "title": "Integer Break"
+        },
+        {
+            "day": "07",
+            "title": "Build Array Where You Can Find The Maximum Exactly K Comparisons"
+        },
+        {
+            "day": "08",
+            "title": "Max Dot Product of Two Subsequences"
+        },
+        {
+            "day": "09",
+            "title": "Find First and Last Position of Element in Sorted Array"
+        },
+        {
+            "day": "10",
+            "title": "Minimum Number of Operations to Make Array Continuous"
+        },
+        {
+            "day": "11",
+            "title": "Number of Flowers in Full Bloom"
+        },
+        {
+            "day": "12",
+            "title": "Find in Mountain Array"
+        },
+        {
+            "day": "13",
+            "title": "Min Cost Climbing Stairs"
+        },
+        {
+            "day": "14",
+            "title": "Painting the Walls"
+        },
+        {
+            "day": "15",
+            "title": "Number of Ways to Stay in the Same Place After Some Steps"
+        },
+        {
+            "day": "16",
+            "title": "Pascal's Triangle II"
+        },
+        {
+            "day": "17",
+            "title": "Validate Binary Tree Nodes"
+        },
+        {
+            "day": "18",
+            "title": "Parallel Courses III"
+        },
+        {
+            "day": "19",
+            "title": "Backspace String Compare"
+        },
+        {
+            "day": "20",
+            "title": "Flatten Nested List Iterator"
+        },
+        {
+            "day": "21",
+            "title": "Constrained Subsequence Sum"
+        },
+        {
+            "day": "22",
+            "title": "Maximum Score of a Good Subarray"
+        },
+        {
+            "day": "23",
+            "title": "Power of Four"
+        },
+        {
+            "day": "24",
+            "title": "Find Largest Value in Each Tree Row"
+        },
+        {
+            "day": "25",
+            "title": "K-th Symbol in Grammar"
+        },
+        {
+            "day": "26",
+            "title": "Binary Trees With Factors"
+        },
+        {
+            "day": "27",
+            "title": "Longest Palindromic Substring"
+        },
+        {
+            "day": "28",
+            "title": "Count Vowels Permutation"
+        },
+        {
+            "day": "29",
+            "title": "Poor Pigs"
+        },
+        {
+            "day": "30",
+            "title": "Sort Integers by The Number of 1 Bits"
+        },
+        {
+            "day": "31",
+            "title": "Find The Original Array of Prefix Xor"
+        }
+    ],
+    "11- November": [
+        {
+            "day": "01",
+            "title": "Find Mode in Binary Search Tree"
+        },
+        {
+            "day": "02",
+            "title": "Count Nodes Equal to Average of Subtree"
+        },
+        {
+            "day": "03",
+            "title": "Build an Array With Stack Operations"
+        },
+        {
+            "day": "04",
+            "title": "Last Moment Before All Ants Fall Out of a Plank"
+        },
+        {
+            "day": "05",
+            "title": "Find the Winner of an Array Game"
+        },
+        {
+            "day": "06",
+            "title": "Seat Reservation Manager"
+        },
+        {
+            "day": "07",
+            "title": "Eliminate Maximum Number of Monsters"
+        },
+        {
+            "day": "08",
+            "title": "Determine if a Cell Is Reachable at a Given Time"
+        },
+        {
+            "day": "09",
+            "title": "Count Number of Homogenous Substrings"
+        },
+        {
+            "day": "10",
+            "title": "Restore the Array From Adjacent Pairs"
+        },
+        {
+            "day": "11",
+            "title": "Design Graph With Shortest Path Calculator"
+        },
+        {
+            "day": "12",
+            "title": "Bus Routes"
+        },
+        {
+            "day": "13",
+            "title": "Sort Vowels in a String"
+        },
+        {
+            "day": "14",
+            "title": "Unique Length-3 Palindromic Subsequences"
+        },
+        {
+            "day": "15",
+            "title": "Maximum Element After Decreasing and Rearranging"
+        },
+        {
+            "day": "16",
+            "title": "Find Unique Binary String"
+        },
+        {
+            "day": "17",
+            "title": "Minimize Maximum Pair Sum in Array"
+        },
+        {
+            "day": "18",
+            "title": "Frequency of the Most Frequent Element"
+        },
+        {
+            "day": "19",
+            "title": "Reduction Operations to Make the Array Elements Equal"
+        },
+        {
+            "day": "20",
+            "title": "Minimum Amount of Time to Collect Garbage"
+        },
+        {
+            "day": "21",
+            "title": "Count Nice Pairs in an Array"
+        },
+        {
+            "day": "22",
+            "title": "Diagonal Traverse II"
+        },
+        {
+            "day": "23",
+            "title": "Arithmetic Subarrays"
+        },
+        {
+            "day": "24",
+            "title": "Maximum Number of Coins You Can Get"
+        },
+        {
+            "day": "25",
+            "title": "Sum of Absolute Differences in a Sorted Array"
+        },
+        {
+            "day": "26",
+            "title": "Largest Submatrix With Rearrangements"
+        },
+        {
+            "day": "27",
+            "title": "Knight Dialer"
+        },
+        {
+            "day": "28",
+            "title": "Number of Ways to Divide a Long Corridor"
+        },
+        {
+            "day": "29",
+            "title": "Number of 1 Bits"
+        },
+        {
+            "day": "30",
+            "title": "Minimum One Bit Operations to Make Integers Zero"
+        }
+    ],
+    "12- December": [
+        {
+            "day": "01",
+            "title": "Check If Two String Arrays are Equivalent"
+        },
+        {
+            "day": "02",
+            "title": "Find Words That Can Be Formed by Characters"
+        },
+        {
+            "day": "03",
+            "title": "Minimum Time Visiting All Points"
+        },
+        {
+            "day": "04",
+            "title": "Largest 3-Same-Digit Number in String"
+        },
+        {
+            "day": "05",
+            "title": "Count of Matches in Tournament"
+        },
+        {
+            "day": "06",
+            "title": "Calculate Money in Leetcode Bank"
+        },
+        {
+            "day": "07",
+            "title": "Largest Odd Number in String"
+        },
+        {
+            "day": "08",
+            "title": "Construct String from Binary Tree"
+        },
+        {
+            "day": "09",
+            "title": "Binary Tree Inorder Traversal"
+        },
+        {
+            "day": "10",
+            "title": "Transpose Matrix"
+        },
+        {
+            "day": "11",
+            "title": "Element Appearing More Than 25% In Sorted Array"
+        },
+        {
+            "day": "12",
+            "title": "Maximum Product of Two Elements in an Array"
+        },
+        {
+            "day": "13",
+            "title": "Special Positions in a Binary Matrix"
+        },
+        {
+            "day": "14",
+            "title": "Difference Between Ones and Zeros in Row and Column"
+        },
+        {
+            "day": "15",
+            "title": "Destination City"
+        },
+        {
+            "day": "16",
+            "title": "Valid Anagram"
+        },
+        {
+            "day": "17",
+            "title": "Design a Food Rating System"
+        },
+        {
+            "day": "18",
+            "title": "Maximum Product Difference Between Two Pairs"
+        },
+        {
+            "day": "19",
+            "title": "Image Smoother"
+        },
+        {
+            "day": "20",
+            "title": "Buy Two Chocolates"
+        },
+        {
+            "day": "21",
+            "title": "Widest Vertical Area Between Two Points Containing No Points"
+        },
+        {
+            "day": "22",
+            "title": "Maximum Score After Splitting a String"
+        },
+        {
+            "day": "23",
+            "title": "Path Crossing"
+        },
+        {
+            "day": "24",
+            "title": "Minimum Changes To Make Alternating Binary String"
+        },
+        {
+            "day": "25",
+            "title": "Decode Ways"
+        },
+        {
+            "day": "26",
+            "title": "Number of Dice Rolls With Target Sum"
+        },
+        {
+            "day": "27",
+            "title": "Minimum Time to Make Rope Colorful"
+        },
+        {
+            "day": "28",
+            "title": "String Compression II"
+        },
+        {
+            "day": "29",
+            "title": "Minimum Difficulty of a Job Schedule"
+        },
+        {
+            "day": "30",
+            "title": "Redistribute Characters to Make All Strings Equal"
+        },
+        {
+            "day": "31",
+            "title": "Largest Substring Between Two Equal Characters"
+        }
+    ]
+}

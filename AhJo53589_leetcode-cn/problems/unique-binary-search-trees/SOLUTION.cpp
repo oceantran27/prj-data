@@ -1,0 +1,47 @@
+#include <bits/stdc++.h>
+#include <vector>
+#include <iostream>
+#include <string>
+#include <map>
+#include <set>
+#include <unordered_map>
+#include <algorithm>
+using namespace std;
+
+
+
+
+//////////////////////////////////////////////////////////////////////////
+int numTrees(int n) 
+{
+    vector<int> dp(n + 1, 0);
+    dp[0] = 1;
+    dp[1] = 1;
+    for (int i = 2; i <= n; i++) 
+    {
+        for (int j = 0; j < i; j++) 
+        {
+            dp[i] += dp[j] * dp[i - j - 1];
+        }
+    }
+    return dp[n];
+}
+
+//////////////////////////////////////////////////////////////////////////
+int _solution_run(int n)
+{
+	return numTrees(n);
+}
+
+//#define USE_SOLUTION_CUSTOM
+//int _solution_custom(TestCases &tc)
+//{
+//}
+
+//////////////////////////////////////////////////////////////////////////
+//#define USE_GET_TEST_CASES_IN_CPP
+//vector<string> _get_test_cases_string()
+//{
+//	return {};
+//}
+

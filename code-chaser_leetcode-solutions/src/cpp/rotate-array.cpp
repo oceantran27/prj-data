@@ -1,0 +1,21 @@
+#include <bits/stdc++.h>
+#include <vector>
+#include <iostream>
+#include <string>
+#include <map>
+#include <set>
+#include <unordered_map>
+#include <algorithm>
+using namespace std;
+
+class Solution {
+public:
+    void rotate(vector<int>& nums, int k) {
+        int n=nums.size();
+        vector<int> temp(n);
+        for(int i=0;i<n;i++){
+            temp[(i+k)%n]=nums[i];
+        }
+        nums=temp;
+    }
+};

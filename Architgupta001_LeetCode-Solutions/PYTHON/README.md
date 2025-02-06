@@ -1,0 +1,2 @@
+- This is a python section. Try to add Python code only
+- Please make sure your PRs are good at following Rules.md

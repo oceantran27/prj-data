@@ -1,0 +1,31 @@
+#include <bits/stdc++.h>
+#include <vector>
+#include <iostream>
+#include <string>
+#include <map>
+#include <set>
+#include <unordered_map>
+#include <algorithm>
+using namespace std;
+
+class Solution {
+public:
+    
+    void transpose(vector<vector<int>>& matrix){
+        for(int i=0; i<matrix.size(); i++){
+            for(int j=0; j<i; j++){
+                swap(matrix[i][j], matrix[j][i]);
+            }
+                
+        }
+    }
+    
+    void rotate(vector<vector<int>>& matrix) {
+        
+        transpose(matrix);
+        
+        for(int i=0; i<matrix.size(); i++)
+        reverse(matrix[i].begin(),matrix[i].end());
+        
+    }
+};

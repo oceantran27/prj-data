@@ -1,0 +1,24 @@
+2025-02-06 01:06:58 DEBUG BaseController:356 - [JavaFX Application Thread] Build the environment
+2025-02-06 01:06:58 DEBUG MenuBarController:1517 - [JavaFX Application Thread] Refresh menu bar
+2025-02-06 01:06:58 DEBUG MenuBarController:1524 - [JavaFX Application Thread] is active multi selection = false
+2025-02-06 01:06:58 INFO  DependencyGraphBuilder:44 - [Thread-3] Start building dependency graph from chosen UUTs and SBFs
+2025-02-06 01:06:58 INFO  DependencyGraphBuilder:73 - [Thread-3] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\gzc426_leetcode\2018.12.14-leetcode347\MQQM.cpp
+2025-02-06 01:06:59 INFO  DependencyGraphBuilder:73 - [Thread-3] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\gzc426_leetcode\2018.12.13-leetcode215\MQQM2.cpp
+2025-02-06 01:06:59 INFO  DependencyGraphBuilder:73 - [Thread-3] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\gzc426_leetcode\2018.12.13-leetcode215\MQQM.cpp
+2025-02-06 01:06:59 INFO  DependencyGraphBuilder:73 - [Thread-3] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\gzc426_leetcode\2018.12.11-leetcode108\MQQM.cpp
+2025-02-06 01:06:59 INFO  DependencyGraphBuilder:73 - [Thread-3] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\gzc426_leetcode\2018.12.10-leetcode107\MQQM2.cpp
+2025-02-06 01:06:59 INFO  DependencyGraphBuilder:73 - [Thread-3] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\gzc426_leetcode\2018.12.10-leetcode107\MQQM.cpp
+2025-02-06 01:06:59 INFO  DependencyGraphBuilder:73 - [Thread-3] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\gzc426_leetcode\2018.12.1-leetcode387\MQQM3.cpp
+2025-02-06 01:06:59 INFO  DependencyGraphBuilder:73 - [Thread-3] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\gzc426_leetcode\2018.12.1-leetcode387\MQQM2.cpp
+2025-02-06 01:06:59 INFO  DependencyGraphBuilder:73 - [Thread-3] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\gzc426_leetcode\2018.12.1-leetcode387\MQQM.cpp
+2025-02-06 01:06:59 INFO  DependencyGraphBuilder:73 - [Thread-3] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\gzc426_leetcode\2018.12.09-leetcode106\MQQM.cpp
+2025-02-06 01:06:59 INFO  DependencyGraphBuilder:73 - [Thread-3] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\gzc426_leetcode\2018.12.08-leetcode105\MQQM.cpp
+2025-02-06 01:06:59 INFO  DependencyGraphBuilder:73 - [Thread-3] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\gzc426_leetcode\2018.12.07-leetcode104\MQQM.cpp
+2025-02-06 01:06:59 INFO  DependencyGraphBuilder:73 - [Thread-3] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\gzc426_leetcode\2018.12.06-leetcode103\MQQM.cpp
+2025-02-06 01:06:59 INFO  DependencyGraphBuilder:73 - [Thread-3] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\gzc426_leetcode\2018.12.05-leetcode102\MQQM.cpp
+2025-02-06 01:06:59 INFO  DependencyGraphBuilder:73 - [Thread-3] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\gzc426_leetcode\2018.12.04-leetcode101\MQQM.cpp
+2025-02-06 01:06:59 INFO  DependencyGraphBuilder:73 - [Thread-3] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\gzc426_leetcode\2018.11.26-leetcode11\MQQM2.cpp
+2025-02-06 01:06:59 INFO  DependencyGraphBuilder:73 - [Thread-3] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\gzc426_leetcode\2018.11.26-leetcode11\MQQM.cpp
+2025-02-06 01:06:59 INFO  DependencyGraphBuilder:112 - [Thread-3] Finish building dependency graph in 794 ms
+2025-02-06 01:06:59 DEBUG CompileProjectTask:162 - [Thread-3] Compiling C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\gzc426_leetcode\2018.11.26-leetcode11\MQQM.cpp
+2025-02-06 01:06:59 DEBUG Compiler:117 - [Thread-3] Compilation of .\gzc426_leetcode\2018.11.26-leetcode11\MQQM.cpp: g++ -c -std=gnu++14 -w ".\gzc426_leetcode\2018.11.26-leetcode11\MQQM.cpp" -o"C:\\Users\\daidu\\Projects\\SQA-LAB\\AKA\\craw-test-cpp\\crawl_test_cpp\\collected_repos\\aka-working-space\\test\\instruments\2018.11.26-leetcode11\MQQM.akaignore.cpp.out"

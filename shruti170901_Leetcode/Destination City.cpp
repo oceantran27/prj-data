@@ -1,0 +1,26 @@
+#include <bits/stdc++.h>
+#include <vector>
+#include <iostream>
+#include <string>
+#include <map>
+#include <set>
+#include <unordered_map>
+#include <algorithm>
+using namespace std;
+
+// https://leetcode.com/problems/destination-city/
+
+class Solution {
+public:
+    string destCity(vector<vector<string>>& paths) {
+        set<string> s;
+        int i, n=paths.size();
+        for(i=0;i<n;i++){
+            s.insert(paths[i][0]);
+        }
+        for(i=0;i<n;i++){
+            if(s.find(paths[i][1])==s.end()) break;
+        }
+        return paths[i][1];
+    }
+};

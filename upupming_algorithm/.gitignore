@@ -1,0 +1,15 @@
+.DS_Store
+*.exe
+node_modules
+test.cpp
+*.out
+*.log
+Info.plist
+*.in
+data.ans
+out
+*.pdf
+*_input.txt
+*_output.txt
+build
+target

@@ -1,0 +1,27 @@
+#include <bits/stdc++.h>
+#include <vector>
+#include <iostream>
+#include <string>
+#include <map>
+#include <set>
+#include <unordered_map>
+#include <algorithm>
+using namespace std;
+
+// Name : Karthik S
+// Date : 03 October 2022
+
+class Solution {
+  public:
+    int uniquePaths(int m, int n) {
+      int N = n + m - 2;
+      int r = m - 1;
+      double res = 1;
+
+      for (int i = 1; i <= r; i++) {
+        res = res * (N - r + i) / i;
+      }
+
+      return (int) res;
+    }
+};

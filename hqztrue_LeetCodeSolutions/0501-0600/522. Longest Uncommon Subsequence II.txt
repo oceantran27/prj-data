@@ -1,0 +1,2 @@
+greedy, always select a whole input string. verify containment by brute force. O(n^2*l).
+

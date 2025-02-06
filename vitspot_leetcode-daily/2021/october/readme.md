@@ -1,0 +1,34 @@
+# October Challenge
+
+## Available Solutions
+- [x] Day 1- [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) - [Solutions](./day-1/readme.md) ![C++](https://img.shields.io/badge/C++-3-blue?style=social&logo=cplusplus)  [1](./day-1/solution1.cpp)  
+- [x] Day 2- [Dungeon Game](https://leetcode.com/problems/dungeon-game/) - [Solutions](./day-2/readme.md) ![Python](https://img.shields.io/badge/Python-2-yellow?style=social&logo=python)  [1](./day-2/solution1.py) [2](./day-2/solution2.py) 
+- [x] Day 3 -  [Jump Game](https://leetcode.com/problems/jump-game/) - [Solutions](./day-3/readme.md) ![C++](https://img.shields.io/badge/C++-3-blue?style=social&logo=cplusplus)  [1](./day-3/solution.cpp)  
+- [x] Day 4- [Island Perimeter](https://leetcode.com/problems/island-perimeter/) - [Solutions](./day-4/readme.md) ![C++](https://img.shields.io/badge/C++-1-blue?style=social&logo=cplusplus)  [1](./day-4/solution1.cpp) ![Python](https://img.shields.io/badge/Python-2-yellow?style=social&logo=python)  [1](./day-4/solution2.py) [2](./day-4/solution3.py) 
+- [x] Day 5- [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) - [Solutions](./day-5/readme.md) ![C++](https://img.shields.io/badge/C++-1-blue?style=social&logo=cplusplus)  [1](./day-5/solution1.cpp) 
+- [x] Day 6- [Find All Duplicates in an Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/) - [Solutions](./day-6/readme.md) ![C++](https://img.shields.io/badge/C++-1-blue?style=social&logo=cplusplus)  [1](./day-6/solution1.cpp) 
+- [x] Day 7- [Word Search](https://leetcode.com/problems/word-search/) - [Solutions](./day-7/readme.md) ![C++](https://img.shields.io/badge/C++-1-blue?style=social&logo=cplusplus)  [1](./day-7/solution1.cpp) ![Python](https://img.shields.io/badge/Python-1-yellow?style=social&logo=python)  [1](./day-7/solution2.py) 
+- [x] Day 8- [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) - [Solutions](./day-8/readme.md) ![Python](https://img.shields.io/badge/Python-1-yellow?style=social&logo=python)  [1](./day-8/solution1.py) 
+- [x] Day 9- [Word Search II](https://leetcode.com/problems/word-search-ii/) - [Solutions](./day-9/readme.md) ![Python](https://img.shields.io/badge/Python-1-yellow?style=social&logo=python)  [1](./day-9/solution1.py) 
+- [x] Day 10- [Bitwise AND of Numbers Range](https://leetcode.com/problems/bitwise-and-of-numbers-range/) - [Solutions](./day-10/readme.md) ![C++](https://img.shields.io/badge/C++-1-blue?style=social&logo=cplusplus)  [1](./day-10/solution1.cpp) 
+- [x] Day 11- [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) - [Solutions](./day-11/readme.md) ![C++](https://img.shields.io/badge/C++-1-blue?style=social&logo=cplusplus)  [1](./day-11/solution1.cpp) 
+- [x] Day 12- [Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) - [Solutions](./day-12/readme.md) ![C++](https://img.shields.io/badge/C++-1-blue?style=social&logo=cplusplus)  [1](./day-12/solution1.cpp) 
+- [ ] Day 13 -
+- [ ] Day 14 -
+- [ ] Day 15 -
+- [ ] Day 16 -
+- [ ] Day 17 -
+- [ ] Day 18 -
+- [ ] Day 19 -
+- [ ] Day 20 -
+- [ ] Day 21 -
+- [ ] Day 22 -
+- [ ] Day 23 -
+- [ ] Day 24 -
+- [ ] Day 25 -
+- [ ] Day 26 -
+- [ ] Day 27 -
+- [ ] Day 28 -
+- [ ] Day 29 -
+- [ ] Day 30 -
+- [ ] Day 31 -

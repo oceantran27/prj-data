@@ -1,0 +1,2 @@
+use the alias method https://en.wikipedia.org/wiki/Alias_method. O(n) preprocessing, O(1) per operation.
+

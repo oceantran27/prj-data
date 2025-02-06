@@ -1,0 +1,511 @@
+2025-02-06 11:15:59 DEBUG BaseController:356 - [JavaFX Application Thread] Build the environment
+2025-02-06 11:15:59 DEBUG MenuBarController:1517 - [JavaFX Application Thread] Refresh menu bar
+2025-02-06 11:15:59 DEBUG MenuBarController:1524 - [JavaFX Application Thread] is active multi selection = false
+2025-02-06 11:15:59 INFO  DependencyGraphBuilder:44 - [Thread-5] Start building dependency graph from chosen UUTs and SBFs
+2025-02-06 11:15:59 INFO  DependencyGraphBuilder:73 - [Thread-5] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\abhisek247767_LeetCode2024-6Companies30Days\C++\WarehouseOrderOptimizer.cpp
+2025-02-06 11:15:59 INFO  DependencyGraphBuilder:73 - [Thread-5] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\abhisek247767_LeetCode2024-6Companies30Days\C++\Valid_Number.cpp
+2025-02-06 11:15:59 INFO  DependencyGraphBuilder:73 - [Thread-5] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\abhisek247767_LeetCode2024-6Companies30Days\C++\UglyNumber.cpp
+2025-02-06 11:15:59 INFO  DependencyGraphBuilder:73 - [Thread-5] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\abhisek247767_LeetCode2024-6Companies30Days\C++\TwoSum.cpp
+2025-02-06 11:15:59 INFO  DependencyGraphBuilder:73 - [Thread-5] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\abhisek247767_LeetCode2024-6Companies30Days\C++\SwapNodesinPairs.cpp
+2025-02-06 11:15:59 INFO  DependencyGraphBuilder:73 - [Thread-5] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\abhisek247767_LeetCode2024-6Companies30Days\C++\Subarray Sum Equals K.cpp
+2025-02-06 11:15:59 INFO  DependencyGraphBuilder:73 - [Thread-5] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\abhisek247767_LeetCode2024-6Companies30Days\C++\Sieve_Algorithms.cpp
+2025-02-06 11:15:59 INFO  DependencyGraphBuilder:73 - [Thread-5] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\abhisek247767_LeetCode2024-6Companies30Days\C++\Searcha2DMatrix.cpp
+2025-02-06 11:15:59 INFO  DependencyGraphBuilder:73 - [Thread-5] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\abhisek247767_LeetCode2024-6Companies30Days\C++\Search in Rotated Sorted Array.cpp
+2025-02-06 11:15:59 INFO  DependencyGraphBuilder:73 - [Thread-5] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\abhisek247767_LeetCode2024-6Companies30Days\C++\Rotate_linked_list.cpp
+2025-02-06 11:15:59 INFO  DependencyGraphBuilder:73 - [Thread-5] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\abhisek247767_LeetCode2024-6Companies30Days\C++\Remove Duplicates from Sorted Array.cpp
+2025-02-06 11:15:59 INFO  DependencyGraphBuilder:73 - [Thread-5] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\abhisek247767_LeetCode2024-6Companies30Days\C++\PeakIndexMountainArray.cpp
+2025-02-06 11:15:59 INFO  DependencyGraphBuilder:73 - [Thread-5] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\abhisek247767_LeetCode2024-6Companies30Days\C++\Palindrome_Partitioning.cpp
+2025-02-06 11:15:59 INFO  DependencyGraphBuilder:73 - [Thread-5] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\abhisek247767_LeetCode2024-6Companies30Days\C++\moore's voting algo.cpp
+2025-02-06 11:15:59 INFO  DependencyGraphBuilder:73 - [Thread-5] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\abhisek247767_LeetCode2024-6Companies30Days\C++\Minimum_element_in_sorted_rotated_subarray.cpp
+2025-02-06 11:15:59 INFO  DependencyGraphBuilder:73 - [Thread-5] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\abhisek247767_LeetCode2024-6Companies30Days\C++\LongestSubstrWithoutRepeatChar.cpp
+2025-02-06 11:15:59 INFO  DependencyGraphBuilder:73 - [Thread-5] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\abhisek247767_LeetCode2024-6Companies30Days\C++\LongestSubstring.cpp
+2025-02-06 11:15:59 INFO  DependencyGraphBuilder:73 - [Thread-5] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\abhisek247767_LeetCode2024-6Companies30Days\C++\LongestCommonSubsequence.cpp
+2025-02-06 11:15:59 INFO  DependencyGraphBuilder:73 - [Thread-5] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\abhisek247767_LeetCode2024-6Companies30Days\C++\Leetcode_2416.cpp
+2025-02-06 11:15:59 INFO  DependencyGraphBuilder:73 - [Thread-5] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\abhisek247767_LeetCode2024-6Companies30Days\C++\Kadane's_Algorithm.cpp
+2025-02-06 11:15:59 INFO  DependencyGraphBuilder:73 - [Thread-5] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\abhisek247767_LeetCode2024-6Companies30Days\C++\Integer to Roman.cpp
+2025-02-06 11:15:59 INFO  DependencyGraphBuilder:73 - [Thread-5] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\abhisek247767_LeetCode2024-6Companies30Days\C++\Game of Life.cpp
+2025-02-06 11:15:59 INFO  DependencyGraphBuilder:73 - [Thread-5] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\abhisek247767_LeetCode2024-6Companies30Days\C++\Floyd_Warshall.cpp
+2025-02-06 11:15:59 INFO  DependencyGraphBuilder:73 - [Thread-5] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\abhisek247767_LeetCode2024-6Companies30Days\C++\Floyd-Warshall.cpp
+2025-02-06 11:15:59 INFO  DependencyGraphBuilder:73 - [Thread-5] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\abhisek247767_LeetCode2024-6Companies30Days\C++\DynamicRoadNetwork.cpp
+2025-02-06 11:15:59 INFO  DependencyGraphBuilder:73 - [Thread-5] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\abhisek247767_LeetCode2024-6Companies30Days\C++\Dutch_National_Flag.cpp
+2025-02-06 11:15:59 INFO  DependencyGraphBuilder:73 - [Thread-5] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\abhisek247767_LeetCode2024-6Companies30Days\C++\dijkstra's_algorithm.cpp
+2025-02-06 11:15:59 INFO  DependencyGraphBuilder:73 - [Thread-5] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\abhisek247767_LeetCode2024-6Companies30Days\C++\CountConnectedComponents_Graphs.cpp
+2025-02-06 11:15:59 INFO  DependencyGraphBuilder:73 - [Thread-5] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\abhisek247767_LeetCode2024-6Companies30Days\C++\Count Odd Numbers in an Interval Range.cpp
+2025-02-06 11:15:59 INFO  DependencyGraphBuilder:73 - [Thread-5] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\abhisek247767_LeetCode2024-6Companies30Days\C++\Contains Duplicate.cpp
+2025-02-06 11:15:59 INFO  DependencyGraphBuilder:73 - [Thread-5] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\abhisek247767_LeetCode2024-6Companies30Days\C++\ConatinerWithMostWater.cpp
+2025-02-06 11:15:59 INFO  DependencyGraphBuilder:73 - [Thread-5] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\abhisek247767_LeetCode2024-6Companies30Days\C++\Chocolate Distribution Problem.cpp
+2025-02-06 11:15:59 INFO  DependencyGraphBuilder:73 - [Thread-5] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\abhisek247767_LeetCode2024-6Companies30Days\C++\BinaryTree_from_preorderAndPostorder.cpp
+2025-02-06 11:15:59 INFO  DependencyGraphBuilder:73 - [Thread-5] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\abhisek247767_LeetCode2024-6Companies30Days\C++\best_time_to_buy_or_sell_stock.cpp
+2025-02-06 11:15:59 INFO  DependencyGraphBuilder:73 - [Thread-5] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\abhisek247767_LeetCode2024-6Companies30Days\C++\BasicCalculator.cpp
+2025-02-06 11:15:59 INFO  DependencyGraphBuilder:73 - [Thread-5] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\abhisek247767_LeetCode2024-6Companies30Days\C++\AddTwoNumbers.cpp
+2025-02-06 11:15:59 INFO  DependencyGraphBuilder:73 - [Thread-5] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\abhisek247767_LeetCode2024-6Companies30Days\C++\3sum.cpp
+2025-02-06 11:15:59 INFO  DependencyGraphBuilder:73 - [Thread-5] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\abhisek247767_LeetCode2024-6Companies30Days\C++\valid parenthesis\ValidParenthesis.cpp
+2025-02-06 11:15:59 INFO  DependencyGraphBuilder:73 - [Thread-5] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\abhisek247767_LeetCode2024-6Companies30Days\C++\twosum\TwoSum.cpp
+2025-02-06 11:15:59 INFO  DependencyGraphBuilder:73 - [Thread-5] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\abhisek247767_LeetCode2024-6Companies30Days\C++\threesome\Threesome.cpp
+2025-02-06 11:15:59 INFO  DependencyGraphBuilder:73 - [Thread-5] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\abhisek247767_LeetCode2024-6Companies30Days\C++\spiral matrix\SpiralMatrix.cpp
+2025-02-06 11:15:59 INFO  DependencyGraphBuilder:73 - [Thread-5] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\abhisek247767_LeetCode2024-6Companies30Days\C++\search in rotated sorted array\SearchInRotatedSortedArray.cpp
+2025-02-06 11:15:59 INFO  DependencyGraphBuilder:73 - [Thread-5] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\abhisek247767_LeetCode2024-6Companies30Days\C++\Rotten Oranges\rottenOrangesSol.cpp
+2025-02-06 11:15:59 INFO  DependencyGraphBuilder:73 - [Thread-5] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\abhisek247767_LeetCode2024-6Companies30Days\C++\remove duplicates from sorted array\Remove_Duplicates_from_Sorted_Array.cpp
+2025-02-06 11:15:59 INFO  DependencyGraphBuilder:73 - [Thread-5] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\abhisek247767_LeetCode2024-6Companies30Days\C++\Network Delay Time\Network Delay Time.cpp
+2025-02-06 11:15:59 INFO  DependencyGraphBuilder:73 - [Thread-5] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\abhisek247767_LeetCode2024-6Companies30Days\C++\move_zeroes\move Zeroes.cpp
+2025-02-06 11:15:59 INFO  DependencyGraphBuilder:73 - [Thread-5] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\abhisek247767_LeetCode2024-6Companies30Days\C++\merge sorted array\MergesortedArray.cpp
+2025-02-06 11:15:59 INFO  DependencyGraphBuilder:73 - [Thread-5] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\abhisek247767_LeetCode2024-6Companies30Days\C++\Longest Square Streak in an Array\LongestSquareStreakInAnArray.cpp
+2025-02-06 11:15:59 INFO  DependencyGraphBuilder:73 - [Thread-5] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\abhisek247767_LeetCode2024-6Companies30Days\C++\kth largest sum in a Binary tree\kth_largest_sum_bt.cpp
+2025-02-06 11:15:59 INFO  DependencyGraphBuilder:73 - [Thread-5] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\abhisek247767_LeetCode2024-6Companies30Days\C++\Koko Eating Bananas\Koko_Eating_Banana.cpp
+2025-02-06 11:15:59 INFO  DependencyGraphBuilder:73 - [Thread-5] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\abhisek247767_LeetCode2024-6Companies30Days\C++\House Robber\houserobber.cpp
+2025-02-06 11:15:59 INFO  DependencyGraphBuilder:73 - [Thread-5] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\abhisek247767_LeetCode2024-6Companies30Days\C++\find index of first occurence of a string\FindingIndexoffirstOccurenceofAString.cpp
+2025-02-06 11:16:00 INFO  DependencyGraphBuilder:73 - [Thread-5] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\abhisek247767_LeetCode2024-6Companies30Days\C++\find duplicate number\FindDuplicateNumber.cpp
+2025-02-06 11:16:00 INFO  DependencyGraphBuilder:73 - [Thread-5] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\abhisek247767_LeetCode2024-6Companies30Days\C++\CountingBits\CountingBits.cpp
+2025-02-06 11:16:00 INFO  DependencyGraphBuilder:73 - [Thread-5] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\abhisek247767_LeetCode2024-6Companies30Days\C++\climbingstairs\ClimbingStairs.cpp
+2025-02-06 11:16:00 INFO  DependencyGraphBuilder:73 - [Thread-5] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\abhisek247767_LeetCode2024-6Companies30Days\C++\buy_and_sell_stock-II\buy_and_sell_stock_II.cpp
+2025-02-06 11:16:00 INFO  DependencyGraphBuilder:73 - [Thread-5] Find include headers in C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\abhisek247767_LeetCode2024-6Companies30Days\C++\addbinary\Addbinary.cpp
+2025-02-06 11:16:00 INFO  DependencyGraphBuilder:112 - [Thread-5] Finish building dependency graph in 788 ms
+2025-02-06 11:16:00 DEBUG CompileProjectTask:162 - [Thread-5] Compiling C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\abhisek247767_LeetCode2024-6Companies30Days\C++\addbinary\Addbinary.cpp
+2025-02-06 11:16:00 DEBUG Compiler:117 - [Thread-5] Compilation of .\C++\addbinary\Addbinary.cpp: g++ -c -std=gnu++14 -w ".\C++\addbinary\Addbinary.cpp" -o"C:\\Users\\daidu\\Projects\\SQA-LAB\\AKA\\craw-test-cpp\\crawl_test_cpp\\collected_repos\\abhisek247767_LeetCode2024-6Companies30Days\\aka-working-space\\duong\\instruments\addbinary\Addbinary.akaignore.cpp.out"
+2025-02-06 11:16:00 DEBUG CompileProjectTask:162 - [Thread-5] Compiling C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\abhisek247767_LeetCode2024-6Companies30Days\C++\buy_and_sell_stock-II\buy_and_sell_stock_II.cpp
+2025-02-06 11:16:01 DEBUG Compiler:117 - [Thread-5] Compilation of .\C++\buy_and_sell_stock-II\buy_and_sell_stock_II.cpp: g++ -c -std=gnu++14 -w ".\C++\buy_and_sell_stock-II\buy_and_sell_stock_II.cpp" -o"C:\\Users\\daidu\\Projects\\SQA-LAB\\AKA\\craw-test-cpp\\crawl_test_cpp\\collected_repos\\abhisek247767_LeetCode2024-6Companies30Days\\aka-working-space\\duong\\instruments\buy_and_sell_stock-II\buy_and_sell_stock_II.akaignore.cpp.out"
+2025-02-06 11:16:01 DEBUG CompileProjectTask:162 - [Thread-5] Compiling C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\abhisek247767_LeetCode2024-6Companies30Days\C++\climbingstairs\ClimbingStairs.cpp
+2025-02-06 11:16:01 DEBUG Compiler:117 - [Thread-5] Compilation of .\C++\climbingstairs\ClimbingStairs.cpp: g++ -c -std=gnu++14 -w ".\C++\climbingstairs\ClimbingStairs.cpp" -o"C:\\Users\\daidu\\Projects\\SQA-LAB\\AKA\\craw-test-cpp\\crawl_test_cpp\\collected_repos\\abhisek247767_LeetCode2024-6Companies30Days\\aka-working-space\\duong\\instruments\climbingstairs\ClimbingStairs.akaignore.cpp.out"
+2025-02-06 11:17:06 DEBUG BuildOptionsController:124 - [JavaFX Application Thread] Environment configuration:
+ENVIRO.NEW
+ENVIRO.COMPILER.NEW
+ENVIRO.COMPILER.NAME: [MinGW] C++ 14
+ENVIRO.COMPILER.COMPILE_CMD: g++ -c -std=gnu++14 -w
+ENVIRO.COMPILER.PREPROCESS_CMD: g++ -c -E -std=gnu++14
+ENVIRO.COMPILER.LINK_CMD: g++ -std=gnu++14 -w
+ENVIRO.COMPILER.DEBUG_CMD: gdb
+ENVIRO.COMPILER.INCLUDE_FLAG: -I
+ENVIRO.COMPILER.DEFINE_FLAG: -D
+ENVIRO.COMPILER.OUTPUT_FLAG: -o
+ENVIRO.COMPILER.DEBUG_FLAG: -ggdb
+ENVIRO.COMPILER.OUTPUT_EXT: .out
+ENVIRO.COMPILER.IS_USE_GTEST: false
+ENVIRO.COMPILER.END
+ENVIRO.NAME: duong
+ENVIRO.TESTING_METHOD: TRADITIONAL_UNIT_TESTING
+ENVIRO.WHITE_BOX: YES
+ENVIRO.COVERAGE_TYPE: STATEMENT+MCDC
+ENVIRO.CMAKE.NEW
+ENVIRO.CMAKE.IS_CMAKE_PROJECT: false
+ENVIRO.CMAKE.IS_AKA_CMAKE_PROJECT: false
+ENVIRO.CMAKE.GENERATOR: unknown
+ENVIRO.CMAKE.BUILDSYSTEM_GENERATION_CMD: cmake
+ENVIRO.CMAKE.BUILDSYSTEM_GENERATION_OPTIONS: 
+ENVIRO.CMAKE.BUILD_CMD: cmake --build
+ENVIRO.CMAKE.BUILD_OPTIONS: 
+ENVIRO.CMAKE.PROJ_DIRECTORY: 
+ENVIRO.CMAKE.END
+ENVIRO.SEARCH_LIST: .\C++
+ENVIRO.SEARCH_LIST: .\C++\addbinary
+ENVIRO.SEARCH_LIST: .\C++\buy_and_sell_stock-II
+ENVIRO.SEARCH_LIST: .\C++\climbingstairs
+ENVIRO.SEARCH_LIST: .\C++\CountingBits
+ENVIRO.SEARCH_LIST: .\C++\find duplicate number
+ENVIRO.SEARCH_LIST: .\C++\find index of first occurence of a string
+ENVIRO.SEARCH_LIST: .\C++\House Robber
+ENVIRO.SEARCH_LIST: .\C++\Koko Eating Bananas
+ENVIRO.SEARCH_LIST: .\C++\kth largest sum in a Binary tree
+ENVIRO.SEARCH_LIST: .\C++\Longest Square Streak in an Array
+ENVIRO.SEARCH_LIST: .\C++\merge sorted array
+ENVIRO.SEARCH_LIST: .\C++\move_zeroes
+ENVIRO.SEARCH_LIST: .\C++\Network Delay Time
+ENVIRO.SEARCH_LIST: .\C++\remove duplicates from sorted array
+ENVIRO.SEARCH_LIST: .\C++\Rotten Oranges
+ENVIRO.SEARCH_LIST: .\C++\search in rotated sorted array
+ENVIRO.SEARCH_LIST: .\C++\spiral matrix
+ENVIRO.SEARCH_LIST: .\C++\threesome
+ENVIRO.SEARCH_LIST: .\C++\twosum
+ENVIRO.SEARCH_LIST: .\C++\valid parenthesis
+ENVIRO.PARSE_ALL_FILES: NO
+ENVIRO.UUT: .\C++\addbinary\Addbinary.cpp
+ENVIRO.UUT: .\C++\buy_and_sell_stock-II\buy_and_sell_stock_II.cpp
+ENVIRO.UUT: .\C++\climbingstairs\ClimbingStairs.cpp
+ENVIRO.UUT: .\C++\CountingBits\CountingBits.cpp
+ENVIRO.UUT: .\C++\find duplicate number\FindDuplicateNumber.cpp
+ENVIRO.UUT: .\C++\find index of first occurence of a string\FindingIndexoffirstOccurenceofAString.cpp
+ENVIRO.UUT: .\C++\House Robber\houserobber.cpp
+ENVIRO.UUT: .\C++\Koko Eating Bananas\Koko_Eating_Banana.cpp
+ENVIRO.UUT: .\C++\kth largest sum in a Binary tree\kth_largest_sum_bt.cpp
+ENVIRO.UUT: .\C++\Longest Square Streak in an Array\LongestSquareStreakInAnArray.cpp
+ENVIRO.UUT: .\C++\merge sorted array\MergesortedArray.cpp
+ENVIRO.UUT: .\C++\move_zeroes\move Zeroes.cpp
+ENVIRO.UUT: .\C++\Network Delay Time\Network Delay Time.cpp
+ENVIRO.UUT: .\C++\remove duplicates from sorted array\Remove_Duplicates_from_Sorted_Array.cpp
+ENVIRO.UUT: .\C++\Rotten Oranges\rottenOrangesSol.cpp
+ENVIRO.UUT: .\C++\search in rotated sorted array\SearchInRotatedSortedArray.cpp
+ENVIRO.UUT: .\C++\spiral matrix\SpiralMatrix.cpp
+ENVIRO.UUT: .\C++\threesome\Threesome.cpp
+ENVIRO.UUT: .\C++\twosum\TwoSum.cpp
+ENVIRO.UUT: .\C++\valid parenthesis\ValidParenthesis.cpp
+ENVIRO.UUT: .\C++\3sum.cpp
+ENVIRO.UUT: .\C++\AddTwoNumbers.cpp
+ENVIRO.UUT: .\C++\BasicCalculator.cpp
+ENVIRO.UUT: .\C++\best_time_to_buy_or_sell_stock.cpp
+ENVIRO.UUT: .\C++\BinaryTree_from_preorderAndPostorder.cpp
+ENVIRO.UUT: .\C++\Chocolate Distribution Problem.cpp
+ENVIRO.UUT: .\C++\ConatinerWithMostWater.cpp
+ENVIRO.UUT: .\C++\Contains Duplicate.cpp
+ENVIRO.UUT: .\C++\Count Odd Numbers in an Interval Range.cpp
+ENVIRO.UUT: .\C++\CountConnectedComponents_Graphs.cpp
+ENVIRO.UUT: .\C++\dijkstra's_algorithm.cpp
+ENVIRO.UUT: .\C++\Dutch_National_Flag.cpp
+ENVIRO.UUT: .\C++\DynamicRoadNetwork.cpp
+ENVIRO.UUT: .\C++\Floyd-Warshall.cpp
+ENVIRO.UUT: .\C++\Floyd_Warshall.cpp
+ENVIRO.UUT: .\C++\Game of Life.cpp
+ENVIRO.UUT: .\C++\Integer to Roman.cpp
+ENVIRO.UUT: .\C++\Kadane's_Algorithm.cpp
+ENVIRO.UUT: .\C++\Leetcode_2416.cpp
+ENVIRO.UUT: .\C++\LongestCommonSubsequence.cpp
+ENVIRO.UUT: .\C++\LongestSubstring.cpp
+ENVIRO.UUT: .\C++\LongestSubstrWithoutRepeatChar.cpp
+ENVIRO.UUT: .\C++\Minimum_element_in_sorted_rotated_subarray.cpp
+ENVIRO.UUT: .\C++\moore's voting algo.cpp
+ENVIRO.UUT: .\C++\Palindrome_Partitioning.cpp
+ENVIRO.UUT: .\C++\PeakIndexMountainArray.cpp
+ENVIRO.UUT: .\C++\Remove Duplicates from Sorted Array.cpp
+ENVIRO.UUT: .\C++\Rotate_linked_list.cpp
+ENVIRO.UUT: .\C++\Search in Rotated Sorted Array.cpp
+ENVIRO.UUT: .\C++\Searcha2DMatrix.cpp
+ENVIRO.UUT: .\C++\Sieve_Algorithms.cpp
+ENVIRO.UUT: .\C++\Subarray Sum Equals K.cpp
+ENVIRO.UUT: .\C++\SwapNodesinPairs.cpp
+ENVIRO.UUT: .\C++\TwoSum.cpp
+ENVIRO.UUT: .\C++\UglyNumber.cpp
+ENVIRO.UUT: .\C++\Valid_Number.cpp
+ENVIRO.UUT: .\C++\WarehouseOrderOptimizer.cpp
+ENVIRO.END
+2025-02-06 11:17:06 DEBUG BuildOptionsController:154 - [JavaFX Application Thread] Environment configuration:
+ENVIRO.NEW
+ENVIRO.COMPILER.NEW
+ENVIRO.COMPILER.NAME: [MinGW] C++ 14
+ENVIRO.COMPILER.COMPILE_CMD: g++ -c -std=gnu++14 -w
+ENVIRO.COMPILER.PREPROCESS_CMD: g++ -c -E -std=gnu++14
+ENVIRO.COMPILER.LINK_CMD: g++ -std=gnu++14 -w
+ENVIRO.COMPILER.DEBUG_CMD: gdb
+ENVIRO.COMPILER.INCLUDE_FLAG: -I
+ENVIRO.COMPILER.DEFINE_FLAG: -D
+ENVIRO.COMPILER.OUTPUT_FLAG: -o
+ENVIRO.COMPILER.DEBUG_FLAG: -ggdb
+ENVIRO.COMPILER.OUTPUT_EXT: .out
+ENVIRO.COMPILER.IS_USE_GTEST: false
+ENVIRO.COMPILER.END
+ENVIRO.NAME: duong
+ENVIRO.TESTING_METHOD: TRADITIONAL_UNIT_TESTING
+ENVIRO.WHITE_BOX: YES
+ENVIRO.COVERAGE_TYPE: STATEMENT+MCDC
+ENVIRO.CMAKE.NEW
+ENVIRO.CMAKE.IS_CMAKE_PROJECT: false
+ENVIRO.CMAKE.IS_AKA_CMAKE_PROJECT: false
+ENVIRO.CMAKE.GENERATOR: unknown
+ENVIRO.CMAKE.BUILDSYSTEM_GENERATION_CMD: cmake
+ENVIRO.CMAKE.BUILDSYSTEM_GENERATION_OPTIONS: 
+ENVIRO.CMAKE.BUILD_CMD: cmake --build
+ENVIRO.CMAKE.BUILD_OPTIONS: 
+ENVIRO.CMAKE.PROJ_DIRECTORY: 
+ENVIRO.CMAKE.END
+ENVIRO.SEARCH_LIST: .\C++
+ENVIRO.SEARCH_LIST: .\C++\addbinary
+ENVIRO.SEARCH_LIST: .\C++\buy_and_sell_stock-II
+ENVIRO.SEARCH_LIST: .\C++\climbingstairs
+ENVIRO.SEARCH_LIST: .\C++\CountingBits
+ENVIRO.SEARCH_LIST: .\C++\find duplicate number
+ENVIRO.SEARCH_LIST: .\C++\find index of first occurence of a string
+ENVIRO.SEARCH_LIST: .\C++\House Robber
+ENVIRO.SEARCH_LIST: .\C++\Koko Eating Bananas
+ENVIRO.SEARCH_LIST: .\C++\kth largest sum in a Binary tree
+ENVIRO.SEARCH_LIST: .\C++\Longest Square Streak in an Array
+ENVIRO.SEARCH_LIST: .\C++\merge sorted array
+ENVIRO.SEARCH_LIST: .\C++\move_zeroes
+ENVIRO.SEARCH_LIST: .\C++\Network Delay Time
+ENVIRO.SEARCH_LIST: .\C++\remove duplicates from sorted array
+ENVIRO.SEARCH_LIST: .\C++\Rotten Oranges
+ENVIRO.SEARCH_LIST: .\C++\search in rotated sorted array
+ENVIRO.SEARCH_LIST: .\C++\spiral matrix
+ENVIRO.SEARCH_LIST: .\C++\threesome
+ENVIRO.SEARCH_LIST: .\C++\twosum
+ENVIRO.SEARCH_LIST: .\C++\valid parenthesis
+ENVIRO.PARSE_ALL_FILES: NO
+ENVIRO.UUT: .\C++\addbinary\Addbinary.cpp
+ENVIRO.UUT: .\C++\buy_and_sell_stock-II\buy_and_sell_stock_II.cpp
+ENVIRO.UUT: .\C++\climbingstairs\ClimbingStairs.cpp
+ENVIRO.UUT: .\C++\CountingBits\CountingBits.cpp
+ENVIRO.UUT: .\C++\find duplicate number\FindDuplicateNumber.cpp
+ENVIRO.UUT: .\C++\find index of first occurence of a string\FindingIndexoffirstOccurenceofAString.cpp
+ENVIRO.UUT: .\C++\House Robber\houserobber.cpp
+ENVIRO.UUT: .\C++\Koko Eating Bananas\Koko_Eating_Banana.cpp
+ENVIRO.UUT: .\C++\kth largest sum in a Binary tree\kth_largest_sum_bt.cpp
+ENVIRO.UUT: .\C++\Longest Square Streak in an Array\LongestSquareStreakInAnArray.cpp
+ENVIRO.UUT: .\C++\merge sorted array\MergesortedArray.cpp
+ENVIRO.UUT: .\C++\move_zeroes\move Zeroes.cpp
+ENVIRO.UUT: .\C++\Network Delay Time\Network Delay Time.cpp
+ENVIRO.UUT: .\C++\remove duplicates from sorted array\Remove_Duplicates_from_Sorted_Array.cpp
+ENVIRO.UUT: .\C++\Rotten Oranges\rottenOrangesSol.cpp
+ENVIRO.UUT: .\C++\search in rotated sorted array\SearchInRotatedSortedArray.cpp
+ENVIRO.UUT: .\C++\spiral matrix\SpiralMatrix.cpp
+ENVIRO.UUT: .\C++\threesome\Threesome.cpp
+ENVIRO.UUT: .\C++\twosum\TwoSum.cpp
+ENVIRO.UUT: .\C++\valid parenthesis\ValidParenthesis.cpp
+ENVIRO.UUT: .\C++\3sum.cpp
+ENVIRO.UUT: .\C++\AddTwoNumbers.cpp
+ENVIRO.UUT: .\C++\BasicCalculator.cpp
+ENVIRO.UUT: .\C++\best_time_to_buy_or_sell_stock.cpp
+ENVIRO.UUT: .\C++\BinaryTree_from_preorderAndPostorder.cpp
+ENVIRO.UUT: .\C++\Chocolate Distribution Problem.cpp
+ENVIRO.UUT: .\C++\ConatinerWithMostWater.cpp
+ENVIRO.UUT: .\C++\Contains Duplicate.cpp
+ENVIRO.UUT: .\C++\Count Odd Numbers in an Interval Range.cpp
+ENVIRO.UUT: .\C++\CountConnectedComponents_Graphs.cpp
+ENVIRO.UUT: .\C++\dijkstra's_algorithm.cpp
+ENVIRO.UUT: .\C++\Dutch_National_Flag.cpp
+ENVIRO.UUT: .\C++\DynamicRoadNetwork.cpp
+ENVIRO.UUT: .\C++\Floyd-Warshall.cpp
+ENVIRO.UUT: .\C++\Floyd_Warshall.cpp
+ENVIRO.UUT: .\C++\Game of Life.cpp
+ENVIRO.UUT: .\C++\Integer to Roman.cpp
+ENVIRO.UUT: .\C++\Kadane's_Algorithm.cpp
+ENVIRO.UUT: .\C++\Leetcode_2416.cpp
+ENVIRO.UUT: .\C++\LongestCommonSubsequence.cpp
+ENVIRO.UUT: .\C++\LongestSubstring.cpp
+ENVIRO.UUT: .\C++\LongestSubstrWithoutRepeatChar.cpp
+ENVIRO.UUT: .\C++\Minimum_element_in_sorted_rotated_subarray.cpp
+ENVIRO.UUT: .\C++\moore's voting algo.cpp
+ENVIRO.UUT: .\C++\Palindrome_Partitioning.cpp
+ENVIRO.UUT: .\C++\PeakIndexMountainArray.cpp
+ENVIRO.UUT: .\C++\Remove Duplicates from Sorted Array.cpp
+ENVIRO.UUT: .\C++\Rotate_linked_list.cpp
+ENVIRO.UUT: .\C++\Search in Rotated Sorted Array.cpp
+ENVIRO.UUT: .\C++\Searcha2DMatrix.cpp
+ENVIRO.UUT: .\C++\Sieve_Algorithms.cpp
+ENVIRO.UUT: .\C++\Subarray Sum Equals K.cpp
+ENVIRO.UUT: .\C++\SwapNodesinPairs.cpp
+ENVIRO.UUT: .\C++\TwoSum.cpp
+ENVIRO.UUT: .\C++\UglyNumber.cpp
+ENVIRO.UUT: .\C++\Valid_Number.cpp
+ENVIRO.UUT: .\C++\WarehouseOrderOptimizer.cpp
+ENVIRO.END
+2025-02-06 11:17:14 DEBUG AbstractCustomController:298 - [JavaFX Application Thread] Environment script:
+ENVIRO.NEW
+ENVIRO.COMPILER.NEW
+ENVIRO.COMPILER.NAME: [MinGW] C++ 14
+ENVIRO.COMPILER.COMPILE_CMD: g++ -c -std=gnu++14 -w
+ENVIRO.COMPILER.PREPROCESS_CMD: g++ -c -E -std=gnu++14
+ENVIRO.COMPILER.LINK_CMD: g++ -std=gnu++14 -w
+ENVIRO.COMPILER.DEBUG_CMD: gdb
+ENVIRO.COMPILER.INCLUDE_FLAG: -I
+ENVIRO.COMPILER.DEFINE_FLAG: -D
+ENVIRO.COMPILER.OUTPUT_FLAG: -o
+ENVIRO.COMPILER.DEBUG_FLAG: -ggdb
+ENVIRO.COMPILER.OUTPUT_EXT: .out
+ENVIRO.COMPILER.IS_USE_GTEST: false
+ENVIRO.COMPILER.END
+ENVIRO.NAME: duong
+ENVIRO.TESTING_METHOD: TRADITIONAL_UNIT_TESTING
+ENVIRO.WHITE_BOX: YES
+ENVIRO.COVERAGE_TYPE: STATEMENT+MCDC
+ENVIRO.CMAKE.NEW
+ENVIRO.CMAKE.IS_CMAKE_PROJECT: false
+ENVIRO.CMAKE.IS_AKA_CMAKE_PROJECT: false
+ENVIRO.CMAKE.GENERATOR: unknown
+ENVIRO.CMAKE.BUILDSYSTEM_GENERATION_CMD: cmake
+ENVIRO.CMAKE.BUILDSYSTEM_GENERATION_OPTIONS: 
+ENVIRO.CMAKE.BUILD_CMD: cmake --build
+ENVIRO.CMAKE.BUILD_OPTIONS: 
+ENVIRO.CMAKE.PROJ_DIRECTORY: 
+ENVIRO.CMAKE.END
+ENVIRO.PARSE_ALL_FILES: NO
+ENVIRO.UUT: .\C++\addbinary\Addbinary.cpp
+ENVIRO.UUT: .\C++\buy_and_sell_stock-II\buy_and_sell_stock_II.cpp
+ENVIRO.UUT: .\C++\climbingstairs\ClimbingStairs.cpp
+ENVIRO.UUT: .\C++\CountingBits\CountingBits.cpp
+ENVIRO.UUT: .\C++\find duplicate number\FindDuplicateNumber.cpp
+ENVIRO.UUT: .\C++\find index of first occurence of a string\FindingIndexoffirstOccurenceofAString.cpp
+ENVIRO.UUT: .\C++\House Robber\houserobber.cpp
+ENVIRO.UUT: .\C++\Koko Eating Bananas\Koko_Eating_Banana.cpp
+ENVIRO.UUT: .\C++\kth largest sum in a Binary tree\kth_largest_sum_bt.cpp
+ENVIRO.UUT: .\C++\Longest Square Streak in an Array\LongestSquareStreakInAnArray.cpp
+ENVIRO.UUT: .\C++\merge sorted array\MergesortedArray.cpp
+ENVIRO.UUT: .\C++\move_zeroes\move Zeroes.cpp
+ENVIRO.UUT: .\C++\Network Delay Time\Network Delay Time.cpp
+ENVIRO.UUT: .\C++\remove duplicates from sorted array\Remove_Duplicates_from_Sorted_Array.cpp
+ENVIRO.UUT: .\C++\Rotten Oranges\rottenOrangesSol.cpp
+ENVIRO.UUT: .\C++\search in rotated sorted array\SearchInRotatedSortedArray.cpp
+ENVIRO.UUT: .\C++\spiral matrix\SpiralMatrix.cpp
+ENVIRO.UUT: .\C++\threesome\Threesome.cpp
+ENVIRO.UUT: .\C++\twosum\TwoSum.cpp
+ENVIRO.UUT: .\C++\valid parenthesis\ValidParenthesis.cpp
+ENVIRO.UUT: .\C++\3sum.cpp
+ENVIRO.UUT: .\C++\AddTwoNumbers.cpp
+ENVIRO.UUT: .\C++\BasicCalculator.cpp
+ENVIRO.UUT: .\C++\best_time_to_buy_or_sell_stock.cpp
+ENVIRO.UUT: .\C++\BinaryTree_from_preorderAndPostorder.cpp
+ENVIRO.UUT: .\C++\Chocolate Distribution Problem.cpp
+ENVIRO.UUT: .\C++\ConatinerWithMostWater.cpp
+ENVIRO.UUT: .\C++\Contains Duplicate.cpp
+ENVIRO.UUT: .\C++\Count Odd Numbers in an Interval Range.cpp
+ENVIRO.UUT: .\C++\CountConnectedComponents_Graphs.cpp
+ENVIRO.UUT: .\C++\dijkstra's_algorithm.cpp
+ENVIRO.UUT: .\C++\Dutch_National_Flag.cpp
+ENVIRO.UUT: .\C++\DynamicRoadNetwork.cpp
+ENVIRO.UUT: .\C++\Floyd-Warshall.cpp
+ENVIRO.UUT: .\C++\Floyd_Warshall.cpp
+ENVIRO.UUT: .\C++\Game of Life.cpp
+ENVIRO.UUT: .\C++\Integer to Roman.cpp
+ENVIRO.UUT: .\C++\Kadane's_Algorithm.cpp
+ENVIRO.UUT: .\C++\Leetcode_2416.cpp
+ENVIRO.UUT: .\C++\LongestCommonSubsequence.cpp
+ENVIRO.UUT: .\C++\LongestSubstring.cpp
+ENVIRO.UUT: .\C++\LongestSubstrWithoutRepeatChar.cpp
+ENVIRO.UUT: .\C++\Minimum_element_in_sorted_rotated_subarray.cpp
+ENVIRO.UUT: .\C++\moore's voting algo.cpp
+ENVIRO.UUT: .\C++\Palindrome_Partitioning.cpp
+ENVIRO.UUT: .\C++\PeakIndexMountainArray.cpp
+ENVIRO.UUT: .\C++\Remove Duplicates from Sorted Array.cpp
+ENVIRO.UUT: .\C++\Rotate_linked_list.cpp
+ENVIRO.UUT: .\C++\Search in Rotated Sorted Array.cpp
+ENVIRO.UUT: .\C++\Searcha2DMatrix.cpp
+ENVIRO.UUT: .\C++\Sieve_Algorithms.cpp
+ENVIRO.UUT: .\C++\Subarray Sum Equals K.cpp
+ENVIRO.UUT: .\C++\SwapNodesinPairs.cpp
+ENVIRO.UUT: .\C++\TwoSum.cpp
+ENVIRO.UUT: .\C++\UglyNumber.cpp
+ENVIRO.UUT: .\C++\Valid_Number.cpp
+ENVIRO.UUT: .\C++\WarehouseOrderOptimizer.cpp
+ENVIRO.SEARCH_LIST: .\C++\addbinary
+ENVIRO.END
+2025-02-06 11:17:14 DEBUG AbstractCustomController:299 - [JavaFX Application Thread] Updating the next window (Choose UUTs)
+2025-02-06 11:17:14 DEBUG AbstractCustomController:300 - [JavaFX Application Thread] Update done!
+2025-02-06 11:17:14 DEBUG ChooseUUTController:383 - [JavaFX Application Thread] Update Choose UUT
+2025-02-06 11:17:14 DEBUG ChooseUUTController:390 - [JavaFX Application Thread] Deleted the existing unit names in GUI
+2025-02-06 11:17:14 DEBUG ChooseUUTController:393 - [JavaFX Application Thread] Adding new unit names to unit names section
+2025-02-06 11:17:14 DEBUG ProjectLoader:125 - [JavaFX Application Thread] Loading C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\abhisek247767_LeetCode2024-6Companies30Days\C++\addbinary
+2025-02-06 11:17:14 DEBUG ChooseUUTController:520 - [JavaFX Application Thread] Constructed the physical tree corresponding to the source code files list
+2025-02-06 11:17:14 DEBUG ChooseUUTController:744 - [JavaFX Application Thread] There are no EnviroLibraryStubNode
+2025-02-06 11:17:14 DEBUG ChooseUUTController:383 - [JavaFX Application Thread] Update Choose UUT
+2025-02-06 11:17:14 DEBUG ChooseUUTController:390 - [JavaFX Application Thread] Deleted the existing unit names in GUI
+2025-02-06 11:17:14 DEBUG ChooseUUTController:393 - [JavaFX Application Thread] Adding new unit names to unit names section
+2025-02-06 11:17:14 DEBUG ProjectLoader:125 - [JavaFX Application Thread] Loading C:\Users\daidu\Projects\SQA-LAB\AKA\craw-test-cpp\crawl_test_cpp\collected_repos\abhisek247767_LeetCode2024-6Companies30Days\C++\addbinary
+2025-02-06 11:17:14 DEBUG ChooseUUTController:520 - [JavaFX Application Thread] Constructed the physical tree corresponding to the source code files list
+2025-02-06 11:17:14 DEBUG ChooseUUTController:744 - [JavaFX Application Thread] There are no EnviroLibraryStubNode
+2025-02-06 11:17:15 DEBUG ChooseUUTController:888 - [JavaFX Application Thread] Environment configuration:
+ENVIRO.NEW
+ENVIRO.COMPILER.NEW
+ENVIRO.COMPILER.NAME: [MinGW] C++ 14
+ENVIRO.COMPILER.COMPILE_CMD: g++ -c -std=gnu++14 -w
+ENVIRO.COMPILER.PREPROCESS_CMD: g++ -c -E -std=gnu++14
+ENVIRO.COMPILER.LINK_CMD: g++ -std=gnu++14 -w
+ENVIRO.COMPILER.DEBUG_CMD: gdb
+ENVIRO.COMPILER.INCLUDE_FLAG: -I
+ENVIRO.COMPILER.DEFINE_FLAG: -D
+ENVIRO.COMPILER.OUTPUT_FLAG: -o
+ENVIRO.COMPILER.DEBUG_FLAG: -ggdb
+ENVIRO.COMPILER.OUTPUT_EXT: .out
+ENVIRO.COMPILER.IS_USE_GTEST: false
+ENVIRO.COMPILER.END
+ENVIRO.NAME: duong
+ENVIRO.TESTING_METHOD: TRADITIONAL_UNIT_TESTING
+ENVIRO.WHITE_BOX: YES
+ENVIRO.COVERAGE_TYPE: STATEMENT+MCDC
+ENVIRO.CMAKE.NEW
+ENVIRO.CMAKE.IS_CMAKE_PROJECT: false
+ENVIRO.CMAKE.IS_AKA_CMAKE_PROJECT: false
+ENVIRO.CMAKE.GENERATOR: unknown
+ENVIRO.CMAKE.BUILDSYSTEM_GENERATION_CMD: cmake
+ENVIRO.CMAKE.BUILDSYSTEM_GENERATION_OPTIONS: 
+ENVIRO.CMAKE.BUILD_CMD: cmake --build
+ENVIRO.CMAKE.BUILD_OPTIONS: 
+ENVIRO.CMAKE.PROJ_DIRECTORY: 
+ENVIRO.CMAKE.END
+ENVIRO.UUT: .\C++\addbinary\Addbinary.cpp
+ENVIRO.UUT: .\C++\buy_and_sell_stock-II\buy_and_sell_stock_II.cpp
+ENVIRO.UUT: .\C++\climbingstairs\ClimbingStairs.cpp
+ENVIRO.UUT: .\C++\CountingBits\CountingBits.cpp
+ENVIRO.UUT: .\C++\find duplicate number\FindDuplicateNumber.cpp
+ENVIRO.UUT: .\C++\find index of first occurence of a string\FindingIndexoffirstOccurenceofAString.cpp
+ENVIRO.UUT: .\C++\House Robber\houserobber.cpp
+ENVIRO.UUT: .\C++\Koko Eating Bananas\Koko_Eating_Banana.cpp
+ENVIRO.UUT: .\C++\kth largest sum in a Binary tree\kth_largest_sum_bt.cpp
+ENVIRO.UUT: .\C++\Longest Square Streak in an Array\LongestSquareStreakInAnArray.cpp
+ENVIRO.UUT: .\C++\merge sorted array\MergesortedArray.cpp
+ENVIRO.UUT: .\C++\move_zeroes\move Zeroes.cpp
+ENVIRO.UUT: .\C++\Network Delay Time\Network Delay Time.cpp
+ENVIRO.UUT: .\C++\remove duplicates from sorted array\Remove_Duplicates_from_Sorted_Array.cpp
+ENVIRO.UUT: .\C++\Rotten Oranges\rottenOrangesSol.cpp
+ENVIRO.UUT: .\C++\search in rotated sorted array\SearchInRotatedSortedArray.cpp
+ENVIRO.UUT: .\C++\spiral matrix\SpiralMatrix.cpp
+ENVIRO.UUT: .\C++\threesome\Threesome.cpp
+ENVIRO.UUT: .\C++\twosum\TwoSum.cpp
+ENVIRO.UUT: .\C++\valid parenthesis\ValidParenthesis.cpp
+ENVIRO.UUT: .\C++\3sum.cpp
+ENVIRO.UUT: .\C++\AddTwoNumbers.cpp
+ENVIRO.UUT: .\C++\BasicCalculator.cpp
+ENVIRO.UUT: .\C++\best_time_to_buy_or_sell_stock.cpp
+ENVIRO.UUT: .\C++\BinaryTree_from_preorderAndPostorder.cpp
+ENVIRO.UUT: .\C++\Chocolate Distribution Problem.cpp
+ENVIRO.UUT: .\C++\ConatinerWithMostWater.cpp
+ENVIRO.UUT: .\C++\Contains Duplicate.cpp
+ENVIRO.UUT: .\C++\Count Odd Numbers in an Interval Range.cpp
+ENVIRO.UUT: .\C++\CountConnectedComponents_Graphs.cpp
+ENVIRO.UUT: .\C++\dijkstra's_algorithm.cpp
+ENVIRO.UUT: .\C++\Dutch_National_Flag.cpp
+ENVIRO.UUT: .\C++\DynamicRoadNetwork.cpp
+ENVIRO.UUT: .\C++\Floyd-Warshall.cpp
+ENVIRO.UUT: .\C++\Floyd_Warshall.cpp
+ENVIRO.UUT: .\C++\Game of Life.cpp
+ENVIRO.UUT: .\C++\Integer to Roman.cpp
+ENVIRO.UUT: .\C++\Kadane's_Algorithm.cpp
+ENVIRO.UUT: .\C++\Leetcode_2416.cpp
+ENVIRO.UUT: .\C++\LongestCommonSubsequence.cpp
+ENVIRO.UUT: .\C++\LongestSubstring.cpp
+ENVIRO.UUT: .\C++\LongestSubstrWithoutRepeatChar.cpp
+ENVIRO.UUT: .\C++\Minimum_element_in_sorted_rotated_subarray.cpp
+ENVIRO.UUT: .\C++\moore's voting algo.cpp
+ENVIRO.UUT: .\C++\Palindrome_Partitioning.cpp
+ENVIRO.UUT: .\C++\PeakIndexMountainArray.cpp
+ENVIRO.UUT: .\C++\Remove Duplicates from Sorted Array.cpp
+ENVIRO.UUT: .\C++\Rotate_linked_list.cpp
+ENVIRO.UUT: .\C++\Search in Rotated Sorted Array.cpp
+ENVIRO.UUT: .\C++\Searcha2DMatrix.cpp
+ENVIRO.UUT: .\C++\Sieve_Algorithms.cpp
+ENVIRO.UUT: .\C++\Subarray Sum Equals K.cpp
+ENVIRO.UUT: .\C++\SwapNodesinPairs.cpp
+ENVIRO.UUT: .\C++\TwoSum.cpp
+ENVIRO.UUT: .\C++\UglyNumber.cpp
+ENVIRO.UUT: .\C++\Valid_Number.cpp
+ENVIRO.UUT: .\C++\WarehouseOrderOptimizer.cpp
+ENVIRO.SEARCH_LIST: .\C++\addbinary
+ENVIRO.PARSE_ALL_FILES: NO
+ENVIRO.END
+2025-02-06 11:17:15 DEBUG ChooseUUTController:923 - [JavaFX Application Thread] Environment configuration: 
+ENVIRO.NEW
+ENVIRO.COMPILER.NEW
+ENVIRO.COMPILER.NAME: [MinGW] C++ 14
+ENVIRO.COMPILER.COMPILE_CMD: g++ -c -std=gnu++14 -w
+ENVIRO.COMPILER.PREPROCESS_CMD: g++ -c -E -std=gnu++14
+ENVIRO.COMPILER.LINK_CMD: g++ -std=gnu++14 -w
+ENVIRO.COMPILER.DEBUG_CMD: gdb
+ENVIRO.COMPILER.INCLUDE_FLAG: -I
+ENVIRO.COMPILER.DEFINE_FLAG: -D
+ENVIRO.COMPILER.OUTPUT_FLAG: -o
+ENVIRO.COMPILER.DEBUG_FLAG: -ggdb
+ENVIRO.COMPILER.OUTPUT_EXT: .out
+ENVIRO.COMPILER.IS_USE_GTEST: false
+ENVIRO.COMPILER.END
+ENVIRO.NAME: duong
+ENVIRO.TESTING_METHOD: TRADITIONAL_UNIT_TESTING
+ENVIRO.WHITE_BOX: YES
+ENVIRO.COVERAGE_TYPE: STATEMENT+MCDC
+ENVIRO.CMAKE.NEW
+ENVIRO.CMAKE.IS_CMAKE_PROJECT: false
+ENVIRO.CMAKE.IS_AKA_CMAKE_PROJECT: false
+ENVIRO.CMAKE.GENERATOR: unknown
+ENVIRO.CMAKE.BUILDSYSTEM_GENERATION_CMD: cmake
+ENVIRO.CMAKE.BUILDSYSTEM_GENERATION_OPTIONS: 
+ENVIRO.CMAKE.BUILD_CMD: cmake --build
+ENVIRO.CMAKE.BUILD_OPTIONS: 
+ENVIRO.CMAKE.PROJ_DIRECTORY: 
+ENVIRO.CMAKE.END
+ENVIRO.SEARCH_LIST: .\C++\addbinary
+ENVIRO.PARSE_ALL_FILES: NO
+ENVIRO.UUT: .\C++\addbinary\Addbinary.cpp
+ENVIRO.END

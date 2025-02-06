@@ -1,0 +1,29 @@
+{
+  "name": "algorithm",
+  "version": "1.0.0",
+  "description": "Algorithm All in One for upupming",
+  "main": "index.js",
+  "repository": "git@github.com:upupming/algorithm.git",
+  "author": "<yimingli.cs@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "pdf": "mkdir -p build && pandoc --pdf-engine=xelatex template.md -o build/template.pdf && pandoc --pdf-engine=xelatex template-typescript.md -o build/template-typescript.pdf"
+  },
+  "devDependencies": {
+    "@types/lodash": "4.14.169",
+    "@types/node": "15.0.3",
+    "@typescript-eslint/eslint-plugin": "4.1.0",
+    "@typescript-eslint/parser": "^4.0.0",
+    "eslint": "7.24.0",
+    "eslint-config-standard-with-typescript": "20.0.0",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-promise": "5.1.0",
+    "ts-node": "10.1.0",
+    "typescript": "4.2.4"
+  },
+  "dependencies": {
+    "contest.js": "^1.1.0",
+    "scanf": "1.1.2"
+  }
+}

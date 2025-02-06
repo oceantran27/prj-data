@@ -1,0 +1,39 @@
+#include <bits/stdc++.h>
+#include <vector>
+#include <iostream>
+#include <string>
+#include <map>
+#include <set>
+#include <unordered_map>
+#include <algorithm>
+using namespace std;
+
+
+
+
+//////////////////////////////////////////////////////////////////////////
+int addDigits(int num) 
+{
+    if (num == 0) return 0;
+    return num % 9 ? num % 9 : 9;
+}
+
+
+//////////////////////////////////////////////////////////////////////////
+int _solution_run(int num)
+{
+	return addDigits(num);
+}
+
+//#define USE_SOLUTION_CUSTOM
+//int _solution_custom(TestCases &tc)
+//{
+//}
+
+//////////////////////////////////////////////////////////////////////////
+//#define USE_GET_TEST_CASES_IN_CPP
+//vector<string> _get_test_cases_string()
+//{
+//	return {};
+//}
+

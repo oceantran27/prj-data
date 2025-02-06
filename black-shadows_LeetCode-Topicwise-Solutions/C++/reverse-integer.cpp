@@ -1,0 +1,30 @@
+#include <bits/stdc++.h>
+#include <vector>
+#include <iostream>
+#include <string>
+#include <map>
+#include <set>
+#include <unordered_map>
+#include <algorithm>
+using namespace std;
+
+// Time:  O(logn) = O(1)
+// Space: O(1)
+
+class Solution {
+public:
+    int reverse(int x) {
+        int result = 0;
+        while (x) {
+            auto prev = result;
+            result *= 10;
+            result += x % 10;
+            if (result / 10 != prev) {
+                result = 0;
+                break;
+            }
+            x /= 10;
+        }
+        return result;
+    }
+};

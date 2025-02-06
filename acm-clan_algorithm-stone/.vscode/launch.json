@@ -1,0 +1,39 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "query",
+            "type": "python",
+            "request": "launch",
+            "program": "src/query.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "stone",
+            "type": "python",
+            "request": "launch",
+            "program": "src/main.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "animation",
+            "type": "python",
+            "request": "launch",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/animations",
+            "module": "manimlib",
+            "args": ["kmp.py", "KmpPrefixScene", ""]
+        },
+        {
+            "name": "merge",
+            "type": "python",
+            "request": "launch",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/animations",
+            "program": "merge_videos.py",
+        }
+    ]
+}

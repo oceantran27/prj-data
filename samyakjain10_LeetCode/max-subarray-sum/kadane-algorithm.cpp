@@ -1,0 +1,24 @@
+#include <bits/stdc++.h>
+#include <vector>
+#include <iostream>
+#include <string>
+#include <map>
+#include <set>
+#include <unordered_map>
+#include <algorithm>
+using namespace std;
+
+class Solution {
+public:
+    int maxSubArray(vector<int>& nums) {
+        int max_sum=nums[0], sum=nums[0];
+        for(int i=1; i<nums.size(); i++) {
+            sum = max(nums[i], sum+nums[i]);
+            if(sum>max_sum) {
+                max_sum=sum;
+            }
+        }
+        
+        return max_sum;
+    }
+};

@@ -1,0 +1,107 @@
+Problem ID marked with leading ~ indicates there's good evidences that the algorithm we provide is hard to improve. Leading + indicates the original problem is solved, but there exists some interesting follow-up questions.
+
++116 Populating Next Right Pointers in Each Node  
++225 Implement Stack using Queues  
++234 Palindrome Linked List  
+264 Ugly Number II  
+~302 Smallest Rectangle Enclosing Black Pixels  
+306 Additive Number  
+317 Shortest Distance from All Buildings  
+368 Largest Divisible Subset  
+395 Longest Substring with At Least K Repeating Characters  
+~403 Frog Jump  
+411 Minimum Unique Word Abbreviation  
+~464 Can I Win  
+~483 Smallest Good Base  
+522 Longest Uncommon Subsequence II  
+548 Split Array with Equal Sum  
+727 Minimum Window Subsequence  
+~741 Cherry Pickup  
+~762 Prime Number of Set Bits in Binary Representation  
+787 Cheapest Flights Within K Stops  
+818 Race Car  
+837 New 21 Game  
+839 Similar String Groups  
+~898 Bitwise ORs of Subarrays  
+1057 Campus Bikes  
+~1074 Number of Submatrices That Sum to Target  
+~1293 Shortest Path in a Grid with Obstacles Elimination  
+1316 Distinct Echo Substrings  
+~1334 Find the City With the Smallest Number of Neighbors at a Threshold Distance  
+~1335 Minimum Difficulty of a Job Schedule  
+1439 Find the Kth Smallest Sum of a Matrix With Sorted Rows  
+1452 People Whose List of Favorite Companies Is Not a Subset of Another List  
+1510 Stone Game IV  
+1538 Guess the Majority in a Hidden Array  
+1542 Find Longest Awesome Substring  
+1548 The Most Similar Path in a Graph  
+~1622 Fancy Sequence  
+1627 Graph Connectivity With Threshold  
+1630 Arithmetic Subarrays  
+1638 Count Substrings That Differ by One Character  
+1659 Maximize Grid Happiness  
+~1681 Minimum Incompatibility  
+~1707 Maximum XOR With an Element From Array  
+1766 Tree of Coprimes  
+1799 Maximize Score After N Operations  
+~1819 Number of Different Subsequences GCDs  
+~1849 Splitting a String Into Descending Consecutive Values  
+1857 Largest Color Value in a Directed Graph  
+~1878 Get Biggest Three Rhombus Sums in a Grid  
+1898 Maximum Number of Removable Characters  
+2002 Maximum Product of the Length of Two Palindromic Subsequences  
+2013 Detect Squares  
+2076 Process Restricted Friend Requests  
+~2093 Minimum Cost to Reach City With Discounts  
+2101 Detonate the Maximum Bombs  
+2122 Recover the Original Array  
+2322 Minimum Score After Removals on a Tree  
+~2338 Count the Number of Ideal Arrays  
+2440 Create Components With Same Value  
+2462 Total Cost to Hire K Workers  
+
+
+
+
+DP/counting:  
+087 Scramble String  
+312 Burst Balloons  
+375 Guess Number Higher or Lower II  
+514 Freedom Trail  
+546 Remove Boxes  
+576 Out of Boundary Paths  
+629 K Inverse Pairs Array  
+664 Strange Printer  
+688 Knight Probability in Chessboard  
+730 Count Different Palindromic Subsequences  
+813 Largest Sum of Averages  
+903 Valid Permutations for DI Sequence  
+1039 Minimum Score Triangulation of Polygon  
+1043 Partition Array for Maximum Sum  
+1269 Number of Ways to Stay in the Same Place After Some Steps  
+1278 Palindrome Partitioning III  
+1397 Find All Good Strings  
+1420 Build Array Where You Can Find The Maximum Exactly K Comparisons  
+1444 Number of Ways of Cutting a Pizza  
+1467 Probability of a Two Boxes Having The Same Number of Distinct Balls  
+1563 Stone Game V  
+1575 Count All Possible Routes  
+1690 Stone Game VII  
+1751 Maximum Number of Events That Can Be Attended II  
+1770 Maximum Score from Performing Multiplication Operations  
+1787 Make the XOR of All Segments Equal to Zero  
+1883 Minimum Skips to Arrive at Meeting On Time  
+1895 Largest Magic Square  
+1925 Count Square Sum Triples  
+1959 Minimum Total Space Wasted With K Resizing Operations  
+1999 Smallest Greater Multiple Made of Two Digits  
+2267 Check if There Is a Valid Parentheses String Path  
+2466 Count Ways To Build Good Strings  
+2478 Number of Beautiful Partitions  
+2916 Subarrays Distinct Element Sum of Squares II  
+3130 Find All Possible Stable Binary Arrays II  
+3234 Count the Number of Substrings With Dominant Ones  
+
+
+
+

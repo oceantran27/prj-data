@@ -1,0 +1,60 @@
+#include <bits/stdc++.h>
+#include <vector>
+#include <iostream>
+#include <string>
+#include <map>
+#include <set>
+#include <unordered_map>
+#include <algorithm>
+using namespace std;
+
+
+//////////////////////////////////////////////////////////////////////////
+string valid(string s, char da, char db)
+{
+    int a = 0;
+    string ans;
+    for (auto c : s)
+    {
+        if (c == da)
+        {
+            a++;
+        }
+        else if (c == db)
+        {
+            if (a == 0) continue;
+            a--;
+        }
+        ans += c;
+    }
+
+    return ans;
+}
+
+string minRemoveToMakeValid(string s) 
+{
+    s = valid(s, '(', ')');
+    reverse(s.begin(), s.end());
+    s = valid(s, ')', '(');
+    reverse(s.begin(), s.end());
+    return s;
+}
+
+//////////////////////////////////////////////////////////////////////////
+string _solution_run(string s)
+{
+	return minRemoveToMakeValid(s);
+}
+
+//#define USE_SOLUTION_CUSTOM
+//string _solution_custom(TestCases &tc)
+//{
+//}
+
+//////////////////////////////////////////////////////////////////////////
+//#define USE_GET_TEST_CASES_IN_CPP
+//vector<string> _get_test_cases_string()
+//{
+//	return {};
+//}
+
