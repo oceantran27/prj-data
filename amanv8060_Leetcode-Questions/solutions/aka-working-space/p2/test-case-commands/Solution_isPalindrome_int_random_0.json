@@ -1,0 +1,18 @@
+{
+  "compilationCommands": {
+    ".\\\\aka-working-space\\\\p2\\\\test-drivers\\Solution_isPalindrome_int_random_0.cpp": "g++\u003c\u003cAKA_U00A0\u003e\u003e-c\u003c\u003cAKA_U00A0\u003e\u003e-std\u003dgnu++14\u003c\u003cAKA_U00A0\u003e\u003e-w\u003c\u003cAKA_U00A0\u003e\u003e\".\\\\aka-working-space\\\\p2\\\\test-drivers\\Solution_isPalindrome_int_random_0.cpp\"\u003c\u003cAKA_U00A0\u003e\u003e-I\"D:\\\\Projects\\\\AKAUT\\\\prj-data\\\\amanv8060_Leetcode-Questions\\\\solutions\\\\aka-working-space\\\\p2\\\\user_code\\\\environment\"\u003c\u003cAKA_U00A0\u003e\u003e-o\".\\\\aka-working-space\\\\p2\\\\test-drivers\\Solution_isPalindrome_int_random_0.cpp.out\"\u003c\u003cAKA_U00A0\u003e\u003e-DAKA_TC_SOLUTION_ISPALINDROME_INT_RANDOM_0"
+  },
+  "linkEntry": {
+    "command": "g++ -std\u003dgnu++14 -w",
+    "outFlag": "-o",
+    "exeFile": ".\\\\aka-working-space\\\\p2\\\\exe\\Solution_isPalindrome_int_random_0.exe",
+    "binFiles": [
+      ".\\\\aka-working-space\\\\p2\\\\instruments\\11.akaignore.cpp.out",
+      ".\\\\aka-working-space\\\\p2\\\\instruments\\12.akaignore.cpp.out",
+      ".\\\\aka-working-space\\\\p2\\\\instruments\\13.akaignore.cpp.out",
+      ".\\\\aka-working-space\\\\p2\\\\instruments\\20.akaignore.cpp.out",
+      ".\\\\aka-working-space\\\\p2\\\\test-drivers\\Solution_isPalindrome_int_random_0.cpp.out"
+    ]
+  },
+  "executablePath": ".\\\\aka-working-space\\\\p2\\\\exe\\Solution_isPalindrome_int_random_0.exe"
+}

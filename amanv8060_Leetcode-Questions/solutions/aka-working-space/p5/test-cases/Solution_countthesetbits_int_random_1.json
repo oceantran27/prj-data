@@ -1,0 +1,163 @@
+{
+  "name": "Solution_countthesetbits_int_random_1",
+  "status": "success",
+  "testCaseUserCode": {
+    "includePaths": [],
+    "setUpContent": "// set up\n;",
+    "tearDownContent": "// tear down\n;"
+  },
+  "path": ".\\\\aka-working-space\\\\p5\\\\test-cases\\Solution_countthesetbits_int_random_1.json",
+  "sourceCode": ".\\\\aka-working-space\\\\p5\\\\test-drivers\\Solution_countthesetbits_int_random_1.cpp",
+  "testPath": ".\\\\aka-working-space\\\\p5\\\\test-paths\\Solution_countthesetbits_int_random_1.tp",
+  "executable": ".\\\\aka-working-space\\\\p5\\\\exe\\Solution_countthesetbits_int_random_1.exe",
+  "commandConfig": ".\\aka-working-space\\p5\\test-case-commands\\Solution_countthesetbits_int_random_1.json",
+  "commandDebug": ".\\\\aka-working-space\\\\p5\\\\debugger\\\\commands\\Solution_countthesetbits_int_random_1.json",
+  "breakPoint": ".\\\\aka-working-space\\\\p5\\\\debugger\\\\breakpoints\\Solution_countthesetbits_int_random_1.br.json",
+  "debugExecutable": ".\\\\aka-working-space\\\\p5\\\\exe\\debug_Solution_countthesetbits_int_random_1.exe",
+  "executionResult": ".\\\\aka-working-space\\\\p5\\\\execution-results\\Solution_countthesetbits_int_random_1.xml",
+  "creationDate": "2025-02-13T09:09:22.168005700",
+  "executionDate": "2025-02-13T09:09:36.540662300",
+  "rootDataNode": {
+    "type": "com.dse.testdata.object.RootDataNode",
+    "name": "ROOT",
+    "virtual_name": "NON_VALUE",
+    "functionNode": ".\\p5\\338.cpp\\Solution\\countthesetbits(int)",
+    "level": "ROOT",
+    "children": [
+      {
+        "type": "com.dse.testdata.object.UnitUnderTestNode",
+        "name": "338.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\p5\\338.cpp",
+        "children": [
+          {
+            "type": "com.dse.testdata.object.GlobalRootDataNode",
+            "name": "GLOBAL",
+            "virtual_name": "NON_VALUE",
+            "functionNode": ".\\p5\\338.cpp\\Solution\\countthesetbits(int)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": false,
+                "correspondingVar": ".\\p5\\338.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p5\\338.cpp\\Solution"
+              }
+            ],
+            "level": "GLOBAL",
+            "children": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": true,
+                "correspondingVar": ".\\p5\\338.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p5\\338.cpp\\Solution",
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.SubClassDataNode",
+                    "name": "AKA_INSTANCE___Solution",
+                    "virtual_name": "AKA_INSTANCE___Solution",
+                    "dataType": "::Solution",
+                    "realType": "::Solution",
+                    "external": false,
+                    "correspondingVar": ".\\p5\\338.cpp\\Solution\\AKA_INSTANCE___Solution",
+                    "correspondingType": ".\\p5\\338.cpp\\Solution",
+                    "rawType": "::Solution",
+                    "selectedConstructor": "Solution()",
+                    "variableType": "::Solution",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                        "name": "Solution()",
+                        "virtual_name": "AKA_INSTANCE___Solution",
+                        "dataType": "::Solution",
+                        "realType": "::Solution",
+                        "functionNode": "\\Solution()"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "com.dse.testdata.object.SubprogramNode",
+            "name": "countthesetbits(int)",
+            "virtual_name": "NON_VALUE",
+            "dataType": "int",
+            "realType": "int",
+            "functionNode": ".\\p5\\338.cpp\\Solution\\countthesetbits(int)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "n",
+                "virtual_name": "EXPECTED_n",
+                "dataType": "int",
+                "realType": "int",
+                "external": false,
+                "correspondingVar": ".\\p5\\338.cpp\\Solution\\countthesetbits(int)\\n",
+                "correspondingType": "int",
+                "value": "null"
+              }
+            ],
+            "children": [
+              {
+                "type": "com.dse.testdata.object.RootDataNode",
+                "name": "STATIC",
+                "virtual_name": "NON_VALUE",
+                "functionNode": ".\\p5\\338.cpp\\Solution\\countthesetbits(int)",
+                "level": "STATIC"
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "n",
+                "virtual_name": "n",
+                "dataType": "int",
+                "realType": "int",
+                "external": false,
+                "correspondingVar": ".\\p5\\338.cpp\\Solution\\countthesetbits(int)\\n",
+                "correspondingType": "int",
+                "value": "-1172975318"
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "RETURN",
+                "virtual_name": "AKA_EXPECTED_OUTPUT",
+                "dataType": "int",
+                "realType": "int",
+                "external": false,
+                "correspondingVar": ".\\p5\\338.cpp\\Solution\\countthesetbits(int)\\RETURN",
+                "correspondingType": "int",
+                "value": "null"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.RootDataNode",
+        "name": "STUB",
+        "virtual_name": "NON_VALUE",
+        "functionNode": ".\\p5\\338.cpp\\Solution\\countthesetbits(int)",
+        "level": "STUB"
+      }
+    ]
+  },
+  "procedures": [
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "n",
+      "isSelected": false,
+      "location": 1,
+      "calls": [],
+      "children": []
+    }
+  ]
+}

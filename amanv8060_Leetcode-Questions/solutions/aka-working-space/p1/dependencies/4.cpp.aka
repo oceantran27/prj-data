@@ -1,0 +1,14 @@
+{
+  "path": ".\\p1\\4.cpp",
+  "dependency": [
+    {
+      "start": ".\\p1\\4.cpp\\Solution\\findMedianSortedArrays(vector\u003cint\u003e\u0026,vector\u003cint\u003e\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "2a086376e48e50fd52bd5a1a2cc43613",
+      "end": ".\\p1\\4.cpp\\Solution",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "d0bb89be1ae1a6ed13e0e442afc89301"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+<pre>...
+...
+...
+...
+<b style="color: grey;">6     </b>#include &lt;unordered_map&gt;
+<b style="color: grey;">7     </b>#include &lt;algorithm&gt;
+<b style="color: grey;">8     </b>#include &lt;bits/stdc++.h&gt;
+<b style="color: grey;">9     </b>using namespace std;
+<b style="color: grey;">10     </b>
+<b style="color: grey;">11    </b>class Solution {
+<b style="color: grey;">12    </b> public:
+<b style="color: grey;">13    </b>  bool isUgly(int n) {
+<b style="color: grey;">14    </b>    if (<b style="background-color:yellow;color:black";>n == 0</b>) {
+<b style="color: grey;">15    </b>      return false;
+<b style="color: grey;">16    </b>    }
+<b style="color: grey;">17    </b>    if (<b style="background-color:yellow;color:black";>n == 1</b>) {
+<b style="color: grey;">18    </b>      return true;
+<b style="color: grey;">19    </b>    }
+<b style="color: grey;">20    </b>    if (<b style="background-color:yellow;color:black";>n % 2 == 0</b>) {
+<b style="color: grey;">21    </b>      <b style="background-color:yellow;color:black";>return isUgly(n / 2);</b>
+<b style="color: grey;">22    </b>    }
+<b style="color: grey;">23    </b>    if (<b style="background-color:yellow;color:black";>n % 3 == 0</b>) {
+<b style="color: grey;">24    </b>      return isUgly(n / 3);
+<b style="color: grey;">25    </b>    }
+<b style="color: grey;">26    </b>    if (<b style="background-color:yellow;color:black";>n % 5 == 0</b>) {
+<b style="color: grey;">27    </b>      <b style="background-color:yellow;color:black";>return isUgly(n / 5);</b>
+<b style="color: grey;">28    </b>    }
+<b style="color: grey;">29    </b>    <b style="background-color:yellow;color:black";>return false;</b>
+<b style="color: grey;">30    </b>  }
+...
+...
+...
+...
+</pre>

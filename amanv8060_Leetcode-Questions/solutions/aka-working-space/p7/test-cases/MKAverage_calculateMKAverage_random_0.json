@@ -1,0 +1,579 @@
+{
+  "name": "MKAverage_calculateMKAverage_random_0",
+  "status": "failed",
+  "testCaseUserCode": {
+    "includePaths": [],
+    "setUpContent": "// set up\n;",
+    "tearDownContent": "// tear down\n;"
+  },
+  "path": ".\\\\aka-working-space\\\\p7\\\\test-cases\\MKAverage_calculateMKAverage_random_0.json",
+  "sourceCode": ".\\\\aka-working-space\\\\p7\\\\test-drivers\\MKAverage_calculateMKAverage_random_0.cpp",
+  "testPath": ".\\\\aka-working-space\\\\p7\\\\test-paths\\MKAverage_calculateMKAverage_random_0.tp",
+  "executable": ".\\\\aka-working-space\\\\p7\\\\exe\\MKAverage_calculateMKAverage_random_0.exe",
+  "commandConfig": ".\\aka-working-space\\p7\\test-case-commands\\MKAverage_calculateMKAverage_random_0.json",
+  "commandDebug": ".\\\\aka-working-space\\\\p7\\\\debugger\\\\commands\\MKAverage_calculateMKAverage_random_0.json",
+  "breakPoint": ".\\\\aka-working-space\\\\p7\\\\debugger\\\\breakpoints\\MKAverage_calculateMKAverage_random_0.br.json",
+  "debugExecutable": ".\\\\aka-working-space\\\\p7\\\\exe\\debug_MKAverage_calculateMKAverage_random_0.exe",
+  "executionResult": ".\\\\aka-working-space\\\\p7\\\\execution-results\\MKAverage_calculateMKAverage_random_0.xml",
+  "creationDate": "2025-02-13T09:36:01.675177700",
+  "executionDate": "2025-02-13T09:36:02.776887100",
+  "rootDataNode": {
+    "type": "com.dse.testdata.object.RootDataNode",
+    "name": "ROOT",
+    "virtual_name": "NON_VALUE",
+    "functionNode": ".\\p7\\1825.cpp\\MKAverage\\calculateMKAverage()",
+    "level": "ROOT",
+    "children": [
+      {
+        "type": "com.dse.testdata.object.UnitUnderTestNode",
+        "name": "1825.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\p7\\1825.cpp",
+        "children": [
+          {
+            "type": "com.dse.testdata.object.GlobalRootDataNode",
+            "name": "GLOBAL",
+            "virtual_name": "NON_VALUE",
+            "functionNode": ".\\p7\\1825.cpp\\MKAverage\\calculateMKAverage()",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___MKAverage",
+                "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___MKAverage",
+                "dataType": "::MKAverage",
+                "realType": "::MKAverage",
+                "external": false,
+                "correspondingVar": ".\\p7\\1825.cpp\\MKAverage\\AKA_INSTANCE___MKAverage",
+                "correspondingType": ".\\p7\\1825.cpp\\MKAverage"
+              }
+            ],
+            "level": "GLOBAL",
+            "children": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___MKAverage",
+                "virtual_name": "AKA_INSTANCE___MKAverage",
+                "dataType": "::MKAverage",
+                "realType": "::MKAverage",
+                "external": true,
+                "correspondingVar": ".\\p7\\1825.cpp\\MKAverage\\AKA_INSTANCE___MKAverage",
+                "correspondingType": ".\\p7\\1825.cpp\\MKAverage",
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.SubClassDataNode",
+                    "name": "AKA_INSTANCE___MKAverage",
+                    "virtual_name": "AKA_INSTANCE___MKAverage",
+                    "dataType": "::MKAverage",
+                    "realType": "::MKAverage",
+                    "external": false,
+                    "correspondingVar": ".\\p7\\1825.cpp\\MKAverage\\AKA_INSTANCE___MKAverage",
+                    "correspondingType": ".\\p7\\1825.cpp\\MKAverage",
+                    "rawType": "::MKAverage",
+                    "selectedConstructor": "MKAverage(int,int)",
+                    "variableType": "::MKAverage",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                        "name": "MKAverage(int,int)",
+                        "virtual_name": "AKA_INSTANCE___MKAverage",
+                        "dataType": "::MKAverage",
+                        "realType": "::MKAverage",
+                        "functionNode": ".\\p7\\1825.cpp\\MKAverage\\MKAverage(int,int)",
+                        "children": [
+                          {
+                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                            "name": "m",
+                            "virtual_name": "AKA_INSTANCE___MKAverage_m",
+                            "dataType": "int",
+                            "realType": "int",
+                            "external": false,
+                            "correspondingVar": ".\\p7\\1825.cpp\\MKAverage\\MKAverage(int,int)\\m",
+                            "correspondingType": "int",
+                            "value": "1808145052"
+                          },
+                          {
+                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                            "name": "k",
+                            "virtual_name": "AKA_INSTANCE___MKAverage_k",
+                            "dataType": "int",
+                            "realType": "int",
+                            "external": false,
+                            "correspondingVar": ".\\p7\\1825.cpp\\MKAverage\\MKAverage(int,int)\\k",
+                            "correspondingType": "int",
+                            "value": "174052631"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "com.dse.testdata.object.stl.containers.associative.SetDataNode",
+                        "name": "mini",
+                        "virtual_name": "AKA_INSTANCE___MKAverage-\u003emini",
+                        "dataType": "set\u003cpair\u003cint,int\u003e\u003e",
+                        "realType": "set\u003cpair\u003cint,int\u003e\u003e",
+                        "external": false,
+                        "correspondingVar": ".\\p7\\1825.cpp\\MKAverage\\mini",
+                        "correspondingType": "STLListBaseType",
+                        "templateArg": "pair\u003cint,int\u003e",
+                        "size": 1,
+                        "children": [
+                          {
+                            "type": "com.dse.testdata.object.stl.PairDataNode",
+                            "name": "element #0",
+                            "virtual_name": "AKA_INSTANCE___MKAverage_mini_element0",
+                            "dataType": "pair\u003cint,int\u003e",
+                            "realType": "pair\u003cint,int\u003e",
+                            "external": false,
+                            "correspondingVar": ".\\p7\\1825.cpp\\MKAverage\\mini\\element #0",
+                            "correspondingType": "STLListBaseType",
+                            "templateArg": {
+                              "first": "int",
+                              "second": "int"
+                            },
+                            "children": [
+                              {
+                                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                "name": "first",
+                                "virtual_name": "AKA_INSTANCE___MKAverage_mini_element0-\u003efirst",
+                                "dataType": "int",
+                                "realType": "int",
+                                "external": false,
+                                "correspondingVar": ".\\p7\\1825.cpp\\MKAverage\\mini\\element #0\\first",
+                                "correspondingType": "int",
+                                "value": "null"
+                              },
+                              {
+                                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                "name": "second",
+                                "virtual_name": "AKA_INSTANCE___MKAverage_mini_element0-\u003esecond",
+                                "dataType": "int",
+                                "realType": "int",
+                                "external": false,
+                                "correspondingVar": ".\\p7\\1825.cpp\\MKAverage\\mini\\element #0\\second",
+                                "correspondingType": "int",
+                                "value": "null"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "com.dse.testdata.object.stl.containers.associative.SetDataNode",
+                        "name": "midi",
+                        "virtual_name": "AKA_INSTANCE___MKAverage-\u003emidi",
+                        "dataType": "set\u003cpair\u003cint,int\u003e\u003e",
+                        "realType": "set\u003cpair\u003cint,int\u003e\u003e",
+                        "external": false,
+                        "correspondingVar": ".\\p7\\1825.cpp\\MKAverage\\midi",
+                        "correspondingType": "STLListBaseType",
+                        "templateArg": "pair\u003cint,int\u003e",
+                        "size": 2,
+                        "children": [
+                          {
+                            "type": "com.dse.testdata.object.stl.PairDataNode",
+                            "name": "element #0",
+                            "virtual_name": "AKA_INSTANCE___MKAverage_midi_element0",
+                            "dataType": "pair\u003cint,int\u003e",
+                            "realType": "pair\u003cint,int\u003e",
+                            "external": false,
+                            "correspondingVar": ".\\p7\\1825.cpp\\MKAverage\\midi\\element #0",
+                            "correspondingType": "STLListBaseType",
+                            "templateArg": {
+                              "first": "int",
+                              "second": "int"
+                            },
+                            "children": [
+                              {
+                                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                "name": "first",
+                                "virtual_name": "AKA_INSTANCE___MKAverage_midi_element0-\u003efirst",
+                                "dataType": "int",
+                                "realType": "int",
+                                "external": false,
+                                "correspondingVar": ".\\p7\\1825.cpp\\MKAverage\\midi\\element #0\\first",
+                                "correspondingType": "int",
+                                "value": "null"
+                              },
+                              {
+                                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                "name": "second",
+                                "virtual_name": "AKA_INSTANCE___MKAverage_midi_element0-\u003esecond",
+                                "dataType": "int",
+                                "realType": "int",
+                                "external": false,
+                                "correspondingVar": ".\\p7\\1825.cpp\\MKAverage\\midi\\element #0\\second",
+                                "correspondingType": "int",
+                                "value": "null"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "com.dse.testdata.object.stl.PairDataNode",
+                            "name": "element #1",
+                            "virtual_name": "AKA_INSTANCE___MKAverage_midi_element1",
+                            "dataType": "pair\u003cint,int\u003e",
+                            "realType": "pair\u003cint,int\u003e",
+                            "external": false,
+                            "correspondingVar": ".\\p7\\1825.cpp\\MKAverage\\midi\\element #1",
+                            "correspondingType": "STLListBaseType",
+                            "templateArg": {
+                              "first": "int",
+                              "second": "int"
+                            },
+                            "children": [
+                              {
+                                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                "name": "first",
+                                "virtual_name": "AKA_INSTANCE___MKAverage_midi_element1-\u003efirst",
+                                "dataType": "int",
+                                "realType": "int",
+                                "external": false,
+                                "correspondingVar": ".\\p7\\1825.cpp\\MKAverage\\midi\\element #1\\first",
+                                "correspondingType": "int",
+                                "value": "null"
+                              },
+                              {
+                                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                "name": "second",
+                                "virtual_name": "AKA_INSTANCE___MKAverage_midi_element1-\u003esecond",
+                                "dataType": "int",
+                                "realType": "int",
+                                "external": false,
+                                "correspondingVar": ".\\p7\\1825.cpp\\MKAverage\\midi\\element #1\\second",
+                                "correspondingType": "int",
+                                "value": "null"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "com.dse.testdata.object.stl.containers.associative.SetDataNode",
+                        "name": "maxi",
+                        "virtual_name": "AKA_INSTANCE___MKAverage-\u003emaxi",
+                        "dataType": "set\u003cpair\u003cint,int\u003e\u003e",
+                        "realType": "set\u003cpair\u003cint,int\u003e\u003e",
+                        "external": false,
+                        "correspondingVar": ".\\p7\\1825.cpp\\MKAverage\\maxi",
+                        "correspondingType": "STLListBaseType",
+                        "templateArg": "pair\u003cint,int\u003e",
+                        "size": 2,
+                        "children": [
+                          {
+                            "type": "com.dse.testdata.object.stl.PairDataNode",
+                            "name": "element #0",
+                            "virtual_name": "AKA_INSTANCE___MKAverage_maxi_element0",
+                            "dataType": "pair\u003cint,int\u003e",
+                            "realType": "pair\u003cint,int\u003e",
+                            "external": false,
+                            "correspondingVar": ".\\p7\\1825.cpp\\MKAverage\\maxi\\element #0",
+                            "correspondingType": "STLListBaseType",
+                            "templateArg": {
+                              "first": "int",
+                              "second": "int"
+                            },
+                            "children": [
+                              {
+                                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                "name": "first",
+                                "virtual_name": "AKA_INSTANCE___MKAverage_maxi_element0-\u003efirst",
+                                "dataType": "int",
+                                "realType": "int",
+                                "external": false,
+                                "correspondingVar": ".\\p7\\1825.cpp\\MKAverage\\maxi\\element #0\\first",
+                                "correspondingType": "int",
+                                "value": "null"
+                              },
+                              {
+                                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                "name": "second",
+                                "virtual_name": "AKA_INSTANCE___MKAverage_maxi_element0-\u003esecond",
+                                "dataType": "int",
+                                "realType": "int",
+                                "external": false,
+                                "correspondingVar": ".\\p7\\1825.cpp\\MKAverage\\maxi\\element #0\\second",
+                                "correspondingType": "int",
+                                "value": "null"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "com.dse.testdata.object.stl.PairDataNode",
+                            "name": "element #1",
+                            "virtual_name": "AKA_INSTANCE___MKAverage_maxi_element1",
+                            "dataType": "pair\u003cint,int\u003e",
+                            "realType": "pair\u003cint,int\u003e",
+                            "external": false,
+                            "correspondingVar": ".\\p7\\1825.cpp\\MKAverage\\maxi\\element #1",
+                            "correspondingType": "STLListBaseType",
+                            "templateArg": {
+                              "first": "int",
+                              "second": "int"
+                            },
+                            "children": [
+                              {
+                                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                "name": "first",
+                                "virtual_name": "AKA_INSTANCE___MKAverage_maxi_element1-\u003efirst",
+                                "dataType": "int",
+                                "realType": "int",
+                                "external": false,
+                                "correspondingVar": ".\\p7\\1825.cpp\\MKAverage\\maxi\\element #1\\first",
+                                "correspondingType": "int",
+                                "value": "null"
+                              },
+                              {
+                                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                "name": "second",
+                                "virtual_name": "AKA_INSTANCE___MKAverage_maxi_element1-\u003esecond",
+                                "dataType": "int",
+                                "realType": "int",
+                                "external": false,
+                                "correspondingVar": ".\\p7\\1825.cpp\\MKAverage\\maxi\\element #1\\second",
+                                "correspondingType": "int",
+                                "value": "null"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "com.dse.testdata.object.stl.containers.adaptors.QueueDataNode",
+                        "name": "q",
+                        "virtual_name": "AKA_INSTANCE___MKAverage-\u003eq",
+                        "dataType": "queue\u003cpair\u003cint,int\u003e\u003e",
+                        "realType": "queue\u003cpair\u003cint,int\u003e\u003e",
+                        "external": false,
+                        "correspondingVar": ".\\p7\\1825.cpp\\MKAverage\\q",
+                        "correspondingType": "STLListBaseType",
+                        "templateArg": "pair\u003cint,int\u003e",
+                        "size": 3,
+                        "children": [
+                          {
+                            "type": "com.dse.testdata.object.stl.PairDataNode",
+                            "name": "element #0",
+                            "virtual_name": "AKA_INSTANCE___MKAverage_q_element0",
+                            "dataType": "pair\u003cint,int\u003e",
+                            "realType": "pair\u003cint,int\u003e",
+                            "external": false,
+                            "correspondingVar": ".\\p7\\1825.cpp\\MKAverage\\q\\element #0",
+                            "correspondingType": "STLListBaseType",
+                            "templateArg": {
+                              "first": "int",
+                              "second": "int"
+                            },
+                            "children": [
+                              {
+                                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                "name": "first",
+                                "virtual_name": "AKA_INSTANCE___MKAverage_q_element0-\u003efirst",
+                                "dataType": "int",
+                                "realType": "int",
+                                "external": false,
+                                "correspondingVar": ".\\p7\\1825.cpp\\MKAverage\\q\\element #0\\first",
+                                "correspondingType": "int",
+                                "value": "null"
+                              },
+                              {
+                                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                "name": "second",
+                                "virtual_name": "AKA_INSTANCE___MKAverage_q_element0-\u003esecond",
+                                "dataType": "int",
+                                "realType": "int",
+                                "external": false,
+                                "correspondingVar": ".\\p7\\1825.cpp\\MKAverage\\q\\element #0\\second",
+                                "correspondingType": "int",
+                                "value": "null"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "com.dse.testdata.object.stl.PairDataNode",
+                            "name": "element #1",
+                            "virtual_name": "AKA_INSTANCE___MKAverage_q_element1",
+                            "dataType": "pair\u003cint,int\u003e",
+                            "realType": "pair\u003cint,int\u003e",
+                            "external": false,
+                            "correspondingVar": ".\\p7\\1825.cpp\\MKAverage\\q\\element #1",
+                            "correspondingType": "STLListBaseType",
+                            "templateArg": {
+                              "first": "int",
+                              "second": "int"
+                            },
+                            "children": [
+                              {
+                                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                "name": "first",
+                                "virtual_name": "AKA_INSTANCE___MKAverage_q_element1-\u003efirst",
+                                "dataType": "int",
+                                "realType": "int",
+                                "external": false,
+                                "correspondingVar": ".\\p7\\1825.cpp\\MKAverage\\q\\element #1\\first",
+                                "correspondingType": "int",
+                                "value": "-1966609734"
+                              },
+                              {
+                                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                "name": "second",
+                                "virtual_name": "AKA_INSTANCE___MKAverage_q_element1-\u003esecond",
+                                "dataType": "int",
+                                "realType": "int",
+                                "external": false,
+                                "correspondingVar": ".\\p7\\1825.cpp\\MKAverage\\q\\element #1\\second",
+                                "correspondingType": "int",
+                                "value": "393985913"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "com.dse.testdata.object.stl.PairDataNode",
+                            "name": "element #2",
+                            "virtual_name": "AKA_INSTANCE___MKAverage_q_element2",
+                            "dataType": "pair\u003cint,int\u003e",
+                            "realType": "pair\u003cint,int\u003e",
+                            "external": false,
+                            "correspondingVar": ".\\p7\\1825.cpp\\MKAverage\\q\\element #2",
+                            "correspondingType": "STLListBaseType",
+                            "templateArg": {
+                              "first": "int",
+                              "second": "int"
+                            },
+                            "children": [
+                              {
+                                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                "name": "first",
+                                "virtual_name": "AKA_INSTANCE___MKAverage_q_element2-\u003efirst",
+                                "dataType": "int",
+                                "realType": "int",
+                                "external": false,
+                                "correspondingVar": ".\\p7\\1825.cpp\\MKAverage\\q\\element #2\\first",
+                                "correspondingType": "int",
+                                "value": "811937125"
+                              },
+                              {
+                                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                "name": "second",
+                                "virtual_name": "AKA_INSTANCE___MKAverage_q_element2-\u003esecond",
+                                "dataType": "int",
+                                "realType": "int",
+                                "external": false,
+                                "correspondingVar": ".\\p7\\1825.cpp\\MKAverage\\q\\element #2\\second",
+                                "correspondingType": "int",
+                                "value": "-1704795133"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "type": "com.dse.testdata.object.NormalNumberDataNode",
+                        "name": "id",
+                        "virtual_name": "AKA_INSTANCE___MKAverage-\u003eid",
+                        "dataType": "int",
+                        "realType": "int",
+                        "external": false,
+                        "correspondingVar": ".\\p7\\1825.cpp\\MKAverage\\id",
+                        "correspondingType": "int",
+                        "value": "null"
+                      },
+                      {
+                        "type": "com.dse.testdata.object.NormalNumberDataNode",
+                        "name": "k",
+                        "virtual_name": "AKA_INSTANCE___MKAverage-\u003ek",
+                        "dataType": "int",
+                        "realType": "int",
+                        "external": false,
+                        "correspondingVar": ".\\p7\\1825.cpp\\MKAverage\\k",
+                        "correspondingType": "int",
+                        "value": "174052631"
+                      },
+                      {
+                        "type": "com.dse.testdata.object.NormalNumberDataNode",
+                        "name": "n",
+                        "virtual_name": "AKA_INSTANCE___MKAverage-\u003en",
+                        "dataType": "int",
+                        "realType": "int",
+                        "external": false,
+                        "correspondingVar": ".\\p7\\1825.cpp\\MKAverage\\n",
+                        "correspondingType": "int",
+                        "value": "275041176"
+                      },
+                      {
+                        "type": "com.dse.testdata.object.NormalNumberDataNode",
+                        "name": "m",
+                        "virtual_name": "AKA_INSTANCE___MKAverage-\u003em",
+                        "dataType": "int",
+                        "realType": "int",
+                        "external": false,
+                        "correspondingVar": ".\\p7\\1825.cpp\\MKAverage\\m",
+                        "correspondingType": "int",
+                        "value": "1808145052"
+                      },
+                      {
+                        "type": "com.dse.testdata.object.NormalNumberDataNode",
+                        "name": "lim",
+                        "virtual_name": "AKA_INSTANCE___MKAverage-\u003elim",
+                        "dataType": "int",
+                        "realType": "int",
+                        "external": false,
+                        "correspondingVar": ".\\p7\\1825.cpp\\MKAverage\\lim",
+                        "correspondingType": "int",
+                        "value": "null"
+                      },
+                      {
+                        "type": "com.dse.testdata.object.NormalNumberDataNode",
+                        "name": "sum",
+                        "virtual_name": "AKA_INSTANCE___MKAverage-\u003esum",
+                        "dataType": "int",
+                        "realType": "int",
+                        "external": false,
+                        "correspondingVar": ".\\p7\\1825.cpp\\MKAverage\\sum",
+                        "correspondingType": "int",
+                        "value": "-841068423"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "com.dse.testdata.object.SubprogramNode",
+            "name": "calculateMKAverage()",
+            "virtual_name": "NON_VALUE",
+            "dataType": "int",
+            "realType": "int",
+            "functionNode": ".\\p7\\1825.cpp\\MKAverage\\calculateMKAverage()",
+            "children": [
+              {
+                "type": "com.dse.testdata.object.RootDataNode",
+                "name": "STATIC",
+                "virtual_name": "NON_VALUE",
+                "functionNode": ".\\p7\\1825.cpp\\MKAverage\\calculateMKAverage()",
+                "level": "STATIC"
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "RETURN",
+                "virtual_name": "AKA_EXPECTED_OUTPUT",
+                "dataType": "int",
+                "realType": "int",
+                "external": false,
+                "correspondingVar": ".\\p7\\1825.cpp\\MKAverage\\calculateMKAverage()\\RETURN",
+                "correspondingType": "int",
+                "value": "null"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.RootDataNode",
+        "name": "STUB",
+        "virtual_name": "NON_VALUE",
+        "functionNode": ".\\p7\\1825.cpp\\MKAverage\\calculateMKAverage()",
+        "level": "STUB"
+      }
+    ]
+  },
+  "procedures": []
+}

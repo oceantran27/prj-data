@@ -1,0 +1,30 @@
+<pre>...
+...
+...
+...
+<b style="color: grey;">19    </b>    for (int i = 0; i &lt; n; i++) par[i] = i;
+<b style="color: grey;">20    </b>  }
+<b style="color: grey;">21    </b>};
+<b style="color: grey;">22    </b>
+<b style="color: grey;">23    </b>class Solution {
+<b style="color: grey;">24    </b> public:
+<b style="color: grey;">25    </b>  vector&lt;int&gt; spf;
+<b style="color: grey;">26    </b>  vector&lt;int&gt; getAllFactors(int x) {
+<b style="color: grey;">27    </b>    <b style="background-color:yellow;color:black";>vector&lt;int&gt; factors;</b>
+<b style="color: grey;">28    </b>    while (<b style="background-color:#3D9970;color:white";>&nbsp;T&nbsp;</b>&nbsp;<b style="background-color:#FF4136;color:white";>&nbsp;F&nbsp;</b>&nbsp;<b style="background-color:yellow;color:black";>x &gt; 1</b>) {
+<b style="color: grey;">29    </b>      <b style="background-color:yellow;color:black";>factors.push_back(spf[x]);</b>
+<b style="color: grey;">30    </b>      <b style="background-color:yellow;color:black";>x /= spf[x];</b>
+<b style="color: grey;">31    </b>    }
+<b style="color: grey;">32    </b>    <b style="background-color:yellow;color:black";>return factors;</b>
+<b style="color: grey;">33    </b>  }
+<b style="color: grey;">34    </b>  void sieve(int n) {
+<b style="color: grey;">35    </b>    spf.resize(n);
+<b style="color: grey;">36    </b>    for (int i = 2; i &lt; n; i++) spf[i] = i;
+<b style="color: grey;">37    </b>    for (int i = 2; i * i &lt; n; i++) {
+<b style="color: grey;">38    </b>      if (spf[i] == i) {
+<b style="color: grey;">39    </b>        for (int j = i * i; j &lt; n; j += i) {
+...
+...
+...
+...
+</pre>

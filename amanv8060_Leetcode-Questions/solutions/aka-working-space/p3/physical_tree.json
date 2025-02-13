@@ -1,0 +1,61 @@
+{
+  "path": ".\\p3",
+  "type": "com.dse.parser.object.ProjectNode",
+  "children": [
+    {
+      "path": ".\\p3\\26.cpp",
+      "type": "com.dse.parser.object.CppFileNode",
+      "last-modified": "02/12/2025 06:29:13",
+      "children": [
+        {
+          "path": ".\\p3\\26.cpp\\",
+          "type": "com.dse.parser.object.UnspecifiedDeclaration"
+        }
+      ]
+    },
+    {
+      "path": ".\\p3\\27.cpp",
+      "type": "com.dse.parser.object.CppFileNode",
+      "last-modified": "02/12/2025 06:29:13",
+      "children": [
+        {
+          "path": ".\\p3\\27.cpp\\",
+          "type": "com.dse.parser.object.UnspecifiedDeclaration"
+        }
+      ]
+    },
+    {
+      "path": ".\\p3\\29.cpp",
+      "type": "com.dse.parser.object.CppFileNode",
+      "last-modified": "02/12/2025 06:29:13",
+      "children": [
+        {
+          "path": ".\\p3\\29.cpp\\",
+          "type": "com.dse.parser.object.UnspecifiedDeclaration"
+        }
+      ]
+    },
+    {
+      "path": ".\\p3\\35.cpp",
+      "type": "com.dse.parser.object.CppFileNode",
+      "last-modified": "02/12/2025 06:29:13",
+      "children": [
+        {
+          "path": ".\\p3\\35.cpp\\",
+          "type": "com.dse.parser.object.UnspecifiedDeclaration"
+        }
+      ]
+    },
+    {
+      "path": ".\\p3\\42.cpp",
+      "type": "com.dse.parser.object.CppFileNode",
+      "last-modified": "02/12/2025 06:29:13",
+      "children": [
+        {
+          "path": ".\\p3\\42.cpp\\",
+          "type": "com.dse.parser.object.UnspecifiedDeclaration"
+        }
+      ]
+    }
+  ]
+}

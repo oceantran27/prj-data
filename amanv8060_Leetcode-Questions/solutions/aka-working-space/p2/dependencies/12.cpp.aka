@@ -1,0 +1,14 @@
+{
+  "path": ".\\p2\\12.cpp",
+  "dependency": [
+    {
+      "start": ".\\p2\\12.cpp\\Solution\\intToRoman(int)",
+      "start-type": "FunctionNode",
+      "start-md5": "ed3bd5818ccbab368a08be1051e7fc27",
+      "end": ".\\p2\\12.cpp\\Solution",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "5cd45c9ee471d5f36f2a557013bb9021"
+    }
+  ]
+}

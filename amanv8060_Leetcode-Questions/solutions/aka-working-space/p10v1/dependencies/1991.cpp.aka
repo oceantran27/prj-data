@@ -1,0 +1,14 @@
+{
+  "path": ".\\p10\\1991.cpp",
+  "dependency": [
+    {
+      "start": ".\\p10\\1991.cpp\\Solution\\findMiddleIndex(vector\u003cint\u003e\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "8c05e3490b12cadb6b13316ae1d889e4",
+      "end": ".\\p10\\1991.cpp\\Solution",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "2da4faf99ebb763abd407d66499f4e71"
+    }
+  ]
+}

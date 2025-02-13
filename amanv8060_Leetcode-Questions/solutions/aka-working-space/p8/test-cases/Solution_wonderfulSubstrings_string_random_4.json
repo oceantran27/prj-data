@@ -1,0 +1,203 @@
+{
+  "name": "Solution_wonderfulSubstrings_string_random_4",
+  "status": "success",
+  "testCaseUserCode": {
+    "includePaths": [],
+    "setUpContent": "// set up\n;",
+    "tearDownContent": "// tear down\n;"
+  },
+  "path": ".\\\\aka-working-space\\\\p8\\\\test-cases\\Solution_wonderfulSubstrings_string_random_4.json",
+  "sourceCode": ".\\\\aka-working-space\\\\p8\\\\test-drivers\\Solution_wonderfulSubstrings_string_random_4.cpp",
+  "testPath": ".\\\\aka-working-space\\\\p8\\\\test-paths\\Solution_wonderfulSubstrings_string_random_4.tp",
+  "executable": ".\\\\aka-working-space\\\\p8\\\\exe\\Solution_wonderfulSubstrings_string_random_4.exe",
+  "commandConfig": ".\\aka-working-space\\p8\\test-case-commands\\Solution_wonderfulSubstrings_string_random_4.json",
+  "commandDebug": ".\\\\aka-working-space\\\\p8\\\\debugger\\\\commands\\Solution_wonderfulSubstrings_string_random_4.json",
+  "breakPoint": ".\\\\aka-working-space\\\\p8\\\\debugger\\\\breakpoints\\Solution_wonderfulSubstrings_string_random_4.br.json",
+  "debugExecutable": ".\\\\aka-working-space\\\\p8\\\\exe\\debug_Solution_wonderfulSubstrings_string_random_4.exe",
+  "executionResult": ".\\\\aka-working-space\\\\p8\\\\execution-results\\Solution_wonderfulSubstrings_string_random_4.xml",
+  "creationDate": "2025-02-13T09:39:56.839971200",
+  "executionDate": "2025-02-13T09:41:03.761121200",
+  "rootDataNode": {
+    "type": "com.dse.testdata.object.RootDataNode",
+    "name": "ROOT",
+    "virtual_name": "NON_VALUE",
+    "functionNode": ".\\p8\\1915.cpp\\Solution\\wonderfulSubstrings(string)",
+    "level": "ROOT",
+    "children": [
+      {
+        "type": "com.dse.testdata.object.UnitUnderTestNode",
+        "name": "1915.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\p8\\1915.cpp",
+        "children": [
+          {
+            "type": "com.dse.testdata.object.GlobalRootDataNode",
+            "name": "GLOBAL",
+            "virtual_name": "NON_VALUE",
+            "functionNode": ".\\p8\\1915.cpp\\Solution\\wonderfulSubstrings(string)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": false,
+                "correspondingVar": ".\\p8\\1915.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p8\\1915.cpp\\Solution"
+              }
+            ],
+            "level": "GLOBAL",
+            "children": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": true,
+                "correspondingVar": ".\\p8\\1915.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p8\\1915.cpp\\Solution",
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.SubClassDataNode",
+                    "name": "AKA_INSTANCE___Solution",
+                    "virtual_name": "AKA_INSTANCE___Solution",
+                    "dataType": "::Solution",
+                    "realType": "::Solution",
+                    "external": false,
+                    "correspondingVar": ".\\p8\\1915.cpp\\Solution\\AKA_INSTANCE___Solution",
+                    "correspondingType": ".\\p8\\1915.cpp\\Solution",
+                    "rawType": "::Solution",
+                    "selectedConstructor": "Solution()",
+                    "variableType": "::Solution",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                        "name": "Solution()",
+                        "virtual_name": "AKA_INSTANCE___Solution",
+                        "dataType": "::Solution",
+                        "realType": "::Solution",
+                        "functionNode": "\\Solution()"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "com.dse.testdata.object.SubprogramNode",
+            "name": "wonderfulSubstrings(string)",
+            "virtual_name": "NON_VALUE",
+            "dataType": "long long",
+            "realType": "long long",
+            "functionNode": ".\\p8\\1915.cpp\\Solution\\wonderfulSubstrings(string)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.NormalStringDataNode",
+                "name": "s",
+                "virtual_name": "EXPECTED_s",
+                "dataType": "string",
+                "realType": "string",
+                "external": false,
+                "correspondingVar": ".\\p8\\1915.cpp\\Solution\\wonderfulSubstrings(string)\\s",
+                "correspondingType": "string",
+                "value": "null"
+              }
+            ],
+            "children": [
+              {
+                "type": "com.dse.testdata.object.RootDataNode",
+                "name": "STATIC",
+                "virtual_name": "NON_VALUE",
+                "functionNode": ".\\p8\\1915.cpp\\Solution\\wonderfulSubstrings(string)",
+                "level": "STATIC"
+              },
+              {
+                "type": "com.dse.testdata.object.NormalStringDataNode",
+                "name": "s",
+                "virtual_name": "s",
+                "dataType": "string",
+                "realType": "string",
+                "external": false,
+                "correspondingVar": ".\\p8\\1915.cpp\\Solution\\wonderfulSubstrings(string)\\s",
+                "correspondingType": "string",
+                "value": "1",
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.NormalCharacterDataNode",
+                    "name": "s[0]",
+                    "virtual_name": "s[0]",
+                    "dataType": "char",
+                    "realType": "char",
+                    "external": false,
+                    "correspondingVar": ".\\p8\\1915.cpp\\Solution\\wonderfulSubstrings(string)\\s\\s[0]",
+                    "correspondingType": "char",
+                    "value": "105"
+                  }
+                ]
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "RETURN",
+                "virtual_name": "AKA_EXPECTED_OUTPUT",
+                "dataType": "long long",
+                "realType": "long long",
+                "external": false,
+                "correspondingVar": ".\\p8\\1915.cpp\\Solution\\wonderfulSubstrings(string)\\RETURN",
+                "correspondingType": "long long",
+                "value": "null"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.RootDataNode",
+        "name": "STUB",
+        "virtual_name": "NON_VALUE",
+        "functionNode": ".\\p8\\1915.cpp\\Solution\\wonderfulSubstrings(string)",
+        "level": "STUB"
+      }
+    ]
+  },
+  "procedures": [
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "i \u003c n",
+      "isSelected": false,
+      "location": 188,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "mp.count(mask)",
+      "isSelected": false,
+      "location": 255,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "j \u003c\u003d \u0027j\u0027",
+      "isSelected": false,
+      "location": 336,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "mp.count(x)",
+      "isSelected": false,
+      "location": 414,
+      "calls": [],
+      "children": []
+    }
+  ]
+}

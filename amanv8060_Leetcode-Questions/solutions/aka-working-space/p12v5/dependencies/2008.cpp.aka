@@ -1,0 +1,41 @@
+{
+  "path": ".\\p12\\2008.cpp",
+  "dependency": [
+    {
+      "start": ".\\p12\\2008.cpp\\Solution\\maxTaxiEarnings(int,vector\u003cvector\u003cint\u003e\u003e\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "2cf9aadc13dfef96c3b5818a01ad6386",
+      "end": ".\\p12\\2008.cpp\\Solution",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "010e93454eee4609dfaeb3cadd440b6b"
+    },
+    {
+      "start": ".\\p12\\2008.cpp\\Solution\\solver(vector\u003cvector\u003cint\u003e\u003e\u0026,int,int,vector\u003clong long\u003e\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "d7ef4a554a2def1970b852296eafd4b2",
+      "end": ".\\p12\\2008.cpp\\Solution",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "010e93454eee4609dfaeb3cadd440b6b"
+    },
+    {
+      "start": ".\\p12\\2008.cpp\\Solution\\solver(vector\u003cvector\u003cint\u003e\u003e\u0026,int,int,vector\u003clong long\u003e\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "d7ef4a554a2def1970b852296eafd4b2",
+      "end": ".\\p12\\2008.cpp\\Solution\\solver(vector\u003cvector\u003cint\u003e\u003e\u0026,int,int,vector\u003clong long\u003e\u0026)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "d7ef4a554a2def1970b852296eafd4b2"
+    },
+    {
+      "start": ".\\p12\\2008.cpp\\Solution\\maxTaxiEarnings(int,vector\u003cvector\u003cint\u003e\u003e\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "2cf9aadc13dfef96c3b5818a01ad6386",
+      "end": ".\\p12\\2008.cpp\\Solution\\solver(vector\u003cvector\u003cint\u003e\u003e\u0026,int,int,vector\u003clong long\u003e\u0026)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "d7ef4a554a2def1970b852296eafd4b2"
+    }
+  ]
+}

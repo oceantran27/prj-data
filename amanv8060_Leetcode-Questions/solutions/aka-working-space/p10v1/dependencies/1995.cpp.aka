@@ -1,0 +1,14 @@
+{
+  "path": ".\\p10\\1995.cpp",
+  "dependency": [
+    {
+      "start": ".\\p10\\1995.cpp\\Solution\\countQuadruplets(vector\u003cint\u003e\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "55f6595ab749d9d6d15fa5015aedaaf5",
+      "end": ".\\p10\\1995.cpp\\Solution",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "6bae21f2d71688cf99df8cf3b0d64b23"
+    }
+  ]
+}

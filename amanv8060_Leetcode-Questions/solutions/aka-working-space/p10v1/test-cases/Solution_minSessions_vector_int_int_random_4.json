@@ -1,0 +1,248 @@
+{
+  "name": "Solution_minSessions_vector_int_int_random_4",
+  "status": "success",
+  "testCaseUserCode": {
+    "includePaths": [],
+    "setUpContent": "// set up\n;",
+    "tearDownContent": "// tear down\n;"
+  },
+  "path": ".\\\\aka-working-space\\\\p10v1\\\\test-cases\\Solution_minSessions_vector_int_int_random_4.json",
+  "sourceCode": ".\\\\aka-working-space\\\\p10v1\\\\test-drivers\\Solution_minSessions_vector_int_int_random_4.cpp",
+  "testPath": ".\\\\aka-working-space\\\\p10v1\\\\test-paths\\Solution_minSessions_vector_int_int_random_4.tp",
+  "executable": ".\\\\aka-working-space\\\\p10v1\\\\exe\\Solution_minSessions_vector_int_int_random_4.exe",
+  "commandConfig": ".\\aka-working-space\\p10v1\\test-case-commands\\Solution_minSessions_vector_int_int_random_4.json",
+  "commandDebug": ".\\\\aka-working-space\\\\p10v1\\\\debugger\\\\commands\\Solution_minSessions_vector_int_int_random_4.json",
+  "breakPoint": ".\\\\aka-working-space\\\\p10v1\\\\debugger\\\\breakpoints\\Solution_minSessions_vector_int_int_random_4.br.json",
+  "debugExecutable": ".\\\\aka-working-space\\\\p10v1\\\\exe\\debug_Solution_minSessions_vector_int_int_random_4.exe",
+  "executionResult": ".\\\\aka-working-space\\\\p10v1\\\\execution-results\\Solution_minSessions_vector_int_int_random_4.xml",
+  "creationDate": "2025-02-13T10:39:28.541763600",
+  "executionDate": "2025-02-13T10:40:26.346407400",
+  "rootDataNode": {
+    "type": "com.dse.testdata.object.RootDataNode",
+    "name": "ROOT",
+    "virtual_name": "NON_VALUE",
+    "functionNode": ".\\p10\\1986.cpp\\Solution\\minSessions(vector\u003cint\u003e\u0026,int)",
+    "level": "ROOT",
+    "children": [
+      {
+        "type": "com.dse.testdata.object.UnitUnderTestNode",
+        "name": "1986.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\p10\\1986.cpp",
+        "children": [
+          {
+            "type": "com.dse.testdata.object.GlobalRootDataNode",
+            "name": "GLOBAL",
+            "virtual_name": "NON_VALUE",
+            "functionNode": ".\\p10\\1986.cpp\\Solution\\minSessions(vector\u003cint\u003e\u0026,int)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": false,
+                "correspondingVar": ".\\p10\\1986.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p10\\1986.cpp\\Solution"
+              }
+            ],
+            "level": "GLOBAL",
+            "children": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": true,
+                "correspondingVar": ".\\p10\\1986.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p10\\1986.cpp\\Solution",
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.SubClassDataNode",
+                    "name": "AKA_INSTANCE___Solution",
+                    "virtual_name": "AKA_INSTANCE___Solution",
+                    "dataType": "::Solution",
+                    "realType": "::Solution",
+                    "external": false,
+                    "correspondingVar": ".\\p10\\1986.cpp\\Solution\\AKA_INSTANCE___Solution",
+                    "correspondingType": ".\\p10\\1986.cpp\\Solution",
+                    "rawType": "::Solution",
+                    "selectedConstructor": "Solution()",
+                    "variableType": "::Solution",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                        "name": "Solution()",
+                        "virtual_name": "AKA_INSTANCE___Solution",
+                        "dataType": "::Solution",
+                        "realType": "::Solution",
+                        "functionNode": "\\Solution()"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "com.dse.testdata.object.SubprogramNode",
+            "name": "minSessions(vector\u003cint\u003e\u0026,int)",
+            "virtual_name": "NON_VALUE",
+            "dataType": "int",
+            "realType": "int",
+            "functionNode": ".\\p10\\1986.cpp\\Solution\\minSessions(vector\u003cint\u003e\u0026,int)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                "name": "tasks",
+                "virtual_name": "EXPECTED_tasks",
+                "dataType": "vector\u003cint\u003e",
+                "realType": "vector\u003cint\u003e\u0026",
+                "external": false,
+                "correspondingVar": ".\\p10\\1986.cpp\\Solution\\minSessions(vector\u003cint\u003e\u0026,int)\\tasks",
+                "correspondingType": "STLListBaseType",
+                "templateArg": "int"
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "sessionTime",
+                "virtual_name": "EXPECTED_sessionTime",
+                "dataType": "int",
+                "realType": "int",
+                "external": false,
+                "correspondingVar": ".\\p10\\1986.cpp\\Solution\\minSessions(vector\u003cint\u003e\u0026,int)\\sessionTime",
+                "correspondingType": "int",
+                "value": "null"
+              }
+            ],
+            "children": [
+              {
+                "type": "com.dse.testdata.object.RootDataNode",
+                "name": "STATIC",
+                "virtual_name": "NON_VALUE",
+                "functionNode": ".\\p10\\1986.cpp\\Solution\\minSessions(vector\u003cint\u003e\u0026,int)",
+                "level": "STATIC"
+              },
+              {
+                "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                "name": "tasks",
+                "virtual_name": "tasks",
+                "dataType": "vector\u003cint\u003e",
+                "realType": "vector\u003cint\u003e\u0026",
+                "external": false,
+                "correspondingVar": ".\\p10\\1986.cpp\\Solution\\minSessions(vector\u003cint\u003e\u0026,int)\\tasks",
+                "correspondingType": "STLListBaseType",
+                "templateArg": "int",
+                "size": 3,
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.NormalNumberDataNode",
+                    "name": "element #0",
+                    "virtual_name": "tasks_element0",
+                    "dataType": "int",
+                    "realType": "int",
+                    "external": false,
+                    "correspondingVar": ".\\p10\\1986.cpp\\Solution\\minSessions(vector\u003cint\u003e\u0026,int)\\tasks\\element #0",
+                    "correspondingType": "int",
+                    "value": "-2127498247"
+                  },
+                  {
+                    "type": "com.dse.testdata.object.NormalNumberDataNode",
+                    "name": "element #1",
+                    "virtual_name": "tasks_element1",
+                    "dataType": "int",
+                    "realType": "int",
+                    "external": false,
+                    "correspondingVar": ".\\p10\\1986.cpp\\Solution\\minSessions(vector\u003cint\u003e\u0026,int)\\tasks\\element #1",
+                    "correspondingType": "int",
+                    "value": "1806919983"
+                  },
+                  {
+                    "type": "com.dse.testdata.object.NormalNumberDataNode",
+                    "name": "element #2",
+                    "virtual_name": "tasks_element2",
+                    "dataType": "int",
+                    "realType": "int",
+                    "external": false,
+                    "correspondingVar": ".\\p10\\1986.cpp\\Solution\\minSessions(vector\u003cint\u003e\u0026,int)\\tasks\\element #2",
+                    "correspondingType": "int",
+                    "value": "1575055809"
+                  }
+                ]
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "sessionTime",
+                "virtual_name": "sessionTime",
+                "dataType": "int",
+                "realType": "int",
+                "external": false,
+                "correspondingVar": ".\\p10\\1986.cpp\\Solution\\minSessions(vector\u003cint\u003e\u0026,int)\\sessionTime",
+                "correspondingType": "int",
+                "value": "1227973382"
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "RETURN",
+                "virtual_name": "AKA_EXPECTED_OUTPUT",
+                "dataType": "int",
+                "realType": "int",
+                "external": false,
+                "correspondingVar": ".\\p10\\1986.cpp\\Solution\\minSessions(vector\u003cint\u003e\u0026,int)\\RETURN",
+                "correspondingType": "int",
+                "value": "null"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.RootDataNode",
+        "name": "STUB",
+        "virtual_name": "NON_VALUE",
+        "functionNode": ".\\p10\\1986.cpp\\Solution\\minSessions(vector\u003cint\u003e\u0026,int)",
+        "level": "STUB"
+      }
+    ]
+  },
+  "procedures": [
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "mask \u003c (1 \u003c\u003c N)",
+      "isSelected": false,
+      "location": 213,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "i \u003c N",
+      "isSelected": false,
+      "location": 304,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "mask \u0026 (1 \u003c\u003c i)",
+      "isSelected": false,
+      "location": 331,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "cur.second + tasks[i] \u003e sessionTime",
+      "isSelected": false,
+      "location": 418,
+      "calls": [],
+      "children": []
+    }
+  ]
+}

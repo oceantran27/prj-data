@@ -1,0 +1,20 @@
+{
+  "function": ".\\p10\\1993.cpp\\LockingTree\\LockingTree(vector\u003cint\u003e\u0026)",
+  "testdataGenStrategy": "BEST COVERAGE",
+  "theMaxNumberOfIterations": 10,
+  "floatAndDoubleDelta": 0.1,
+  "lowerBoundOfOtherNumberVars": "MIN",
+  "upperBoundOfOtherNumberVars": "MAX",
+  "lowerBoundOfOtherCharacterVars": "MIN",
+  "upperBoundOfOtherCharacterVars": "MAX",
+  "lowerBoundOfOtherArrays": "1",
+  "upperBoundOfOtherArrays": "3",
+  "lowerBoundOfOtherPointers": "0",
+  "upperBoundOfOtherPointers": "3",
+  "boundOfArguments": [
+    {
+      "type_class": "com.dse.config.UndefinedBound",
+      "name": "parent"
+    }
+  ]
+}

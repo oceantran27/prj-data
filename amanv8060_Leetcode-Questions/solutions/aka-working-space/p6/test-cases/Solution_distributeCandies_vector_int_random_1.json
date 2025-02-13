@@ -1,0 +1,186 @@
+{
+  "name": "Solution_distributeCandies_vector_int_random_1",
+  "status": "success",
+  "testCaseUserCode": {
+    "includePaths": [],
+    "setUpContent": "// set up\n;",
+    "tearDownContent": "// tear down\n;"
+  },
+  "path": ".\\\\aka-working-space\\\\p6\\\\test-cases\\Solution_distributeCandies_vector_int_random_1.json",
+  "sourceCode": ".\\\\aka-working-space\\\\p6\\\\test-drivers\\Solution_distributeCandies_vector_int_random_1.cpp",
+  "testPath": ".\\\\aka-working-space\\\\p6\\\\test-paths\\Solution_distributeCandies_vector_int_random_1.tp",
+  "executable": ".\\\\aka-working-space\\\\p6\\\\exe\\Solution_distributeCandies_vector_int_random_1.exe",
+  "commandConfig": ".\\aka-working-space\\p6\\test-case-commands\\Solution_distributeCandies_vector_int_random_1.json",
+  "commandDebug": ".\\\\aka-working-space\\\\p6\\\\debugger\\\\commands\\Solution_distributeCandies_vector_int_random_1.json",
+  "breakPoint": ".\\\\aka-working-space\\\\p6\\\\debugger\\\\breakpoints\\Solution_distributeCandies_vector_int_random_1.br.json",
+  "debugExecutable": ".\\\\aka-working-space\\\\p6\\\\exe\\debug_Solution_distributeCandies_vector_int_random_1.exe",
+  "executionResult": ".\\\\aka-working-space\\\\p6\\\\execution-results\\Solution_distributeCandies_vector_int_random_1.xml",
+  "creationDate": "2025-02-13T09:23:58.567675500",
+  "executionDate": "2025-02-13T09:24:16.654103600",
+  "rootDataNode": {
+    "type": "com.dse.testdata.object.RootDataNode",
+    "name": "ROOT",
+    "virtual_name": "NON_VALUE",
+    "functionNode": ".\\p6\\575.cpp\\Solution\\distributeCandies(vector\u003cint\u003e\u0026)",
+    "level": "ROOT",
+    "children": [
+      {
+        "type": "com.dse.testdata.object.UnitUnderTestNode",
+        "name": "575.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\p6\\575.cpp",
+        "children": [
+          {
+            "type": "com.dse.testdata.object.GlobalRootDataNode",
+            "name": "GLOBAL",
+            "virtual_name": "NON_VALUE",
+            "functionNode": ".\\p6\\575.cpp\\Solution\\distributeCandies(vector\u003cint\u003e\u0026)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": false,
+                "correspondingVar": ".\\p6\\575.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p6\\575.cpp\\Solution"
+              }
+            ],
+            "level": "GLOBAL",
+            "children": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": true,
+                "correspondingVar": ".\\p6\\575.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p6\\575.cpp\\Solution",
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.SubClassDataNode",
+                    "name": "AKA_INSTANCE___Solution",
+                    "virtual_name": "AKA_INSTANCE___Solution",
+                    "dataType": "::Solution",
+                    "realType": "::Solution",
+                    "external": false,
+                    "correspondingVar": ".\\p6\\575.cpp\\Solution\\AKA_INSTANCE___Solution",
+                    "correspondingType": ".\\p6\\575.cpp\\Solution",
+                    "rawType": "::Solution",
+                    "selectedConstructor": "Solution()",
+                    "variableType": "::Solution",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                        "name": "Solution()",
+                        "virtual_name": "AKA_INSTANCE___Solution",
+                        "dataType": "::Solution",
+                        "realType": "::Solution",
+                        "functionNode": "\\Solution()"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "com.dse.testdata.object.SubprogramNode",
+            "name": "distributeCandies(vector\u003cint\u003e\u0026)",
+            "virtual_name": "NON_VALUE",
+            "dataType": "int",
+            "realType": "int",
+            "functionNode": ".\\p6\\575.cpp\\Solution\\distributeCandies(vector\u003cint\u003e\u0026)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                "name": "candyType",
+                "virtual_name": "EXPECTED_candyType",
+                "dataType": "vector\u003cint\u003e",
+                "realType": "vector\u003cint\u003e\u0026",
+                "external": false,
+                "correspondingVar": ".\\p6\\575.cpp\\Solution\\distributeCandies(vector\u003cint\u003e\u0026)\\candyType",
+                "correspondingType": "STLListBaseType",
+                "templateArg": "int"
+              }
+            ],
+            "children": [
+              {
+                "type": "com.dse.testdata.object.RootDataNode",
+                "name": "STATIC",
+                "virtual_name": "NON_VALUE",
+                "functionNode": ".\\p6\\575.cpp\\Solution\\distributeCandies(vector\u003cint\u003e\u0026)",
+                "level": "STATIC"
+              },
+              {
+                "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                "name": "candyType",
+                "virtual_name": "candyType",
+                "dataType": "vector\u003cint\u003e",
+                "realType": "vector\u003cint\u003e\u0026",
+                "external": false,
+                "correspondingVar": ".\\p6\\575.cpp\\Solution\\distributeCandies(vector\u003cint\u003e\u0026)\\candyType",
+                "correspondingType": "STLListBaseType",
+                "templateArg": "int",
+                "size": 1,
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.NormalNumberDataNode",
+                    "name": "element #0",
+                    "virtual_name": "candyType_element0",
+                    "dataType": "int",
+                    "realType": "int",
+                    "external": false,
+                    "correspondingVar": ".\\p6\\575.cpp\\Solution\\distributeCandies(vector\u003cint\u003e\u0026)\\candyType\\element #0",
+                    "correspondingType": "int",
+                    "value": "1880516419"
+                  }
+                ]
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "RETURN",
+                "virtual_name": "AKA_EXPECTED_OUTPUT",
+                "dataType": "int",
+                "realType": "int",
+                "external": false,
+                "correspondingVar": ".\\p6\\575.cpp\\Solution\\distributeCandies(vector\u003cint\u003e\u0026)\\RETURN",
+                "correspondingType": "int",
+                "value": "null"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.RootDataNode",
+        "name": "STUB",
+        "virtual_name": "NON_VALUE",
+        "functionNode": ".\\p6\\575.cpp\\Solution\\distributeCandies(vector\u003cint\u003e\u0026)",
+        "level": "STUB"
+      }
+    ]
+  },
+  "procedures": [
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "i \u003c n",
+      "isSelected": false,
+      "location": 122,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "maplen \u003e\u003d n / 2",
+      "isSelected": false,
+      "location": 216,
+      "calls": [],
+      "children": []
+    }
+  ]
+}

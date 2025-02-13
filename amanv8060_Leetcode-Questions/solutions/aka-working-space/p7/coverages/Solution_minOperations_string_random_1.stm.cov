@@ -1,0 +1,40 @@
+<pre>...
+...
+...
+...
+<b style="color: grey;">6     </b>#include &lt;unordered_map&gt;
+<b style="color: grey;">7     </b>#include &lt;algorithm&gt;
+<b style="color: grey;">8     </b>#include &lt;bits/stdc++.h&gt;
+<b style="color: grey;">9     </b>using namespace std;
+<b style="color: grey;">10     </b>
+<b style="color: grey;">11    </b>class Solution {
+<b style="color: grey;">12    </b> public:
+<b style="color: grey;">13    </b>  int minOperations(string s) {
+<b style="color: grey;">14    </b>    <b style="background-color:yellow;color:black";>int count = 0;</b>
+<b style="color: grey;">15    </b>    <b style="background-color:yellow;color:black";>int n = s.length();</b>
+<b style="color: grey;">16    </b>    if (<b style="background-color:yellow;color:black";>s[0] == &#39;0&#39;</b>) {
+<b style="color: grey;">17    </b>      for (int i = 1; i &lt;= n; i++) {
+<b style="color: grey;">18    </b>        if (i % 2 == 0 &amp;&amp; s[i - 1] == &#39;1&#39;) {
+<b style="color: grey;">19    </b>          count++;
+<b style="color: grey;">20    </b>        } else if (i % 2 == 1 &amp;&amp; s[i - 1] == &#39;0&#39;) {
+<b style="color: grey;">21    </b>          count++;
+<b style="color: grey;">22    </b>        }
+<b style="color: grey;">23    </b>      }
+<b style="color: grey;">24    </b>    } else {
+<b style="color: grey;">25    </b>      for (<b style="background-color:yellow;color:black";>int i = 1;</b> <b style="background-color:yellow;color:black";>i &lt;= n</b>; <b style="background-color:yellow;color:black";>i++</b>) {
+<b style="color: grey;">26    </b>        if (<b style="background-color:yellow;color:black";>i % 2 == 0 &amp;&amp; s[i - 1] == &#39;0&#39;</b>) {
+<b style="color: grey;">27    </b>          count++;
+<b style="color: grey;">28    </b>        }
+<b style="color: grey;">29    </b>        if (<b style="background-color:yellow;color:black";>i % 2 == 1 &amp;&amp; s[i - 1] == &#39;1&#39;</b>) {
+<b style="color: grey;">30    </b>          count++;
+<b style="color: grey;">31    </b>        }
+<b style="color: grey;">32    </b>      }
+<b style="color: grey;">33    </b>    }
+<b style="color: grey;">34    </b>
+<b style="color: grey;">35    </b>    <b style="background-color:yellow;color:black";>return min(count, n - count);</b>
+<b style="color: grey;">36    </b>  }
+...
+...
+...
+...
+</pre>

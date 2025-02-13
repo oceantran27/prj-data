@@ -1,0 +1,401 @@
+{
+  "name": "Solution_solver_vector_vector_int_int_int_vector_long_long_random_0",
+  "status": "runtime error",
+  "testCaseUserCode": {
+    "includePaths": [],
+    "setUpContent": "// set up\n;",
+    "tearDownContent": "// tear down\n;"
+  },
+  "path": ".\\\\aka-working-space\\\\p12v5\\\\test-cases\\Solution_solver_vector_vector_int_int_int_vector_long_long_random_0.json",
+  "sourceCode": ".\\\\aka-working-space\\\\p12v5\\\\test-drivers\\Solution_solver_vector_vector_int_int_int_vector_long_long_random_0.cpp",
+  "testPath": ".\\\\aka-working-space\\\\p12v5\\\\test-paths\\Solution_solver_vector_vector_int_int_int_vector_long_long_random_0.tp",
+  "executable": ".\\\\aka-working-space\\\\p12v5\\\\exe\\Solution_solver_vector_vector_int_int_int_vector_long_long_random_0.exe",
+  "commandConfig": ".\\aka-working-space\\p12v5\\test-case-commands\\Solution_solver_vector_vector_int_int_int_vector_long_long_random_0.json",
+  "commandDebug": ".\\\\aka-working-space\\\\p12v5\\\\debugger\\\\commands\\Solution_solver_vector_vector_int_int_int_vector_long_long_random_0.json",
+  "breakPoint": ".\\\\aka-working-space\\\\p12v5\\\\debugger\\\\breakpoints\\Solution_solver_vector_vector_int_int_int_vector_long_long_random_0.br.json",
+  "debugExecutable": ".\\\\aka-working-space\\\\p12v5\\\\exe\\debug_Solution_solver_vector_vector_int_int_int_vector_long_long_random_0.exe",
+  "executionResult": ".\\\\aka-working-space\\\\p12v5\\\\execution-results\\Solution_solver_vector_vector_int_int_int_vector_long_long_random_0.xml",
+  "creationDate": "2025-02-13T14:16:38.844202500",
+  "executionDate": "2025-02-13T14:16:40.594829400",
+  "rootDataNode": {
+    "type": "com.dse.testdata.object.RootDataNode",
+    "name": "ROOT",
+    "virtual_name": "NON_VALUE",
+    "functionNode": ".\\p12\\2008.cpp\\Solution\\solver(vector\u003cvector\u003cint\u003e\u003e\u0026,int,int,vector\u003clong long\u003e\u0026)",
+    "level": "ROOT",
+    "children": [
+      {
+        "type": "com.dse.testdata.object.UnitUnderTestNode",
+        "name": "2008.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\p12\\2008.cpp",
+        "children": [
+          {
+            "type": "com.dse.testdata.object.GlobalRootDataNode",
+            "name": "GLOBAL",
+            "virtual_name": "NON_VALUE",
+            "functionNode": ".\\p12\\2008.cpp\\Solution\\solver(vector\u003cvector\u003cint\u003e\u003e\u0026,int,int,vector\u003clong long\u003e\u0026)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": false,
+                "correspondingVar": ".\\p12\\2008.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p12\\2008.cpp\\Solution"
+              }
+            ],
+            "level": "GLOBAL",
+            "children": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": true,
+                "correspondingVar": ".\\p12\\2008.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p12\\2008.cpp\\Solution",
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.SubClassDataNode",
+                    "name": "AKA_INSTANCE___Solution",
+                    "virtual_name": "AKA_INSTANCE___Solution",
+                    "dataType": "::Solution",
+                    "realType": "::Solution",
+                    "external": false,
+                    "correspondingVar": ".\\p12\\2008.cpp\\Solution\\AKA_INSTANCE___Solution",
+                    "correspondingType": ".\\p12\\2008.cpp\\Solution",
+                    "rawType": "::Solution",
+                    "selectedConstructor": "Solution()",
+                    "variableType": "::Solution",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                        "name": "Solution()",
+                        "virtual_name": "AKA_INSTANCE___Solution",
+                        "dataType": "::Solution",
+                        "realType": "::Solution",
+                        "functionNode": "\\Solution()"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "com.dse.testdata.object.SubprogramNode",
+            "name": "solver(vector\u003cvector\u003cint\u003e\u003e\u0026,int,int,vector\u003clong long\u003e\u0026)",
+            "virtual_name": "NON_VALUE",
+            "dataType": "long long",
+            "realType": "long long",
+            "functionNode": ".\\p12\\2008.cpp\\Solution\\solver(vector\u003cvector\u003cint\u003e\u003e\u0026,int,int,vector\u003clong long\u003e\u0026)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                "name": "rides",
+                "virtual_name": "EXPECTED_rides",
+                "dataType": "vector\u003cvector\u003cint\u003e\u003e",
+                "realType": "vector\u003cvector\u003cint\u003e\u003e\u0026",
+                "external": false,
+                "correspondingVar": ".\\p12\\2008.cpp\\Solution\\solver(vector\u003cvector\u003cint\u003e\u003e\u0026,int,int,vector\u003clong long\u003e\u0026)\\rides",
+                "correspondingType": "STLListBaseType",
+                "templateArg": "vector\u003cint\u003e"
+              },
+              {
+                "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                "name": "dp",
+                "virtual_name": "EXPECTED_dp",
+                "dataType": "vector\u003clong long\u003e",
+                "realType": "vector\u003clong long\u003e\u0026",
+                "external": false,
+                "correspondingVar": ".\\p12\\2008.cpp\\Solution\\solver(vector\u003cvector\u003cint\u003e\u003e\u0026,int,int,vector\u003clong long\u003e\u0026)\\dp",
+                "correspondingType": "STLListBaseType",
+                "templateArg": "long long"
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "i",
+                "virtual_name": "EXPECTED_i",
+                "dataType": "int",
+                "realType": "int",
+                "external": false,
+                "correspondingVar": ".\\p12\\2008.cpp\\Solution\\solver(vector\u003cvector\u003cint\u003e\u003e\u0026,int,int,vector\u003clong long\u003e\u0026)\\i",
+                "correspondingType": "int",
+                "value": "null"
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "n",
+                "virtual_name": "EXPECTED_n",
+                "dataType": "int",
+                "realType": "int",
+                "external": false,
+                "correspondingVar": ".\\p12\\2008.cpp\\Solution\\solver(vector\u003cvector\u003cint\u003e\u003e\u0026,int,int,vector\u003clong long\u003e\u0026)\\n",
+                "correspondingType": "int",
+                "value": "null"
+              }
+            ],
+            "children": [
+              {
+                "type": "com.dse.testdata.object.RootDataNode",
+                "name": "STATIC",
+                "virtual_name": "NON_VALUE",
+                "functionNode": ".\\p12\\2008.cpp\\Solution\\solver(vector\u003cvector\u003cint\u003e\u003e\u0026,int,int,vector\u003clong long\u003e\u0026)",
+                "level": "STATIC"
+              },
+              {
+                "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                "name": "rides",
+                "virtual_name": "rides",
+                "dataType": "vector\u003cvector\u003cint\u003e\u003e",
+                "realType": "vector\u003cvector\u003cint\u003e\u003e\u0026",
+                "external": false,
+                "correspondingVar": ".\\p12\\2008.cpp\\Solution\\solver(vector\u003cvector\u003cint\u003e\u003e\u0026,int,int,vector\u003clong long\u003e\u0026)\\rides",
+                "correspondingType": "STLListBaseType",
+                "templateArg": "vector\u003cint\u003e",
+                "size": 3,
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                    "name": "element #0",
+                    "virtual_name": "rides_element0",
+                    "dataType": "vector\u003cint\u003e",
+                    "realType": "vector\u003cint\u003e",
+                    "external": false,
+                    "correspondingVar": ".\\p12\\2008.cpp\\Solution\\solver(vector\u003cvector\u003cint\u003e\u003e\u0026,int,int,vector\u003clong long\u003e\u0026)\\rides\\element #0",
+                    "correspondingType": "STLListBaseType",
+                    "templateArg": "int",
+                    "size": 2,
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.NormalNumberDataNode",
+                        "name": "element #0",
+                        "virtual_name": "rides_element0_element0",
+                        "dataType": "int",
+                        "realType": "int",
+                        "external": false,
+                        "correspondingVar": ".\\p12\\2008.cpp\\Solution\\solver(vector\u003cvector\u003cint\u003e\u003e\u0026,int,int,vector\u003clong long\u003e\u0026)\\rides\\element #0\\element #0",
+                        "correspondingType": "int",
+                        "value": "932958070"
+                      },
+                      {
+                        "type": "com.dse.testdata.object.NormalNumberDataNode",
+                        "name": "element #1",
+                        "virtual_name": "rides_element0_element1",
+                        "dataType": "int",
+                        "realType": "int",
+                        "external": false,
+                        "correspondingVar": ".\\p12\\2008.cpp\\Solution\\solver(vector\u003cvector\u003cint\u003e\u003e\u0026,int,int,vector\u003clong long\u003e\u0026)\\rides\\element #0\\element #1",
+                        "correspondingType": "int",
+                        "value": "-529975524"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                    "name": "element #1",
+                    "virtual_name": "rides_element1",
+                    "dataType": "vector\u003cint\u003e",
+                    "realType": "vector\u003cint\u003e",
+                    "external": false,
+                    "correspondingVar": ".\\p12\\2008.cpp\\Solution\\solver(vector\u003cvector\u003cint\u003e\u003e\u0026,int,int,vector\u003clong long\u003e\u0026)\\rides\\element #1",
+                    "correspondingType": "STLListBaseType",
+                    "templateArg": "int",
+                    "size": 1,
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.NormalNumberDataNode",
+                        "name": "element #0",
+                        "virtual_name": "rides_element1_element0",
+                        "dataType": "int",
+                        "realType": "int",
+                        "external": false,
+                        "correspondingVar": ".\\p12\\2008.cpp\\Solution\\solver(vector\u003cvector\u003cint\u003e\u003e\u0026,int,int,vector\u003clong long\u003e\u0026)\\rides\\element #1\\element #0",
+                        "correspondingType": "int",
+                        "value": "-407714797"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                    "name": "element #2",
+                    "virtual_name": "rides_element2",
+                    "dataType": "vector\u003cint\u003e",
+                    "realType": "vector\u003cint\u003e",
+                    "external": false,
+                    "correspondingVar": ".\\p12\\2008.cpp\\Solution\\solver(vector\u003cvector\u003cint\u003e\u003e\u0026,int,int,vector\u003clong long\u003e\u0026)\\rides\\element #2",
+                    "correspondingType": "STLListBaseType",
+                    "templateArg": "int",
+                    "size": 3,
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.NormalNumberDataNode",
+                        "name": "element #0",
+                        "virtual_name": "rides_element2_element0",
+                        "dataType": "int",
+                        "realType": "int",
+                        "external": false,
+                        "correspondingVar": ".\\p12\\2008.cpp\\Solution\\solver(vector\u003cvector\u003cint\u003e\u003e\u0026,int,int,vector\u003clong long\u003e\u0026)\\rides\\element #2\\element #0",
+                        "correspondingType": "int",
+                        "value": "-2109221919"
+                      },
+                      {
+                        "type": "com.dse.testdata.object.NormalNumberDataNode",
+                        "name": "element #1",
+                        "virtual_name": "rides_element2_element1",
+                        "dataType": "int",
+                        "realType": "int",
+                        "external": false,
+                        "correspondingVar": ".\\p12\\2008.cpp\\Solution\\solver(vector\u003cvector\u003cint\u003e\u003e\u0026,int,int,vector\u003clong long\u003e\u0026)\\rides\\element #2\\element #1",
+                        "correspondingType": "int",
+                        "value": "-328462864"
+                      },
+                      {
+                        "type": "com.dse.testdata.object.NormalNumberDataNode",
+                        "name": "element #2",
+                        "virtual_name": "rides_element2_element2",
+                        "dataType": "int",
+                        "realType": "int",
+                        "external": false,
+                        "correspondingVar": ".\\p12\\2008.cpp\\Solution\\solver(vector\u003cvector\u003cint\u003e\u003e\u0026,int,int,vector\u003clong long\u003e\u0026)\\rides\\element #2\\element #2",
+                        "correspondingType": "int",
+                        "value": "1477798088"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "i",
+                "virtual_name": "i",
+                "dataType": "int",
+                "realType": "int",
+                "external": false,
+                "correspondingVar": ".\\p12\\2008.cpp\\Solution\\solver(vector\u003cvector\u003cint\u003e\u003e\u0026,int,int,vector\u003clong long\u003e\u0026)\\i",
+                "correspondingType": "int",
+                "value": "785323405"
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "n",
+                "virtual_name": "n",
+                "dataType": "int",
+                "realType": "int",
+                "external": false,
+                "correspondingVar": ".\\p12\\2008.cpp\\Solution\\solver(vector\u003cvector\u003cint\u003e\u003e\u0026,int,int,vector\u003clong long\u003e\u0026)\\n",
+                "correspondingType": "int",
+                "value": "-1200822132"
+              },
+              {
+                "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                "name": "dp",
+                "virtual_name": "dp",
+                "dataType": "vector\u003clong long\u003e",
+                "realType": "vector\u003clong long\u003e\u0026",
+                "external": false,
+                "correspondingVar": ".\\p12\\2008.cpp\\Solution\\solver(vector\u003cvector\u003cint\u003e\u003e\u0026,int,int,vector\u003clong long\u003e\u0026)\\dp",
+                "correspondingType": "STLListBaseType",
+                "templateArg": "long long",
+                "size": 2,
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.NormalNumberDataNode",
+                    "name": "element #0",
+                    "virtual_name": "dp_element0",
+                    "dataType": "long long",
+                    "realType": "long long",
+                    "external": false,
+                    "correspondingVar": ".\\p12\\2008.cpp\\Solution\\solver(vector\u003cvector\u003cint\u003e\u003e\u0026,int,int,vector\u003clong long\u003e\u0026)\\dp\\element #0",
+                    "correspondingType": "long long",
+                    "value": "3972941217355065267"
+                  },
+                  {
+                    "type": "com.dse.testdata.object.NormalNumberDataNode",
+                    "name": "element #1",
+                    "virtual_name": "dp_element1",
+                    "dataType": "long long",
+                    "realType": "long long",
+                    "external": false,
+                    "correspondingVar": ".\\p12\\2008.cpp\\Solution\\solver(vector\u003cvector\u003cint\u003e\u003e\u0026,int,int,vector\u003clong long\u003e\u0026)\\dp\\element #1",
+                    "correspondingType": "long long",
+                    "value": "-2060771200860891999"
+                  }
+                ]
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "RETURN",
+                "virtual_name": "AKA_EXPECTED_OUTPUT",
+                "dataType": "long long",
+                "realType": "long long",
+                "external": false,
+                "correspondingVar": ".\\p12\\2008.cpp\\Solution\\solver(vector\u003cvector\u003cint\u003e\u003e\u0026,int,int,vector\u003clong long\u003e\u0026)\\RETURN",
+                "correspondingType": "long long",
+                "value": "null"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.RootDataNode",
+        "name": "STUB",
+        "virtual_name": "NON_VALUE",
+        "functionNode": ".\\p12\\2008.cpp\\Solution\\solver(vector\u003cvector\u003cint\u003e\u003e\u0026,int,int,vector\u003clong long\u003e\u0026)",
+        "level": "STUB"
+      }
+    ]
+  },
+  "procedures": [
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "function_call",
+      "value": "solver();",
+      "isSelected": false,
+      "location": 10,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "i \u003d\u003d n",
+      "isSelected": false,
+      "location": 113,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "dp[i] !\u003d -1",
+      "isSelected": false,
+      "location": 166,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "function_call",
+      "value": "solver();",
+      "isSelected": false,
+      "location": 215,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "function_call",
+      "value": "solver();",
+      "isSelected": false,
+      "location": 514,
+      "calls": [],
+      "children": []
+    }
+  ]
+}

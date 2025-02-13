@@ -1,0 +1,22 @@
+{
+  "compilationCommands": {
+    ".\\p11\\2006.cpp": "g++\u003c\u003cAKA_U00A0\u003e\u003e-c\u003c\u003cAKA_U00A0\u003e\u003e-std\u003dgnu++14\u003c\u003cAKA_U00A0\u003e\u003e-w\u003c\u003cAKA_U00A0\u003e\u003e\".\\p11\\2006.cpp\"\u003c\u003cAKA_U00A0\u003e\u003e-I\"D:\\\\Projects\\\\AKAUT\\\\prj-data\\\\amanv8060_Leetcode-Questions\\\\solutions\\\\aka-working-space\\\\p11v2\\\\user_code\\\\environment\"\u003c\u003cAKA_U00A0\u003e\u003e-o\"D:\\\\Projects\\\\AKAUT\\\\prj-data\\\\amanv8060_Leetcode-Questions\\\\solutions\\\\aka-working-space\\\\p11v2\\\\instruments\\2006.akaignore.cpp.out\"",
+    ".\\p11\\1997.cpp": "g++\u003c\u003cAKA_U00A0\u003e\u003e-c\u003c\u003cAKA_U00A0\u003e\u003e-std\u003dgnu++14\u003c\u003cAKA_U00A0\u003e\u003e-w\u003c\u003cAKA_U00A0\u003e\u003e\".\\p11\\1997.cpp\"\u003c\u003cAKA_U00A0\u003e\u003e-I\"D:\\\\Projects\\\\AKAUT\\\\prj-data\\\\amanv8060_Leetcode-Questions\\\\solutions\\\\aka-working-space\\\\p11v2\\\\user_code\\\\environment\"\u003c\u003cAKA_U00A0\u003e\u003e-o\"D:\\\\Projects\\\\AKAUT\\\\prj-data\\\\amanv8060_Leetcode-Questions\\\\solutions\\\\aka-working-space\\\\p11v2\\\\instruments\\1997.akaignore.cpp.out\"",
+    ".\\p11\\2000.cpp": "g++\u003c\u003cAKA_U00A0\u003e\u003e-c\u003c\u003cAKA_U00A0\u003e\u003e-std\u003dgnu++14\u003c\u003cAKA_U00A0\u003e\u003e-w\u003c\u003cAKA_U00A0\u003e\u003e\".\\p11\\2000.cpp\"\u003c\u003cAKA_U00A0\u003e\u003e-I\"D:\\\\Projects\\\\AKAUT\\\\prj-data\\\\amanv8060_Leetcode-Questions\\\\solutions\\\\aka-working-space\\\\p11v2\\\\user_code\\\\environment\"\u003c\u003cAKA_U00A0\u003e\u003e-o\"D:\\\\Projects\\\\AKAUT\\\\prj-data\\\\amanv8060_Leetcode-Questions\\\\solutions\\\\aka-working-space\\\\p11v2\\\\instruments\\2000.akaignore.cpp.out\"",
+    ".\\p11\\1998.cpp": "g++\u003c\u003cAKA_U00A0\u003e\u003e-c\u003c\u003cAKA_U00A0\u003e\u003e-std\u003dgnu++14\u003c\u003cAKA_U00A0\u003e\u003e-w\u003c\u003cAKA_U00A0\u003e\u003e\".\\p11\\1998.cpp\"\u003c\u003cAKA_U00A0\u003e\u003e-I\"D:\\\\Projects\\\\AKAUT\\\\prj-data\\\\amanv8060_Leetcode-Questions\\\\solutions\\\\aka-working-space\\\\p11v2\\\\user_code\\\\environment\"\u003c\u003cAKA_U00A0\u003e\u003e-o\"D:\\\\Projects\\\\AKAUT\\\\prj-data\\\\amanv8060_Leetcode-Questions\\\\solutions\\\\aka-working-space\\\\p11v2\\\\instruments\\1998.akaignore.cpp.out\"",
+    ".\\p11\\2007.cpp": "g++\u003c\u003cAKA_U00A0\u003e\u003e-c\u003c\u003cAKA_U00A0\u003e\u003e-std\u003dgnu++14\u003c\u003cAKA_U00A0\u003e\u003e-w\u003c\u003cAKA_U00A0\u003e\u003e\".\\p11\\2007.cpp\"\u003c\u003cAKA_U00A0\u003e\u003e-I\"D:\\\\Projects\\\\AKAUT\\\\prj-data\\\\amanv8060_Leetcode-Questions\\\\solutions\\\\aka-working-space\\\\p11v2\\\\user_code\\\\environment\"\u003c\u003cAKA_U00A0\u003e\u003e-o\"D:\\\\Projects\\\\AKAUT\\\\prj-data\\\\amanv8060_Leetcode-Questions\\\\solutions\\\\aka-working-space\\\\p11v2\\\\instruments\\2007.akaignore.cpp.out\""
+  },
+  "linkEntry": {
+    "command": "g++ -std\u003dgnu++14 -w",
+    "outFlag": "-o",
+    "exeFile": "D:\\Projects\\AKAUT\\prj-data\\amanv8060_Leetcode-Questions\\solutions\\p11\\program.exe",
+    "binFiles": [
+      ".\\\\aka-working-space\\\\p11v2\\\\instruments\\1997.akaignore.cpp.out",
+      ".\\\\aka-working-space\\\\p11v2\\\\instruments\\1998.akaignore.cpp.out",
+      ".\\\\aka-working-space\\\\p11v2\\\\instruments\\2000.akaignore.cpp.out",
+      ".\\\\aka-working-space\\\\p11v2\\\\instruments\\2006.akaignore.cpp.out",
+      ".\\\\aka-working-space\\\\p11v2\\\\instruments\\2007.akaignore.cpp.out"
+    ]
+  },
+  "executablePath": ""
+}

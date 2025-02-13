@@ -1,0 +1,230 @@
+{
+  "name": "Solution_twoSum_vector_int_int_random_3",
+  "status": "success",
+  "testCaseUserCode": {
+    "includePaths": [],
+    "setUpContent": "// set up\n;",
+    "tearDownContent": "// tear down\n;"
+  },
+  "path": ".\\\\aka-working-space\\\\p1\\\\test-cases\\Solution_twoSum_vector_int_int_random_3.json",
+  "sourceCode": ".\\\\aka-working-space\\\\p1\\\\test-drivers\\Solution_twoSum_vector_int_int_random_3.cpp",
+  "testPath": ".\\\\aka-working-space\\\\p1\\\\test-paths\\Solution_twoSum_vector_int_int_random_3.tp",
+  "executable": ".\\\\aka-working-space\\\\p1\\\\exe\\Solution_twoSum_vector_int_int_random_3.exe",
+  "commandConfig": ".\\aka-working-space\\p1\\test-case-commands\\Solution_twoSum_vector_int_int_random_3.json",
+  "commandDebug": ".\\\\aka-working-space\\\\p1\\\\debugger\\\\commands\\Solution_twoSum_vector_int_int_random_3.json",
+  "breakPoint": ".\\\\aka-working-space\\\\p1\\\\debugger\\\\breakpoints\\Solution_twoSum_vector_int_int_random_3.br.json",
+  "debugExecutable": ".\\\\aka-working-space\\\\p1\\\\exe\\debug_Solution_twoSum_vector_int_int_random_3.exe",
+  "executionResult": ".\\\\aka-working-space\\\\p1\\\\execution-results\\Solution_twoSum_vector_int_int_random_3.xml",
+  "creationDate": "2025-02-13T08:24:01.919908800",
+  "executionDate": "2025-02-13T08:24:29.490957700",
+  "rootDataNode": {
+    "type": "com.dse.testdata.object.RootDataNode",
+    "name": "ROOT",
+    "virtual_name": "NON_VALUE",
+    "functionNode": ".\\p1\\1.cpp\\Solution\\twoSum(vector\u003cint\u003e\u0026,int)",
+    "level": "ROOT",
+    "children": [
+      {
+        "type": "com.dse.testdata.object.UnitUnderTestNode",
+        "name": "1.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\p1\\1.cpp",
+        "children": [
+          {
+            "type": "com.dse.testdata.object.GlobalRootDataNode",
+            "name": "GLOBAL",
+            "virtual_name": "NON_VALUE",
+            "functionNode": ".\\p1\\1.cpp\\Solution\\twoSum(vector\u003cint\u003e\u0026,int)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": false,
+                "correspondingVar": ".\\p1\\1.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p1\\1.cpp\\Solution"
+              }
+            ],
+            "level": "GLOBAL",
+            "children": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": true,
+                "correspondingVar": ".\\p1\\1.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p1\\1.cpp\\Solution",
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.SubClassDataNode",
+                    "name": "AKA_INSTANCE___Solution",
+                    "virtual_name": "AKA_INSTANCE___Solution",
+                    "dataType": "::Solution",
+                    "realType": "::Solution",
+                    "external": false,
+                    "correspondingVar": ".\\p1\\1.cpp\\Solution\\AKA_INSTANCE___Solution",
+                    "correspondingType": ".\\p1\\1.cpp\\Solution",
+                    "rawType": "::Solution",
+                    "selectedConstructor": "Solution()",
+                    "variableType": "::Solution",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                        "name": "Solution()",
+                        "virtual_name": "AKA_INSTANCE___Solution",
+                        "dataType": "::Solution",
+                        "realType": "::Solution",
+                        "functionNode": "\\Solution()"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "com.dse.testdata.object.SubprogramNode",
+            "name": "twoSum(vector\u003cint\u003e\u0026,int)",
+            "virtual_name": "NON_VALUE",
+            "dataType": "vector\u003cint\u003e",
+            "realType": "vector\u003cint\u003e",
+            "functionNode": ".\\p1\\1.cpp\\Solution\\twoSum(vector\u003cint\u003e\u0026,int)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                "name": "arr",
+                "virtual_name": "EXPECTED_arr",
+                "dataType": "vector\u003cint\u003e",
+                "realType": "vector\u003cint\u003e\u0026",
+                "external": false,
+                "correspondingVar": ".\\p1\\1.cpp\\Solution\\twoSum(vector\u003cint\u003e\u0026,int)\\arr",
+                "correspondingType": "STLListBaseType",
+                "templateArg": "int"
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "target",
+                "virtual_name": "EXPECTED_target",
+                "dataType": "int",
+                "realType": "int",
+                "external": false,
+                "correspondingVar": ".\\p1\\1.cpp\\Solution\\twoSum(vector\u003cint\u003e\u0026,int)\\target",
+                "correspondingType": "int",
+                "value": "null"
+              }
+            ],
+            "children": [
+              {
+                "type": "com.dse.testdata.object.RootDataNode",
+                "name": "STATIC",
+                "virtual_name": "NON_VALUE",
+                "functionNode": ".\\p1\\1.cpp\\Solution\\twoSum(vector\u003cint\u003e\u0026,int)",
+                "level": "STATIC"
+              },
+              {
+                "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                "name": "arr",
+                "virtual_name": "arr",
+                "dataType": "vector\u003cint\u003e",
+                "realType": "vector\u003cint\u003e\u0026",
+                "external": false,
+                "correspondingVar": ".\\p1\\1.cpp\\Solution\\twoSum(vector\u003cint\u003e\u0026,int)\\arr",
+                "correspondingType": "STLListBaseType",
+                "templateArg": "int",
+                "size": 3,
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.NormalNumberDataNode",
+                    "name": "element #0",
+                    "virtual_name": "arr_element0",
+                    "dataType": "int",
+                    "realType": "int",
+                    "external": false,
+                    "correspondingVar": ".\\p1\\1.cpp\\Solution\\twoSum(vector\u003cint\u003e\u0026,int)\\arr\\element #0",
+                    "correspondingType": "int",
+                    "value": "1510033079"
+                  },
+                  {
+                    "type": "com.dse.testdata.object.NormalNumberDataNode",
+                    "name": "element #1",
+                    "virtual_name": "arr_element1",
+                    "dataType": "int",
+                    "realType": "int",
+                    "external": false,
+                    "correspondingVar": ".\\p1\\1.cpp\\Solution\\twoSum(vector\u003cint\u003e\u0026,int)\\arr\\element #1",
+                    "correspondingType": "int",
+                    "value": "-910313955"
+                  },
+                  {
+                    "type": "com.dse.testdata.object.NormalNumberDataNode",
+                    "name": "element #2",
+                    "virtual_name": "arr_element2",
+                    "dataType": "int",
+                    "realType": "int",
+                    "external": false,
+                    "correspondingVar": ".\\p1\\1.cpp\\Solution\\twoSum(vector\u003cint\u003e\u0026,int)\\arr\\element #2",
+                    "correspondingType": "int",
+                    "value": "-644911661"
+                  }
+                ]
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "target",
+                "virtual_name": "target",
+                "dataType": "int",
+                "realType": "int",
+                "external": false,
+                "correspondingVar": ".\\p1\\1.cpp\\Solution\\twoSum(vector\u003cint\u003e\u0026,int)\\target",
+                "correspondingType": "int",
+                "value": "-1962261778"
+              },
+              {
+                "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                "name": "RETURN",
+                "virtual_name": "AKA_EXPECTED_OUTPUT",
+                "dataType": "vector\u003cint\u003e",
+                "realType": "vector\u003cint\u003e",
+                "external": false,
+                "correspondingVar": ".\\p1\\1.cpp\\Solution\\twoSum(vector\u003cint\u003e\u0026,int)\\RETURN",
+                "correspondingType": "STLListBaseType",
+                "templateArg": "int"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.RootDataNode",
+        "name": "STUB",
+        "virtual_name": "NON_VALUE",
+        "functionNode": ".\\p1\\1.cpp\\Solution\\twoSum(vector\u003cint\u003e\u0026,int)",
+        "level": "STUB"
+      }
+    ]
+  },
+  "procedures": [
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "i \u003c arr.size()",
+      "isSelected": false,
+      "location": 107,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "mp.find(val) !\u003d mp.end()",
+      "isSelected": false,
+      "location": 175,
+      "calls": [],
+      "children": []
+    }
+  ]
+}

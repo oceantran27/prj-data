@@ -1,0 +1,41 @@
+<pre>...
+...
+...
+...
+<b style="color: grey;">5     </b>#include &lt;set&gt;
+<b style="color: grey;">6     </b>#include &lt;unordered_map&gt;
+<b style="color: grey;">7     </b>#include &lt;algorithm&gt;
+<b style="color: grey;">8     </b>#include &lt;bits/stdc++.h&gt;
+<b style="color: grey;">9     </b>using namespace std;
+<b style="color: grey;">10     </b>class Solution {
+<b style="color: grey;">11    </b> public:
+<b style="color: grey;">12    </b>  bool isMatch(string str, string pattern) {
+<b style="color: grey;">13    </b>    <b style="background-color:yellow;color:black";>int m = pattern.size();</b>
+<b style="color: grey;">14    </b>    <b style="background-color:yellow;color:black";>int n = str.size();</b>
+<b style="color: grey;">15    </b>
+<b style="color: grey;">16    </b>    <b style="background-color:yellow;color:black";>bool dp[n + 1][m + 1];</b>
+<b style="color: grey;">17    </b>    for (<b style="background-color:yellow;color:black";>int i = 0;</b> <b style="background-color:#3D9970;color:white";>&nbsp;T&nbsp;</b>&nbsp;<b style="background-color:yellow;color:black";>i &lt; n + 1</b>; <b style="background-color:yellow;color:black";>i++</b>) {
+<b style="color: grey;">18    </b>      for (<b style="background-color:yellow;color:black";>int j = 0;</b> <b style="background-color:#3D9970;color:white";>&nbsp;T&nbsp;</b>&nbsp;<b style="background-color:yellow;color:black";>j &lt; m + 1</b>; <b style="background-color:yellow;color:black";>j++</b>) {
+<b style="color: grey;">19    </b>        <b style="background-color:yellow;color:black";>dp[i][j] = false;</b>
+<b style="color: grey;">20    </b>      }
+<b style="color: grey;">21    </b>    }
+<b style="color: grey;">22    </b>    <b style="background-color:yellow;color:black";>dp[0][0] = true;</b>
+<b style="color: grey;">23    </b>
+<b style="color: grey;">24    </b>    for (<b style="background-color:yellow;color:black";>int i = 1;</b> <b style="background-color:#3D9970;color:white";>&nbsp;T&nbsp;</b>&nbsp;<b style="background-color:yellow;color:black";>i &lt;= m</b>; <b style="background-color:yellow;color:black";>i++</b>) {
+<b style="color: grey;">25    </b>      if (<b style="background-color:#FF4136;color:white";>&nbsp;F&nbsp;</b>&nbsp;<b style="background-color:yellow;color:black";>pattern[i - 1] == &#39;*&#39;</b>) dp[0][i] = dp[0][i - 1];
+<b style="color: grey;">26    </b>    }
+<b style="color: grey;">27    </b>    for (<b style="background-color:yellow;color:black";>int i = 1;</b> <b style="background-color:#3D9970;color:white";>&nbsp;T&nbsp;</b>&nbsp;<b style="background-color:yellow;color:black";>i &lt; n + 1</b>; <b style="background-color:yellow;color:black";>i++</b>) {
+<b style="color: grey;">28    </b>      for (<b style="background-color:yellow;color:black";>int j = 1;</b> <b style="background-color:#3D9970;color:white";>&nbsp;T&nbsp;</b>&nbsp;<b style="background-color:yellow;color:black";>j &lt; m + 1</b>; <b style="background-color:yellow;color:black";>j++</b>) {
+<b style="color: grey;">29    </b>        if (<b style="background-color:#FF4136;color:white";>&nbsp;F&nbsp;</b>&nbsp;<b style="background-color:yellow;color:black";>str[i - 1] == pattern[j - 1] || pattern[j - 1] == &#39;?&#39;</b>)
+<b style="color: grey;">30    </b>          dp[i][j] = dp[i - 1][j - 1];
+<b style="color: grey;">31    </b>        else if (<b style="background-color:#FF4136;color:white";>&nbsp;F&nbsp;</b>&nbsp;<b style="background-color:yellow;color:black";>pattern[j - 1] == &#39;*&#39;</b>)
+<b style="color: grey;">32    </b>          dp[i][j] = dp[i - 1][j] || dp[i][j - 1];
+<b style="color: grey;">33    </b>      }
+<b style="color: grey;">34    </b>    }
+<b style="color: grey;">35    </b>    <b style="background-color:yellow;color:black";>return dp[n][m];</b>
+<b style="color: grey;">36    </b>  }
+...
+...
+...
+...
+</pre>

@@ -1,0 +1,14 @@
+{
+  "path": ".\\p9\\1975.cpp",
+  "dependency": [
+    {
+      "start": ".\\p9\\1975.cpp\\Solution\\maxMatrixSum(vector\u003cvector\u003cint\u003e\u003e\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "a1a840c8d8ed683461ea194e7814cd14",
+      "end": ".\\p9\\1975.cpp\\Solution",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "3b5b17389f37a39ca06652fbd80b50b9"
+    }
+  ]
+}

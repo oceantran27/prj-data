@@ -1,6 +1,0 @@
-{
-  "compilationCommands": {
-    ".\\gzc426_leetcode\\2018.11.26-leetcode11\\MQQM.cpp": "g++\u003c\u003cAKA_U00A0\u003e\u003e-c\u003c\u003cAKA_U00A0\u003e\u003e-std\u003dgnu++14\u003c\u003cAKA_U00A0\u003e\u003e-w\u003c\u003cAKA_U00A0\u003e\u003e\".\\gzc426_leetcode\\2018.11.26-leetcode11\\MQQM.cpp\"\u003c\u003cAKA_U00A0\u003e\u003e-o\"C:\\\\Users\\\\daidu\\\\Projects\\\\SQA-LAB\\\\AKA\\\\craw-test-cpp\\\\crawl_test_cpp\\\\collected_repos\\\\aka-working-space\\\\test\\\\instruments\\2018.11.26-leetcode11\\MQQM.akaignore.cpp.out\""
-  },
-  "executablePath": ""
-}

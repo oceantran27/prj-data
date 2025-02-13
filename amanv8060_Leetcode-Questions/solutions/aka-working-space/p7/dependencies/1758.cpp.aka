@@ -1,0 +1,14 @@
+{
+  "path": ".\\p7\\1758.cpp",
+  "dependency": [
+    {
+      "start": ".\\p7\\1758.cpp\\Solution\\minOperations(string)",
+      "start-type": "FunctionNode",
+      "start-md5": "0d4d80c2bfadd86cf6693709e68016f3",
+      "end": ".\\p7\\1758.cpp\\Solution",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "f739c21a60ff8860611f94406f2ec96e"
+    }
+  ]
+}

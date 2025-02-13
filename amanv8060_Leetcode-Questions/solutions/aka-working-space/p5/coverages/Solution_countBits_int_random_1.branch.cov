@@ -1,0 +1,31 @@
+<pre>...
+...
+...
+...
+<b style="color: grey;">21    </b>
+<b style="color: grey;">22    </b>//    Since n = 0, return count which is 2 now
+<b style="color: grey;">23    </b>
+<b style="color: grey;">24    </b>#include &lt;bits/stdc++.h&gt;
+<b style="color: grey;">25    </b>using namespace std;
+<b style="color: grey;">26    </b>class Solution {
+<b style="color: grey;">27    </b> public:
+<b style="color: grey;">28    </b>  int countthesetbits(int n) {
+<b style="color: grey;">29    </b>    <b style="background-color:yellow;color:black";>int c = 0;</b>
+<b style="color: grey;">30    </b>    while (<b style="background-color:#3D9970;color:white";>&nbsp;T&nbsp;</b>&nbsp;<b style="background-color:#FF4136;color:white";>&nbsp;F&nbsp;</b>&nbsp;<b style="background-color:yellow;color:black";>n</b>) {
+<b style="color: grey;">31    </b>      <b style="background-color:yellow;color:black";>n = n &amp; (n - 1);</b>
+<b style="color: grey;">32    </b>      <b style="background-color:yellow;color:black";>c++;</b>
+<b style="color: grey;">33    </b>    }
+<b style="color: grey;">34    </b>    <b style="background-color:yellow;color:black";>return c;</b>
+<b style="color: grey;">35    </b>  }
+<b style="color: grey;">36    </b>  vector&lt;int&gt; countBits(int n) {
+<b style="color: grey;">37    </b>    <b style="background-color:yellow;color:black";>vector&lt;int&gt; result;</b>
+<b style="color: grey;">38    </b>    for (<b style="background-color:yellow;color:black";>int i = 0;</b> <b style="background-color:#3D9970;color:white";>&nbsp;T&nbsp;</b>&nbsp;<b style="background-color:yellow;color:black";>i &lt;= n</b>; <b style="background-color:yellow;color:black";>i++</b>) {
+<b style="color: grey;">39    </b>      <b style="background-color:yellow;color:black";>result.push_back(countthesetbits(i));</b>
+<b style="color: grey;">40    </b>    }
+<b style="color: grey;">41    </b>
+<b style="color: grey;">42    </b>    <b style="background-color:yellow;color:black";>return result;</b>
+...
+...
+...
+...
+</pre>

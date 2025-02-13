@@ -1,0 +1,253 @@
+{
+  "name": "Solution_sumOfBeauties_vector_int_random_4",
+  "status": "success",
+  "testCaseUserCode": {
+    "includePaths": [],
+    "setUpContent": "// set up\n;",
+    "tearDownContent": "// tear down\n;"
+  },
+  "path": ".\\\\aka-working-space\\\\p12v5\\\\test-cases\\Solution_sumOfBeauties_vector_int_random_4.json",
+  "sourceCode": ".\\\\aka-working-space\\\\p12v5\\\\test-drivers\\Solution_sumOfBeauties_vector_int_random_4.cpp",
+  "testPath": ".\\\\aka-working-space\\\\p12v5\\\\test-paths\\Solution_sumOfBeauties_vector_int_random_4.tp",
+  "executable": ".\\\\aka-working-space\\\\p12v5\\\\exe\\Solution_sumOfBeauties_vector_int_random_4.exe",
+  "commandConfig": ".\\aka-working-space\\p12v5\\test-case-commands\\Solution_sumOfBeauties_vector_int_random_4.json",
+  "commandDebug": ".\\\\aka-working-space\\\\p12v5\\\\debugger\\\\commands\\Solution_sumOfBeauties_vector_int_random_4.json",
+  "breakPoint": ".\\\\aka-working-space\\\\p12v5\\\\debugger\\\\breakpoints\\Solution_sumOfBeauties_vector_int_random_4.br.json",
+  "debugExecutable": ".\\\\aka-working-space\\\\p12v5\\\\exe\\debug_Solution_sumOfBeauties_vector_int_random_4.exe",
+  "executionResult": ".\\\\aka-working-space\\\\p12v5\\\\execution-results\\Solution_sumOfBeauties_vector_int_random_4.xml",
+  "creationDate": "2025-02-13T14:20:34.803441300",
+  "executionDate": "2025-02-13T14:21:56.064116600",
+  "rootDataNode": {
+    "type": "com.dse.testdata.object.RootDataNode",
+    "name": "ROOT",
+    "virtual_name": "NON_VALUE",
+    "functionNode": ".\\p12\\2012.cpp\\Solution\\sumOfBeauties(vector\u003cint\u003e\u0026)",
+    "level": "ROOT",
+    "children": [
+      {
+        "type": "com.dse.testdata.object.UnitUnderTestNode",
+        "name": "2012.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\p12\\2012.cpp",
+        "children": [
+          {
+            "type": "com.dse.testdata.object.GlobalRootDataNode",
+            "name": "GLOBAL",
+            "virtual_name": "NON_VALUE",
+            "functionNode": ".\\p12\\2012.cpp\\Solution\\sumOfBeauties(vector\u003cint\u003e\u0026)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": false,
+                "correspondingVar": ".\\p12\\2012.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p12\\2012.cpp\\Solution"
+              }
+            ],
+            "level": "GLOBAL",
+            "children": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": true,
+                "correspondingVar": ".\\p12\\2012.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p12\\2012.cpp\\Solution",
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.SubClassDataNode",
+                    "name": "AKA_INSTANCE___Solution",
+                    "virtual_name": "AKA_INSTANCE___Solution",
+                    "dataType": "::Solution",
+                    "realType": "::Solution",
+                    "external": false,
+                    "correspondingVar": ".\\p12\\2012.cpp\\Solution\\AKA_INSTANCE___Solution",
+                    "correspondingType": ".\\p12\\2012.cpp\\Solution",
+                    "rawType": "::Solution",
+                    "selectedConstructor": "Solution()",
+                    "variableType": "::Solution",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                        "name": "Solution()",
+                        "virtual_name": "AKA_INSTANCE___Solution",
+                        "dataType": "::Solution",
+                        "realType": "::Solution",
+                        "functionNode": "\\Solution()"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "com.dse.testdata.object.SubprogramNode",
+            "name": "sumOfBeauties(vector\u003cint\u003e\u0026)",
+            "virtual_name": "NON_VALUE",
+            "dataType": "int",
+            "realType": "int",
+            "functionNode": ".\\p12\\2012.cpp\\Solution\\sumOfBeauties(vector\u003cint\u003e\u0026)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                "name": "nums",
+                "virtual_name": "EXPECTED_nums",
+                "dataType": "vector\u003cint\u003e",
+                "realType": "vector\u003cint\u003e\u0026",
+                "external": false,
+                "correspondingVar": ".\\p12\\2012.cpp\\Solution\\sumOfBeauties(vector\u003cint\u003e\u0026)\\nums",
+                "correspondingType": "STLListBaseType",
+                "templateArg": "int"
+              }
+            ],
+            "children": [
+              {
+                "type": "com.dse.testdata.object.RootDataNode",
+                "name": "STATIC",
+                "virtual_name": "NON_VALUE",
+                "functionNode": ".\\p12\\2012.cpp\\Solution\\sumOfBeauties(vector\u003cint\u003e\u0026)",
+                "level": "STATIC"
+              },
+              {
+                "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                "name": "nums",
+                "virtual_name": "nums",
+                "dataType": "vector\u003cint\u003e",
+                "realType": "vector\u003cint\u003e\u0026",
+                "external": false,
+                "correspondingVar": ".\\p12\\2012.cpp\\Solution\\sumOfBeauties(vector\u003cint\u003e\u0026)\\nums",
+                "correspondingType": "STLListBaseType",
+                "templateArg": "int",
+                "size": 3,
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.NormalNumberDataNode",
+                    "name": "element #0",
+                    "virtual_name": "nums_element0",
+                    "dataType": "int",
+                    "realType": "int",
+                    "external": false,
+                    "correspondingVar": ".\\p12\\2012.cpp\\Solution\\sumOfBeauties(vector\u003cint\u003e\u0026)\\nums\\element #0",
+                    "correspondingType": "int",
+                    "value": "1009993149"
+                  },
+                  {
+                    "type": "com.dse.testdata.object.NormalNumberDataNode",
+                    "name": "element #1",
+                    "virtual_name": "nums_element1",
+                    "dataType": "int",
+                    "realType": "int",
+                    "external": false,
+                    "correspondingVar": ".\\p12\\2012.cpp\\Solution\\sumOfBeauties(vector\u003cint\u003e\u0026)\\nums\\element #1",
+                    "correspondingType": "int",
+                    "value": "1114403267"
+                  },
+                  {
+                    "type": "com.dse.testdata.object.NormalNumberDataNode",
+                    "name": "element #2",
+                    "virtual_name": "nums_element2",
+                    "dataType": "int",
+                    "realType": "int",
+                    "external": false,
+                    "correspondingVar": ".\\p12\\2012.cpp\\Solution\\sumOfBeauties(vector\u003cint\u003e\u0026)\\nums\\element #2",
+                    "correspondingType": "int",
+                    "value": "1700865804"
+                  }
+                ]
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "RETURN",
+                "virtual_name": "AKA_EXPECTED_OUTPUT",
+                "dataType": "int",
+                "realType": "int",
+                "external": false,
+                "correspondingVar": ".\\p12\\2012.cpp\\Solution\\sumOfBeauties(vector\u003cint\u003e\u0026)\\RETURN",
+                "correspondingType": "int",
+                "value": "null"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.RootDataNode",
+        "name": "STUB",
+        "virtual_name": "NON_VALUE",
+        "functionNode": ".\\p12\\2012.cpp\\Solution\\sumOfBeauties(vector\u003cint\u003e\u0026)",
+        "level": "STUB"
+      }
+    ]
+  },
+  "procedures": [
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "nums.size() \u003d\u003d 0",
+      "isSelected": false,
+      "location": 48,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "i \u003c\u003d nums.size() - 2",
+      "isSelected": false,
+      "location": 243,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "nums[i - 1] \u003e left",
+      "isSelected": false,
+      "location": 307,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "nums[i] \u003e left",
+      "isSelected": false,
+      "location": 390,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "nums[i] \u003c right",
+      "isSelected": false,
+      "location": 408,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "nums[i] \u003e nums[i - 1]",
+      "isSelected": false,
+      "location": 473,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "nums[i] \u003c nums[i + 1]",
+      "isSelected": false,
+      "location": 498,
+      "calls": [],
+      "children": []
+    }
+  ]
+}

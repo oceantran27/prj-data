@@ -1,0 +1,33 @@
+<pre>...
+...
+...
+...
+<b style="color: grey;">6     </b>#include &lt;unordered_map&gt;
+<b style="color: grey;">7     </b>#include &lt;algorithm&gt;
+<b style="color: grey;">8     </b>#include &lt;bits/stdc++.h&gt;
+<b style="color: grey;">9     </b>using namespace std;
+<b style="color: grey;">10     </b>int Mod = 1000000007;
+<b style="color: grey;">11    </b>class Solution {
+<b style="color: grey;">12    </b> public:
+<b style="color: grey;">13    </b>  int firstDayBeenInAllRooms(vector&lt;int&gt;&amp; nextVisit) {
+<b style="color: grey;">14    </b>    <b style="background-color:yellow;color:black";>int n = nextVisit.size();</b>
+<b style="color: grey;">15    </b>    <b style="background-color:yellow;color:black";>vector&lt;int&gt; prefix(n + 1, 0);</b>
+<b style="color: grey;">16    </b>    <b style="background-color:yellow;color:black";>int j;</b>
+<b style="color: grey;">17    </b>    for (<b style="background-color:yellow;color:black";>int i = 0;</b> <b style="background-color:#3D9970;color:white";>&nbsp;T&nbsp;</b>&nbsp;<b style="background-color:yellow;color:black";>i &lt; n</b>; i++) {
+<b style="color: grey;">18    </b>      <b style="background-color:yellow;color:black";>j = nextVisit[i];</b>
+<b style="color: grey;">19    </b>      if (<b style="background-color:#FF4136;color:white";>&nbsp;F&nbsp;</b>&nbsp;<b style="background-color:yellow;color:black";>j == i</b>) {
+<b style="color: grey;">20    </b>        prefix[i + 1] = ((prefix[i]) % Mod + 2) % Mod;
+<b style="color: grey;">21    </b>      } else {
+<b style="color: grey;">22    </b>        <b style="background-color:yellow;color:black";>int k = ((prefix[i] - prefix[j] + Mod) % Mod + 2) % Mod;</b>
+<b style="color: grey;">23    </b>        prefix[i + 1] = ((prefix[i]) % Mod + (k) % Mod) % Mod;
+<b style="color: grey;">24    </b>      }
+<b style="color: grey;">25    </b>    }
+<b style="color: grey;">26    </b>    int ans = prefix[n - 1] % Mod;
+<b style="color: grey;">27    </b>    cout &lt;&lt; prefix[n - 1];
+<b style="color: grey;">28    </b>    return ans;
+<b style="color: grey;">29    </b>  }
+...
+...
+...
+...
+</pre>

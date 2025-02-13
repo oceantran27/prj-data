@@ -1,0 +1,216 @@
+{
+  "name": "Solution_reversePrefix_string_char_random_2",
+  "status": "success",
+  "testCaseUserCode": {
+    "includePaths": [],
+    "setUpContent": "// set up\n;",
+    "tearDownContent": "// tear down\n;"
+  },
+  "path": ".\\\\aka-working-space\\\\p11v4\\\\test-cases\\Solution_reversePrefix_string_char_random_2.json",
+  "sourceCode": ".\\\\aka-working-space\\\\p11v4\\\\test-drivers\\Solution_reversePrefix_string_char_random_2.cpp",
+  "testPath": ".\\\\aka-working-space\\\\p11v4\\\\test-paths\\Solution_reversePrefix_string_char_random_2.tp",
+  "executable": ".\\\\aka-working-space\\\\p11v4\\\\exe\\Solution_reversePrefix_string_char_random_2.exe",
+  "commandConfig": ".\\aka-working-space\\p11v4\\test-case-commands\\Solution_reversePrefix_string_char_random_2.json",
+  "commandDebug": ".\\\\aka-working-space\\\\p11v4\\\\debugger\\\\commands\\Solution_reversePrefix_string_char_random_2.json",
+  "breakPoint": ".\\\\aka-working-space\\\\p11v4\\\\debugger\\\\breakpoints\\Solution_reversePrefix_string_char_random_2.br.json",
+  "debugExecutable": ".\\\\aka-working-space\\\\p11v4\\\\exe\\debug_Solution_reversePrefix_string_char_random_2.exe",
+  "executionResult": ".\\\\aka-working-space\\\\p11v4\\\\execution-results\\Solution_reversePrefix_string_char_random_2.xml",
+  "creationDate": "2025-02-13T13:41:51.892241900",
+  "executionDate": "2025-02-13T13:42:31.974471100",
+  "rootDataNode": {
+    "type": "com.dse.testdata.object.RootDataNode",
+    "name": "ROOT",
+    "virtual_name": "NON_VALUE",
+    "functionNode": ".\\p11\\2000.cpp\\Solution\\reversePrefix(string,char)",
+    "level": "ROOT",
+    "children": [
+      {
+        "type": "com.dse.testdata.object.UnitUnderTestNode",
+        "name": "2000.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\p11\\2000.cpp",
+        "children": [
+          {
+            "type": "com.dse.testdata.object.GlobalRootDataNode",
+            "name": "GLOBAL",
+            "virtual_name": "NON_VALUE",
+            "functionNode": ".\\p11\\2000.cpp\\Solution\\reversePrefix(string,char)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": false,
+                "correspondingVar": ".\\p11\\2000.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p11\\2000.cpp\\Solution"
+              }
+            ],
+            "level": "GLOBAL",
+            "children": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": true,
+                "correspondingVar": ".\\p11\\2000.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p11\\2000.cpp\\Solution",
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.SubClassDataNode",
+                    "name": "AKA_INSTANCE___Solution",
+                    "virtual_name": "AKA_INSTANCE___Solution",
+                    "dataType": "::Solution",
+                    "realType": "::Solution",
+                    "external": false,
+                    "correspondingVar": ".\\p11\\2000.cpp\\Solution\\AKA_INSTANCE___Solution",
+                    "correspondingType": ".\\p11\\2000.cpp\\Solution",
+                    "rawType": "::Solution",
+                    "selectedConstructor": "Solution()",
+                    "variableType": "::Solution",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                        "name": "Solution()",
+                        "virtual_name": "AKA_INSTANCE___Solution",
+                        "dataType": "::Solution",
+                        "realType": "::Solution",
+                        "functionNode": "\\Solution()"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "com.dse.testdata.object.SubprogramNode",
+            "name": "reversePrefix(string,char)",
+            "virtual_name": "NON_VALUE",
+            "dataType": "string",
+            "realType": "string",
+            "functionNode": ".\\p11\\2000.cpp\\Solution\\reversePrefix(string,char)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.NormalCharacterDataNode",
+                "name": "ch",
+                "virtual_name": "EXPECTED_ch",
+                "dataType": "char",
+                "realType": "char",
+                "external": false,
+                "correspondingVar": ".\\p11\\2000.cpp\\Solution\\reversePrefix(string,char)\\ch",
+                "correspondingType": "char",
+                "value": "null"
+              },
+              {
+                "type": "com.dse.testdata.object.NormalStringDataNode",
+                "name": "word",
+                "virtual_name": "EXPECTED_word",
+                "dataType": "string",
+                "realType": "string",
+                "external": false,
+                "correspondingVar": ".\\p11\\2000.cpp\\Solution\\reversePrefix(string,char)\\word",
+                "correspondingType": "string",
+                "value": "null"
+              }
+            ],
+            "children": [
+              {
+                "type": "com.dse.testdata.object.RootDataNode",
+                "name": "STATIC",
+                "virtual_name": "NON_VALUE",
+                "functionNode": ".\\p11\\2000.cpp\\Solution\\reversePrefix(string,char)",
+                "level": "STATIC"
+              },
+              {
+                "type": "com.dse.testdata.object.NormalStringDataNode",
+                "name": "word",
+                "virtual_name": "word",
+                "dataType": "string",
+                "realType": "string",
+                "external": false,
+                "correspondingVar": ".\\p11\\2000.cpp\\Solution\\reversePrefix(string,char)\\word",
+                "correspondingType": "string",
+                "value": "2",
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.NormalCharacterDataNode",
+                    "name": "word[0]",
+                    "virtual_name": "word[0]",
+                    "dataType": "char",
+                    "realType": "char",
+                    "external": false,
+                    "correspondingVar": ".\\p11\\2000.cpp\\Solution\\reversePrefix(string,char)\\word\\word[0]",
+                    "correspondingType": "char",
+                    "value": "-80"
+                  }
+                ]
+              },
+              {
+                "type": "com.dse.testdata.object.NormalCharacterDataNode",
+                "name": "ch",
+                "virtual_name": "ch",
+                "dataType": "char",
+                "realType": "char",
+                "external": false,
+                "correspondingVar": ".\\p11\\2000.cpp\\Solution\\reversePrefix(string,char)\\ch",
+                "correspondingType": "char",
+                "value": "-50"
+              },
+              {
+                "type": "com.dse.testdata.object.NormalStringDataNode",
+                "name": "RETURN",
+                "virtual_name": "AKA_EXPECTED_OUTPUT",
+                "dataType": "string",
+                "realType": "string",
+                "external": false,
+                "correspondingVar": ".\\p11\\2000.cpp\\Solution\\reversePrefix(string,char)\\RETURN",
+                "correspondingType": "string",
+                "value": "null"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.RootDataNode",
+        "name": "STUB",
+        "virtual_name": "NON_VALUE",
+        "functionNode": ".\\p11\\2000.cpp\\Solution\\reversePrefix(string,char)",
+        "level": "STUB"
+      }
+    ]
+  },
+  "procedures": [
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "i \u003c word.size()",
+      "isSelected": false,
+      "location": 107,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "word[i] \u003d\u003d ch",
+      "isSelected": false,
+      "location": 142,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "pos !\u003d 0",
+      "isSelected": false,
+      "location": 218,
+      "calls": [],
+      "children": []
+    }
+  ]
+}

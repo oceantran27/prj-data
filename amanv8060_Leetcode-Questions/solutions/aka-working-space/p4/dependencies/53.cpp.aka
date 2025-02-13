@@ -1,0 +1,14 @@
+{
+  "path": ".\\p4\\53.cpp",
+  "dependency": [
+    {
+      "start": ".\\p4\\53.cpp\\Solution\\maxSubArray(vector\u003cint\u003e\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "da54bbea1d1c53468fa7015cc313c73f",
+      "end": ".\\p4\\53.cpp\\Solution",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "da2c5b981eb175be0b69303d801fc57a"
+    }
+  ]
+}

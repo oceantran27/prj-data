@@ -1,0 +1,208 @@
+{
+  "name": "Solution_removeElement_vector_int_int_random_3",
+  "status": "success",
+  "testCaseUserCode": {
+    "includePaths": [],
+    "setUpContent": "// set up\n;",
+    "tearDownContent": "// tear down\n;"
+  },
+  "path": ".\\\\aka-working-space\\\\p3\\\\test-cases\\Solution_removeElement_vector_int_int_random_3.json",
+  "sourceCode": ".\\\\aka-working-space\\\\p3\\\\test-drivers\\Solution_removeElement_vector_int_int_random_3.cpp",
+  "testPath": ".\\\\aka-working-space\\\\p3\\\\test-paths\\Solution_removeElement_vector_int_int_random_3.tp",
+  "executable": ".\\\\aka-working-space\\\\p3\\\\exe\\Solution_removeElement_vector_int_int_random_3.exe",
+  "commandConfig": ".\\aka-working-space\\p3\\test-case-commands\\Solution_removeElement_vector_int_int_random_3.json",
+  "commandDebug": ".\\\\aka-working-space\\\\p3\\\\debugger\\\\commands\\Solution_removeElement_vector_int_int_random_3.json",
+  "breakPoint": ".\\\\aka-working-space\\\\p3\\\\debugger\\\\breakpoints\\Solution_removeElement_vector_int_int_random_3.br.json",
+  "debugExecutable": ".\\\\aka-working-space\\\\p3\\\\exe\\debug_Solution_removeElement_vector_int_int_random_3.exe",
+  "executionResult": ".\\\\aka-working-space\\\\p3\\\\execution-results\\Solution_removeElement_vector_int_int_random_3.xml",
+  "creationDate": "2025-02-13T08:53:17.515999500",
+  "executionDate": "2025-02-13T08:54:05.596366200",
+  "rootDataNode": {
+    "type": "com.dse.testdata.object.RootDataNode",
+    "name": "ROOT",
+    "virtual_name": "NON_VALUE",
+    "functionNode": ".\\p3\\27.cpp\\Solution\\removeElement(vector\u003cint\u003e\u0026,int)",
+    "level": "ROOT",
+    "children": [
+      {
+        "type": "com.dse.testdata.object.UnitUnderTestNode",
+        "name": "27.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\p3\\27.cpp",
+        "children": [
+          {
+            "type": "com.dse.testdata.object.GlobalRootDataNode",
+            "name": "GLOBAL",
+            "virtual_name": "NON_VALUE",
+            "functionNode": ".\\p3\\27.cpp\\Solution\\removeElement(vector\u003cint\u003e\u0026,int)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": false,
+                "correspondingVar": ".\\p3\\27.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p3\\27.cpp\\Solution"
+              }
+            ],
+            "level": "GLOBAL",
+            "children": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": true,
+                "correspondingVar": ".\\p3\\27.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p3\\27.cpp\\Solution",
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.SubClassDataNode",
+                    "name": "AKA_INSTANCE___Solution",
+                    "virtual_name": "AKA_INSTANCE___Solution",
+                    "dataType": "::Solution",
+                    "realType": "::Solution",
+                    "external": false,
+                    "correspondingVar": ".\\p3\\27.cpp\\Solution\\AKA_INSTANCE___Solution",
+                    "correspondingType": ".\\p3\\27.cpp\\Solution",
+                    "rawType": "::Solution",
+                    "selectedConstructor": "Solution()",
+                    "variableType": "::Solution",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                        "name": "Solution()",
+                        "virtual_name": "AKA_INSTANCE___Solution",
+                        "dataType": "::Solution",
+                        "realType": "::Solution",
+                        "functionNode": "\\Solution()"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "com.dse.testdata.object.SubprogramNode",
+            "name": "removeElement(vector\u003cint\u003e\u0026,int)",
+            "virtual_name": "NON_VALUE",
+            "dataType": "int",
+            "realType": "int",
+            "functionNode": ".\\p3\\27.cpp\\Solution\\removeElement(vector\u003cint\u003e\u0026,int)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                "name": "nums",
+                "virtual_name": "EXPECTED_nums",
+                "dataType": "vector\u003cint\u003e",
+                "realType": "vector\u003cint\u003e\u0026",
+                "external": false,
+                "correspondingVar": ".\\p3\\27.cpp\\Solution\\removeElement(vector\u003cint\u003e\u0026,int)\\nums",
+                "correspondingType": "STLListBaseType",
+                "templateArg": "int"
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "val",
+                "virtual_name": "EXPECTED_val",
+                "dataType": "int",
+                "realType": "int",
+                "external": false,
+                "correspondingVar": ".\\p3\\27.cpp\\Solution\\removeElement(vector\u003cint\u003e\u0026,int)\\val",
+                "correspondingType": "int",
+                "value": "null"
+              }
+            ],
+            "children": [
+              {
+                "type": "com.dse.testdata.object.RootDataNode",
+                "name": "STATIC",
+                "virtual_name": "NON_VALUE",
+                "functionNode": ".\\p3\\27.cpp\\Solution\\removeElement(vector\u003cint\u003e\u0026,int)",
+                "level": "STATIC"
+              },
+              {
+                "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                "name": "nums",
+                "virtual_name": "nums",
+                "dataType": "vector\u003cint\u003e",
+                "realType": "vector\u003cint\u003e\u0026",
+                "external": false,
+                "correspondingVar": ".\\p3\\27.cpp\\Solution\\removeElement(vector\u003cint\u003e\u0026,int)\\nums",
+                "correspondingType": "STLListBaseType",
+                "templateArg": "int",
+                "size": 1,
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.NormalNumberDataNode",
+                    "name": "element #0",
+                    "virtual_name": "nums_element0",
+                    "dataType": "int",
+                    "realType": "int",
+                    "external": false,
+                    "correspondingVar": ".\\p3\\27.cpp\\Solution\\removeElement(vector\u003cint\u003e\u0026,int)\\nums\\element #0",
+                    "correspondingType": "int",
+                    "value": "1673102131"
+                  }
+                ]
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "val",
+                "virtual_name": "val",
+                "dataType": "int",
+                "realType": "int",
+                "external": false,
+                "correspondingVar": ".\\p3\\27.cpp\\Solution\\removeElement(vector\u003cint\u003e\u0026,int)\\val",
+                "correspondingType": "int",
+                "value": "694366722"
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "RETURN",
+                "virtual_name": "AKA_EXPECTED_OUTPUT",
+                "dataType": "int",
+                "realType": "int",
+                "external": false,
+                "correspondingVar": ".\\p3\\27.cpp\\Solution\\removeElement(vector\u003cint\u003e\u0026,int)\\RETURN",
+                "correspondingType": "int",
+                "value": "null"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.RootDataNode",
+        "name": "STUB",
+        "virtual_name": "NON_VALUE",
+        "functionNode": ".\\p3\\27.cpp\\Solution\\removeElement(vector\u003cint\u003e\u0026,int)",
+        "level": "STUB"
+      }
+    ]
+  },
+  "procedures": [
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "i \u003c k",
+      "isSelected": false,
+      "location": 113,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "nums[i] !\u003d val",
+      "isSelected": false,
+      "location": 138,
+      "calls": [],
+      "children": []
+    }
+  ]
+}

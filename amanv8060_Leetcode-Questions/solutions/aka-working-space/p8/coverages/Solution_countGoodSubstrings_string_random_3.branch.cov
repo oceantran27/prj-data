@@ -1,0 +1,29 @@
+<pre>...
+...
+...
+...
+<b style="color: grey;">6     </b>#include &lt;unordered_map&gt;
+<b style="color: grey;">7     </b>#include &lt;algorithm&gt;
+<b style="color: grey;">8     </b>#include &lt;bits/stdc++.h&gt;
+<b style="color: grey;">9     </b>using namespace std;
+<b style="color: grey;">10     </b>
+<b style="color: grey;">11    </b>class Solution {
+<b style="color: grey;">12    </b> public:
+<b style="color: grey;">13    </b>  int countGoodSubstrings(string s) {
+<b style="color: grey;">14    </b>    <b style="background-color:yellow;color:black";>int count = 0;</b>
+<b style="color: grey;">15    </b>    <b style="background-color:yellow;color:black";>vector&lt;char&gt; v;</b>
+<b style="color: grey;">16    </b>
+<b style="color: grey;">17    </b>    if (<b style="background-color:#3D9970;color:white";>&nbsp;T&nbsp;</b>&nbsp;<b style="background-color:yellow;color:black";>s.length() &lt; 3</b>) {
+<b style="color: grey;">18    </b>      <b style="background-color:yellow;color:black";>return 0;</b>
+<b style="color: grey;">19    </b>    } else {
+<b style="color: grey;">20    </b>      for (int i = 0; i &lt; s.length() - 2; i++) {
+<b style="color: grey;">21    </b>        for (int j = i; j &lt; i + 3; j++) {
+<b style="color: grey;">22    </b>          v.push_back(s[j]);
+<b style="color: grey;">23    </b>        }
+<b style="color: grey;">24    </b>
+<b style="color: grey;">25    </b>        sort(v.begin(), v.end());
+...
+...
+...
+...
+</pre>

@@ -1,0 +1,59 @@
+{
+  "path": ".\\p12\\2014.cpp",
+  "dependency": [
+    {
+      "start": ".\\p12\\2014.cpp\\Solution\\valid()",
+      "start-type": "FunctionNode",
+      "start-md5": "d2d0be9944182f115071025f6f740485",
+      "end": ".\\p12\\2014.cpp\\Solution",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "34f2e562f7df3e5ca97e21f30506f2e4"
+    },
+    {
+      "start": ".\\p12\\2014.cpp\\Solution\\dfs()",
+      "start-type": "FunctionNode",
+      "start-md5": "87fae8cd6e7de9c5d9987ce1e8c5ee9e",
+      "end": ".\\p12\\2014.cpp\\Solution",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "34f2e562f7df3e5ca97e21f30506f2e4"
+    },
+    {
+      "start": ".\\p12\\2014.cpp\\Solution\\longestSubsequenceRepeatedK(string,int)",
+      "start-type": "FunctionNode",
+      "start-md5": "9d0379573a60fb5b740f1a05a762729b",
+      "end": ".\\p12\\2014.cpp\\Solution",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "34f2e562f7df3e5ca97e21f30506f2e4"
+    },
+    {
+      "start": ".\\p12\\2014.cpp\\Solution\\dfs()",
+      "start-type": "FunctionNode",
+      "start-md5": "87fae8cd6e7de9c5d9987ce1e8c5ee9e",
+      "end": ".\\p12\\2014.cpp\\Solution\\valid()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "d2d0be9944182f115071025f6f740485"
+    },
+    {
+      "start": ".\\p12\\2014.cpp\\Solution\\dfs()",
+      "start-type": "FunctionNode",
+      "start-md5": "87fae8cd6e7de9c5d9987ce1e8c5ee9e",
+      "end": ".\\p12\\2014.cpp\\Solution\\dfs()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "87fae8cd6e7de9c5d9987ce1e8c5ee9e"
+    },
+    {
+      "start": ".\\p12\\2014.cpp\\Solution\\longestSubsequenceRepeatedK(string,int)",
+      "start-type": "FunctionNode",
+      "start-md5": "9d0379573a60fb5b740f1a05a762729b",
+      "end": ".\\p12\\2014.cpp\\Solution\\dfs()",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "87fae8cd6e7de9c5d9987ce1e8c5ee9e"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "path": ".\\p6\\344.cpp",
+  "dependency": [
+    {
+      "start": ".\\p6\\344.cpp\\Solution\\reverseString(vector\u003cchar\u003e\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "da6c8f84e627a50c527d12919085b38d",
+      "end": ".\\p6\\344.cpp\\Solution",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "c18628e339347ce0d3a0365632b39663"
+    }
+  ]
+}

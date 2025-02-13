@@ -1,0 +1,41 @@
+<pre>...
+...
+...
+...
+<b style="color: grey;">5     </b>#include &lt;set&gt;
+<b style="color: grey;">6     </b>#include &lt;unordered_map&gt;
+<b style="color: grey;">7     </b>#include &lt;algorithm&gt;
+<b style="color: grey;">8     </b>#include &lt;bits/stdc++.h&gt;
+<b style="color: grey;">9     </b>using namespace std;
+<b style="color: grey;">10     </b>class Solution {
+<b style="color: grey;">11    </b> public:
+<b style="color: grey;">12    </b>  int sumOfBeauties(vector&lt;int&gt;&amp; nums) {
+<b style="color: grey;">13    </b>    if (<b style="background-color:#FF4136;color:white";>&nbsp;F&nbsp;</b>&nbsp;<b style="background-color:yellow;color:black";>nums.size() == 0</b>) return 0;
+<b style="color: grey;">14    </b>
+<b style="color: grey;">15    </b>    <b style="background-color:yellow;color:black";>int sum = 0;</b>
+<b style="color: grey;">16    </b>
+<b style="color: grey;">17    </b>    <b style="background-color:yellow;color:black";>int left = nums[0];</b>
+<b style="color: grey;">18    </b>    <b style="background-color:yellow;color:black";>vector&lt;int&gt; temp = nums;</b>
+<b style="color: grey;">19    </b>    <b style="background-color:yellow;color:black";>sort(temp.begin() + 2, temp.end());</b>
+<b style="color: grey;">20    </b>    <b style="background-color:yellow;color:black";>int right = temp[2];</b>
+<b style="color: grey;">21    </b>
+<b style="color: grey;">22    </b>    for (<b style="background-color:yellow;color:black";>int i = 1;</b> <b style="background-color:#3D9970;color:white";>&nbsp;T&nbsp;</b>&nbsp;<b style="background-color:yellow;color:black";>i &lt;= nums.size() - 2</b>; <b style="background-color:yellow;color:black";>i++</b>) {
+<b style="color: grey;">23    </b>      <b style="background-color:yellow;color:black";>int maxim = 0;</b>
+<b style="color: grey;">24    </b>
+<b style="color: grey;">25    </b>      if (<b style="background-color:#FF4136;color:white";>&nbsp;F&nbsp;</b>&nbsp;<b style="background-color:yellow;color:black";>nums[i - 1] &gt; left</b>) left = nums[i - 1];
+<b style="color: grey;">26    </b>
+<b style="color: grey;">27    </b>      <b style="background-color:yellow;color:black";>right = temp[i + 1];</b>
+<b style="color: grey;">28    </b>
+<b style="color: grey;">29    </b>      if (<b style="background-color:#3D9970;color:white";>&nbsp;T&nbsp;</b>&nbsp;<b style="background-color:yellow;color:black";>nums[i] &gt; left</b> &amp;&amp; <b style="background-color:#3D9970;color:white";>&nbsp;T&nbsp;</b>&nbsp;<b style="background-color:yellow;color:black";>nums[i] &lt; right</b>)
+<b style="color: grey;">30    </b>        <b style="background-color:yellow;color:black";>maxim = max(maxim, 2);</b>
+<b style="color: grey;">31    </b>      else if (nums[i] &gt; nums[i - 1] &amp;&amp; nums[i] &lt; nums[i + 1])
+<b style="color: grey;">32    </b>        maxim = max(maxim, 1);
+<b style="color: grey;">33    </b>      <b style="background-color:yellow;color:black";>sum += maxim;</b>
+<b style="color: grey;">34    </b>    }
+<b style="color: grey;">35    </b>    <b style="background-color:yellow;color:black";>return sum;</b>
+<b style="color: grey;">36    </b>  }
+...
+...
+...
+...
+</pre>

@@ -1,0 +1,40 @@
+<pre>...
+...
+...
+...
+<b style="color: grey;">5     </b>#include &lt;set&gt;
+<b style="color: grey;">6     </b>#include &lt;unordered_map&gt;
+<b style="color: grey;">7     </b>#include &lt;algorithm&gt;
+<b style="color: grey;">8     </b>#include &lt;bits/stdc++.h&gt;
+<b style="color: grey;">9     </b>using namespace std;
+<b style="color: grey;">10     </b>class Solution {
+<b style="color: grey;">11    </b> public:
+<b style="color: grey;">12    </b>  int countPrimes(int n) {
+<b style="color: grey;">13    </b>    if (<b style="background-color:yellow;color:black";>n &lt; 2</b>) return 0;
+<b style="color: grey;">14    </b>    <b style="background-color:yellow;color:black";>vector&lt;bool&gt; Prime(n + 1, true);</b>
+<b style="color: grey;">15    </b>
+<b style="color: grey;">16    </b>    <b style="background-color:yellow;color:black";>Prime[0] = false;</b>
+<b style="color: grey;">17    </b>    <b style="background-color:yellow;color:black";>Prime[1] = false;</b>
+<b style="color: grey;">18    </b>
+<b style="color: grey;">19    </b>    <b style="background-color:yellow;color:black";>Prime[n] = false;</b>
+<b style="color: grey;">20    </b>
+<b style="color: grey;">21    </b>    for (<b style="background-color:yellow;color:black";>int p = 2;</b> <b style="background-color:yellow;color:black";>p * p &lt;= n</b>; <b style="background-color:yellow;color:black";>p++</b>) {
+<b style="color: grey;">22    </b>      if (<b style="background-color:yellow;color:black";>Prime[p] == true</b>) {
+<b style="color: grey;">23    </b>        for (<b style="background-color:yellow;color:black";>int i = p * p;</b> <b style="background-color:yellow;color:black";>i &lt;= n</b>; <b style="background-color:yellow;color:black";>i += p</b>) {
+<b style="color: grey;">24    </b>          <b style="background-color:yellow;color:black";>Prime[i] = false;</b>
+<b style="color: grey;">25    </b>        }
+<b style="color: grey;">26    </b>      }
+<b style="color: grey;">27    </b>    }
+<b style="color: grey;">28    </b>    <b style="background-color:yellow;color:black";>int ans = 0;</b>
+<b style="color: grey;">29    </b>    for (<b style="background-color:yellow;color:black";>auto element</b> : Prime) {
+<b style="color: grey;">30    </b>      if (<b style="background-color:yellow;color:black";>element</b>) {
+<b style="color: grey;">31    </b>        <b style="background-color:yellow;color:black";>ans++;</b>
+<b style="color: grey;">32    </b>      }
+<b style="color: grey;">33    </b>    }
+<b style="color: grey;">34    </b>    <b style="background-color:yellow;color:black";>return ans;</b>
+<b style="color: grey;">35    </b>  }
+...
+...
+...
+...
+</pre>

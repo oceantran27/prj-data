@@ -1,0 +1,14 @@
+{
+  "path": ".\\p8\\1941.cpp",
+  "dependency": [
+    {
+      "start": ".\\p8\\1941.cpp\\Solution\\areOccurrencesEqual(string)",
+      "start-type": "FunctionNode",
+      "start-md5": "cb81efc9b91c173a056a422739f89c5b",
+      "end": ".\\p8\\1941.cpp\\Solution",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "693a04f8ae315b6c076e5a5fa847332e"
+    }
+  ]
+}

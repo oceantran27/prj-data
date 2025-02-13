@@ -1,0 +1,14 @@
+{
+  "path": ".\\p9\\1955.cpp",
+  "dependency": [
+    {
+      "start": ".\\p9\\1955.cpp\\Solution\\countSpecialSubsequences(vector\u003cint\u003e\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "59fe83b178554f3f6da63e499dc8916c",
+      "end": ".\\p9\\1955.cpp\\Solution",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "0a864add057a9f476887a81fe6b9b287"
+    }
+  ]
+}

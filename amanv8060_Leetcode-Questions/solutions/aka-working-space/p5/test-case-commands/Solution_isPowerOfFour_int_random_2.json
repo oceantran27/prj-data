@@ -1,0 +1,18 @@
+{
+  "compilationCommands": {
+    ".\\\\aka-working-space\\\\p5\\\\test-drivers\\Solution_isPowerOfFour_int_random_2.cpp": "g++\u003c\u003cAKA_U00A0\u003e\u003e-c\u003c\u003cAKA_U00A0\u003e\u003e-std\u003dgnu++14\u003c\u003cAKA_U00A0\u003e\u003e-w\u003c\u003cAKA_U00A0\u003e\u003e\".\\\\aka-working-space\\\\p5\\\\test-drivers\\Solution_isPowerOfFour_int_random_2.cpp\"\u003c\u003cAKA_U00A0\u003e\u003e-I\"D:\\\\Projects\\\\AKAUT\\\\prj-data\\\\amanv8060_Leetcode-Questions\\\\solutions\\\\aka-working-space\\\\p5\\\\user_code\\\\environment\"\u003c\u003cAKA_U00A0\u003e\u003e-o\".\\\\aka-working-space\\\\p5\\\\test-drivers\\Solution_isPowerOfFour_int_random_2.cpp.out\"\u003c\u003cAKA_U00A0\u003e\u003e-DAKA_TC_SOLUTION_ISPOWEROFFOUR_INT_RANDOM_2"
+  },
+  "linkEntry": {
+    "command": "g++ -std\u003dgnu++14 -w",
+    "outFlag": "-o",
+    "exeFile": ".\\\\aka-working-space\\\\p5\\\\exe\\Solution_isPowerOfFour_int_random_2.exe",
+    "binFiles": [
+      ".\\\\aka-working-space\\\\p5\\\\instruments\\189.akaignore.cpp.out",
+      ".\\\\aka-working-space\\\\p5\\\\instruments\\204.akaignore.cpp.out",
+      ".\\\\aka-working-space\\\\p5\\\\instruments\\263.akaignore.cpp.out",
+      ".\\\\aka-working-space\\\\p5\\\\instruments\\338.akaignore.cpp.out",
+      ".\\\\aka-working-space\\\\p5\\\\test-drivers\\Solution_isPowerOfFour_int_random_2.cpp.out"
+    ]
+  },
+  "executablePath": ".\\\\aka-working-space\\\\p5\\\\exe\\Solution_isPowerOfFour_int_random_2.exe"
+}

@@ -1,0 +1,28 @@
+<pre>...
+...
+...
+...
+<b style="color: grey;">6     </b>#include &lt;unordered_map&gt;
+<b style="color: grey;">7     </b>#include &lt;algorithm&gt;
+<b style="color: grey;">8     </b>#include &lt;bits/stdc++.h&gt;
+<b style="color: grey;">9     </b>using namespace std;
+<b style="color: grey;">10     </b>
+<b style="color: grey;">11    </b>class Solution {
+<b style="color: grey;">12    </b> public:
+<b style="color: grey;">13    </b>  int minOperations(vector&lt;string&gt;&amp; logs) {
+<b style="color: grey;">14    </b>    <b style="background-color:yellow;color:black";>int result = 0;</b>
+<b style="color: grey;">15    </b>    for (<b style="background-color:yellow;color:black";>int i = 0;</b> <b style="background-color:yellow;color:black";>i &lt; logs.size()</b>; <b style="background-color:yellow;color:black";>i++</b>) {
+<b style="color: grey;">16    </b>      if (<b style="background-color:yellow;color:black";>logs[i] == &quot;../&quot;</b>) {
+<b style="color: grey;">17    </b>        if (result != 0) {
+<b style="color: grey;">18    </b>          result--;
+<b style="color: grey;">19    </b>        }
+<b style="color: grey;">20    </b>      } else if (<b style="background-color:yellow;color:black";>logs[i] != &quot;./&quot;</b>) {
+<b style="color: grey;">21    </b>        <b style="background-color:yellow;color:black";>result++;</b>
+<b style="color: grey;">22    </b>      }
+<b style="color: grey;">23    </b>    }
+<b style="color: grey;">24    </b>    <b style="background-color:yellow;color:black";>return result;</b>
+...
+...
+...
+...
+</pre>

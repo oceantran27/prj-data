@@ -1,0 +1,14 @@
+{
+  "path": ".\\p8\\1915.cpp",
+  "dependency": [
+    {
+      "start": ".\\p8\\1915.cpp\\Solution\\wonderfulSubstrings(string)",
+      "start-type": "FunctionNode",
+      "start-md5": "fcc7bf99504287aa259b3afc9a4b6224",
+      "end": ".\\p8\\1915.cpp\\Solution",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "bbde4c3f06f1c740c1e25dce4661299d"
+    }
+  ]
+}

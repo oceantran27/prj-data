@@ -1,0 +1,40 @@
+<pre>...
+...
+...
+...
+<b style="color: grey;">6     </b>#include &lt;unordered_map&gt;
+<b style="color: grey;">7     </b>#include &lt;algorithm&gt;
+<b style="color: grey;">8     </b>#include &lt;bits/stdc++.h&gt;
+<b style="color: grey;">9     </b>using namespace std;
+<b style="color: grey;">10     </b>
+<b style="color: grey;">11    </b>class Solution {
+<b style="color: grey;">12    </b> public:
+<b style="color: grey;">13    </b>  long long maxMatrixSum(vector&lt;vector&lt;int&gt;&gt;&amp; matrix) {
+<b style="color: grey;">14    </b>    <b style="background-color:yellow;color:black";>int r = matrix.size(), c = matrix[0].size();</b>
+<b style="color: grey;">15    </b>
+<b style="color: grey;">16    </b>    // we need to find the min number in the matrix and also count of negative
+<b style="color: grey;">17    </b>    // numbers in the matrix
+<b style="color: grey;">18    </b>    <b style="background-color:yellow;color:black";>int small = INT_MAX, count = 0;</b>
+<b style="color: grey;">19    </b>    <b style="background-color:yellow;color:black";>long long int sum = 0;</b>
+<b style="color: grey;">20    </b>
+<b style="color: grey;">21    </b>    for (<b style="background-color:yellow;color:black";>int i = 0;</b> <b style="background-color:yellow;color:black";>i &lt; r</b>; <b style="background-color:yellow;color:black";>i++</b>) {
+<b style="color: grey;">22    </b>      for (<b style="background-color:yellow;color:black";>int j = 0;</b> <b style="background-color:yellow;color:black";>j &lt; c</b>; <b style="background-color:yellow;color:black";>j++</b>) {
+<b style="color: grey;">23    </b>        <b style="background-color:yellow;color:black";>int val = matrix[i][j];</b>
+<b style="color: grey;">24    </b>        // finding the smallest absolute value in the matrix
+<b style="color: grey;">25    </b>        <b style="background-color:yellow;color:black";>small = min(small, abs(val));</b>
+<b style="color: grey;">26    </b>        // counting the negative numbers
+<b style="color: grey;">27    </b>        if (<b style="background-color:yellow;color:black";>val &lt; 0</b>) <b style="background-color:yellow;color:black";>count++;</b>
+<b style="color: grey;">28    </b>        // finding the sum of all the values
+<b style="color: grey;">29    </b>        <b style="background-color:yellow;color:black";>sum += abs(val);</b>
+<b style="color: grey;">30    </b>      }
+<b style="color: grey;">31    </b>    }
+<b style="color: grey;">32    </b>    // if even number of negatives, then just return sum
+<b style="color: grey;">33    </b>    if (<b style="background-color:yellow;color:black";>count % 2 == 0</b>)
+<b style="color: grey;">34    </b>      <b style="background-color:yellow;color:black";>return sum;</b>
+<b style="color: grey;">35    </b>    else
+<b style="color: grey;">36    </b>      // subtract the value of the min absolute element
+...
+...
+...
+...
+</pre>

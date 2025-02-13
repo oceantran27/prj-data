@@ -1,0 +1,353 @@
+{
+  "name": "Solution_arrayStringsAreEqual_vector_string_vector_string_random_3",
+  "status": "success",
+  "testCaseUserCode": {
+    "includePaths": [],
+    "setUpContent": "// set up\n;",
+    "tearDownContent": "// tear down\n;"
+  },
+  "path": ".\\\\aka-working-space\\\\p7\\\\test-cases\\Solution_arrayStringsAreEqual_vector_string_vector_string_random_3.json",
+  "sourceCode": ".\\\\aka-working-space\\\\p7\\\\test-drivers\\Solution_arrayStringsAreEqual_vector_string_vector_string_random_3.cpp",
+  "testPath": ".\\\\aka-working-space\\\\p7\\\\test-paths\\Solution_arrayStringsAreEqual_vector_string_vector_string_random_3.tp",
+  "executable": ".\\\\aka-working-space\\\\p7\\\\exe\\Solution_arrayStringsAreEqual_vector_string_vector_string_random_3.exe",
+  "commandConfig": ".\\aka-working-space\\p7\\test-case-commands\\Solution_arrayStringsAreEqual_vector_string_vector_string_random_3.json",
+  "commandDebug": ".\\\\aka-working-space\\\\p7\\\\debugger\\\\commands\\Solution_arrayStringsAreEqual_vector_string_vector_string_random_3.json",
+  "breakPoint": ".\\\\aka-working-space\\\\p7\\\\debugger\\\\breakpoints\\Solution_arrayStringsAreEqual_vector_string_vector_string_random_3.br.json",
+  "debugExecutable": ".\\\\aka-working-space\\\\p7\\\\exe\\debug_Solution_arrayStringsAreEqual_vector_string_vector_string_random_3.exe",
+  "executionResult": ".\\\\aka-working-space\\\\p7\\\\execution-results\\Solution_arrayStringsAreEqual_vector_string_vector_string_random_3.xml",
+  "creationDate": "2025-02-13T09:33:04.269025900",
+  "executionDate": "2025-02-13T09:33:52.377476400",
+  "rootDataNode": {
+    "type": "com.dse.testdata.object.RootDataNode",
+    "name": "ROOT",
+    "virtual_name": "NON_VALUE",
+    "functionNode": ".\\p7\\1662.cpp\\Solution\\arrayStringsAreEqual(vector\u003cstring\u003e\u0026,vector\u003cstring\u003e\u0026)",
+    "level": "ROOT",
+    "children": [
+      {
+        "type": "com.dse.testdata.object.UnitUnderTestNode",
+        "name": "1662.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\p7\\1662.cpp",
+        "children": [
+          {
+            "type": "com.dse.testdata.object.GlobalRootDataNode",
+            "name": "GLOBAL",
+            "virtual_name": "NON_VALUE",
+            "functionNode": ".\\p7\\1662.cpp\\Solution\\arrayStringsAreEqual(vector\u003cstring\u003e\u0026,vector\u003cstring\u003e\u0026)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": false,
+                "correspondingVar": ".\\p7\\1662.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p7\\1662.cpp\\Solution"
+              }
+            ],
+            "level": "GLOBAL",
+            "children": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": true,
+                "correspondingVar": ".\\p7\\1662.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p7\\1662.cpp\\Solution",
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.SubClassDataNode",
+                    "name": "AKA_INSTANCE___Solution",
+                    "virtual_name": "AKA_INSTANCE___Solution",
+                    "dataType": "::Solution",
+                    "realType": "::Solution",
+                    "external": false,
+                    "correspondingVar": ".\\p7\\1662.cpp\\Solution\\AKA_INSTANCE___Solution",
+                    "correspondingType": ".\\p7\\1662.cpp\\Solution",
+                    "rawType": "::Solution",
+                    "selectedConstructor": "Solution()",
+                    "variableType": "::Solution",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                        "name": "Solution()",
+                        "virtual_name": "AKA_INSTANCE___Solution",
+                        "dataType": "::Solution",
+                        "realType": "::Solution",
+                        "functionNode": "\\Solution()"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "com.dse.testdata.object.SubprogramNode",
+            "name": "arrayStringsAreEqual(vector\u003cstring\u003e\u0026,vector\u003cstring\u003e\u0026)",
+            "virtual_name": "NON_VALUE",
+            "dataType": "bool",
+            "realType": "bool",
+            "functionNode": ".\\p7\\1662.cpp\\Solution\\arrayStringsAreEqual(vector\u003cstring\u003e\u0026,vector\u003cstring\u003e\u0026)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                "name": "word2",
+                "virtual_name": "EXPECTED_word2",
+                "dataType": "vector\u003cstring\u003e",
+                "realType": "vector\u003cstring\u003e\u0026",
+                "external": false,
+                "correspondingVar": ".\\p7\\1662.cpp\\Solution\\arrayStringsAreEqual(vector\u003cstring\u003e\u0026,vector\u003cstring\u003e\u0026)\\word2",
+                "correspondingType": "STLListBaseType",
+                "templateArg": "string"
+              },
+              {
+                "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                "name": "word1",
+                "virtual_name": "EXPECTED_word1",
+                "dataType": "vector\u003cstring\u003e",
+                "realType": "vector\u003cstring\u003e\u0026",
+                "external": false,
+                "correspondingVar": ".\\p7\\1662.cpp\\Solution\\arrayStringsAreEqual(vector\u003cstring\u003e\u0026,vector\u003cstring\u003e\u0026)\\word1",
+                "correspondingType": "STLListBaseType",
+                "templateArg": "string"
+              }
+            ],
+            "children": [
+              {
+                "type": "com.dse.testdata.object.RootDataNode",
+                "name": "STATIC",
+                "virtual_name": "NON_VALUE",
+                "functionNode": ".\\p7\\1662.cpp\\Solution\\arrayStringsAreEqual(vector\u003cstring\u003e\u0026,vector\u003cstring\u003e\u0026)",
+                "level": "STATIC"
+              },
+              {
+                "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                "name": "word1",
+                "virtual_name": "word1",
+                "dataType": "vector\u003cstring\u003e",
+                "realType": "vector\u003cstring\u003e\u0026",
+                "external": false,
+                "correspondingVar": ".\\p7\\1662.cpp\\Solution\\arrayStringsAreEqual(vector\u003cstring\u003e\u0026,vector\u003cstring\u003e\u0026)\\word1",
+                "correspondingType": "STLListBaseType",
+                "templateArg": "string",
+                "size": 3,
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.NormalStringDataNode",
+                    "name": "element #0",
+                    "virtual_name": "word1_element0",
+                    "dataType": "string",
+                    "realType": "string",
+                    "external": false,
+                    "correspondingVar": ".\\p7\\1662.cpp\\Solution\\arrayStringsAreEqual(vector\u003cstring\u003e\u0026,vector\u003cstring\u003e\u0026)\\word1\\element #0",
+                    "correspondingType": "string",
+                    "value": "2",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.NormalCharacterDataNode",
+                        "name": "element #0[0]",
+                        "virtual_name": "word1_element0[0]",
+                        "dataType": "char",
+                        "realType": "char",
+                        "external": false,
+                        "correspondingVar": ".\\p7\\1662.cpp\\Solution\\arrayStringsAreEqual(vector\u003cstring\u003e\u0026,vector\u003cstring\u003e\u0026)\\word1\\element #0\\element #0[0]",
+                        "correspondingType": "char",
+                        "value": "-77"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "com.dse.testdata.object.NormalStringDataNode",
+                    "name": "element #1",
+                    "virtual_name": "word1_element1",
+                    "dataType": "string",
+                    "realType": "string",
+                    "external": false,
+                    "correspondingVar": ".\\p7\\1662.cpp\\Solution\\arrayStringsAreEqual(vector\u003cstring\u003e\u0026,vector\u003cstring\u003e\u0026)\\word1\\element #1",
+                    "correspondingType": "string",
+                    "value": "1",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.NormalCharacterDataNode",
+                        "name": "element #1[0]",
+                        "virtual_name": "word1_element1[0]",
+                        "dataType": "char",
+                        "realType": "char",
+                        "external": false,
+                        "correspondingVar": ".\\p7\\1662.cpp\\Solution\\arrayStringsAreEqual(vector\u003cstring\u003e\u0026,vector\u003cstring\u003e\u0026)\\word1\\element #1\\element #1[0]",
+                        "correspondingType": "char",
+                        "value": "118"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "com.dse.testdata.object.NormalStringDataNode",
+                    "name": "element #2",
+                    "virtual_name": "word1_element2",
+                    "dataType": "string",
+                    "realType": "string",
+                    "external": false,
+                    "correspondingVar": ".\\p7\\1662.cpp\\Solution\\arrayStringsAreEqual(vector\u003cstring\u003e\u0026,vector\u003cstring\u003e\u0026)\\word1\\element #2",
+                    "correspondingType": "string",
+                    "value": "1",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.NormalCharacterDataNode",
+                        "name": "element #2[0]",
+                        "virtual_name": "word1_element2[0]",
+                        "dataType": "char",
+                        "realType": "char",
+                        "external": false,
+                        "correspondingVar": ".\\p7\\1662.cpp\\Solution\\arrayStringsAreEqual(vector\u003cstring\u003e\u0026,vector\u003cstring\u003e\u0026)\\word1\\element #2\\element #2[0]",
+                        "correspondingType": "char",
+                        "value": "51"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                "name": "word2",
+                "virtual_name": "word2",
+                "dataType": "vector\u003cstring\u003e",
+                "realType": "vector\u003cstring\u003e\u0026",
+                "external": false,
+                "correspondingVar": ".\\p7\\1662.cpp\\Solution\\arrayStringsAreEqual(vector\u003cstring\u003e\u0026,vector\u003cstring\u003e\u0026)\\word2",
+                "correspondingType": "STLListBaseType",
+                "templateArg": "string",
+                "size": 3,
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.NormalStringDataNode",
+                    "name": "element #0",
+                    "virtual_name": "word2_element0",
+                    "dataType": "string",
+                    "realType": "string",
+                    "external": false,
+                    "correspondingVar": ".\\p7\\1662.cpp\\Solution\\arrayStringsAreEqual(vector\u003cstring\u003e\u0026,vector\u003cstring\u003e\u0026)\\word2\\element #0",
+                    "correspondingType": "string",
+                    "value": "2",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.NormalCharacterDataNode",
+                        "name": "element #0[0]",
+                        "virtual_name": "word2_element0[0]",
+                        "dataType": "char",
+                        "realType": "char",
+                        "external": false,
+                        "correspondingVar": ".\\p7\\1662.cpp\\Solution\\arrayStringsAreEqual(vector\u003cstring\u003e\u0026,vector\u003cstring\u003e\u0026)\\word2\\element #0\\element #0[0]",
+                        "correspondingType": "char",
+                        "value": "-67"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "com.dse.testdata.object.NormalStringDataNode",
+                    "name": "element #1",
+                    "virtual_name": "word2_element1",
+                    "dataType": "string",
+                    "realType": "string",
+                    "external": false,
+                    "correspondingVar": ".\\p7\\1662.cpp\\Solution\\arrayStringsAreEqual(vector\u003cstring\u003e\u0026,vector\u003cstring\u003e\u0026)\\word2\\element #1",
+                    "correspondingType": "string",
+                    "value": "2",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.NormalCharacterDataNode",
+                        "name": "element #1[0]",
+                        "virtual_name": "word2_element1[0]",
+                        "dataType": "char",
+                        "realType": "char",
+                        "external": false,
+                        "correspondingVar": ".\\p7\\1662.cpp\\Solution\\arrayStringsAreEqual(vector\u003cstring\u003e\u0026,vector\u003cstring\u003e\u0026)\\word2\\element #1\\element #1[0]",
+                        "correspondingType": "char",
+                        "value": "62"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "com.dse.testdata.object.NormalStringDataNode",
+                    "name": "element #2",
+                    "virtual_name": "word2_element2",
+                    "dataType": "string",
+                    "realType": "string",
+                    "external": false,
+                    "correspondingVar": ".\\p7\\1662.cpp\\Solution\\arrayStringsAreEqual(vector\u003cstring\u003e\u0026,vector\u003cstring\u003e\u0026)\\word2\\element #2",
+                    "correspondingType": "string",
+                    "value": "2",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.NormalCharacterDataNode",
+                        "name": "element #2[0]",
+                        "virtual_name": "word2_element2[0]",
+                        "dataType": "char",
+                        "realType": "char",
+                        "external": false,
+                        "correspondingVar": ".\\p7\\1662.cpp\\Solution\\arrayStringsAreEqual(vector\u003cstring\u003e\u0026,vector\u003cstring\u003e\u0026)\\word2\\element #2\\element #2[0]",
+                        "correspondingType": "char",
+                        "value": "-38"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "RETURN",
+                "virtual_name": "AKA_EXPECTED_OUTPUT",
+                "dataType": "bool",
+                "realType": "bool",
+                "external": false,
+                "correspondingVar": ".\\p7\\1662.cpp\\Solution\\arrayStringsAreEqual(vector\u003cstring\u003e\u0026,vector\u003cstring\u003e\u0026)\\RETURN",
+                "correspondingType": "bool",
+                "value": "null"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.RootDataNode",
+        "name": "STUB",
+        "virtual_name": "NON_VALUE",
+        "functionNode": ".\\p7\\1662.cpp\\Solution\\arrayStringsAreEqual(vector\u003cstring\u003e\u0026,vector\u003cstring\u003e\u0026)",
+        "level": "STUB"
+      }
+    ]
+  },
+  "procedures": [
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "i \u003c n1",
+      "isSelected": false,
+      "location": 189,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "i \u003c n2",
+      "isSelected": false,
+      "location": 263,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "str1 \u003d\u003d str2",
+      "isSelected": false,
+      "location": 325,
+      "calls": [],
+      "children": []
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+<pre>...
+...
+...
+...
+<b style="color: grey;">6     </b>#include &lt;unordered_map&gt;
+<b style="color: grey;">7     </b>#include &lt;algorithm&gt;
+<b style="color: grey;">8     </b>#include &lt;bits/stdc++.h&gt;
+<b style="color: grey;">9     </b>using namespace std;
+<b style="color: grey;">10     </b>
+<b style="color: grey;">11    </b>class Solution {
+<b style="color: grey;">12    </b> public:
+<b style="color: grey;">13    </b>  int findMiddleIndex(vector&lt;int&gt;&amp; nums) {
+<b style="color: grey;">14    </b>    <b style="background-color:yellow;color:black";>int l = nums.size();</b>
+<b style="color: grey;">15    </b>    <b style="background-color:yellow;color:black";>vector&lt;int&gt; pre(l + 2, 0), post(l + 2, 0);</b>
+<b style="color: grey;">16    </b>
+<b style="color: grey;">17    </b>    <b style="background-color:yellow;color:black";>pre[1] = nums[0];</b>
+<b style="color: grey;">18    </b>    <b style="background-color:yellow;color:black";>post[l] = nums[l - 1];</b>
+<b style="color: grey;">19    </b>
+<b style="color: grey;">20    </b>    for (<b style="background-color:yellow;color:black";>int i = 2;</b> <b style="background-color:yellow;color:black";>i &lt;= l</b>; i++) {
+<b style="color: grey;">21    </b>      pre[i] = pre[i - 1] + nums[i - 1];
+<b style="color: grey;">22    </b>    }
+<b style="color: grey;">23    </b>    for (<b style="background-color:yellow;color:black";>int i = l - 1;</b> <b style="background-color:yellow;color:black";>i &gt;= 1</b>; i--) {
+<b style="color: grey;">24    </b>      post[i] = post[i + 1] + nums[i - 1];
+<b style="color: grey;">25    </b>    }
+<b style="color: grey;">26    </b>
+<b style="color: grey;">27    </b>    <b style="background-color:yellow;color:black";>int ans = -1;</b>
+<b style="color: grey;">28    </b>    for (<b style="background-color:yellow;color:black";>int i = 1;</b> <b style="background-color:yellow;color:black";>i &lt;= l</b>; i++) {
+<b style="color: grey;">29    </b>      <b style="background-color:yellow;color:black";>int pr = pre[i - 1];</b>
+<b style="color: grey;">30    </b>      <b style="background-color:yellow;color:black";>int ps = post[i + 1];</b>
+<b style="color: grey;">31    </b>      if (<b style="background-color:yellow;color:black";>pr == ps</b>) {
+<b style="color: grey;">32    </b>        <b style="background-color:yellow;color:black";>ans = i - 1;</b>
+<b style="color: grey;">33    </b>        <b style="background-color:yellow;color:black";>break;</b>
+<b style="color: grey;">34    </b>      }
+<b style="color: grey;">35    </b>    }
+<b style="color: grey;">36    </b>
+<b style="color: grey;">37    </b>    <b style="background-color:yellow;color:black";>return ans;</b>
+<b style="color: grey;">38    </b>  }
+...
+...
+...
+...
+</pre>

@@ -1,0 +1,14 @@
+{
+  "path": ".\\p3\\42.cpp",
+  "dependency": [
+    {
+      "start": ".\\p3\\42.cpp\\Solution\\trap(vector\u003cint\u003e\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "05e83bc0e412be21bf9b7757e0baa0b2",
+      "end": ".\\p3\\42.cpp\\Solution",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "398fb22090993e201d2ca30cfc6b66b6"
+    }
+  ]
+}

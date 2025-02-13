@@ -1,0 +1,130 @@
+{
+  "name": "Solution_akaLambdaFunction563_vector_int_const_int_const_random_0",
+  "status": "success",
+  "testCaseUserCode": {
+    "includePaths": [],
+    "setUpContent": "// set up\n;",
+    "tearDownContent": "// tear down\n;"
+  },
+  "path": ".\\\\aka-working-space\\\\p12v5\\\\test-cases\\Solution_akaLambdaFunction563_vector_int_const_int_const_random_0.json",
+  "sourceCode": ".\\\\aka-working-space\\\\p12v5\\\\test-drivers\\Solution_akaLambdaFunction563_vector_int_const_int_const_random_0.cpp",
+  "testPath": ".\\\\aka-working-space\\\\p12v5\\\\test-paths\\Solution_akaLambdaFunction563_vector_int_const_int_const_random_0.tp",
+  "executable": ".\\\\aka-working-space\\\\p12v5\\\\exe\\Solution_akaLambdaFunction563_vector_int_const_int_const_random_0.exe",
+  "commandConfig": ".\\aka-working-space\\p12v5\\test-case-commands\\Solution_akaLambdaFunction563_vector_int_const_int_const_random_0.json",
+  "commandDebug": ".\\\\aka-working-space\\\\p12v5\\\\debugger\\\\commands\\Solution_akaLambdaFunction563_vector_int_const_int_const_random_0.json",
+  "breakPoint": ".\\\\aka-working-space\\\\p12v5\\\\debugger\\\\breakpoints\\Solution_akaLambdaFunction563_vector_int_const_int_const_random_0.br.json",
+  "debugExecutable": ".\\\\aka-working-space\\\\p12v5\\\\exe\\debug_Solution_akaLambdaFunction563_vector_int_const_int_const_random_0.exe",
+  "executionResult": ".\\\\aka-working-space\\\\p12v5\\\\execution-results\\Solution_akaLambdaFunction563_vector_int_const_int_const_random_0.xml",
+  "creationDate": "2025-02-13T14:18:29.043015200",
+  "executionDate": "2025-02-13T14:18:29.525842500",
+  "rootDataNode": {
+    "type": "com.dse.testdata.object.RootDataNode",
+    "name": "ROOT",
+    "virtual_name": "NON_VALUE",
+    "functionNode": ".\\p12\\2008.cpp\\Solution\\akaLambdaFunction563(vector\u003cint\u003econst\u0026,int const)",
+    "level": "ROOT",
+    "children": [
+      {
+        "type": "com.dse.testdata.object.UnitUnderTestNode",
+        "name": "2008.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\p12\\2008.cpp",
+        "children": [
+          {
+            "type": "com.dse.testdata.object.GlobalRootDataNode",
+            "name": "GLOBAL",
+            "virtual_name": "NON_VALUE",
+            "functionNode": ".\\p12\\2008.cpp\\Solution\\akaLambdaFunction563(vector\u003cint\u003econst\u0026,int const)",
+            "paramExpectedOuputs": [],
+            "level": "GLOBAL"
+          },
+          {
+            "type": "com.dse.testdata.object.SubprogramNode",
+            "name": "akaLambdaFunction563(vector\u003cint\u003econst\u0026,int const)",
+            "virtual_name": "NON_VALUE",
+            "dataType": "void",
+            "realType": "void",
+            "functionNode": ".\\p12\\2008.cpp\\Solution\\akaLambdaFunction563(vector\u003cint\u003econst\u0026,int const)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                "name": "a",
+                "virtual_name": "EXPECTED_a",
+                "dataType": "vector\u003cint\u003econst",
+                "realType": "vector\u003cint\u003econst\u0026",
+                "external": false,
+                "correspondingVar": ".\\p12\\2008.cpp\\Solution\\akaLambdaFunction563(vector\u003cint\u003econst\u0026,int const)\\a",
+                "correspondingType": "STLListBaseType",
+                "templateArg": "int"
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "val",
+                "virtual_name": "EXPECTED_val",
+                "dataType": "int const",
+                "realType": "int const",
+                "external": false,
+                "correspondingVar": ".\\p12\\2008.cpp\\Solution\\akaLambdaFunction563(vector\u003cint\u003econst\u0026,int const)\\val",
+                "correspondingType": "int const",
+                "value": "null"
+              }
+            ],
+            "children": [
+              {
+                "type": "com.dse.testdata.object.RootDataNode",
+                "name": "STATIC",
+                "virtual_name": "NON_VALUE",
+                "functionNode": ".\\p12\\2008.cpp\\Solution\\akaLambdaFunction563(vector\u003cint\u003econst\u0026,int const)",
+                "level": "STATIC"
+              },
+              {
+                "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                "name": "a",
+                "virtual_name": "a",
+                "dataType": "vector\u003cint\u003econst",
+                "realType": "vector\u003cint\u003econst\u0026",
+                "external": false,
+                "correspondingVar": ".\\p12\\2008.cpp\\Solution\\akaLambdaFunction563(vector\u003cint\u003econst\u0026,int const)\\a",
+                "correspondingType": "STLListBaseType",
+                "templateArg": "int",
+                "size": 1,
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.NormalNumberDataNode",
+                    "name": "element #0",
+                    "virtual_name": "a_element0",
+                    "dataType": "int",
+                    "realType": "int",
+                    "external": false,
+                    "correspondingVar": ".\\p12\\2008.cpp\\Solution\\akaLambdaFunction563(vector\u003cint\u003econst\u0026,int const)\\a\\element #0",
+                    "correspondingType": "int",
+                    "value": "984320932"
+                  }
+                ]
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "val",
+                "virtual_name": "val",
+                "dataType": "int const",
+                "realType": "int const",
+                "external": false,
+                "correspondingVar": ".\\p12\\2008.cpp\\Solution\\akaLambdaFunction563(vector\u003cint\u003econst\u0026,int const)\\val",
+                "correspondingType": "int const",
+                "value": "85606365"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.RootDataNode",
+        "name": "STUB",
+        "virtual_name": "NON_VALUE",
+        "functionNode": ".\\p12\\2008.cpp\\Solution\\akaLambdaFunction563(vector\u003cint\u003econst\u0026,int const)",
+        "level": "STUB"
+      }
+    ]
+  },
+  "procedures": []
+}

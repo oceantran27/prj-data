@@ -1,0 +1,14 @@
+{
+  "path": ".\\p11\\2000.cpp",
+  "dependency": [
+    {
+      "start": ".\\p11\\2000.cpp\\Solution\\reversePrefix(string,char)",
+      "start-type": "FunctionNode",
+      "start-md5": "c2fb211a7c56fa2de3630df8f44c514f",
+      "end": ".\\p11\\2000.cpp\\Solution",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "39713e08ec99cd26c6cfd3e7abf45637"
+    }
+  ]
+}

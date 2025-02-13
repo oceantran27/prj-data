@@ -1,0 +1,54 @@
+{
+  "path": ".\\p1",
+  "type": "com.dse.parser.object.ProjectNode",
+  "children": [
+    {
+      "path": ".\\p1\\1.cpp",
+      "type": "com.dse.parser.object.CppFileNode",
+      "last-modified": "02/13/2025 07:44:26",
+      "children": [
+        {
+          "path": ".\\p1\\1.cpp\\",
+          "type": "com.dse.parser.object.UnspecifiedDeclaration"
+        }
+      ]
+    },
+    {
+      "path": ".\\p1\\2.cpp",
+      "type": "com.dse.parser.object.CppFileNode",
+      "last-modified": "02/12/2025 17:12:51",
+      "children": [
+        {
+          "path": ".\\p1\\2.cpp\\",
+          "type": "com.dse.parser.object.UnspecifiedDeclaration"
+        }
+      ]
+    },
+    {
+      "path": ".\\p1\\4.cpp",
+      "type": "com.dse.parser.object.CppFileNode",
+      "last-modified": "02/12/2025 06:29:13",
+      "children": [
+        {
+          "path": ".\\p1\\4.cpp\\",
+          "type": "com.dse.parser.object.UnspecifiedDeclaration"
+        }
+      ]
+    },
+    {
+      "path": ".\\p1\\6.java",
+      "type": "com.dse.parser.object.UnknowObjectNode"
+    },
+    {
+      "path": ".\\p1\\7.cpp",
+      "type": "com.dse.parser.object.CppFileNode",
+      "last-modified": "02/12/2025 06:29:13",
+      "children": [
+        {
+          "path": ".\\p1\\7.cpp\\",
+          "type": "com.dse.parser.object.UnspecifiedDeclaration"
+        }
+      ]
+    }
+  ]
+}

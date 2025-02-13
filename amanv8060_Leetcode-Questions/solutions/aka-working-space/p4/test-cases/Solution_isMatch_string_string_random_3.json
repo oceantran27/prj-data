@@ -1,0 +1,283 @@
+{
+  "name": "Solution_isMatch_string_string_random_3",
+  "status": "success",
+  "testCaseUserCode": {
+    "includePaths": [],
+    "setUpContent": "// set up\n;",
+    "tearDownContent": "// tear down\n;"
+  },
+  "path": ".\\\\aka-working-space\\\\p4\\\\test-cases\\Solution_isMatch_string_string_random_3.json",
+  "sourceCode": ".\\\\aka-working-space\\\\p4\\\\test-drivers\\Solution_isMatch_string_string_random_3.cpp",
+  "testPath": ".\\\\aka-working-space\\\\p4\\\\test-paths\\Solution_isMatch_string_string_random_3.tp",
+  "executable": ".\\\\aka-working-space\\\\p4\\\\exe\\Solution_isMatch_string_string_random_3.exe",
+  "commandConfig": ".\\aka-working-space\\p4\\test-case-commands\\Solution_isMatch_string_string_random_3.json",
+  "commandDebug": ".\\\\aka-working-space\\\\p4\\\\debugger\\\\commands\\Solution_isMatch_string_string_random_3.json",
+  "breakPoint": ".\\\\aka-working-space\\\\p4\\\\debugger\\\\breakpoints\\Solution_isMatch_string_string_random_3.br.json",
+  "debugExecutable": ".\\\\aka-working-space\\\\p4\\\\exe\\debug_Solution_isMatch_string_string_random_3.exe",
+  "executionResult": ".\\\\aka-working-space\\\\p4\\\\execution-results\\Solution_isMatch_string_string_random_3.xml",
+  "creationDate": "2025-02-13T08:57:25.572009100",
+  "executionDate": "2025-02-13T08:58:04.057622600",
+  "rootDataNode": {
+    "type": "com.dse.testdata.object.RootDataNode",
+    "name": "ROOT",
+    "virtual_name": "NON_VALUE",
+    "functionNode": ".\\p4\\44.cpp\\Solution\\isMatch(string,string)",
+    "level": "ROOT",
+    "children": [
+      {
+        "type": "com.dse.testdata.object.UnitUnderTestNode",
+        "name": "44.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\p4\\44.cpp",
+        "children": [
+          {
+            "type": "com.dse.testdata.object.GlobalRootDataNode",
+            "name": "GLOBAL",
+            "virtual_name": "NON_VALUE",
+            "functionNode": ".\\p4\\44.cpp\\Solution\\isMatch(string,string)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": false,
+                "correspondingVar": ".\\p4\\44.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p4\\44.cpp\\Solution"
+              }
+            ],
+            "level": "GLOBAL",
+            "children": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": true,
+                "correspondingVar": ".\\p4\\44.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p4\\44.cpp\\Solution",
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.SubClassDataNode",
+                    "name": "AKA_INSTANCE___Solution",
+                    "virtual_name": "AKA_INSTANCE___Solution",
+                    "dataType": "::Solution",
+                    "realType": "::Solution",
+                    "external": false,
+                    "correspondingVar": ".\\p4\\44.cpp\\Solution\\AKA_INSTANCE___Solution",
+                    "correspondingType": ".\\p4\\44.cpp\\Solution",
+                    "rawType": "::Solution",
+                    "selectedConstructor": "Solution()",
+                    "variableType": "::Solution",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                        "name": "Solution()",
+                        "virtual_name": "AKA_INSTANCE___Solution",
+                        "dataType": "::Solution",
+                        "realType": "::Solution",
+                        "functionNode": "\\Solution()"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "com.dse.testdata.object.SubprogramNode",
+            "name": "isMatch(string,string)",
+            "virtual_name": "NON_VALUE",
+            "dataType": "bool",
+            "realType": "bool",
+            "functionNode": ".\\p4\\44.cpp\\Solution\\isMatch(string,string)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.NormalStringDataNode",
+                "name": "pattern",
+                "virtual_name": "EXPECTED_pattern",
+                "dataType": "string",
+                "realType": "string",
+                "external": false,
+                "correspondingVar": ".\\p4\\44.cpp\\Solution\\isMatch(string,string)\\pattern",
+                "correspondingType": "string",
+                "value": "null"
+              },
+              {
+                "type": "com.dse.testdata.object.NormalStringDataNode",
+                "name": "str",
+                "virtual_name": "EXPECTED_str",
+                "dataType": "string",
+                "realType": "string",
+                "external": false,
+                "correspondingVar": ".\\p4\\44.cpp\\Solution\\isMatch(string,string)\\str",
+                "correspondingType": "string",
+                "value": "null"
+              }
+            ],
+            "children": [
+              {
+                "type": "com.dse.testdata.object.RootDataNode",
+                "name": "STATIC",
+                "virtual_name": "NON_VALUE",
+                "functionNode": ".\\p4\\44.cpp\\Solution\\isMatch(string,string)",
+                "level": "STATIC"
+              },
+              {
+                "type": "com.dse.testdata.object.NormalStringDataNode",
+                "name": "str",
+                "virtual_name": "str",
+                "dataType": "string",
+                "realType": "string",
+                "external": false,
+                "correspondingVar": ".\\p4\\44.cpp\\Solution\\isMatch(string,string)\\str",
+                "correspondingType": "string",
+                "value": "1",
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.NormalCharacterDataNode",
+                    "name": "str[0]",
+                    "virtual_name": "str[0]",
+                    "dataType": "char",
+                    "realType": "char",
+                    "external": false,
+                    "correspondingVar": ".\\p4\\44.cpp\\Solution\\isMatch(string,string)\\str\\str[0]",
+                    "correspondingType": "char",
+                    "value": "28"
+                  }
+                ]
+              },
+              {
+                "type": "com.dse.testdata.object.NormalStringDataNode",
+                "name": "pattern",
+                "virtual_name": "pattern",
+                "dataType": "string",
+                "realType": "string",
+                "external": false,
+                "correspondingVar": ".\\p4\\44.cpp\\Solution\\isMatch(string,string)\\pattern",
+                "correspondingType": "string",
+                "value": "1",
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.NormalCharacterDataNode",
+                    "name": "pattern[0]",
+                    "virtual_name": "pattern[0]",
+                    "dataType": "char",
+                    "realType": "char",
+                    "external": false,
+                    "correspondingVar": ".\\p4\\44.cpp\\Solution\\isMatch(string,string)\\pattern\\pattern[0]",
+                    "correspondingType": "char",
+                    "value": "46"
+                  }
+                ]
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "RETURN",
+                "virtual_name": "AKA_EXPECTED_OUTPUT",
+                "dataType": "bool",
+                "realType": "bool",
+                "external": false,
+                "correspondingVar": ".\\p4\\44.cpp\\Solution\\isMatch(string,string)\\RETURN",
+                "correspondingType": "bool",
+                "value": "null"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.RootDataNode",
+        "name": "STUB",
+        "virtual_name": "NON_VALUE",
+        "functionNode": ".\\p4\\44.cpp\\Solution\\isMatch(string,string)",
+        "level": "STUB"
+      }
+    ]
+  },
+  "procedures": [
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "i \u003c n + 1",
+      "isSelected": false,
+      "location": 148,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "i \u003c n + 1",
+      "isSelected": false,
+      "location": 148,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "j \u003c m + 1",
+      "isSelected": false,
+      "location": 189,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "j \u003c m + 1",
+      "isSelected": false,
+      "location": 189,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "i \u003c\u003d m",
+      "isSelected": false,
+      "location": 295,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "pattern[i - 1] \u003d\u003d \u0027*\u0027",
+      "isSelected": false,
+      "location": 321,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "str[i - 1] \u003d\u003d pattern[j - 1]",
+      "isSelected": false,
+      "location": 469,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "pattern[j - 1] \u003d\u003d \u0027?\u0027",
+      "isSelected": false,
+      "location": 501,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "pattern[j - 1] \u003d\u003d \u0027*\u0027",
+      "isSelected": false,
+      "location": 582,
+      "calls": [],
+      "children": []
+    }
+  ]
+}

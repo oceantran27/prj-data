@@ -1,0 +1,32 @@
+<pre>...
+...
+...
+...
+<b style="color: grey;">9     </b>
+<b style="color: grey;">10     </b>#ifndef NULL
+<b style="color: grey;">11    </b>#define NULL 0
+<b style="color: grey;">12    </b>#endif
+<b style="color: grey;">13    </b>
+<b style="color: grey;">14    </b>class Solution {
+<b style="color: grey;">15    </b> public:
+<b style="color: grey;">16    </b>  int maxArea(vector&lt;int&gt;&amp; height) {
+<b style="color: grey;">17    </b>    <b style="background-color:yellow;color:black";>int s = 0;</b>
+<b style="color: grey;">18    </b>    <b style="background-color:yellow;color:black";>int e = height.size() - 1;</b>
+<b style="color: grey;">19    </b>
+<b style="color: grey;">20    </b>    <b style="background-color:yellow;color:black";>int water = INT_MIN;</b>
+<b style="color: grey;">21    </b>    while (<b style="background-color:yellow;color:black";>s &lt; e</b>) {
+<b style="color: grey;">22    </b>      <b style="background-color:yellow;color:black";>water = max(water, min(height[s], height[e]) * (e - s));</b>
+<b style="color: grey;">23    </b>
+<b style="color: grey;">24    </b>      if (<b style="background-color:yellow;color:black";>height[s] &lt; height[e]</b>)
+<b style="color: grey;">25    </b>        s++;
+<b style="color: grey;">26    </b>      else
+<b style="color: grey;">27    </b>        <b style="background-color:yellow;color:black";>e--;</b>
+<b style="color: grey;">28    </b>    }
+<b style="color: grey;">29    </b>
+<b style="color: grey;">30    </b>    <b style="background-color:yellow;color:black";>return water;</b>
+<b style="color: grey;">31    </b>  }
+...
+...
+...
+...
+</pre>

@@ -1,0 +1,224 @@
+{
+  "name": "Solution_findMedianSortedArrays_vector_int_vector_int_random_1",
+  "status": "success",
+  "testCaseUserCode": {
+    "includePaths": [],
+    "setUpContent": "// set up\n;",
+    "tearDownContent": "// tear down\n;"
+  },
+  "path": ".\\\\aka-working-space\\\\p1\\\\test-cases\\Solution_findMedianSortedArrays_vector_int_vector_int_random_1.json",
+  "sourceCode": ".\\\\aka-working-space\\\\p1\\\\test-drivers\\Solution_findMedianSortedArrays_vector_int_vector_int_random_1.cpp",
+  "testPath": ".\\\\aka-working-space\\\\p1\\\\test-paths\\Solution_findMedianSortedArrays_vector_int_vector_int_random_1.tp",
+  "executable": ".\\\\aka-working-space\\\\p1\\\\exe\\Solution_findMedianSortedArrays_vector_int_vector_int_random_1.exe",
+  "commandConfig": ".\\aka-working-space\\p1\\test-case-commands\\Solution_findMedianSortedArrays_vector_int_vector_int_random_1.json",
+  "commandDebug": ".\\\\aka-working-space\\\\p1\\\\debugger\\\\commands\\Solution_findMedianSortedArrays_vector_int_vector_int_random_1.json",
+  "breakPoint": ".\\\\aka-working-space\\\\p1\\\\debugger\\\\breakpoints\\Solution_findMedianSortedArrays_vector_int_vector_int_random_1.br.json",
+  "debugExecutable": ".\\\\aka-working-space\\\\p1\\\\exe\\debug_Solution_findMedianSortedArrays_vector_int_vector_int_random_1.exe",
+  "executionResult": ".\\\\aka-working-space\\\\p1\\\\execution-results\\Solution_findMedianSortedArrays_vector_int_vector_int_random_1.xml",
+  "creationDate": "2025-02-13T08:22:08.113479",
+  "executionDate": "2025-02-13T08:22:19.653839900",
+  "rootDataNode": {
+    "type": "com.dse.testdata.object.RootDataNode",
+    "name": "ROOT",
+    "virtual_name": "NON_VALUE",
+    "functionNode": ".\\p1\\4.cpp\\Solution\\findMedianSortedArrays(vector\u003cint\u003e\u0026,vector\u003cint\u003e\u0026)",
+    "level": "ROOT",
+    "children": [
+      {
+        "type": "com.dse.testdata.object.UnitUnderTestNode",
+        "name": "4.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\p1\\4.cpp",
+        "children": [
+          {
+            "type": "com.dse.testdata.object.GlobalRootDataNode",
+            "name": "GLOBAL",
+            "virtual_name": "NON_VALUE",
+            "functionNode": ".\\p1\\4.cpp\\Solution\\findMedianSortedArrays(vector\u003cint\u003e\u0026,vector\u003cint\u003e\u0026)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": false,
+                "correspondingVar": ".\\p1\\4.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p1\\4.cpp\\Solution"
+              }
+            ],
+            "level": "GLOBAL",
+            "children": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": true,
+                "correspondingVar": ".\\p1\\4.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p1\\4.cpp\\Solution",
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.SubClassDataNode",
+                    "name": "AKA_INSTANCE___Solution",
+                    "virtual_name": "AKA_INSTANCE___Solution",
+                    "dataType": "::Solution",
+                    "realType": "::Solution",
+                    "external": false,
+                    "correspondingVar": ".\\p1\\4.cpp\\Solution\\AKA_INSTANCE___Solution",
+                    "correspondingType": ".\\p1\\4.cpp\\Solution",
+                    "rawType": "::Solution",
+                    "selectedConstructor": "Solution()",
+                    "variableType": "::Solution",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                        "name": "Solution()",
+                        "virtual_name": "AKA_INSTANCE___Solution",
+                        "dataType": "::Solution",
+                        "realType": "::Solution",
+                        "functionNode": "\\Solution()"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "com.dse.testdata.object.SubprogramNode",
+            "name": "findMedianSortedArrays(vector\u003cint\u003e\u0026,vector\u003cint\u003e\u0026)",
+            "virtual_name": "NON_VALUE",
+            "dataType": "double",
+            "realType": "double",
+            "functionNode": ".\\p1\\4.cpp\\Solution\\findMedianSortedArrays(vector\u003cint\u003e\u0026,vector\u003cint\u003e\u0026)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                "name": "nums2",
+                "virtual_name": "EXPECTED_nums2",
+                "dataType": "vector\u003cint\u003e",
+                "realType": "vector\u003cint\u003e\u0026",
+                "external": false,
+                "correspondingVar": ".\\p1\\4.cpp\\Solution\\findMedianSortedArrays(vector\u003cint\u003e\u0026,vector\u003cint\u003e\u0026)\\nums2",
+                "correspondingType": "STLListBaseType",
+                "templateArg": "int"
+              },
+              {
+                "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                "name": "nums1",
+                "virtual_name": "EXPECTED_nums1",
+                "dataType": "vector\u003cint\u003e",
+                "realType": "vector\u003cint\u003e\u0026",
+                "external": false,
+                "correspondingVar": ".\\p1\\4.cpp\\Solution\\findMedianSortedArrays(vector\u003cint\u003e\u0026,vector\u003cint\u003e\u0026)\\nums1",
+                "correspondingType": "STLListBaseType",
+                "templateArg": "int"
+              }
+            ],
+            "children": [
+              {
+                "type": "com.dse.testdata.object.RootDataNode",
+                "name": "STATIC",
+                "virtual_name": "NON_VALUE",
+                "functionNode": ".\\p1\\4.cpp\\Solution\\findMedianSortedArrays(vector\u003cint\u003e\u0026,vector\u003cint\u003e\u0026)",
+                "level": "STATIC"
+              },
+              {
+                "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                "name": "nums1",
+                "virtual_name": "nums1",
+                "dataType": "vector\u003cint\u003e",
+                "realType": "vector\u003cint\u003e\u0026",
+                "external": false,
+                "correspondingVar": ".\\p1\\4.cpp\\Solution\\findMedianSortedArrays(vector\u003cint\u003e\u0026,vector\u003cint\u003e\u0026)\\nums1",
+                "correspondingType": "STLListBaseType",
+                "templateArg": "int",
+                "size": 1,
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.NormalNumberDataNode",
+                    "name": "element #0",
+                    "virtual_name": "nums1_element0",
+                    "dataType": "int",
+                    "realType": "int",
+                    "external": false,
+                    "correspondingVar": ".\\p1\\4.cpp\\Solution\\findMedianSortedArrays(vector\u003cint\u003e\u0026,vector\u003cint\u003e\u0026)\\nums1\\element #0",
+                    "correspondingType": "int",
+                    "value": "1337663386"
+                  }
+                ]
+              },
+              {
+                "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                "name": "nums2",
+                "virtual_name": "nums2",
+                "dataType": "vector\u003cint\u003e",
+                "realType": "vector\u003cint\u003e\u0026",
+                "external": false,
+                "correspondingVar": ".\\p1\\4.cpp\\Solution\\findMedianSortedArrays(vector\u003cint\u003e\u0026,vector\u003cint\u003e\u0026)\\nums2",
+                "correspondingType": "STLListBaseType",
+                "templateArg": "int",
+                "size": 2,
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.NormalNumberDataNode",
+                    "name": "element #0",
+                    "virtual_name": "nums2_element0",
+                    "dataType": "int",
+                    "realType": "int",
+                    "external": false,
+                    "correspondingVar": ".\\p1\\4.cpp\\Solution\\findMedianSortedArrays(vector\u003cint\u003e\u0026,vector\u003cint\u003e\u0026)\\nums2\\element #0",
+                    "correspondingType": "int",
+                    "value": "-1990398430"
+                  },
+                  {
+                    "type": "com.dse.testdata.object.NormalNumberDataNode",
+                    "name": "element #1",
+                    "virtual_name": "nums2_element1",
+                    "dataType": "int",
+                    "realType": "int",
+                    "external": false,
+                    "correspondingVar": ".\\p1\\4.cpp\\Solution\\findMedianSortedArrays(vector\u003cint\u003e\u0026,vector\u003cint\u003e\u0026)\\nums2\\element #1",
+                    "correspondingType": "int",
+                    "value": "-1535765925"
+                  }
+                ]
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "RETURN",
+                "virtual_name": "AKA_EXPECTED_OUTPUT",
+                "dataType": "double",
+                "realType": "double",
+                "external": false,
+                "correspondingVar": ".\\p1\\4.cpp\\Solution\\findMedianSortedArrays(vector\u003cint\u003e\u0026,vector\u003cint\u003e\u0026)\\RETURN",
+                "correspondingType": "double",
+                "value": "null"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.RootDataNode",
+        "name": "STUB",
+        "virtual_name": "NON_VALUE",
+        "functionNode": ".\\p1\\4.cpp\\Solution\\findMedianSortedArrays(vector\u003cint\u003e\u0026,vector\u003cint\u003e\u0026)",
+        "level": "STUB"
+      }
+    ]
+  },
+  "procedures": [
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "n % 2 \u003d\u003d 0",
+      "isSelected": false,
+      "location": 228,
+      "calls": [],
+      "children": []
+    }
+  ]
+}

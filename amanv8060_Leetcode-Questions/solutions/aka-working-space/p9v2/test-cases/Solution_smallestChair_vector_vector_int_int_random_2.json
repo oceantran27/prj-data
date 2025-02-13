@@ -1,0 +1,289 @@
+{
+  "name": "Solution_smallestChair_vector_vector_int_int_random_2",
+  "status": "runtime error",
+  "testCaseUserCode": {
+    "includePaths": [],
+    "setUpContent": "// set up\n;",
+    "tearDownContent": "// tear down\n;"
+  },
+  "path": ".\\\\aka-working-space\\\\p9v2\\\\test-cases\\Solution_smallestChair_vector_vector_int_int_random_2.json",
+  "sourceCode": ".\\\\aka-working-space\\\\p9v2\\\\test-drivers\\Solution_smallestChair_vector_vector_int_int_random_2.cpp",
+  "testPath": ".\\\\aka-working-space\\\\p9v2\\\\test-paths\\Solution_smallestChair_vector_vector_int_int_random_2.tp",
+  "executable": ".\\\\aka-working-space\\\\p9v2\\\\exe\\Solution_smallestChair_vector_vector_int_int_random_2.exe",
+  "commandConfig": ".\\aka-working-space\\p9v2\\test-case-commands\\Solution_smallestChair_vector_vector_int_int_random_2.json",
+  "commandDebug": ".\\\\aka-working-space\\\\p9v2\\\\debugger\\\\commands\\Solution_smallestChair_vector_vector_int_int_random_2.json",
+  "breakPoint": ".\\\\aka-working-space\\\\p9v2\\\\debugger\\\\breakpoints\\Solution_smallestChair_vector_vector_int_int_random_2.br.json",
+  "debugExecutable": ".\\\\aka-working-space\\\\p9v2\\\\exe\\debug_Solution_smallestChair_vector_vector_int_int_random_2.exe",
+  "executionResult": ".\\\\aka-working-space\\\\p9v2\\\\execution-results\\Solution_smallestChair_vector_vector_int_int_random_2.xml",
+  "creationDate": "2025-02-13T10:27:34.088189700",
+  "executionDate": "2025-02-13T10:28:12.881185300",
+  "rootDataNode": {
+    "type": "com.dse.testdata.object.RootDataNode",
+    "name": "ROOT",
+    "virtual_name": "NON_VALUE",
+    "functionNode": ".\\p9\\1942.cpp\\Solution\\smallestChair(vector\u003cvector\u003cint\u003e\u003e\u0026,int)",
+    "level": "ROOT",
+    "children": [
+      {
+        "type": "com.dse.testdata.object.UnitUnderTestNode",
+        "name": "1942.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\p9\\1942.cpp",
+        "children": [
+          {
+            "type": "com.dse.testdata.object.GlobalRootDataNode",
+            "name": "GLOBAL",
+            "virtual_name": "NON_VALUE",
+            "functionNode": ".\\p9\\1942.cpp\\Solution\\smallestChair(vector\u003cvector\u003cint\u003e\u003e\u0026,int)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": false,
+                "correspondingVar": ".\\p9\\1942.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p9\\1942.cpp\\Solution"
+              }
+            ],
+            "level": "GLOBAL",
+            "children": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": true,
+                "correspondingVar": ".\\p9\\1942.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p9\\1942.cpp\\Solution",
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.SubClassDataNode",
+                    "name": "AKA_INSTANCE___Solution",
+                    "virtual_name": "AKA_INSTANCE___Solution",
+                    "dataType": "::Solution",
+                    "realType": "::Solution",
+                    "external": false,
+                    "correspondingVar": ".\\p9\\1942.cpp\\Solution\\AKA_INSTANCE___Solution",
+                    "correspondingType": ".\\p9\\1942.cpp\\Solution",
+                    "rawType": "::Solution",
+                    "selectedConstructor": "Solution()",
+                    "variableType": "::Solution",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                        "name": "Solution()",
+                        "virtual_name": "AKA_INSTANCE___Solution",
+                        "dataType": "::Solution",
+                        "realType": "::Solution",
+                        "functionNode": "\\Solution()"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "com.dse.testdata.object.SubprogramNode",
+            "name": "smallestChair(vector\u003cvector\u003cint\u003e\u003e\u0026,int)",
+            "virtual_name": "NON_VALUE",
+            "dataType": "int",
+            "realType": "int",
+            "functionNode": ".\\p9\\1942.cpp\\Solution\\smallestChair(vector\u003cvector\u003cint\u003e\u003e\u0026,int)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                "name": "times",
+                "virtual_name": "EXPECTED_times",
+                "dataType": "vector\u003cvector\u003cint\u003e\u003e",
+                "realType": "vector\u003cvector\u003cint\u003e\u003e\u0026",
+                "external": false,
+                "correspondingVar": ".\\p9\\1942.cpp\\Solution\\smallestChair(vector\u003cvector\u003cint\u003e\u003e\u0026,int)\\times",
+                "correspondingType": "STLListBaseType",
+                "templateArg": "vector\u003cint\u003e"
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "targetFriend",
+                "virtual_name": "EXPECTED_targetFriend",
+                "dataType": "int",
+                "realType": "int",
+                "external": false,
+                "correspondingVar": ".\\p9\\1942.cpp\\Solution\\smallestChair(vector\u003cvector\u003cint\u003e\u003e\u0026,int)\\targetFriend",
+                "correspondingType": "int",
+                "value": "null"
+              }
+            ],
+            "children": [
+              {
+                "type": "com.dse.testdata.object.RootDataNode",
+                "name": "STATIC",
+                "virtual_name": "NON_VALUE",
+                "functionNode": ".\\p9\\1942.cpp\\Solution\\smallestChair(vector\u003cvector\u003cint\u003e\u003e\u0026,int)",
+                "level": "STATIC"
+              },
+              {
+                "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                "name": "times",
+                "virtual_name": "times",
+                "dataType": "vector\u003cvector\u003cint\u003e\u003e",
+                "realType": "vector\u003cvector\u003cint\u003e\u003e\u0026",
+                "external": false,
+                "correspondingVar": ".\\p9\\1942.cpp\\Solution\\smallestChair(vector\u003cvector\u003cint\u003e\u003e\u0026,int)\\times",
+                "correspondingType": "STLListBaseType",
+                "templateArg": "vector\u003cint\u003e",
+                "size": 1,
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                    "name": "element #0",
+                    "virtual_name": "times_element0",
+                    "dataType": "vector\u003cint\u003e",
+                    "realType": "vector\u003cint\u003e",
+                    "external": false,
+                    "correspondingVar": ".\\p9\\1942.cpp\\Solution\\smallestChair(vector\u003cvector\u003cint\u003e\u003e\u0026,int)\\times\\element #0",
+                    "correspondingType": "STLListBaseType",
+                    "templateArg": "int",
+                    "size": 3,
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.NormalNumberDataNode",
+                        "name": "element #0",
+                        "virtual_name": "times_element0_element0",
+                        "dataType": "int",
+                        "realType": "int",
+                        "external": false,
+                        "correspondingVar": ".\\p9\\1942.cpp\\Solution\\smallestChair(vector\u003cvector\u003cint\u003e\u003e\u0026,int)\\times\\element #0\\element #0",
+                        "correspondingType": "int",
+                        "value": "-2124895748"
+                      },
+                      {
+                        "type": "com.dse.testdata.object.NormalNumberDataNode",
+                        "name": "element #1",
+                        "virtual_name": "times_element0_element1",
+                        "dataType": "int",
+                        "realType": "int",
+                        "external": false,
+                        "correspondingVar": ".\\p9\\1942.cpp\\Solution\\smallestChair(vector\u003cvector\u003cint\u003e\u003e\u0026,int)\\times\\element #0\\element #1",
+                        "correspondingType": "int",
+                        "value": "586071860"
+                      },
+                      {
+                        "type": "com.dse.testdata.object.NormalNumberDataNode",
+                        "name": "element #2",
+                        "virtual_name": "times_element0_element2",
+                        "dataType": "int",
+                        "realType": "int",
+                        "external": false,
+                        "correspondingVar": ".\\p9\\1942.cpp\\Solution\\smallestChair(vector\u003cvector\u003cint\u003e\u003e\u0026,int)\\times\\element #0\\element #2",
+                        "correspondingType": "int",
+                        "value": "2103666517"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "targetFriend",
+                "virtual_name": "targetFriend",
+                "dataType": "int",
+                "realType": "int",
+                "external": false,
+                "correspondingVar": ".\\p9\\1942.cpp\\Solution\\smallestChair(vector\u003cvector\u003cint\u003e\u003e\u0026,int)\\targetFriend",
+                "correspondingType": "int",
+                "value": "-2116537728"
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "RETURN",
+                "virtual_name": "AKA_EXPECTED_OUTPUT",
+                "dataType": "int",
+                "realType": "int",
+                "external": false,
+                "correspondingVar": ".\\p9\\1942.cpp\\Solution\\smallestChair(vector\u003cvector\u003cint\u003e\u003e\u0026,int)\\RETURN",
+                "correspondingType": "int",
+                "value": "null"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.RootDataNode",
+        "name": "STUB",
+        "virtual_name": "NON_VALUE",
+        "functionNode": ".\\p9\\1942.cpp\\Solution\\smallestChair(vector\u003cvector\u003cint\u003e\u003e\u0026,int)",
+        "level": "STUB"
+      }
+    ]
+  },
+  "procedures": [
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "i \u003c times.size()",
+      "isSelected": false,
+      "location": 169,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "times[i][0] \u003c\u003d time",
+      "isSelected": false,
+      "location": 205,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "i \u003c\u003d time",
+      "isSelected": false,
+      "location": 301,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "arrival[i] !\u003d -1",
+      "isSelected": false,
+      "location": 330,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "j \u003c time",
+      "isSelected": false,
+      "location": 404,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "next !\u003d -1",
+      "isSelected": false,
+      "location": 465,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "j \u003d\u003d time",
+      "isSelected": false,
+      "location": 602,
+      "calls": [],
+      "children": []
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "path": ".\\p12\\2012.cpp",
+  "dependency": [
+    {
+      "start": ".\\p12\\2012.cpp\\Solution\\sumOfBeauties(vector\u003cint\u003e\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "348d77ac510c2ba7d51b9bba42b7b062",
+      "end": ".\\p12\\2012.cpp\\Solution",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "6dc1a48e7853442f9e0f2199c1d4e10b"
+    }
+  ]
+}

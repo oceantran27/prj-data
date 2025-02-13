@@ -1,0 +1,199 @@
+{
+  "name": "Solution_sortedArrayToBST_vector_int_random_4",
+  "status": "success",
+  "testCaseUserCode": {
+    "includePaths": [],
+    "setUpContent": "// set up\n;",
+    "tearDownContent": "// tear down\n;"
+  },
+  "path": ".\\\\aka-working-space\\\\p4\\\\test-cases\\Solution_sortedArrayToBST_vector_int_random_4.json",
+  "sourceCode": ".\\\\aka-working-space\\\\p4\\\\test-drivers\\Solution_sortedArrayToBST_vector_int_random_4.cpp",
+  "testPath": ".\\\\aka-working-space\\\\p4\\\\test-paths\\Solution_sortedArrayToBST_vector_int_random_4.tp",
+  "executable": ".\\\\aka-working-space\\\\p4\\\\exe\\Solution_sortedArrayToBST_vector_int_random_4.exe",
+  "commandConfig": ".\\aka-working-space\\p4\\test-case-commands\\Solution_sortedArrayToBST_vector_int_random_4.json",
+  "commandDebug": ".\\\\aka-working-space\\\\p4\\\\debugger\\\\commands\\Solution_sortedArrayToBST_vector_int_random_4.json",
+  "breakPoint": ".\\\\aka-working-space\\\\p4\\\\debugger\\\\breakpoints\\Solution_sortedArrayToBST_vector_int_random_4.br.json",
+  "debugExecutable": ".\\\\aka-working-space\\\\p4\\\\exe\\debug_Solution_sortedArrayToBST_vector_int_random_4.exe",
+  "executionResult": ".\\\\aka-working-space\\\\p4\\\\execution-results\\Solution_sortedArrayToBST_vector_int_random_4.xml",
+  "creationDate": "2025-02-13T09:00:24.396930100",
+  "executionDate": "2025-02-13T09:01:07.542158700",
+  "rootDataNode": {
+    "type": "com.dse.testdata.object.RootDataNode",
+    "name": "ROOT",
+    "virtual_name": "NON_VALUE",
+    "functionNode": ".\\p4\\108.cpp\\Solution\\sortedArrayToBST(vector\u003cint\u003e\u0026)",
+    "level": "ROOT",
+    "children": [
+      {
+        "type": "com.dse.testdata.object.UnitUnderTestNode",
+        "name": "108.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\p4\\108.cpp",
+        "children": [
+          {
+            "type": "com.dse.testdata.object.GlobalRootDataNode",
+            "name": "GLOBAL",
+            "virtual_name": "NON_VALUE",
+            "functionNode": ".\\p4\\108.cpp\\Solution\\sortedArrayToBST(vector\u003cint\u003e\u0026)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": false,
+                "correspondingVar": ".\\p4\\108.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p4\\108.cpp\\Solution"
+              }
+            ],
+            "level": "GLOBAL",
+            "children": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": true,
+                "correspondingVar": ".\\p4\\108.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p4\\108.cpp\\Solution",
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.SubClassDataNode",
+                    "name": "AKA_INSTANCE___Solution",
+                    "virtual_name": "AKA_INSTANCE___Solution",
+                    "dataType": "::Solution",
+                    "realType": "::Solution",
+                    "external": false,
+                    "correspondingVar": ".\\p4\\108.cpp\\Solution\\AKA_INSTANCE___Solution",
+                    "correspondingType": ".\\p4\\108.cpp\\Solution",
+                    "rawType": "::Solution",
+                    "selectedConstructor": "Solution()",
+                    "variableType": "::Solution",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                        "name": "Solution()",
+                        "virtual_name": "AKA_INSTANCE___Solution",
+                        "dataType": "::Solution",
+                        "realType": "::Solution",
+                        "functionNode": "\\Solution()"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "com.dse.testdata.object.SubprogramNode",
+            "name": "sortedArrayToBST(vector\u003cint\u003e\u0026)",
+            "virtual_name": "NON_VALUE",
+            "dataType": "TreeNode*",
+            "realType": "TreeNode*",
+            "functionNode": ".\\p4\\108.cpp\\Solution\\sortedArrayToBST(vector\u003cint\u003e\u0026)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                "name": "nums",
+                "virtual_name": "EXPECTED_nums",
+                "dataType": "vector\u003cint\u003e",
+                "realType": "vector\u003cint\u003e\u0026",
+                "external": false,
+                "correspondingVar": ".\\p4\\108.cpp\\Solution\\sortedArrayToBST(vector\u003cint\u003e\u0026)\\nums",
+                "correspondingType": "STLListBaseType",
+                "templateArg": "int"
+              }
+            ],
+            "children": [
+              {
+                "type": "com.dse.testdata.object.RootDataNode",
+                "name": "STATIC",
+                "virtual_name": "NON_VALUE",
+                "functionNode": ".\\p4\\108.cpp\\Solution\\sortedArrayToBST(vector\u003cint\u003e\u0026)",
+                "level": "STATIC"
+              },
+              {
+                "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                "name": "nums",
+                "virtual_name": "nums",
+                "dataType": "vector\u003cint\u003e",
+                "realType": "vector\u003cint\u003e\u0026",
+                "external": false,
+                "correspondingVar": ".\\p4\\108.cpp\\Solution\\sortedArrayToBST(vector\u003cint\u003e\u0026)\\nums",
+                "correspondingType": "STLListBaseType",
+                "templateArg": "int",
+                "size": 3,
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.NormalNumberDataNode",
+                    "name": "element #0",
+                    "virtual_name": "nums_element0",
+                    "dataType": "int",
+                    "realType": "int",
+                    "external": false,
+                    "correspondingVar": ".\\p4\\108.cpp\\Solution\\sortedArrayToBST(vector\u003cint\u003e\u0026)\\nums\\element #0",
+                    "correspondingType": "int",
+                    "value": "1181563724"
+                  },
+                  {
+                    "type": "com.dse.testdata.object.NormalNumberDataNode",
+                    "name": "element #1",
+                    "virtual_name": "nums_element1",
+                    "dataType": "int",
+                    "realType": "int",
+                    "external": false,
+                    "correspondingVar": ".\\p4\\108.cpp\\Solution\\sortedArrayToBST(vector\u003cint\u003e\u0026)\\nums\\element #1",
+                    "correspondingType": "int",
+                    "value": "-96836648"
+                  },
+                  {
+                    "type": "com.dse.testdata.object.NormalNumberDataNode",
+                    "name": "element #2",
+                    "virtual_name": "nums_element2",
+                    "dataType": "int",
+                    "realType": "int",
+                    "external": false,
+                    "correspondingVar": ".\\p4\\108.cpp\\Solution\\sortedArrayToBST(vector\u003cint\u003e\u0026)\\nums\\element #2",
+                    "correspondingType": "int",
+                    "value": "1689655262"
+                  }
+                ]
+              },
+              {
+                "type": "com.dse.testdata.object.PointerStructureDataNode",
+                "name": "RETURN",
+                "virtual_name": "AKA_EXPECTED_OUTPUT",
+                "dataType": "TreeNode*",
+                "realType": "TreeNode*",
+                "external": false,
+                "correspondingVar": ".\\p4\\108.cpp\\Solution\\sortedArrayToBST(vector\u003cint\u003e\u0026)\\RETURN",
+                "correspondingType": ".\\p4\\108.cpp\\TreeNode",
+                "level": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.RootDataNode",
+        "name": "STUB",
+        "virtual_name": "NON_VALUE",
+        "functionNode": ".\\p4\\108.cpp\\Solution\\sortedArrayToBST(vector\u003cint\u003e\u0026)",
+        "level": "STUB"
+      }
+    ]
+  },
+  "procedures": [
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "function_call",
+      "value": "constructTree();",
+      "isSelected": false,
+      "location": 60,
+      "calls": [],
+      "children": []
+    }
+  ]
+}

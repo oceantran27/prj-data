@@ -1,0 +1,18 @@
+{
+  "compilationCommands": {
+    ".\\\\aka-working-space\\\\p8\\\\test-drivers\\Solution_maxIceCream_vector_int_int_random_1.cpp": "g++\u003c\u003cAKA_U00A0\u003e\u003e-c\u003c\u003cAKA_U00A0\u003e\u003e-std\u003dgnu++14\u003c\u003cAKA_U00A0\u003e\u003e-w\u003c\u003cAKA_U00A0\u003e\u003e\".\\\\aka-working-space\\\\p8\\\\test-drivers\\Solution_maxIceCream_vector_int_int_random_1.cpp\"\u003c\u003cAKA_U00A0\u003e\u003e-I\"D:\\\\Projects\\\\AKAUT\\\\prj-data\\\\amanv8060_Leetcode-Questions\\\\solutions\\\\aka-working-space\\\\p8\\\\user_code\\\\environment\"\u003c\u003cAKA_U00A0\u003e\u003e-o\".\\\\aka-working-space\\\\p8\\\\test-drivers\\Solution_maxIceCream_vector_int_int_random_1.cpp.out\"\u003c\u003cAKA_U00A0\u003e\u003e-DAKA_TC_SOLUTION_MAXICECREAM_VECTOR_INT_INT_RANDOM_1"
+  },
+  "linkEntry": {
+    "command": "g++ -std\u003dgnu++14 -w",
+    "outFlag": "-o",
+    "exeFile": ".\\\\aka-working-space\\\\p8\\\\exe\\Solution_maxIceCream_vector_int_int_random_1.exe",
+    "binFiles": [
+      ".\\\\aka-working-space\\\\p8\\\\instruments\\1876.akaignore.cpp.out",
+      ".\\\\aka-working-space\\\\p8\\\\instruments\\1881.akaignore.cpp.out",
+      ".\\\\aka-working-space\\\\p8\\\\instruments\\1915.akaignore.cpp.out",
+      ".\\\\aka-working-space\\\\p8\\\\instruments\\1941.akaignore.cpp.out",
+      ".\\\\aka-working-space\\\\p8\\\\test-drivers\\Solution_maxIceCream_vector_int_int_random_1.cpp.out"
+    ]
+  },
+  "executablePath": ".\\\\aka-working-space\\\\p8\\\\exe\\Solution_maxIceCream_vector_int_int_random_1.exe"
+}

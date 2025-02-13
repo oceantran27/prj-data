@@ -1,0 +1,14 @@
+{
+  "path": ".\\p3\\27.cpp",
+  "dependency": [
+    {
+      "start": ".\\p3\\27.cpp\\Solution\\removeElement(vector\u003cint\u003e\u0026,int)",
+      "start-type": "FunctionNode",
+      "start-md5": "9eab20c25d9817b891404db94e70f99b",
+      "end": ".\\p3\\27.cpp\\Solution",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "567ee9c19ade3e341c8a1bf351384358"
+    }
+  ]
+}

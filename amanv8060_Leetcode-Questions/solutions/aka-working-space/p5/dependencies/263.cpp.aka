@@ -1,0 +1,23 @@
+{
+  "path": ".\\p5\\263.cpp",
+  "dependency": [
+    {
+      "start": ".\\p5\\263.cpp\\Solution\\isUgly(int)",
+      "start-type": "FunctionNode",
+      "start-md5": "5d57ffa4f0760a1805221c5b7bdf378f",
+      "end": ".\\p5\\263.cpp\\Solution",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "a4e1e1115de055afbdc2a0299539c823"
+    },
+    {
+      "start": ".\\p5\\263.cpp\\Solution\\isUgly(int)",
+      "start-type": "FunctionNode",
+      "start-md5": "5d57ffa4f0760a1805221c5b7bdf378f",
+      "end": ".\\p5\\263.cpp\\Solution\\isUgly(int)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "5d57ffa4f0760a1805221c5b7bdf378f"
+    }
+  ]
+}

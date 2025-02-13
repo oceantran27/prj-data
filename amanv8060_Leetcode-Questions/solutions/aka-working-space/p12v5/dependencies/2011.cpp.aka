@@ -1,0 +1,14 @@
+{
+  "path": ".\\p12\\2011.cpp",
+  "dependency": [
+    {
+      "start": ".\\p12\\2011.cpp\\Solution\\finalValueAfterOperations(vector\u003cstring\u003e\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "daaf799386c4105f2794266f935fb7d8",
+      "end": ".\\p12\\2011.cpp\\Solution",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "c1b8531f67896b9862a8bd759a02ab37"
+    }
+  ]
+}

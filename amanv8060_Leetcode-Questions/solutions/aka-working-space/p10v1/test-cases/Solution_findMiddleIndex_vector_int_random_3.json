@@ -1,0 +1,204 @@
+{
+  "name": "Solution_findMiddleIndex_vector_int_random_3",
+  "status": "success",
+  "testCaseUserCode": {
+    "includePaths": [],
+    "setUpContent": "// set up\n;",
+    "tearDownContent": "// tear down\n;"
+  },
+  "path": ".\\\\aka-working-space\\\\p10v1\\\\test-cases\\Solution_findMiddleIndex_vector_int_random_3.json",
+  "sourceCode": ".\\\\aka-working-space\\\\p10v1\\\\test-drivers\\Solution_findMiddleIndex_vector_int_random_3.cpp",
+  "testPath": ".\\\\aka-working-space\\\\p10v1\\\\test-paths\\Solution_findMiddleIndex_vector_int_random_3.tp",
+  "executable": ".\\\\aka-working-space\\\\p10v1\\\\exe\\Solution_findMiddleIndex_vector_int_random_3.exe",
+  "commandConfig": ".\\aka-working-space\\p10v1\\test-case-commands\\Solution_findMiddleIndex_vector_int_random_3.json",
+  "commandDebug": ".\\\\aka-working-space\\\\p10v1\\\\debugger\\\\commands\\Solution_findMiddleIndex_vector_int_random_3.json",
+  "breakPoint": ".\\\\aka-working-space\\\\p10v1\\\\debugger\\\\breakpoints\\Solution_findMiddleIndex_vector_int_random_3.br.json",
+  "debugExecutable": ".\\\\aka-working-space\\\\p10v1\\\\exe\\debug_Solution_findMiddleIndex_vector_int_random_3.exe",
+  "executionResult": ".\\\\aka-working-space\\\\p10v1\\\\execution-results\\Solution_findMiddleIndex_vector_int_random_3.xml",
+  "creationDate": "2025-02-13T10:38:14.836511",
+  "executionDate": "2025-02-13T10:38:58.700408800",
+  "rootDataNode": {
+    "type": "com.dse.testdata.object.RootDataNode",
+    "name": "ROOT",
+    "virtual_name": "NON_VALUE",
+    "functionNode": ".\\p10\\1991.cpp\\Solution\\findMiddleIndex(vector\u003cint\u003e\u0026)",
+    "level": "ROOT",
+    "children": [
+      {
+        "type": "com.dse.testdata.object.UnitUnderTestNode",
+        "name": "1991.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\p10\\1991.cpp",
+        "children": [
+          {
+            "type": "com.dse.testdata.object.GlobalRootDataNode",
+            "name": "GLOBAL",
+            "virtual_name": "NON_VALUE",
+            "functionNode": ".\\p10\\1991.cpp\\Solution\\findMiddleIndex(vector\u003cint\u003e\u0026)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": false,
+                "correspondingVar": ".\\p10\\1991.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p10\\1991.cpp\\Solution"
+              }
+            ],
+            "level": "GLOBAL",
+            "children": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": true,
+                "correspondingVar": ".\\p10\\1991.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p10\\1991.cpp\\Solution",
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.SubClassDataNode",
+                    "name": "AKA_INSTANCE___Solution",
+                    "virtual_name": "AKA_INSTANCE___Solution",
+                    "dataType": "::Solution",
+                    "realType": "::Solution",
+                    "external": false,
+                    "correspondingVar": ".\\p10\\1991.cpp\\Solution\\AKA_INSTANCE___Solution",
+                    "correspondingType": ".\\p10\\1991.cpp\\Solution",
+                    "rawType": "::Solution",
+                    "selectedConstructor": "Solution()",
+                    "variableType": "::Solution",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                        "name": "Solution()",
+                        "virtual_name": "AKA_INSTANCE___Solution",
+                        "dataType": "::Solution",
+                        "realType": "::Solution",
+                        "functionNode": "\\Solution()"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "com.dse.testdata.object.SubprogramNode",
+            "name": "findMiddleIndex(vector\u003cint\u003e\u0026)",
+            "virtual_name": "NON_VALUE",
+            "dataType": "int",
+            "realType": "int",
+            "functionNode": ".\\p10\\1991.cpp\\Solution\\findMiddleIndex(vector\u003cint\u003e\u0026)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                "name": "nums",
+                "virtual_name": "EXPECTED_nums",
+                "dataType": "vector\u003cint\u003e",
+                "realType": "vector\u003cint\u003e\u0026",
+                "external": false,
+                "correspondingVar": ".\\p10\\1991.cpp\\Solution\\findMiddleIndex(vector\u003cint\u003e\u0026)\\nums",
+                "correspondingType": "STLListBaseType",
+                "templateArg": "int"
+              }
+            ],
+            "children": [
+              {
+                "type": "com.dse.testdata.object.RootDataNode",
+                "name": "STATIC",
+                "virtual_name": "NON_VALUE",
+                "functionNode": ".\\p10\\1991.cpp\\Solution\\findMiddleIndex(vector\u003cint\u003e\u0026)",
+                "level": "STATIC"
+              },
+              {
+                "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                "name": "nums",
+                "virtual_name": "nums",
+                "dataType": "vector\u003cint\u003e",
+                "realType": "vector\u003cint\u003e\u0026",
+                "external": false,
+                "correspondingVar": ".\\p10\\1991.cpp\\Solution\\findMiddleIndex(vector\u003cint\u003e\u0026)\\nums",
+                "correspondingType": "STLListBaseType",
+                "templateArg": "int",
+                "size": 1,
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.NormalNumberDataNode",
+                    "name": "element #0",
+                    "virtual_name": "nums_element0",
+                    "dataType": "int",
+                    "realType": "int",
+                    "external": false,
+                    "correspondingVar": ".\\p10\\1991.cpp\\Solution\\findMiddleIndex(vector\u003cint\u003e\u0026)\\nums\\element #0",
+                    "correspondingType": "int",
+                    "value": "-2117454019"
+                  }
+                ]
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "RETURN",
+                "virtual_name": "AKA_EXPECTED_OUTPUT",
+                "dataType": "int",
+                "realType": "int",
+                "external": false,
+                "correspondingVar": ".\\p10\\1991.cpp\\Solution\\findMiddleIndex(vector\u003cint\u003e\u0026)\\RETURN",
+                "correspondingType": "int",
+                "value": "null"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.RootDataNode",
+        "name": "STUB",
+        "virtual_name": "NON_VALUE",
+        "functionNode": ".\\p10\\1991.cpp\\Solution\\findMiddleIndex(vector\u003cint\u003e\u0026)",
+        "level": "STUB"
+      }
+    ]
+  },
+  "procedures": [
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "i \u003c\u003d l",
+      "isSelected": false,
+      "location": 191,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "i \u003c\u003d l",
+      "isSelected": false,
+      "location": 191,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "i \u003e\u003d 1",
+      "isSelected": false,
+      "location": 280,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "pr \u003d\u003d ps",
+      "isSelected": false,
+      "location": 471,
+      "calls": [],
+      "children": []
+    }
+  ]
+}

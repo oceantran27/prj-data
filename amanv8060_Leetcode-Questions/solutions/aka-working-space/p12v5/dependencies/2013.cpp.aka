@@ -1,0 +1,32 @@
+{
+  "path": ".\\p12\\2013.cpp",
+  "dependency": [
+    {
+      "start": ".\\p12\\2013.cpp\\DetectSquares\\DetectSquares()",
+      "start-type": "ConstructorNode",
+      "start-md5": "b957f6d52a4248e16f9d307a0ce24519",
+      "end": ".\\p12\\2013.cpp\\DetectSquares",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "e9b39e49fc4b396a17668fd77fac8dba"
+    },
+    {
+      "start": ".\\p12\\2013.cpp\\DetectSquares\\add(vector\u003cint\u003e)",
+      "start-type": "FunctionNode",
+      "start-md5": "295b8051fb1521babdc2546575f76131",
+      "end": ".\\p12\\2013.cpp\\DetectSquares",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "e9b39e49fc4b396a17668fd77fac8dba"
+    },
+    {
+      "start": ".\\p12\\2013.cpp\\DetectSquares\\count(vector\u003cint\u003e)",
+      "start-type": "FunctionNode",
+      "start-md5": "8a51d6ba590325fef51526d90f7aad8e",
+      "end": ".\\p12\\2013.cpp\\DetectSquares",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "e9b39e49fc4b396a17668fd77fac8dba"
+    }
+  ]
+}

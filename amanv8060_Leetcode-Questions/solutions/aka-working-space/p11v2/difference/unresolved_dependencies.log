@@ -1,0 +1,14 @@
+UNRESOLVED DEPENDENCIES:
+1. D:\\Projects\\AKAUT\\prj-data\\amanv8060_Leetcode-Questions\\solutions\\p11\\1998.cpp\\DSU\\find(int) -> D:\\Projects\\AKAUT\\prj-data\\amanv8060_Leetcode-Questions\\solutions\\p11\\1998.cpp\\DSU
+2. D:\\Projects\\AKAUT\\prj-data\\amanv8060_Leetcode-Questions\\solutions\\p11\\1998.cpp\\DSU\\DSU(int) -> D:\\Projects\\AKAUT\\prj-data\\amanv8060_Leetcode-Questions\\solutions\\p11\\1998.cpp\\DSU
+3. D:\\Projects\\AKAUT\\prj-data\\amanv8060_Leetcode-Questions\\solutions\\p11\\1998.cpp\\DSU\\Union(int,int) -> D:\\Projects\\AKAUT\\prj-data\\amanv8060_Leetcode-Questions\\solutions\\p11\\1998.cpp\\DSU
+4. D:\\Projects\\AKAUT\\prj-data\\amanv8060_Leetcode-Questions\\solutions\\p11\\1998.cpp\\Solution\\gcdSort(vector<int>&) -> D:\\Projects\\AKAUT\\prj-data\\amanv8060_Leetcode-Questions\\solutions\\p11\\1998.cpp\\DSU\\DSU(int)
+5. D:\\Projects\\AKAUT\\prj-data\\amanv8060_Leetcode-Questions\\solutions\\p11\\1998.cpp\\DSU\\find(int) -> D:\\Projects\\AKAUT\\prj-data\\amanv8060_Leetcode-Questions\\solutions\\p11\\1998.cpp\\DSU\\find(int)
+6. D:\\Projects\\AKAUT\\prj-data\\amanv8060_Leetcode-Questions\\solutions\\p11\\1998.cpp\\DSU\\Union(int,int) -> D:\\Projects\\AKAUT\\prj-data\\amanv8060_Leetcode-Questions\\solutions\\p11\\1998.cpp\\DSU\\find(int)
+7. D:\\Projects\\AKAUT\\prj-data\\amanv8060_Leetcode-Questions\\solutions\\p11\\1998.cpp\\Solution\\gcdSort(vector<int>&) -> D:\\Projects\\AKAUT\\prj-data\\amanv8060_Leetcode-Questions\\solutions\\p11\\1998.cpp\\DSU\\find(int)
+8. D:\\Projects\\AKAUT\\prj-data\\amanv8060_Leetcode-Questions\\solutions\\p11\\1998.cpp\\Solution\\gcdSort(vector<int>&) -> D:\\Projects\\AKAUT\\prj-data\\amanv8060_Leetcode-Questions\\solutions\\p11\\1998.cpp\\DSU\\Union(int,int)
+9. D:\\Projects\\AKAUT\\prj-data\\amanv8060_Leetcode-Questions\\solutions\\p11\\1998.cpp\\Solution\\gcdSort(vector<int>&) -> D:\\Projects\\AKAUT\\prj-data\\amanv8060_Leetcode-Questions\\solutions\\p11\\1998.cpp\\Solution
+10. D:\\Projects\\AKAUT\\prj-data\\amanv8060_Leetcode-Questions\\solutions\\p11\\1998.cpp\\Solution\\getAllFactors(int) -> D:\\Projects\\AKAUT\\prj-data\\amanv8060_Leetcode-Questions\\solutions\\p11\\1998.cpp\\Solution
+11. D:\\Projects\\AKAUT\\prj-data\\amanv8060_Leetcode-Questions\\solutions\\p11\\1998.cpp\\Solution\\sieve(int) -> D:\\Projects\\AKAUT\\prj-data\\amanv8060_Leetcode-Questions\\solutions\\p11\\1998.cpp\\Solution
+12. D:\\Projects\\AKAUT\\prj-data\\amanv8060_Leetcode-Questions\\solutions\\p11\\1998.cpp\\Solution\\gcdSort(vector<int>&) -> D:\\Projects\\AKAUT\\prj-data\\amanv8060_Leetcode-Questions\\solutions\\p11\\1998.cpp\\Solution\\sieve(int)
+13. D:\\Projects\\AKAUT\\prj-data\\amanv8060_Leetcode-Questions\\solutions\\p11\\1998.cpp\\Solution\\gcdSort(vector<int>&) -> D:\\Projects\\AKAUT\\prj-data\\amanv8060_Leetcode-Questions\\solutions\\p11\\1998.cpp\\Solution\\getAllFactors(int)

@@ -1,0 +1,14 @@
+{
+  "path": ".\\p1\\1.cpp",
+  "dependency": [
+    {
+      "start": ".\\p1\\1.cpp\\Solution\\twoSum(vector\u003cint\u003e\u0026,int)",
+      "start-type": "FunctionNode",
+      "start-md5": "f0603dad40969360871a2b4611263ae4",
+      "end": ".\\p1\\1.cpp\\Solution",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "716c626338009647664747e0cc2cdea8"
+    }
+  ]
+}

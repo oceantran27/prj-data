@@ -1,0 +1,14 @@
+{
+  "path": ".\\p6\\575.cpp",
+  "dependency": [
+    {
+      "start": ".\\p6\\575.cpp\\Solution\\distributeCandies(vector\u003cint\u003e\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "143abfa7ffcb3951bebc57f6279091ed",
+      "end": ".\\p6\\575.cpp\\Solution",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "ed297ed5fac5d802df8f393689694363"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+<pre>...
+...
+...
+...
+<b style="color: grey;">11    </b>class MyCircularQueue {
+<b style="color: grey;">12    </b> public:
+<b style="color: grey;">13    </b>  int front = 0, rear = -1;
+<b style="color: grey;">14    </b>  int size;
+<b style="color: grey;">15    </b>  int max_size;
+<b style="color: grey;">16    </b>  vector&lt;int&gt; vec;
+<b style="color: grey;">17    </b>
+<b style="color: grey;">18    </b>  MyCircularQueue(int k) {
+<b style="color: grey;">19    </b>    <b style="background-color:yellow;color:black";>front = 0;</b>
+<b style="color: grey;">20    </b>    <b style="background-color:yellow;color:black";>rear = -1;</b>
+<b style="color: grey;">21    </b>    <b style="background-color:yellow;color:black";>vec.resize(k);</b>
+<b style="color: grey;">22    </b>    <b style="background-color:yellow;color:black";>size = 0;</b>
+<b style="color: grey;">23    </b>    <b style="background-color:yellow;color:black";>max_size = k;</b>
+<b style="color: grey;">24    </b>  }
+<b style="color: grey;">25    </b>
+<b style="color: grey;">26    </b>  bool enQueue(int value) {
+<b style="color: grey;">27    </b>    if (isFull() == true) {
+<b style="color: grey;">28    </b>      return false;
+<b style="color: grey;">29    </b>    }
+<b style="color: grey;">30    </b>    rear = (rear + 1) % max_size;
+...
+...
+...
+...
+<b style="color: grey;">59    </b>  bool isEmpty() {
+<b style="color: grey;">60    </b>    if (size == 0) {
+<b style="color: grey;">61    </b>      return true;
+<b style="color: grey;">62    </b>    }
+<b style="color: grey;">63    </b>    return false;
+<b style="color: grey;">64    </b>  }
+<b style="color: grey;">65    </b>
+<b style="color: grey;">66    </b>  bool isFull() {
+<b style="color: grey;">67    </b>    if (<b style="background-color:yellow;color:black";>size == max_size</b>) {
+<b style="color: grey;">68    </b>      return true;
+<b style="color: grey;">69    </b>    }
+<b style="color: grey;">70    </b>    <b style="background-color:yellow;color:black";>return false;</b>
+...
+...
+...
+...
+</pre>

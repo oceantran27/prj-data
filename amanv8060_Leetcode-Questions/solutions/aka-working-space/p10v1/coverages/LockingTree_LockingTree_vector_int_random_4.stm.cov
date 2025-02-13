@@ -1,0 +1,32 @@
+<pre>...
+...
+...
+...
+<b style="color: grey;">10     </b>
+<b style="color: grey;">11    </b>class LockingTree {
+<b style="color: grey;">12    </b>  vector&lt;vector&lt;int&gt;&gt; relations;
+<b style="color: grey;">13    </b>  // first value will the parent, remaining values will be children.
+<b style="color: grey;">14    </b>  vector&lt;int&gt; locked;
+<b style="color: grey;">15    </b>
+<b style="color: grey;">16    </b> public:
+<b style="color: grey;">17    </b>  LockingTree(vector&lt;int&gt;&amp; parent) {
+<b style="color: grey;">18    </b>    <b style="background-color:yellow;color:black";>vector&lt;vector&lt;int&gt;&gt; relations(parent.size());</b>
+<b style="color: grey;">19    </b>
+<b style="color: grey;">20    </b>    for (<b style="background-color:yellow;color:black";>int i = 0;</b> <b style="background-color:yellow;color:black";>i &lt; parent.size()</b>; <b style="background-color:yellow;color:black";>i++</b>) {
+<b style="color: grey;">21    </b>      <b style="background-color:yellow;color:black";>relations[i].push_back(parent[i]);</b>
+<b style="color: grey;">22    </b>    }
+<b style="color: grey;">23    </b>
+<b style="color: grey;">24    </b>    for (<b style="background-color:yellow;color:black";>int i = 0;</b> <b style="background-color:yellow;color:black";>i &lt; parent.size()</b>; i++) {
+<b style="color: grey;">25    </b>      if (<b style="background-color:yellow;color:black";>parent[i] != -1</b>) <b style="background-color:yellow;color:black";>relations[parent[i]].push_back(i);</b>
+<b style="color: grey;">26    </b>    }
+<b style="color: grey;">27    </b>
+<b style="color: grey;">28    </b>    this-&gt;relations = relations;
+<b style="color: grey;">29    </b>    vector&lt;int&gt; temp(parent.size(), 0);
+<b style="color: grey;">30    </b>    locked = temp;
+<b style="color: grey;">31    </b>  }
+<b style="color: grey;">32    </b>
+...
+...
+...
+...
+</pre>

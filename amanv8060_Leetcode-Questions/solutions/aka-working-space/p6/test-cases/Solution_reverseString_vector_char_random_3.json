@@ -1,0 +1,177 @@
+{
+  "name": "Solution_reverseString_vector_char_random_3",
+  "status": "success",
+  "testCaseUserCode": {
+    "includePaths": [],
+    "setUpContent": "// set up\n;",
+    "tearDownContent": "// tear down\n;"
+  },
+  "path": ".\\\\aka-working-space\\\\p6\\\\test-cases\\Solution_reverseString_vector_char_random_3.json",
+  "sourceCode": ".\\\\aka-working-space\\\\p6\\\\test-drivers\\Solution_reverseString_vector_char_random_3.cpp",
+  "testPath": ".\\\\aka-working-space\\\\p6\\\\test-paths\\Solution_reverseString_vector_char_random_3.tp",
+  "executable": ".\\\\aka-working-space\\\\p6\\\\exe\\Solution_reverseString_vector_char_random_3.exe",
+  "commandConfig": ".\\aka-working-space\\p6\\test-case-commands\\Solution_reverseString_vector_char_random_3.json",
+  "commandDebug": ".\\\\aka-working-space\\\\p6\\\\debugger\\\\commands\\Solution_reverseString_vector_char_random_3.json",
+  "breakPoint": ".\\\\aka-working-space\\\\p6\\\\debugger\\\\breakpoints\\Solution_reverseString_vector_char_random_3.br.json",
+  "debugExecutable": ".\\\\aka-working-space\\\\p6\\\\exe\\debug_Solution_reverseString_vector_char_random_3.exe",
+  "executionResult": ".\\\\aka-working-space\\\\p6\\\\execution-results\\Solution_reverseString_vector_char_random_3.xml",
+  "creationDate": "2025-02-13T09:25:24.528055100",
+  "executionDate": "2025-02-13T09:26:11.402105500",
+  "rootDataNode": {
+    "type": "com.dse.testdata.object.RootDataNode",
+    "name": "ROOT",
+    "virtual_name": "NON_VALUE",
+    "functionNode": ".\\p6\\344.cpp\\Solution\\reverseString(vector\u003cchar\u003e\u0026)",
+    "level": "ROOT",
+    "children": [
+      {
+        "type": "com.dse.testdata.object.UnitUnderTestNode",
+        "name": "344.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\p6\\344.cpp",
+        "children": [
+          {
+            "type": "com.dse.testdata.object.GlobalRootDataNode",
+            "name": "GLOBAL",
+            "virtual_name": "NON_VALUE",
+            "functionNode": ".\\p6\\344.cpp\\Solution\\reverseString(vector\u003cchar\u003e\u0026)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": false,
+                "correspondingVar": ".\\p6\\344.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p6\\344.cpp\\Solution"
+              }
+            ],
+            "level": "GLOBAL",
+            "children": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": true,
+                "correspondingVar": ".\\p6\\344.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p6\\344.cpp\\Solution",
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.SubClassDataNode",
+                    "name": "AKA_INSTANCE___Solution",
+                    "virtual_name": "AKA_INSTANCE___Solution",
+                    "dataType": "::Solution",
+                    "realType": "::Solution",
+                    "external": false,
+                    "correspondingVar": ".\\p6\\344.cpp\\Solution\\AKA_INSTANCE___Solution",
+                    "correspondingType": ".\\p6\\344.cpp\\Solution",
+                    "rawType": "::Solution",
+                    "selectedConstructor": "Solution()",
+                    "variableType": "::Solution",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                        "name": "Solution()",
+                        "virtual_name": "AKA_INSTANCE___Solution",
+                        "dataType": "::Solution",
+                        "realType": "::Solution",
+                        "functionNode": "\\Solution()"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "com.dse.testdata.object.SubprogramNode",
+            "name": "reverseString(vector\u003cchar\u003e\u0026)",
+            "virtual_name": "NON_VALUE",
+            "dataType": "void",
+            "realType": "void",
+            "functionNode": ".\\p6\\344.cpp\\Solution\\reverseString(vector\u003cchar\u003e\u0026)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                "name": "s",
+                "virtual_name": "EXPECTED_s",
+                "dataType": "vector\u003cchar\u003e",
+                "realType": "vector\u003cchar\u003e\u0026",
+                "external": false,
+                "correspondingVar": ".\\p6\\344.cpp\\Solution\\reverseString(vector\u003cchar\u003e\u0026)\\s",
+                "correspondingType": "STLListBaseType",
+                "templateArg": "char"
+              }
+            ],
+            "children": [
+              {
+                "type": "com.dse.testdata.object.RootDataNode",
+                "name": "STATIC",
+                "virtual_name": "NON_VALUE",
+                "functionNode": ".\\p6\\344.cpp\\Solution\\reverseString(vector\u003cchar\u003e\u0026)",
+                "level": "STATIC"
+              },
+              {
+                "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                "name": "s",
+                "virtual_name": "s",
+                "dataType": "vector\u003cchar\u003e",
+                "realType": "vector\u003cchar\u003e\u0026",
+                "external": false,
+                "correspondingVar": ".\\p6\\344.cpp\\Solution\\reverseString(vector\u003cchar\u003e\u0026)\\s",
+                "correspondingType": "STLListBaseType",
+                "templateArg": "char",
+                "size": 2,
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.NormalCharacterDataNode",
+                    "name": "element #0",
+                    "virtual_name": "s_element0",
+                    "dataType": "char",
+                    "realType": "char",
+                    "external": false,
+                    "correspondingVar": ".\\p6\\344.cpp\\Solution\\reverseString(vector\u003cchar\u003e\u0026)\\s\\element #0",
+                    "correspondingType": "char",
+                    "value": "2"
+                  },
+                  {
+                    "type": "com.dse.testdata.object.NormalCharacterDataNode",
+                    "name": "element #1",
+                    "virtual_name": "s_element1",
+                    "dataType": "char",
+                    "realType": "char",
+                    "external": false,
+                    "correspondingVar": ".\\p6\\344.cpp\\Solution\\reverseString(vector\u003cchar\u003e\u0026)\\s\\element #1",
+                    "correspondingType": "char",
+                    "value": "26"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.RootDataNode",
+        "name": "STUB",
+        "virtual_name": "NON_VALUE",
+        "functionNode": ".\\p6\\344.cpp\\Solution\\reverseString(vector\u003cchar\u003e\u0026)",
+        "level": "STUB"
+      }
+    ]
+  },
+  "procedures": [
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "i \u003c n / 2",
+      "isSelected": false,
+      "location": 90,
+      "calls": [],
+      "children": []
+    }
+  ]
+}

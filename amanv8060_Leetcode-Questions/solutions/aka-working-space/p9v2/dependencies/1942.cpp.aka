@@ -1,0 +1,14 @@
+{
+  "path": ".\\p9\\1942.cpp",
+  "dependency": [
+    {
+      "start": ".\\p9\\1942.cpp\\Solution\\smallestChair(vector\u003cvector\u003cint\u003e\u003e\u0026,int)",
+      "start-type": "FunctionNode",
+      "start-md5": "10a24b9149a71b21f029db8136fb4a33",
+      "end": ".\\p9\\1942.cpp\\Solution",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "676b58f66d374dec58cf313e3561068c"
+    }
+  ]
+}

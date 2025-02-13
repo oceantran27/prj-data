@@ -1,0 +1,230 @@
+{
+  "name": "Solution_maxIceCream_vector_int_int_random_1",
+  "status": "success",
+  "testCaseUserCode": {
+    "includePaths": [],
+    "setUpContent": "// set up\n;",
+    "tearDownContent": "// tear down\n;"
+  },
+  "path": ".\\\\aka-working-space\\\\p8\\\\test-cases\\Solution_maxIceCream_vector_int_int_random_1.json",
+  "sourceCode": ".\\\\aka-working-space\\\\p8\\\\test-drivers\\Solution_maxIceCream_vector_int_int_random_1.cpp",
+  "testPath": ".\\\\aka-working-space\\\\p8\\\\test-paths\\Solution_maxIceCream_vector_int_int_random_1.tp",
+  "executable": ".\\\\aka-working-space\\\\p8\\\\exe\\Solution_maxIceCream_vector_int_int_random_1.exe",
+  "commandConfig": ".\\aka-working-space\\p8\\test-case-commands\\Solution_maxIceCream_vector_int_int_random_1.json",
+  "commandDebug": ".\\\\aka-working-space\\\\p8\\\\debugger\\\\commands\\Solution_maxIceCream_vector_int_int_random_1.json",
+  "breakPoint": ".\\\\aka-working-space\\\\p8\\\\debugger\\\\breakpoints\\Solution_maxIceCream_vector_int_int_random_1.br.json",
+  "debugExecutable": ".\\\\aka-working-space\\\\p8\\\\exe\\debug_Solution_maxIceCream_vector_int_int_random_1.exe",
+  "executionResult": ".\\\\aka-working-space\\\\p8\\\\execution-results\\Solution_maxIceCream_vector_int_int_random_1.xml",
+  "creationDate": "2025-02-13T09:42:38.620186100",
+  "executionDate": "2025-02-13T09:42:54.012533100",
+  "rootDataNode": {
+    "type": "com.dse.testdata.object.RootDataNode",
+    "name": "ROOT",
+    "virtual_name": "NON_VALUE",
+    "functionNode": ".\\p8\\1833.cpp\\Solution\\maxIceCream(vector\u003cint\u003e\u0026,int)",
+    "level": "ROOT",
+    "children": [
+      {
+        "type": "com.dse.testdata.object.UnitUnderTestNode",
+        "name": "1833.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\p8\\1833.cpp",
+        "children": [
+          {
+            "type": "com.dse.testdata.object.GlobalRootDataNode",
+            "name": "GLOBAL",
+            "virtual_name": "NON_VALUE",
+            "functionNode": ".\\p8\\1833.cpp\\Solution\\maxIceCream(vector\u003cint\u003e\u0026,int)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": false,
+                "correspondingVar": ".\\p8\\1833.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p8\\1833.cpp\\Solution"
+              }
+            ],
+            "level": "GLOBAL",
+            "children": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": true,
+                "correspondingVar": ".\\p8\\1833.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p8\\1833.cpp\\Solution",
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.SubClassDataNode",
+                    "name": "AKA_INSTANCE___Solution",
+                    "virtual_name": "AKA_INSTANCE___Solution",
+                    "dataType": "::Solution",
+                    "realType": "::Solution",
+                    "external": false,
+                    "correspondingVar": ".\\p8\\1833.cpp\\Solution\\AKA_INSTANCE___Solution",
+                    "correspondingType": ".\\p8\\1833.cpp\\Solution",
+                    "rawType": "::Solution",
+                    "selectedConstructor": "Solution()",
+                    "variableType": "::Solution",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                        "name": "Solution()",
+                        "virtual_name": "AKA_INSTANCE___Solution",
+                        "dataType": "::Solution",
+                        "realType": "::Solution",
+                        "functionNode": "\\Solution()"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "com.dse.testdata.object.SubprogramNode",
+            "name": "maxIceCream(vector\u003cint\u003e\u0026,int)",
+            "virtual_name": "NON_VALUE",
+            "dataType": "int",
+            "realType": "int",
+            "functionNode": ".\\p8\\1833.cpp\\Solution\\maxIceCream(vector\u003cint\u003e\u0026,int)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "coins",
+                "virtual_name": "EXPECTED_coins",
+                "dataType": "int",
+                "realType": "int",
+                "external": false,
+                "correspondingVar": ".\\p8\\1833.cpp\\Solution\\maxIceCream(vector\u003cint\u003e\u0026,int)\\coins",
+                "correspondingType": "int",
+                "value": "null"
+              },
+              {
+                "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                "name": "costs",
+                "virtual_name": "EXPECTED_costs",
+                "dataType": "vector\u003cint\u003e",
+                "realType": "vector\u003cint\u003e\u0026",
+                "external": false,
+                "correspondingVar": ".\\p8\\1833.cpp\\Solution\\maxIceCream(vector\u003cint\u003e\u0026,int)\\costs",
+                "correspondingType": "STLListBaseType",
+                "templateArg": "int"
+              }
+            ],
+            "children": [
+              {
+                "type": "com.dse.testdata.object.RootDataNode",
+                "name": "STATIC",
+                "virtual_name": "NON_VALUE",
+                "functionNode": ".\\p8\\1833.cpp\\Solution\\maxIceCream(vector\u003cint\u003e\u0026,int)",
+                "level": "STATIC"
+              },
+              {
+                "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                "name": "costs",
+                "virtual_name": "costs",
+                "dataType": "vector\u003cint\u003e",
+                "realType": "vector\u003cint\u003e\u0026",
+                "external": false,
+                "correspondingVar": ".\\p8\\1833.cpp\\Solution\\maxIceCream(vector\u003cint\u003e\u0026,int)\\costs",
+                "correspondingType": "STLListBaseType",
+                "templateArg": "int",
+                "size": 3,
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.NormalNumberDataNode",
+                    "name": "element #0",
+                    "virtual_name": "costs_element0",
+                    "dataType": "int",
+                    "realType": "int",
+                    "external": false,
+                    "correspondingVar": ".\\p8\\1833.cpp\\Solution\\maxIceCream(vector\u003cint\u003e\u0026,int)\\costs\\element #0",
+                    "correspondingType": "int",
+                    "value": "2014781764"
+                  },
+                  {
+                    "type": "com.dse.testdata.object.NormalNumberDataNode",
+                    "name": "element #1",
+                    "virtual_name": "costs_element1",
+                    "dataType": "int",
+                    "realType": "int",
+                    "external": false,
+                    "correspondingVar": ".\\p8\\1833.cpp\\Solution\\maxIceCream(vector\u003cint\u003e\u0026,int)\\costs\\element #1",
+                    "correspondingType": "int",
+                    "value": "1183684930"
+                  },
+                  {
+                    "type": "com.dse.testdata.object.NormalNumberDataNode",
+                    "name": "element #2",
+                    "virtual_name": "costs_element2",
+                    "dataType": "int",
+                    "realType": "int",
+                    "external": false,
+                    "correspondingVar": ".\\p8\\1833.cpp\\Solution\\maxIceCream(vector\u003cint\u003e\u0026,int)\\costs\\element #2",
+                    "correspondingType": "int",
+                    "value": "1527195074"
+                  }
+                ]
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "coins",
+                "virtual_name": "coins",
+                "dataType": "int",
+                "realType": "int",
+                "external": false,
+                "correspondingVar": ".\\p8\\1833.cpp\\Solution\\maxIceCream(vector\u003cint\u003e\u0026,int)\\coins",
+                "correspondingType": "int",
+                "value": "-588606742"
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "RETURN",
+                "virtual_name": "AKA_EXPECTED_OUTPUT",
+                "dataType": "int",
+                "realType": "int",
+                "external": false,
+                "correspondingVar": ".\\p8\\1833.cpp\\Solution\\maxIceCream(vector\u003cint\u003e\u0026,int)\\RETURN",
+                "correspondingType": "int",
+                "value": "null"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.RootDataNode",
+        "name": "STUB",
+        "virtual_name": "NON_VALUE",
+        "functionNode": ".\\p8\\1833.cpp\\Solution\\maxIceCream(vector\u003cint\u003e\u0026,int)",
+        "level": "STUB"
+      }
+    ]
+  },
+  "procedures": [
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "i \u003c costs.size()",
+      "isSelected": false,
+      "location": 139,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "coins - costs[i] \u003e\u003d 0",
+      "isSelected": false,
+      "location": 175,
+      "calls": [],
+      "children": []
+    }
+  ]
+}
