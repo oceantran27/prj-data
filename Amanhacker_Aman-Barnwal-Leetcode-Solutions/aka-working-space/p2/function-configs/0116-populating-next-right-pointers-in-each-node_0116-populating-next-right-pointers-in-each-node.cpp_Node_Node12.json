@@ -1,0 +1,15 @@
+{
+  "function": ".\\p2\\0116-populating-next-right-pointers-in-each-node\\0116-populating-next-right-pointers-in-each-node.cpp\\Node\\Node()",
+  "testdataGenStrategy": "BEST COVERAGE",
+  "theMaxNumberOfIterations": 10,
+  "floatAndDoubleDelta": 0.1,
+  "lowerBoundOfOtherNumberVars": "MIN",
+  "upperBoundOfOtherNumberVars": "MAX",
+  "lowerBoundOfOtherCharacterVars": "MIN",
+  "upperBoundOfOtherCharacterVars": "MAX",
+  "lowerBoundOfOtherArrays": "1",
+  "upperBoundOfOtherArrays": "3",
+  "lowerBoundOfOtherPointers": "0",
+  "upperBoundOfOtherPointers": "3",
+  "boundOfArguments": []
+}

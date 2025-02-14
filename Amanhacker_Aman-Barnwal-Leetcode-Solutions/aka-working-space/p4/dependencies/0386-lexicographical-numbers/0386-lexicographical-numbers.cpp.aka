@@ -1,0 +1,41 @@
+{
+  "path": ".\\p4\\0386-lexicographical-numbers\\0386-lexicographical-numbers.cpp",
+  "dependency": [
+    {
+      "start": ".\\p4\\0386-lexicographical-numbers\\0386-lexicographical-numbers.cpp\\Solution\\dfs(int,int,vector\u003cint\u003e\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "2d7b2a104e2bf145e5e022cf669de66a",
+      "end": ".\\p4\\0386-lexicographical-numbers\\0386-lexicographical-numbers.cpp\\Solution",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "e1a965fd2ac2b64ca53b65de1e0aafd0"
+    },
+    {
+      "start": ".\\p4\\0386-lexicographical-numbers\\0386-lexicographical-numbers.cpp\\Solution\\lexicalOrder(int)",
+      "start-type": "FunctionNode",
+      "start-md5": "62a87ae8d494c81617d2fc6e0ed9a499",
+      "end": ".\\p4\\0386-lexicographical-numbers\\0386-lexicographical-numbers.cpp\\Solution",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "e1a965fd2ac2b64ca53b65de1e0aafd0"
+    },
+    {
+      "start": ".\\p4\\0386-lexicographical-numbers\\0386-lexicographical-numbers.cpp\\Solution\\dfs(int,int,vector\u003cint\u003e\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "2d7b2a104e2bf145e5e022cf669de66a",
+      "end": ".\\p4\\0386-lexicographical-numbers\\0386-lexicographical-numbers.cpp\\Solution\\dfs(int,int,vector\u003cint\u003e\u0026)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "2d7b2a104e2bf145e5e022cf669de66a"
+    },
+    {
+      "start": ".\\p4\\0386-lexicographical-numbers\\0386-lexicographical-numbers.cpp\\Solution\\lexicalOrder(int)",
+      "start-type": "FunctionNode",
+      "start-md5": "62a87ae8d494c81617d2fc6e0ed9a499",
+      "end": ".\\p4\\0386-lexicographical-numbers\\0386-lexicographical-numbers.cpp\\Solution\\dfs(int,int,vector\u003cint\u003e\u0026)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "2d7b2a104e2bf145e5e022cf669de66a"
+    }
+  ]
+}

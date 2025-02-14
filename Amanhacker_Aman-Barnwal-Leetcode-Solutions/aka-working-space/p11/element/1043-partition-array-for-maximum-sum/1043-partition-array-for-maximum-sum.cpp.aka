@@ -1,0 +1,15 @@
+{
+  ".\\p11\\\"set\"": "942a9a338433ad23b0d19a746b9615bd",
+  ".\\p11\\\"map\"": "918f04924b7de456b0f7db4c97515a37",
+  ".\\p11\\\"vector\"": "1e847903a574cdd099485ab12094070a",
+  ".\\p11\\\"unordered_map\"": "434e25dd82c1b5ad0bbf8c796fa8a611",
+  ".\\p11\\1043-partition-array-for-maximum-sum\\1043-partition-array-for-maximum-sum.cpp\\Solution\\helperMaxSum(vector\u003cint\u003e\u0026,int,int,int,int\u0026,vector\u003cint\u003e\u0026)": "6a6e8267d80d385e0362b2e82de3ac96",
+  ".\\p11\\\"algorithm\"": "87ea0a57bca218522dc3140d82335caa",
+  "NAME_FILE": ".\\p11\\1043-partition-array-for-maximum-sum\\1043-partition-array-for-maximum-sum.cpp",
+  ".\\p11\\\"bits\\stdc++.h\"": "aa49054fa454b4485dcb9f07d72b51f0",
+  ".\\p11\\\"iostream\"": "bdee703c89c64c546a69ae2d4a9671da",
+  ".\\p11\\1043-partition-array-for-maximum-sum\\1043-partition-array-for-maximum-sum.cpp\\Solution\\maxSumAfterPartitioning(vector\u003cint\u003e\u0026,int)": "0b238c382a8b3992ee63ee98cd9af2c8",
+  ".\\p11\\1043-partition-array-for-maximum-sum\\1043-partition-array-for-maximum-sum.cpp\\Solution": "88f9d559a8917d81e73e9cac671e462f",
+  ".\\p11\\1043-partition-array-for-maximum-sum\\1043-partition-array-for-maximum-sum.cpp\\": "f60be50875ede180e993ae30bf30e846",
+  ".\\p11\\\"string\"": "77292ea3b83e6dd9466a527810302d0e"
+}

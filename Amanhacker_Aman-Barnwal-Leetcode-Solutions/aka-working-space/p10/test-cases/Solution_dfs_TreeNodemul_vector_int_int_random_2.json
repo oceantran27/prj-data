@@ -1,0 +1,286 @@
+{
+  "name": "Solution_dfs_TreeNodemul_vector_int_int_random_2",
+  "status": "success",
+  "testCaseUserCode": {
+    "includePaths": [],
+    "setUpContent": "// set up\n;",
+    "tearDownContent": "// tear down\n;"
+  },
+  "path": ".\\\\aka-working-space\\\\p10\\\\test-cases\\Solution_dfs_TreeNodemul_vector_int_int_random_2.json",
+  "sourceCode": ".\\\\aka-working-space\\\\p10\\\\test-drivers\\Solution_dfs_TreeNodemul_vector_int_int_random_2.cpp",
+  "testPath": ".\\\\aka-working-space\\\\p10\\\\test-paths\\Solution_dfs_TreeNodemul_vector_int_int_random_2.tp",
+  "executable": ".\\\\aka-working-space\\\\p10\\\\exe\\Solution_dfs_TreeNodemul_vector_int_int_random_2.exe",
+  "commandConfig": ".\\aka-working-space\\p10\\test-case-commands\\Solution_dfs_TreeNodemul_vector_int_int_random_2.json",
+  "commandDebug": ".\\\\aka-working-space\\\\p10\\\\debugger\\\\commands\\Solution_dfs_TreeNodemul_vector_int_int_random_2.json",
+  "breakPoint": ".\\\\aka-working-space\\\\p10\\\\debugger\\\\breakpoints\\Solution_dfs_TreeNodemul_vector_int_int_random_2.br.json",
+  "debugExecutable": ".\\\\aka-working-space\\\\p10\\\\exe\\debug_Solution_dfs_TreeNodemul_vector_int_int_random_2.exe",
+  "executionResult": ".\\\\aka-working-space\\\\p10\\\\execution-results\\Solution_dfs_TreeNodemul_vector_int_int_random_2.xml",
+  "creationDate": "2025-02-14T10:19:37.442342900",
+  "executionDate": "2025-02-14T10:20:09.148215200",
+  "rootDataNode": {
+    "type": "com.dse.testdata.object.RootDataNode",
+    "name": "ROOT",
+    "virtual_name": "NON_VALUE",
+    "functionNode": ".\\p10\\1022-sum-of-root-to-leaf-binary-numbers\\1022-sum-of-root-to-leaf-binary-numbers.cpp\\Solution\\dfs(TreeNode*,vector\u003cint\u003e,int\u0026)",
+    "level": "ROOT",
+    "children": [
+      {
+        "type": "com.dse.testdata.object.UnitUnderTestNode",
+        "name": "1022-sum-of-root-to-leaf-binary-numbers.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\p10\\1022-sum-of-root-to-leaf-binary-numbers\\1022-sum-of-root-to-leaf-binary-numbers.cpp",
+        "children": [
+          {
+            "type": "com.dse.testdata.object.GlobalRootDataNode",
+            "name": "GLOBAL",
+            "virtual_name": "NON_VALUE",
+            "functionNode": ".\\p10\\1022-sum-of-root-to-leaf-binary-numbers\\1022-sum-of-root-to-leaf-binary-numbers.cpp\\Solution\\dfs(TreeNode*,vector\u003cint\u003e,int\u0026)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": false,
+                "correspondingVar": ".\\p10\\1022-sum-of-root-to-leaf-binary-numbers\\1022-sum-of-root-to-leaf-binary-numbers.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p10\\1022-sum-of-root-to-leaf-binary-numbers\\1022-sum-of-root-to-leaf-binary-numbers.cpp\\Solution"
+              }
+            ],
+            "level": "GLOBAL",
+            "children": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": true,
+                "correspondingVar": ".\\p10\\1022-sum-of-root-to-leaf-binary-numbers\\1022-sum-of-root-to-leaf-binary-numbers.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p10\\1022-sum-of-root-to-leaf-binary-numbers\\1022-sum-of-root-to-leaf-binary-numbers.cpp\\Solution",
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.SubClassDataNode",
+                    "name": "AKA_INSTANCE___Solution",
+                    "virtual_name": "AKA_INSTANCE___Solution",
+                    "dataType": "::Solution",
+                    "realType": "::Solution",
+                    "external": false,
+                    "correspondingVar": ".\\p10\\1022-sum-of-root-to-leaf-binary-numbers\\1022-sum-of-root-to-leaf-binary-numbers.cpp\\Solution\\AKA_INSTANCE___Solution",
+                    "correspondingType": ".\\p10\\1022-sum-of-root-to-leaf-binary-numbers\\1022-sum-of-root-to-leaf-binary-numbers.cpp\\Solution",
+                    "rawType": "::Solution",
+                    "selectedConstructor": "Solution()",
+                    "variableType": "::Solution",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                        "name": "Solution()",
+                        "virtual_name": "AKA_INSTANCE___Solution",
+                        "dataType": "::Solution",
+                        "realType": "::Solution",
+                        "functionNode": "\\Solution()"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "com.dse.testdata.object.SubprogramNode",
+            "name": "dfs(TreeNode*,vector\u003cint\u003e,int\u0026)",
+            "virtual_name": "NON_VALUE",
+            "dataType": "void",
+            "realType": "void",
+            "functionNode": ".\\p10\\1022-sum-of-root-to-leaf-binary-numbers\\1022-sum-of-root-to-leaf-binary-numbers.cpp\\Solution\\dfs(TreeNode*,vector\u003cint\u003e,int\u0026)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                "name": "path",
+                "virtual_name": "EXPECTED_path",
+                "dataType": "vector\u003cint\u003e",
+                "realType": "vector\u003cint\u003e",
+                "external": false,
+                "correspondingVar": ".\\p10\\1022-sum-of-root-to-leaf-binary-numbers\\1022-sum-of-root-to-leaf-binary-numbers.cpp\\Solution\\dfs(TreeNode*,vector\u003cint\u003e,int\u0026)\\path",
+                "correspondingType": "STLListBaseType",
+                "templateArg": "int"
+              },
+              {
+                "type": "com.dse.testdata.object.PointerStructureDataNode",
+                "name": "root",
+                "virtual_name": "EXPECTED_root",
+                "dataType": "TreeNode*",
+                "realType": "TreeNode*",
+                "external": false,
+                "correspondingVar": ".\\p10\\1022-sum-of-root-to-leaf-binary-numbers\\1022-sum-of-root-to-leaf-binary-numbers.cpp\\Solution\\dfs(TreeNode*,vector\u003cint\u003e,int\u0026)\\root",
+                "correspondingType": ".\\p10\\1022-sum-of-root-to-leaf-binary-numbers\\1022-sum-of-root-to-leaf-binary-numbers.cpp\\TreeNode",
+                "level": 1
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "res",
+                "virtual_name": "EXPECTED_res",
+                "dataType": "int\u0026",
+                "realType": "int\u0026",
+                "external": false,
+                "correspondingVar": ".\\p10\\1022-sum-of-root-to-leaf-binary-numbers\\1022-sum-of-root-to-leaf-binary-numbers.cpp\\Solution\\dfs(TreeNode*,vector\u003cint\u003e,int\u0026)\\res",
+                "correspondingType": "int\u0026",
+                "value": "null"
+              }
+            ],
+            "children": [
+              {
+                "type": "com.dse.testdata.object.RootDataNode",
+                "name": "STATIC",
+                "virtual_name": "NON_VALUE",
+                "functionNode": ".\\p10\\1022-sum-of-root-to-leaf-binary-numbers\\1022-sum-of-root-to-leaf-binary-numbers.cpp\\Solution\\dfs(TreeNode*,vector\u003cint\u003e,int\u0026)",
+                "level": "STATIC"
+              },
+              {
+                "type": "com.dse.testdata.object.PointerStructureDataNode",
+                "name": "root",
+                "virtual_name": "root",
+                "dataType": "TreeNode*",
+                "realType": "TreeNode*",
+                "external": false,
+                "correspondingVar": ".\\p10\\1022-sum-of-root-to-leaf-binary-numbers\\1022-sum-of-root-to-leaf-binary-numbers.cpp\\Solution\\dfs(TreeNode*,vector\u003cint\u003e,int\u0026)\\root",
+                "correspondingType": ".\\p10\\1022-sum-of-root-to-leaf-binary-numbers\\1022-sum-of-root-to-leaf-binary-numbers.cpp\\TreeNode",
+                "level": 1
+              },
+              {
+                "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                "name": "path",
+                "virtual_name": "path",
+                "dataType": "vector\u003cint\u003e",
+                "realType": "vector\u003cint\u003e",
+                "external": false,
+                "correspondingVar": ".\\p10\\1022-sum-of-root-to-leaf-binary-numbers\\1022-sum-of-root-to-leaf-binary-numbers.cpp\\Solution\\dfs(TreeNode*,vector\u003cint\u003e,int\u0026)\\path",
+                "correspondingType": "STLListBaseType",
+                "templateArg": "int",
+                "size": 3,
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.NormalNumberDataNode",
+                    "name": "element #0",
+                    "virtual_name": "path_element0",
+                    "dataType": "int",
+                    "realType": "int",
+                    "external": false,
+                    "correspondingVar": ".\\p10\\1022-sum-of-root-to-leaf-binary-numbers\\1022-sum-of-root-to-leaf-binary-numbers.cpp\\Solution\\dfs(TreeNode*,vector\u003cint\u003e,int\u0026)\\path\\element #0",
+                    "correspondingType": "int",
+                    "value": "-266414701"
+                  },
+                  {
+                    "type": "com.dse.testdata.object.NormalNumberDataNode",
+                    "name": "element #1",
+                    "virtual_name": "path_element1",
+                    "dataType": "int",
+                    "realType": "int",
+                    "external": false,
+                    "correspondingVar": ".\\p10\\1022-sum-of-root-to-leaf-binary-numbers\\1022-sum-of-root-to-leaf-binary-numbers.cpp\\Solution\\dfs(TreeNode*,vector\u003cint\u003e,int\u0026)\\path\\element #1",
+                    "correspondingType": "int",
+                    "value": "2113932572"
+                  },
+                  {
+                    "type": "com.dse.testdata.object.NormalNumberDataNode",
+                    "name": "element #2",
+                    "virtual_name": "path_element2",
+                    "dataType": "int",
+                    "realType": "int",
+                    "external": false,
+                    "correspondingVar": ".\\p10\\1022-sum-of-root-to-leaf-binary-numbers\\1022-sum-of-root-to-leaf-binary-numbers.cpp\\Solution\\dfs(TreeNode*,vector\u003cint\u003e,int\u0026)\\path\\element #2",
+                    "correspondingType": "int",
+                    "value": "1446685595"
+                  }
+                ]
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "res",
+                "virtual_name": "res",
+                "dataType": "int\u0026",
+                "realType": "int\u0026",
+                "external": false,
+                "correspondingVar": ".\\p10\\1022-sum-of-root-to-leaf-binary-numbers\\1022-sum-of-root-to-leaf-binary-numbers.cpp\\Solution\\dfs(TreeNode*,vector\u003cint\u003e,int\u0026)\\res",
+                "correspondingType": "int\u0026",
+                "value": "2094278390"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.RootDataNode",
+        "name": "STUB",
+        "virtual_name": "NON_VALUE",
+        "functionNode": ".\\p10\\1022-sum-of-root-to-leaf-binary-numbers\\1022-sum-of-root-to-leaf-binary-numbers.cpp\\Solution\\dfs(TreeNode*,vector\u003cint\u003e,int\u0026)",
+        "level": "STUB"
+      }
+    ]
+  },
+  "procedures": [
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "function_call",
+      "value": "dfs();",
+      "isSelected": false,
+      "location": 5,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "root \u003d\u003d NULL",
+      "isSelected": false,
+      "location": 77,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "root-\u003eleft \u003d\u003d NULL",
+      "isSelected": false,
+      "location": 194,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "root-\u003eright \u003d\u003d NULL",
+      "isSelected": false,
+      "location": 216,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "function_call",
+      "value": "findNumber();",
+      "isSelected": false,
+      "location": 274,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "function_call",
+      "value": "dfs();",
+      "isSelected": false,
+      "location": 345,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "function_call",
+      "value": "dfs();",
+      "isSelected": false,
+      "location": 382,
+      "calls": [],
+      "children": []
+    }
+  ]
+}

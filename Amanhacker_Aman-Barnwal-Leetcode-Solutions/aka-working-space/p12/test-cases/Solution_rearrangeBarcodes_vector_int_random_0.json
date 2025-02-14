@@ -1,0 +1,249 @@
+{
+  "name": "Solution_rearrangeBarcodes_vector_int_random_0",
+  "status": "failed",
+  "testCaseUserCode": {
+    "includePaths": [],
+    "setUpContent": "// set up\n;",
+    "tearDownContent": "// tear down\n;"
+  },
+  "path": ".\\\\aka-working-space\\\\p12\\\\test-cases\\Solution_rearrangeBarcodes_vector_int_random_0.json",
+  "sourceCode": ".\\\\aka-working-space\\\\p12\\\\test-drivers\\Solution_rearrangeBarcodes_vector_int_random_0.cpp",
+  "testPath": ".\\\\aka-working-space\\\\p12\\\\test-paths\\Solution_rearrangeBarcodes_vector_int_random_0.tp",
+  "executable": ".\\\\aka-working-space\\\\p12\\\\exe\\Solution_rearrangeBarcodes_vector_int_random_0.exe",
+  "commandConfig": ".\\aka-working-space\\p12\\test-case-commands\\Solution_rearrangeBarcodes_vector_int_random_0.json",
+  "commandDebug": ".\\\\aka-working-space\\\\p12\\\\debugger\\\\commands\\Solution_rearrangeBarcodes_vector_int_random_0.json",
+  "breakPoint": ".\\\\aka-working-space\\\\p12\\\\debugger\\\\breakpoints\\Solution_rearrangeBarcodes_vector_int_random_0.br.json",
+  "debugExecutable": ".\\\\aka-working-space\\\\p12\\\\exe\\debug_Solution_rearrangeBarcodes_vector_int_random_0.exe",
+  "executionResult": ".\\\\aka-working-space\\\\p12\\\\execution-results\\Solution_rearrangeBarcodes_vector_int_random_0.xml",
+  "creationDate": "2025-02-14T11:45:28.037526600",
+  "executionDate": "2025-02-14T11:45:28.462018500",
+  "rootDataNode": {
+    "type": "com.dse.testdata.object.RootDataNode",
+    "name": "ROOT",
+    "virtual_name": "NON_VALUE",
+    "functionNode": ".\\p12\\1054-distant-barcodes\\1054-distant-barcodes.cpp\\Solution\\rearrangeBarcodes(vector\u003cint\u003e\u0026)",
+    "level": "ROOT",
+    "children": [
+      {
+        "type": "com.dse.testdata.object.UnitUnderTestNode",
+        "name": "1054-distant-barcodes.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\p12\\1054-distant-barcodes\\1054-distant-barcodes.cpp",
+        "children": [
+          {
+            "type": "com.dse.testdata.object.GlobalRootDataNode",
+            "name": "GLOBAL",
+            "virtual_name": "NON_VALUE",
+            "functionNode": ".\\p12\\1054-distant-barcodes\\1054-distant-barcodes.cpp\\Solution\\rearrangeBarcodes(vector\u003cint\u003e\u0026)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": false,
+                "correspondingVar": ".\\p12\\1054-distant-barcodes\\1054-distant-barcodes.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p12\\1054-distant-barcodes\\1054-distant-barcodes.cpp\\Solution"
+              }
+            ],
+            "level": "GLOBAL",
+            "children": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": true,
+                "correspondingVar": ".\\p12\\1054-distant-barcodes\\1054-distant-barcodes.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p12\\1054-distant-barcodes\\1054-distant-barcodes.cpp\\Solution",
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.SubClassDataNode",
+                    "name": "AKA_INSTANCE___Solution",
+                    "virtual_name": "AKA_INSTANCE___Solution",
+                    "dataType": "::Solution",
+                    "realType": "::Solution",
+                    "external": false,
+                    "correspondingVar": ".\\p12\\1054-distant-barcodes\\1054-distant-barcodes.cpp\\Solution\\AKA_INSTANCE___Solution",
+                    "correspondingType": ".\\p12\\1054-distant-barcodes\\1054-distant-barcodes.cpp\\Solution",
+                    "rawType": "::Solution",
+                    "selectedConstructor": "Solution()",
+                    "variableType": "::Solution",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                        "name": "Solution()",
+                        "virtual_name": "AKA_INSTANCE___Solution",
+                        "dataType": "::Solution",
+                        "realType": "::Solution",
+                        "functionNode": "\\Solution()"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "com.dse.testdata.object.SubprogramNode",
+            "name": "rearrangeBarcodes(vector\u003cint\u003e\u0026)",
+            "virtual_name": "NON_VALUE",
+            "dataType": "vector\u003cint\u003e",
+            "realType": "vector\u003cint\u003e",
+            "functionNode": ".\\p12\\1054-distant-barcodes\\1054-distant-barcodes.cpp\\Solution\\rearrangeBarcodes(vector\u003cint\u003e\u0026)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                "name": "v",
+                "virtual_name": "EXPECTED_v",
+                "dataType": "vector\u003cint\u003e",
+                "realType": "vector\u003cint\u003e\u0026",
+                "external": false,
+                "correspondingVar": ".\\p12\\1054-distant-barcodes\\1054-distant-barcodes.cpp\\Solution\\rearrangeBarcodes(vector\u003cint\u003e\u0026)\\v",
+                "correspondingType": "STLListBaseType",
+                "templateArg": "int"
+              }
+            ],
+            "children": [
+              {
+                "type": "com.dse.testdata.object.RootDataNode",
+                "name": "STATIC",
+                "virtual_name": "NON_VALUE",
+                "functionNode": ".\\p12\\1054-distant-barcodes\\1054-distant-barcodes.cpp\\Solution\\rearrangeBarcodes(vector\u003cint\u003e\u0026)",
+                "level": "STATIC"
+              },
+              {
+                "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                "name": "v",
+                "virtual_name": "v",
+                "dataType": "vector\u003cint\u003e",
+                "realType": "vector\u003cint\u003e\u0026",
+                "external": false,
+                "correspondingVar": ".\\p12\\1054-distant-barcodes\\1054-distant-barcodes.cpp\\Solution\\rearrangeBarcodes(vector\u003cint\u003e\u0026)\\v",
+                "correspondingType": "STLListBaseType",
+                "templateArg": "int",
+                "size": 1,
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.NormalNumberDataNode",
+                    "name": "element #0",
+                    "virtual_name": "v_element0",
+                    "dataType": "int",
+                    "realType": "int",
+                    "external": false,
+                    "correspondingVar": ".\\p12\\1054-distant-barcodes\\1054-distant-barcodes.cpp\\Solution\\rearrangeBarcodes(vector\u003cint\u003e\u0026)\\v\\element #0",
+                    "correspondingType": "int",
+                    "value": "776424720"
+                  }
+                ]
+              },
+              {
+                "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                "name": "RETURN",
+                "virtual_name": "AKA_EXPECTED_OUTPUT",
+                "dataType": "vector\u003cint\u003e",
+                "realType": "vector\u003cint\u003e",
+                "external": false,
+                "correspondingVar": ".\\p12\\1054-distant-barcodes\\1054-distant-barcodes.cpp\\Solution\\rearrangeBarcodes(vector\u003cint\u003e\u0026)\\RETURN",
+                "correspondingType": "STLListBaseType",
+                "templateArg": "int"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.RootDataNode",
+        "name": "STUB",
+        "virtual_name": "NON_VALUE",
+        "functionNode": ".\\p12\\1054-distant-barcodes\\1054-distant-barcodes.cpp\\Solution\\rearrangeBarcodes(vector\u003cint\u003e\u0026)",
+        "level": "STUB"
+      }
+    ]
+  },
+  "procedures": [
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "auto \u0026x",
+      "isSelected": false,
+      "location": 330,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "auto \u0026x",
+      "isSelected": false,
+      "location": 330,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "prevFreq \u003e\u003d 2",
+      "isSelected": false,
+      "location": 673,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "pq.empty() \u003d\u003d false",
+      "isSelected": false,
+      "location": 773,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "prev !\u003d temp.second",
+      "isSelected": false,
+      "location": 908,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "freq \u003e\u003d 2",
+      "isSelected": false,
+      "location": 1068,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "prev \u003d\u003d temp.second",
+      "isSelected": false,
+      "location": 1244,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "pq.size() \u003e\u003d 1",
+      "isSelected": false,
+      "location": 1420,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "freq2 \u003e\u003d 2",
+      "isSelected": false,
+      "location": 1814,
+      "calls": [],
+      "children": []
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "name": "Solution_addNodeAtBeginning_ListNodemulmul_int_random_4",
+  "status": "success",
+  "testCaseUserCode": {
+    "includePaths": [],
+    "setUpContent": "// set up\n;",
+    "tearDownContent": "// tear down\n;"
+  },
+  "path": ".\\\\aka-working-space\\\\p5\\\\test-cases\\Solution_addNodeAtBeginning_ListNodemulmul_int_random_4.json",
+  "sourceCode": ".\\\\aka-working-space\\\\p5\\\\test-drivers\\Solution_addNodeAtBeginning_ListNodemulmul_int_random_4.cpp",
+  "testPath": ".\\\\aka-working-space\\\\p5\\\\test-paths\\Solution_addNodeAtBeginning_ListNodemulmul_int_random_4.tp",
+  "executable": ".\\\\aka-working-space\\\\p5\\\\exe\\Solution_addNodeAtBeginning_ListNodemulmul_int_random_4.exe",
+  "commandConfig": ".\\aka-working-space\\p5\\test-case-commands\\Solution_addNodeAtBeginning_ListNodemulmul_int_random_4.json",
+  "commandDebug": ".\\\\aka-working-space\\\\p5\\\\debugger\\\\commands\\Solution_addNodeAtBeginning_ListNodemulmul_int_random_4.json",
+  "breakPoint": ".\\\\aka-working-space\\\\p5\\\\debugger\\\\breakpoints\\Solution_addNodeAtBeginning_ListNodemulmul_int_random_4.br.json",
+  "debugExecutable": ".\\\\aka-working-space\\\\p5\\\\exe\\debug_Solution_addNodeAtBeginning_ListNodemulmul_int_random_4.exe",
+  "executionResult": ".\\\\aka-working-space\\\\p5\\\\execution-results\\Solution_addNodeAtBeginning_ListNodemulmul_int_random_4.xml",
+  "creationDate": "2025-02-14T10:45:37.269584400",
+  "executionDate": "2025-02-14T10:46:23.751753800",
+  "rootDataNode": {
+    "type": "com.dse.testdata.object.RootDataNode",
+    "name": "ROOT",
+    "virtual_name": "NON_VALUE",
+    "functionNode": ".\\p5\\0445-add-two-numbers-ii\\0445-add-two-numbers-ii.cpp\\Solution\\addNodeAtBeginning(ListNode**,int)",
+    "level": "ROOT",
+    "children": [
+      {
+        "type": "com.dse.testdata.object.UnitUnderTestNode",
+        "name": "0445-add-two-numbers-ii.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\p5\\0445-add-two-numbers-ii\\0445-add-two-numbers-ii.cpp",
+        "children": [
+          {
+            "type": "com.dse.testdata.object.GlobalRootDataNode",
+            "name": "GLOBAL",
+            "virtual_name": "NON_VALUE",
+            "functionNode": ".\\p5\\0445-add-two-numbers-ii\\0445-add-two-numbers-ii.cpp\\Solution\\addNodeAtBeginning(ListNode**,int)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": false,
+                "correspondingVar": ".\\p5\\0445-add-two-numbers-ii\\0445-add-two-numbers-ii.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p5\\0445-add-two-numbers-ii\\0445-add-two-numbers-ii.cpp\\Solution"
+              }
+            ],
+            "level": "GLOBAL",
+            "children": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": true,
+                "correspondingVar": ".\\p5\\0445-add-two-numbers-ii\\0445-add-two-numbers-ii.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p5\\0445-add-two-numbers-ii\\0445-add-two-numbers-ii.cpp\\Solution",
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.SubClassDataNode",
+                    "name": "AKA_INSTANCE___Solution",
+                    "virtual_name": "AKA_INSTANCE___Solution",
+                    "dataType": "::Solution",
+                    "realType": "::Solution",
+                    "external": false,
+                    "correspondingVar": ".\\p5\\0445-add-two-numbers-ii\\0445-add-two-numbers-ii.cpp\\Solution\\AKA_INSTANCE___Solution",
+                    "correspondingType": ".\\p5\\0445-add-two-numbers-ii\\0445-add-two-numbers-ii.cpp\\Solution",
+                    "rawType": "::Solution",
+                    "selectedConstructor": "Solution()",
+                    "variableType": "::Solution",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                        "name": "Solution()",
+                        "virtual_name": "AKA_INSTANCE___Solution",
+                        "dataType": "::Solution",
+                        "realType": "::Solution",
+                        "functionNode": "\\Solution()"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "com.dse.testdata.object.SubprogramNode",
+            "name": "addNodeAtBeginning(ListNode**,int)",
+            "virtual_name": "NON_VALUE",
+            "dataType": "void",
+            "realType": "void",
+            "functionNode": ".\\p5\\0445-add-two-numbers-ii\\0445-add-two-numbers-ii.cpp\\Solution\\addNodeAtBeginning(ListNode**,int)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.PointerStructureDataNode",
+                "name": "head",
+                "virtual_name": "EXPECTED_head",
+                "dataType": "ListNode**",
+                "realType": "ListNode**",
+                "external": false,
+                "correspondingVar": ".\\p5\\0445-add-two-numbers-ii\\0445-add-two-numbers-ii.cpp\\Solution\\addNodeAtBeginning(ListNode**,int)\\head",
+                "correspondingType": ".\\p5\\0445-add-two-numbers-ii\\0445-add-two-numbers-ii.cpp\\ListNode",
+                "level": 2
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "val",
+                "virtual_name": "EXPECTED_val",
+                "dataType": "int",
+                "realType": "int",
+                "external": false,
+                "correspondingVar": ".\\p5\\0445-add-two-numbers-ii\\0445-add-two-numbers-ii.cpp\\Solution\\addNodeAtBeginning(ListNode**,int)\\val",
+                "correspondingType": "int",
+                "value": "null"
+              }
+            ],
+            "children": [
+              {
+                "type": "com.dse.testdata.object.RootDataNode",
+                "name": "STATIC",
+                "virtual_name": "NON_VALUE",
+                "functionNode": ".\\p5\\0445-add-two-numbers-ii\\0445-add-two-numbers-ii.cpp\\Solution\\addNodeAtBeginning(ListNode**,int)",
+                "level": "STATIC"
+              },
+              {
+                "type": "com.dse.testdata.object.PointerStructureDataNode",
+                "name": "head",
+                "virtual_name": "head",
+                "dataType": "ListNode**",
+                "realType": "ListNode**",
+                "external": false,
+                "correspondingVar": ".\\p5\\0445-add-two-numbers-ii\\0445-add-two-numbers-ii.cpp\\Solution\\addNodeAtBeginning(ListNode**,int)\\head",
+                "correspondingType": ".\\p5\\0445-add-two-numbers-ii\\0445-add-two-numbers-ii.cpp\\ListNode",
+                "level": 2
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "val",
+                "virtual_name": "val",
+                "dataType": "int",
+                "realType": "int",
+                "external": false,
+                "correspondingVar": ".\\p5\\0445-add-two-numbers-ii\\0445-add-two-numbers-ii.cpp\\Solution\\addNodeAtBeginning(ListNode**,int)\\val",
+                "correspondingType": "int",
+                "value": "-1884304576"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.RootDataNode",
+        "name": "STUB",
+        "virtual_name": "NON_VALUE",
+        "functionNode": ".\\p5\\0445-add-two-numbers-ii\\0445-add-two-numbers-ii.cpp\\Solution\\addNodeAtBeginning(ListNode**,int)",
+        "level": "STUB"
+      }
+    ]
+  },
+  "procedures": [
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "*head \u003d\u003d NULL",
+      "isSelected": false,
+      "location": 114,
+      "calls": [],
+      "children": []
+    }
+  ]
+}

@@ -1,0 +1,337 @@
+{
+  "name": "Solution_knapsackHelper_int_int_int_int_random_0",
+  "status": "failed",
+  "testCaseUserCode": {
+    "includePaths": [],
+    "setUpContent": "// set up\n;",
+    "tearDownContent": "// tear down\n;"
+  },
+  "path": ".\\\\aka-working-space\\\\p1\\\\test-cases\\Solution_knapsackHelper_int_int_int_int_random_0.json",
+  "sourceCode": ".\\\\aka-working-space\\\\p1\\\\test-drivers\\Solution_knapsackHelper_int_int_int_int_random_0.cpp",
+  "testPath": ".\\\\aka-working-space\\\\p1\\\\test-paths\\Solution_knapsackHelper_int_int_int_int_random_0.tp",
+  "executable": ".\\\\aka-working-space\\\\p1\\\\exe\\Solution_knapsackHelper_int_int_int_int_random_0.exe",
+  "commandConfig": ".\\aka-working-space\\p1\\test-case-commands\\Solution_knapsackHelper_int_int_int_int_random_0.json",
+  "commandDebug": ".\\\\aka-working-space\\\\p1\\\\debugger\\\\commands\\Solution_knapsackHelper_int_int_int_int_random_0.json",
+  "breakPoint": ".\\\\aka-working-space\\\\p1\\\\debugger\\\\breakpoints\\Solution_knapsackHelper_int_int_int_int_random_0.br.json",
+  "debugExecutable": ".\\\\aka-working-space\\\\p1\\\\exe\\debug_Solution_knapsackHelper_int_int_int_int_random_0.exe",
+  "executionResult": ".\\\\aka-working-space\\\\p1\\\\execution-results\\Solution_knapsackHelper_int_int_int_int_random_0.xml",
+  "creationDate": "2025-02-13T16:16:02.236674200",
+  "executionDate": "2025-02-13T16:16:03.275132900",
+  "rootDataNode": {
+    "type": "com.dse.testdata.object.RootDataNode",
+    "name": "ROOT",
+    "virtual_name": "NON_VALUE",
+    "functionNode": ".\\p1\\0 - 1 Knapsack Problem - GFG\\0-1-knapsack-problem.cpp\\Solution\\knapsackHelper(int,int[],int[],int)",
+    "level": "ROOT",
+    "children": [
+      {
+        "type": "com.dse.testdata.object.UnitUnderTestNode",
+        "name": "0-1-knapsack-problem.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\p1\\0 - 1 Knapsack Problem - GFG\\0-1-knapsack-problem.cpp",
+        "children": [
+          {
+            "type": "com.dse.testdata.object.GlobalRootDataNode",
+            "name": "GLOBAL",
+            "virtual_name": "NON_VALUE",
+            "functionNode": ".\\p1\\0 - 1 Knapsack Problem - GFG\\0-1-knapsack-problem.cpp\\Solution\\knapsackHelper(int,int[],int[],int)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": false,
+                "correspondingVar": ".\\p1\\0 - 1 Knapsack Problem - GFG\\0-1-knapsack-problem.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p1\\0 - 1 Knapsack Problem - GFG\\0-1-knapsack-problem.cpp\\Solution"
+              }
+            ],
+            "level": "GLOBAL",
+            "children": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": true,
+                "correspondingVar": ".\\p1\\0 - 1 Knapsack Problem - GFG\\0-1-knapsack-problem.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p1\\0 - 1 Knapsack Problem - GFG\\0-1-knapsack-problem.cpp\\Solution",
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.SubClassDataNode",
+                    "name": "AKA_INSTANCE___Solution",
+                    "virtual_name": "AKA_INSTANCE___Solution",
+                    "dataType": "::Solution",
+                    "realType": "::Solution",
+                    "external": false,
+                    "correspondingVar": ".\\p1\\0 - 1 Knapsack Problem - GFG\\0-1-knapsack-problem.cpp\\Solution\\AKA_INSTANCE___Solution",
+                    "correspondingType": ".\\p1\\0 - 1 Knapsack Problem - GFG\\0-1-knapsack-problem.cpp\\Solution",
+                    "rawType": "::Solution",
+                    "selectedConstructor": "Solution()",
+                    "variableType": "::Solution",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                        "name": "Solution()",
+                        "virtual_name": "AKA_INSTANCE___Solution",
+                        "dataType": "::Solution",
+                        "realType": "::Solution",
+                        "functionNode": "\\Solution()"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "com.dse.testdata.object.SubprogramNode",
+            "name": "knapsackHelper(int,int[],int[],int)",
+            "virtual_name": "NON_VALUE",
+            "dataType": "int",
+            "realType": "int",
+            "functionNode": ".\\p1\\0 - 1 Knapsack Problem - GFG\\0-1-knapsack-problem.cpp\\Solution\\knapsackHelper(int,int[],int[],int)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.OneDimensionNumberDataNode",
+                "name": "val",
+                "virtual_name": "EXPECTED_val",
+                "dataType": "int[]",
+                "realType": "int[]",
+                "external": false,
+                "correspondingVar": ".\\p1\\0 - 1 Knapsack Problem - GFG\\0-1-knapsack-problem.cpp\\Solution\\knapsackHelper(int,int[],int[],int)\\val",
+                "correspondingType": "",
+                "fixedSize": false
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "w",
+                "virtual_name": "EXPECTED_w",
+                "dataType": "int",
+                "realType": "int",
+                "external": false,
+                "correspondingVar": ".\\p1\\0 - 1 Knapsack Problem - GFG\\0-1-knapsack-problem.cpp\\Solution\\knapsackHelper(int,int[],int[],int)\\w",
+                "correspondingType": "int",
+                "value": "null"
+              },
+              {
+                "type": "com.dse.testdata.object.OneDimensionNumberDataNode",
+                "name": "wt",
+                "virtual_name": "EXPECTED_wt",
+                "dataType": "int[]",
+                "realType": "int[]",
+                "external": false,
+                "correspondingVar": ".\\p1\\0 - 1 Knapsack Problem - GFG\\0-1-knapsack-problem.cpp\\Solution\\knapsackHelper(int,int[],int[],int)\\wt",
+                "correspondingType": "",
+                "fixedSize": false
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "n",
+                "virtual_name": "EXPECTED_n",
+                "dataType": "int",
+                "realType": "int",
+                "external": false,
+                "correspondingVar": ".\\p1\\0 - 1 Knapsack Problem - GFG\\0-1-knapsack-problem.cpp\\Solution\\knapsackHelper(int,int[],int[],int)\\n",
+                "correspondingType": "int",
+                "value": "null"
+              }
+            ],
+            "children": [
+              {
+                "type": "com.dse.testdata.object.RootDataNode",
+                "name": "STATIC",
+                "virtual_name": "NON_VALUE",
+                "functionNode": ".\\p1\\0 - 1 Knapsack Problem - GFG\\0-1-knapsack-problem.cpp\\Solution\\knapsackHelper(int,int[],int[],int)",
+                "level": "STATIC"
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "w",
+                "virtual_name": "w",
+                "dataType": "int",
+                "realType": "int",
+                "external": false,
+                "correspondingVar": ".\\p1\\0 - 1 Knapsack Problem - GFG\\0-1-knapsack-problem.cpp\\Solution\\knapsackHelper(int,int[],int[],int)\\w",
+                "correspondingType": "int",
+                "value": "4"
+              },
+              {
+                "type": "com.dse.testdata.object.OneDimensionNumberDataNode",
+                "name": "wt",
+                "virtual_name": "wt",
+                "dataType": "int[]",
+                "realType": "int[]",
+                "external": false,
+                "correspondingVar": ".\\p1\\0 - 1 Knapsack Problem - GFG\\0-1-knapsack-problem.cpp\\Solution\\knapsackHelper(int,int[],int[],int)\\wt",
+                "correspondingType": "",
+                "fixedSize": false,
+                "size": 3,
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.NormalNumberDataNode",
+                    "name": "wt[0]",
+                    "virtual_name": "wt[0]",
+                    "dataType": "int",
+                    "realType": "int",
+                    "external": false,
+                    "correspondingVar": ".\\p1\\0 - 1 Knapsack Problem - GFG\\0-1-knapsack-problem.cpp\\Solution\\knapsackHelper(int,int[],int[],int)\\wt\\wt[0]",
+                    "correspondingType": "int",
+                    "value": "-526999525"
+                  },
+                  {
+                    "type": "com.dse.testdata.object.NormalNumberDataNode",
+                    "name": "wt[1]",
+                    "virtual_name": "wt[1]",
+                    "dataType": "int",
+                    "realType": "int",
+                    "external": false,
+                    "correspondingVar": ".\\p1\\0 - 1 Knapsack Problem - GFG\\0-1-knapsack-problem.cpp\\Solution\\knapsackHelper(int,int[],int[],int)\\wt\\wt[1]",
+                    "correspondingType": "int",
+                    "value": "-1446211684"
+                  },
+                  {
+                    "type": "com.dse.testdata.object.NormalNumberDataNode",
+                    "name": "wt[2]",
+                    "virtual_name": "wt[2]",
+                    "dataType": "int",
+                    "realType": "int",
+                    "external": false,
+                    "correspondingVar": ".\\p1\\0 - 1 Knapsack Problem - GFG\\0-1-knapsack-problem.cpp\\Solution\\knapsackHelper(int,int[],int[],int)\\wt\\wt[2]",
+                    "correspondingType": "int",
+                    "value": "-1305116615"
+                  }
+                ]
+              },
+              {
+                "type": "com.dse.testdata.object.OneDimensionNumberDataNode",
+                "name": "val",
+                "virtual_name": "val",
+                "dataType": "int[]",
+                "realType": "int[]",
+                "external": false,
+                "correspondingVar": ".\\p1\\0 - 1 Knapsack Problem - GFG\\0-1-knapsack-problem.cpp\\Solution\\knapsackHelper(int,int[],int[],int)\\val",
+                "correspondingType": "",
+                "fixedSize": false,
+                "size": 3,
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.NormalNumberDataNode",
+                    "name": "val[0]",
+                    "virtual_name": "val[0]",
+                    "dataType": "int",
+                    "realType": "int",
+                    "external": false,
+                    "correspondingVar": ".\\p1\\0 - 1 Knapsack Problem - GFG\\0-1-knapsack-problem.cpp\\Solution\\knapsackHelper(int,int[],int[],int)\\val\\val[0]",
+                    "correspondingType": "int",
+                    "value": "-388918100"
+                  },
+                  {
+                    "type": "com.dse.testdata.object.NormalNumberDataNode",
+                    "name": "val[1]",
+                    "virtual_name": "val[1]",
+                    "dataType": "int",
+                    "realType": "int",
+                    "external": false,
+                    "correspondingVar": ".\\p1\\0 - 1 Knapsack Problem - GFG\\0-1-knapsack-problem.cpp\\Solution\\knapsackHelper(int,int[],int[],int)\\val\\val[1]",
+                    "correspondingType": "int",
+                    "value": "1616712528"
+                  },
+                  {
+                    "type": "com.dse.testdata.object.NormalNumberDataNode",
+                    "name": "val[2]",
+                    "virtual_name": "val[2]",
+                    "dataType": "int",
+                    "realType": "int",
+                    "external": false,
+                    "correspondingVar": ".\\p1\\0 - 1 Knapsack Problem - GFG\\0-1-knapsack-problem.cpp\\Solution\\knapsackHelper(int,int[],int[],int)\\val\\val[2]",
+                    "correspondingType": "int",
+                    "value": "-993290731"
+                  }
+                ]
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "n",
+                "virtual_name": "n",
+                "dataType": "int",
+                "realType": "int",
+                "external": false,
+                "correspondingVar": ".\\p1\\0 - 1 Knapsack Problem - GFG\\0-1-knapsack-problem.cpp\\Solution\\knapsackHelper(int,int[],int[],int)\\n",
+                "correspondingType": "int",
+                "value": "8"
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "RETURN",
+                "virtual_name": "AKA_EXPECTED_OUTPUT",
+                "dataType": "int",
+                "realType": "int",
+                "external": false,
+                "correspondingVar": ".\\p1\\0 - 1 Knapsack Problem - GFG\\0-1-knapsack-problem.cpp\\Solution\\knapsackHelper(int,int[],int[],int)\\RETURN",
+                "correspondingType": "int",
+                "value": "null"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.RootDataNode",
+        "name": "STUB",
+        "virtual_name": "NON_VALUE",
+        "functionNode": ".\\p1\\0 - 1 Knapsack Problem - GFG\\0-1-knapsack-problem.cpp\\Solution\\knapsackHelper(int,int[],int[],int)",
+        "level": "STUB"
+      }
+    ]
+  },
+  "procedures": [
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "i\u003c\u003dn",
+      "isSelected": false,
+      "location": 155,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "i\u003c\u003dn",
+      "isSelected": false,
+      "location": 155,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "j\u003c\u003dw",
+      "isSelected": false,
+      "location": 222,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "j\u003c\u003dw",
+      "isSelected": false,
+      "location": 222,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "wt[i-1] \u003c\u003d j",
+      "isSelected": false,
+      "location": 373,
+      "calls": [],
+      "children": []
+    }
+  ]
+}

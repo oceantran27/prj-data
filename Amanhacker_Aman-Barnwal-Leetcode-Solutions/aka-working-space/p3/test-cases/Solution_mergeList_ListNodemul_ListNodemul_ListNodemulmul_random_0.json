@@ -1,0 +1,1580 @@
+{
+  "name": "Solution_mergeList_ListNodemul_ListNodemul_ListNodemulmul_random_0",
+  "status": "failed",
+  "testCaseUserCode": {
+    "includePaths": [],
+    "setUpContent": "// set up\n;",
+    "tearDownContent": "// tear down\n;"
+  },
+  "path": ".\\\\aka-working-space\\\\p3\\\\test-cases\\Solution_mergeList_ListNodemul_ListNodemul_ListNodemulmul_random_0.json",
+  "sourceCode": ".\\\\aka-working-space\\\\p3\\\\test-drivers\\Solution_mergeList_ListNodemul_ListNodemul_ListNodemulmul_random_0.cpp",
+  "testPath": ".\\\\aka-working-space\\\\p3\\\\test-paths\\Solution_mergeList_ListNodemul_ListNodemul_ListNodemulmul_random_0.tp",
+  "executable": ".\\\\aka-working-space\\\\p3\\\\exe\\Solution_mergeList_ListNodemul_ListNodemul_ListNodemulmul_random_0.exe",
+  "commandConfig": ".\\aka-working-space\\p3\\test-case-commands\\Solution_mergeList_ListNodemul_ListNodemul_ListNodemulmul_random_0.json",
+  "commandDebug": ".\\\\aka-working-space\\\\p3\\\\debugger\\\\commands\\Solution_mergeList_ListNodemul_ListNodemul_ListNodemulmul_random_0.json",
+  "breakPoint": ".\\\\aka-working-space\\\\p3\\\\debugger\\\\breakpoints\\Solution_mergeList_ListNodemul_ListNodemul_ListNodemulmul_random_0.br.json",
+  "debugExecutable": ".\\\\aka-working-space\\\\p3\\\\exe\\debug_Solution_mergeList_ListNodemul_ListNodemul_ListNodemulmul_random_0.exe",
+  "executionResult": ".\\\\aka-working-space\\\\p3\\\\execution-results\\Solution_mergeList_ListNodemul_ListNodemul_ListNodemulmul_random_0.xml",
+  "creationDate": "2025-02-13T16:43:13.539024300",
+  "executionDate": "2025-02-13T16:43:18.497959600",
+  "rootDataNode": {
+    "type": "com.dse.testdata.object.RootDataNode",
+    "name": "ROOT",
+    "virtual_name": "NON_VALUE",
+    "functionNode": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\Solution\\mergeList(ListNode*,ListNode*,ListNode**)",
+    "level": "ROOT",
+    "children": [
+      {
+        "type": "com.dse.testdata.object.UnitUnderTestNode",
+        "name": "0148-sort-list.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\p3\\0148-sort-list\\0148-sort-list.cpp",
+        "children": [
+          {
+            "type": "com.dse.testdata.object.GlobalRootDataNode",
+            "name": "GLOBAL",
+            "virtual_name": "NON_VALUE",
+            "functionNode": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\Solution\\mergeList(ListNode*,ListNode*,ListNode**)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": false,
+                "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\Solution"
+              }
+            ],
+            "level": "GLOBAL",
+            "children": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": true,
+                "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\Solution",
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.SubClassDataNode",
+                    "name": "AKA_INSTANCE___Solution",
+                    "virtual_name": "AKA_INSTANCE___Solution",
+                    "dataType": "::Solution",
+                    "realType": "::Solution",
+                    "external": false,
+                    "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\Solution\\AKA_INSTANCE___Solution",
+                    "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\Solution",
+                    "rawType": "::Solution",
+                    "selectedConstructor": "Solution()",
+                    "variableType": "::Solution",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                        "name": "Solution()",
+                        "virtual_name": "AKA_INSTANCE___Solution",
+                        "dataType": "::Solution",
+                        "realType": "::Solution",
+                        "functionNode": "\\Solution()"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "com.dse.testdata.object.SubprogramNode",
+            "name": "mergeList(ListNode*,ListNode*,ListNode**)",
+            "virtual_name": "NON_VALUE",
+            "dataType": "void",
+            "realType": "void",
+            "functionNode": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\Solution\\mergeList(ListNode*,ListNode*,ListNode**)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.PointerStructureDataNode",
+                "name": "head",
+                "virtual_name": "EXPECTED_head",
+                "dataType": "ListNode**",
+                "realType": "ListNode**",
+                "external": false,
+                "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\Solution\\mergeList(ListNode*,ListNode*,ListNode**)\\head",
+                "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                "level": 2
+              },
+              {
+                "type": "com.dse.testdata.object.PointerStructureDataNode",
+                "name": "l1",
+                "virtual_name": "EXPECTED_l1",
+                "dataType": "ListNode*",
+                "realType": "ListNode*",
+                "external": false,
+                "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\Solution\\mergeList(ListNode*,ListNode*,ListNode**)\\l1",
+                "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                "level": 1
+              },
+              {
+                "type": "com.dse.testdata.object.PointerStructureDataNode",
+                "name": "l2",
+                "virtual_name": "EXPECTED_l2",
+                "dataType": "ListNode*",
+                "realType": "ListNode*",
+                "external": false,
+                "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\Solution\\mergeList(ListNode*,ListNode*,ListNode**)\\l2",
+                "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                "level": 1
+              }
+            ],
+            "children": [
+              {
+                "type": "com.dse.testdata.object.RootDataNode",
+                "name": "STATIC",
+                "virtual_name": "NON_VALUE",
+                "functionNode": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\Solution\\mergeList(ListNode*,ListNode*,ListNode**)",
+                "level": "STATIC"
+              },
+              {
+                "type": "com.dse.testdata.object.PointerStructureDataNode",
+                "name": "l1",
+                "virtual_name": "l1",
+                "dataType": "ListNode*",
+                "realType": "ListNode*",
+                "external": false,
+                "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\Solution\\mergeList(ListNode*,ListNode*,ListNode**)\\l1",
+                "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                "level": 1,
+                "size": 2,
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.StructDataNode",
+                    "name": "l1[0]",
+                    "virtual_name": "l1[0]",
+                    "dataType": "ListNode",
+                    "realType": "ListNode",
+                    "external": false,
+                    "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\Solution\\mergeList(ListNode*,ListNode*,ListNode**)\\l1\\l1[0]",
+                    "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.SubStructDataNode",
+                        "name": "l1",
+                        "virtual_name": "l1[0]",
+                        "dataType": "::ListNode",
+                        "realType": "::ListNode",
+                        "external": false,
+                        "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\Solution\\mergeList(ListNode*,ListNode*,ListNode**)\\l1\\l1",
+                        "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                        "rawType": "::ListNode",
+                        "selectedConstructor": "ListNode(int)",
+                        "variableType": "::ListNode",
+                        "children": [
+                          {
+                            "type": "com.dse.testdata.object.ConstructorDataNode",
+                            "name": "ListNode(int)",
+                            "virtual_name": "l1[0]",
+                            "dataType": "::ListNode",
+                            "realType": "::ListNode",
+                            "functionNode": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\ListNode(int)",
+                            "children": [
+                              {
+                                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                "name": "x",
+                                "virtual_name": "l10_x",
+                                "dataType": "int",
+                                "realType": "int",
+                                "external": false,
+                                "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\ListNode(int)\\x",
+                                "correspondingType": "int",
+                                "value": "800584316"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                            "name": "val",
+                            "virtual_name": "l1[0].val",
+                            "dataType": "int",
+                            "realType": "int",
+                            "external": false,
+                            "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\val",
+                            "correspondingType": "int",
+                            "value": "-1439847849"
+                          },
+                          {
+                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                            "name": "next",
+                            "virtual_name": "l1[0].next",
+                            "dataType": "ListNode*",
+                            "realType": "ListNode*",
+                            "external": false,
+                            "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\next",
+                            "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                            "level": 1
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "com.dse.testdata.object.StructDataNode",
+                    "name": "l1[1]",
+                    "virtual_name": "l1[1]",
+                    "dataType": "ListNode",
+                    "realType": "ListNode",
+                    "external": false,
+                    "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\Solution\\mergeList(ListNode*,ListNode*,ListNode**)\\l1\\l1[1]",
+                    "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.SubStructDataNode",
+                        "name": "l1",
+                        "virtual_name": "l1[1]",
+                        "dataType": "::ListNode",
+                        "realType": "::ListNode",
+                        "external": false,
+                        "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\Solution\\mergeList(ListNode*,ListNode*,ListNode**)\\l1\\l1",
+                        "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                        "rawType": "::ListNode",
+                        "selectedConstructor": "ListNode()",
+                        "variableType": "::ListNode",
+                        "children": [
+                          {
+                            "type": "com.dse.testdata.object.ConstructorDataNode",
+                            "name": "ListNode()",
+                            "virtual_name": "l1[1]",
+                            "dataType": "::ListNode",
+                            "realType": "::ListNode",
+                            "functionNode": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\ListNode()"
+                          },
+                          {
+                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                            "name": "val",
+                            "virtual_name": "l1[1].val",
+                            "dataType": "int",
+                            "realType": "int",
+                            "external": false,
+                            "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\val",
+                            "correspondingType": "int",
+                            "value": "-177700363"
+                          },
+                          {
+                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                            "name": "next",
+                            "virtual_name": "l1[1].next",
+                            "dataType": "ListNode*",
+                            "realType": "ListNode*",
+                            "external": false,
+                            "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\next",
+                            "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                            "level": 1,
+                            "size": 1,
+                            "children": [
+                              {
+                                "type": "com.dse.testdata.object.StructDataNode",
+                                "name": "next[0]",
+                                "virtual_name": "l1[1].next[0]",
+                                "dataType": "ListNode",
+                                "realType": "ListNode",
+                                "external": false,
+                                "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\next\\next[0]",
+                                "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                                "children": [
+                                  {
+                                    "type": "com.dse.testdata.object.SubStructDataNode",
+                                    "name": "next",
+                                    "virtual_name": "l1[1].next[0]",
+                                    "dataType": "::ListNode",
+                                    "realType": "::ListNode",
+                                    "external": false,
+                                    "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\next\\next",
+                                    "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                                    "rawType": "::ListNode",
+                                    "selectedConstructor": "ListNode(int)",
+                                    "variableType": "::ListNode",
+                                    "children": [
+                                      {
+                                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                                        "name": "ListNode(int)",
+                                        "virtual_name": "l1[1].next[0]",
+                                        "dataType": "::ListNode",
+                                        "realType": "::ListNode",
+                                        "functionNode": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\ListNode(int)",
+                                        "children": [
+                                          {
+                                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                            "name": "x",
+                                            "virtual_name": "l11_next0_x",
+                                            "dataType": "int",
+                                            "realType": "int",
+                                            "external": false,
+                                            "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\ListNode(int)\\x",
+                                            "correspondingType": "int",
+                                            "value": "-469197862"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                        "name": "val",
+                                        "virtual_name": "l1[1].next[0].val",
+                                        "dataType": "int",
+                                        "realType": "int",
+                                        "external": false,
+                                        "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\val",
+                                        "correspondingType": "int",
+                                        "value": "-1800999836"
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                        "name": "next",
+                                        "virtual_name": "l1[1].next[0].next",
+                                        "dataType": "ListNode*",
+                                        "realType": "ListNode*",
+                                        "external": false,
+                                        "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\next",
+                                        "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                                        "level": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "com.dse.testdata.object.PointerStructureDataNode",
+                "name": "l2",
+                "virtual_name": "l2",
+                "dataType": "ListNode*",
+                "realType": "ListNode*",
+                "external": false,
+                "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\Solution\\mergeList(ListNode*,ListNode*,ListNode**)\\l2",
+                "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                "level": 1,
+                "size": 2,
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.StructDataNode",
+                    "name": "l2[0]",
+                    "virtual_name": "l2[0]",
+                    "dataType": "ListNode",
+                    "realType": "ListNode",
+                    "external": false,
+                    "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\Solution\\mergeList(ListNode*,ListNode*,ListNode**)\\l2\\l2[0]",
+                    "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.SubStructDataNode",
+                        "name": "l2",
+                        "virtual_name": "l2[0]",
+                        "dataType": "::ListNode",
+                        "realType": "::ListNode",
+                        "external": false,
+                        "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\Solution\\mergeList(ListNode*,ListNode*,ListNode**)\\l2\\l2",
+                        "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                        "rawType": "::ListNode",
+                        "selectedConstructor": "ListNode(int)",
+                        "variableType": "::ListNode",
+                        "children": [
+                          {
+                            "type": "com.dse.testdata.object.ConstructorDataNode",
+                            "name": "ListNode(int)",
+                            "virtual_name": "l2[0]",
+                            "dataType": "::ListNode",
+                            "realType": "::ListNode",
+                            "functionNode": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\ListNode(int)",
+                            "children": [
+                              {
+                                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                "name": "x",
+                                "virtual_name": "l20_x",
+                                "dataType": "int",
+                                "realType": "int",
+                                "external": false,
+                                "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\ListNode(int)\\x",
+                                "correspondingType": "int",
+                                "value": "-1775908257"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                            "name": "val",
+                            "virtual_name": "l2[0].val",
+                            "dataType": "int",
+                            "realType": "int",
+                            "external": false,
+                            "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\val",
+                            "correspondingType": "int",
+                            "value": "459407718"
+                          },
+                          {
+                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                            "name": "next",
+                            "virtual_name": "l2[0].next",
+                            "dataType": "ListNode*",
+                            "realType": "ListNode*",
+                            "external": false,
+                            "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\next",
+                            "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                            "level": 1,
+                            "size": 3,
+                            "children": [
+                              {
+                                "type": "com.dse.testdata.object.StructDataNode",
+                                "name": "next[0]",
+                                "virtual_name": "l2[0].next[0]",
+                                "dataType": "ListNode",
+                                "realType": "ListNode",
+                                "external": false,
+                                "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\next\\next[0]",
+                                "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                                "children": [
+                                  {
+                                    "type": "com.dse.testdata.object.SubStructDataNode",
+                                    "name": "next",
+                                    "virtual_name": "l2[0].next[0]",
+                                    "dataType": "::ListNode",
+                                    "realType": "::ListNode",
+                                    "external": false,
+                                    "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\next\\next",
+                                    "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                                    "rawType": "::ListNode",
+                                    "selectedConstructor": "ListNode(int)",
+                                    "variableType": "::ListNode",
+                                    "children": [
+                                      {
+                                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                                        "name": "ListNode(int)",
+                                        "virtual_name": "l2[0].next[0]",
+                                        "dataType": "::ListNode",
+                                        "realType": "::ListNode",
+                                        "functionNode": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\ListNode(int)",
+                                        "children": [
+                                          {
+                                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                            "name": "x",
+                                            "virtual_name": "l20_next0_x",
+                                            "dataType": "int",
+                                            "realType": "int",
+                                            "external": false,
+                                            "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\ListNode(int)\\x",
+                                            "correspondingType": "int",
+                                            "value": "2120038599"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                        "name": "val",
+                                        "virtual_name": "l2[0].next[0].val",
+                                        "dataType": "int",
+                                        "realType": "int",
+                                        "external": false,
+                                        "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\val",
+                                        "correspondingType": "int",
+                                        "value": "621739295"
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                        "name": "next",
+                                        "virtual_name": "l2[0].next[0].next",
+                                        "dataType": "ListNode*",
+                                        "realType": "ListNode*",
+                                        "external": false,
+                                        "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\next",
+                                        "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                                        "level": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "com.dse.testdata.object.StructDataNode",
+                                "name": "next[1]",
+                                "virtual_name": "l2[0].next[1]",
+                                "dataType": "ListNode",
+                                "realType": "ListNode",
+                                "external": false,
+                                "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\next\\next[1]",
+                                "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                                "children": [
+                                  {
+                                    "type": "com.dse.testdata.object.SubStructDataNode",
+                                    "name": "next",
+                                    "virtual_name": "l2[0].next[1]",
+                                    "dataType": "::ListNode",
+                                    "realType": "::ListNode",
+                                    "external": false,
+                                    "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\next\\next",
+                                    "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                                    "rawType": "::ListNode",
+                                    "selectedConstructor": "ListNode(int,ListNode*)",
+                                    "variableType": "::ListNode",
+                                    "children": [
+                                      {
+                                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                                        "name": "ListNode(int,ListNode*)",
+                                        "virtual_name": "l2[0].next[1]",
+                                        "dataType": "::ListNode",
+                                        "realType": "::ListNode",
+                                        "functionNode": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\ListNode(int,ListNode*)",
+                                        "children": [
+                                          {
+                                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                            "name": "x",
+                                            "virtual_name": "l20_next1_x",
+                                            "dataType": "int",
+                                            "realType": "int",
+                                            "external": false,
+                                            "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\ListNode(int,ListNode*)\\x",
+                                            "correspondingType": "int",
+                                            "value": "-1194594052"
+                                          },
+                                          {
+                                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                            "name": "next",
+                                            "virtual_name": "l20_next1_next",
+                                            "dataType": "ListNode*",
+                                            "realType": "ListNode*",
+                                            "external": false,
+                                            "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\ListNode(int,ListNode*)\\next",
+                                            "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                                            "level": 1
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                        "name": "val",
+                                        "virtual_name": "l2[0].next[1].val",
+                                        "dataType": "int",
+                                        "realType": "int",
+                                        "external": false,
+                                        "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\val",
+                                        "correspondingType": "int",
+                                        "value": "647895268"
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                        "name": "next",
+                                        "virtual_name": "l2[0].next[1].next",
+                                        "dataType": "ListNode*",
+                                        "realType": "ListNode*",
+                                        "external": false,
+                                        "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\next",
+                                        "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                                        "level": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "com.dse.testdata.object.StructDataNode",
+                                "name": "next[2]",
+                                "virtual_name": "l2[0].next[2]",
+                                "dataType": "ListNode",
+                                "realType": "ListNode",
+                                "external": false,
+                                "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\next\\next[2]",
+                                "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                                "children": [
+                                  {
+                                    "type": "com.dse.testdata.object.SubStructDataNode",
+                                    "name": "next",
+                                    "virtual_name": "l2[0].next[2]",
+                                    "dataType": "::ListNode",
+                                    "realType": "::ListNode",
+                                    "external": false,
+                                    "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\next\\next",
+                                    "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                                    "rawType": "::ListNode",
+                                    "selectedConstructor": "ListNode(int)",
+                                    "variableType": "::ListNode",
+                                    "children": [
+                                      {
+                                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                                        "name": "ListNode(int)",
+                                        "virtual_name": "l2[0].next[2]",
+                                        "dataType": "::ListNode",
+                                        "realType": "::ListNode",
+                                        "functionNode": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\ListNode(int)",
+                                        "children": [
+                                          {
+                                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                            "name": "x",
+                                            "virtual_name": "l20_next2_x",
+                                            "dataType": "int",
+                                            "realType": "int",
+                                            "external": false,
+                                            "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\ListNode(int)\\x",
+                                            "correspondingType": "int",
+                                            "value": "-246391394"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                        "name": "val",
+                                        "virtual_name": "l2[0].next[2].val",
+                                        "dataType": "int",
+                                        "realType": "int",
+                                        "external": false,
+                                        "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\val",
+                                        "correspondingType": "int",
+                                        "value": "-1377820073"
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                        "name": "next",
+                                        "virtual_name": "l2[0].next[2].next",
+                                        "dataType": "ListNode*",
+                                        "realType": "ListNode*",
+                                        "external": false,
+                                        "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\next",
+                                        "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                                        "level": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "com.dse.testdata.object.StructDataNode",
+                    "name": "l2[1]",
+                    "virtual_name": "l2[1]",
+                    "dataType": "ListNode",
+                    "realType": "ListNode",
+                    "external": false,
+                    "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\Solution\\mergeList(ListNode*,ListNode*,ListNode**)\\l2\\l2[1]",
+                    "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.SubStructDataNode",
+                        "name": "l2",
+                        "virtual_name": "l2[1]",
+                        "dataType": "::ListNode",
+                        "realType": "::ListNode",
+                        "external": false,
+                        "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\Solution\\mergeList(ListNode*,ListNode*,ListNode**)\\l2\\l2",
+                        "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                        "rawType": "::ListNode",
+                        "selectedConstructor": "ListNode(int)",
+                        "variableType": "::ListNode",
+                        "children": [
+                          {
+                            "type": "com.dse.testdata.object.ConstructorDataNode",
+                            "name": "ListNode(int)",
+                            "virtual_name": "l2[1]",
+                            "dataType": "::ListNode",
+                            "realType": "::ListNode",
+                            "functionNode": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\ListNode(int)",
+                            "children": [
+                              {
+                                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                "name": "x",
+                                "virtual_name": "l21_x",
+                                "dataType": "int",
+                                "realType": "int",
+                                "external": false,
+                                "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\ListNode(int)\\x",
+                                "correspondingType": "int",
+                                "value": "619443196"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                            "name": "val",
+                            "virtual_name": "l2[1].val",
+                            "dataType": "int",
+                            "realType": "int",
+                            "external": false,
+                            "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\val",
+                            "correspondingType": "int",
+                            "value": "-915169754"
+                          },
+                          {
+                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                            "name": "next",
+                            "virtual_name": "l2[1].next",
+                            "dataType": "ListNode*",
+                            "realType": "ListNode*",
+                            "external": false,
+                            "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\next",
+                            "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                            "level": 1
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "com.dse.testdata.object.PointerStructureDataNode",
+                "name": "head",
+                "virtual_name": "head",
+                "dataType": "ListNode**",
+                "realType": "ListNode**",
+                "external": false,
+                "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\Solution\\mergeList(ListNode*,ListNode*,ListNode**)\\head",
+                "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                "level": 2,
+                "size": 2,
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.PointerStructureDataNode",
+                    "name": "head[0]",
+                    "virtual_name": "head[0]",
+                    "dataType": "ListNode*",
+                    "realType": "ListNode*",
+                    "external": false,
+                    "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\Solution\\mergeList(ListNode*,ListNode*,ListNode**)\\head\\head[0]",
+                    "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                    "level": 1,
+                    "size": 1,
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.StructDataNode",
+                        "name": "head[0][0]",
+                        "virtual_name": "head[0][0]",
+                        "dataType": "ListNode",
+                        "realType": "ListNode",
+                        "external": false,
+                        "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\Solution\\mergeList(ListNode*,ListNode*,ListNode**)\\head\\head[0]\\head[0][0]",
+                        "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                        "children": [
+                          {
+                            "type": "com.dse.testdata.object.SubStructDataNode",
+                            "name": "head[0][0]",
+                            "virtual_name": "head[0][0]",
+                            "dataType": "::ListNode",
+                            "realType": "::ListNode",
+                            "external": false,
+                            "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\Solution\\mergeList(ListNode*,ListNode*,ListNode**)\\head\\head[0]\\head[0][0]",
+                            "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                            "rawType": "::ListNode",
+                            "selectedConstructor": "ListNode()",
+                            "variableType": "::ListNode",
+                            "children": [
+                              {
+                                "type": "com.dse.testdata.object.ConstructorDataNode",
+                                "name": "ListNode()",
+                                "virtual_name": "head[0][0]",
+                                "dataType": "::ListNode",
+                                "realType": "::ListNode",
+                                "functionNode": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\ListNode()"
+                              },
+                              {
+                                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                "name": "val",
+                                "virtual_name": "head[0][0].val",
+                                "dataType": "int",
+                                "realType": "int",
+                                "external": false,
+                                "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\val",
+                                "correspondingType": "int",
+                                "value": "-474296319"
+                              },
+                              {
+                                "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                "name": "next",
+                                "virtual_name": "head[0][0].next",
+                                "dataType": "ListNode*",
+                                "realType": "ListNode*",
+                                "external": false,
+                                "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\next",
+                                "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                                "level": 1,
+                                "size": 3,
+                                "children": [
+                                  {
+                                    "type": "com.dse.testdata.object.StructDataNode",
+                                    "name": "next[0]",
+                                    "virtual_name": "head[0][0].next[0]",
+                                    "dataType": "ListNode",
+                                    "realType": "ListNode",
+                                    "external": false,
+                                    "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\next\\next[0]",
+                                    "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                                    "children": [
+                                      {
+                                        "type": "com.dse.testdata.object.SubStructDataNode",
+                                        "name": "next",
+                                        "virtual_name": "head[0][0].next[0]",
+                                        "dataType": "::ListNode",
+                                        "realType": "::ListNode",
+                                        "external": false,
+                                        "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\next\\next",
+                                        "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                                        "rawType": "::ListNode",
+                                        "selectedConstructor": "ListNode(int)",
+                                        "variableType": "::ListNode",
+                                        "children": [
+                                          {
+                                            "type": "com.dse.testdata.object.ConstructorDataNode",
+                                            "name": "ListNode(int)",
+                                            "virtual_name": "head[0][0].next[0]",
+                                            "dataType": "::ListNode",
+                                            "realType": "::ListNode",
+                                            "functionNode": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\ListNode(int)",
+                                            "children": [
+                                              {
+                                                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                                "name": "x",
+                                                "virtual_name": "head00_next0_x",
+                                                "dataType": "int",
+                                                "realType": "int",
+                                                "external": false,
+                                                "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\ListNode(int)\\x",
+                                                "correspondingType": "int",
+                                                "value": "-825704223"
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                            "name": "val",
+                                            "virtual_name": "head[0][0].next[0].val",
+                                            "dataType": "int",
+                                            "realType": "int",
+                                            "external": false,
+                                            "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\val",
+                                            "correspondingType": "int",
+                                            "value": "-1353511517"
+                                          },
+                                          {
+                                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                            "name": "next",
+                                            "virtual_name": "head[0][0].next[0].next",
+                                            "dataType": "ListNode*",
+                                            "realType": "ListNode*",
+                                            "external": false,
+                                            "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\next",
+                                            "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                                            "level": 1
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "com.dse.testdata.object.StructDataNode",
+                                    "name": "next[1]",
+                                    "virtual_name": "head[0][0].next[1]",
+                                    "dataType": "ListNode",
+                                    "realType": "ListNode",
+                                    "external": false,
+                                    "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\next\\next[1]",
+                                    "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                                    "children": [
+                                      {
+                                        "type": "com.dse.testdata.object.SubStructDataNode",
+                                        "name": "next",
+                                        "virtual_name": "head[0][0].next[1]",
+                                        "dataType": "::ListNode",
+                                        "realType": "::ListNode",
+                                        "external": false,
+                                        "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\next\\next",
+                                        "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                                        "rawType": "::ListNode",
+                                        "selectedConstructor": "ListNode()",
+                                        "variableType": "::ListNode",
+                                        "children": [
+                                          {
+                                            "type": "com.dse.testdata.object.ConstructorDataNode",
+                                            "name": "ListNode()",
+                                            "virtual_name": "head[0][0].next[1]",
+                                            "dataType": "::ListNode",
+                                            "realType": "::ListNode",
+                                            "functionNode": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\ListNode()"
+                                          },
+                                          {
+                                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                            "name": "val",
+                                            "virtual_name": "head[0][0].next[1].val",
+                                            "dataType": "int",
+                                            "realType": "int",
+                                            "external": false,
+                                            "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\val",
+                                            "correspondingType": "int",
+                                            "value": "-1213120830"
+                                          },
+                                          {
+                                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                            "name": "next",
+                                            "virtual_name": "head[0][0].next[1].next",
+                                            "dataType": "ListNode*",
+                                            "realType": "ListNode*",
+                                            "external": false,
+                                            "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\next",
+                                            "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                                            "level": 1
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "com.dse.testdata.object.StructDataNode",
+                                    "name": "next[2]",
+                                    "virtual_name": "head[0][0].next[2]",
+                                    "dataType": "ListNode",
+                                    "realType": "ListNode",
+                                    "external": false,
+                                    "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\next\\next[2]",
+                                    "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                                    "children": [
+                                      {
+                                        "type": "com.dse.testdata.object.SubStructDataNode",
+                                        "name": "next",
+                                        "virtual_name": "head[0][0].next[2]",
+                                        "dataType": "::ListNode",
+                                        "realType": "::ListNode",
+                                        "external": false,
+                                        "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\next\\next",
+                                        "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                                        "rawType": "::ListNode",
+                                        "selectedConstructor": "ListNode()",
+                                        "variableType": "::ListNode",
+                                        "children": [
+                                          {
+                                            "type": "com.dse.testdata.object.ConstructorDataNode",
+                                            "name": "ListNode()",
+                                            "virtual_name": "head[0][0].next[2]",
+                                            "dataType": "::ListNode",
+                                            "realType": "::ListNode",
+                                            "functionNode": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\ListNode()"
+                                          },
+                                          {
+                                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                            "name": "val",
+                                            "virtual_name": "head[0][0].next[2].val",
+                                            "dataType": "int",
+                                            "realType": "int",
+                                            "external": false,
+                                            "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\val",
+                                            "correspondingType": "int",
+                                            "value": "-116667749"
+                                          },
+                                          {
+                                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                            "name": "next",
+                                            "virtual_name": "head[0][0].next[2].next",
+                                            "dataType": "ListNode*",
+                                            "realType": "ListNode*",
+                                            "external": false,
+                                            "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\next",
+                                            "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                                            "level": 1
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "com.dse.testdata.object.PointerStructureDataNode",
+                    "name": "head[1]",
+                    "virtual_name": "head[1]",
+                    "dataType": "ListNode*",
+                    "realType": "ListNode*",
+                    "external": false,
+                    "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\Solution\\mergeList(ListNode*,ListNode*,ListNode**)\\head\\head[1]",
+                    "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                    "level": 1,
+                    "size": 1,
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.StructDataNode",
+                        "name": "head[1][0]",
+                        "virtual_name": "head[1][0]",
+                        "dataType": "ListNode",
+                        "realType": "ListNode",
+                        "external": false,
+                        "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\Solution\\mergeList(ListNode*,ListNode*,ListNode**)\\head\\head[1]\\head[1][0]",
+                        "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                        "children": [
+                          {
+                            "type": "com.dse.testdata.object.SubStructDataNode",
+                            "name": "head[1][0]",
+                            "virtual_name": "head[1][0]",
+                            "dataType": "::ListNode",
+                            "realType": "::ListNode",
+                            "external": false,
+                            "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\Solution\\mergeList(ListNode*,ListNode*,ListNode**)\\head\\head[1]\\head[1][0]",
+                            "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                            "rawType": "::ListNode",
+                            "selectedConstructor": "ListNode(int,ListNode*)",
+                            "variableType": "::ListNode",
+                            "children": [
+                              {
+                                "type": "com.dse.testdata.object.ConstructorDataNode",
+                                "name": "ListNode(int,ListNode*)",
+                                "virtual_name": "head[1][0]",
+                                "dataType": "::ListNode",
+                                "realType": "::ListNode",
+                                "functionNode": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\ListNode(int,ListNode*)",
+                                "children": [
+                                  {
+                                    "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                    "name": "x",
+                                    "virtual_name": "head10_x",
+                                    "dataType": "int",
+                                    "realType": "int",
+                                    "external": false,
+                                    "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\ListNode(int,ListNode*)\\x",
+                                    "correspondingType": "int",
+                                    "value": "1376175617"
+                                  },
+                                  {
+                                    "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                    "name": "next",
+                                    "virtual_name": "head10_next",
+                                    "dataType": "ListNode*",
+                                    "realType": "ListNode*",
+                                    "external": false,
+                                    "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\ListNode(int,ListNode*)\\next",
+                                    "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                                    "level": 1,
+                                    "size": 3,
+                                    "children": [
+                                      {
+                                        "type": "com.dse.testdata.object.StructDataNode",
+                                        "name": "next[0]",
+                                        "virtual_name": "head10_next[0]",
+                                        "dataType": "ListNode",
+                                        "realType": "ListNode",
+                                        "external": false,
+                                        "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\ListNode(int,ListNode*)\\next\\next[0]",
+                                        "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                                        "children": [
+                                          {
+                                            "type": "com.dse.testdata.object.SubStructDataNode",
+                                            "name": "next",
+                                            "virtual_name": "head10_next[0]",
+                                            "dataType": "::ListNode",
+                                            "realType": "::ListNode",
+                                            "external": false,
+                                            "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\ListNode(int,ListNode*)\\next\\next",
+                                            "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                                            "rawType": "::ListNode",
+                                            "selectedConstructor": "ListNode(int,ListNode*)",
+                                            "variableType": "::ListNode",
+                                            "children": [
+                                              {
+                                                "type": "com.dse.testdata.object.ConstructorDataNode",
+                                                "name": "ListNode(int,ListNode*)",
+                                                "virtual_name": "head10_next[0]",
+                                                "dataType": "::ListNode",
+                                                "realType": "::ListNode",
+                                                "functionNode": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\ListNode(int,ListNode*)",
+                                                "children": [
+                                                  {
+                                                    "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                                    "name": "x",
+                                                    "virtual_name": "head10_next0_x",
+                                                    "dataType": "int",
+                                                    "realType": "int",
+                                                    "external": false,
+                                                    "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\ListNode(int,ListNode*)\\x",
+                                                    "correspondingType": "int",
+                                                    "value": "-365415874"
+                                                  },
+                                                  {
+                                                    "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                                    "name": "next",
+                                                    "virtual_name": "head10_next0_next",
+                                                    "dataType": "ListNode*",
+                                                    "realType": "ListNode*",
+                                                    "external": false,
+                                                    "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\ListNode(int,ListNode*)\\next",
+                                                    "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                                                    "level": 1
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                                "name": "val",
+                                                "virtual_name": "head10_next[0].val",
+                                                "dataType": "int",
+                                                "realType": "int",
+                                                "external": false,
+                                                "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\val",
+                                                "correspondingType": "int",
+                                                "value": "-1358155406"
+                                              },
+                                              {
+                                                "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                                "name": "next",
+                                                "virtual_name": "head10_next[0].next",
+                                                "dataType": "ListNode*",
+                                                "realType": "ListNode*",
+                                                "external": false,
+                                                "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\next",
+                                                "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                                                "level": 1
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.StructDataNode",
+                                        "name": "next[1]",
+                                        "virtual_name": "head10_next[1]",
+                                        "dataType": "ListNode",
+                                        "realType": "ListNode",
+                                        "external": false,
+                                        "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\ListNode(int,ListNode*)\\next\\next[1]",
+                                        "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                                        "children": [
+                                          {
+                                            "type": "com.dse.testdata.object.SubStructDataNode",
+                                            "name": "next",
+                                            "virtual_name": "head10_next[1]",
+                                            "dataType": "::ListNode",
+                                            "realType": "::ListNode",
+                                            "external": false,
+                                            "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\ListNode(int,ListNode*)\\next\\next",
+                                            "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                                            "rawType": "::ListNode",
+                                            "selectedConstructor": "ListNode(int)",
+                                            "variableType": "::ListNode",
+                                            "children": [
+                                              {
+                                                "type": "com.dse.testdata.object.ConstructorDataNode",
+                                                "name": "ListNode(int)",
+                                                "virtual_name": "head10_next[1]",
+                                                "dataType": "::ListNode",
+                                                "realType": "::ListNode",
+                                                "functionNode": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\ListNode(int)",
+                                                "children": [
+                                                  {
+                                                    "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                                    "name": "x",
+                                                    "virtual_name": "head10_next1_x",
+                                                    "dataType": "int",
+                                                    "realType": "int",
+                                                    "external": false,
+                                                    "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\ListNode(int)\\x",
+                                                    "correspondingType": "int",
+                                                    "value": "971478566"
+                                                  }
+                                                ]
+                                              },
+                                              {
+                                                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                                "name": "val",
+                                                "virtual_name": "head10_next[1].val",
+                                                "dataType": "int",
+                                                "realType": "int",
+                                                "external": false,
+                                                "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\val",
+                                                "correspondingType": "int",
+                                                "value": "-2047086879"
+                                              },
+                                              {
+                                                "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                                "name": "next",
+                                                "virtual_name": "head10_next[1].next",
+                                                "dataType": "ListNode*",
+                                                "realType": "ListNode*",
+                                                "external": false,
+                                                "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\next",
+                                                "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                                                "level": 1
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.StructDataNode",
+                                        "name": "next[2]",
+                                        "virtual_name": "head10_next[2]",
+                                        "dataType": "ListNode",
+                                        "realType": "ListNode",
+                                        "external": false,
+                                        "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\ListNode(int,ListNode*)\\next\\next[2]",
+                                        "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                                        "children": [
+                                          {
+                                            "type": "com.dse.testdata.object.SubStructDataNode",
+                                            "name": "next",
+                                            "virtual_name": "head10_next[2]",
+                                            "dataType": "::ListNode",
+                                            "realType": "::ListNode",
+                                            "external": false,
+                                            "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\ListNode(int,ListNode*)\\next\\next",
+                                            "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                                            "rawType": "::ListNode",
+                                            "selectedConstructor": "ListNode()",
+                                            "variableType": "::ListNode",
+                                            "children": [
+                                              {
+                                                "type": "com.dse.testdata.object.ConstructorDataNode",
+                                                "name": "ListNode()",
+                                                "virtual_name": "head10_next[2]",
+                                                "dataType": "::ListNode",
+                                                "realType": "::ListNode",
+                                                "functionNode": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\ListNode()"
+                                              },
+                                              {
+                                                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                                "name": "val",
+                                                "virtual_name": "head10_next[2].val",
+                                                "dataType": "int",
+                                                "realType": "int",
+                                                "external": false,
+                                                "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\val",
+                                                "correspondingType": "int",
+                                                "value": "-361016650"
+                                              },
+                                              {
+                                                "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                                "name": "next",
+                                                "virtual_name": "head10_next[2].next",
+                                                "dataType": "ListNode*",
+                                                "realType": "ListNode*",
+                                                "external": false,
+                                                "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\next",
+                                                "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                                                "level": 1
+                                              }
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                "name": "val",
+                                "virtual_name": "head[1][0].val",
+                                "dataType": "int",
+                                "realType": "int",
+                                "external": false,
+                                "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\val",
+                                "correspondingType": "int",
+                                "value": "1871399271"
+                              },
+                              {
+                                "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                "name": "next",
+                                "virtual_name": "head[1][0].next",
+                                "dataType": "ListNode*",
+                                "realType": "ListNode*",
+                                "external": false,
+                                "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\next",
+                                "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                                "level": 1,
+                                "size": 3,
+                                "children": [
+                                  {
+                                    "type": "com.dse.testdata.object.StructDataNode",
+                                    "name": "next[0]",
+                                    "virtual_name": "head[1][0].next[0]",
+                                    "dataType": "ListNode",
+                                    "realType": "ListNode",
+                                    "external": false,
+                                    "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\next\\next[0]",
+                                    "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                                    "children": [
+                                      {
+                                        "type": "com.dse.testdata.object.SubStructDataNode",
+                                        "name": "next",
+                                        "virtual_name": "head[1][0].next[0]",
+                                        "dataType": "::ListNode",
+                                        "realType": "::ListNode",
+                                        "external": false,
+                                        "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\next\\next",
+                                        "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                                        "rawType": "::ListNode",
+                                        "selectedConstructor": "ListNode(int,ListNode*)",
+                                        "variableType": "::ListNode",
+                                        "children": [
+                                          {
+                                            "type": "com.dse.testdata.object.ConstructorDataNode",
+                                            "name": "ListNode(int,ListNode*)",
+                                            "virtual_name": "head[1][0].next[0]",
+                                            "dataType": "::ListNode",
+                                            "realType": "::ListNode",
+                                            "functionNode": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\ListNode(int,ListNode*)",
+                                            "children": [
+                                              {
+                                                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                                "name": "x",
+                                                "virtual_name": "head10_next0_x",
+                                                "dataType": "int",
+                                                "realType": "int",
+                                                "external": false,
+                                                "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\ListNode(int,ListNode*)\\x",
+                                                "correspondingType": "int",
+                                                "value": "-365415874"
+                                              },
+                                              {
+                                                "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                                "name": "next",
+                                                "virtual_name": "head10_next0_next",
+                                                "dataType": "ListNode*",
+                                                "realType": "ListNode*",
+                                                "external": false,
+                                                "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\ListNode(int,ListNode*)\\next",
+                                                "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                                                "level": 1
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                            "name": "val",
+                                            "virtual_name": "head[1][0].next[0].val",
+                                            "dataType": "int",
+                                            "realType": "int",
+                                            "external": false,
+                                            "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\val",
+                                            "correspondingType": "int",
+                                            "value": "-1358155406"
+                                          },
+                                          {
+                                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                            "name": "next",
+                                            "virtual_name": "head[1][0].next[0].next",
+                                            "dataType": "ListNode*",
+                                            "realType": "ListNode*",
+                                            "external": false,
+                                            "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\next",
+                                            "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                                            "level": 1
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "com.dse.testdata.object.StructDataNode",
+                                    "name": "next[1]",
+                                    "virtual_name": "head[1][0].next[1]",
+                                    "dataType": "ListNode",
+                                    "realType": "ListNode",
+                                    "external": false,
+                                    "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\next\\next[1]",
+                                    "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                                    "children": [
+                                      {
+                                        "type": "com.dse.testdata.object.SubStructDataNode",
+                                        "name": "next",
+                                        "virtual_name": "head[1][0].next[1]",
+                                        "dataType": "::ListNode",
+                                        "realType": "::ListNode",
+                                        "external": false,
+                                        "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\next\\next",
+                                        "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                                        "rawType": "::ListNode",
+                                        "selectedConstructor": "ListNode(int)",
+                                        "variableType": "::ListNode",
+                                        "children": [
+                                          {
+                                            "type": "com.dse.testdata.object.ConstructorDataNode",
+                                            "name": "ListNode(int)",
+                                            "virtual_name": "head[1][0].next[1]",
+                                            "dataType": "::ListNode",
+                                            "realType": "::ListNode",
+                                            "functionNode": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\ListNode(int)",
+                                            "children": [
+                                              {
+                                                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                                "name": "x",
+                                                "virtual_name": "head10_next1_x",
+                                                "dataType": "int",
+                                                "realType": "int",
+                                                "external": false,
+                                                "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\ListNode(int)\\x",
+                                                "correspondingType": "int",
+                                                "value": "971478566"
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                            "name": "val",
+                                            "virtual_name": "head[1][0].next[1].val",
+                                            "dataType": "int",
+                                            "realType": "int",
+                                            "external": false,
+                                            "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\val",
+                                            "correspondingType": "int",
+                                            "value": "-2047086879"
+                                          },
+                                          {
+                                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                            "name": "next",
+                                            "virtual_name": "head[1][0].next[1].next",
+                                            "dataType": "ListNode*",
+                                            "realType": "ListNode*",
+                                            "external": false,
+                                            "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\next",
+                                            "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                                            "level": 1
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "com.dse.testdata.object.StructDataNode",
+                                    "name": "next[2]",
+                                    "virtual_name": "head[1][0].next[2]",
+                                    "dataType": "ListNode",
+                                    "realType": "ListNode",
+                                    "external": false,
+                                    "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\next\\next[2]",
+                                    "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                                    "children": [
+                                      {
+                                        "type": "com.dse.testdata.object.SubStructDataNode",
+                                        "name": "next",
+                                        "virtual_name": "head[1][0].next[2]",
+                                        "dataType": "::ListNode",
+                                        "realType": "::ListNode",
+                                        "external": false,
+                                        "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\next\\next",
+                                        "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                                        "rawType": "::ListNode",
+                                        "selectedConstructor": "ListNode()",
+                                        "variableType": "::ListNode",
+                                        "children": [
+                                          {
+                                            "type": "com.dse.testdata.object.ConstructorDataNode",
+                                            "name": "ListNode()",
+                                            "virtual_name": "head[1][0].next[2]",
+                                            "dataType": "::ListNode",
+                                            "realType": "::ListNode",
+                                            "functionNode": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\ListNode()"
+                                          },
+                                          {
+                                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                            "name": "val",
+                                            "virtual_name": "head[1][0].next[2].val",
+                                            "dataType": "int",
+                                            "realType": "int",
+                                            "external": false,
+                                            "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\val",
+                                            "correspondingType": "int",
+                                            "value": "-361016650"
+                                          },
+                                          {
+                                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                            "name": "next",
+                                            "virtual_name": "head[1][0].next[2].next",
+                                            "dataType": "ListNode*",
+                                            "realType": "ListNode*",
+                                            "external": false,
+                                            "correspondingVar": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode\\next",
+                                            "correspondingType": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\ListNode",
+                                            "level": 1
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.RootDataNode",
+        "name": "STUB",
+        "virtual_name": "NON_VALUE",
+        "functionNode": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\Solution\\mergeList(ListNode*,ListNode*,ListNode**)",
+        "level": "STUB"
+      }
+    ]
+  },
+  "procedures": [
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "l1 !\u003d NULL",
+      "isSelected": false,
+      "location": 161,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "l1 !\u003d NULL",
+      "isSelected": false,
+      "location": 161,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "l2 !\u003d NULL",
+      "isSelected": false,
+      "location": 175,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "l2 !\u003d NULL",
+      "isSelected": false,
+      "location": 175,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "l1-\u003eval \u003c\u003d l2-\u003eval",
+      "isSelected": false,
+      "location": 207,
+      "calls": [],
+      "children": []
+    }
+  ]
+}

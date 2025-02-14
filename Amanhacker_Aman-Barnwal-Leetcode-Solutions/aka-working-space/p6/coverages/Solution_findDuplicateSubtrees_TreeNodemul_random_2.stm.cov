@@ -1,0 +1,40 @@
+<pre>...
+...
+...
+...
+<b style="color: grey;">29    </b>     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+<b style="color: grey;">30    </b> };
+<b style="color: grey;">31    </b>
+<b style="color: grey;">32    </b>class Solution {
+<b style="color: grey;">33    </b>public:
+<b style="color: grey;">34    </b>
+<b style="color: grey;">35    </b>    string solve(TreeNode* root, vector&lt;TreeNode*&gt; &amp;res, unordered_map&lt;string, int&gt; &amp;u) {
+<b style="color: grey;">36    </b>        
+<b style="color: grey;">37    </b>        if(<b style="background-color:yellow;color:black";>root == NULL</b>)                        <b style="background-color:yellow;color:black";>return &quot;#&quot;;</b>
+<b style="color: grey;">38    </b>        
+<b style="color: grey;">39    </b>        // postorder = left -&gt; right -&gt; root
+<b style="color: grey;">40    </b>        <b style="background-color:yellow;color:black";>string s = solve(root-&gt;left, res, u) + &quot;,&quot; + solve(root-&gt;right, res, u) + &quot;,&quot; + to_string(root-&gt;val);</b>
+<b style="color: grey;">41    </b>        
+<b style="color: grey;">42    </b>        <b style="background-color:yellow;color:black";>u[s]++;</b>
+<b style="color: grey;">43    </b>        
+<b style="color: grey;">44    </b>        if(<b style="background-color:yellow;color:black";>u[s] == 2</b>)                           res.push_back(root);
+<b style="color: grey;">45    </b>        <b style="background-color:yellow;color:black";>return s;</b>
+<b style="color: grey;">46    </b>    }
+<b style="color: grey;">47    </b>    
+<b style="color: grey;">48    </b>    vector&lt;TreeNode*&gt; findDuplicateSubtrees(TreeNode* root) {
+<b style="color: grey;">49    </b>    
+<b style="color: grey;">50    </b>        <b style="background-color:yellow;color:black";>vector&lt;TreeNode*&gt; res;</b>
+<b style="color: grey;">51    </b>        
+<b style="color: grey;">52    </b>        if(<b style="background-color:yellow;color:black";>root == NULL</b>)                        return res;
+<b style="color: grey;">53    </b>        
+<b style="color: grey;">54    </b>        <b style="background-color:yellow;color:black";>unordered_map&lt;string, int&gt; u;</b>
+<b style="color: grey;">55    </b>        
+<b style="color: grey;">56    </b>        <b style="background-color:yellow;color:black";>solve(root, res, u);</b>
+<b style="color: grey;">57    </b>        <b style="background-color:yellow;color:black";>return res;</b>
+<b style="color: grey;">58    </b>    }
+<b style="color: grey;">59    </b>    
+...
+...
+...
+...
+</pre>

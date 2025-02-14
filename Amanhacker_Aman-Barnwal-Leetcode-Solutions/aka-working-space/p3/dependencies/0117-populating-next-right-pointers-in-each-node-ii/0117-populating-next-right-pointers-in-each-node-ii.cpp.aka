@@ -1,0 +1,68 @@
+{
+  "path": ".\\p3\\0117-populating-next-right-pointers-in-each-node-ii\\0117-populating-next-right-pointers-in-each-node-ii.cpp",
+  "dependency": [
+    {
+      "start": ".\\p3\\0117-populating-next-right-pointers-in-each-node-ii\\0117-populating-next-right-pointers-in-each-node-ii.cpp\\Node\\Node()",
+      "start-type": "ConstructorNode",
+      "start-md5": "2e1aeaa7a36c7fc68235df05b343eed2",
+      "end": ".\\p3\\0117-populating-next-right-pointers-in-each-node-ii\\0117-populating-next-right-pointers-in-each-node-ii.cpp\\Node",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "821abba93b3e188bcbe1d0c1c441da3b"
+    },
+    {
+      "start": ".\\p3\\0117-populating-next-right-pointers-in-each-node-ii\\0117-populating-next-right-pointers-in-each-node-ii.cpp\\Node\\Node(int,Node*,Node*,Node*)",
+      "start-type": "ConstructorNode",
+      "start-md5": "22cb5d71298093fc9d022146e53e0082",
+      "end": ".\\p3\\0117-populating-next-right-pointers-in-each-node-ii\\0117-populating-next-right-pointers-in-each-node-ii.cpp\\Node",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "821abba93b3e188bcbe1d0c1c441da3b"
+    },
+    {
+      "start": ".\\p3\\0117-populating-next-right-pointers-in-each-node-ii\\0117-populating-next-right-pointers-in-each-node-ii.cpp\\Node\\Node(int)",
+      "start-type": "ConstructorNode",
+      "start-md5": "f85762e86d10ebe67cf74a3114f5c1ff",
+      "end": ".\\p3\\0117-populating-next-right-pointers-in-each-node-ii\\0117-populating-next-right-pointers-in-each-node-ii.cpp\\Node",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "821abba93b3e188bcbe1d0c1c441da3b"
+    },
+    {
+      "start": ".\\p3\\0117-populating-next-right-pointers-in-each-node-ii\\0117-populating-next-right-pointers-in-each-node-ii.cpp\\Solution\\bfs(Node*\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "9b07f986a0b647cd53201e63bd32a716",
+      "end": ".\\p3\\0117-populating-next-right-pointers-in-each-node-ii\\0117-populating-next-right-pointers-in-each-node-ii.cpp\\Node\\Node(int)",
+      "end-type": "ConstructorNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "f85762e86d10ebe67cf74a3114f5c1ff"
+    },
+    {
+      "start": ".\\p3\\0117-populating-next-right-pointers-in-each-node-ii\\0117-populating-next-right-pointers-in-each-node-ii.cpp\\Solution\\bfs(Node*\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "9b07f986a0b647cd53201e63bd32a716",
+      "end": ".\\p3\\0117-populating-next-right-pointers-in-each-node-ii\\0117-populating-next-right-pointers-in-each-node-ii.cpp\\Solution",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "eb711b094328d4133db4ce7ab4d2c6f6"
+    },
+    {
+      "start": ".\\p3\\0117-populating-next-right-pointers-in-each-node-ii\\0117-populating-next-right-pointers-in-each-node-ii.cpp\\Solution\\connect(Node*)",
+      "start-type": "FunctionNode",
+      "start-md5": "104a32e71418bf7e7474acbd28f15759",
+      "end": ".\\p3\\0117-populating-next-right-pointers-in-each-node-ii\\0117-populating-next-right-pointers-in-each-node-ii.cpp\\Solution",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "eb711b094328d4133db4ce7ab4d2c6f6"
+    },
+    {
+      "start": ".\\p3\\0117-populating-next-right-pointers-in-each-node-ii\\0117-populating-next-right-pointers-in-each-node-ii.cpp\\Solution\\connect(Node*)",
+      "start-type": "FunctionNode",
+      "start-md5": "104a32e71418bf7e7474acbd28f15759",
+      "end": ".\\p3\\0117-populating-next-right-pointers-in-each-node-ii\\0117-populating-next-right-pointers-in-each-node-ii.cpp\\Solution\\bfs(Node*\u0026)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "9b07f986a0b647cd53201e63bd32a716"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+<pre>...
+...
+...
+...
+<b style="color: grey;">32    </b>            dfs(x1, y1, n, m, board);
+<b style="color: grey;">33    </b>        }
+<b style="color: grey;">34    </b>        
+<b style="color: grey;">35    </b>        return;
+<b style="color: grey;">36    </b>    }
+<b style="color: grey;">37    </b>    
+<b style="color: grey;">38    </b>    int countBattleships(vector&lt;vector&lt;char&gt;&gt;&amp; board) {
+<b style="color: grey;">39    </b>    
+<b style="color: grey;">40    </b>        <b style="background-color:yellow;color:black";>int count = 0;</b>
+<b style="color: grey;">41    </b>        
+<b style="color: grey;">42    </b>        <b style="background-color:yellow;color:black";>int n = board.size();</b>
+<b style="color: grey;">43    </b>        <b style="background-color:yellow;color:black";>int m = board[0].size();</b>
+<b style="color: grey;">44    </b>        
+<b style="color: grey;">45    </b>        for(<b style="background-color:yellow;color:black";>int i=0;</b> <b style="background-color:#3D9970;color:white";>&nbsp;T&nbsp;</b>&nbsp;<b style="background-color:yellow;color:black";>i&lt;n</b>; <b style="background-color:yellow;color:black";>i++</b>) {
+<b style="color: grey;">46    </b>            for(<b style="background-color:yellow;color:black";>int j=0;</b> <b style="background-color:#3D9970;color:white";>&nbsp;T&nbsp;</b>&nbsp;<b style="background-color:yellow;color:black";>j&lt;m</b>; <b style="background-color:yellow;color:black";>j++</b>) {
+<b style="color: grey;">47    </b>            
+<b style="color: grey;">48    </b>                if(<b style="background-color:#FF4136;color:white";>&nbsp;F&nbsp;</b>&nbsp;<b style="background-color:yellow;color:black";>board[i][j] == &#39;X&#39;</b>) {
+<b style="color: grey;">49    </b>                   dfs(i, j, n, m, board);
+<b style="color: grey;">50    </b>                   count++;
+<b style="color: grey;">51    </b>                }
+<b style="color: grey;">52    </b>            }
+<b style="color: grey;">53    </b>        }
+<b style="color: grey;">54    </b>        
+<b style="color: grey;">55    </b>        <b style="background-color:yellow;color:black";>return count;</b>
+...
+...
+...
+...
+</pre>

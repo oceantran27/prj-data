@@ -1,0 +1,77 @@
+{
+  "path": ".\\p7\\0863-all-nodes-distance-k-in-binary-tree\\0863-all-nodes-distance-k-in-binary-tree.cpp",
+  "dependency": [
+    {
+      "start": ".\\p7\\0863-all-nodes-distance-k-in-binary-tree\\0863-all-nodes-distance-k-in-binary-tree.cpp\\TreeNode\\TreeNode(int)",
+      "start-type": "ConstructorNode",
+      "start-md5": "78663466e50fbdc31b71c7f8dd441a62",
+      "end": ".\\p7\\0863-all-nodes-distance-k-in-binary-tree\\0863-all-nodes-distance-k-in-binary-tree.cpp\\TreeNode",
+      "end-type": "StructNode",
+      "type": "RealParentDependency",
+      "end-md5": "9df52ce42e83e1ed273b6fbd2ddaebb0"
+    },
+    {
+      "start": ".\\p7\\0863-all-nodes-distance-k-in-binary-tree\\0863-all-nodes-distance-k-in-binary-tree.cpp\\Solution\\bfs(TreeNode*,unordered_map\u003cint,vector\u003cint\u003e\u003e\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "1cd692d3dbfcf9ed0af9f9b11ee9af34",
+      "end": ".\\p7\\0863-all-nodes-distance-k-in-binary-tree\\0863-all-nodes-distance-k-in-binary-tree.cpp\\TreeNode\\TreeNode(int)",
+      "end-type": "ConstructorNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "78663466e50fbdc31b71c7f8dd441a62"
+    },
+    {
+      "start": ".\\p7\\0863-all-nodes-distance-k-in-binary-tree\\0863-all-nodes-distance-k-in-binary-tree.cpp\\Solution\\bfs(TreeNode*,unordered_map\u003cint,vector\u003cint\u003e\u003e\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "1cd692d3dbfcf9ed0af9f9b11ee9af34",
+      "end": ".\\p7\\0863-all-nodes-distance-k-in-binary-tree\\0863-all-nodes-distance-k-in-binary-tree.cpp\\Solution",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "207f7bb96028d5d891d496447716dc97"
+    },
+    {
+      "start": ".\\p7\\0863-all-nodes-distance-k-in-binary-tree\\0863-all-nodes-distance-k-in-binary-tree.cpp\\Solution\\dfs(int,unordered_map\u003cint,vector\u003cint\u003e\u003e\u0026,vector\u003cint\u003e\u0026,vector\u003cint\u003e\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "777f4b2ef89cf2a111ab78b0a7f156e9",
+      "end": ".\\p7\\0863-all-nodes-distance-k-in-binary-tree\\0863-all-nodes-distance-k-in-binary-tree.cpp\\Solution",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "207f7bb96028d5d891d496447716dc97"
+    },
+    {
+      "start": ".\\p7\\0863-all-nodes-distance-k-in-binary-tree\\0863-all-nodes-distance-k-in-binary-tree.cpp\\Solution\\distanceK(TreeNode*,TreeNode*,int)",
+      "start-type": "FunctionNode",
+      "start-md5": "d51a3fc0c365f9980d41872d6a950d2f",
+      "end": ".\\p7\\0863-all-nodes-distance-k-in-binary-tree\\0863-all-nodes-distance-k-in-binary-tree.cpp\\Solution",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "207f7bb96028d5d891d496447716dc97"
+    },
+    {
+      "start": ".\\p7\\0863-all-nodes-distance-k-in-binary-tree\\0863-all-nodes-distance-k-in-binary-tree.cpp\\Solution\\distanceK(TreeNode*,TreeNode*,int)",
+      "start-type": "FunctionNode",
+      "start-md5": "d51a3fc0c365f9980d41872d6a950d2f",
+      "end": ".\\p7\\0863-all-nodes-distance-k-in-binary-tree\\0863-all-nodes-distance-k-in-binary-tree.cpp\\Solution\\bfs(TreeNode*,unordered_map\u003cint,vector\u003cint\u003e\u003e\u0026)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "1cd692d3dbfcf9ed0af9f9b11ee9af34"
+    },
+    {
+      "start": ".\\p7\\0863-all-nodes-distance-k-in-binary-tree\\0863-all-nodes-distance-k-in-binary-tree.cpp\\Solution\\dfs(int,unordered_map\u003cint,vector\u003cint\u003e\u003e\u0026,vector\u003cint\u003e\u0026,vector\u003cint\u003e\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "777f4b2ef89cf2a111ab78b0a7f156e9",
+      "end": ".\\p7\\0863-all-nodes-distance-k-in-binary-tree\\0863-all-nodes-distance-k-in-binary-tree.cpp\\Solution\\dfs(int,unordered_map\u003cint,vector\u003cint\u003e\u003e\u0026,vector\u003cint\u003e\u0026,vector\u003cint\u003e\u0026)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "777f4b2ef89cf2a111ab78b0a7f156e9"
+    },
+    {
+      "start": ".\\p7\\0863-all-nodes-distance-k-in-binary-tree\\0863-all-nodes-distance-k-in-binary-tree.cpp\\Solution\\distanceK(TreeNode*,TreeNode*,int)",
+      "start-type": "FunctionNode",
+      "start-md5": "d51a3fc0c365f9980d41872d6a950d2f",
+      "end": ".\\p7\\0863-all-nodes-distance-k-in-binary-tree\\0863-all-nodes-distance-k-in-binary-tree.cpp\\Solution\\dfs(int,unordered_map\u003cint,vector\u003cint\u003e\u003e\u0026,vector\u003cint\u003e\u0026,vector\u003cint\u003e\u0026)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "777f4b2ef89cf2a111ab78b0a7f156e9"
+    }
+  ]
+}

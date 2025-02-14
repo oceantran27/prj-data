@@ -1,0 +1,317 @@
+{
+  "name": "Solution_bfs_TreeNodemul_vector_TreeNodemul_random_2",
+  "status": "runtime error",
+  "testCaseUserCode": {
+    "includePaths": [],
+    "setUpContent": "// set up\n;",
+    "tearDownContent": "// tear down\n;"
+  },
+  "path": ".\\\\aka-working-space\\\\p7\\\\test-cases\\Solution_bfs_TreeNodemul_vector_TreeNodemul_random_2.json",
+  "sourceCode": ".\\\\aka-working-space\\\\p7\\\\test-drivers\\Solution_bfs_TreeNodemul_vector_TreeNodemul_random_2.cpp",
+  "testPath": ".\\\\aka-working-space\\\\p7\\\\test-paths\\Solution_bfs_TreeNodemul_vector_TreeNodemul_random_2.tp",
+  "executable": ".\\\\aka-working-space\\\\p7\\\\exe\\Solution_bfs_TreeNodemul_vector_TreeNodemul_random_2.exe",
+  "commandConfig": ".\\aka-working-space\\p7\\test-case-commands\\Solution_bfs_TreeNodemul_vector_TreeNodemul_random_2.json",
+  "commandDebug": ".\\\\aka-working-space\\\\p7\\\\debugger\\\\commands\\Solution_bfs_TreeNodemul_vector_TreeNodemul_random_2.json",
+  "breakPoint": ".\\\\aka-working-space\\\\p7\\\\debugger\\\\breakpoints\\Solution_bfs_TreeNodemul_vector_TreeNodemul_random_2.br.json",
+  "debugExecutable": ".\\\\aka-working-space\\\\p7\\\\exe\\debug_Solution_bfs_TreeNodemul_vector_TreeNodemul_random_2.exe",
+  "executionResult": ".\\\\aka-working-space\\\\p7\\\\execution-results\\Solution_bfs_TreeNodemul_vector_TreeNodemul_random_2.xml",
+  "creationDate": "2025-02-14T08:03:05.602802700",
+  "executionDate": "2025-02-14T08:03:37.152245500",
+  "rootDataNode": {
+    "type": "com.dse.testdata.object.RootDataNode",
+    "name": "ROOT",
+    "virtual_name": "NON_VALUE",
+    "functionNode": ".\\p7\\0865-smallest-subtree-with-all-the-deepest-nodes\\0865-smallest-subtree-with-all-the-deepest-nodes.cpp\\Solution\\bfs(TreeNode*,vector\u003cTreeNode*\u003e\u0026)",
+    "level": "ROOT",
+    "children": [
+      {
+        "type": "com.dse.testdata.object.UnitUnderTestNode",
+        "name": "0865-smallest-subtree-with-all-the-deepest-nodes.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\p7\\0865-smallest-subtree-with-all-the-deepest-nodes\\0865-smallest-subtree-with-all-the-deepest-nodes.cpp",
+        "children": [
+          {
+            "type": "com.dse.testdata.object.GlobalRootDataNode",
+            "name": "GLOBAL",
+            "virtual_name": "NON_VALUE",
+            "functionNode": ".\\p7\\0865-smallest-subtree-with-all-the-deepest-nodes\\0865-smallest-subtree-with-all-the-deepest-nodes.cpp\\Solution\\bfs(TreeNode*,vector\u003cTreeNode*\u003e\u0026)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": false,
+                "correspondingVar": ".\\p7\\0865-smallest-subtree-with-all-the-deepest-nodes\\0865-smallest-subtree-with-all-the-deepest-nodes.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p7\\0865-smallest-subtree-with-all-the-deepest-nodes\\0865-smallest-subtree-with-all-the-deepest-nodes.cpp\\Solution"
+              }
+            ],
+            "level": "GLOBAL",
+            "children": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": true,
+                "correspondingVar": ".\\p7\\0865-smallest-subtree-with-all-the-deepest-nodes\\0865-smallest-subtree-with-all-the-deepest-nodes.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p7\\0865-smallest-subtree-with-all-the-deepest-nodes\\0865-smallest-subtree-with-all-the-deepest-nodes.cpp\\Solution",
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.SubClassDataNode",
+                    "name": "AKA_INSTANCE___Solution",
+                    "virtual_name": "AKA_INSTANCE___Solution",
+                    "dataType": "::Solution",
+                    "realType": "::Solution",
+                    "external": false,
+                    "correspondingVar": ".\\p7\\0865-smallest-subtree-with-all-the-deepest-nodes\\0865-smallest-subtree-with-all-the-deepest-nodes.cpp\\Solution\\AKA_INSTANCE___Solution",
+                    "correspondingType": ".\\p7\\0865-smallest-subtree-with-all-the-deepest-nodes\\0865-smallest-subtree-with-all-the-deepest-nodes.cpp\\Solution",
+                    "rawType": "::Solution",
+                    "selectedConstructor": "Solution()",
+                    "variableType": "::Solution",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                        "name": "Solution()",
+                        "virtual_name": "AKA_INSTANCE___Solution",
+                        "dataType": "::Solution",
+                        "realType": "::Solution",
+                        "functionNode": "\\Solution()"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "com.dse.testdata.object.SubprogramNode",
+            "name": "bfs(TreeNode*,vector\u003cTreeNode*\u003e\u0026)",
+            "virtual_name": "NON_VALUE",
+            "dataType": "void",
+            "realType": "void",
+            "functionNode": ".\\p7\\0865-smallest-subtree-with-all-the-deepest-nodes\\0865-smallest-subtree-with-all-the-deepest-nodes.cpp\\Solution\\bfs(TreeNode*,vector\u003cTreeNode*\u003e\u0026)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.PointerStructureDataNode",
+                "name": "root",
+                "virtual_name": "EXPECTED_root",
+                "dataType": "TreeNode*",
+                "realType": "TreeNode*",
+                "external": false,
+                "correspondingVar": ".\\p7\\0865-smallest-subtree-with-all-the-deepest-nodes\\0865-smallest-subtree-with-all-the-deepest-nodes.cpp\\Solution\\bfs(TreeNode*,vector\u003cTreeNode*\u003e\u0026)\\root",
+                "correspondingType": ".\\p7\\0865-smallest-subtree-with-all-the-deepest-nodes\\0865-smallest-subtree-with-all-the-deepest-nodes.cpp\\TreeNode",
+                "level": 1
+              },
+              {
+                "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                "name": "deepest",
+                "virtual_name": "EXPECTED_deepest",
+                "dataType": "vector\u003cTreeNode*\u003e",
+                "realType": "vector\u003cTreeNode*\u003e\u0026",
+                "external": false,
+                "correspondingVar": ".\\p7\\0865-smallest-subtree-with-all-the-deepest-nodes\\0865-smallest-subtree-with-all-the-deepest-nodes.cpp\\Solution\\bfs(TreeNode*,vector\u003cTreeNode*\u003e\u0026)\\deepest",
+                "correspondingType": "STLListBaseType",
+                "templateArg": "TreeNode*"
+              }
+            ],
+            "children": [
+              {
+                "type": "com.dse.testdata.object.RootDataNode",
+                "name": "STATIC",
+                "virtual_name": "NON_VALUE",
+                "functionNode": ".\\p7\\0865-smallest-subtree-with-all-the-deepest-nodes\\0865-smallest-subtree-with-all-the-deepest-nodes.cpp\\Solution\\bfs(TreeNode*,vector\u003cTreeNode*\u003e\u0026)",
+                "level": "STATIC"
+              },
+              {
+                "type": "com.dse.testdata.object.PointerStructureDataNode",
+                "name": "root",
+                "virtual_name": "root",
+                "dataType": "TreeNode*",
+                "realType": "TreeNode*",
+                "external": false,
+                "correspondingVar": ".\\p7\\0865-smallest-subtree-with-all-the-deepest-nodes\\0865-smallest-subtree-with-all-the-deepest-nodes.cpp\\Solution\\bfs(TreeNode*,vector\u003cTreeNode*\u003e\u0026)\\root",
+                "correspondingType": ".\\p7\\0865-smallest-subtree-with-all-the-deepest-nodes\\0865-smallest-subtree-with-all-the-deepest-nodes.cpp\\TreeNode",
+                "level": 1
+              },
+              {
+                "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                "name": "deepest",
+                "virtual_name": "deepest",
+                "dataType": "vector\u003cTreeNode*\u003e",
+                "realType": "vector\u003cTreeNode*\u003e\u0026",
+                "external": false,
+                "correspondingVar": ".\\p7\\0865-smallest-subtree-with-all-the-deepest-nodes\\0865-smallest-subtree-with-all-the-deepest-nodes.cpp\\Solution\\bfs(TreeNode*,vector\u003cTreeNode*\u003e\u0026)\\deepest",
+                "correspondingType": "STLListBaseType",
+                "templateArg": "TreeNode*",
+                "size": 3,
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.PointerStructureDataNode",
+                    "name": "element #0",
+                    "virtual_name": "deepest_element0",
+                    "dataType": "TreeNode*",
+                    "realType": "TreeNode*",
+                    "external": false,
+                    "correspondingVar": ".\\p7\\0865-smallest-subtree-with-all-the-deepest-nodes\\0865-smallest-subtree-with-all-the-deepest-nodes.cpp\\Solution\\bfs(TreeNode*,vector\u003cTreeNode*\u003e\u0026)\\deepest\\element #0",
+                    "correspondingType": "",
+                    "level": 1
+                  },
+                  {
+                    "type": "com.dse.testdata.object.PointerStructureDataNode",
+                    "name": "element #1",
+                    "virtual_name": "deepest_element1",
+                    "dataType": "TreeNode*",
+                    "realType": "TreeNode*",
+                    "external": false,
+                    "correspondingVar": ".\\p7\\0865-smallest-subtree-with-all-the-deepest-nodes\\0865-smallest-subtree-with-all-the-deepest-nodes.cpp\\Solution\\bfs(TreeNode*,vector\u003cTreeNode*\u003e\u0026)\\deepest\\element #1",
+                    "correspondingType": "",
+                    "level": 1,
+                    "size": 1,
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.StructDataNode",
+                        "name": "element #1[0]",
+                        "virtual_name": "deepest_element1[0]",
+                        "dataType": "TreeNode",
+                        "realType": "TreeNode",
+                        "external": false,
+                        "correspondingVar": ".\\p7\\0865-smallest-subtree-with-all-the-deepest-nodes\\0865-smallest-subtree-with-all-the-deepest-nodes.cpp\\Solution\\bfs(TreeNode*,vector\u003cTreeNode*\u003e\u0026)\\deepest\\element #1\\element #1[0]",
+                        "correspondingType": ".\\p7\\0865-smallest-subtree-with-all-the-deepest-nodes\\0865-smallest-subtree-with-all-the-deepest-nodes.cpp\\TreeNode",
+                        "children": [
+                          {
+                            "type": "com.dse.testdata.object.SubStructDataNode",
+                            "name": "",
+                            "virtual_name": "deepest_element1[0]",
+                            "dataType": "::TreeNode",
+                            "realType": "::TreeNode",
+                            "external": false,
+                            "correspondingVar": ".\\p7\\0865-smallest-subtree-with-all-the-deepest-nodes\\0865-smallest-subtree-with-all-the-deepest-nodes.cpp\\Solution\\bfs(TreeNode*,vector\u003cTreeNode*\u003e\u0026)\\deepest\\element #1\\",
+                            "correspondingType": ".\\p7\\0865-smallest-subtree-with-all-the-deepest-nodes\\0865-smallest-subtree-with-all-the-deepest-nodes.cpp\\TreeNode",
+                            "rawType": "::TreeNode",
+                            "selectedConstructor": "TreeNode()",
+                            "variableType": "::TreeNode",
+                            "children": [
+                              {
+                                "type": "com.dse.testdata.object.ConstructorDataNode",
+                                "name": "TreeNode()",
+                                "virtual_name": "deepest_element1[0]",
+                                "dataType": "::TreeNode",
+                                "realType": "::TreeNode",
+                                "functionNode": ".\\p7\\0865-smallest-subtree-with-all-the-deepest-nodes\\0865-smallest-subtree-with-all-the-deepest-nodes.cpp\\TreeNode\\TreeNode()"
+                              },
+                              {
+                                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                "name": "val",
+                                "virtual_name": "deepest_element1[0].val",
+                                "dataType": "int",
+                                "realType": "int",
+                                "external": false,
+                                "correspondingVar": ".\\p7\\0865-smallest-subtree-with-all-the-deepest-nodes\\0865-smallest-subtree-with-all-the-deepest-nodes.cpp\\TreeNode\\val",
+                                "correspondingType": "int",
+                                "value": "null"
+                              },
+                              {
+                                "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                "name": "left",
+                                "virtual_name": "deepest_element1[0].left",
+                                "dataType": "TreeNode*",
+                                "realType": "TreeNode*",
+                                "external": false,
+                                "correspondingVar": ".\\p7\\0865-smallest-subtree-with-all-the-deepest-nodes\\0865-smallest-subtree-with-all-the-deepest-nodes.cpp\\TreeNode\\left",
+                                "correspondingType": ".\\p7\\0865-smallest-subtree-with-all-the-deepest-nodes\\0865-smallest-subtree-with-all-the-deepest-nodes.cpp\\TreeNode",
+                                "level": 1
+                              },
+                              {
+                                "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                "name": "right",
+                                "virtual_name": "deepest_element1[0].right",
+                                "dataType": "TreeNode*",
+                                "realType": "TreeNode*",
+                                "external": false,
+                                "correspondingVar": ".\\p7\\0865-smallest-subtree-with-all-the-deepest-nodes\\0865-smallest-subtree-with-all-the-deepest-nodes.cpp\\TreeNode\\right",
+                                "correspondingType": ".\\p7\\0865-smallest-subtree-with-all-the-deepest-nodes\\0865-smallest-subtree-with-all-the-deepest-nodes.cpp\\TreeNode",
+                                "level": 1
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "com.dse.testdata.object.PointerStructureDataNode",
+                    "name": "element #2",
+                    "virtual_name": "deepest_element2",
+                    "dataType": "TreeNode*",
+                    "realType": "TreeNode*",
+                    "external": false,
+                    "correspondingVar": ".\\p7\\0865-smallest-subtree-with-all-the-deepest-nodes\\0865-smallest-subtree-with-all-the-deepest-nodes.cpp\\Solution\\bfs(TreeNode*,vector\u003cTreeNode*\u003e\u0026)\\deepest\\element #2",
+                    "correspondingType": "",
+                    "level": 1
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.RootDataNode",
+        "name": "STUB",
+        "virtual_name": "NON_VALUE",
+        "functionNode": ".\\p7\\0865-smallest-subtree-with-all-the-deepest-nodes\\0865-smallest-subtree-with-all-the-deepest-nodes.cpp\\Solution\\bfs(TreeNode*,vector\u003cTreeNode*\u003e\u0026)",
+        "level": "STUB"
+      }
+    ]
+  },
+  "procedures": [
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "root \u003d\u003d NULL",
+      "isSelected": false,
+      "location": 77,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "q.empty() \u003d\u003d false",
+      "isSelected": false,
+      "location": 213,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "n--",
+      "isSelected": false,
+      "location": 343,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "temp-\u003eleft !\u003d NULL",
+      "isSelected": false,
+      "location": 537,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "temp-\u003eright !\u003d NULL",
+      "isSelected": false,
+      "location": 610,
+      "calls": [],
+      "children": []
+    }
+  ]
+}

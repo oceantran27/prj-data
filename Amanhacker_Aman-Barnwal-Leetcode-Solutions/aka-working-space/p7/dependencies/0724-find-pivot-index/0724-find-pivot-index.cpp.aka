@@ -1,0 +1,14 @@
+{
+  "path": ".\\p7\\0724-find-pivot-index\\0724-find-pivot-index.cpp",
+  "dependency": [
+    {
+      "start": ".\\p7\\0724-find-pivot-index\\0724-find-pivot-index.cpp\\Solution\\pivotIndex(vector\u003cint\u003e\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "8dd8a99cedad7bacafc2325d91ddb11d",
+      "end": ".\\p7\\0724-find-pivot-index\\0724-find-pivot-index.cpp\\Solution",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "0f88b553d51c8b1c22ef9af3794687b6"
+    }
+  ]
+}

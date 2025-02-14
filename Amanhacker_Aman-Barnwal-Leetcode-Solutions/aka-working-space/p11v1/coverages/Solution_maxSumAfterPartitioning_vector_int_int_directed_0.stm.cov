@@ -1,0 +1,26 @@
+<pre>...
+...
+...
+...
+<b style="color: grey;">32    </b>        
+<b style="color: grey;">33    </b>        // Use memoisation to track the maximum sum for the position (dp).
+<b style="color: grey;">34    </b>        dp[pos] = res;
+<b style="color: grey;">35    </b>        return res;
+<b style="color: grey;">36    </b>    }
+<b style="color: grey;">37    </b>    
+<b style="color: grey;">38    </b>    int maxSumAfterPartitioning(vector&lt;int&gt;&amp; a, int k) {
+<b style="color: grey;">39    </b>    
+<b style="color: grey;">40    </b>        <b style="background-color:yellow;color:black";>int n = a.size();</b>
+<b style="color: grey;">41    </b>        if(<b style="background-color:yellow;color:black";>n == 0</b>)                                      <b style="background-color:yellow;color:black";>return 0;</b>
+<b style="color: grey;">42    </b>        
+<b style="color: grey;">43    </b>        int pos = 0, res = 0;
+<b style="color: grey;">44    </b>        vector&lt;int&gt; dp(n + 1, -1);
+<b style="color: grey;">45    </b>        
+<b style="color: grey;">46    </b>        return helperMaxSum(a, n, k, pos, res, dp);
+<b style="color: grey;">47    </b>    }
+<b style="color: grey;">48    </b>    
+...
+...
+...
+...
+</pre>

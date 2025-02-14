@@ -1,0 +1,360 @@
+{
+  "name": "Solution_zigzagLevelOrder_TreeNodemul_random_2",
+  "status": "success",
+  "testCaseUserCode": {
+    "includePaths": [],
+    "setUpContent": "// set up\n;",
+    "tearDownContent": "// tear down\n;"
+  },
+  "path": ".\\\\aka-working-space\\\\p11\\\\test-cases\\Solution_zigzagLevelOrder_TreeNodemul_random_2.json",
+  "sourceCode": ".\\\\aka-working-space\\\\p11\\\\test-drivers\\Solution_zigzagLevelOrder_TreeNodemul_random_2.cpp",
+  "testPath": ".\\\\aka-working-space\\\\p11\\\\test-paths\\Solution_zigzagLevelOrder_TreeNodemul_random_2.tp",
+  "executable": ".\\\\aka-working-space\\\\p11\\\\exe\\Solution_zigzagLevelOrder_TreeNodemul_random_2.exe",
+  "commandConfig": ".\\aka-working-space\\p11\\test-case-commands\\Solution_zigzagLevelOrder_TreeNodemul_random_2.json",
+  "commandDebug": ".\\\\aka-working-space\\\\p11\\\\debugger\\\\commands\\Solution_zigzagLevelOrder_TreeNodemul_random_2.json",
+  "breakPoint": ".\\\\aka-working-space\\\\p11\\\\debugger\\\\breakpoints\\Solution_zigzagLevelOrder_TreeNodemul_random_2.br.json",
+  "debugExecutable": ".\\\\aka-working-space\\\\p11\\\\exe\\debug_Solution_zigzagLevelOrder_TreeNodemul_random_2.exe",
+  "executionResult": ".\\\\aka-working-space\\\\p11\\\\execution-results\\Solution_zigzagLevelOrder_TreeNodemul_random_2.xml",
+  "creationDate": "2025-02-14T11:02:26.371546200",
+  "executionDate": "2025-02-14T11:02:58.699469300",
+  "rootDataNode": {
+    "type": "com.dse.testdata.object.RootDataNode",
+    "name": "ROOT",
+    "virtual_name": "NON_VALUE",
+    "functionNode": ".\\p11\\103-binary-tree-zigzag-level-order-traversal\\103-binary-tree-zigzag-level-order-traversal.cpp\\Solution\\zigzagLevelOrder(TreeNode*)",
+    "level": "ROOT",
+    "children": [
+      {
+        "type": "com.dse.testdata.object.UnitUnderTestNode",
+        "name": "103-binary-tree-zigzag-level-order-traversal.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\p11\\103-binary-tree-zigzag-level-order-traversal\\103-binary-tree-zigzag-level-order-traversal.cpp",
+        "children": [
+          {
+            "type": "com.dse.testdata.object.GlobalRootDataNode",
+            "name": "GLOBAL",
+            "virtual_name": "NON_VALUE",
+            "functionNode": ".\\p11\\103-binary-tree-zigzag-level-order-traversal\\103-binary-tree-zigzag-level-order-traversal.cpp\\Solution\\zigzagLevelOrder(TreeNode*)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": false,
+                "correspondingVar": ".\\p11\\103-binary-tree-zigzag-level-order-traversal\\103-binary-tree-zigzag-level-order-traversal.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p11\\103-binary-tree-zigzag-level-order-traversal\\103-binary-tree-zigzag-level-order-traversal.cpp\\Solution"
+              }
+            ],
+            "level": "GLOBAL",
+            "children": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": true,
+                "correspondingVar": ".\\p11\\103-binary-tree-zigzag-level-order-traversal\\103-binary-tree-zigzag-level-order-traversal.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p11\\103-binary-tree-zigzag-level-order-traversal\\103-binary-tree-zigzag-level-order-traversal.cpp\\Solution",
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.SubClassDataNode",
+                    "name": "AKA_INSTANCE___Solution",
+                    "virtual_name": "AKA_INSTANCE___Solution",
+                    "dataType": "::Solution",
+                    "realType": "::Solution",
+                    "external": false,
+                    "correspondingVar": ".\\p11\\103-binary-tree-zigzag-level-order-traversal\\103-binary-tree-zigzag-level-order-traversal.cpp\\Solution\\AKA_INSTANCE___Solution",
+                    "correspondingType": ".\\p11\\103-binary-tree-zigzag-level-order-traversal\\103-binary-tree-zigzag-level-order-traversal.cpp\\Solution",
+                    "rawType": "::Solution",
+                    "selectedConstructor": "Solution()",
+                    "variableType": "::Solution",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                        "name": "Solution()",
+                        "virtual_name": "AKA_INSTANCE___Solution",
+                        "dataType": "::Solution",
+                        "realType": "::Solution",
+                        "functionNode": "\\Solution()"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "com.dse.testdata.object.SubprogramNode",
+            "name": "zigzagLevelOrder(TreeNode*)",
+            "virtual_name": "NON_VALUE",
+            "dataType": "vector\u003cvector\u003cint\u003e\u003e",
+            "realType": "vector\u003cvector\u003cint\u003e\u003e",
+            "functionNode": ".\\p11\\103-binary-tree-zigzag-level-order-traversal\\103-binary-tree-zigzag-level-order-traversal.cpp\\Solution\\zigzagLevelOrder(TreeNode*)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.PointerStructureDataNode",
+                "name": "root",
+                "virtual_name": "EXPECTED_root",
+                "dataType": "TreeNode*",
+                "realType": "TreeNode*",
+                "external": false,
+                "correspondingVar": ".\\p11\\103-binary-tree-zigzag-level-order-traversal\\103-binary-tree-zigzag-level-order-traversal.cpp\\Solution\\zigzagLevelOrder(TreeNode*)\\root",
+                "correspondingType": ".\\p11\\103-binary-tree-zigzag-level-order-traversal\\103-binary-tree-zigzag-level-order-traversal.cpp\\TreeNode",
+                "level": 1
+              }
+            ],
+            "children": [
+              {
+                "type": "com.dse.testdata.object.RootDataNode",
+                "name": "STATIC",
+                "virtual_name": "NON_VALUE",
+                "functionNode": ".\\p11\\103-binary-tree-zigzag-level-order-traversal\\103-binary-tree-zigzag-level-order-traversal.cpp\\Solution\\zigzagLevelOrder(TreeNode*)",
+                "level": "STATIC"
+              },
+              {
+                "type": "com.dse.testdata.object.PointerStructureDataNode",
+                "name": "root",
+                "virtual_name": "root",
+                "dataType": "TreeNode*",
+                "realType": "TreeNode*",
+                "external": false,
+                "correspondingVar": ".\\p11\\103-binary-tree-zigzag-level-order-traversal\\103-binary-tree-zigzag-level-order-traversal.cpp\\Solution\\zigzagLevelOrder(TreeNode*)\\root",
+                "correspondingType": ".\\p11\\103-binary-tree-zigzag-level-order-traversal\\103-binary-tree-zigzag-level-order-traversal.cpp\\TreeNode",
+                "level": 1,
+                "size": 2,
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.StructDataNode",
+                    "name": "root[0]",
+                    "virtual_name": "root[0]",
+                    "dataType": "TreeNode",
+                    "realType": "TreeNode",
+                    "external": false,
+                    "correspondingVar": ".\\p11\\103-binary-tree-zigzag-level-order-traversal\\103-binary-tree-zigzag-level-order-traversal.cpp\\Solution\\zigzagLevelOrder(TreeNode*)\\root\\root[0]",
+                    "correspondingType": ".\\p11\\103-binary-tree-zigzag-level-order-traversal\\103-binary-tree-zigzag-level-order-traversal.cpp\\TreeNode",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.SubStructDataNode",
+                        "name": "root",
+                        "virtual_name": "root[0]",
+                        "dataType": "::TreeNode",
+                        "realType": "::TreeNode",
+                        "external": false,
+                        "correspondingVar": ".\\p11\\103-binary-tree-zigzag-level-order-traversal\\103-binary-tree-zigzag-level-order-traversal.cpp\\Solution\\zigzagLevelOrder(TreeNode*)\\root\\root",
+                        "correspondingType": ".\\p11\\103-binary-tree-zigzag-level-order-traversal\\103-binary-tree-zigzag-level-order-traversal.cpp\\TreeNode",
+                        "rawType": "::TreeNode",
+                        "selectedConstructor": "TreeNode(int)",
+                        "variableType": "::TreeNode",
+                        "children": [
+                          {
+                            "type": "com.dse.testdata.object.ConstructorDataNode",
+                            "name": "TreeNode(int)",
+                            "virtual_name": "root[0]",
+                            "dataType": "::TreeNode",
+                            "realType": "::TreeNode",
+                            "functionNode": ".\\p11\\103-binary-tree-zigzag-level-order-traversal\\103-binary-tree-zigzag-level-order-traversal.cpp\\TreeNode\\TreeNode(int)",
+                            "children": [
+                              {
+                                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                "name": "x",
+                                "virtual_name": "root0_x",
+                                "dataType": "int",
+                                "realType": "int",
+                                "external": false,
+                                "correspondingVar": ".\\p11\\103-binary-tree-zigzag-level-order-traversal\\103-binary-tree-zigzag-level-order-traversal.cpp\\TreeNode\\TreeNode(int)\\x",
+                                "correspondingType": "int",
+                                "value": "1439998020"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                            "name": "val",
+                            "virtual_name": "root[0].val",
+                            "dataType": "int",
+                            "realType": "int",
+                            "external": false,
+                            "correspondingVar": ".\\p11\\103-binary-tree-zigzag-level-order-traversal\\103-binary-tree-zigzag-level-order-traversal.cpp\\TreeNode\\val",
+                            "correspondingType": "int",
+                            "value": "null"
+                          },
+                          {
+                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                            "name": "left",
+                            "virtual_name": "root[0].left",
+                            "dataType": "TreeNode*",
+                            "realType": "TreeNode*",
+                            "external": false,
+                            "correspondingVar": ".\\p11\\103-binary-tree-zigzag-level-order-traversal\\103-binary-tree-zigzag-level-order-traversal.cpp\\TreeNode\\left",
+                            "correspondingType": ".\\p11\\103-binary-tree-zigzag-level-order-traversal\\103-binary-tree-zigzag-level-order-traversal.cpp\\TreeNode",
+                            "level": 1
+                          },
+                          {
+                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                            "name": "right",
+                            "virtual_name": "root[0].right",
+                            "dataType": "TreeNode*",
+                            "realType": "TreeNode*",
+                            "external": false,
+                            "correspondingVar": ".\\p11\\103-binary-tree-zigzag-level-order-traversal\\103-binary-tree-zigzag-level-order-traversal.cpp\\TreeNode\\right",
+                            "correspondingType": ".\\p11\\103-binary-tree-zigzag-level-order-traversal\\103-binary-tree-zigzag-level-order-traversal.cpp\\TreeNode",
+                            "level": 1
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "com.dse.testdata.object.StructDataNode",
+                    "name": "root[1]",
+                    "virtual_name": "root[1]",
+                    "dataType": "TreeNode",
+                    "realType": "TreeNode",
+                    "external": false,
+                    "correspondingVar": ".\\p11\\103-binary-tree-zigzag-level-order-traversal\\103-binary-tree-zigzag-level-order-traversal.cpp\\Solution\\zigzagLevelOrder(TreeNode*)\\root\\root[1]",
+                    "correspondingType": ".\\p11\\103-binary-tree-zigzag-level-order-traversal\\103-binary-tree-zigzag-level-order-traversal.cpp\\TreeNode",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.SubStructDataNode",
+                        "name": "root",
+                        "virtual_name": "root[1]",
+                        "dataType": "::TreeNode",
+                        "realType": "::TreeNode",
+                        "external": false,
+                        "correspondingVar": ".\\p11\\103-binary-tree-zigzag-level-order-traversal\\103-binary-tree-zigzag-level-order-traversal.cpp\\Solution\\zigzagLevelOrder(TreeNode*)\\root\\root",
+                        "correspondingType": ".\\p11\\103-binary-tree-zigzag-level-order-traversal\\103-binary-tree-zigzag-level-order-traversal.cpp\\TreeNode",
+                        "rawType": "::TreeNode",
+                        "selectedConstructor": "TreeNode()",
+                        "variableType": "::TreeNode",
+                        "children": [
+                          {
+                            "type": "com.dse.testdata.object.ConstructorDataNode",
+                            "name": "TreeNode()",
+                            "virtual_name": "root[1]",
+                            "dataType": "::TreeNode",
+                            "realType": "::TreeNode",
+                            "functionNode": ".\\p11\\103-binary-tree-zigzag-level-order-traversal\\103-binary-tree-zigzag-level-order-traversal.cpp\\TreeNode\\TreeNode()"
+                          },
+                          {
+                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                            "name": "val",
+                            "virtual_name": "root[1].val",
+                            "dataType": "int",
+                            "realType": "int",
+                            "external": false,
+                            "correspondingVar": ".\\p11\\103-binary-tree-zigzag-level-order-traversal\\103-binary-tree-zigzag-level-order-traversal.cpp\\TreeNode\\val",
+                            "correspondingType": "int",
+                            "value": "null"
+                          },
+                          {
+                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                            "name": "left",
+                            "virtual_name": "root[1].left",
+                            "dataType": "TreeNode*",
+                            "realType": "TreeNode*",
+                            "external": false,
+                            "correspondingVar": ".\\p11\\103-binary-tree-zigzag-level-order-traversal\\103-binary-tree-zigzag-level-order-traversal.cpp\\TreeNode\\left",
+                            "correspondingType": ".\\p11\\103-binary-tree-zigzag-level-order-traversal\\103-binary-tree-zigzag-level-order-traversal.cpp\\TreeNode",
+                            "level": 1
+                          },
+                          {
+                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                            "name": "right",
+                            "virtual_name": "root[1].right",
+                            "dataType": "TreeNode*",
+                            "realType": "TreeNode*",
+                            "external": false,
+                            "correspondingVar": ".\\p11\\103-binary-tree-zigzag-level-order-traversal\\103-binary-tree-zigzag-level-order-traversal.cpp\\TreeNode\\right",
+                            "correspondingType": ".\\p11\\103-binary-tree-zigzag-level-order-traversal\\103-binary-tree-zigzag-level-order-traversal.cpp\\TreeNode",
+                            "level": 1
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                "name": "RETURN",
+                "virtual_name": "AKA_EXPECTED_OUTPUT",
+                "dataType": "vector\u003cvector\u003cint\u003e\u003e",
+                "realType": "vector\u003cvector\u003cint\u003e\u003e",
+                "external": false,
+                "correspondingVar": ".\\p11\\103-binary-tree-zigzag-level-order-traversal\\103-binary-tree-zigzag-level-order-traversal.cpp\\Solution\\zigzagLevelOrder(TreeNode*)\\RETURN",
+                "correspondingType": "STLListBaseType",
+                "templateArg": "vector\u003cint\u003e"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.RootDataNode",
+        "name": "STUB",
+        "virtual_name": "NON_VALUE",
+        "functionNode": ".\\p11\\103-binary-tree-zigzag-level-order-traversal\\103-binary-tree-zigzag-level-order-traversal.cpp\\Solution\\zigzagLevelOrder(TreeNode*)",
+        "level": "STUB"
+      }
+    ]
+  },
+  "procedures": [
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "root \u003d\u003d NULL",
+      "isSelected": false,
+      "location": 117,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "q.empty() \u003d\u003d false",
+      "isSelected": false,
+      "location": 446,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "i\u003cn",
+      "isSelected": false,
+      "location": 553,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "temp-\u003eleft !\u003d NULL",
+      "isSelected": false,
+      "location": 738,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "temp-\u003eright !\u003d NULL",
+      "isSelected": false,
+      "location": 807,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "i % 2 \u003d\u003d 0",
+      "isSelected": false,
+      "location": 902,
+      "calls": [],
+      "children": []
+    }
+  ]
+}

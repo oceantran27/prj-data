@@ -1,0 +1,20 @@
+{
+  "compilationCommands": {
+    ".\\p6\\0623-add-one-row-to-tree\\0623-add-one-row-to-tree.cpp": "g++\u003c\u003cAKA_U00A0\u003e\u003e-c\u003c\u003cAKA_U00A0\u003e\u003e-std\u003dgnu++14\u003c\u003cAKA_U00A0\u003e\u003e-w\u003c\u003cAKA_U00A0\u003e\u003e\".\\p6\\0623-add-one-row-to-tree\\0623-add-one-row-to-tree.cpp\"\u003c\u003cAKA_U00A0\u003e\u003e-I\"D:\\\\Projects\\\\AKAUT\\\\prj-data\\\\Amanhacker_Aman-Barnwal-Leetcode-Solutions\\\\aka-working-space\\\\p6\\\\user_code\\\\environment\"\u003c\u003cAKA_U00A0\u003e\u003e-o\"D:\\\\Projects\\\\AKAUT\\\\prj-data\\\\Amanhacker_Aman-Barnwal-Leetcode-Solutions\\\\aka-working-space\\\\p6\\\\instruments\\0623-add-one-row-to-tree\\0623-add-one-row-to-tree.akaignore.cpp.out\"",
+    ".\\p6\\0509-fibonacci-number\\0509-fibonacci-number.cpp": "g++\u003c\u003cAKA_U00A0\u003e\u003e-c\u003c\u003cAKA_U00A0\u003e\u003e-std\u003dgnu++14\u003c\u003cAKA_U00A0\u003e\u003e-w\u003c\u003cAKA_U00A0\u003e\u003e\".\\p6\\0509-fibonacci-number\\0509-fibonacci-number.cpp\"\u003c\u003cAKA_U00A0\u003e\u003e-I\"D:\\\\Projects\\\\AKAUT\\\\prj-data\\\\Amanhacker_Aman-Barnwal-Leetcode-Solutions\\\\aka-working-space\\\\p6\\\\user_code\\\\environment\"\u003c\u003cAKA_U00A0\u003e\u003e-o\"D:\\\\Projects\\\\AKAUT\\\\prj-data\\\\Amanhacker_Aman-Barnwal-Leetcode-Solutions\\\\aka-working-space\\\\p6\\\\instruments\\0509-fibonacci-number\\0509-fibonacci-number.akaignore.cpp.out\"",
+    ".\\p6\\0652-find-duplicate-subtrees\\0652-find-duplicate-subtrees.cpp": "g++\u003c\u003cAKA_U00A0\u003e\u003e-c\u003c\u003cAKA_U00A0\u003e\u003e-std\u003dgnu++14\u003c\u003cAKA_U00A0\u003e\u003e-w\u003c\u003cAKA_U00A0\u003e\u003e\".\\p6\\0652-find-duplicate-subtrees\\0652-find-duplicate-subtrees.cpp\"\u003c\u003cAKA_U00A0\u003e\u003e-I\"D:\\\\Projects\\\\AKAUT\\\\prj-data\\\\Amanhacker_Aman-Barnwal-Leetcode-Solutions\\\\aka-working-space\\\\p6\\\\user_code\\\\environment\"\u003c\u003cAKA_U00A0\u003e\u003e-o\"D:\\\\Projects\\\\AKAUT\\\\prj-data\\\\Amanhacker_Aman-Barnwal-Leetcode-Solutions\\\\aka-working-space\\\\p6\\\\instruments\\0652-find-duplicate-subtrees\\0652-find-duplicate-subtrees.akaignore.cpp.out\"",
+    ".\\p6\\0508-most-frequent-subtree-sum\\0508-most-frequent-subtree-sum.cpp": "g++\u003c\u003cAKA_U00A0\u003e\u003e-c\u003c\u003cAKA_U00A0\u003e\u003e-std\u003dgnu++14\u003c\u003cAKA_U00A0\u003e\u003e-w\u003c\u003cAKA_U00A0\u003e\u003e\".\\p6\\0508-most-frequent-subtree-sum\\0508-most-frequent-subtree-sum.cpp\"\u003c\u003cAKA_U00A0\u003e\u003e-I\"D:\\\\Projects\\\\AKAUT\\\\prj-data\\\\Amanhacker_Aman-Barnwal-Leetcode-Solutions\\\\aka-working-space\\\\p6\\\\user_code\\\\environment\"\u003c\u003cAKA_U00A0\u003e\u003e-o\"D:\\\\Projects\\\\AKAUT\\\\prj-data\\\\Amanhacker_Aman-Barnwal-Leetcode-Solutions\\\\aka-working-space\\\\p6\\\\instruments\\0508-most-frequent-subtree-sum\\0508-most-frequent-subtree-sum.akaignore.cpp.out\""
+  },
+  "linkEntry": {
+    "command": "g++ -std\u003dgnu++14 -w",
+    "outFlag": "-o",
+    "exeFile": "D:\\Projects\\AKAUT\\prj-data\\Amanhacker_Aman-Barnwal-Leetcode-Solutions\\p6\\program.exe",
+    "binFiles": [
+      ".\\\\aka-working-space\\\\p6\\\\instruments\\0508-most-frequent-subtree-sum\\0508-most-frequent-subtree-sum.akaignore.cpp.out",
+      ".\\\\aka-working-space\\\\p6\\\\instruments\\0509-fibonacci-number\\0509-fibonacci-number.akaignore.cpp.out",
+      ".\\\\aka-working-space\\\\p6\\\\instruments\\0623-add-one-row-to-tree\\0623-add-one-row-to-tree.akaignore.cpp.out",
+      ".\\\\aka-working-space\\\\p6\\\\instruments\\0652-find-duplicate-subtrees\\0652-find-duplicate-subtrees.akaignore.cpp.out"
+    ]
+  },
+  "executablePath": ""
+}

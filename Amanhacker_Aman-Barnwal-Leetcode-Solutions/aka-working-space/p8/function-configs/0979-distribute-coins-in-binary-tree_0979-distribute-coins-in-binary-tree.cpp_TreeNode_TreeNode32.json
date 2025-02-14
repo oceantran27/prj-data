@@ -1,0 +1,42 @@
+{
+  "function": ".\\p8\\0979-distribute-coins-in-binary-tree\\0979-distribute-coins-in-binary-tree.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)",
+  "testdataGenStrategy": "BEST COVERAGE",
+  "theMaxNumberOfIterations": 10,
+  "floatAndDoubleDelta": 0.1,
+  "lowerBoundOfOtherNumberVars": "MIN",
+  "upperBoundOfOtherNumberVars": "MAX",
+  "lowerBoundOfOtherCharacterVars": "MIN",
+  "upperBoundOfOtherCharacterVars": "MAX",
+  "lowerBoundOfOtherArrays": "1",
+  "upperBoundOfOtherArrays": "3",
+  "lowerBoundOfOtherPointers": "0",
+  "upperBoundOfOtherPointers": "3",
+  "boundOfArguments": [
+    {
+      "type_class": "com.dse.boundary.PointerOrArrayBound",
+      "type_var": "TreeNode*",
+      "name": "left",
+      "indexes": [
+        "0:3"
+      ]
+    },
+    {
+      "type_class": "com.dse.boundary.MultiplePrimitiveBound",
+      "name": "x",
+      "equalAreas": [
+        {
+          "lower": "-2147483648",
+          "upper": "2147483647"
+        }
+      ]
+    },
+    {
+      "type_class": "com.dse.boundary.PointerOrArrayBound",
+      "type_var": "TreeNode*",
+      "name": "right",
+      "indexes": [
+        "0:3"
+      ]
+    }
+  ]
+}

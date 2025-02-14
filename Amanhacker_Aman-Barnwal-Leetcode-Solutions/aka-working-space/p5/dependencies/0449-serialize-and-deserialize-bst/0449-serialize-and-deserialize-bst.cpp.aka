@@ -1,0 +1,68 @@
+{
+  "path": ".\\p5\\0449-serialize-and-deserialize-bst\\0449-serialize-and-deserialize-bst.cpp",
+  "dependency": [
+    {
+      "start": ".\\p5\\0449-serialize-and-deserialize-bst\\0449-serialize-and-deserialize-bst.cpp\\TreeNode\\TreeNode(int)",
+      "start-type": "ConstructorNode",
+      "start-md5": "78663466e50fbdc31b71c7f8dd441a62",
+      "end": ".\\p5\\0449-serialize-and-deserialize-bst\\0449-serialize-and-deserialize-bst.cpp\\TreeNode",
+      "end-type": "StructNode",
+      "type": "RealParentDependency",
+      "end-md5": "9df52ce42e83e1ed273b6fbd2ddaebb0"
+    },
+    {
+      "start": ".\\p5\\0449-serialize-and-deserialize-bst\\0449-serialize-and-deserialize-bst.cpp\\Codec\\bfs(TreeNode*,string\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "b4b8813d78f174843586569f6dfde9f1",
+      "end": ".\\p5\\0449-serialize-and-deserialize-bst\\0449-serialize-and-deserialize-bst.cpp\\TreeNode\\TreeNode(int)",
+      "end-type": "ConstructorNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "78663466e50fbdc31b71c7f8dd441a62"
+    },
+    {
+      "start": ".\\p5\\0449-serialize-and-deserialize-bst\\0449-serialize-and-deserialize-bst.cpp\\Codec\\deserialize(string)",
+      "start-type": "FunctionNode",
+      "start-md5": "6a63b70d28226aa249792d169a288fff",
+      "end": ".\\p5\\0449-serialize-and-deserialize-bst\\0449-serialize-and-deserialize-bst.cpp\\TreeNode\\TreeNode(int)",
+      "end-type": "ConstructorNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "78663466e50fbdc31b71c7f8dd441a62"
+    },
+    {
+      "start": ".\\p5\\0449-serialize-and-deserialize-bst\\0449-serialize-and-deserialize-bst.cpp\\Codec\\bfs(TreeNode*,string\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "b4b8813d78f174843586569f6dfde9f1",
+      "end": ".\\p5\\0449-serialize-and-deserialize-bst\\0449-serialize-and-deserialize-bst.cpp\\Codec",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "ebe64355402cbeb5c1bc3f7a91432bf9"
+    },
+    {
+      "start": ".\\p5\\0449-serialize-and-deserialize-bst\\0449-serialize-and-deserialize-bst.cpp\\Codec\\deserialize(string)",
+      "start-type": "FunctionNode",
+      "start-md5": "6a63b70d28226aa249792d169a288fff",
+      "end": ".\\p5\\0449-serialize-and-deserialize-bst\\0449-serialize-and-deserialize-bst.cpp\\Codec",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "ebe64355402cbeb5c1bc3f7a91432bf9"
+    },
+    {
+      "start": ".\\p5\\0449-serialize-and-deserialize-bst\\0449-serialize-and-deserialize-bst.cpp\\Codec\\serialize(TreeNode*)",
+      "start-type": "FunctionNode",
+      "start-md5": "0f3807335e5197977a1e7eb8d584298f",
+      "end": ".\\p5\\0449-serialize-and-deserialize-bst\\0449-serialize-and-deserialize-bst.cpp\\Codec",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "ebe64355402cbeb5c1bc3f7a91432bf9"
+    },
+    {
+      "start": ".\\p5\\0449-serialize-and-deserialize-bst\\0449-serialize-and-deserialize-bst.cpp\\Codec\\serialize(TreeNode*)",
+      "start-type": "FunctionNode",
+      "start-md5": "0f3807335e5197977a1e7eb8d584298f",
+      "end": ".\\p5\\0449-serialize-and-deserialize-bst\\0449-serialize-and-deserialize-bst.cpp\\Codec\\bfs(TreeNode*,string\u0026)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "b4b8813d78f174843586569f6dfde9f1"
+    }
+  ]
+}

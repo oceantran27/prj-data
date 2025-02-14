@@ -1,0 +1,230 @@
+{
+  "name": "Solution_longestPalindrome_string_random_1",
+  "status": "failed",
+  "testCaseUserCode": {
+    "includePaths": [],
+    "setUpContent": "// set up\n;",
+    "tearDownContent": "// tear down\n;"
+  },
+  "path": ".\\\\aka-working-space\\\\p1\\\\test-cases\\Solution_longestPalindrome_string_random_1.json",
+  "sourceCode": ".\\\\aka-working-space\\\\p1\\\\test-drivers\\Solution_longestPalindrome_string_random_1.cpp",
+  "testPath": ".\\\\aka-working-space\\\\p1\\\\test-paths\\Solution_longestPalindrome_string_random_1.tp",
+  "executable": ".\\\\aka-working-space\\\\p1\\\\exe\\Solution_longestPalindrome_string_random_1.exe",
+  "commandConfig": ".\\aka-working-space\\p1\\test-case-commands\\Solution_longestPalindrome_string_random_1.json",
+  "commandDebug": ".\\\\aka-working-space\\\\p1\\\\debugger\\\\commands\\Solution_longestPalindrome_string_random_1.json",
+  "breakPoint": ".\\\\aka-working-space\\\\p1\\\\debugger\\\\breakpoints\\Solution_longestPalindrome_string_random_1.br.json",
+  "debugExecutable": ".\\\\aka-working-space\\\\p1\\\\exe\\debug_Solution_longestPalindrome_string_random_1.exe",
+  "executionResult": ".\\\\aka-working-space\\\\p1\\\\execution-results\\Solution_longestPalindrome_string_random_1.xml",
+  "creationDate": "2025-02-13T16:15:46.091670",
+  "executionDate": "2025-02-13T16:16:04.572741",
+  "rootDataNode": {
+    "type": "com.dse.testdata.object.RootDataNode",
+    "name": "ROOT",
+    "virtual_name": "NON_VALUE",
+    "functionNode": ".\\p1\\0005-longest-palindromic-substring\\0005-longest-palindromic-substring.cpp\\Solution\\longestPalindrome(string)",
+    "level": "ROOT",
+    "children": [
+      {
+        "type": "com.dse.testdata.object.UnitUnderTestNode",
+        "name": "0005-longest-palindromic-substring.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\p1\\0005-longest-palindromic-substring\\0005-longest-palindromic-substring.cpp",
+        "children": [
+          {
+            "type": "com.dse.testdata.object.GlobalRootDataNode",
+            "name": "GLOBAL",
+            "virtual_name": "NON_VALUE",
+            "functionNode": ".\\p1\\0005-longest-palindromic-substring\\0005-longest-palindromic-substring.cpp\\Solution\\longestPalindrome(string)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": false,
+                "correspondingVar": ".\\p1\\0005-longest-palindromic-substring\\0005-longest-palindromic-substring.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p1\\0005-longest-palindromic-substring\\0005-longest-palindromic-substring.cpp\\Solution"
+              }
+            ],
+            "level": "GLOBAL",
+            "children": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": true,
+                "correspondingVar": ".\\p1\\0005-longest-palindromic-substring\\0005-longest-palindromic-substring.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p1\\0005-longest-palindromic-substring\\0005-longest-palindromic-substring.cpp\\Solution",
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.SubClassDataNode",
+                    "name": "AKA_INSTANCE___Solution",
+                    "virtual_name": "AKA_INSTANCE___Solution",
+                    "dataType": "::Solution",
+                    "realType": "::Solution",
+                    "external": false,
+                    "correspondingVar": ".\\p1\\0005-longest-palindromic-substring\\0005-longest-palindromic-substring.cpp\\Solution\\AKA_INSTANCE___Solution",
+                    "correspondingType": ".\\p1\\0005-longest-palindromic-substring\\0005-longest-palindromic-substring.cpp\\Solution",
+                    "rawType": "::Solution",
+                    "selectedConstructor": "Solution()",
+                    "variableType": "::Solution",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                        "name": "Solution()",
+                        "virtual_name": "AKA_INSTANCE___Solution",
+                        "dataType": "::Solution",
+                        "realType": "::Solution",
+                        "functionNode": "\\Solution()"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "com.dse.testdata.object.SubprogramNode",
+            "name": "longestPalindrome(string)",
+            "virtual_name": "NON_VALUE",
+            "dataType": "string",
+            "realType": "string",
+            "functionNode": ".\\p1\\0005-longest-palindromic-substring\\0005-longest-palindromic-substring.cpp\\Solution\\longestPalindrome(string)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.NormalStringDataNode",
+                "name": "s",
+                "virtual_name": "EXPECTED_s",
+                "dataType": "string",
+                "realType": "string",
+                "external": false,
+                "correspondingVar": ".\\p1\\0005-longest-palindromic-substring\\0005-longest-palindromic-substring.cpp\\Solution\\longestPalindrome(string)\\s",
+                "correspondingType": "string",
+                "value": "null"
+              }
+            ],
+            "children": [
+              {
+                "type": "com.dse.testdata.object.RootDataNode",
+                "name": "STATIC",
+                "virtual_name": "NON_VALUE",
+                "functionNode": ".\\p1\\0005-longest-palindromic-substring\\0005-longest-palindromic-substring.cpp\\Solution\\longestPalindrome(string)",
+                "level": "STATIC"
+              },
+              {
+                "type": "com.dse.testdata.object.NormalStringDataNode",
+                "name": "s",
+                "virtual_name": "s",
+                "dataType": "string",
+                "realType": "string",
+                "external": false,
+                "correspondingVar": ".\\p1\\0005-longest-palindromic-substring\\0005-longest-palindromic-substring.cpp\\Solution\\longestPalindrome(string)\\s",
+                "correspondingType": "string",
+                "value": "2",
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.NormalCharacterDataNode",
+                    "name": "s[0]",
+                    "virtual_name": "s[0]",
+                    "dataType": "char",
+                    "realType": "char",
+                    "external": false,
+                    "correspondingVar": ".\\p1\\0005-longest-palindromic-substring\\0005-longest-palindromic-substring.cpp\\Solution\\longestPalindrome(string)\\s\\s[0]",
+                    "correspondingType": "char",
+                    "value": "-21"
+                  }
+                ]
+              },
+              {
+                "type": "com.dse.testdata.object.NormalStringDataNode",
+                "name": "RETURN",
+                "virtual_name": "AKA_EXPECTED_OUTPUT",
+                "dataType": "string",
+                "realType": "string",
+                "external": false,
+                "correspondingVar": ".\\p1\\0005-longest-palindromic-substring\\0005-longest-palindromic-substring.cpp\\Solution\\longestPalindrome(string)\\RETURN",
+                "correspondingType": "string",
+                "value": "null"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.RootDataNode",
+        "name": "STUB",
+        "virtual_name": "NON_VALUE",
+        "functionNode": ".\\p1\\0005-longest-palindromic-substring\\0005-longest-palindromic-substring.cpp\\Solution\\longestPalindrome(string)",
+        "level": "STUB"
+      }
+    ]
+  },
+  "procedures": [
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "i\u003cn",
+      "isSelected": false,
+      "location": 315,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "i\u003e\u003d0",
+      "isSelected": false,
+      "location": 425,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "j\u003cn",
+      "isSelected": false,
+      "location": 466,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "s[i] \u003d\u003d s[j]",
+      "isSelected": false,
+      "location": 561,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "j - i + 1 \u003d\u003d 2",
+      "isSelected": false,
+      "location": 623,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "dp[i + 1][j - 1] \u003d\u003d 1",
+      "isSelected": false,
+      "location": 641,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "len \u003e maxi",
+      "isSelected": false,
+      "location": 927,
+      "calls": [],
+      "children": []
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "name": "Solution_levelOrder_TreeNodemul_random_0",
+  "status": "success",
+  "testCaseUserCode": {
+    "includePaths": [],
+    "setUpContent": "// set up\n;",
+    "tearDownContent": "// tear down\n;"
+  },
+  "path": ".\\\\aka-working-space\\\\p10\\\\test-cases\\Solution_levelOrder_TreeNodemul_random_0.json",
+  "sourceCode": ".\\\\aka-working-space\\\\p10\\\\test-drivers\\Solution_levelOrder_TreeNodemul_random_0.cpp",
+  "testPath": ".\\\\aka-working-space\\\\p10\\\\test-paths\\Solution_levelOrder_TreeNodemul_random_0.tp",
+  "executable": ".\\\\aka-working-space\\\\p10\\\\exe\\Solution_levelOrder_TreeNodemul_random_0.exe",
+  "commandConfig": ".\\aka-working-space\\p10\\test-case-commands\\Solution_levelOrder_TreeNodemul_random_0.json",
+  "commandDebug": ".\\\\aka-working-space\\\\p10\\\\debugger\\\\commands\\Solution_levelOrder_TreeNodemul_random_0.json",
+  "breakPoint": ".\\\\aka-working-space\\\\p10\\\\debugger\\\\breakpoints\\Solution_levelOrder_TreeNodemul_random_0.br.json",
+  "debugExecutable": ".\\\\aka-working-space\\\\p10\\\\exe\\debug_Solution_levelOrder_TreeNodemul_random_0.exe",
+  "executionResult": ".\\\\aka-working-space\\\\p10\\\\execution-results\\Solution_levelOrder_TreeNodemul_random_0.xml",
+  "creationDate": "2025-02-14T10:21:01.224351200",
+  "executionDate": "2025-02-14T10:21:01.993749800",
+  "rootDataNode": {
+    "type": "com.dse.testdata.object.RootDataNode",
+    "name": "ROOT",
+    "virtual_name": "NON_VALUE",
+    "functionNode": ".\\p10\\102-binary-tree-level-order-traversal\\102-binary-tree-level-order-traversal.cpp\\Solution\\levelOrder(TreeNode*)",
+    "level": "ROOT",
+    "children": [
+      {
+        "type": "com.dse.testdata.object.UnitUnderTestNode",
+        "name": "102-binary-tree-level-order-traversal.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\p10\\102-binary-tree-level-order-traversal\\102-binary-tree-level-order-traversal.cpp",
+        "children": [
+          {
+            "type": "com.dse.testdata.object.GlobalRootDataNode",
+            "name": "GLOBAL",
+            "virtual_name": "NON_VALUE",
+            "functionNode": ".\\p10\\102-binary-tree-level-order-traversal\\102-binary-tree-level-order-traversal.cpp\\Solution\\levelOrder(TreeNode*)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": false,
+                "correspondingVar": ".\\p10\\102-binary-tree-level-order-traversal\\102-binary-tree-level-order-traversal.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p10\\102-binary-tree-level-order-traversal\\102-binary-tree-level-order-traversal.cpp\\Solution"
+              }
+            ],
+            "level": "GLOBAL",
+            "children": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": true,
+                "correspondingVar": ".\\p10\\102-binary-tree-level-order-traversal\\102-binary-tree-level-order-traversal.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p10\\102-binary-tree-level-order-traversal\\102-binary-tree-level-order-traversal.cpp\\Solution",
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.SubClassDataNode",
+                    "name": "AKA_INSTANCE___Solution",
+                    "virtual_name": "AKA_INSTANCE___Solution",
+                    "dataType": "::Solution",
+                    "realType": "::Solution",
+                    "external": false,
+                    "correspondingVar": ".\\p10\\102-binary-tree-level-order-traversal\\102-binary-tree-level-order-traversal.cpp\\Solution\\AKA_INSTANCE___Solution",
+                    "correspondingType": ".\\p10\\102-binary-tree-level-order-traversal\\102-binary-tree-level-order-traversal.cpp\\Solution",
+                    "rawType": "::Solution",
+                    "selectedConstructor": "Solution()",
+                    "variableType": "::Solution",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                        "name": "Solution()",
+                        "virtual_name": "AKA_INSTANCE___Solution",
+                        "dataType": "::Solution",
+                        "realType": "::Solution",
+                        "functionNode": "\\Solution()"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "com.dse.testdata.object.SubprogramNode",
+            "name": "levelOrder(TreeNode*)",
+            "virtual_name": "NON_VALUE",
+            "dataType": "vector\u003cvector\u003cint\u003e\u003e",
+            "realType": "vector\u003cvector\u003cint\u003e\u003e",
+            "functionNode": ".\\p10\\102-binary-tree-level-order-traversal\\102-binary-tree-level-order-traversal.cpp\\Solution\\levelOrder(TreeNode*)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.PointerStructureDataNode",
+                "name": "root",
+                "virtual_name": "EXPECTED_root",
+                "dataType": "TreeNode*",
+                "realType": "TreeNode*",
+                "external": false,
+                "correspondingVar": ".\\p10\\102-binary-tree-level-order-traversal\\102-binary-tree-level-order-traversal.cpp\\Solution\\levelOrder(TreeNode*)\\root",
+                "correspondingType": ".\\p10\\102-binary-tree-level-order-traversal\\102-binary-tree-level-order-traversal.cpp\\TreeNode",
+                "level": 1
+              }
+            ],
+            "children": [
+              {
+                "type": "com.dse.testdata.object.RootDataNode",
+                "name": "STATIC",
+                "virtual_name": "NON_VALUE",
+                "functionNode": ".\\p10\\102-binary-tree-level-order-traversal\\102-binary-tree-level-order-traversal.cpp\\Solution\\levelOrder(TreeNode*)",
+                "level": "STATIC"
+              },
+              {
+                "type": "com.dse.testdata.object.PointerStructureDataNode",
+                "name": "root",
+                "virtual_name": "root",
+                "dataType": "TreeNode*",
+                "realType": "TreeNode*",
+                "external": false,
+                "correspondingVar": ".\\p10\\102-binary-tree-level-order-traversal\\102-binary-tree-level-order-traversal.cpp\\Solution\\levelOrder(TreeNode*)\\root",
+                "correspondingType": ".\\p10\\102-binary-tree-level-order-traversal\\102-binary-tree-level-order-traversal.cpp\\TreeNode",
+                "level": 1,
+                "size": 1,
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.StructDataNode",
+                    "name": "root[0]",
+                    "virtual_name": "root[0]",
+                    "dataType": "TreeNode",
+                    "realType": "TreeNode",
+                    "external": false,
+                    "correspondingVar": ".\\p10\\102-binary-tree-level-order-traversal\\102-binary-tree-level-order-traversal.cpp\\Solution\\levelOrder(TreeNode*)\\root\\root[0]",
+                    "correspondingType": ".\\p10\\102-binary-tree-level-order-traversal\\102-binary-tree-level-order-traversal.cpp\\TreeNode",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.SubStructDataNode",
+                        "name": "root",
+                        "virtual_name": "root[0]",
+                        "dataType": "::TreeNode",
+                        "realType": "::TreeNode",
+                        "external": false,
+                        "correspondingVar": ".\\p10\\102-binary-tree-level-order-traversal\\102-binary-tree-level-order-traversal.cpp\\Solution\\levelOrder(TreeNode*)\\root\\root",
+                        "correspondingType": ".\\p10\\102-binary-tree-level-order-traversal\\102-binary-tree-level-order-traversal.cpp\\TreeNode",
+                        "rawType": "::TreeNode",
+                        "selectedConstructor": "TreeNode()",
+                        "variableType": "::TreeNode",
+                        "children": [
+                          {
+                            "type": "com.dse.testdata.object.ConstructorDataNode",
+                            "name": "TreeNode()",
+                            "virtual_name": "root[0]",
+                            "dataType": "::TreeNode",
+                            "realType": "::TreeNode",
+                            "functionNode": ".\\p10\\102-binary-tree-level-order-traversal\\102-binary-tree-level-order-traversal.cpp\\TreeNode\\TreeNode()"
+                          },
+                          {
+                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                            "name": "val",
+                            "virtual_name": "root[0].val",
+                            "dataType": "int",
+                            "realType": "int",
+                            "external": false,
+                            "correspondingVar": ".\\p10\\102-binary-tree-level-order-traversal\\102-binary-tree-level-order-traversal.cpp\\TreeNode\\val",
+                            "correspondingType": "int",
+                            "value": "null"
+                          },
+                          {
+                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                            "name": "left",
+                            "virtual_name": "root[0].left",
+                            "dataType": "TreeNode*",
+                            "realType": "TreeNode*",
+                            "external": false,
+                            "correspondingVar": ".\\p10\\102-binary-tree-level-order-traversal\\102-binary-tree-level-order-traversal.cpp\\TreeNode\\left",
+                            "correspondingType": ".\\p10\\102-binary-tree-level-order-traversal\\102-binary-tree-level-order-traversal.cpp\\TreeNode",
+                            "level": 1
+                          },
+                          {
+                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                            "name": "right",
+                            "virtual_name": "root[0].right",
+                            "dataType": "TreeNode*",
+                            "realType": "TreeNode*",
+                            "external": false,
+                            "correspondingVar": ".\\p10\\102-binary-tree-level-order-traversal\\102-binary-tree-level-order-traversal.cpp\\TreeNode\\right",
+                            "correspondingType": ".\\p10\\102-binary-tree-level-order-traversal\\102-binary-tree-level-order-traversal.cpp\\TreeNode",
+                            "level": 1
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                "name": "RETURN",
+                "virtual_name": "AKA_EXPECTED_OUTPUT",
+                "dataType": "vector\u003cvector\u003cint\u003e\u003e",
+                "realType": "vector\u003cvector\u003cint\u003e\u003e",
+                "external": false,
+                "correspondingVar": ".\\p10\\102-binary-tree-level-order-traversal\\102-binary-tree-level-order-traversal.cpp\\Solution\\levelOrder(TreeNode*)\\RETURN",
+                "correspondingType": "STLListBaseType",
+                "templateArg": "vector\u003cint\u003e"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.RootDataNode",
+        "name": "STUB",
+        "virtual_name": "NON_VALUE",
+        "functionNode": ".\\p10\\102-binary-tree-level-order-traversal\\102-binary-tree-level-order-traversal.cpp\\Solution\\levelOrder(TreeNode*)",
+        "level": "STUB"
+      }
+    ]
+  },
+  "procedures": [
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "root \u003d\u003d NULL",
+      "isSelected": false,
+      "location": 111,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "q.empty() \u003d\u003d false",
+      "isSelected": false,
+      "location": 280,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "i\u003cn",
+      "isSelected": false,
+      "location": 426,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "temp-\u003eleft !\u003d NULL",
+      "isSelected": false,
+      "location": 627,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "temp-\u003eright !\u003d NULL",
+      "isSelected": false,
+      "location": 697,
+      "calls": [],
+      "children": []
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "path": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp",
+  "dependency": [
+    {
+      "start": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode\\TreeNode()",
+      "start-type": "ConstructorNode",
+      "start-md5": "866757dd49ee1720a0f45556eb39c07f",
+      "end": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode",
+      "end-type": "StructNode",
+      "type": "RealParentDependency",
+      "end-md5": "af8c4729b7f783f897357a4f57d1eaa2"
+    },
+    {
+      "start": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode\\TreeNode(int)",
+      "start-type": "ConstructorNode",
+      "start-md5": "bb87074b4f35e01debcefc666303a286",
+      "end": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode",
+      "end-type": "StructNode",
+      "type": "RealParentDependency",
+      "end-md5": "af8c4729b7f783f897357a4f57d1eaa2"
+    },
+    {
+      "start": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)",
+      "start-type": "ConstructorNode",
+      "start-md5": "f428e6143c89cb81fb9ca01cfbd1bb91",
+      "end": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode",
+      "end-type": "StructNode",
+      "type": "RealParentDependency",
+      "end-md5": "af8c4729b7f783f897357a4f57d1eaa2"
+    },
+    {
+      "start": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\Solution\\dfs(TreeNode*,TreeNode*,int\u0026,set\u003cTreeNode*\u003e\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "47880225dabc85cd54136149c1e9538d",
+      "end": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\Solution",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "39fff557022da724838fdd8c4eb2e440"
+    },
+    {
+      "start": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\Solution\\minCameraCover(TreeNode*)",
+      "start-type": "FunctionNode",
+      "start-md5": "bc17b6f0140de1d72b2349637fccc779",
+      "end": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\Solution",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "39fff557022da724838fdd8c4eb2e440"
+    },
+    {
+      "start": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\Solution\\dfs(TreeNode*,TreeNode*,int\u0026,set\u003cTreeNode*\u003e\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "47880225dabc85cd54136149c1e9538d",
+      "end": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\Solution\\dfs(TreeNode*,TreeNode*,int\u0026,set\u003cTreeNode*\u003e\u0026)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "47880225dabc85cd54136149c1e9538d"
+    },
+    {
+      "start": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\Solution\\minCameraCover(TreeNode*)",
+      "start-type": "FunctionNode",
+      "start-md5": "bc17b6f0140de1d72b2349637fccc779",
+      "end": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\Solution\\dfs(TreeNode*,TreeNode*,int\u0026,set\u003cTreeNode*\u003e\u0026)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "47880225dabc85cd54136149c1e9538d"
+    }
+  ]
+}

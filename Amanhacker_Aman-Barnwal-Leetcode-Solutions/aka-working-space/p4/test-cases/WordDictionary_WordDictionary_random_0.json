@@ -1,0 +1,156 @@
+{
+  "name": "WordDictionary_WordDictionary_random_0",
+  "status": "success",
+  "testCaseUserCode": {
+    "includePaths": [],
+    "setUpContent": "// set up\n;",
+    "tearDownContent": "// tear down\n;"
+  },
+  "path": ".\\\\aka-working-space\\\\p4\\\\test-cases\\WordDictionary_WordDictionary_random_0.json",
+  "sourceCode": ".\\\\aka-working-space\\\\p4\\\\test-drivers\\WordDictionary_WordDictionary_random_0.cpp",
+  "testPath": ".\\\\aka-working-space\\\\p4\\\\test-paths\\WordDictionary_WordDictionary_random_0.tp",
+  "executable": ".\\\\aka-working-space\\\\p4\\\\exe\\WordDictionary_WordDictionary_random_0.exe",
+  "commandConfig": ".\\aka-working-space\\p4\\test-case-commands\\WordDictionary_WordDictionary_random_0.json",
+  "commandDebug": ".\\\\aka-working-space\\\\p4\\\\debugger\\\\commands\\WordDictionary_WordDictionary_random_0.json",
+  "breakPoint": ".\\\\aka-working-space\\\\p4\\\\debugger\\\\breakpoints\\WordDictionary_WordDictionary_random_0.br.json",
+  "debugExecutable": ".\\\\aka-working-space\\\\p4\\\\exe\\debug_WordDictionary_WordDictionary_random_0.exe",
+  "executionResult": ".\\\\aka-working-space\\\\p4\\\\execution-results\\WordDictionary_WordDictionary_random_0.xml",
+  "creationDate": "2025-02-13T17:00:16.429806600",
+  "executionDate": "2025-02-13T17:00:17.022731700",
+  "rootDataNode": {
+    "type": "com.dse.testdata.object.RootDataNode",
+    "name": "ROOT",
+    "virtual_name": "NON_VALUE",
+    "functionNode": ".\\p4\\0211-design-add-and-search-words-data-structure\\0211-design-add-and-search-words-data-structure.cpp\\WordDictionary\\WordDictionary()",
+    "level": "ROOT",
+    "children": [
+      {
+        "type": "com.dse.testdata.object.UnitUnderTestNode",
+        "name": "0211-design-add-and-search-words-data-structure.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\p4\\0211-design-add-and-search-words-data-structure\\0211-design-add-and-search-words-data-structure.cpp",
+        "children": [
+          {
+            "type": "com.dse.testdata.object.GlobalRootDataNode",
+            "name": "GLOBAL",
+            "virtual_name": "NON_VALUE",
+            "functionNode": ".\\p4\\0211-design-add-and-search-words-data-structure\\0211-design-add-and-search-words-data-structure.cpp\\WordDictionary\\WordDictionary()",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___WordDictionary",
+                "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___WordDictionary",
+                "dataType": "::WordDictionary",
+                "realType": "::WordDictionary",
+                "external": false,
+                "correspondingVar": ".\\p4\\0211-design-add-and-search-words-data-structure\\0211-design-add-and-search-words-data-structure.cpp\\WordDictionary\\AKA_INSTANCE___WordDictionary",
+                "correspondingType": ".\\p4\\0211-design-add-and-search-words-data-structure\\0211-design-add-and-search-words-data-structure.cpp\\WordDictionary",
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.SubClassDataNode",
+                    "name": "AKA_INSTANCE___WordDictionary",
+                    "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___WordDictionary",
+                    "dataType": "::WordDictionary",
+                    "realType": "::WordDictionary",
+                    "external": false,
+                    "correspondingVar": ".\\p4\\0211-design-add-and-search-words-data-structure\\0211-design-add-and-search-words-data-structure.cpp\\WordDictionary\\AKA_INSTANCE___WordDictionary",
+                    "correspondingType": ".\\p4\\0211-design-add-and-search-words-data-structure\\0211-design-add-and-search-words-data-structure.cpp\\WordDictionary",
+                    "rawType": "::WordDictionary",
+                    "selectedConstructor": "WordDictionary()",
+                    "variableType": "::WordDictionary",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                        "name": "WordDictionary()",
+                        "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___WordDictionary",
+                        "dataType": "::WordDictionary",
+                        "realType": "::WordDictionary",
+                        "functionNode": ".\\p4\\0211-design-add-and-search-words-data-structure\\0211-design-add-and-search-words-data-structure.cpp\\WordDictionary\\WordDictionary()"
+                      },
+                      {
+                        "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                        "name": "v",
+                        "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___WordDictionary-\u003ev",
+                        "dataType": "vector\u003cstring\u003e",
+                        "realType": "vector\u003cstring\u003e",
+                        "external": false,
+                        "correspondingVar": ".\\p4\\0211-design-add-and-search-words-data-structure\\0211-design-add-and-search-words-data-structure.cpp\\WordDictionary\\v",
+                        "correspondingType": "STLListBaseType",
+                        "templateArg": "string"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "level": "GLOBAL",
+            "children": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___WordDictionary",
+                "virtual_name": "AKA_INSTANCE___WordDictionary",
+                "dataType": "::WordDictionary",
+                "realType": "::WordDictionary",
+                "external": true,
+                "correspondingVar": ".\\p4\\0211-design-add-and-search-words-data-structure\\0211-design-add-and-search-words-data-structure.cpp\\WordDictionary\\AKA_INSTANCE___WordDictionary",
+                "correspondingType": ".\\p4\\0211-design-add-and-search-words-data-structure\\0211-design-add-and-search-words-data-structure.cpp\\WordDictionary",
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.SubClassDataNode",
+                    "name": "AKA_INSTANCE___WordDictionary",
+                    "virtual_name": "AKA_INSTANCE___WordDictionary",
+                    "dataType": "::WordDictionary",
+                    "realType": "::WordDictionary",
+                    "external": false,
+                    "correspondingVar": ".\\p4\\0211-design-add-and-search-words-data-structure\\0211-design-add-and-search-words-data-structure.cpp\\WordDictionary\\AKA_INSTANCE___WordDictionary",
+                    "correspondingType": ".\\p4\\0211-design-add-and-search-words-data-structure\\0211-design-add-and-search-words-data-structure.cpp\\WordDictionary",
+                    "rawType": "::WordDictionary",
+                    "selectedConstructor": "WordDictionary()",
+                    "variableType": "::WordDictionary",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                        "name": "WordDictionary()",
+                        "virtual_name": "AKA_INSTANCE___WordDictionary",
+                        "dataType": "::WordDictionary",
+                        "realType": "::WordDictionary",
+                        "functionNode": ".\\p4\\0211-design-add-and-search-words-data-structure\\0211-design-add-and-search-words-data-structure.cpp\\WordDictionary\\WordDictionary()"
+                      },
+                      {
+                        "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                        "name": "v",
+                        "virtual_name": "AKA_INSTANCE___WordDictionary-\u003ev",
+                        "dataType": "vector\u003cstring\u003e",
+                        "realType": "vector\u003cstring\u003e",
+                        "external": false,
+                        "correspondingVar": ".\\p4\\0211-design-add-and-search-words-data-structure\\0211-design-add-and-search-words-data-structure.cpp\\WordDictionary\\v",
+                        "correspondingType": "STLListBaseType",
+                        "templateArg": "string"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "com.dse.testdata.object.SubprogramNode",
+            "name": "WordDictionary()",
+            "virtual_name": "NON_VALUE",
+            "dataType": "",
+            "realType": "",
+            "functionNode": ".\\p4\\0211-design-add-and-search-words-data-structure\\0211-design-add-and-search-words-data-structure.cpp\\WordDictionary\\WordDictionary()"
+          }
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.RootDataNode",
+        "name": "STUB",
+        "virtual_name": "NON_VALUE",
+        "functionNode": ".\\p4\\0211-design-add-and-search-words-data-structure\\0211-design-add-and-search-words-data-structure.cpp\\WordDictionary\\WordDictionary()",
+        "level": "STUB"
+      }
+    ]
+  },
+  "procedures": []
+}

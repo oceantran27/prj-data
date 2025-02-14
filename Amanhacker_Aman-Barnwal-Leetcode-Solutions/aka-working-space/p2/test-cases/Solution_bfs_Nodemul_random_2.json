@@ -1,0 +1,512 @@
+{
+  "name": "Solution_bfs_Nodemul_random_2",
+  "status": "runtime error",
+  "testCaseUserCode": {
+    "includePaths": [],
+    "setUpContent": "// set up\n;",
+    "tearDownContent": "// tear down\n;"
+  },
+  "path": ".\\\\aka-working-space\\\\p2\\\\test-cases\\Solution_bfs_Nodemul_random_2.json",
+  "sourceCode": ".\\\\aka-working-space\\\\p2\\\\test-drivers\\Solution_bfs_Nodemul_random_2.cpp",
+  "testPath": ".\\\\aka-working-space\\\\p2\\\\test-paths\\Solution_bfs_Nodemul_random_2.tp",
+  "executable": ".\\\\aka-working-space\\\\p2\\\\exe\\Solution_bfs_Nodemul_random_2.exe",
+  "commandConfig": ".\\aka-working-space\\p2\\test-case-commands\\Solution_bfs_Nodemul_random_2.json",
+  "commandDebug": ".\\\\aka-working-space\\\\p2\\\\debugger\\\\commands\\Solution_bfs_Nodemul_random_2.json",
+  "breakPoint": ".\\\\aka-working-space\\\\p2\\\\debugger\\\\breakpoints\\Solution_bfs_Nodemul_random_2.br.json",
+  "debugExecutable": ".\\\\aka-working-space\\\\p2\\\\exe\\debug_Solution_bfs_Nodemul_random_2.exe",
+  "executionResult": ".\\\\aka-working-space\\\\p2\\\\execution-results\\Solution_bfs_Nodemul_random_2.xml",
+  "creationDate": "2025-02-13T16:22:30.596643300",
+  "executionDate": "2025-02-13T16:23:17.231004800",
+  "rootDataNode": {
+    "type": "com.dse.testdata.object.RootDataNode",
+    "name": "ROOT",
+    "virtual_name": "NON_VALUE",
+    "functionNode": ".\\p2\\0116-populating-next-right-pointers-in-each-node\\0116-populating-next-right-pointers-in-each-node.cpp\\Solution\\bfs(Node*\u0026)",
+    "level": "ROOT",
+    "children": [
+      {
+        "type": "com.dse.testdata.object.UnitUnderTestNode",
+        "name": "0116-populating-next-right-pointers-in-each-node.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\p2\\0116-populating-next-right-pointers-in-each-node\\0116-populating-next-right-pointers-in-each-node.cpp",
+        "children": [
+          {
+            "type": "com.dse.testdata.object.GlobalRootDataNode",
+            "name": "GLOBAL",
+            "virtual_name": "NON_VALUE",
+            "functionNode": ".\\p2\\0116-populating-next-right-pointers-in-each-node\\0116-populating-next-right-pointers-in-each-node.cpp\\Solution\\bfs(Node*\u0026)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": false,
+                "correspondingVar": ".\\p2\\0116-populating-next-right-pointers-in-each-node\\0116-populating-next-right-pointers-in-each-node.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p2\\0116-populating-next-right-pointers-in-each-node\\0116-populating-next-right-pointers-in-each-node.cpp\\Solution"
+              }
+            ],
+            "level": "GLOBAL",
+            "children": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": true,
+                "correspondingVar": ".\\p2\\0116-populating-next-right-pointers-in-each-node\\0116-populating-next-right-pointers-in-each-node.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p2\\0116-populating-next-right-pointers-in-each-node\\0116-populating-next-right-pointers-in-each-node.cpp\\Solution",
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.SubClassDataNode",
+                    "name": "AKA_INSTANCE___Solution",
+                    "virtual_name": "AKA_INSTANCE___Solution",
+                    "dataType": "::Solution",
+                    "realType": "::Solution",
+                    "external": false,
+                    "correspondingVar": ".\\p2\\0116-populating-next-right-pointers-in-each-node\\0116-populating-next-right-pointers-in-each-node.cpp\\Solution\\AKA_INSTANCE___Solution",
+                    "correspondingType": ".\\p2\\0116-populating-next-right-pointers-in-each-node\\0116-populating-next-right-pointers-in-each-node.cpp\\Solution",
+                    "rawType": "::Solution",
+                    "selectedConstructor": "Solution()",
+                    "variableType": "::Solution",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                        "name": "Solution()",
+                        "virtual_name": "AKA_INSTANCE___Solution",
+                        "dataType": "::Solution",
+                        "realType": "::Solution",
+                        "functionNode": "\\Solution()"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "com.dse.testdata.object.SubprogramNode",
+            "name": "bfs(Node*\u0026)",
+            "virtual_name": "NON_VALUE",
+            "dataType": "void",
+            "realType": "void",
+            "functionNode": ".\\p2\\0116-populating-next-right-pointers-in-each-node\\0116-populating-next-right-pointers-in-each-node.cpp\\Solution\\bfs(Node*\u0026)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.PointerStructureDataNode",
+                "name": "root",
+                "virtual_name": "EXPECTED_root",
+                "dataType": "Node*\u0026",
+                "realType": "Node*\u0026",
+                "external": false,
+                "correspondingVar": ".\\p2\\0116-populating-next-right-pointers-in-each-node\\0116-populating-next-right-pointers-in-each-node.cpp\\Solution\\bfs(Node*\u0026)\\root",
+                "correspondingType": ".\\p2\\0116-populating-next-right-pointers-in-each-node\\0116-populating-next-right-pointers-in-each-node.cpp\\Node",
+                "level": 1
+              }
+            ],
+            "children": [
+              {
+                "type": "com.dse.testdata.object.RootDataNode",
+                "name": "STATIC",
+                "virtual_name": "NON_VALUE",
+                "functionNode": ".\\p2\\0116-populating-next-right-pointers-in-each-node\\0116-populating-next-right-pointers-in-each-node.cpp\\Solution\\bfs(Node*\u0026)",
+                "level": "STATIC"
+              },
+              {
+                "type": "com.dse.testdata.object.PointerStructureDataNode",
+                "name": "root",
+                "virtual_name": "root",
+                "dataType": "Node*\u0026",
+                "realType": "Node*\u0026",
+                "external": false,
+                "correspondingVar": ".\\p2\\0116-populating-next-right-pointers-in-each-node\\0116-populating-next-right-pointers-in-each-node.cpp\\Solution\\bfs(Node*\u0026)\\root",
+                "correspondingType": ".\\p2\\0116-populating-next-right-pointers-in-each-node\\0116-populating-next-right-pointers-in-each-node.cpp\\Node",
+                "level": 1,
+                "size": 1,
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.ClassDataNode",
+                    "name": "root[0]",
+                    "virtual_name": "root[0]",
+                    "dataType": "Node\u0026",
+                    "realType": "Node\u0026",
+                    "external": false,
+                    "correspondingVar": ".\\p2\\0116-populating-next-right-pointers-in-each-node\\0116-populating-next-right-pointers-in-each-node.cpp\\Solution\\bfs(Node*\u0026)\\root\\root[0]",
+                    "correspondingType": ".\\p2\\0116-populating-next-right-pointers-in-each-node\\0116-populating-next-right-pointers-in-each-node.cpp\\Node",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.SubClassDataNode",
+                        "name": "root",
+                        "virtual_name": "root[0]",
+                        "dataType": "::Node",
+                        "realType": "::Node",
+                        "external": false,
+                        "correspondingVar": ".\\p2\\0116-populating-next-right-pointers-in-each-node\\0116-populating-next-right-pointers-in-each-node.cpp\\Solution\\bfs(Node*\u0026)\\root\\root",
+                        "correspondingType": ".\\p2\\0116-populating-next-right-pointers-in-each-node\\0116-populating-next-right-pointers-in-each-node.cpp\\Node",
+                        "rawType": "::Node",
+                        "selectedConstructor": "Node(int,Node*,Node*,Node*)",
+                        "variableType": "::Node",
+                        "children": [
+                          {
+                            "type": "com.dse.testdata.object.ConstructorDataNode",
+                            "name": "Node(int,Node*,Node*,Node*)",
+                            "virtual_name": "root[0]",
+                            "dataType": "::Node",
+                            "realType": "::Node",
+                            "functionNode": ".\\p2\\0116-populating-next-right-pointers-in-each-node\\0116-populating-next-right-pointers-in-each-node.cpp\\Node\\Node(int,Node*,Node*,Node*)",
+                            "children": [
+                              {
+                                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                "name": "_val",
+                                "virtual_name": "root0__val",
+                                "dataType": "int",
+                                "realType": "int",
+                                "external": false,
+                                "correspondingVar": ".\\p2\\0116-populating-next-right-pointers-in-each-node\\0116-populating-next-right-pointers-in-each-node.cpp\\Node\\Node(int,Node*,Node*,Node*)\\_val",
+                                "correspondingType": "int",
+                                "value": "-1827880955"
+                              },
+                              {
+                                "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                "name": "_left",
+                                "virtual_name": "root0__left",
+                                "dataType": "Node*",
+                                "realType": "Node*",
+                                "external": false,
+                                "correspondingVar": ".\\p2\\0116-populating-next-right-pointers-in-each-node\\0116-populating-next-right-pointers-in-each-node.cpp\\Node\\Node(int,Node*,Node*,Node*)\\_left",
+                                "correspondingType": ".\\p2\\0116-populating-next-right-pointers-in-each-node\\0116-populating-next-right-pointers-in-each-node.cpp\\Node",
+                                "level": 1,
+                                "size": 2,
+                                "children": [
+                                  {
+                                    "type": "com.dse.testdata.object.ClassDataNode",
+                                    "name": "_left[0]",
+                                    "virtual_name": "root0__left[0]",
+                                    "dataType": "Node",
+                                    "realType": "Node",
+                                    "external": false,
+                                    "correspondingVar": ".\\p2\\0116-populating-next-right-pointers-in-each-node\\0116-populating-next-right-pointers-in-each-node.cpp\\Node\\Node(int,Node*,Node*,Node*)\\_left\\_left[0]",
+                                    "correspondingType": ".\\p2\\0116-populating-next-right-pointers-in-each-node\\0116-populating-next-right-pointers-in-each-node.cpp\\Node",
+                                    "children": [
+                                      {
+                                        "type": "com.dse.testdata.object.SubClassDataNode",
+                                        "name": "_left",
+                                        "virtual_name": "root0__left[0]",
+                                        "dataType": "::Node",
+                                        "realType": "::Node",
+                                        "external": false,
+                                        "correspondingVar": ".\\p2\\0116-populating-next-right-pointers-in-each-node\\0116-populating-next-right-pointers-in-each-node.cpp\\Node\\Node(int,Node*,Node*,Node*)\\_left\\_left",
+                                        "correspondingType": ".\\p2\\0116-populating-next-right-pointers-in-each-node\\0116-populating-next-right-pointers-in-each-node.cpp\\Node",
+                                        "rawType": "::Node",
+                                        "selectedConstructor": "Node(int)",
+                                        "variableType": "::Node",
+                                        "children": [
+                                          {
+                                            "type": "com.dse.testdata.object.ConstructorDataNode",
+                                            "name": "Node(int)",
+                                            "virtual_name": "root0__left[0]",
+                                            "dataType": "::Node",
+                                            "realType": "::Node",
+                                            "functionNode": ".\\p2\\0116-populating-next-right-pointers-in-each-node\\0116-populating-next-right-pointers-in-each-node.cpp\\Node\\Node(int)",
+                                            "children": [
+                                              {
+                                                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                                "name": "_val",
+                                                "virtual_name": "root0__left0__val",
+                                                "dataType": "int",
+                                                "realType": "int",
+                                                "external": false,
+                                                "correspondingVar": ".\\p2\\0116-populating-next-right-pointers-in-each-node\\0116-populating-next-right-pointers-in-each-node.cpp\\Node\\Node(int)\\_val",
+                                                "correspondingType": "int",
+                                                "value": "-479020959"
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                            "name": "val",
+                                            "virtual_name": "root0__left[0].val",
+                                            "dataType": "int",
+                                            "realType": "int",
+                                            "external": false,
+                                            "correspondingVar": ".\\p2\\0116-populating-next-right-pointers-in-each-node\\0116-populating-next-right-pointers-in-each-node.cpp\\Node\\val",
+                                            "correspondingType": "int",
+                                            "value": "null"
+                                          },
+                                          {
+                                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                            "name": "left",
+                                            "virtual_name": "root0__left[0].left",
+                                            "dataType": "Node*",
+                                            "realType": "Node*",
+                                            "external": false,
+                                            "correspondingVar": ".\\p2\\0116-populating-next-right-pointers-in-each-node\\0116-populating-next-right-pointers-in-each-node.cpp\\Node\\left",
+                                            "correspondingType": ".\\p2\\0116-populating-next-right-pointers-in-each-node\\0116-populating-next-right-pointers-in-each-node.cpp\\Node",
+                                            "level": 1
+                                          },
+                                          {
+                                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                            "name": "right",
+                                            "virtual_name": "root0__left[0].right",
+                                            "dataType": "Node*",
+                                            "realType": "Node*",
+                                            "external": false,
+                                            "correspondingVar": ".\\p2\\0116-populating-next-right-pointers-in-each-node\\0116-populating-next-right-pointers-in-each-node.cpp\\Node\\right",
+                                            "correspondingType": ".\\p2\\0116-populating-next-right-pointers-in-each-node\\0116-populating-next-right-pointers-in-each-node.cpp\\Node",
+                                            "level": 1
+                                          },
+                                          {
+                                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                            "name": "next",
+                                            "virtual_name": "root0__left[0].next",
+                                            "dataType": "Node*",
+                                            "realType": "Node*",
+                                            "external": false,
+                                            "correspondingVar": ".\\p2\\0116-populating-next-right-pointers-in-each-node\\0116-populating-next-right-pointers-in-each-node.cpp\\Node\\next",
+                                            "correspondingType": ".\\p2\\0116-populating-next-right-pointers-in-each-node\\0116-populating-next-right-pointers-in-each-node.cpp\\Node",
+                                            "level": 1
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "com.dse.testdata.object.ClassDataNode",
+                                    "name": "_left[1]",
+                                    "virtual_name": "root0__left[1]",
+                                    "dataType": "Node",
+                                    "realType": "Node",
+                                    "external": false,
+                                    "correspondingVar": ".\\p2\\0116-populating-next-right-pointers-in-each-node\\0116-populating-next-right-pointers-in-each-node.cpp\\Node\\Node(int,Node*,Node*,Node*)\\_left\\_left[1]",
+                                    "correspondingType": ".\\p2\\0116-populating-next-right-pointers-in-each-node\\0116-populating-next-right-pointers-in-each-node.cpp\\Node",
+                                    "children": [
+                                      {
+                                        "type": "com.dse.testdata.object.SubClassDataNode",
+                                        "name": "_left",
+                                        "virtual_name": "root0__left[1]",
+                                        "dataType": "::Node",
+                                        "realType": "::Node",
+                                        "external": false,
+                                        "correspondingVar": ".\\p2\\0116-populating-next-right-pointers-in-each-node\\0116-populating-next-right-pointers-in-each-node.cpp\\Node\\Node(int,Node*,Node*,Node*)\\_left\\_left",
+                                        "correspondingType": ".\\p2\\0116-populating-next-right-pointers-in-each-node\\0116-populating-next-right-pointers-in-each-node.cpp\\Node",
+                                        "rawType": "::Node",
+                                        "selectedConstructor": "Node(int)",
+                                        "variableType": "::Node",
+                                        "children": [
+                                          {
+                                            "type": "com.dse.testdata.object.ConstructorDataNode",
+                                            "name": "Node(int)",
+                                            "virtual_name": "root0__left[1]",
+                                            "dataType": "::Node",
+                                            "realType": "::Node",
+                                            "functionNode": ".\\p2\\0116-populating-next-right-pointers-in-each-node\\0116-populating-next-right-pointers-in-each-node.cpp\\Node\\Node(int)",
+                                            "children": [
+                                              {
+                                                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                                "name": "_val",
+                                                "virtual_name": "root0__left1__val",
+                                                "dataType": "int",
+                                                "realType": "int",
+                                                "external": false,
+                                                "correspondingVar": ".\\p2\\0116-populating-next-right-pointers-in-each-node\\0116-populating-next-right-pointers-in-each-node.cpp\\Node\\Node(int)\\_val",
+                                                "correspondingType": "int",
+                                                "value": "0"
+                                              }
+                                            ]
+                                          },
+                                          {
+                                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                            "name": "val",
+                                            "virtual_name": "root0__left[1].val",
+                                            "dataType": "int",
+                                            "realType": "int",
+                                            "external": false,
+                                            "correspondingVar": ".\\p2\\0116-populating-next-right-pointers-in-each-node\\0116-populating-next-right-pointers-in-each-node.cpp\\Node\\val",
+                                            "correspondingType": "int",
+                                            "value": "null"
+                                          },
+                                          {
+                                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                            "name": "left",
+                                            "virtual_name": "root0__left[1].left",
+                                            "dataType": "Node*",
+                                            "realType": "Node*",
+                                            "external": false,
+                                            "correspondingVar": ".\\p2\\0116-populating-next-right-pointers-in-each-node\\0116-populating-next-right-pointers-in-each-node.cpp\\Node\\left",
+                                            "correspondingType": ".\\p2\\0116-populating-next-right-pointers-in-each-node\\0116-populating-next-right-pointers-in-each-node.cpp\\Node",
+                                            "level": 1
+                                          },
+                                          {
+                                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                            "name": "right",
+                                            "virtual_name": "root0__left[1].right",
+                                            "dataType": "Node*",
+                                            "realType": "Node*",
+                                            "external": false,
+                                            "correspondingVar": ".\\p2\\0116-populating-next-right-pointers-in-each-node\\0116-populating-next-right-pointers-in-each-node.cpp\\Node\\right",
+                                            "correspondingType": ".\\p2\\0116-populating-next-right-pointers-in-each-node\\0116-populating-next-right-pointers-in-each-node.cpp\\Node",
+                                            "level": 1
+                                          },
+                                          {
+                                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                            "name": "next",
+                                            "virtual_name": "root0__left[1].next",
+                                            "dataType": "Node*",
+                                            "realType": "Node*",
+                                            "external": false,
+                                            "correspondingVar": ".\\p2\\0116-populating-next-right-pointers-in-each-node\\0116-populating-next-right-pointers-in-each-node.cpp\\Node\\next",
+                                            "correspondingType": ".\\p2\\0116-populating-next-right-pointers-in-each-node\\0116-populating-next-right-pointers-in-each-node.cpp\\Node",
+                                            "level": 1
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                "name": "_right",
+                                "virtual_name": "root0__right",
+                                "dataType": "Node*",
+                                "realType": "Node*",
+                                "external": false,
+                                "correspondingVar": ".\\p2\\0116-populating-next-right-pointers-in-each-node\\0116-populating-next-right-pointers-in-each-node.cpp\\Node\\Node(int,Node*,Node*,Node*)\\_right",
+                                "correspondingType": ".\\p2\\0116-populating-next-right-pointers-in-each-node\\0116-populating-next-right-pointers-in-each-node.cpp\\Node",
+                                "level": 1
+                              },
+                              {
+                                "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                "name": "_next",
+                                "virtual_name": "root0__next",
+                                "dataType": "Node*",
+                                "realType": "Node*",
+                                "external": false,
+                                "correspondingVar": ".\\p2\\0116-populating-next-right-pointers-in-each-node\\0116-populating-next-right-pointers-in-each-node.cpp\\Node\\Node(int,Node*,Node*,Node*)\\_next",
+                                "correspondingType": ".\\p2\\0116-populating-next-right-pointers-in-each-node\\0116-populating-next-right-pointers-in-each-node.cpp\\Node",
+                                "level": 1
+                              }
+                            ]
+                          },
+                          {
+                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                            "name": "val",
+                            "virtual_name": "root[0].val",
+                            "dataType": "int",
+                            "realType": "int",
+                            "external": false,
+                            "correspondingVar": ".\\p2\\0116-populating-next-right-pointers-in-each-node\\0116-populating-next-right-pointers-in-each-node.cpp\\Node\\val",
+                            "correspondingType": "int",
+                            "value": "null"
+                          },
+                          {
+                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                            "name": "left",
+                            "virtual_name": "root[0].left",
+                            "dataType": "Node*",
+                            "realType": "Node*",
+                            "external": false,
+                            "correspondingVar": ".\\p2\\0116-populating-next-right-pointers-in-each-node\\0116-populating-next-right-pointers-in-each-node.cpp\\Node\\left",
+                            "correspondingType": ".\\p2\\0116-populating-next-right-pointers-in-each-node\\0116-populating-next-right-pointers-in-each-node.cpp\\Node",
+                            "level": 1
+                          },
+                          {
+                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                            "name": "right",
+                            "virtual_name": "root[0].right",
+                            "dataType": "Node*",
+                            "realType": "Node*",
+                            "external": false,
+                            "correspondingVar": ".\\p2\\0116-populating-next-right-pointers-in-each-node\\0116-populating-next-right-pointers-in-each-node.cpp\\Node\\right",
+                            "correspondingType": ".\\p2\\0116-populating-next-right-pointers-in-each-node\\0116-populating-next-right-pointers-in-each-node.cpp\\Node",
+                            "level": 1
+                          },
+                          {
+                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                            "name": "next",
+                            "virtual_name": "root[0].next",
+                            "dataType": "Node*",
+                            "realType": "Node*",
+                            "external": false,
+                            "correspondingVar": ".\\p2\\0116-populating-next-right-pointers-in-each-node\\0116-populating-next-right-pointers-in-each-node.cpp\\Node\\next",
+                            "correspondingType": ".\\p2\\0116-populating-next-right-pointers-in-each-node\\0116-populating-next-right-pointers-in-each-node.cpp\\Node",
+                            "level": 1
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.RootDataNode",
+        "name": "STUB",
+        "virtual_name": "NON_VALUE",
+        "functionNode": ".\\p2\\0116-populating-next-right-pointers-in-each-node\\0116-populating-next-right-pointers-in-each-node.cpp\\Solution\\bfs(Node*\u0026)",
+        "level": "STUB"
+      }
+    ]
+  },
+  "procedures": [
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "root \u003d\u003d NULL",
+      "isSelected": false,
+      "location": 46,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "q.empty() \u003d\u003d false",
+      "isSelected": false,
+      "location": 178,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "n--",
+      "isSelected": false,
+      "location": 368,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "temp-\u003eleft !\u003d NULL",
+      "isSelected": false,
+      "location": 551,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "temp-\u003eright !\u003d NULL",
+      "isSelected": false,
+      "location": 624,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "i\u003ck",
+      "isSelected": false,
+      "location": 781,
+      "calls": [],
+      "children": []
+    }
+  ]
+}

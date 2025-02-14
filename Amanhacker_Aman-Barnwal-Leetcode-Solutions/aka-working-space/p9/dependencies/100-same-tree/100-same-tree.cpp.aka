@@ -1,0 +1,50 @@
+{
+  "path": ".\\p9\\100-same-tree\\100-same-tree.cpp",
+  "dependency": [
+    {
+      "start": ".\\p9\\100-same-tree\\100-same-tree.cpp\\TreeNode\\TreeNode()",
+      "start-type": "ConstructorNode",
+      "start-md5": "866757dd49ee1720a0f45556eb39c07f",
+      "end": ".\\p9\\100-same-tree\\100-same-tree.cpp\\TreeNode",
+      "end-type": "StructNode",
+      "type": "RealParentDependency",
+      "end-md5": "af8c4729b7f783f897357a4f57d1eaa2"
+    },
+    {
+      "start": ".\\p9\\100-same-tree\\100-same-tree.cpp\\TreeNode\\TreeNode(int)",
+      "start-type": "ConstructorNode",
+      "start-md5": "bb87074b4f35e01debcefc666303a286",
+      "end": ".\\p9\\100-same-tree\\100-same-tree.cpp\\TreeNode",
+      "end-type": "StructNode",
+      "type": "RealParentDependency",
+      "end-md5": "af8c4729b7f783f897357a4f57d1eaa2"
+    },
+    {
+      "start": ".\\p9\\100-same-tree\\100-same-tree.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)",
+      "start-type": "ConstructorNode",
+      "start-md5": "f428e6143c89cb81fb9ca01cfbd1bb91",
+      "end": ".\\p9\\100-same-tree\\100-same-tree.cpp\\TreeNode",
+      "end-type": "StructNode",
+      "type": "RealParentDependency",
+      "end-md5": "af8c4729b7f783f897357a4f57d1eaa2"
+    },
+    {
+      "start": ".\\p9\\100-same-tree\\100-same-tree.cpp\\Solution\\isSameTree(TreeNode*,TreeNode*)",
+      "start-type": "FunctionNode",
+      "start-md5": "309861b2471dd17c8886244a22393805",
+      "end": ".\\p9\\100-same-tree\\100-same-tree.cpp\\Solution",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "4bdc614f0fd36267ed2ab435e6c8066c"
+    },
+    {
+      "start": ".\\p9\\100-same-tree\\100-same-tree.cpp\\Solution\\isSameTree(TreeNode*,TreeNode*)",
+      "start-type": "FunctionNode",
+      "start-md5": "309861b2471dd17c8886244a22393805",
+      "end": ".\\p9\\100-same-tree\\100-same-tree.cpp\\Solution\\isSameTree(TreeNode*,TreeNode*)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "309861b2471dd17c8886244a22393805"
+    }
+  ]
+}

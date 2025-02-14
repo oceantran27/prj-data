@@ -1,0 +1,26 @@
+{
+  "function": ".\\p5\\0429-n-ary-tree-level-order-traversal\\0429-n-ary-tree-level-order-traversal.cpp\\Node\\Node(int)",
+  "testdataGenStrategy": "BEST COVERAGE",
+  "theMaxNumberOfIterations": 10,
+  "floatAndDoubleDelta": 0.1,
+  "lowerBoundOfOtherNumberVars": "MIN",
+  "upperBoundOfOtherNumberVars": "MAX",
+  "lowerBoundOfOtherCharacterVars": "MIN",
+  "upperBoundOfOtherCharacterVars": "MAX",
+  "lowerBoundOfOtherArrays": "1",
+  "upperBoundOfOtherArrays": "3",
+  "lowerBoundOfOtherPointers": "0",
+  "upperBoundOfOtherPointers": "3",
+  "boundOfArguments": [
+    {
+      "type_class": "com.dse.boundary.MultiplePrimitiveBound",
+      "name": "_val",
+      "equalAreas": [
+        {
+          "lower": "-2147483648",
+          "upper": "2147483647"
+        }
+      ]
+    }
+  ]
+}

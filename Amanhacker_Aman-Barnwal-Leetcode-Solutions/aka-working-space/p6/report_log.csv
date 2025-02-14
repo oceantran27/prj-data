@@ -1,0 +1,34 @@
+Start autogen for function:#TreeNode()#Source code file:#D:\Projects\AKAUT\prj-data\Amanhacker_Aman-Barnwal-Leetcode-Solutions\p6\0652-find-duplicate-subtrees\0652-find-duplicate-subtrees.cpp#at time: #2025-02-14 07:29:47#
+Start autogen for function:#TreeNode(int)#Source code file:#D:\Projects\AKAUT\prj-data\Amanhacker_Aman-Barnwal-Leetcode-Solutions\p6\0652-find-duplicate-subtrees\0652-find-duplicate-subtrees.cpp#at time: #2025-02-14 07:29:47#
+End autogen for function:#TreeNode()#at time: #2025-02-14 07:30:07#
+Start autogen for function:#TreeNode(int,TreeNode*,TreeNode*)#Source code file:#D:\Projects\AKAUT\prj-data\Amanhacker_Aman-Barnwal-Leetcode-Solutions\p6\0652-find-duplicate-subtrees\0652-find-duplicate-subtrees.cpp#at time: #2025-02-14 07:30:07#
+End autogen for function:#TreeNode(int)#at time: #2025-02-14 07:31:06#
+Start autogen for function:#solve(TreeNode*,vector<TreeNode*>&,unordered_map<string,int>&)#Source code file:#D:\Projects\AKAUT\prj-data\Amanhacker_Aman-Barnwal-Leetcode-Solutions\p6\0652-find-duplicate-subtrees\0652-find-duplicate-subtrees.cpp#at time: #2025-02-14 07:31:06#
+End autogen for function:#TreeNode(int,TreeNode*,TreeNode*)#at time: #2025-02-14 07:31:17#
+Start autogen for function:#findDuplicateSubtrees(TreeNode*)#Source code file:#D:\Projects\AKAUT\prj-data\Amanhacker_Aman-Barnwal-Leetcode-Solutions\p6\0652-find-duplicate-subtrees\0652-find-duplicate-subtrees.cpp#at time: #2025-02-14 07:31:17#
+End autogen for function:#findDuplicateSubtrees(TreeNode*)#at time: #2025-02-14 07:32:12#
+Start autogen for function:#TreeNode()#Source code file:#D:\Projects\AKAUT\prj-data\Amanhacker_Aman-Barnwal-Leetcode-Solutions\p6\0623-add-one-row-to-tree\0623-add-one-row-to-tree.cpp#at time: #2025-02-14 07:32:12#
+End autogen for function:#solve(TreeNode*,vector<TreeNode*>&,unordered_map<string,int>&)#at time: #2025-02-14 07:32:21#
+Start autogen for function:#TreeNode(int)#Source code file:#D:\Projects\AKAUT\prj-data\Amanhacker_Aman-Barnwal-Leetcode-Solutions\p6\0623-add-one-row-to-tree\0623-add-one-row-to-tree.cpp#at time: #2025-02-14 07:32:21#
+End autogen for function:#TreeNode()#at time: #2025-02-14 07:32:26#
+Start autogen for function:#TreeNode(int,TreeNode*,TreeNode*)#Source code file:#D:\Projects\AKAUT\prj-data\Amanhacker_Aman-Barnwal-Leetcode-Solutions\p6\0623-add-one-row-to-tree\0623-add-one-row-to-tree.cpp#at time: #2025-02-14 07:32:26#
+End autogen for function:#TreeNode(int)#at time: #2025-02-14 07:33:31#
+Start autogen for function:#insert(TreeNode*&,int,int,int)#Source code file:#D:\Projects\AKAUT\prj-data\Amanhacker_Aman-Barnwal-Leetcode-Solutions\p6\0623-add-one-row-to-tree\0623-add-one-row-to-tree.cpp#at time: #2025-02-14 07:33:31#
+End autogen for function:#TreeNode(int,TreeNode*,TreeNode*)#at time: #2025-02-14 07:33:33#
+Start autogen for function:#addOneRow(TreeNode*,int,int)#Source code file:#D:\Projects\AKAUT\prj-data\Amanhacker_Aman-Barnwal-Leetcode-Solutions\p6\0623-add-one-row-to-tree\0623-add-one-row-to-tree.cpp#at time: #2025-02-14 07:33:33#
+End autogen for function:#insert(TreeNode*&,int,int,int)#at time: #2025-02-14 07:34:47#
+Start autogen for function:#fib(int)#Source code file:#D:\Projects\AKAUT\prj-data\Amanhacker_Aman-Barnwal-Leetcode-Solutions\p6\0509-fibonacci-number\0509-fibonacci-number.cpp#at time: #2025-02-14 07:34:47#
+End autogen for function:#addOneRow(TreeNode*,int,int)#at time: #2025-02-14 07:34:55#
+Start autogen for function:#TreeNode()#Source code file:#D:\Projects\AKAUT\prj-data\Amanhacker_Aman-Barnwal-Leetcode-Solutions\p6\0508-most-frequent-subtree-sum\0508-most-frequent-subtree-sum.cpp#at time: #2025-02-14 07:34:55#
+End autogen for function:#TreeNode()#at time: #2025-02-14 07:35:10#
+Start autogen for function:#TreeNode(int)#Source code file:#D:\Projects\AKAUT\prj-data\Amanhacker_Aman-Barnwal-Leetcode-Solutions\p6\0508-most-frequent-subtree-sum\0508-most-frequent-subtree-sum.cpp#at time: #2025-02-14 07:35:10#
+End autogen for function:#fib(int)#at time: #2025-02-14 07:35:30#
+Start autogen for function:#TreeNode(int,TreeNode*,TreeNode*)#Source code file:#D:\Projects\AKAUT\prj-data\Amanhacker_Aman-Barnwal-Leetcode-Solutions\p6\0508-most-frequent-subtree-sum\0508-most-frequent-subtree-sum.cpp#at time: #2025-02-14 07:35:30#
+End autogen for function:#TreeNode(int)#at time: #2025-02-14 07:36:20#
+Start autogen for function:#findSubtreeSum(TreeNode*,int&)#Source code file:#D:\Projects\AKAUT\prj-data\Amanhacker_Aman-Barnwal-Leetcode-Solutions\p6\0508-most-frequent-subtree-sum\0508-most-frequent-subtree-sum.cpp#at time: #2025-02-14 07:36:20#
+End autogen for function:#TreeNode(int,TreeNode*,TreeNode*)#at time: #2025-02-14 07:36:37#
+Start autogen for function:#dfs(TreeNode*,unordered_map<int,int>&)#Source code file:#D:\Projects\AKAUT\prj-data\Amanhacker_Aman-Barnwal-Leetcode-Solutions\p6\0508-most-frequent-subtree-sum\0508-most-frequent-subtree-sum.cpp#at time: #2025-02-14 07:36:37#
+End autogen for function:#findSubtreeSum(TreeNode*,int&)#at time: #2025-02-14 07:37:30#
+Start autogen for function:#findFrequentTreeSum(TreeNode*)#Source code file:#D:\Projects\AKAUT\prj-data\Amanhacker_Aman-Barnwal-Leetcode-Solutions\p6\0508-most-frequent-subtree-sum\0508-most-frequent-subtree-sum.cpp#at time: #2025-02-14 07:37:30#
+End autogen for function:#dfs(TreeNode*,unordered_map<int,int>&)#at time: #2025-02-14 07:37:44#
+End autogen for function:#findFrequentTreeSum(TreeNode*)#at time: #2025-02-14 07:38:36#

@@ -1,0 +1,35 @@
+<pre>...
+...
+...
+...
+<b style="color: grey;">56    </b>            }
+<b style="color: grey;">57    </b>        }
+<b style="color: grey;">58    </b>        
+<b style="color: grey;">59    </b>        return;
+<b style="color: grey;">60    </b>    }
+<b style="color: grey;">61    </b>    
+<b style="color: grey;">62    </b>    TreeNode* findLCA(TreeNode* root, TreeNode* l, TreeNode* r) {
+<b style="color: grey;">63    </b>        
+<b style="color: grey;">64    </b>        if(<b style="background-color:yellow;color:black";>root == NULL</b>)                                        <b style="background-color:yellow;color:black";>return NULL;</b>
+<b style="color: grey;">65    </b>        
+<b style="color: grey;">66    </b>        if(<b style="background-color:yellow;color:black";>root-&gt;val == l-&gt;val || root-&gt;val == r-&gt;val</b>)          return root;
+<b style="color: grey;">67    </b>        
+<b style="color: grey;">68    </b>        <b style="background-color:yellow;color:black";>TreeNode* left = findLCA(root-&gt;left, l, r);</b>
+<b style="color: grey;">69    </b>        <b style="background-color:yellow;color:black";>TreeNode* right = findLCA(root-&gt;right, l, r);</b>
+<b style="color: grey;">70    </b>        
+<b style="color: grey;">71    </b>        if(<b style="background-color:yellow;color:black";>left != NULL &amp;&amp; right != NULL</b>)                       return root;
+<b style="color: grey;">72    </b>        
+<b style="color: grey;">73    </b>        if(<b style="background-color:yellow;color:black";>left != NULL</b>)                                        return left;
+<b style="color: grey;">74    </b>        else                                                    <b style="background-color:yellow;color:black";>return right;</b>
+<b style="color: grey;">75    </b>    }
+<b style="color: grey;">76    </b>    
+<b style="color: grey;">77    </b>    TreeNode* subtreeWithAllDeepest(TreeNode* root) {
+<b style="color: grey;">78    </b>    
+<b style="color: grey;">79    </b>        if(root == NULL)                            return NULL;
+<b style="color: grey;">80    </b>        
+<b style="color: grey;">81    </b>        // Find all deepest node and find the lca of all
+...
+...
+...
+...
+</pre>

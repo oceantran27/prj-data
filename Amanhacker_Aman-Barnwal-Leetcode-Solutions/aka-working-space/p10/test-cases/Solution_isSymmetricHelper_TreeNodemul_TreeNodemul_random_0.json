@@ -1,0 +1,1588 @@
+{
+  "name": "Solution_isSymmetricHelper_TreeNodemul_TreeNodemul_random_0",
+  "status": "success",
+  "testCaseUserCode": {
+    "includePaths": [],
+    "setUpContent": "// set up\n;",
+    "tearDownContent": "// tear down\n;"
+  },
+  "path": ".\\\\aka-working-space\\\\p10\\\\test-cases\\Solution_isSymmetricHelper_TreeNodemul_TreeNodemul_random_0.json",
+  "sourceCode": ".\\\\aka-working-space\\\\p10\\\\test-drivers\\Solution_isSymmetricHelper_TreeNodemul_TreeNodemul_random_0.cpp",
+  "testPath": ".\\\\aka-working-space\\\\p10\\\\test-paths\\Solution_isSymmetricHelper_TreeNodemul_TreeNodemul_random_0.tp",
+  "executable": ".\\\\aka-working-space\\\\p10\\\\exe\\Solution_isSymmetricHelper_TreeNodemul_TreeNodemul_random_0.exe",
+  "commandConfig": ".\\aka-working-space\\p10\\test-case-commands\\Solution_isSymmetricHelper_TreeNodemul_TreeNodemul_random_0.json",
+  "commandDebug": ".\\\\aka-working-space\\\\p10\\\\debugger\\\\commands\\Solution_isSymmetricHelper_TreeNodemul_TreeNodemul_random_0.json",
+  "breakPoint": ".\\\\aka-working-space\\\\p10\\\\debugger\\\\breakpoints\\Solution_isSymmetricHelper_TreeNodemul_TreeNodemul_random_0.br.json",
+  "debugExecutable": ".\\\\aka-working-space\\\\p10\\\\exe\\debug_Solution_isSymmetricHelper_TreeNodemul_TreeNodemul_random_0.exe",
+  "executionResult": ".\\\\aka-working-space\\\\p10\\\\execution-results\\Solution_isSymmetricHelper_TreeNodemul_TreeNodemul_random_0.xml",
+  "creationDate": "2025-02-14T10:27:01.810708800",
+  "executionDate": "2025-02-14T10:27:04.957813400",
+  "rootDataNode": {
+    "type": "com.dse.testdata.object.RootDataNode",
+    "name": "ROOT",
+    "virtual_name": "NON_VALUE",
+    "functionNode": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\Solution\\isSymmetricHelper(TreeNode*,TreeNode*)",
+    "level": "ROOT",
+    "children": [
+      {
+        "type": "com.dse.testdata.object.UnitUnderTestNode",
+        "name": "101-symmetric-tree.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp",
+        "children": [
+          {
+            "type": "com.dse.testdata.object.GlobalRootDataNode",
+            "name": "GLOBAL",
+            "virtual_name": "NON_VALUE",
+            "functionNode": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\Solution\\isSymmetricHelper(TreeNode*,TreeNode*)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": false,
+                "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\Solution"
+              }
+            ],
+            "level": "GLOBAL",
+            "children": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": true,
+                "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\Solution",
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.SubClassDataNode",
+                    "name": "AKA_INSTANCE___Solution",
+                    "virtual_name": "AKA_INSTANCE___Solution",
+                    "dataType": "::Solution",
+                    "realType": "::Solution",
+                    "external": false,
+                    "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\Solution\\AKA_INSTANCE___Solution",
+                    "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\Solution",
+                    "rawType": "::Solution",
+                    "selectedConstructor": "Solution()",
+                    "variableType": "::Solution",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                        "name": "Solution()",
+                        "virtual_name": "AKA_INSTANCE___Solution",
+                        "dataType": "::Solution",
+                        "realType": "::Solution",
+                        "functionNode": "\\Solution()"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "com.dse.testdata.object.SubprogramNode",
+            "name": "isSymmetricHelper(TreeNode*,TreeNode*)",
+            "virtual_name": "NON_VALUE",
+            "dataType": "bool",
+            "realType": "bool",
+            "functionNode": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\Solution\\isSymmetricHelper(TreeNode*,TreeNode*)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.PointerStructureDataNode",
+                "name": "node1",
+                "virtual_name": "EXPECTED_node1",
+                "dataType": "TreeNode*",
+                "realType": "TreeNode*",
+                "external": false,
+                "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\Solution\\isSymmetricHelper(TreeNode*,TreeNode*)\\node1",
+                "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                "level": 1
+              },
+              {
+                "type": "com.dse.testdata.object.PointerStructureDataNode",
+                "name": "node2",
+                "virtual_name": "EXPECTED_node2",
+                "dataType": "TreeNode*",
+                "realType": "TreeNode*",
+                "external": false,
+                "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\Solution\\isSymmetricHelper(TreeNode*,TreeNode*)\\node2",
+                "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                "level": 1
+              }
+            ],
+            "children": [
+              {
+                "type": "com.dse.testdata.object.RootDataNode",
+                "name": "STATIC",
+                "virtual_name": "NON_VALUE",
+                "functionNode": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\Solution\\isSymmetricHelper(TreeNode*,TreeNode*)",
+                "level": "STATIC"
+              },
+              {
+                "type": "com.dse.testdata.object.PointerStructureDataNode",
+                "name": "node1",
+                "virtual_name": "node1",
+                "dataType": "TreeNode*",
+                "realType": "TreeNode*",
+                "external": false,
+                "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\Solution\\isSymmetricHelper(TreeNode*,TreeNode*)\\node1",
+                "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                "level": 1,
+                "size": 3,
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.StructDataNode",
+                    "name": "node1[0]",
+                    "virtual_name": "node1[0]",
+                    "dataType": "TreeNode",
+                    "realType": "TreeNode",
+                    "external": false,
+                    "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\Solution\\isSymmetricHelper(TreeNode*,TreeNode*)\\node1\\node1[0]",
+                    "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.SubStructDataNode",
+                        "name": "node1",
+                        "virtual_name": "node1[0]",
+                        "dataType": "::TreeNode",
+                        "realType": "::TreeNode",
+                        "external": false,
+                        "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\Solution\\isSymmetricHelper(TreeNode*,TreeNode*)\\node1\\node1",
+                        "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                        "rawType": "::TreeNode",
+                        "selectedConstructor": "TreeNode()",
+                        "variableType": "::TreeNode",
+                        "children": [
+                          {
+                            "type": "com.dse.testdata.object.ConstructorDataNode",
+                            "name": "TreeNode()",
+                            "virtual_name": "node1[0]",
+                            "dataType": "::TreeNode",
+                            "realType": "::TreeNode",
+                            "functionNode": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\TreeNode()"
+                          },
+                          {
+                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                            "name": "val",
+                            "virtual_name": "node1[0].val",
+                            "dataType": "int",
+                            "realType": "int",
+                            "external": false,
+                            "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\val",
+                            "correspondingType": "int",
+                            "value": "100211214"
+                          },
+                          {
+                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                            "name": "left",
+                            "virtual_name": "node1[0].left",
+                            "dataType": "TreeNode*",
+                            "realType": "TreeNode*",
+                            "external": false,
+                            "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\left",
+                            "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                            "level": 1,
+                            "size": 3,
+                            "children": [
+                              {
+                                "type": "com.dse.testdata.object.StructDataNode",
+                                "name": "left[0]",
+                                "virtual_name": "node1[0].left[0]",
+                                "dataType": "TreeNode",
+                                "realType": "TreeNode",
+                                "external": false,
+                                "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\left\\left[0]",
+                                "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                                "children": [
+                                  {
+                                    "type": "com.dse.testdata.object.SubStructDataNode",
+                                    "name": "left",
+                                    "virtual_name": "node1[0].left[0]",
+                                    "dataType": "::TreeNode",
+                                    "realType": "::TreeNode",
+                                    "external": false,
+                                    "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\left\\left",
+                                    "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                                    "rawType": "::TreeNode",
+                                    "selectedConstructor": "TreeNode()",
+                                    "variableType": "::TreeNode",
+                                    "children": [
+                                      {
+                                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                                        "name": "TreeNode()",
+                                        "virtual_name": "node1[0].left[0]",
+                                        "dataType": "::TreeNode",
+                                        "realType": "::TreeNode",
+                                        "functionNode": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\TreeNode()"
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                        "name": "val",
+                                        "virtual_name": "node1[0].left[0].val",
+                                        "dataType": "int",
+                                        "realType": "int",
+                                        "external": false,
+                                        "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\val",
+                                        "correspondingType": "int",
+                                        "value": "1529800101"
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                        "name": "left",
+                                        "virtual_name": "node1[0].left[0].left",
+                                        "dataType": "TreeNode*",
+                                        "realType": "TreeNode*",
+                                        "external": false,
+                                        "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\left",
+                                        "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                                        "level": 1
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                        "name": "right",
+                                        "virtual_name": "node1[0].left[0].right",
+                                        "dataType": "TreeNode*",
+                                        "realType": "TreeNode*",
+                                        "external": false,
+                                        "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\right",
+                                        "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                                        "level": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "com.dse.testdata.object.StructDataNode",
+                                "name": "left[1]",
+                                "virtual_name": "node1[0].left[1]",
+                                "dataType": "TreeNode",
+                                "realType": "TreeNode",
+                                "external": false,
+                                "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\left\\left[1]",
+                                "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                                "children": [
+                                  {
+                                    "type": "com.dse.testdata.object.SubStructDataNode",
+                                    "name": "left",
+                                    "virtual_name": "node1[0].left[1]",
+                                    "dataType": "::TreeNode",
+                                    "realType": "::TreeNode",
+                                    "external": false,
+                                    "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\left\\left",
+                                    "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                                    "rawType": "::TreeNode",
+                                    "selectedConstructor": "TreeNode(int,TreeNode*,TreeNode*)",
+                                    "variableType": "::TreeNode",
+                                    "children": [
+                                      {
+                                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                                        "name": "TreeNode(int,TreeNode*,TreeNode*)",
+                                        "virtual_name": "node1[0].left[1]",
+                                        "dataType": "::TreeNode",
+                                        "realType": "::TreeNode",
+                                        "functionNode": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)",
+                                        "children": [
+                                          {
+                                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                            "name": "x",
+                                            "virtual_name": "node10_left1_x",
+                                            "dataType": "int",
+                                            "realType": "int",
+                                            "external": false,
+                                            "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)\\x",
+                                            "correspondingType": "int",
+                                            "value": "6424022"
+                                          },
+                                          {
+                                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                            "name": "left",
+                                            "virtual_name": "node10_left1_left",
+                                            "dataType": "TreeNode*",
+                                            "realType": "TreeNode*",
+                                            "external": false,
+                                            "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)\\left",
+                                            "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                                            "level": 1
+                                          },
+                                          {
+                                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                            "name": "right",
+                                            "virtual_name": "node10_left1_right",
+                                            "dataType": "TreeNode*",
+                                            "realType": "TreeNode*",
+                                            "external": false,
+                                            "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)\\right",
+                                            "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                                            "level": 1
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                        "name": "val",
+                                        "virtual_name": "node1[0].left[1].val",
+                                        "dataType": "int",
+                                        "realType": "int",
+                                        "external": false,
+                                        "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\val",
+                                        "correspondingType": "int",
+                                        "value": "417310960"
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                        "name": "left",
+                                        "virtual_name": "node1[0].left[1].left",
+                                        "dataType": "TreeNode*",
+                                        "realType": "TreeNode*",
+                                        "external": false,
+                                        "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\left",
+                                        "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                                        "level": 1
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                        "name": "right",
+                                        "virtual_name": "node1[0].left[1].right",
+                                        "dataType": "TreeNode*",
+                                        "realType": "TreeNode*",
+                                        "external": false,
+                                        "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\right",
+                                        "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                                        "level": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "com.dse.testdata.object.StructDataNode",
+                                "name": "left[2]",
+                                "virtual_name": "node1[0].left[2]",
+                                "dataType": "TreeNode",
+                                "realType": "TreeNode",
+                                "external": false,
+                                "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\left\\left[2]",
+                                "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                                "children": [
+                                  {
+                                    "type": "com.dse.testdata.object.SubStructDataNode",
+                                    "name": "left",
+                                    "virtual_name": "node1[0].left[2]",
+                                    "dataType": "::TreeNode",
+                                    "realType": "::TreeNode",
+                                    "external": false,
+                                    "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\left\\left",
+                                    "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                                    "rawType": "::TreeNode",
+                                    "selectedConstructor": "TreeNode(int)",
+                                    "variableType": "::TreeNode",
+                                    "children": [
+                                      {
+                                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                                        "name": "TreeNode(int)",
+                                        "virtual_name": "node1[0].left[2]",
+                                        "dataType": "::TreeNode",
+                                        "realType": "::TreeNode",
+                                        "functionNode": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\TreeNode(int)",
+                                        "children": [
+                                          {
+                                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                            "name": "x",
+                                            "virtual_name": "node10_left2_x",
+                                            "dataType": "int",
+                                            "realType": "int",
+                                            "external": false,
+                                            "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\TreeNode(int)\\x",
+                                            "correspondingType": "int",
+                                            "value": "2044742348"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                        "name": "val",
+                                        "virtual_name": "node1[0].left[2].val",
+                                        "dataType": "int",
+                                        "realType": "int",
+                                        "external": false,
+                                        "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\val",
+                                        "correspondingType": "int",
+                                        "value": "-1824772551"
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                        "name": "left",
+                                        "virtual_name": "node1[0].left[2].left",
+                                        "dataType": "TreeNode*",
+                                        "realType": "TreeNode*",
+                                        "external": false,
+                                        "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\left",
+                                        "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                                        "level": 1
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                        "name": "right",
+                                        "virtual_name": "node1[0].left[2].right",
+                                        "dataType": "TreeNode*",
+                                        "realType": "TreeNode*",
+                                        "external": false,
+                                        "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\right",
+                                        "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                                        "level": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                            "name": "right",
+                            "virtual_name": "node1[0].right",
+                            "dataType": "TreeNode*",
+                            "realType": "TreeNode*",
+                            "external": false,
+                            "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\right",
+                            "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                            "level": 1,
+                            "size": 1,
+                            "children": [
+                              {
+                                "type": "com.dse.testdata.object.StructDataNode",
+                                "name": "right[0]",
+                                "virtual_name": "node1[0].right[0]",
+                                "dataType": "TreeNode",
+                                "realType": "TreeNode",
+                                "external": false,
+                                "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\right\\right[0]",
+                                "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                                "children": [
+                                  {
+                                    "type": "com.dse.testdata.object.SubStructDataNode",
+                                    "name": "right",
+                                    "virtual_name": "node1[0].right[0]",
+                                    "dataType": "::TreeNode",
+                                    "realType": "::TreeNode",
+                                    "external": false,
+                                    "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\right\\right",
+                                    "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                                    "rawType": "::TreeNode",
+                                    "selectedConstructor": "TreeNode()",
+                                    "variableType": "::TreeNode",
+                                    "children": [
+                                      {
+                                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                                        "name": "TreeNode()",
+                                        "virtual_name": "node1[0].right[0]",
+                                        "dataType": "::TreeNode",
+                                        "realType": "::TreeNode",
+                                        "functionNode": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\TreeNode()"
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                        "name": "val",
+                                        "virtual_name": "node1[0].right[0].val",
+                                        "dataType": "int",
+                                        "realType": "int",
+                                        "external": false,
+                                        "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\val",
+                                        "correspondingType": "int",
+                                        "value": "-518611379"
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                        "name": "left",
+                                        "virtual_name": "node1[0].right[0].left",
+                                        "dataType": "TreeNode*",
+                                        "realType": "TreeNode*",
+                                        "external": false,
+                                        "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\left",
+                                        "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                                        "level": 1
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                        "name": "right",
+                                        "virtual_name": "node1[0].right[0].right",
+                                        "dataType": "TreeNode*",
+                                        "realType": "TreeNode*",
+                                        "external": false,
+                                        "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\right",
+                                        "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                                        "level": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "com.dse.testdata.object.StructDataNode",
+                    "name": "node1[1]",
+                    "virtual_name": "node1[1]",
+                    "dataType": "TreeNode",
+                    "realType": "TreeNode",
+                    "external": false,
+                    "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\Solution\\isSymmetricHelper(TreeNode*,TreeNode*)\\node1\\node1[1]",
+                    "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.SubStructDataNode",
+                        "name": "node1",
+                        "virtual_name": "node1[1]",
+                        "dataType": "::TreeNode",
+                        "realType": "::TreeNode",
+                        "external": false,
+                        "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\Solution\\isSymmetricHelper(TreeNode*,TreeNode*)\\node1\\node1",
+                        "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                        "rawType": "::TreeNode",
+                        "selectedConstructor": "TreeNode(int,TreeNode*,TreeNode*)",
+                        "variableType": "::TreeNode",
+                        "children": [
+                          {
+                            "type": "com.dse.testdata.object.ConstructorDataNode",
+                            "name": "TreeNode(int,TreeNode*,TreeNode*)",
+                            "virtual_name": "node1[1]",
+                            "dataType": "::TreeNode",
+                            "realType": "::TreeNode",
+                            "functionNode": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)",
+                            "children": [
+                              {
+                                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                "name": "x",
+                                "virtual_name": "node11_x",
+                                "dataType": "int",
+                                "realType": "int",
+                                "external": false,
+                                "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)\\x",
+                                "correspondingType": "int",
+                                "value": "1558208752"
+                              },
+                              {
+                                "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                "name": "left",
+                                "virtual_name": "node11_left",
+                                "dataType": "TreeNode*",
+                                "realType": "TreeNode*",
+                                "external": false,
+                                "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)\\left",
+                                "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                                "level": 1,
+                                "size": 2,
+                                "children": [
+                                  {
+                                    "type": "com.dse.testdata.object.StructDataNode",
+                                    "name": "left[0]",
+                                    "virtual_name": "node11_left[0]",
+                                    "dataType": "TreeNode",
+                                    "realType": "TreeNode",
+                                    "external": false,
+                                    "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)\\left\\left[0]",
+                                    "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                                    "children": [
+                                      {
+                                        "type": "com.dse.testdata.object.SubStructDataNode",
+                                        "name": "left",
+                                        "virtual_name": "node11_left[0]",
+                                        "dataType": "::TreeNode",
+                                        "realType": "::TreeNode",
+                                        "external": false,
+                                        "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)\\left\\left",
+                                        "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                                        "rawType": "::TreeNode",
+                                        "selectedConstructor": "TreeNode()",
+                                        "variableType": "::TreeNode",
+                                        "children": [
+                                          {
+                                            "type": "com.dse.testdata.object.ConstructorDataNode",
+                                            "name": "TreeNode()",
+                                            "virtual_name": "node11_left[0]",
+                                            "dataType": "::TreeNode",
+                                            "realType": "::TreeNode",
+                                            "functionNode": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\TreeNode()"
+                                          },
+                                          {
+                                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                            "name": "val",
+                                            "virtual_name": "node11_left[0].val",
+                                            "dataType": "int",
+                                            "realType": "int",
+                                            "external": false,
+                                            "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\val",
+                                            "correspondingType": "int",
+                                            "value": "275499836"
+                                          },
+                                          {
+                                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                            "name": "left",
+                                            "virtual_name": "node11_left[0].left",
+                                            "dataType": "TreeNode*",
+                                            "realType": "TreeNode*",
+                                            "external": false,
+                                            "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\left",
+                                            "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                                            "level": 1
+                                          },
+                                          {
+                                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                            "name": "right",
+                                            "virtual_name": "node11_left[0].right",
+                                            "dataType": "TreeNode*",
+                                            "realType": "TreeNode*",
+                                            "external": false,
+                                            "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\right",
+                                            "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                                            "level": 1
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "com.dse.testdata.object.StructDataNode",
+                                    "name": "left[1]",
+                                    "virtual_name": "node11_left[1]",
+                                    "dataType": "TreeNode",
+                                    "realType": "TreeNode",
+                                    "external": false,
+                                    "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)\\left\\left[1]",
+                                    "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                                    "children": [
+                                      {
+                                        "type": "com.dse.testdata.object.SubStructDataNode",
+                                        "name": "left",
+                                        "virtual_name": "node11_left[1]",
+                                        "dataType": "::TreeNode",
+                                        "realType": "::TreeNode",
+                                        "external": false,
+                                        "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)\\left\\left",
+                                        "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                                        "rawType": "::TreeNode",
+                                        "selectedConstructor": "TreeNode()",
+                                        "variableType": "::TreeNode",
+                                        "children": [
+                                          {
+                                            "type": "com.dse.testdata.object.ConstructorDataNode",
+                                            "name": "TreeNode()",
+                                            "virtual_name": "node11_left[1]",
+                                            "dataType": "::TreeNode",
+                                            "realType": "::TreeNode",
+                                            "functionNode": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\TreeNode()"
+                                          },
+                                          {
+                                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                            "name": "val",
+                                            "virtual_name": "node11_left[1].val",
+                                            "dataType": "int",
+                                            "realType": "int",
+                                            "external": false,
+                                            "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\val",
+                                            "correspondingType": "int",
+                                            "value": "-1170478556"
+                                          },
+                                          {
+                                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                            "name": "left",
+                                            "virtual_name": "node11_left[1].left",
+                                            "dataType": "TreeNode*",
+                                            "realType": "TreeNode*",
+                                            "external": false,
+                                            "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\left",
+                                            "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                                            "level": 1
+                                          },
+                                          {
+                                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                            "name": "right",
+                                            "virtual_name": "node11_left[1].right",
+                                            "dataType": "TreeNode*",
+                                            "realType": "TreeNode*",
+                                            "external": false,
+                                            "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\right",
+                                            "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                                            "level": 1
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                "name": "right",
+                                "virtual_name": "node11_right",
+                                "dataType": "TreeNode*",
+                                "realType": "TreeNode*",
+                                "external": false,
+                                "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)\\right",
+                                "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                                "level": 1
+                              }
+                            ]
+                          },
+                          {
+                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                            "name": "val",
+                            "virtual_name": "node1[1].val",
+                            "dataType": "int",
+                            "realType": "int",
+                            "external": false,
+                            "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\val",
+                            "correspondingType": "int",
+                            "value": "-961903844"
+                          },
+                          {
+                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                            "name": "left",
+                            "virtual_name": "node1[1].left",
+                            "dataType": "TreeNode*",
+                            "realType": "TreeNode*",
+                            "external": false,
+                            "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\left",
+                            "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                            "level": 1,
+                            "size": 2,
+                            "children": [
+                              {
+                                "type": "com.dse.testdata.object.StructDataNode",
+                                "name": "left[0]",
+                                "virtual_name": "node1[1].left[0]",
+                                "dataType": "TreeNode",
+                                "realType": "TreeNode",
+                                "external": false,
+                                "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\left\\left[0]",
+                                "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                                "children": [
+                                  {
+                                    "type": "com.dse.testdata.object.SubStructDataNode",
+                                    "name": "left",
+                                    "virtual_name": "node1[1].left[0]",
+                                    "dataType": "::TreeNode",
+                                    "realType": "::TreeNode",
+                                    "external": false,
+                                    "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\left\\left",
+                                    "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                                    "rawType": "::TreeNode",
+                                    "selectedConstructor": "TreeNode()",
+                                    "variableType": "::TreeNode",
+                                    "children": [
+                                      {
+                                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                                        "name": "TreeNode()",
+                                        "virtual_name": "node1[1].left[0]",
+                                        "dataType": "::TreeNode",
+                                        "realType": "::TreeNode",
+                                        "functionNode": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\TreeNode()"
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                        "name": "val",
+                                        "virtual_name": "node1[1].left[0].val",
+                                        "dataType": "int",
+                                        "realType": "int",
+                                        "external": false,
+                                        "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\val",
+                                        "correspondingType": "int",
+                                        "value": "275499836"
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                        "name": "left",
+                                        "virtual_name": "node1[1].left[0].left",
+                                        "dataType": "TreeNode*",
+                                        "realType": "TreeNode*",
+                                        "external": false,
+                                        "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\left",
+                                        "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                                        "level": 1
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                        "name": "right",
+                                        "virtual_name": "node1[1].left[0].right",
+                                        "dataType": "TreeNode*",
+                                        "realType": "TreeNode*",
+                                        "external": false,
+                                        "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\right",
+                                        "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                                        "level": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "com.dse.testdata.object.StructDataNode",
+                                "name": "left[1]",
+                                "virtual_name": "node1[1].left[1]",
+                                "dataType": "TreeNode",
+                                "realType": "TreeNode",
+                                "external": false,
+                                "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\left\\left[1]",
+                                "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                                "children": [
+                                  {
+                                    "type": "com.dse.testdata.object.SubStructDataNode",
+                                    "name": "left",
+                                    "virtual_name": "node1[1].left[1]",
+                                    "dataType": "::TreeNode",
+                                    "realType": "::TreeNode",
+                                    "external": false,
+                                    "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\left\\left",
+                                    "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                                    "rawType": "::TreeNode",
+                                    "selectedConstructor": "TreeNode()",
+                                    "variableType": "::TreeNode",
+                                    "children": [
+                                      {
+                                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                                        "name": "TreeNode()",
+                                        "virtual_name": "node1[1].left[1]",
+                                        "dataType": "::TreeNode",
+                                        "realType": "::TreeNode",
+                                        "functionNode": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\TreeNode()"
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                        "name": "val",
+                                        "virtual_name": "node1[1].left[1].val",
+                                        "dataType": "int",
+                                        "realType": "int",
+                                        "external": false,
+                                        "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\val",
+                                        "correspondingType": "int",
+                                        "value": "-1170478556"
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                        "name": "left",
+                                        "virtual_name": "node1[1].left[1].left",
+                                        "dataType": "TreeNode*",
+                                        "realType": "TreeNode*",
+                                        "external": false,
+                                        "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\left",
+                                        "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                                        "level": 1
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                        "name": "right",
+                                        "virtual_name": "node1[1].left[1].right",
+                                        "dataType": "TreeNode*",
+                                        "realType": "TreeNode*",
+                                        "external": false,
+                                        "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\right",
+                                        "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                                        "level": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                            "name": "right",
+                            "virtual_name": "node1[1].right",
+                            "dataType": "TreeNode*",
+                            "realType": "TreeNode*",
+                            "external": false,
+                            "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\right",
+                            "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                            "level": 1
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "com.dse.testdata.object.StructDataNode",
+                    "name": "node1[2]",
+                    "virtual_name": "node1[2]",
+                    "dataType": "TreeNode",
+                    "realType": "TreeNode",
+                    "external": false,
+                    "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\Solution\\isSymmetricHelper(TreeNode*,TreeNode*)\\node1\\node1[2]",
+                    "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.SubStructDataNode",
+                        "name": "node1",
+                        "virtual_name": "node1[2]",
+                        "dataType": "::TreeNode",
+                        "realType": "::TreeNode",
+                        "external": false,
+                        "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\Solution\\isSymmetricHelper(TreeNode*,TreeNode*)\\node1\\node1",
+                        "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                        "rawType": "::TreeNode",
+                        "selectedConstructor": "TreeNode()",
+                        "variableType": "::TreeNode",
+                        "children": [
+                          {
+                            "type": "com.dse.testdata.object.ConstructorDataNode",
+                            "name": "TreeNode()",
+                            "virtual_name": "node1[2]",
+                            "dataType": "::TreeNode",
+                            "realType": "::TreeNode",
+                            "functionNode": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\TreeNode()"
+                          },
+                          {
+                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                            "name": "val",
+                            "virtual_name": "node1[2].val",
+                            "dataType": "int",
+                            "realType": "int",
+                            "external": false,
+                            "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\val",
+                            "correspondingType": "int",
+                            "value": "-220601179"
+                          },
+                          {
+                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                            "name": "left",
+                            "virtual_name": "node1[2].left",
+                            "dataType": "TreeNode*",
+                            "realType": "TreeNode*",
+                            "external": false,
+                            "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\left",
+                            "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                            "level": 1,
+                            "size": 2,
+                            "children": [
+                              {
+                                "type": "com.dse.testdata.object.StructDataNode",
+                                "name": "left[0]",
+                                "virtual_name": "node1[2].left[0]",
+                                "dataType": "TreeNode",
+                                "realType": "TreeNode",
+                                "external": false,
+                                "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\left\\left[0]",
+                                "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                                "children": [
+                                  {
+                                    "type": "com.dse.testdata.object.SubStructDataNode",
+                                    "name": "left",
+                                    "virtual_name": "node1[2].left[0]",
+                                    "dataType": "::TreeNode",
+                                    "realType": "::TreeNode",
+                                    "external": false,
+                                    "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\left\\left",
+                                    "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                                    "rawType": "::TreeNode",
+                                    "selectedConstructor": "TreeNode(int,TreeNode*,TreeNode*)",
+                                    "variableType": "::TreeNode",
+                                    "children": [
+                                      {
+                                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                                        "name": "TreeNode(int,TreeNode*,TreeNode*)",
+                                        "virtual_name": "node1[2].left[0]",
+                                        "dataType": "::TreeNode",
+                                        "realType": "::TreeNode",
+                                        "functionNode": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)",
+                                        "children": [
+                                          {
+                                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                            "name": "x",
+                                            "virtual_name": "node12_left0_x",
+                                            "dataType": "int",
+                                            "realType": "int",
+                                            "external": false,
+                                            "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)\\x",
+                                            "correspondingType": "int",
+                                            "value": "231733113"
+                                          },
+                                          {
+                                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                            "name": "left",
+                                            "virtual_name": "node12_left0_left",
+                                            "dataType": "TreeNode*",
+                                            "realType": "TreeNode*",
+                                            "external": false,
+                                            "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)\\left",
+                                            "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                                            "level": 1
+                                          },
+                                          {
+                                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                            "name": "right",
+                                            "virtual_name": "node12_left0_right",
+                                            "dataType": "TreeNode*",
+                                            "realType": "TreeNode*",
+                                            "external": false,
+                                            "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)\\right",
+                                            "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                                            "level": 1
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                        "name": "val",
+                                        "virtual_name": "node1[2].left[0].val",
+                                        "dataType": "int",
+                                        "realType": "int",
+                                        "external": false,
+                                        "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\val",
+                                        "correspondingType": "int",
+                                        "value": "1449348417"
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                        "name": "left",
+                                        "virtual_name": "node1[2].left[0].left",
+                                        "dataType": "TreeNode*",
+                                        "realType": "TreeNode*",
+                                        "external": false,
+                                        "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\left",
+                                        "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                                        "level": 1
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                        "name": "right",
+                                        "virtual_name": "node1[2].left[0].right",
+                                        "dataType": "TreeNode*",
+                                        "realType": "TreeNode*",
+                                        "external": false,
+                                        "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\right",
+                                        "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                                        "level": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "com.dse.testdata.object.StructDataNode",
+                                "name": "left[1]",
+                                "virtual_name": "node1[2].left[1]",
+                                "dataType": "TreeNode",
+                                "realType": "TreeNode",
+                                "external": false,
+                                "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\left\\left[1]",
+                                "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                                "children": [
+                                  {
+                                    "type": "com.dse.testdata.object.SubStructDataNode",
+                                    "name": "left",
+                                    "virtual_name": "node1[2].left[1]",
+                                    "dataType": "::TreeNode",
+                                    "realType": "::TreeNode",
+                                    "external": false,
+                                    "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\left\\left",
+                                    "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                                    "rawType": "::TreeNode",
+                                    "selectedConstructor": "TreeNode(int,TreeNode*,TreeNode*)",
+                                    "variableType": "::TreeNode",
+                                    "children": [
+                                      {
+                                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                                        "name": "TreeNode(int,TreeNode*,TreeNode*)",
+                                        "virtual_name": "node1[2].left[1]",
+                                        "dataType": "::TreeNode",
+                                        "realType": "::TreeNode",
+                                        "functionNode": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)",
+                                        "children": [
+                                          {
+                                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                            "name": "x",
+                                            "virtual_name": "node12_left1_x",
+                                            "dataType": "int",
+                                            "realType": "int",
+                                            "external": false,
+                                            "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)\\x",
+                                            "correspondingType": "int",
+                                            "value": "-398735809"
+                                          },
+                                          {
+                                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                            "name": "left",
+                                            "virtual_name": "node12_left1_left",
+                                            "dataType": "TreeNode*",
+                                            "realType": "TreeNode*",
+                                            "external": false,
+                                            "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)\\left",
+                                            "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                                            "level": 1
+                                          },
+                                          {
+                                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                            "name": "right",
+                                            "virtual_name": "node12_left1_right",
+                                            "dataType": "TreeNode*",
+                                            "realType": "TreeNode*",
+                                            "external": false,
+                                            "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)\\right",
+                                            "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                                            "level": 1
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                        "name": "val",
+                                        "virtual_name": "node1[2].left[1].val",
+                                        "dataType": "int",
+                                        "realType": "int",
+                                        "external": false,
+                                        "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\val",
+                                        "correspondingType": "int",
+                                        "value": "500028072"
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                        "name": "left",
+                                        "virtual_name": "node1[2].left[1].left",
+                                        "dataType": "TreeNode*",
+                                        "realType": "TreeNode*",
+                                        "external": false,
+                                        "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\left",
+                                        "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                                        "level": 1
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                        "name": "right",
+                                        "virtual_name": "node1[2].left[1].right",
+                                        "dataType": "TreeNode*",
+                                        "realType": "TreeNode*",
+                                        "external": false,
+                                        "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\right",
+                                        "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                                        "level": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                            "name": "right",
+                            "virtual_name": "node1[2].right",
+                            "dataType": "TreeNode*",
+                            "realType": "TreeNode*",
+                            "external": false,
+                            "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\right",
+                            "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                            "level": 1,
+                            "size": 1,
+                            "children": [
+                              {
+                                "type": "com.dse.testdata.object.StructDataNode",
+                                "name": "right[0]",
+                                "virtual_name": "node1[2].right[0]",
+                                "dataType": "TreeNode",
+                                "realType": "TreeNode",
+                                "external": false,
+                                "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\right\\right[0]",
+                                "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                                "children": [
+                                  {
+                                    "type": "com.dse.testdata.object.SubStructDataNode",
+                                    "name": "right",
+                                    "virtual_name": "node1[2].right[0]",
+                                    "dataType": "::TreeNode",
+                                    "realType": "::TreeNode",
+                                    "external": false,
+                                    "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\right\\right",
+                                    "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                                    "rawType": "::TreeNode",
+                                    "selectedConstructor": "TreeNode()",
+                                    "variableType": "::TreeNode",
+                                    "children": [
+                                      {
+                                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                                        "name": "TreeNode()",
+                                        "virtual_name": "node1[2].right[0]",
+                                        "dataType": "::TreeNode",
+                                        "realType": "::TreeNode",
+                                        "functionNode": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\TreeNode()"
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                        "name": "val",
+                                        "virtual_name": "node1[2].right[0].val",
+                                        "dataType": "int",
+                                        "realType": "int",
+                                        "external": false,
+                                        "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\val",
+                                        "correspondingType": "int",
+                                        "value": "814705821"
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                        "name": "left",
+                                        "virtual_name": "node1[2].right[0].left",
+                                        "dataType": "TreeNode*",
+                                        "realType": "TreeNode*",
+                                        "external": false,
+                                        "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\left",
+                                        "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                                        "level": 1
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                        "name": "right",
+                                        "virtual_name": "node1[2].right[0].right",
+                                        "dataType": "TreeNode*",
+                                        "realType": "TreeNode*",
+                                        "external": false,
+                                        "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\right",
+                                        "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                                        "level": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "com.dse.testdata.object.PointerStructureDataNode",
+                "name": "node2",
+                "virtual_name": "node2",
+                "dataType": "TreeNode*",
+                "realType": "TreeNode*",
+                "external": false,
+                "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\Solution\\isSymmetricHelper(TreeNode*,TreeNode*)\\node2",
+                "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                "level": 1,
+                "size": 1,
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.StructDataNode",
+                    "name": "node2[0]",
+                    "virtual_name": "node2[0]",
+                    "dataType": "TreeNode",
+                    "realType": "TreeNode",
+                    "external": false,
+                    "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\Solution\\isSymmetricHelper(TreeNode*,TreeNode*)\\node2\\node2[0]",
+                    "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.SubStructDataNode",
+                        "name": "node2",
+                        "virtual_name": "node2[0]",
+                        "dataType": "::TreeNode",
+                        "realType": "::TreeNode",
+                        "external": false,
+                        "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\Solution\\isSymmetricHelper(TreeNode*,TreeNode*)\\node2\\node2",
+                        "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                        "rawType": "::TreeNode",
+                        "selectedConstructor": "TreeNode()",
+                        "variableType": "::TreeNode",
+                        "children": [
+                          {
+                            "type": "com.dse.testdata.object.ConstructorDataNode",
+                            "name": "TreeNode()",
+                            "virtual_name": "node2[0]",
+                            "dataType": "::TreeNode",
+                            "realType": "::TreeNode",
+                            "functionNode": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\TreeNode()"
+                          },
+                          {
+                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                            "name": "val",
+                            "virtual_name": "node2[0].val",
+                            "dataType": "int",
+                            "realType": "int",
+                            "external": false,
+                            "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\val",
+                            "correspondingType": "int",
+                            "value": "2059988916"
+                          },
+                          {
+                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                            "name": "left",
+                            "virtual_name": "node2[0].left",
+                            "dataType": "TreeNode*",
+                            "realType": "TreeNode*",
+                            "external": false,
+                            "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\left",
+                            "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                            "level": 1,
+                            "size": 2,
+                            "children": [
+                              {
+                                "type": "com.dse.testdata.object.StructDataNode",
+                                "name": "left[0]",
+                                "virtual_name": "node2[0].left[0]",
+                                "dataType": "TreeNode",
+                                "realType": "TreeNode",
+                                "external": false,
+                                "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\left\\left[0]",
+                                "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                                "children": [
+                                  {
+                                    "type": "com.dse.testdata.object.SubStructDataNode",
+                                    "name": "left",
+                                    "virtual_name": "node2[0].left[0]",
+                                    "dataType": "::TreeNode",
+                                    "realType": "::TreeNode",
+                                    "external": false,
+                                    "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\left\\left",
+                                    "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                                    "rawType": "::TreeNode",
+                                    "selectedConstructor": "TreeNode()",
+                                    "variableType": "::TreeNode",
+                                    "children": [
+                                      {
+                                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                                        "name": "TreeNode()",
+                                        "virtual_name": "node2[0].left[0]",
+                                        "dataType": "::TreeNode",
+                                        "realType": "::TreeNode",
+                                        "functionNode": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\TreeNode()"
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                        "name": "val",
+                                        "virtual_name": "node2[0].left[0].val",
+                                        "dataType": "int",
+                                        "realType": "int",
+                                        "external": false,
+                                        "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\val",
+                                        "correspondingType": "int",
+                                        "value": "1505309900"
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                        "name": "left",
+                                        "virtual_name": "node2[0].left[0].left",
+                                        "dataType": "TreeNode*",
+                                        "realType": "TreeNode*",
+                                        "external": false,
+                                        "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\left",
+                                        "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                                        "level": 1
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                        "name": "right",
+                                        "virtual_name": "node2[0].left[0].right",
+                                        "dataType": "TreeNode*",
+                                        "realType": "TreeNode*",
+                                        "external": false,
+                                        "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\right",
+                                        "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                                        "level": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "com.dse.testdata.object.StructDataNode",
+                                "name": "left[1]",
+                                "virtual_name": "node2[0].left[1]",
+                                "dataType": "TreeNode",
+                                "realType": "TreeNode",
+                                "external": false,
+                                "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\left\\left[1]",
+                                "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                                "children": [
+                                  {
+                                    "type": "com.dse.testdata.object.SubStructDataNode",
+                                    "name": "left",
+                                    "virtual_name": "node2[0].left[1]",
+                                    "dataType": "::TreeNode",
+                                    "realType": "::TreeNode",
+                                    "external": false,
+                                    "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\left\\left",
+                                    "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                                    "rawType": "::TreeNode",
+                                    "selectedConstructor": "TreeNode(int)",
+                                    "variableType": "::TreeNode",
+                                    "children": [
+                                      {
+                                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                                        "name": "TreeNode(int)",
+                                        "virtual_name": "node2[0].left[1]",
+                                        "dataType": "::TreeNode",
+                                        "realType": "::TreeNode",
+                                        "functionNode": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\TreeNode(int)",
+                                        "children": [
+                                          {
+                                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                            "name": "x",
+                                            "virtual_name": "node20_left1_x",
+                                            "dataType": "int",
+                                            "realType": "int",
+                                            "external": false,
+                                            "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\TreeNode(int)\\x",
+                                            "correspondingType": "int",
+                                            "value": "-1570765726"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                        "name": "val",
+                                        "virtual_name": "node2[0].left[1].val",
+                                        "dataType": "int",
+                                        "realType": "int",
+                                        "external": false,
+                                        "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\val",
+                                        "correspondingType": "int",
+                                        "value": "-1785639698"
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                        "name": "left",
+                                        "virtual_name": "node2[0].left[1].left",
+                                        "dataType": "TreeNode*",
+                                        "realType": "TreeNode*",
+                                        "external": false,
+                                        "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\left",
+                                        "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                                        "level": 1
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                        "name": "right",
+                                        "virtual_name": "node2[0].left[1].right",
+                                        "dataType": "TreeNode*",
+                                        "realType": "TreeNode*",
+                                        "external": false,
+                                        "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\right",
+                                        "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                                        "level": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                            "name": "right",
+                            "virtual_name": "node2[0].right",
+                            "dataType": "TreeNode*",
+                            "realType": "TreeNode*",
+                            "external": false,
+                            "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\right",
+                            "correspondingType": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+                            "level": 1
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "RETURN",
+                "virtual_name": "AKA_EXPECTED_OUTPUT",
+                "dataType": "bool",
+                "realType": "bool",
+                "external": false,
+                "correspondingVar": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\Solution\\isSymmetricHelper(TreeNode*,TreeNode*)\\RETURN",
+                "correspondingType": "bool",
+                "value": "null"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.RootDataNode",
+        "name": "STUB",
+        "virtual_name": "NON_VALUE",
+        "functionNode": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\Solution\\isSymmetricHelper(TreeNode*,TreeNode*)",
+        "level": "STUB"
+      }
+    ]
+  },
+  "procedures": [
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "function_call",
+      "value": "isSymmetricHelper();",
+      "isSelected": false,
+      "location": 5,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "node1 \u003d\u003d NULL",
+      "isSelected": false,
+      "location": 81,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "node1 \u003d\u003d NULL",
+      "isSelected": false,
+      "location": 81,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "node2 \u003d\u003d NULL",
+      "isSelected": false,
+      "location": 98,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "node2 \u003d\u003d NULL",
+      "isSelected": false,
+      "location": 98,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "function_call",
+      "value": "isSymmetricHelper();",
+      "isSelected": false,
+      "location": 258,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "function_call",
+      "value": "isSymmetricHelper();",
+      "isSelected": false,
+      "location": 306,
+      "calls": [],
+      "children": []
+    }
+  ]
+}

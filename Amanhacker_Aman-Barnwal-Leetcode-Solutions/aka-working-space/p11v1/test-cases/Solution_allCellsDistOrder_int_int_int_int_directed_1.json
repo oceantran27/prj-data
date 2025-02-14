@@ -1,0 +1,248 @@
+{
+  "name": "Solution_allCellsDistOrder_int_int_int_int_directed_1",
+  "status": "success",
+  "testCaseUserCode": {
+    "includePaths": [],
+    "setUpContent": "// set up\n;",
+    "tearDownContent": "// tear down\n;"
+  },
+  "result": "0/0",
+  "path": ".\\\\aka-working-space\\\\p11v1\\\\test-cases\\Solution_allCellsDistOrder_int_int_int_int_directed_1.json",
+  "sourceCode": ".\\\\aka-working-space\\\\p11v1\\\\test-drivers\\Solution_allCellsDistOrder_int_int_int_int_directed_1.cpp",
+  "testPath": ".\\\\aka-working-space\\\\p11v1\\\\test-paths\\Solution_allCellsDistOrder_int_int_int_int_directed_1.tp",
+  "executable": ".\\\\aka-working-space\\\\p11v1\\\\exe\\Solution_allCellsDistOrder_int_int_int_int_directed_1.exe",
+  "commandConfig": ".\\aka-working-space\\p11v1\\test-case-commands\\Solution_allCellsDistOrder_int_int_int_int_directed_1.json",
+  "commandDebug": ".\\\\aka-working-space\\\\p11v1\\\\debugger\\\\commands\\Solution_allCellsDistOrder_int_int_int_int_directed_1.json",
+  "breakPoint": ".\\\\aka-working-space\\\\p11v1\\\\debugger\\\\breakpoints\\Solution_allCellsDistOrder_int_int_int_int_directed_1.br.json",
+  "debugExecutable": ".\\\\aka-working-space\\\\p11v1\\\\exe\\debug_Solution_allCellsDistOrder_int_int_int_int_directed_1.exe",
+  "executionResult": ".\\\\aka-working-space\\\\p11v1\\\\execution-results\\Solution_allCellsDistOrder_int_int_int_int_directed_1.xml",
+  "creationDate": "2025-02-14T11:24:51.806180600",
+  "executionDate": "2025-02-14T11:24:51.845180700",
+  "rootDataNode": {
+    "type": "com.dse.testdata.object.RootDataNode",
+    "name": "ROOT",
+    "virtual_name": "NON_VALUE",
+    "functionNode": ".\\p11\\1030-matrix-cells-in-distance-order\\1030-matrix-cells-in-distance-order.cpp\\Solution\\allCellsDistOrder(int,int,int,int)",
+    "level": "ROOT",
+    "children": [
+      {
+        "type": "com.dse.testdata.object.UnitUnderTestNode",
+        "name": "1030-matrix-cells-in-distance-order.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\p11\\1030-matrix-cells-in-distance-order\\1030-matrix-cells-in-distance-order.cpp",
+        "children": [
+          {
+            "type": "com.dse.testdata.object.GlobalRootDataNode",
+            "name": "GLOBAL",
+            "virtual_name": "NON_VALUE",
+            "functionNode": ".\\p11\\1030-matrix-cells-in-distance-order\\1030-matrix-cells-in-distance-order.cpp\\Solution\\allCellsDistOrder(int,int,int,int)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": false,
+                "correspondingVar": ".\\p11\\1030-matrix-cells-in-distance-order\\1030-matrix-cells-in-distance-order.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p11\\1030-matrix-cells-in-distance-order\\1030-matrix-cells-in-distance-order.cpp\\Solution"
+              }
+            ],
+            "level": "GLOBAL",
+            "children": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": true,
+                "correspondingVar": ".\\p11\\1030-matrix-cells-in-distance-order\\1030-matrix-cells-in-distance-order.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p11\\1030-matrix-cells-in-distance-order\\1030-matrix-cells-in-distance-order.cpp\\Solution",
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.SubClassDataNode",
+                    "name": "AKA_INSTANCE___Solution",
+                    "virtual_name": "AKA_INSTANCE___Solution",
+                    "dataType": "::Solution",
+                    "realType": "::Solution",
+                    "external": false,
+                    "correspondingVar": ".\\p11\\1030-matrix-cells-in-distance-order\\1030-matrix-cells-in-distance-order.cpp\\Solution\\AKA_INSTANCE___Solution",
+                    "correspondingType": ".\\p11\\1030-matrix-cells-in-distance-order\\1030-matrix-cells-in-distance-order.cpp\\Solution",
+                    "rawType": "::Solution",
+                    "selectedConstructor": "Solution()",
+                    "variableType": "::Solution",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                        "name": "Solution()",
+                        "virtual_name": "AKA_INSTANCE___Solution",
+                        "dataType": "::Solution",
+                        "realType": "::Solution",
+                        "functionNode": "\\Solution()"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "com.dse.testdata.object.SubprogramNode",
+            "name": "allCellsDistOrder(int,int,int,int)",
+            "virtual_name": "NON_VALUE",
+            "dataType": "vector\u003cvector\u003cint\u003e\u003e",
+            "realType": "vector\u003cvector\u003cint\u003e\u003e",
+            "functionNode": ".\\p11\\1030-matrix-cells-in-distance-order\\1030-matrix-cells-in-distance-order.cpp\\Solution\\allCellsDistOrder(int,int,int,int)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "cCenter",
+                "virtual_name": "EXPECTED_cCenter",
+                "dataType": "int",
+                "realType": "int",
+                "external": false,
+                "correspondingVar": ".\\p11\\1030-matrix-cells-in-distance-order\\1030-matrix-cells-in-distance-order.cpp\\Solution\\allCellsDistOrder(int,int,int,int)\\cCenter",
+                "correspondingType": "int",
+                "value": "null"
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "cols",
+                "virtual_name": "EXPECTED_cols",
+                "dataType": "int",
+                "realType": "int",
+                "external": false,
+                "correspondingVar": ".\\p11\\1030-matrix-cells-in-distance-order\\1030-matrix-cells-in-distance-order.cpp\\Solution\\allCellsDistOrder(int,int,int,int)\\cols",
+                "correspondingType": "int",
+                "value": "null"
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "rCenter",
+                "virtual_name": "EXPECTED_rCenter",
+                "dataType": "int",
+                "realType": "int",
+                "external": false,
+                "correspondingVar": ".\\p11\\1030-matrix-cells-in-distance-order\\1030-matrix-cells-in-distance-order.cpp\\Solution\\allCellsDistOrder(int,int,int,int)\\rCenter",
+                "correspondingType": "int",
+                "value": "null"
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "rows",
+                "virtual_name": "EXPECTED_rows",
+                "dataType": "int",
+                "realType": "int",
+                "external": false,
+                "correspondingVar": ".\\p11\\1030-matrix-cells-in-distance-order\\1030-matrix-cells-in-distance-order.cpp\\Solution\\allCellsDistOrder(int,int,int,int)\\rows",
+                "correspondingType": "int",
+                "value": "null"
+              }
+            ],
+            "children": [
+              {
+                "type": "com.dse.testdata.object.RootDataNode",
+                "name": "STATIC",
+                "virtual_name": "NON_VALUE",
+                "functionNode": ".\\p11\\1030-matrix-cells-in-distance-order\\1030-matrix-cells-in-distance-order.cpp\\Solution\\allCellsDistOrder(int,int,int,int)",
+                "level": "STATIC"
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "rows",
+                "virtual_name": "rows",
+                "dataType": "int",
+                "realType": "int",
+                "external": false,
+                "correspondingVar": ".\\p11\\1030-matrix-cells-in-distance-order\\1030-matrix-cells-in-distance-order.cpp\\Solution\\allCellsDistOrder(int,int,int,int)\\rows",
+                "correspondingType": "int",
+                "value": "9"
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "cols",
+                "virtual_name": "cols",
+                "dataType": "int",
+                "realType": "int",
+                "external": false,
+                "correspondingVar": ".\\p11\\1030-matrix-cells-in-distance-order\\1030-matrix-cells-in-distance-order.cpp\\Solution\\allCellsDistOrder(int,int,int,int)\\cols",
+                "correspondingType": "int",
+                "value": "0"
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "rCenter",
+                "virtual_name": "rCenter",
+                "dataType": "int",
+                "realType": "int",
+                "external": false,
+                "correspondingVar": ".\\p11\\1030-matrix-cells-in-distance-order\\1030-matrix-cells-in-distance-order.cpp\\Solution\\allCellsDistOrder(int,int,int,int)\\rCenter",
+                "correspondingType": "int",
+                "value": "0"
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "cCenter",
+                "virtual_name": "cCenter",
+                "dataType": "int",
+                "realType": "int",
+                "external": false,
+                "correspondingVar": ".\\p11\\1030-matrix-cells-in-distance-order\\1030-matrix-cells-in-distance-order.cpp\\Solution\\allCellsDistOrder(int,int,int,int)\\cCenter",
+                "correspondingType": "int",
+                "value": "0"
+              },
+              {
+                "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                "name": "RETURN",
+                "virtual_name": "AKA_EXPECTED_OUTPUT",
+                "dataType": "vector\u003cvector\u003cint\u003e\u003e",
+                "realType": "vector\u003cvector\u003cint\u003e\u003e",
+                "external": false,
+                "correspondingVar": ".\\p11\\1030-matrix-cells-in-distance-order\\1030-matrix-cells-in-distance-order.cpp\\Solution\\allCellsDistOrder(int,int,int,int)\\RETURN",
+                "correspondingType": "STLListBaseType",
+                "templateArg": "vector\u003cint\u003e"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.RootDataNode",
+        "name": "STUB",
+        "virtual_name": "NON_VALUE",
+        "functionNode": ".\\p11\\1030-matrix-cells-in-distance-order\\1030-matrix-cells-in-distance-order.cpp\\Solution\\allCellsDistOrder(int,int,int,int)",
+        "level": "STUB"
+      }
+    ]
+  },
+  "procedures": [
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "i\u003crows",
+      "isSelected": false,
+      "location": 267,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "j\u003ccols",
+      "isSelected": false,
+      "location": 308,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "auto \u0026x",
+      "isSelected": false,
+      "location": 582,
+      "calls": [],
+      "children": []
+    }
+  ]
+}

@@ -1,0 +1,362 @@
+{
+  "name": "Solution_recoverTree_TreeNodemul_random_4",
+  "status": "runtime error",
+  "testCaseUserCode": {
+    "includePaths": [],
+    "setUpContent": "// set up\n;",
+    "tearDownContent": "// tear down\n;"
+  },
+  "path": ".\\\\aka-working-space\\\\p2\\\\test-cases\\Solution_recoverTree_TreeNodemul_random_4.json",
+  "sourceCode": ".\\\\aka-working-space\\\\p2\\\\test-drivers\\Solution_recoverTree_TreeNodemul_random_4.cpp",
+  "testPath": ".\\\\aka-working-space\\\\p2\\\\test-paths\\Solution_recoverTree_TreeNodemul_random_4.tp",
+  "executable": ".\\\\aka-working-space\\\\p2\\\\exe\\Solution_recoverTree_TreeNodemul_random_4.exe",
+  "commandConfig": ".\\aka-working-space\\p2\\test-case-commands\\Solution_recoverTree_TreeNodemul_random_4.json",
+  "commandDebug": ".\\\\aka-working-space\\\\p2\\\\debugger\\\\commands\\Solution_recoverTree_TreeNodemul_random_4.json",
+  "breakPoint": ".\\\\aka-working-space\\\\p2\\\\debugger\\\\breakpoints\\Solution_recoverTree_TreeNodemul_random_4.br.json",
+  "debugExecutable": ".\\\\aka-working-space\\\\p2\\\\exe\\debug_Solution_recoverTree_TreeNodemul_random_4.exe",
+  "executionResult": ".\\\\aka-working-space\\\\p2\\\\execution-results\\Solution_recoverTree_TreeNodemul_random_4.xml",
+  "creationDate": "2025-02-13T16:26:20.677176900",
+  "executionDate": "2025-02-13T16:27:56.224048200",
+  "rootDataNode": {
+    "type": "com.dse.testdata.object.RootDataNode",
+    "name": "ROOT",
+    "virtual_name": "NON_VALUE",
+    "functionNode": ".\\p2\\0099-recover-binary-search-tree\\0099-recover-binary-search-tree.cpp\\Solution\\recoverTree(TreeNode*)",
+    "level": "ROOT",
+    "children": [
+      {
+        "type": "com.dse.testdata.object.UnitUnderTestNode",
+        "name": "0099-recover-binary-search-tree.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\p2\\0099-recover-binary-search-tree\\0099-recover-binary-search-tree.cpp",
+        "children": [
+          {
+            "type": "com.dse.testdata.object.GlobalRootDataNode",
+            "name": "GLOBAL",
+            "virtual_name": "NON_VALUE",
+            "functionNode": ".\\p2\\0099-recover-binary-search-tree\\0099-recover-binary-search-tree.cpp\\Solution\\recoverTree(TreeNode*)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": false,
+                "correspondingVar": ".\\p2\\0099-recover-binary-search-tree\\0099-recover-binary-search-tree.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p2\\0099-recover-binary-search-tree\\0099-recover-binary-search-tree.cpp\\Solution"
+              }
+            ],
+            "level": "GLOBAL",
+            "children": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": true,
+                "correspondingVar": ".\\p2\\0099-recover-binary-search-tree\\0099-recover-binary-search-tree.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p2\\0099-recover-binary-search-tree\\0099-recover-binary-search-tree.cpp\\Solution",
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.SubClassDataNode",
+                    "name": "AKA_INSTANCE___Solution",
+                    "virtual_name": "AKA_INSTANCE___Solution",
+                    "dataType": "::Solution",
+                    "realType": "::Solution",
+                    "external": false,
+                    "correspondingVar": ".\\p2\\0099-recover-binary-search-tree\\0099-recover-binary-search-tree.cpp\\Solution\\AKA_INSTANCE___Solution",
+                    "correspondingType": ".\\p2\\0099-recover-binary-search-tree\\0099-recover-binary-search-tree.cpp\\Solution",
+                    "rawType": "::Solution",
+                    "selectedConstructor": "Solution()",
+                    "variableType": "::Solution",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                        "name": "Solution()",
+                        "virtual_name": "AKA_INSTANCE___Solution",
+                        "dataType": "::Solution",
+                        "realType": "::Solution",
+                        "functionNode": "\\Solution()"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "com.dse.testdata.object.SubprogramNode",
+            "name": "recoverTree(TreeNode*)",
+            "virtual_name": "NON_VALUE",
+            "dataType": "void",
+            "realType": "void",
+            "functionNode": ".\\p2\\0099-recover-binary-search-tree\\0099-recover-binary-search-tree.cpp\\Solution\\recoverTree(TreeNode*)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.PointerStructureDataNode",
+                "name": "root",
+                "virtual_name": "EXPECTED_root",
+                "dataType": "TreeNode*",
+                "realType": "TreeNode*",
+                "external": false,
+                "correspondingVar": ".\\p2\\0099-recover-binary-search-tree\\0099-recover-binary-search-tree.cpp\\Solution\\recoverTree(TreeNode*)\\root",
+                "correspondingType": ".\\p2\\0099-recover-binary-search-tree\\0099-recover-binary-search-tree.cpp\\TreeNode",
+                "level": 1
+              }
+            ],
+            "children": [
+              {
+                "type": "com.dse.testdata.object.RootDataNode",
+                "name": "STATIC",
+                "virtual_name": "NON_VALUE",
+                "functionNode": ".\\p2\\0099-recover-binary-search-tree\\0099-recover-binary-search-tree.cpp\\Solution\\recoverTree(TreeNode*)",
+                "level": "STATIC"
+              },
+              {
+                "type": "com.dse.testdata.object.PointerStructureDataNode",
+                "name": "root",
+                "virtual_name": "root",
+                "dataType": "TreeNode*",
+                "realType": "TreeNode*",
+                "external": false,
+                "correspondingVar": ".\\p2\\0099-recover-binary-search-tree\\0099-recover-binary-search-tree.cpp\\Solution\\recoverTree(TreeNode*)\\root",
+                "correspondingType": ".\\p2\\0099-recover-binary-search-tree\\0099-recover-binary-search-tree.cpp\\TreeNode",
+                "level": 1,
+                "size": 2,
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.StructDataNode",
+                    "name": "root[0]",
+                    "virtual_name": "root[0]",
+                    "dataType": "TreeNode",
+                    "realType": "TreeNode",
+                    "external": false,
+                    "correspondingVar": ".\\p2\\0099-recover-binary-search-tree\\0099-recover-binary-search-tree.cpp\\Solution\\recoverTree(TreeNode*)\\root\\root[0]",
+                    "correspondingType": ".\\p2\\0099-recover-binary-search-tree\\0099-recover-binary-search-tree.cpp\\TreeNode",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.SubStructDataNode",
+                        "name": "root",
+                        "virtual_name": "root[0]",
+                        "dataType": "::TreeNode",
+                        "realType": "::TreeNode",
+                        "external": false,
+                        "correspondingVar": ".\\p2\\0099-recover-binary-search-tree\\0099-recover-binary-search-tree.cpp\\Solution\\recoverTree(TreeNode*)\\root\\root",
+                        "correspondingType": ".\\p2\\0099-recover-binary-search-tree\\0099-recover-binary-search-tree.cpp\\TreeNode",
+                        "rawType": "::TreeNode",
+                        "selectedConstructor": "TreeNode(int)",
+                        "variableType": "::TreeNode",
+                        "children": [
+                          {
+                            "type": "com.dse.testdata.object.ConstructorDataNode",
+                            "name": "TreeNode(int)",
+                            "virtual_name": "root[0]",
+                            "dataType": "::TreeNode",
+                            "realType": "::TreeNode",
+                            "functionNode": ".\\p2\\0099-recover-binary-search-tree\\0099-recover-binary-search-tree.cpp\\TreeNode\\TreeNode(int)",
+                            "children": [
+                              {
+                                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                "name": "x",
+                                "virtual_name": "root0_x",
+                                "dataType": "int",
+                                "realType": "int",
+                                "external": false,
+                                "correspondingVar": ".\\p2\\0099-recover-binary-search-tree\\0099-recover-binary-search-tree.cpp\\TreeNode\\TreeNode(int)\\x",
+                                "correspondingType": "int",
+                                "value": "-2047908820"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                            "name": "val",
+                            "virtual_name": "root[0].val",
+                            "dataType": "int",
+                            "realType": "int",
+                            "external": false,
+                            "correspondingVar": ".\\p2\\0099-recover-binary-search-tree\\0099-recover-binary-search-tree.cpp\\TreeNode\\val",
+                            "correspondingType": "int",
+                            "value": "null"
+                          },
+                          {
+                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                            "name": "left",
+                            "virtual_name": "root[0].left",
+                            "dataType": "TreeNode*",
+                            "realType": "TreeNode*",
+                            "external": false,
+                            "correspondingVar": ".\\p2\\0099-recover-binary-search-tree\\0099-recover-binary-search-tree.cpp\\TreeNode\\left",
+                            "correspondingType": ".\\p2\\0099-recover-binary-search-tree\\0099-recover-binary-search-tree.cpp\\TreeNode",
+                            "level": 1
+                          },
+                          {
+                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                            "name": "right",
+                            "virtual_name": "root[0].right",
+                            "dataType": "TreeNode*",
+                            "realType": "TreeNode*",
+                            "external": false,
+                            "correspondingVar": ".\\p2\\0099-recover-binary-search-tree\\0099-recover-binary-search-tree.cpp\\TreeNode\\right",
+                            "correspondingType": ".\\p2\\0099-recover-binary-search-tree\\0099-recover-binary-search-tree.cpp\\TreeNode",
+                            "level": 1
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "com.dse.testdata.object.StructDataNode",
+                    "name": "root[1]",
+                    "virtual_name": "root[1]",
+                    "dataType": "TreeNode",
+                    "realType": "TreeNode",
+                    "external": false,
+                    "correspondingVar": ".\\p2\\0099-recover-binary-search-tree\\0099-recover-binary-search-tree.cpp\\Solution\\recoverTree(TreeNode*)\\root\\root[1]",
+                    "correspondingType": ".\\p2\\0099-recover-binary-search-tree\\0099-recover-binary-search-tree.cpp\\TreeNode",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.SubStructDataNode",
+                        "name": "root",
+                        "virtual_name": "root[1]",
+                        "dataType": "::TreeNode",
+                        "realType": "::TreeNode",
+                        "external": false,
+                        "correspondingVar": ".\\p2\\0099-recover-binary-search-tree\\0099-recover-binary-search-tree.cpp\\Solution\\recoverTree(TreeNode*)\\root\\root",
+                        "correspondingType": ".\\p2\\0099-recover-binary-search-tree\\0099-recover-binary-search-tree.cpp\\TreeNode",
+                        "rawType": "::TreeNode",
+                        "selectedConstructor": "TreeNode(int)",
+                        "variableType": "::TreeNode",
+                        "children": [
+                          {
+                            "type": "com.dse.testdata.object.ConstructorDataNode",
+                            "name": "TreeNode(int)",
+                            "virtual_name": "root[1]",
+                            "dataType": "::TreeNode",
+                            "realType": "::TreeNode",
+                            "functionNode": ".\\p2\\0099-recover-binary-search-tree\\0099-recover-binary-search-tree.cpp\\TreeNode\\TreeNode(int)",
+                            "children": [
+                              {
+                                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                "name": "x",
+                                "virtual_name": "root1_x",
+                                "dataType": "int",
+                                "realType": "int",
+                                "external": false,
+                                "correspondingVar": ".\\p2\\0099-recover-binary-search-tree\\0099-recover-binary-search-tree.cpp\\TreeNode\\TreeNode(int)\\x",
+                                "correspondingType": "int",
+                                "value": "-1255942186"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                            "name": "val",
+                            "virtual_name": "root[1].val",
+                            "dataType": "int",
+                            "realType": "int",
+                            "external": false,
+                            "correspondingVar": ".\\p2\\0099-recover-binary-search-tree\\0099-recover-binary-search-tree.cpp\\TreeNode\\val",
+                            "correspondingType": "int",
+                            "value": "null"
+                          },
+                          {
+                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                            "name": "left",
+                            "virtual_name": "root[1].left",
+                            "dataType": "TreeNode*",
+                            "realType": "TreeNode*",
+                            "external": false,
+                            "correspondingVar": ".\\p2\\0099-recover-binary-search-tree\\0099-recover-binary-search-tree.cpp\\TreeNode\\left",
+                            "correspondingType": ".\\p2\\0099-recover-binary-search-tree\\0099-recover-binary-search-tree.cpp\\TreeNode",
+                            "level": 1
+                          },
+                          {
+                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                            "name": "right",
+                            "virtual_name": "root[1].right",
+                            "dataType": "TreeNode*",
+                            "realType": "TreeNode*",
+                            "external": false,
+                            "correspondingVar": ".\\p2\\0099-recover-binary-search-tree\\0099-recover-binary-search-tree.cpp\\TreeNode\\right",
+                            "correspondingType": ".\\p2\\0099-recover-binary-search-tree\\0099-recover-binary-search-tree.cpp\\TreeNode",
+                            "level": 1
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.RootDataNode",
+        "name": "STUB",
+        "virtual_name": "NON_VALUE",
+        "functionNode": ".\\p2\\0099-recover-binary-search-tree\\0099-recover-binary-search-tree.cpp\\Solution\\recoverTree(TreeNode*)",
+        "level": "STUB"
+      }
+    ]
+  },
+  "procedures": [
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "root \u003d\u003d NULL",
+      "isSelected": false,
+      "location": 53,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "function_call",
+      "value": "inorder();",
+      "isSelected": false,
+      "location": 157,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "function_call",
+      "value": "inorder();",
+      "isSelected": false,
+      "location": 200,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "i\u003cn",
+      "isSelected": false,
+      "location": 563,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "res[i-1]-\u003eval \u003e res[i]-\u003eval",
+      "isSelected": false,
+      "location": 639,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "node1 \u003d\u003d NULL",
+      "isSelected": false,
+      "location": 708,
+      "calls": [],
+      "children": []
+    }
+  ]
+}

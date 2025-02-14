@@ -1,0 +1,844 @@
+{
+  "name": "Solution_dfs_TreeNodemul_int_random_3",
+  "status": "success",
+  "testCaseUserCode": {
+    "includePaths": [],
+    "setUpContent": "// set up\n;",
+    "tearDownContent": "// tear down\n;"
+  },
+  "path": ".\\\\aka-working-space\\\\p11v1\\\\test-cases\\Solution_dfs_TreeNodemul_int_random_3.json",
+  "sourceCode": ".\\\\aka-working-space\\\\p11v1\\\\test-drivers\\Solution_dfs_TreeNodemul_int_random_3.cpp",
+  "testPath": ".\\\\aka-working-space\\\\p11v1\\\\test-paths\\Solution_dfs_TreeNodemul_int_random_3.tp",
+  "executable": ".\\\\aka-working-space\\\\p11v1\\\\exe\\Solution_dfs_TreeNodemul_int_random_3.exe",
+  "commandConfig": ".\\aka-working-space\\p11v1\\test-case-commands\\Solution_dfs_TreeNodemul_int_random_3.json",
+  "commandDebug": ".\\\\aka-working-space\\\\p11v1\\\\debugger\\\\commands\\Solution_dfs_TreeNodemul_int_random_3.json",
+  "breakPoint": ".\\\\aka-working-space\\\\p11v1\\\\debugger\\\\breakpoints\\Solution_dfs_TreeNodemul_int_random_3.br.json",
+  "debugExecutable": ".\\\\aka-working-space\\\\p11v1\\\\exe\\debug_Solution_dfs_TreeNodemul_int_random_3.exe",
+  "executionResult": ".\\\\aka-working-space\\\\p11v1\\\\execution-results\\Solution_dfs_TreeNodemul_int_random_3.xml",
+  "creationDate": "2025-02-14T11:29:03.185191300",
+  "executionDate": "2025-02-14T11:29:53.684812600",
+  "rootDataNode": {
+    "type": "com.dse.testdata.object.RootDataNode",
+    "name": "ROOT",
+    "virtual_name": "NON_VALUE",
+    "functionNode": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\Solution\\dfs(TreeNode*,int\u0026)",
+    "level": "ROOT",
+    "children": [
+      {
+        "type": "com.dse.testdata.object.UnitUnderTestNode",
+        "name": "1026-maximum-difference-between-node-and-ancestor.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp",
+        "children": [
+          {
+            "type": "com.dse.testdata.object.GlobalRootDataNode",
+            "name": "GLOBAL",
+            "virtual_name": "NON_VALUE",
+            "functionNode": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\Solution\\dfs(TreeNode*,int\u0026)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": false,
+                "correspondingVar": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\Solution"
+              }
+            ],
+            "level": "GLOBAL",
+            "children": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": true,
+                "correspondingVar": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\Solution",
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.SubClassDataNode",
+                    "name": "AKA_INSTANCE___Solution",
+                    "virtual_name": "AKA_INSTANCE___Solution",
+                    "dataType": "::Solution",
+                    "realType": "::Solution",
+                    "external": false,
+                    "correspondingVar": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\Solution\\AKA_INSTANCE___Solution",
+                    "correspondingType": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\Solution",
+                    "rawType": "::Solution",
+                    "selectedConstructor": "Solution()",
+                    "variableType": "::Solution",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                        "name": "Solution()",
+                        "virtual_name": "AKA_INSTANCE___Solution",
+                        "dataType": "::Solution",
+                        "realType": "::Solution",
+                        "functionNode": "\\Solution()"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "com.dse.testdata.object.SubprogramNode",
+            "name": "dfs(TreeNode*,int\u0026)",
+            "virtual_name": "NON_VALUE",
+            "dataType": "void",
+            "realType": "void",
+            "functionNode": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\Solution\\dfs(TreeNode*,int\u0026)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "res",
+                "virtual_name": "EXPECTED_res",
+                "dataType": "int\u0026",
+                "realType": "int\u0026",
+                "external": false,
+                "correspondingVar": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\Solution\\dfs(TreeNode*,int\u0026)\\res",
+                "correspondingType": "int\u0026",
+                "value": "null"
+              },
+              {
+                "type": "com.dse.testdata.object.PointerStructureDataNode",
+                "name": "root",
+                "virtual_name": "EXPECTED_root",
+                "dataType": "TreeNode*",
+                "realType": "TreeNode*",
+                "external": false,
+                "correspondingVar": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\Solution\\dfs(TreeNode*,int\u0026)\\root",
+                "correspondingType": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode",
+                "level": 1
+              }
+            ],
+            "children": [
+              {
+                "type": "com.dse.testdata.object.RootDataNode",
+                "name": "STATIC",
+                "virtual_name": "NON_VALUE",
+                "functionNode": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\Solution\\dfs(TreeNode*,int\u0026)",
+                "level": "STATIC"
+              },
+              {
+                "type": "com.dse.testdata.object.PointerStructureDataNode",
+                "name": "root",
+                "virtual_name": "root",
+                "dataType": "TreeNode*",
+                "realType": "TreeNode*",
+                "external": false,
+                "correspondingVar": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\Solution\\dfs(TreeNode*,int\u0026)\\root",
+                "correspondingType": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode",
+                "level": 1,
+                "size": 1,
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.StructDataNode",
+                    "name": "root[0]",
+                    "virtual_name": "root[0]",
+                    "dataType": "TreeNode",
+                    "realType": "TreeNode",
+                    "external": false,
+                    "correspondingVar": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\Solution\\dfs(TreeNode*,int\u0026)\\root\\root[0]",
+                    "correspondingType": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.SubStructDataNode",
+                        "name": "root",
+                        "virtual_name": "root[0]",
+                        "dataType": "::TreeNode",
+                        "realType": "::TreeNode",
+                        "external": false,
+                        "correspondingVar": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\Solution\\dfs(TreeNode*,int\u0026)\\root\\root",
+                        "correspondingType": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode",
+                        "rawType": "::TreeNode",
+                        "selectedConstructor": "TreeNode(int)",
+                        "variableType": "::TreeNode",
+                        "children": [
+                          {
+                            "type": "com.dse.testdata.object.ConstructorDataNode",
+                            "name": "TreeNode(int)",
+                            "virtual_name": "root[0]",
+                            "dataType": "::TreeNode",
+                            "realType": "::TreeNode",
+                            "functionNode": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode\\TreeNode(int)",
+                            "children": [
+                              {
+                                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                "name": "x",
+                                "virtual_name": "root0_x",
+                                "dataType": "int",
+                                "realType": "int",
+                                "external": false,
+                                "correspondingVar": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode\\TreeNode(int)\\x",
+                                "correspondingType": "int",
+                                "value": "892237957"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                            "name": "val",
+                            "virtual_name": "root[0].val",
+                            "dataType": "int",
+                            "realType": "int",
+                            "external": false,
+                            "correspondingVar": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode\\val",
+                            "correspondingType": "int",
+                            "value": "318766007"
+                          },
+                          {
+                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                            "name": "left",
+                            "virtual_name": "root[0].left",
+                            "dataType": "TreeNode*",
+                            "realType": "TreeNode*",
+                            "external": false,
+                            "correspondingVar": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode\\left",
+                            "correspondingType": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode",
+                            "level": 1,
+                            "size": 3,
+                            "children": [
+                              {
+                                "type": "com.dse.testdata.object.StructDataNode",
+                                "name": "left[0]",
+                                "virtual_name": "root[0].left[0]",
+                                "dataType": "TreeNode",
+                                "realType": "TreeNode",
+                                "external": false,
+                                "correspondingVar": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode\\left\\left[0]",
+                                "correspondingType": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode",
+                                "children": [
+                                  {
+                                    "type": "com.dse.testdata.object.SubStructDataNode",
+                                    "name": "left",
+                                    "virtual_name": "root[0].left[0]",
+                                    "dataType": "::TreeNode",
+                                    "realType": "::TreeNode",
+                                    "external": false,
+                                    "correspondingVar": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode\\left\\left",
+                                    "correspondingType": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode",
+                                    "rawType": "::TreeNode",
+                                    "selectedConstructor": "TreeNode()",
+                                    "variableType": "::TreeNode",
+                                    "children": [
+                                      {
+                                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                                        "name": "TreeNode()",
+                                        "virtual_name": "root[0].left[0]",
+                                        "dataType": "::TreeNode",
+                                        "realType": "::TreeNode",
+                                        "functionNode": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode\\TreeNode()"
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                        "name": "val",
+                                        "virtual_name": "root[0].left[0].val",
+                                        "dataType": "int",
+                                        "realType": "int",
+                                        "external": false,
+                                        "correspondingVar": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode\\val",
+                                        "correspondingType": "int",
+                                        "value": "2126508943"
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                        "name": "left",
+                                        "virtual_name": "root[0].left[0].left",
+                                        "dataType": "TreeNode*",
+                                        "realType": "TreeNode*",
+                                        "external": false,
+                                        "correspondingVar": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode\\left",
+                                        "correspondingType": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode",
+                                        "level": 1
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                        "name": "right",
+                                        "virtual_name": "root[0].left[0].right",
+                                        "dataType": "TreeNode*",
+                                        "realType": "TreeNode*",
+                                        "external": false,
+                                        "correspondingVar": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode\\right",
+                                        "correspondingType": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode",
+                                        "level": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "com.dse.testdata.object.StructDataNode",
+                                "name": "left[1]",
+                                "virtual_name": "root[0].left[1]",
+                                "dataType": "TreeNode",
+                                "realType": "TreeNode",
+                                "external": false,
+                                "correspondingVar": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode\\left\\left[1]",
+                                "correspondingType": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode",
+                                "children": [
+                                  {
+                                    "type": "com.dse.testdata.object.SubStructDataNode",
+                                    "name": "left",
+                                    "virtual_name": "root[0].left[1]",
+                                    "dataType": "::TreeNode",
+                                    "realType": "::TreeNode",
+                                    "external": false,
+                                    "correspondingVar": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode\\left\\left",
+                                    "correspondingType": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode",
+                                    "rawType": "::TreeNode",
+                                    "selectedConstructor": "TreeNode(int,TreeNode*,TreeNode*)",
+                                    "variableType": "::TreeNode",
+                                    "children": [
+                                      {
+                                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                                        "name": "TreeNode(int,TreeNode*,TreeNode*)",
+                                        "virtual_name": "root[0].left[1]",
+                                        "dataType": "::TreeNode",
+                                        "realType": "::TreeNode",
+                                        "functionNode": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)",
+                                        "children": [
+                                          {
+                                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                            "name": "x",
+                                            "virtual_name": "root0_left1_x",
+                                            "dataType": "int",
+                                            "realType": "int",
+                                            "external": false,
+                                            "correspondingVar": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)\\x",
+                                            "correspondingType": "int",
+                                            "value": "-281217696"
+                                          },
+                                          {
+                                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                            "name": "left",
+                                            "virtual_name": "root0_left1_left",
+                                            "dataType": "TreeNode*",
+                                            "realType": "TreeNode*",
+                                            "external": false,
+                                            "correspondingVar": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)\\left",
+                                            "correspondingType": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode",
+                                            "level": 1
+                                          },
+                                          {
+                                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                            "name": "right",
+                                            "virtual_name": "root0_left1_right",
+                                            "dataType": "TreeNode*",
+                                            "realType": "TreeNode*",
+                                            "external": false,
+                                            "correspondingVar": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)\\right",
+                                            "correspondingType": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode",
+                                            "level": 1
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                        "name": "val",
+                                        "virtual_name": "root[0].left[1].val",
+                                        "dataType": "int",
+                                        "realType": "int",
+                                        "external": false,
+                                        "correspondingVar": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode\\val",
+                                        "correspondingType": "int",
+                                        "value": "-1377038667"
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                        "name": "left",
+                                        "virtual_name": "root[0].left[1].left",
+                                        "dataType": "TreeNode*",
+                                        "realType": "TreeNode*",
+                                        "external": false,
+                                        "correspondingVar": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode\\left",
+                                        "correspondingType": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode",
+                                        "level": 1
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                        "name": "right",
+                                        "virtual_name": "root[0].left[1].right",
+                                        "dataType": "TreeNode*",
+                                        "realType": "TreeNode*",
+                                        "external": false,
+                                        "correspondingVar": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode\\right",
+                                        "correspondingType": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode",
+                                        "level": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "com.dse.testdata.object.StructDataNode",
+                                "name": "left[2]",
+                                "virtual_name": "root[0].left[2]",
+                                "dataType": "TreeNode",
+                                "realType": "TreeNode",
+                                "external": false,
+                                "correspondingVar": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode\\left\\left[2]",
+                                "correspondingType": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode",
+                                "children": [
+                                  {
+                                    "type": "com.dse.testdata.object.SubStructDataNode",
+                                    "name": "left",
+                                    "virtual_name": "root[0].left[2]",
+                                    "dataType": "::TreeNode",
+                                    "realType": "::TreeNode",
+                                    "external": false,
+                                    "correspondingVar": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode\\left\\left",
+                                    "correspondingType": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode",
+                                    "rawType": "::TreeNode",
+                                    "selectedConstructor": "TreeNode()",
+                                    "variableType": "::TreeNode",
+                                    "children": [
+                                      {
+                                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                                        "name": "TreeNode()",
+                                        "virtual_name": "root[0].left[2]",
+                                        "dataType": "::TreeNode",
+                                        "realType": "::TreeNode",
+                                        "functionNode": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode\\TreeNode()"
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                        "name": "val",
+                                        "virtual_name": "root[0].left[2].val",
+                                        "dataType": "int",
+                                        "realType": "int",
+                                        "external": false,
+                                        "correspondingVar": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode\\val",
+                                        "correspondingType": "int",
+                                        "value": "-746877216"
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                        "name": "left",
+                                        "virtual_name": "root[0].left[2].left",
+                                        "dataType": "TreeNode*",
+                                        "realType": "TreeNode*",
+                                        "external": false,
+                                        "correspondingVar": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode\\left",
+                                        "correspondingType": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode",
+                                        "level": 1
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                        "name": "right",
+                                        "virtual_name": "root[0].left[2].right",
+                                        "dataType": "TreeNode*",
+                                        "realType": "TreeNode*",
+                                        "external": false,
+                                        "correspondingVar": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode\\right",
+                                        "correspondingType": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode",
+                                        "level": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                            "name": "right",
+                            "virtual_name": "root[0].right",
+                            "dataType": "TreeNode*",
+                            "realType": "TreeNode*",
+                            "external": false,
+                            "correspondingVar": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode\\right",
+                            "correspondingType": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode",
+                            "level": 1,
+                            "size": 3,
+                            "children": [
+                              {
+                                "type": "com.dse.testdata.object.StructDataNode",
+                                "name": "right[0]",
+                                "virtual_name": "root[0].right[0]",
+                                "dataType": "TreeNode",
+                                "realType": "TreeNode",
+                                "external": false,
+                                "correspondingVar": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode\\right\\right[0]",
+                                "correspondingType": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode",
+                                "children": [
+                                  {
+                                    "type": "com.dse.testdata.object.SubStructDataNode",
+                                    "name": "right",
+                                    "virtual_name": "root[0].right[0]",
+                                    "dataType": "::TreeNode",
+                                    "realType": "::TreeNode",
+                                    "external": false,
+                                    "correspondingVar": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode\\right\\right",
+                                    "correspondingType": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode",
+                                    "rawType": "::TreeNode",
+                                    "selectedConstructor": "TreeNode(int)",
+                                    "variableType": "::TreeNode",
+                                    "children": [
+                                      {
+                                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                                        "name": "TreeNode(int)",
+                                        "virtual_name": "root[0].right[0]",
+                                        "dataType": "::TreeNode",
+                                        "realType": "::TreeNode",
+                                        "functionNode": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode\\TreeNode(int)",
+                                        "children": [
+                                          {
+                                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                            "name": "x",
+                                            "virtual_name": "root0_right0_x",
+                                            "dataType": "int",
+                                            "realType": "int",
+                                            "external": false,
+                                            "correspondingVar": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode\\TreeNode(int)\\x",
+                                            "correspondingType": "int",
+                                            "value": "250210476"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                        "name": "val",
+                                        "virtual_name": "root[0].right[0].val",
+                                        "dataType": "int",
+                                        "realType": "int",
+                                        "external": false,
+                                        "correspondingVar": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode\\val",
+                                        "correspondingType": "int",
+                                        "value": "646448239"
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                        "name": "left",
+                                        "virtual_name": "root[0].right[0].left",
+                                        "dataType": "TreeNode*",
+                                        "realType": "TreeNode*",
+                                        "external": false,
+                                        "correspondingVar": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode\\left",
+                                        "correspondingType": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode",
+                                        "level": 1
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                        "name": "right",
+                                        "virtual_name": "root[0].right[0].right",
+                                        "dataType": "TreeNode*",
+                                        "realType": "TreeNode*",
+                                        "external": false,
+                                        "correspondingVar": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode\\right",
+                                        "correspondingType": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode",
+                                        "level": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "com.dse.testdata.object.StructDataNode",
+                                "name": "right[1]",
+                                "virtual_name": "root[0].right[1]",
+                                "dataType": "TreeNode",
+                                "realType": "TreeNode",
+                                "external": false,
+                                "correspondingVar": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode\\right\\right[1]",
+                                "correspondingType": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode",
+                                "children": [
+                                  {
+                                    "type": "com.dse.testdata.object.SubStructDataNode",
+                                    "name": "right",
+                                    "virtual_name": "root[0].right[1]",
+                                    "dataType": "::TreeNode",
+                                    "realType": "::TreeNode",
+                                    "external": false,
+                                    "correspondingVar": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode\\right\\right",
+                                    "correspondingType": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode",
+                                    "rawType": "::TreeNode",
+                                    "selectedConstructor": "TreeNode(int,TreeNode*,TreeNode*)",
+                                    "variableType": "::TreeNode",
+                                    "children": [
+                                      {
+                                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                                        "name": "TreeNode(int,TreeNode*,TreeNode*)",
+                                        "virtual_name": "root[0].right[1]",
+                                        "dataType": "::TreeNode",
+                                        "realType": "::TreeNode",
+                                        "functionNode": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)",
+                                        "children": [
+                                          {
+                                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                            "name": "x",
+                                            "virtual_name": "root0_right1_x",
+                                            "dataType": "int",
+                                            "realType": "int",
+                                            "external": false,
+                                            "correspondingVar": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)\\x",
+                                            "correspondingType": "int",
+                                            "value": "9252593"
+                                          },
+                                          {
+                                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                            "name": "left",
+                                            "virtual_name": "root0_right1_left",
+                                            "dataType": "TreeNode*",
+                                            "realType": "TreeNode*",
+                                            "external": false,
+                                            "correspondingVar": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)\\left",
+                                            "correspondingType": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode",
+                                            "level": 1
+                                          },
+                                          {
+                                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                            "name": "right",
+                                            "virtual_name": "root0_right1_right",
+                                            "dataType": "TreeNode*",
+                                            "realType": "TreeNode*",
+                                            "external": false,
+                                            "correspondingVar": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)\\right",
+                                            "correspondingType": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode",
+                                            "level": 1
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                        "name": "val",
+                                        "virtual_name": "root[0].right[1].val",
+                                        "dataType": "int",
+                                        "realType": "int",
+                                        "external": false,
+                                        "correspondingVar": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode\\val",
+                                        "correspondingType": "int",
+                                        "value": "1999556324"
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                        "name": "left",
+                                        "virtual_name": "root[0].right[1].left",
+                                        "dataType": "TreeNode*",
+                                        "realType": "TreeNode*",
+                                        "external": false,
+                                        "correspondingVar": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode\\left",
+                                        "correspondingType": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode",
+                                        "level": 1
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                        "name": "right",
+                                        "virtual_name": "root[0].right[1].right",
+                                        "dataType": "TreeNode*",
+                                        "realType": "TreeNode*",
+                                        "external": false,
+                                        "correspondingVar": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode\\right",
+                                        "correspondingType": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode",
+                                        "level": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "com.dse.testdata.object.StructDataNode",
+                                "name": "right[2]",
+                                "virtual_name": "root[0].right[2]",
+                                "dataType": "TreeNode",
+                                "realType": "TreeNode",
+                                "external": false,
+                                "correspondingVar": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode\\right\\right[2]",
+                                "correspondingType": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode",
+                                "children": [
+                                  {
+                                    "type": "com.dse.testdata.object.SubStructDataNode",
+                                    "name": "right",
+                                    "virtual_name": "root[0].right[2]",
+                                    "dataType": "::TreeNode",
+                                    "realType": "::TreeNode",
+                                    "external": false,
+                                    "correspondingVar": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode\\right\\right",
+                                    "correspondingType": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode",
+                                    "rawType": "::TreeNode",
+                                    "selectedConstructor": "TreeNode(int,TreeNode*,TreeNode*)",
+                                    "variableType": "::TreeNode",
+                                    "children": [
+                                      {
+                                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                                        "name": "TreeNode(int,TreeNode*,TreeNode*)",
+                                        "virtual_name": "root[0].right[2]",
+                                        "dataType": "::TreeNode",
+                                        "realType": "::TreeNode",
+                                        "functionNode": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)",
+                                        "children": [
+                                          {
+                                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                            "name": "x",
+                                            "virtual_name": "root0_right2_x",
+                                            "dataType": "int",
+                                            "realType": "int",
+                                            "external": false,
+                                            "correspondingVar": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)\\x",
+                                            "correspondingType": "int",
+                                            "value": "-377087025"
+                                          },
+                                          {
+                                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                            "name": "left",
+                                            "virtual_name": "root0_right2_left",
+                                            "dataType": "TreeNode*",
+                                            "realType": "TreeNode*",
+                                            "external": false,
+                                            "correspondingVar": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)\\left",
+                                            "correspondingType": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode",
+                                            "level": 1
+                                          },
+                                          {
+                                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                            "name": "right",
+                                            "virtual_name": "root0_right2_right",
+                                            "dataType": "TreeNode*",
+                                            "realType": "TreeNode*",
+                                            "external": false,
+                                            "correspondingVar": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)\\right",
+                                            "correspondingType": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode",
+                                            "level": 1
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                        "name": "val",
+                                        "virtual_name": "root[0].right[2].val",
+                                        "dataType": "int",
+                                        "realType": "int",
+                                        "external": false,
+                                        "correspondingVar": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode\\val",
+                                        "correspondingType": "int",
+                                        "value": "2048079605"
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                        "name": "left",
+                                        "virtual_name": "root[0].right[2].left",
+                                        "dataType": "TreeNode*",
+                                        "realType": "TreeNode*",
+                                        "external": false,
+                                        "correspondingVar": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode\\left",
+                                        "correspondingType": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode",
+                                        "level": 1
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                        "name": "right",
+                                        "virtual_name": "root[0].right[2].right",
+                                        "dataType": "TreeNode*",
+                                        "realType": "TreeNode*",
+                                        "external": false,
+                                        "correspondingVar": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode\\right",
+                                        "correspondingType": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\TreeNode",
+                                        "level": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "res",
+                "virtual_name": "res",
+                "dataType": "int\u0026",
+                "realType": "int\u0026",
+                "external": false,
+                "correspondingVar": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\Solution\\dfs(TreeNode*,int\u0026)\\res",
+                "correspondingType": "int\u0026",
+                "value": "-913444860"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.RootDataNode",
+        "name": "STUB",
+        "virtual_name": "NON_VALUE",
+        "functionNode": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\Solution\\dfs(TreeNode*,int\u0026)",
+        "level": "STUB"
+      }
+    ]
+  },
+  "procedures": [
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "function_call",
+      "value": "dfs();",
+      "isSelected": false,
+      "location": 5,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "root \u003d\u003d NULL",
+      "isSelected": false,
+      "location": 59,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "function_call",
+      "value": "isLeafNode();",
+      "isSelected": false,
+      "location": 185,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "function_call",
+      "value": "isLeafNode();",
+      "isSelected": false,
+      "location": 185,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "function_call",
+      "value": "findMinMax();",
+      "isSelected": false,
+      "location": 240,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "function_call",
+      "value": "dfs();",
+      "isSelected": false,
+      "location": 432,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "function_call",
+      "value": "dfs();",
+      "isSelected": false,
+      "location": 463,
+      "calls": [],
+      "children": []
+    }
+  ]
+}

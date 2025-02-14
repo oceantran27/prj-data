@@ -1,0 +1,226 @@
+{
+  "name": "TreeNode_int_random_1",
+  "status": "success",
+  "testCaseUserCode": {
+    "includePaths": [],
+    "setUpContent": "// set up\n;",
+    "tearDownContent": "// tear down\n;"
+  },
+  "path": ".\\\\aka-working-space\\\\p2\\\\test-cases\\TreeNode_int_random_1.json",
+  "sourceCode": ".\\\\aka-working-space\\\\p2\\\\test-drivers\\TreeNode_int_random_1.cpp",
+  "testPath": ".\\\\aka-working-space\\\\p2\\\\test-paths\\TreeNode_int_random_1.tp",
+  "executable": ".\\\\aka-working-space\\\\p2\\\\exe\\TreeNode_int_random_1.exe",
+  "commandConfig": ".\\aka-working-space\\p2\\test-case-commands\\TreeNode_int_random_1.json",
+  "commandDebug": ".\\\\aka-working-space\\\\p2\\\\debugger\\\\commands\\TreeNode_int_random_1.json",
+  "breakPoint": ".\\\\aka-working-space\\\\p2\\\\debugger\\\\breakpoints\\TreeNode_int_random_1.br.json",
+  "debugExecutable": ".\\\\aka-working-space\\\\p2\\\\exe\\debug_TreeNode_int_random_1.exe",
+  "executionResult": ".\\\\aka-working-space\\\\p2\\\\execution-results\\TreeNode_int_random_1.xml",
+  "creationDate": "2025-02-13T16:28:45.199549200",
+  "executionDate": "2025-02-13T16:28:45.982610600",
+  "rootDataNode": {
+    "type": "com.dse.testdata.object.RootDataNode",
+    "name": "ROOT",
+    "virtual_name": "NON_VALUE",
+    "functionNode": ".\\p2\\0095-unique-binary-search-trees-ii\\0095-unique-binary-search-trees-ii.cpp\\TreeNode\\TreeNode(int)",
+    "level": "ROOT",
+    "children": [
+      {
+        "type": "com.dse.testdata.object.UnitUnderTestNode",
+        "name": "0095-unique-binary-search-trees-ii.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\p2\\0095-unique-binary-search-trees-ii\\0095-unique-binary-search-trees-ii.cpp",
+        "children": [
+          {
+            "type": "com.dse.testdata.object.GlobalRootDataNode",
+            "name": "GLOBAL",
+            "virtual_name": "NON_VALUE",
+            "functionNode": ".\\p2\\0095-unique-binary-search-trees-ii\\0095-unique-binary-search-trees-ii.cpp\\TreeNode\\TreeNode(int)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.StructDataNode",
+                "name": "AKA_INSTANCE___TreeNode",
+                "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___TreeNode",
+                "dataType": "::TreeNode",
+                "realType": "::TreeNode",
+                "external": false,
+                "correspondingVar": ".\\p2\\0095-unique-binary-search-trees-ii\\0095-unique-binary-search-trees-ii.cpp\\TreeNode\\AKA_INSTANCE___TreeNode",
+                "correspondingType": ".\\p2\\0095-unique-binary-search-trees-ii\\0095-unique-binary-search-trees-ii.cpp\\TreeNode",
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.SubStructDataNode",
+                    "name": "AKA_INSTANCE___TreeNode",
+                    "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___TreeNode",
+                    "dataType": "::TreeNode",
+                    "realType": "::TreeNode",
+                    "external": false,
+                    "correspondingVar": ".\\p2\\0095-unique-binary-search-trees-ii\\0095-unique-binary-search-trees-ii.cpp\\TreeNode\\AKA_INSTANCE___TreeNode",
+                    "correspondingType": ".\\p2\\0095-unique-binary-search-trees-ii\\0095-unique-binary-search-trees-ii.cpp\\TreeNode",
+                    "rawType": "::TreeNode",
+                    "selectedConstructor": "TreeNode(int)",
+                    "variableType": "::TreeNode",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                        "name": "TreeNode(int)",
+                        "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___TreeNode",
+                        "dataType": "::TreeNode",
+                        "realType": "::TreeNode",
+                        "functionNode": ".\\p2\\0095-unique-binary-search-trees-ii\\0095-unique-binary-search-trees-ii.cpp\\TreeNode\\TreeNode(int)",
+                        "children": [
+                          {
+                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                            "name": "x",
+                            "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___TreeNode_x",
+                            "dataType": "int",
+                            "realType": "int",
+                            "external": false,
+                            "correspondingVar": ".\\p2\\0095-unique-binary-search-trees-ii\\0095-unique-binary-search-trees-ii.cpp\\TreeNode\\TreeNode(int)\\x",
+                            "correspondingType": "int",
+                            "value": "null"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "com.dse.testdata.object.NormalNumberDataNode",
+                        "name": "val",
+                        "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___TreeNode-\u003eval",
+                        "dataType": "int",
+                        "realType": "int",
+                        "external": false,
+                        "correspondingVar": ".\\p2\\0095-unique-binary-search-trees-ii\\0095-unique-binary-search-trees-ii.cpp\\TreeNode\\val",
+                        "correspondingType": "int",
+                        "value": "null"
+                      },
+                      {
+                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                        "name": "left",
+                        "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___TreeNode-\u003eleft",
+                        "dataType": "TreeNode*",
+                        "realType": "TreeNode*",
+                        "external": false,
+                        "correspondingVar": ".\\p2\\0095-unique-binary-search-trees-ii\\0095-unique-binary-search-trees-ii.cpp\\TreeNode\\left",
+                        "correspondingType": ".\\p2\\0095-unique-binary-search-trees-ii\\0095-unique-binary-search-trees-ii.cpp\\TreeNode",
+                        "level": 1
+                      },
+                      {
+                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                        "name": "right",
+                        "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___TreeNode-\u003eright",
+                        "dataType": "TreeNode*",
+                        "realType": "TreeNode*",
+                        "external": false,
+                        "correspondingVar": ".\\p2\\0095-unique-binary-search-trees-ii\\0095-unique-binary-search-trees-ii.cpp\\TreeNode\\right",
+                        "correspondingType": ".\\p2\\0095-unique-binary-search-trees-ii\\0095-unique-binary-search-trees-ii.cpp\\TreeNode",
+                        "level": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "level": "GLOBAL",
+            "children": [
+              {
+                "type": "com.dse.testdata.object.StructDataNode",
+                "name": "AKA_INSTANCE___TreeNode",
+                "virtual_name": "AKA_INSTANCE___TreeNode",
+                "dataType": "::TreeNode",
+                "realType": "::TreeNode",
+                "external": true,
+                "correspondingVar": ".\\p2\\0095-unique-binary-search-trees-ii\\0095-unique-binary-search-trees-ii.cpp\\TreeNode\\AKA_INSTANCE___TreeNode",
+                "correspondingType": ".\\p2\\0095-unique-binary-search-trees-ii\\0095-unique-binary-search-trees-ii.cpp\\TreeNode",
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.SubStructDataNode",
+                    "name": "AKA_INSTANCE___TreeNode",
+                    "virtual_name": "AKA_INSTANCE___TreeNode",
+                    "dataType": "::TreeNode",
+                    "realType": "::TreeNode",
+                    "external": false,
+                    "correspondingVar": ".\\p2\\0095-unique-binary-search-trees-ii\\0095-unique-binary-search-trees-ii.cpp\\TreeNode\\AKA_INSTANCE___TreeNode",
+                    "correspondingType": ".\\p2\\0095-unique-binary-search-trees-ii\\0095-unique-binary-search-trees-ii.cpp\\TreeNode",
+                    "rawType": "::TreeNode",
+                    "selectedConstructor": "TreeNode(int)",
+                    "variableType": "::TreeNode",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                        "name": "TreeNode(int)",
+                        "virtual_name": "AKA_INSTANCE___TreeNode",
+                        "dataType": "::TreeNode",
+                        "realType": "::TreeNode",
+                        "functionNode": ".\\p2\\0095-unique-binary-search-trees-ii\\0095-unique-binary-search-trees-ii.cpp\\TreeNode\\TreeNode(int)",
+                        "children": [
+                          {
+                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                            "name": "x",
+                            "virtual_name": "AKA_INSTANCE___TreeNode_x",
+                            "dataType": "int",
+                            "realType": "int",
+                            "external": false,
+                            "correspondingVar": ".\\p2\\0095-unique-binary-search-trees-ii\\0095-unique-binary-search-trees-ii.cpp\\TreeNode\\TreeNode(int)\\x",
+                            "correspondingType": "int",
+                            "value": "-599383764"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "com.dse.testdata.object.NormalNumberDataNode",
+                        "name": "val",
+                        "virtual_name": "AKA_INSTANCE___TreeNode-\u003eval",
+                        "dataType": "int",
+                        "realType": "int",
+                        "external": false,
+                        "correspondingVar": ".\\p2\\0095-unique-binary-search-trees-ii\\0095-unique-binary-search-trees-ii.cpp\\TreeNode\\val",
+                        "correspondingType": "int",
+                        "value": "null"
+                      },
+                      {
+                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                        "name": "left",
+                        "virtual_name": "AKA_INSTANCE___TreeNode-\u003eleft",
+                        "dataType": "TreeNode*",
+                        "realType": "TreeNode*",
+                        "external": false,
+                        "correspondingVar": ".\\p2\\0095-unique-binary-search-trees-ii\\0095-unique-binary-search-trees-ii.cpp\\TreeNode\\left",
+                        "correspondingType": ".\\p2\\0095-unique-binary-search-trees-ii\\0095-unique-binary-search-trees-ii.cpp\\TreeNode",
+                        "level": 1
+                      },
+                      {
+                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                        "name": "right",
+                        "virtual_name": "AKA_INSTANCE___TreeNode-\u003eright",
+                        "dataType": "TreeNode*",
+                        "realType": "TreeNode*",
+                        "external": false,
+                        "correspondingVar": ".\\p2\\0095-unique-binary-search-trees-ii\\0095-unique-binary-search-trees-ii.cpp\\TreeNode\\right",
+                        "correspondingType": ".\\p2\\0095-unique-binary-search-trees-ii\\0095-unique-binary-search-trees-ii.cpp\\TreeNode",
+                        "level": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "com.dse.testdata.object.SubprogramNode",
+            "name": "TreeNode(int)",
+            "virtual_name": "NON_VALUE",
+            "dataType": "",
+            "realType": "",
+            "functionNode": ".\\p2\\0095-unique-binary-search-trees-ii\\0095-unique-binary-search-trees-ii.cpp\\TreeNode\\TreeNode(int)"
+          }
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.RootDataNode",
+        "name": "STUB",
+        "virtual_name": "NON_VALUE",
+        "functionNode": ".\\p2\\0095-unique-binary-search-trees-ii\\0095-unique-binary-search-trees-ii.cpp\\TreeNode\\TreeNode(int)",
+        "level": "STUB"
+      }
+    ]
+  },
+  "procedures": []
+}

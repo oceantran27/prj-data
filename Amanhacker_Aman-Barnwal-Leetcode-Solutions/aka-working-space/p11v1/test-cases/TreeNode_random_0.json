@@ -1,0 +1,200 @@
+{
+  "name": "TreeNode_random_0",
+  "status": "success",
+  "testCaseUserCode": {
+    "includePaths": [],
+    "setUpContent": "// set up\n;",
+    "tearDownContent": "// tear down\n;"
+  },
+  "path": ".\\\\aka-working-space\\\\p11v1\\\\test-cases\\TreeNode_random_0.json",
+  "sourceCode": ".\\\\aka-working-space\\\\p11v1\\\\test-drivers\\TreeNode_random_0.cpp",
+  "testPath": ".\\\\aka-working-space\\\\p11v1\\\\test-paths\\TreeNode_random_0.tp",
+  "executable": ".\\\\aka-working-space\\\\p11v1\\\\exe\\TreeNode_random_0.exe",
+  "commandConfig": ".\\aka-working-space\\p11v1\\test-case-commands\\TreeNode_random_0.json",
+  "commandDebug": ".\\\\aka-working-space\\\\p11v1\\\\debugger\\\\commands\\TreeNode_random_0.json",
+  "breakPoint": ".\\\\aka-working-space\\\\p11v1\\\\debugger\\\\breakpoints\\TreeNode_random_0.br.json",
+  "debugExecutable": ".\\\\aka-working-space\\\\p11v1\\\\exe\\debug_TreeNode_random_0.exe",
+  "executionResult": ".\\\\aka-working-space\\\\p11v1\\\\execution-results\\TreeNode_random_0.xml",
+  "creationDate": "2025-02-14T11:19:50.740560300",
+  "executionDate": "2025-02-14T11:19:51.777635700",
+  "rootDataNode": {
+    "type": "com.dse.testdata.object.RootDataNode",
+    "name": "ROOT",
+    "virtual_name": "NON_VALUE",
+    "functionNode": ".\\p11\\104-maximum-depth-of-binary-tree\\104-maximum-depth-of-binary-tree.cpp\\TreeNode\\TreeNode()",
+    "level": "ROOT",
+    "children": [
+      {
+        "type": "com.dse.testdata.object.UnitUnderTestNode",
+        "name": "104-maximum-depth-of-binary-tree.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\p11\\104-maximum-depth-of-binary-tree\\104-maximum-depth-of-binary-tree.cpp",
+        "children": [
+          {
+            "type": "com.dse.testdata.object.GlobalRootDataNode",
+            "name": "GLOBAL",
+            "virtual_name": "NON_VALUE",
+            "functionNode": ".\\p11\\104-maximum-depth-of-binary-tree\\104-maximum-depth-of-binary-tree.cpp\\TreeNode\\TreeNode()",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.StructDataNode",
+                "name": "AKA_INSTANCE___TreeNode",
+                "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___TreeNode",
+                "dataType": "::TreeNode",
+                "realType": "::TreeNode",
+                "external": false,
+                "correspondingVar": ".\\p11\\104-maximum-depth-of-binary-tree\\104-maximum-depth-of-binary-tree.cpp\\TreeNode\\AKA_INSTANCE___TreeNode",
+                "correspondingType": ".\\p11\\104-maximum-depth-of-binary-tree\\104-maximum-depth-of-binary-tree.cpp\\TreeNode",
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.SubStructDataNode",
+                    "name": "AKA_INSTANCE___TreeNode",
+                    "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___TreeNode",
+                    "dataType": "::TreeNode",
+                    "realType": "::TreeNode",
+                    "external": false,
+                    "correspondingVar": ".\\p11\\104-maximum-depth-of-binary-tree\\104-maximum-depth-of-binary-tree.cpp\\TreeNode\\AKA_INSTANCE___TreeNode",
+                    "correspondingType": ".\\p11\\104-maximum-depth-of-binary-tree\\104-maximum-depth-of-binary-tree.cpp\\TreeNode",
+                    "rawType": "::TreeNode",
+                    "selectedConstructor": "TreeNode()",
+                    "variableType": "::TreeNode",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                        "name": "TreeNode()",
+                        "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___TreeNode",
+                        "dataType": "::TreeNode",
+                        "realType": "::TreeNode",
+                        "functionNode": ".\\p11\\104-maximum-depth-of-binary-tree\\104-maximum-depth-of-binary-tree.cpp\\TreeNode\\TreeNode()"
+                      },
+                      {
+                        "type": "com.dse.testdata.object.NormalNumberDataNode",
+                        "name": "val",
+                        "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___TreeNode-\u003eval",
+                        "dataType": "int",
+                        "realType": "int",
+                        "external": false,
+                        "correspondingVar": ".\\p11\\104-maximum-depth-of-binary-tree\\104-maximum-depth-of-binary-tree.cpp\\TreeNode\\val",
+                        "correspondingType": "int",
+                        "value": "null"
+                      },
+                      {
+                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                        "name": "left",
+                        "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___TreeNode-\u003eleft",
+                        "dataType": "TreeNode*",
+                        "realType": "TreeNode*",
+                        "external": false,
+                        "correspondingVar": ".\\p11\\104-maximum-depth-of-binary-tree\\104-maximum-depth-of-binary-tree.cpp\\TreeNode\\left",
+                        "correspondingType": ".\\p11\\104-maximum-depth-of-binary-tree\\104-maximum-depth-of-binary-tree.cpp\\TreeNode",
+                        "level": 1
+                      },
+                      {
+                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                        "name": "right",
+                        "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___TreeNode-\u003eright",
+                        "dataType": "TreeNode*",
+                        "realType": "TreeNode*",
+                        "external": false,
+                        "correspondingVar": ".\\p11\\104-maximum-depth-of-binary-tree\\104-maximum-depth-of-binary-tree.cpp\\TreeNode\\right",
+                        "correspondingType": ".\\p11\\104-maximum-depth-of-binary-tree\\104-maximum-depth-of-binary-tree.cpp\\TreeNode",
+                        "level": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "level": "GLOBAL",
+            "children": [
+              {
+                "type": "com.dse.testdata.object.StructDataNode",
+                "name": "AKA_INSTANCE___TreeNode",
+                "virtual_name": "AKA_INSTANCE___TreeNode",
+                "dataType": "::TreeNode",
+                "realType": "::TreeNode",
+                "external": true,
+                "correspondingVar": ".\\p11\\104-maximum-depth-of-binary-tree\\104-maximum-depth-of-binary-tree.cpp\\TreeNode\\AKA_INSTANCE___TreeNode",
+                "correspondingType": ".\\p11\\104-maximum-depth-of-binary-tree\\104-maximum-depth-of-binary-tree.cpp\\TreeNode",
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.SubStructDataNode",
+                    "name": "AKA_INSTANCE___TreeNode",
+                    "virtual_name": "AKA_INSTANCE___TreeNode",
+                    "dataType": "::TreeNode",
+                    "realType": "::TreeNode",
+                    "external": false,
+                    "correspondingVar": ".\\p11\\104-maximum-depth-of-binary-tree\\104-maximum-depth-of-binary-tree.cpp\\TreeNode\\AKA_INSTANCE___TreeNode",
+                    "correspondingType": ".\\p11\\104-maximum-depth-of-binary-tree\\104-maximum-depth-of-binary-tree.cpp\\TreeNode",
+                    "rawType": "::TreeNode",
+                    "selectedConstructor": "TreeNode()",
+                    "variableType": "::TreeNode",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                        "name": "TreeNode()",
+                        "virtual_name": "AKA_INSTANCE___TreeNode",
+                        "dataType": "::TreeNode",
+                        "realType": "::TreeNode",
+                        "functionNode": ".\\p11\\104-maximum-depth-of-binary-tree\\104-maximum-depth-of-binary-tree.cpp\\TreeNode\\TreeNode()"
+                      },
+                      {
+                        "type": "com.dse.testdata.object.NormalNumberDataNode",
+                        "name": "val",
+                        "virtual_name": "AKA_INSTANCE___TreeNode-\u003eval",
+                        "dataType": "int",
+                        "realType": "int",
+                        "external": false,
+                        "correspondingVar": ".\\p11\\104-maximum-depth-of-binary-tree\\104-maximum-depth-of-binary-tree.cpp\\TreeNode\\val",
+                        "correspondingType": "int",
+                        "value": "null"
+                      },
+                      {
+                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                        "name": "left",
+                        "virtual_name": "AKA_INSTANCE___TreeNode-\u003eleft",
+                        "dataType": "TreeNode*",
+                        "realType": "TreeNode*",
+                        "external": false,
+                        "correspondingVar": ".\\p11\\104-maximum-depth-of-binary-tree\\104-maximum-depth-of-binary-tree.cpp\\TreeNode\\left",
+                        "correspondingType": ".\\p11\\104-maximum-depth-of-binary-tree\\104-maximum-depth-of-binary-tree.cpp\\TreeNode",
+                        "level": 1
+                      },
+                      {
+                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                        "name": "right",
+                        "virtual_name": "AKA_INSTANCE___TreeNode-\u003eright",
+                        "dataType": "TreeNode*",
+                        "realType": "TreeNode*",
+                        "external": false,
+                        "correspondingVar": ".\\p11\\104-maximum-depth-of-binary-tree\\104-maximum-depth-of-binary-tree.cpp\\TreeNode\\right",
+                        "correspondingType": ".\\p11\\104-maximum-depth-of-binary-tree\\104-maximum-depth-of-binary-tree.cpp\\TreeNode",
+                        "level": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "com.dse.testdata.object.SubprogramNode",
+            "name": "TreeNode()",
+            "virtual_name": "NON_VALUE",
+            "dataType": "",
+            "realType": "",
+            "functionNode": ".\\p11\\104-maximum-depth-of-binary-tree\\104-maximum-depth-of-binary-tree.cpp\\TreeNode\\TreeNode()"
+          }
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.RootDataNode",
+        "name": "STUB",
+        "virtual_name": "NON_VALUE",
+        "functionNode": ".\\p11\\104-maximum-depth-of-binary-tree\\104-maximum-depth-of-binary-tree.cpp\\TreeNode\\TreeNode()",
+        "level": "STUB"
+      }
+    ]
+  },
+  "procedures": []
+}

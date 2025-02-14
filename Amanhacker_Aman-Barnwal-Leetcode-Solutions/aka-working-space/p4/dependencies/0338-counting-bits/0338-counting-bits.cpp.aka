@@ -1,0 +1,14 @@
+{
+  "path": ".\\p4\\0338-counting-bits\\0338-counting-bits.cpp",
+  "dependency": [
+    {
+      "start": ".\\p4\\0338-counting-bits\\0338-counting-bits.cpp\\Solution\\countBits(int)",
+      "start-type": "FunctionNode",
+      "start-md5": "58ed05ddc3bcc8e30ceec0e3ca6ccd4b",
+      "end": ".\\p4\\0338-counting-bits\\0338-counting-bits.cpp\\Solution",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "e739f74e9183ccdd5630d158bd4781b6"
+    }
+  ]
+}

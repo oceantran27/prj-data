@@ -1,0 +1,51 @@
+<pre>...
+...
+...
+...
+<b style="color: grey;">29    </b>     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+<b style="color: grey;">30    </b> };
+<b style="color: grey;">31    </b>
+<b style="color: grey;">32    </b>class Solution {
+<b style="color: grey;">33    </b>public:
+<b style="color: grey;">34    </b>    
+<b style="color: grey;">35    </b>    void insert(TreeNode* &amp;node, int val, int d, int curDepth) {
+<b style="color: grey;">36    </b>        
+<b style="color: grey;">37    </b>        if(<b style="background-color:yellow;color:black";>node == NULL</b>)                        <b style="background-color:yellow;color:black";>return;</b>
+<b style="color: grey;">38    </b>        
+<b style="color: grey;">39    </b>        if(<b style="background-color:yellow;color:black";>curDepth == d - 1</b>) {
+<b style="color: grey;">40    </b>            
+<b style="color: grey;">41    </b>            // Here, we need to insert the node having value val
+<b style="color: grey;">42    </b>            
+<b style="color: grey;">43    </b>            // For left node
+<b style="color: grey;">44    </b>            TreeNode* temp = node-&gt;left;
+<b style="color: grey;">45    </b>            node-&gt;left = new TreeNode(val);
+<b style="color: grey;">46    </b>            node-&gt;left-&gt;left = temp;
+...
+...
+...
+...
+<b style="color: grey;">48    </b>            // For right node
+<b style="color: grey;">49    </b>            temp = node-&gt;right;
+<b style="color: grey;">50    </b>            node-&gt;right = new TreeNode(val);
+<b style="color: grey;">51    </b>            node-&gt;right-&gt;right = temp;
+<b style="color: grey;">52    </b>        }
+<b style="color: grey;">53    </b>        
+<b style="color: grey;">54    </b>        else {
+<b style="color: grey;">55    </b>            
+<b style="color: grey;">56    </b>            <b style="background-color:yellow;color:black";>insert(node-&gt;left, val, d, curDepth + 1);</b>
+<b style="color: grey;">57    </b>            <b style="background-color:yellow;color:black";>insert(node-&gt;right, val, d, curDepth + 1);</b>
+<b style="color: grey;">58    </b>        }
+<b style="color: grey;">59    </b>        
+<b style="color: grey;">60    </b>        <b style="background-color:yellow;color:black";>return;</b>
+<b style="color: grey;">61    </b>    }
+<b style="color: grey;">62    </b>    
+<b style="color: grey;">63    </b>    TreeNode* addOneRow(TreeNode* root, int val, int d) {
+<b style="color: grey;">64    </b>    
+<b style="color: grey;">65    </b>        if(d == 1) {
+<b style="color: grey;">66    </b>            
+<b style="color: grey;">67    </b>            TreeNode* node = new TreeNode(val);
+...
+...
+...
+...
+</pre>

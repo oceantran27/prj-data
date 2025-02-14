@@ -1,0 +1,14 @@
+{
+  "path": ".\\p1\\0005-longest-palindromic-substring\\0005-longest-palindromic-substring.cpp",
+  "dependency": [
+    {
+      "start": ".\\p1\\0005-longest-palindromic-substring\\0005-longest-palindromic-substring.cpp\\Solution\\longestPalindrome(string)",
+      "start-type": "FunctionNode",
+      "start-md5": "13ced337fc6dab060e59cb163c4bf5df",
+      "end": ".\\p1\\0005-longest-palindromic-substring\\0005-longest-palindromic-substring.cpp\\Solution",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "13ac6f8d577e0885deae4589761d40fd"
+    }
+  ]
+}

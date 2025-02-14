@@ -1,0 +1,28 @@
+<pre>...
+...
+...
+...
+<b style="color: grey;">29    </b>     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+<b style="color: grey;">30    </b> };
+<b style="color: grey;">31    </b>
+<b style="color: grey;">32    </b>class Solution {
+<b style="color: grey;">33    </b>public:
+<b style="color: grey;">34    </b>
+<b style="color: grey;">35    </b>    bool isSymmetricHelper(TreeNode* node1, TreeNode* node2) {
+<b style="color: grey;">36    </b>        
+<b style="color: grey;">37    </b>        if(<b style="background-color:#3D9970;color:white";>&nbsp;T&nbsp;</b>&nbsp;<b style="background-color:yellow;color:black";>node1 == NULL</b> &amp;&amp; <b style="background-color:#3D9970;color:white";>&nbsp;T&nbsp;</b>&nbsp;<b style="background-color:yellow;color:black";>node2 == NULL</b>)          <b style="background-color:yellow;color:black";>return true;</b>
+<b style="color: grey;">38    </b>        if(node1 == NULL || node2 == NULL)          return false;
+<b style="color: grey;">39    </b>        
+<b style="color: grey;">40    </b>        return (node1-&gt;val == node2-&gt;val) &amp;&amp; isSymmetricHelper(node1-&gt;left, node2-&gt;right) &amp;&amp; isSymmetricHelper(node1-&gt;right, node2-&gt;left);
+<b style="color: grey;">41    </b>    }
+<b style="color: grey;">42    </b>    
+<b style="color: grey;">43    </b>    bool isSymmetric(TreeNode* root) {
+<b style="color: grey;">44    </b>    
+<b style="color: grey;">45    </b>        if(<b style="background-color:#FF4136;color:white";>&nbsp;F&nbsp;</b>&nbsp;<b style="background-color:yellow;color:black";>root == NULL</b>)                            return true;
+<b style="color: grey;">46    </b>        
+<b style="color: grey;">47    </b>        <b style="background-color:yellow;color:black";>return (isSymmetricHelper(root-&gt;left, root-&gt;right));</b>
+...
+...
+...
+...
+</pre>

@@ -1,0 +1,116 @@
+{
+  "path": ".\\p7",
+  "type": "com.dse.parser.object.ProjectNode",
+  "children": [
+    {
+      "path": ".\\p7\\0724-find-pivot-index",
+      "type": "com.dse.parser.object.FolderNode",
+      "children": [
+        {
+          "path": ".\\p7\\0724-find-pivot-index\\0724-find-pivot-index.cpp",
+          "type": "com.dse.parser.object.CppFileNode",
+          "last-modified": "02/12/2025 06:29:03",
+          "children": [
+            {
+              "path": ".\\p7\\0724-find-pivot-index\\0724-find-pivot-index.cpp\\",
+              "type": "com.dse.parser.object.UnspecifiedDeclaration"
+            }
+          ]
+        },
+        {
+          "path": ".\\p7\\0724-find-pivot-index\\NOTES.md",
+          "type": "com.dse.parser.object.UnknowObjectNode"
+        },
+        {
+          "path": ".\\p7\\0724-find-pivot-index\\README.md",
+          "type": "com.dse.parser.object.UnknowObjectNode"
+        }
+      ]
+    },
+    {
+      "path": ".\\p7\\0814-binary-tree-pruning",
+      "type": "com.dse.parser.object.FolderNode",
+      "children": [
+        {
+          "path": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp",
+          "type": "com.dse.parser.object.CppFileNode",
+          "last-modified": "02/14/2025 07:59:51",
+          "children": [
+            {
+              "path": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\",
+              "type": "com.dse.parser.object.UnspecifiedDeclaration"
+            }
+          ]
+        },
+        {
+          "path": ".\\p7\\0814-binary-tree-pruning\\NOTES.md",
+          "type": "com.dse.parser.object.UnknowObjectNode"
+        },
+        {
+          "path": ".\\p7\\0814-binary-tree-pruning\\README.md",
+          "type": "com.dse.parser.object.UnknowObjectNode"
+        }
+      ]
+    },
+    {
+      "path": ".\\p7\\0863-all-nodes-distance-k-in-binary-tree",
+      "type": "com.dse.parser.object.FolderNode",
+      "children": [
+        {
+          "path": ".\\p7\\0863-all-nodes-distance-k-in-binary-tree\\0863-all-nodes-distance-k-in-binary-tree.cpp",
+          "type": "com.dse.parser.object.CppFileNode",
+          "last-modified": "02/14/2025 08:00:27",
+          "children": [
+            {
+              "path": ".\\p7\\0863-all-nodes-distance-k-in-binary-tree\\0863-all-nodes-distance-k-in-binary-tree.cpp\\",
+              "type": "com.dse.parser.object.UnspecifiedDeclaration"
+            }
+          ]
+        },
+        {
+          "path": ".\\p7\\0863-all-nodes-distance-k-in-binary-tree\\NOTES.md",
+          "type": "com.dse.parser.object.UnknowObjectNode"
+        },
+        {
+          "path": ".\\p7\\0863-all-nodes-distance-k-in-binary-tree\\README.md",
+          "type": "com.dse.parser.object.UnknowObjectNode"
+        }
+      ]
+    },
+    {
+      "path": ".\\p7\\0865-smallest-subtree-with-all-the-deepest-nodes",
+      "type": "com.dse.parser.object.FolderNode",
+      "children": [
+        {
+          "path": ".\\p7\\0865-smallest-subtree-with-all-the-deepest-nodes\\0865-smallest-subtree-with-all-the-deepest-nodes.cpp",
+          "type": "com.dse.parser.object.CppFileNode",
+          "last-modified": "02/14/2025 08:00:56",
+          "children": [
+            {
+              "path": ".\\p7\\0865-smallest-subtree-with-all-the-deepest-nodes\\0865-smallest-subtree-with-all-the-deepest-nodes.cpp\\",
+              "type": "com.dse.parser.object.UnspecifiedDeclaration"
+            }
+          ]
+        },
+        {
+          "path": ".\\p7\\0865-smallest-subtree-with-all-the-deepest-nodes\\NOTES.md",
+          "type": "com.dse.parser.object.UnknowObjectNode"
+        },
+        {
+          "path": ".\\p7\\0865-smallest-subtree-with-all-the-deepest-nodes\\README.md",
+          "type": "com.dse.parser.object.UnknowObjectNode"
+        }
+      ]
+    },
+    {
+      "path": ".\\p7\\0894-all-possible-full-binary-trees",
+      "type": "com.dse.parser.object.FolderNode",
+      "children": [
+        {
+          "path": ".\\p7\\0894-all-possible-full-binary-trees\\README.md",
+          "type": "com.dse.parser.object.UnknowObjectNode"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1150 @@
+{
+  "name": "Solution_pruneHelper_TreeNodemul_random_4",
+  "status": "success",
+  "testCaseUserCode": {
+    "includePaths": [],
+    "setUpContent": "// set up\n;",
+    "tearDownContent": "// tear down\n;"
+  },
+  "path": ".\\\\aka-working-space\\\\p7\\\\test-cases\\Solution_pruneHelper_TreeNodemul_random_4.json",
+  "sourceCode": ".\\\\aka-working-space\\\\p7\\\\test-drivers\\Solution_pruneHelper_TreeNodemul_random_4.cpp",
+  "testPath": ".\\\\aka-working-space\\\\p7\\\\test-paths\\Solution_pruneHelper_TreeNodemul_random_4.tp",
+  "executable": ".\\\\aka-working-space\\\\p7\\\\exe\\Solution_pruneHelper_TreeNodemul_random_4.exe",
+  "commandConfig": ".\\aka-working-space\\p7\\test-case-commands\\Solution_pruneHelper_TreeNodemul_random_4.json",
+  "commandDebug": ".\\\\aka-working-space\\\\p7\\\\debugger\\\\commands\\Solution_pruneHelper_TreeNodemul_random_4.json",
+  "breakPoint": ".\\\\aka-working-space\\\\p7\\\\debugger\\\\breakpoints\\Solution_pruneHelper_TreeNodemul_random_4.br.json",
+  "debugExecutable": ".\\\\aka-working-space\\\\p7\\\\exe\\debug_Solution_pruneHelper_TreeNodemul_random_4.exe",
+  "executionResult": ".\\\\aka-working-space\\\\p7\\\\execution-results\\Solution_pruneHelper_TreeNodemul_random_4.xml",
+  "creationDate": "2025-02-14T08:09:13.056867400",
+  "executionDate": "2025-02-14T08:10:06.425181100",
+  "rootDataNode": {
+    "type": "com.dse.testdata.object.RootDataNode",
+    "name": "ROOT",
+    "virtual_name": "NON_VALUE",
+    "functionNode": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\Solution\\pruneHelper(TreeNode*\u0026)",
+    "level": "ROOT",
+    "children": [
+      {
+        "type": "com.dse.testdata.object.UnitUnderTestNode",
+        "name": "0814-binary-tree-pruning.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp",
+        "children": [
+          {
+            "type": "com.dse.testdata.object.GlobalRootDataNode",
+            "name": "GLOBAL",
+            "virtual_name": "NON_VALUE",
+            "functionNode": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\Solution\\pruneHelper(TreeNode*\u0026)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": false,
+                "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\Solution"
+              }
+            ],
+            "level": "GLOBAL",
+            "children": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": true,
+                "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\Solution",
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.SubClassDataNode",
+                    "name": "AKA_INSTANCE___Solution",
+                    "virtual_name": "AKA_INSTANCE___Solution",
+                    "dataType": "::Solution",
+                    "realType": "::Solution",
+                    "external": false,
+                    "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\Solution\\AKA_INSTANCE___Solution",
+                    "correspondingType": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\Solution",
+                    "rawType": "::Solution",
+                    "selectedConstructor": "Solution()",
+                    "variableType": "::Solution",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                        "name": "Solution()",
+                        "virtual_name": "AKA_INSTANCE___Solution",
+                        "dataType": "::Solution",
+                        "realType": "::Solution",
+                        "functionNode": "\\Solution()"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "com.dse.testdata.object.SubprogramNode",
+            "name": "pruneHelper(TreeNode*\u0026)",
+            "virtual_name": "NON_VALUE",
+            "dataType": "bool",
+            "realType": "bool",
+            "functionNode": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\Solution\\pruneHelper(TreeNode*\u0026)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.PointerStructureDataNode",
+                "name": "root",
+                "virtual_name": "EXPECTED_root",
+                "dataType": "TreeNode*\u0026",
+                "realType": "TreeNode*\u0026",
+                "external": false,
+                "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\Solution\\pruneHelper(TreeNode*\u0026)\\root",
+                "correspondingType": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode",
+                "level": 1
+              }
+            ],
+            "children": [
+              {
+                "type": "com.dse.testdata.object.RootDataNode",
+                "name": "STATIC",
+                "virtual_name": "NON_VALUE",
+                "functionNode": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\Solution\\pruneHelper(TreeNode*\u0026)",
+                "level": "STATIC"
+              },
+              {
+                "type": "com.dse.testdata.object.PointerStructureDataNode",
+                "name": "root",
+                "virtual_name": "root",
+                "dataType": "TreeNode*\u0026",
+                "realType": "TreeNode*\u0026",
+                "external": false,
+                "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\Solution\\pruneHelper(TreeNode*\u0026)\\root",
+                "correspondingType": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode",
+                "level": 1,
+                "size": 3,
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.StructDataNode",
+                    "name": "root[0]",
+                    "virtual_name": "root[0]",
+                    "dataType": "TreeNode\u0026",
+                    "realType": "TreeNode\u0026",
+                    "external": false,
+                    "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\Solution\\pruneHelper(TreeNode*\u0026)\\root\\root[0]",
+                    "correspondingType": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.SubStructDataNode",
+                        "name": "root",
+                        "virtual_name": "root[0]",
+                        "dataType": "::TreeNode",
+                        "realType": "::TreeNode",
+                        "external": false,
+                        "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\Solution\\pruneHelper(TreeNode*\u0026)\\root\\root",
+                        "correspondingType": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode",
+                        "rawType": "::TreeNode",
+                        "selectedConstructor": "TreeNode()",
+                        "variableType": "::TreeNode",
+                        "children": [
+                          {
+                            "type": "com.dse.testdata.object.ConstructorDataNode",
+                            "name": "TreeNode()",
+                            "virtual_name": "root[0]",
+                            "dataType": "::TreeNode",
+                            "realType": "::TreeNode",
+                            "functionNode": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\TreeNode()"
+                          },
+                          {
+                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                            "name": "val",
+                            "virtual_name": "root[0].val",
+                            "dataType": "int",
+                            "realType": "int",
+                            "external": false,
+                            "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\val",
+                            "correspondingType": "int",
+                            "value": "1574571807"
+                          },
+                          {
+                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                            "name": "left",
+                            "virtual_name": "root[0].left",
+                            "dataType": "TreeNode*",
+                            "realType": "TreeNode*",
+                            "external": false,
+                            "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\left",
+                            "correspondingType": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode",
+                            "level": 1
+                          },
+                          {
+                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                            "name": "right",
+                            "virtual_name": "root[0].right",
+                            "dataType": "TreeNode*",
+                            "realType": "TreeNode*",
+                            "external": false,
+                            "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\right",
+                            "correspondingType": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode",
+                            "level": 1,
+                            "size": 2,
+                            "children": [
+                              {
+                                "type": "com.dse.testdata.object.StructDataNode",
+                                "name": "right[0]",
+                                "virtual_name": "root[0].right[0]",
+                                "dataType": "TreeNode",
+                                "realType": "TreeNode",
+                                "external": false,
+                                "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\right\\right[0]",
+                                "correspondingType": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode",
+                                "children": [
+                                  {
+                                    "type": "com.dse.testdata.object.SubStructDataNode",
+                                    "name": "right",
+                                    "virtual_name": "root[0].right[0]",
+                                    "dataType": "::TreeNode",
+                                    "realType": "::TreeNode",
+                                    "external": false,
+                                    "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\right\\right",
+                                    "correspondingType": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode",
+                                    "rawType": "::TreeNode",
+                                    "selectedConstructor": "TreeNode()",
+                                    "variableType": "::TreeNode",
+                                    "children": [
+                                      {
+                                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                                        "name": "TreeNode()",
+                                        "virtual_name": "root[0].right[0]",
+                                        "dataType": "::TreeNode",
+                                        "realType": "::TreeNode",
+                                        "functionNode": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\TreeNode()"
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                        "name": "val",
+                                        "virtual_name": "root[0].right[0].val",
+                                        "dataType": "int",
+                                        "realType": "int",
+                                        "external": false,
+                                        "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\val",
+                                        "correspondingType": "int",
+                                        "value": "2951677"
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                        "name": "left",
+                                        "virtual_name": "root[0].right[0].left",
+                                        "dataType": "TreeNode*",
+                                        "realType": "TreeNode*",
+                                        "external": false,
+                                        "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\left",
+                                        "correspondingType": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode",
+                                        "level": 1
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                        "name": "right",
+                                        "virtual_name": "root[0].right[0].right",
+                                        "dataType": "TreeNode*",
+                                        "realType": "TreeNode*",
+                                        "external": false,
+                                        "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\right",
+                                        "correspondingType": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode",
+                                        "level": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "com.dse.testdata.object.StructDataNode",
+                                "name": "right[1]",
+                                "virtual_name": "root[0].right[1]",
+                                "dataType": "TreeNode",
+                                "realType": "TreeNode",
+                                "external": false,
+                                "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\right\\right[1]",
+                                "correspondingType": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode",
+                                "children": [
+                                  {
+                                    "type": "com.dse.testdata.object.SubStructDataNode",
+                                    "name": "right",
+                                    "virtual_name": "root[0].right[1]",
+                                    "dataType": "::TreeNode",
+                                    "realType": "::TreeNode",
+                                    "external": false,
+                                    "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\right\\right",
+                                    "correspondingType": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode",
+                                    "rawType": "::TreeNode",
+                                    "selectedConstructor": "TreeNode(int,TreeNode*,TreeNode*)",
+                                    "variableType": "::TreeNode",
+                                    "children": [
+                                      {
+                                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                                        "name": "TreeNode(int,TreeNode*,TreeNode*)",
+                                        "virtual_name": "root[0].right[1]",
+                                        "dataType": "::TreeNode",
+                                        "realType": "::TreeNode",
+                                        "functionNode": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)",
+                                        "children": [
+                                          {
+                                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                            "name": "x",
+                                            "virtual_name": "root0_right1_x",
+                                            "dataType": "int",
+                                            "realType": "int",
+                                            "external": false,
+                                            "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)\\x",
+                                            "correspondingType": "int",
+                                            "value": "-831692642"
+                                          },
+                                          {
+                                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                            "name": "left",
+                                            "virtual_name": "root0_right1_left",
+                                            "dataType": "TreeNode*",
+                                            "realType": "TreeNode*",
+                                            "external": false,
+                                            "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)\\left",
+                                            "correspondingType": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode",
+                                            "level": 1
+                                          },
+                                          {
+                                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                            "name": "right",
+                                            "virtual_name": "root0_right1_right",
+                                            "dataType": "TreeNode*",
+                                            "realType": "TreeNode*",
+                                            "external": false,
+                                            "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)\\right",
+                                            "correspondingType": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode",
+                                            "level": 1
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                        "name": "val",
+                                        "virtual_name": "root[0].right[1].val",
+                                        "dataType": "int",
+                                        "realType": "int",
+                                        "external": false,
+                                        "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\val",
+                                        "correspondingType": "int",
+                                        "value": "584541311"
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                        "name": "left",
+                                        "virtual_name": "root[0].right[1].left",
+                                        "dataType": "TreeNode*",
+                                        "realType": "TreeNode*",
+                                        "external": false,
+                                        "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\left",
+                                        "correspondingType": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode",
+                                        "level": 1
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                        "name": "right",
+                                        "virtual_name": "root[0].right[1].right",
+                                        "dataType": "TreeNode*",
+                                        "realType": "TreeNode*",
+                                        "external": false,
+                                        "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\right",
+                                        "correspondingType": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode",
+                                        "level": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "com.dse.testdata.object.StructDataNode",
+                    "name": "root[1]",
+                    "virtual_name": "root[1]",
+                    "dataType": "TreeNode\u0026",
+                    "realType": "TreeNode\u0026",
+                    "external": false,
+                    "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\Solution\\pruneHelper(TreeNode*\u0026)\\root\\root[1]",
+                    "correspondingType": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.SubStructDataNode",
+                        "name": "root",
+                        "virtual_name": "root[1]",
+                        "dataType": "::TreeNode",
+                        "realType": "::TreeNode",
+                        "external": false,
+                        "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\Solution\\pruneHelper(TreeNode*\u0026)\\root\\root",
+                        "correspondingType": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode",
+                        "rawType": "::TreeNode",
+                        "selectedConstructor": "TreeNode(int)",
+                        "variableType": "::TreeNode",
+                        "children": [
+                          {
+                            "type": "com.dse.testdata.object.ConstructorDataNode",
+                            "name": "TreeNode(int)",
+                            "virtual_name": "root[1]",
+                            "dataType": "::TreeNode",
+                            "realType": "::TreeNode",
+                            "functionNode": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\TreeNode(int)",
+                            "children": [
+                              {
+                                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                "name": "x",
+                                "virtual_name": "root1_x",
+                                "dataType": "int",
+                                "realType": "int",
+                                "external": false,
+                                "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\TreeNode(int)\\x",
+                                "correspondingType": "int",
+                                "value": "1553750116"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                            "name": "val",
+                            "virtual_name": "root[1].val",
+                            "dataType": "int",
+                            "realType": "int",
+                            "external": false,
+                            "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\val",
+                            "correspondingType": "int",
+                            "value": "1923681798"
+                          },
+                          {
+                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                            "name": "left",
+                            "virtual_name": "root[1].left",
+                            "dataType": "TreeNode*",
+                            "realType": "TreeNode*",
+                            "external": false,
+                            "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\left",
+                            "correspondingType": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode",
+                            "level": 1,
+                            "size": 2,
+                            "children": [
+                              {
+                                "type": "com.dse.testdata.object.StructDataNode",
+                                "name": "left[0]",
+                                "virtual_name": "root[1].left[0]",
+                                "dataType": "TreeNode",
+                                "realType": "TreeNode",
+                                "external": false,
+                                "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\left\\left[0]",
+                                "correspondingType": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode",
+                                "children": [
+                                  {
+                                    "type": "com.dse.testdata.object.SubStructDataNode",
+                                    "name": "left",
+                                    "virtual_name": "root[1].left[0]",
+                                    "dataType": "::TreeNode",
+                                    "realType": "::TreeNode",
+                                    "external": false,
+                                    "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\left\\left",
+                                    "correspondingType": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode",
+                                    "rawType": "::TreeNode",
+                                    "selectedConstructor": "TreeNode(int,TreeNode*,TreeNode*)",
+                                    "variableType": "::TreeNode",
+                                    "children": [
+                                      {
+                                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                                        "name": "TreeNode(int,TreeNode*,TreeNode*)",
+                                        "virtual_name": "root[1].left[0]",
+                                        "dataType": "::TreeNode",
+                                        "realType": "::TreeNode",
+                                        "functionNode": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)",
+                                        "children": [
+                                          {
+                                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                            "name": "x",
+                                            "virtual_name": "root1_left0_x",
+                                            "dataType": "int",
+                                            "realType": "int",
+                                            "external": false,
+                                            "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)\\x",
+                                            "correspondingType": "int",
+                                            "value": "651856478"
+                                          },
+                                          {
+                                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                            "name": "left",
+                                            "virtual_name": "root1_left0_left",
+                                            "dataType": "TreeNode*",
+                                            "realType": "TreeNode*",
+                                            "external": false,
+                                            "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)\\left",
+                                            "correspondingType": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode",
+                                            "level": 1
+                                          },
+                                          {
+                                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                            "name": "right",
+                                            "virtual_name": "root1_left0_right",
+                                            "dataType": "TreeNode*",
+                                            "realType": "TreeNode*",
+                                            "external": false,
+                                            "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)\\right",
+                                            "correspondingType": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode",
+                                            "level": 1
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                        "name": "val",
+                                        "virtual_name": "root[1].left[0].val",
+                                        "dataType": "int",
+                                        "realType": "int",
+                                        "external": false,
+                                        "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\val",
+                                        "correspondingType": "int",
+                                        "value": "-455886272"
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                        "name": "left",
+                                        "virtual_name": "root[1].left[0].left",
+                                        "dataType": "TreeNode*",
+                                        "realType": "TreeNode*",
+                                        "external": false,
+                                        "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\left",
+                                        "correspondingType": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode",
+                                        "level": 1
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                        "name": "right",
+                                        "virtual_name": "root[1].left[0].right",
+                                        "dataType": "TreeNode*",
+                                        "realType": "TreeNode*",
+                                        "external": false,
+                                        "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\right",
+                                        "correspondingType": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode",
+                                        "level": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "com.dse.testdata.object.StructDataNode",
+                                "name": "left[1]",
+                                "virtual_name": "root[1].left[1]",
+                                "dataType": "TreeNode",
+                                "realType": "TreeNode",
+                                "external": false,
+                                "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\left\\left[1]",
+                                "correspondingType": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode",
+                                "children": [
+                                  {
+                                    "type": "com.dse.testdata.object.SubStructDataNode",
+                                    "name": "left",
+                                    "virtual_name": "root[1].left[1]",
+                                    "dataType": "::TreeNode",
+                                    "realType": "::TreeNode",
+                                    "external": false,
+                                    "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\left\\left",
+                                    "correspondingType": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode",
+                                    "rawType": "::TreeNode",
+                                    "selectedConstructor": "TreeNode(int)",
+                                    "variableType": "::TreeNode",
+                                    "children": [
+                                      {
+                                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                                        "name": "TreeNode(int)",
+                                        "virtual_name": "root[1].left[1]",
+                                        "dataType": "::TreeNode",
+                                        "realType": "::TreeNode",
+                                        "functionNode": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\TreeNode(int)",
+                                        "children": [
+                                          {
+                                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                            "name": "x",
+                                            "virtual_name": "root1_left1_x",
+                                            "dataType": "int",
+                                            "realType": "int",
+                                            "external": false,
+                                            "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\TreeNode(int)\\x",
+                                            "correspondingType": "int",
+                                            "value": "1586837105"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                        "name": "val",
+                                        "virtual_name": "root[1].left[1].val",
+                                        "dataType": "int",
+                                        "realType": "int",
+                                        "external": false,
+                                        "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\val",
+                                        "correspondingType": "int",
+                                        "value": "195708282"
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                        "name": "left",
+                                        "virtual_name": "root[1].left[1].left",
+                                        "dataType": "TreeNode*",
+                                        "realType": "TreeNode*",
+                                        "external": false,
+                                        "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\left",
+                                        "correspondingType": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode",
+                                        "level": 1
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                        "name": "right",
+                                        "virtual_name": "root[1].left[1].right",
+                                        "dataType": "TreeNode*",
+                                        "realType": "TreeNode*",
+                                        "external": false,
+                                        "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\right",
+                                        "correspondingType": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode",
+                                        "level": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                            "name": "right",
+                            "virtual_name": "root[1].right",
+                            "dataType": "TreeNode*",
+                            "realType": "TreeNode*",
+                            "external": false,
+                            "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\right",
+                            "correspondingType": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode",
+                            "level": 1,
+                            "size": 1,
+                            "children": [
+                              {
+                                "type": "com.dse.testdata.object.StructDataNode",
+                                "name": "right[0]",
+                                "virtual_name": "root[1].right[0]",
+                                "dataType": "TreeNode",
+                                "realType": "TreeNode",
+                                "external": false,
+                                "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\right\\right[0]",
+                                "correspondingType": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode",
+                                "children": [
+                                  {
+                                    "type": "com.dse.testdata.object.SubStructDataNode",
+                                    "name": "right",
+                                    "virtual_name": "root[1].right[0]",
+                                    "dataType": "::TreeNode",
+                                    "realType": "::TreeNode",
+                                    "external": false,
+                                    "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\right\\right",
+                                    "correspondingType": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode",
+                                    "rawType": "::TreeNode",
+                                    "selectedConstructor": "TreeNode(int,TreeNode*,TreeNode*)",
+                                    "variableType": "::TreeNode",
+                                    "children": [
+                                      {
+                                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                                        "name": "TreeNode(int,TreeNode*,TreeNode*)",
+                                        "virtual_name": "root[1].right[0]",
+                                        "dataType": "::TreeNode",
+                                        "realType": "::TreeNode",
+                                        "functionNode": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)",
+                                        "children": [
+                                          {
+                                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                            "name": "x",
+                                            "virtual_name": "root1_right0_x",
+                                            "dataType": "int",
+                                            "realType": "int",
+                                            "external": false,
+                                            "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)\\x",
+                                            "correspondingType": "int",
+                                            "value": "-668858682"
+                                          },
+                                          {
+                                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                            "name": "left",
+                                            "virtual_name": "root1_right0_left",
+                                            "dataType": "TreeNode*",
+                                            "realType": "TreeNode*",
+                                            "external": false,
+                                            "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)\\left",
+                                            "correspondingType": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode",
+                                            "level": 1
+                                          },
+                                          {
+                                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                            "name": "right",
+                                            "virtual_name": "root1_right0_right",
+                                            "dataType": "TreeNode*",
+                                            "realType": "TreeNode*",
+                                            "external": false,
+                                            "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)\\right",
+                                            "correspondingType": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode",
+                                            "level": 1
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                        "name": "val",
+                                        "virtual_name": "root[1].right[0].val",
+                                        "dataType": "int",
+                                        "realType": "int",
+                                        "external": false,
+                                        "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\val",
+                                        "correspondingType": "int",
+                                        "value": "1013189049"
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                        "name": "left",
+                                        "virtual_name": "root[1].right[0].left",
+                                        "dataType": "TreeNode*",
+                                        "realType": "TreeNode*",
+                                        "external": false,
+                                        "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\left",
+                                        "correspondingType": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode",
+                                        "level": 1
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                        "name": "right",
+                                        "virtual_name": "root[1].right[0].right",
+                                        "dataType": "TreeNode*",
+                                        "realType": "TreeNode*",
+                                        "external": false,
+                                        "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\right",
+                                        "correspondingType": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode",
+                                        "level": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "com.dse.testdata.object.StructDataNode",
+                    "name": "root[2]",
+                    "virtual_name": "root[2]",
+                    "dataType": "TreeNode\u0026",
+                    "realType": "TreeNode\u0026",
+                    "external": false,
+                    "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\Solution\\pruneHelper(TreeNode*\u0026)\\root\\root[2]",
+                    "correspondingType": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.SubStructDataNode",
+                        "name": "root",
+                        "virtual_name": "root[2]",
+                        "dataType": "::TreeNode",
+                        "realType": "::TreeNode",
+                        "external": false,
+                        "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\Solution\\pruneHelper(TreeNode*\u0026)\\root\\root",
+                        "correspondingType": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode",
+                        "rawType": "::TreeNode",
+                        "selectedConstructor": "TreeNode()",
+                        "variableType": "::TreeNode",
+                        "children": [
+                          {
+                            "type": "com.dse.testdata.object.ConstructorDataNode",
+                            "name": "TreeNode()",
+                            "virtual_name": "root[2]",
+                            "dataType": "::TreeNode",
+                            "realType": "::TreeNode",
+                            "functionNode": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\TreeNode()"
+                          },
+                          {
+                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                            "name": "val",
+                            "virtual_name": "root[2].val",
+                            "dataType": "int",
+                            "realType": "int",
+                            "external": false,
+                            "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\val",
+                            "correspondingType": "int",
+                            "value": "902515597"
+                          },
+                          {
+                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                            "name": "left",
+                            "virtual_name": "root[2].left",
+                            "dataType": "TreeNode*",
+                            "realType": "TreeNode*",
+                            "external": false,
+                            "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\left",
+                            "correspondingType": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode",
+                            "level": 1
+                          },
+                          {
+                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                            "name": "right",
+                            "virtual_name": "root[2].right",
+                            "dataType": "TreeNode*",
+                            "realType": "TreeNode*",
+                            "external": false,
+                            "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\right",
+                            "correspondingType": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode",
+                            "level": 1,
+                            "size": 3,
+                            "children": [
+                              {
+                                "type": "com.dse.testdata.object.StructDataNode",
+                                "name": "right[0]",
+                                "virtual_name": "root[2].right[0]",
+                                "dataType": "TreeNode",
+                                "realType": "TreeNode",
+                                "external": false,
+                                "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\right\\right[0]",
+                                "correspondingType": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode",
+                                "children": [
+                                  {
+                                    "type": "com.dse.testdata.object.SubStructDataNode",
+                                    "name": "right",
+                                    "virtual_name": "root[2].right[0]",
+                                    "dataType": "::TreeNode",
+                                    "realType": "::TreeNode",
+                                    "external": false,
+                                    "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\right\\right",
+                                    "correspondingType": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode",
+                                    "rawType": "::TreeNode",
+                                    "selectedConstructor": "TreeNode()",
+                                    "variableType": "::TreeNode",
+                                    "children": [
+                                      {
+                                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                                        "name": "TreeNode()",
+                                        "virtual_name": "root[2].right[0]",
+                                        "dataType": "::TreeNode",
+                                        "realType": "::TreeNode",
+                                        "functionNode": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\TreeNode()"
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                        "name": "val",
+                                        "virtual_name": "root[2].right[0].val",
+                                        "dataType": "int",
+                                        "realType": "int",
+                                        "external": false,
+                                        "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\val",
+                                        "correspondingType": "int",
+                                        "value": "499079309"
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                        "name": "left",
+                                        "virtual_name": "root[2].right[0].left",
+                                        "dataType": "TreeNode*",
+                                        "realType": "TreeNode*",
+                                        "external": false,
+                                        "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\left",
+                                        "correspondingType": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode",
+                                        "level": 1
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                        "name": "right",
+                                        "virtual_name": "root[2].right[0].right",
+                                        "dataType": "TreeNode*",
+                                        "realType": "TreeNode*",
+                                        "external": false,
+                                        "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\right",
+                                        "correspondingType": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode",
+                                        "level": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "com.dse.testdata.object.StructDataNode",
+                                "name": "right[1]",
+                                "virtual_name": "root[2].right[1]",
+                                "dataType": "TreeNode",
+                                "realType": "TreeNode",
+                                "external": false,
+                                "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\right\\right[1]",
+                                "correspondingType": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode",
+                                "children": [
+                                  {
+                                    "type": "com.dse.testdata.object.SubStructDataNode",
+                                    "name": "right",
+                                    "virtual_name": "root[2].right[1]",
+                                    "dataType": "::TreeNode",
+                                    "realType": "::TreeNode",
+                                    "external": false,
+                                    "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\right\\right",
+                                    "correspondingType": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode",
+                                    "rawType": "::TreeNode",
+                                    "selectedConstructor": "TreeNode(int)",
+                                    "variableType": "::TreeNode",
+                                    "children": [
+                                      {
+                                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                                        "name": "TreeNode(int)",
+                                        "virtual_name": "root[2].right[1]",
+                                        "dataType": "::TreeNode",
+                                        "realType": "::TreeNode",
+                                        "functionNode": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\TreeNode(int)",
+                                        "children": [
+                                          {
+                                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                            "name": "x",
+                                            "virtual_name": "root2_right1_x",
+                                            "dataType": "int",
+                                            "realType": "int",
+                                            "external": false,
+                                            "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\TreeNode(int)\\x",
+                                            "correspondingType": "int",
+                                            "value": "-291942962"
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                        "name": "val",
+                                        "virtual_name": "root[2].right[1].val",
+                                        "dataType": "int",
+                                        "realType": "int",
+                                        "external": false,
+                                        "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\val",
+                                        "correspondingType": "int",
+                                        "value": "418885158"
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                        "name": "left",
+                                        "virtual_name": "root[2].right[1].left",
+                                        "dataType": "TreeNode*",
+                                        "realType": "TreeNode*",
+                                        "external": false,
+                                        "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\left",
+                                        "correspondingType": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode",
+                                        "level": 1
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                        "name": "right",
+                                        "virtual_name": "root[2].right[1].right",
+                                        "dataType": "TreeNode*",
+                                        "realType": "TreeNode*",
+                                        "external": false,
+                                        "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\right",
+                                        "correspondingType": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode",
+                                        "level": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "com.dse.testdata.object.StructDataNode",
+                                "name": "right[2]",
+                                "virtual_name": "root[2].right[2]",
+                                "dataType": "TreeNode",
+                                "realType": "TreeNode",
+                                "external": false,
+                                "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\right\\right[2]",
+                                "correspondingType": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode",
+                                "children": [
+                                  {
+                                    "type": "com.dse.testdata.object.SubStructDataNode",
+                                    "name": "right",
+                                    "virtual_name": "root[2].right[2]",
+                                    "dataType": "::TreeNode",
+                                    "realType": "::TreeNode",
+                                    "external": false,
+                                    "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\right\\right",
+                                    "correspondingType": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode",
+                                    "rawType": "::TreeNode",
+                                    "selectedConstructor": "TreeNode(int,TreeNode*,TreeNode*)",
+                                    "variableType": "::TreeNode",
+                                    "children": [
+                                      {
+                                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                                        "name": "TreeNode(int,TreeNode*,TreeNode*)",
+                                        "virtual_name": "root[2].right[2]",
+                                        "dataType": "::TreeNode",
+                                        "realType": "::TreeNode",
+                                        "functionNode": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)",
+                                        "children": [
+                                          {
+                                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                            "name": "x",
+                                            "virtual_name": "root2_right2_x",
+                                            "dataType": "int",
+                                            "realType": "int",
+                                            "external": false,
+                                            "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)\\x",
+                                            "correspondingType": "int",
+                                            "value": "1968509977"
+                                          },
+                                          {
+                                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                            "name": "left",
+                                            "virtual_name": "root2_right2_left",
+                                            "dataType": "TreeNode*",
+                                            "realType": "TreeNode*",
+                                            "external": false,
+                                            "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)\\left",
+                                            "correspondingType": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode",
+                                            "level": 1
+                                          },
+                                          {
+                                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                            "name": "right",
+                                            "virtual_name": "root2_right2_right",
+                                            "dataType": "TreeNode*",
+                                            "realType": "TreeNode*",
+                                            "external": false,
+                                            "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)\\right",
+                                            "correspondingType": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode",
+                                            "level": 1
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                        "name": "val",
+                                        "virtual_name": "root[2].right[2].val",
+                                        "dataType": "int",
+                                        "realType": "int",
+                                        "external": false,
+                                        "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\val",
+                                        "correspondingType": "int",
+                                        "value": "533328967"
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                        "name": "left",
+                                        "virtual_name": "root[2].right[2].left",
+                                        "dataType": "TreeNode*",
+                                        "realType": "TreeNode*",
+                                        "external": false,
+                                        "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\left",
+                                        "correspondingType": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode",
+                                        "level": 1
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                        "name": "right",
+                                        "virtual_name": "root[2].right[2].right",
+                                        "dataType": "TreeNode*",
+                                        "realType": "TreeNode*",
+                                        "external": false,
+                                        "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\right",
+                                        "correspondingType": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode",
+                                        "level": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "RETURN",
+                "virtual_name": "AKA_EXPECTED_OUTPUT",
+                "dataType": "bool",
+                "realType": "bool",
+                "external": false,
+                "correspondingVar": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\Solution\\pruneHelper(TreeNode*\u0026)\\RETURN",
+                "correspondingType": "bool",
+                "value": "null"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.RootDataNode",
+        "name": "STUB",
+        "virtual_name": "NON_VALUE",
+        "functionNode": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\Solution\\pruneHelper(TreeNode*\u0026)",
+        "level": "STUB"
+      }
+    ]
+  },
+  "procedures": [
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "function_call",
+      "value": "pruneHelper();",
+      "isSelected": false,
+      "location": 5,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "root \u003d\u003d NULL",
+      "isSelected": false,
+      "location": 58,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "function_call",
+      "value": "pruneHelper();",
+      "isSelected": false,
+      "location": 231,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "function_call",
+      "value": "pruneHelper();",
+      "isSelected": false,
+      "location": 287,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "leftPruneTree \u003d\u003d false",
+      "isSelected": false,
+      "location": 408,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "rightPruneTree \u003d\u003d false",
+      "isSelected": false,
+      "location": 569,
+      "calls": [],
+      "children": []
+    }
+  ]
+}

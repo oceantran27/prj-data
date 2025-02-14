@@ -1,0 +1,469 @@
+{
+  "name": "Solution_dfs_int_int_int_int_vector_vector_char_random_3",
+  "status": "success",
+  "testCaseUserCode": {
+    "includePaths": [],
+    "setUpContent": "// set up\n;",
+    "tearDownContent": "// tear down\n;"
+  },
+  "path": ".\\\\aka-working-space\\\\p4\\\\test-cases\\Solution_dfs_int_int_int_int_vector_vector_char_random_3.json",
+  "sourceCode": ".\\\\aka-working-space\\\\p4\\\\test-drivers\\Solution_dfs_int_int_int_int_vector_vector_char_random_3.cpp",
+  "testPath": ".\\\\aka-working-space\\\\p4\\\\test-paths\\Solution_dfs_int_int_int_int_vector_vector_char_random_3.tp",
+  "executable": ".\\\\aka-working-space\\\\p4\\\\exe\\Solution_dfs_int_int_int_int_vector_vector_char_random_3.exe",
+  "commandConfig": ".\\aka-working-space\\p4\\test-case-commands\\Solution_dfs_int_int_int_int_vector_vector_char_random_3.json",
+  "commandDebug": ".\\\\aka-working-space\\\\p4\\\\debugger\\\\commands\\Solution_dfs_int_int_int_int_vector_vector_char_random_3.json",
+  "breakPoint": ".\\\\aka-working-space\\\\p4\\\\debugger\\\\breakpoints\\Solution_dfs_int_int_int_int_vector_vector_char_random_3.br.json",
+  "debugExecutable": ".\\\\aka-working-space\\\\p4\\\\exe\\debug_Solution_dfs_int_int_int_int_vector_vector_char_random_3.exe",
+  "executionResult": ".\\\\aka-working-space\\\\p4\\\\execution-results\\Solution_dfs_int_int_int_int_vector_vector_char_random_3.xml",
+  "creationDate": "2025-02-13T16:56:02.553865900",
+  "executionDate": "2025-02-13T16:56:54.920793500",
+  "rootDataNode": {
+    "type": "com.dse.testdata.object.RootDataNode",
+    "name": "ROOT",
+    "virtual_name": "NON_VALUE",
+    "functionNode": ".\\p4\\0419-battleships-in-a-board\\0419-battleships-in-a-board.cpp\\Solution\\dfs(int,int,int,int,vector\u003cvector\u003cchar\u003e\u003e\u0026)",
+    "level": "ROOT",
+    "children": [
+      {
+        "type": "com.dse.testdata.object.UnitUnderTestNode",
+        "name": "0419-battleships-in-a-board.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\p4\\0419-battleships-in-a-board\\0419-battleships-in-a-board.cpp",
+        "children": [
+          {
+            "type": "com.dse.testdata.object.GlobalRootDataNode",
+            "name": "GLOBAL",
+            "virtual_name": "NON_VALUE",
+            "functionNode": ".\\p4\\0419-battleships-in-a-board\\0419-battleships-in-a-board.cpp\\Solution\\dfs(int,int,int,int,vector\u003cvector\u003cchar\u003e\u003e\u0026)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": false,
+                "correspondingVar": ".\\p4\\0419-battleships-in-a-board\\0419-battleships-in-a-board.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p4\\0419-battleships-in-a-board\\0419-battleships-in-a-board.cpp\\Solution"
+              }
+            ],
+            "level": "GLOBAL",
+            "children": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": true,
+                "correspondingVar": ".\\p4\\0419-battleships-in-a-board\\0419-battleships-in-a-board.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p4\\0419-battleships-in-a-board\\0419-battleships-in-a-board.cpp\\Solution",
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.SubClassDataNode",
+                    "name": "AKA_INSTANCE___Solution",
+                    "virtual_name": "AKA_INSTANCE___Solution",
+                    "dataType": "::Solution",
+                    "realType": "::Solution",
+                    "external": false,
+                    "correspondingVar": ".\\p4\\0419-battleships-in-a-board\\0419-battleships-in-a-board.cpp\\Solution\\AKA_INSTANCE___Solution",
+                    "correspondingType": ".\\p4\\0419-battleships-in-a-board\\0419-battleships-in-a-board.cpp\\Solution",
+                    "rawType": "::Solution",
+                    "selectedConstructor": "Solution()",
+                    "variableType": "::Solution",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                        "name": "Solution()",
+                        "virtual_name": "AKA_INSTANCE___Solution",
+                        "dataType": "::Solution",
+                        "realType": "::Solution",
+                        "functionNode": "\\Solution()"
+                      },
+                      {
+                        "type": "com.dse.testdata.object.OneDimensionNumberDataNode",
+                        "name": "dx",
+                        "virtual_name": "AKA_INSTANCE___Solution-\u003edx",
+                        "dataType": "int[4]",
+                        "realType": "int[4]",
+                        "external": false,
+                        "correspondingVar": ".\\p4\\0419-battleships-in-a-board\\0419-battleships-in-a-board.cpp\\Solution\\dx",
+                        "correspondingType": "",
+                        "fixedSize": true,
+                        "size": 4,
+                        "children": [
+                          {
+                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                            "name": "dx[0]",
+                            "virtual_name": "AKA_INSTANCE___Solution-\u003edx[0]",
+                            "dataType": "int",
+                            "realType": "int",
+                            "external": false,
+                            "correspondingVar": ".\\p4\\0419-battleships-in-a-board\\0419-battleships-in-a-board.cpp\\Solution\\dx\\dx[0]",
+                            "correspondingType": "int",
+                            "value": "493225613"
+                          },
+                          {
+                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                            "name": "dx[1]",
+                            "virtual_name": "AKA_INSTANCE___Solution-\u003edx[1]",
+                            "dataType": "int",
+                            "realType": "int",
+                            "external": false,
+                            "correspondingVar": ".\\p4\\0419-battleships-in-a-board\\0419-battleships-in-a-board.cpp\\Solution\\dx\\dx[1]",
+                            "correspondingType": "int",
+                            "value": "2083466010"
+                          },
+                          {
+                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                            "name": "dx[2]",
+                            "virtual_name": "AKA_INSTANCE___Solution-\u003edx[2]",
+                            "dataType": "int",
+                            "realType": "int",
+                            "external": false,
+                            "correspondingVar": ".\\p4\\0419-battleships-in-a-board\\0419-battleships-in-a-board.cpp\\Solution\\dx\\dx[2]",
+                            "correspondingType": "int",
+                            "value": "467283950"
+                          },
+                          {
+                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                            "name": "dx[3]",
+                            "virtual_name": "AKA_INSTANCE___Solution-\u003edx[3]",
+                            "dataType": "int",
+                            "realType": "int",
+                            "external": false,
+                            "correspondingVar": ".\\p4\\0419-battleships-in-a-board\\0419-battleships-in-a-board.cpp\\Solution\\dx\\dx[3]",
+                            "correspondingType": "int",
+                            "value": "1117244068"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "com.dse.testdata.object.OneDimensionNumberDataNode",
+                        "name": "dy",
+                        "virtual_name": "AKA_INSTANCE___Solution-\u003edy",
+                        "dataType": "int[4]",
+                        "realType": "int[4]",
+                        "external": false,
+                        "correspondingVar": ".\\p4\\0419-battleships-in-a-board\\0419-battleships-in-a-board.cpp\\Solution\\dy",
+                        "correspondingType": "",
+                        "fixedSize": true,
+                        "size": 4,
+                        "children": [
+                          {
+                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                            "name": "dy[0]",
+                            "virtual_name": "AKA_INSTANCE___Solution-\u003edy[0]",
+                            "dataType": "int",
+                            "realType": "int",
+                            "external": false,
+                            "correspondingVar": ".\\p4\\0419-battleships-in-a-board\\0419-battleships-in-a-board.cpp\\Solution\\dy\\dy[0]",
+                            "correspondingType": "int",
+                            "value": "-674240171"
+                          },
+                          {
+                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                            "name": "dy[1]",
+                            "virtual_name": "AKA_INSTANCE___Solution-\u003edy[1]",
+                            "dataType": "int",
+                            "realType": "int",
+                            "external": false,
+                            "correspondingVar": ".\\p4\\0419-battleships-in-a-board\\0419-battleships-in-a-board.cpp\\Solution\\dy\\dy[1]",
+                            "correspondingType": "int",
+                            "value": "1217070412"
+                          },
+                          {
+                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                            "name": "dy[2]",
+                            "virtual_name": "AKA_INSTANCE___Solution-\u003edy[2]",
+                            "dataType": "int",
+                            "realType": "int",
+                            "external": false,
+                            "correspondingVar": ".\\p4\\0419-battleships-in-a-board\\0419-battleships-in-a-board.cpp\\Solution\\dy\\dy[2]",
+                            "correspondingType": "int",
+                            "value": "-1206514716"
+                          },
+                          {
+                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                            "name": "dy[3]",
+                            "virtual_name": "AKA_INSTANCE___Solution-\u003edy[3]",
+                            "dataType": "int",
+                            "realType": "int",
+                            "external": false,
+                            "correspondingVar": ".\\p4\\0419-battleships-in-a-board\\0419-battleships-in-a-board.cpp\\Solution\\dy\\dy[3]",
+                            "correspondingType": "int",
+                            "value": "-509032287"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "com.dse.testdata.object.SubprogramNode",
+            "name": "dfs(int,int,int,int,vector\u003cvector\u003cchar\u003e\u003e\u0026)",
+            "virtual_name": "NON_VALUE",
+            "dataType": "void",
+            "realType": "void",
+            "functionNode": ".\\p4\\0419-battleships-in-a-board\\0419-battleships-in-a-board.cpp\\Solution\\dfs(int,int,int,int,vector\u003cvector\u003cchar\u003e\u003e\u0026)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                "name": "board",
+                "virtual_name": "EXPECTED_board",
+                "dataType": "vector\u003cvector\u003cchar\u003e\u003e",
+                "realType": "vector\u003cvector\u003cchar\u003e\u003e\u0026",
+                "external": false,
+                "correspondingVar": ".\\p4\\0419-battleships-in-a-board\\0419-battleships-in-a-board.cpp\\Solution\\dfs(int,int,int,int,vector\u003cvector\u003cchar\u003e\u003e\u0026)\\board",
+                "correspondingType": "STLListBaseType",
+                "templateArg": "vector\u003cchar\u003e"
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "n",
+                "virtual_name": "EXPECTED_n",
+                "dataType": "int",
+                "realType": "int",
+                "external": false,
+                "correspondingVar": ".\\p4\\0419-battleships-in-a-board\\0419-battleships-in-a-board.cpp\\Solution\\dfs(int,int,int,int,vector\u003cvector\u003cchar\u003e\u003e\u0026)\\n",
+                "correspondingType": "int",
+                "value": "null"
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "y",
+                "virtual_name": "EXPECTED_y",
+                "dataType": "int",
+                "realType": "int",
+                "external": false,
+                "correspondingVar": ".\\p4\\0419-battleships-in-a-board\\0419-battleships-in-a-board.cpp\\Solution\\dfs(int,int,int,int,vector\u003cvector\u003cchar\u003e\u003e\u0026)\\y",
+                "correspondingType": "int",
+                "value": "null"
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "m",
+                "virtual_name": "EXPECTED_m",
+                "dataType": "int",
+                "realType": "int",
+                "external": false,
+                "correspondingVar": ".\\p4\\0419-battleships-in-a-board\\0419-battleships-in-a-board.cpp\\Solution\\dfs(int,int,int,int,vector\u003cvector\u003cchar\u003e\u003e\u0026)\\m",
+                "correspondingType": "int",
+                "value": "null"
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "x",
+                "virtual_name": "EXPECTED_x",
+                "dataType": "int",
+                "realType": "int",
+                "external": false,
+                "correspondingVar": ".\\p4\\0419-battleships-in-a-board\\0419-battleships-in-a-board.cpp\\Solution\\dfs(int,int,int,int,vector\u003cvector\u003cchar\u003e\u003e\u0026)\\x",
+                "correspondingType": "int",
+                "value": "null"
+              }
+            ],
+            "children": [
+              {
+                "type": "com.dse.testdata.object.RootDataNode",
+                "name": "STATIC",
+                "virtual_name": "NON_VALUE",
+                "functionNode": ".\\p4\\0419-battleships-in-a-board\\0419-battleships-in-a-board.cpp\\Solution\\dfs(int,int,int,int,vector\u003cvector\u003cchar\u003e\u003e\u0026)",
+                "level": "STATIC"
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "x",
+                "virtual_name": "x",
+                "dataType": "int",
+                "realType": "int",
+                "external": false,
+                "correspondingVar": ".\\p4\\0419-battleships-in-a-board\\0419-battleships-in-a-board.cpp\\Solution\\dfs(int,int,int,int,vector\u003cvector\u003cchar\u003e\u003e\u0026)\\x",
+                "correspondingType": "int",
+                "value": "1295279724"
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "y",
+                "virtual_name": "y",
+                "dataType": "int",
+                "realType": "int",
+                "external": false,
+                "correspondingVar": ".\\p4\\0419-battleships-in-a-board\\0419-battleships-in-a-board.cpp\\Solution\\dfs(int,int,int,int,vector\u003cvector\u003cchar\u003e\u003e\u0026)\\y",
+                "correspondingType": "int",
+                "value": "-133834443"
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "n",
+                "virtual_name": "n",
+                "dataType": "int",
+                "realType": "int",
+                "external": false,
+                "correspondingVar": ".\\p4\\0419-battleships-in-a-board\\0419-battleships-in-a-board.cpp\\Solution\\dfs(int,int,int,int,vector\u003cvector\u003cchar\u003e\u003e\u0026)\\n",
+                "correspondingType": "int",
+                "value": "441931204"
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "m",
+                "virtual_name": "m",
+                "dataType": "int",
+                "realType": "int",
+                "external": false,
+                "correspondingVar": ".\\p4\\0419-battleships-in-a-board\\0419-battleships-in-a-board.cpp\\Solution\\dfs(int,int,int,int,vector\u003cvector\u003cchar\u003e\u003e\u0026)\\m",
+                "correspondingType": "int",
+                "value": "39353158"
+              },
+              {
+                "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                "name": "board",
+                "virtual_name": "board",
+                "dataType": "vector\u003cvector\u003cchar\u003e\u003e",
+                "realType": "vector\u003cvector\u003cchar\u003e\u003e\u0026",
+                "external": false,
+                "correspondingVar": ".\\p4\\0419-battleships-in-a-board\\0419-battleships-in-a-board.cpp\\Solution\\dfs(int,int,int,int,vector\u003cvector\u003cchar\u003e\u003e\u0026)\\board",
+                "correspondingType": "STLListBaseType",
+                "templateArg": "vector\u003cchar\u003e",
+                "size": 1,
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                    "name": "element #0",
+                    "virtual_name": "board_element0",
+                    "dataType": "vector\u003cchar\u003e",
+                    "realType": "vector\u003cchar\u003e",
+                    "external": false,
+                    "correspondingVar": ".\\p4\\0419-battleships-in-a-board\\0419-battleships-in-a-board.cpp\\Solution\\dfs(int,int,int,int,vector\u003cvector\u003cchar\u003e\u003e\u0026)\\board\\element #0",
+                    "correspondingType": "STLListBaseType",
+                    "templateArg": "char",
+                    "size": 3,
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.NormalCharacterDataNode",
+                        "name": "element #0",
+                        "virtual_name": "board_element0_element0",
+                        "dataType": "char",
+                        "realType": "char",
+                        "external": false,
+                        "correspondingVar": ".\\p4\\0419-battleships-in-a-board\\0419-battleships-in-a-board.cpp\\Solution\\dfs(int,int,int,int,vector\u003cvector\u003cchar\u003e\u003e\u0026)\\board\\element #0\\element #0",
+                        "correspondingType": "char",
+                        "value": "-43"
+                      },
+                      {
+                        "type": "com.dse.testdata.object.NormalCharacterDataNode",
+                        "name": "element #1",
+                        "virtual_name": "board_element0_element1",
+                        "dataType": "char",
+                        "realType": "char",
+                        "external": false,
+                        "correspondingVar": ".\\p4\\0419-battleships-in-a-board\\0419-battleships-in-a-board.cpp\\Solution\\dfs(int,int,int,int,vector\u003cvector\u003cchar\u003e\u003e\u0026)\\board\\element #0\\element #1",
+                        "correspondingType": "char",
+                        "value": "-69"
+                      },
+                      {
+                        "type": "com.dse.testdata.object.NormalCharacterDataNode",
+                        "name": "element #2",
+                        "virtual_name": "board_element0_element2",
+                        "dataType": "char",
+                        "realType": "char",
+                        "external": false,
+                        "correspondingVar": ".\\p4\\0419-battleships-in-a-board\\0419-battleships-in-a-board.cpp\\Solution\\dfs(int,int,int,int,vector\u003cvector\u003cchar\u003e\u003e\u0026)\\board\\element #0\\element #2",
+                        "correspondingType": "char",
+                        "value": "88"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.RootDataNode",
+        "name": "STUB",
+        "virtual_name": "NON_VALUE",
+        "functionNode": ".\\p4\\0419-battleships-in-a-board\\0419-battleships-in-a-board.cpp\\Solution\\dfs(int,int,int,int,vector\u003cvector\u003cchar\u003e\u003e\u0026)",
+        "level": "STUB"
+      }
+    ]
+  },
+  "procedures": [
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "function_call",
+      "value": "dfs();",
+      "isSelected": false,
+      "location": 5,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "x \u003c 0",
+      "isSelected": false,
+      "location": 90,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "x \u003e\u003d n",
+      "isSelected": false,
+      "location": 99,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "y \u003c 0",
+      "isSelected": false,
+      "location": 109,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "y \u003e\u003d m",
+      "isSelected": false,
+      "location": 118,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "board[x][y] !\u003d \u0027X\u0027",
+      "isSelected": false,
+      "location": 128,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "i\u003c4",
+      "isSelected": false,
+      "location": 241,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "function_call",
+      "value": "dfs();",
+      "isSelected": false,
+      "location": 360,
+      "calls": [],
+      "children": []
+    }
+  ]
+}

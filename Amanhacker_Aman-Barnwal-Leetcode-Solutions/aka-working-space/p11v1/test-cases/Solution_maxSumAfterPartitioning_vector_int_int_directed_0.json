@@ -1,0 +1,195 @@
+{
+  "name": "Solution_maxSumAfterPartitioning_vector_int_int_directed_0",
+  "status": "success",
+  "testCaseUserCode": {
+    "includePaths": [],
+    "setUpContent": "// set up\n;",
+    "tearDownContent": "// tear down\n;"
+  },
+  "result": "0/0",
+  "path": ".\\\\aka-working-space\\\\p11v1\\\\test-cases\\Solution_maxSumAfterPartitioning_vector_int_int_directed_0.json",
+  "sourceCode": ".\\\\aka-working-space\\\\p11v1\\\\test-drivers\\Solution_maxSumAfterPartitioning_vector_int_int_directed_0.cpp",
+  "testPath": ".\\\\aka-working-space\\\\p11v1\\\\test-paths\\Solution_maxSumAfterPartitioning_vector_int_int_directed_0.tp",
+  "executable": ".\\\\aka-working-space\\\\p11v1\\\\exe\\Solution_maxSumAfterPartitioning_vector_int_int_directed_0.exe",
+  "commandConfig": ".\\aka-working-space\\p11v1\\test-case-commands\\Solution_maxSumAfterPartitioning_vector_int_int_directed_0.json",
+  "commandDebug": ".\\\\aka-working-space\\\\p11v1\\\\debugger\\\\commands\\Solution_maxSumAfterPartitioning_vector_int_int_directed_0.json",
+  "breakPoint": ".\\\\aka-working-space\\\\p11v1\\\\debugger\\\\breakpoints\\Solution_maxSumAfterPartitioning_vector_int_int_directed_0.br.json",
+  "debugExecutable": ".\\\\aka-working-space\\\\p11v1\\\\exe\\debug_Solution_maxSumAfterPartitioning_vector_int_int_directed_0.exe",
+  "executionResult": ".\\\\aka-working-space\\\\p11v1\\\\execution-results\\Solution_maxSumAfterPartitioning_vector_int_int_directed_0.xml",
+  "creationDate": "2025-02-14T11:19:49.723693300",
+  "executionDate": "2025-02-14T11:19:49.767234700",
+  "rootDataNode": {
+    "type": "com.dse.testdata.object.RootDataNode",
+    "name": "ROOT",
+    "virtual_name": "NON_VALUE",
+    "functionNode": ".\\p11\\1043-partition-array-for-maximum-sum\\1043-partition-array-for-maximum-sum.cpp\\Solution\\maxSumAfterPartitioning(vector\u003cint\u003e\u0026,int)",
+    "level": "ROOT",
+    "children": [
+      {
+        "type": "com.dse.testdata.object.UnitUnderTestNode",
+        "name": "1043-partition-array-for-maximum-sum.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\p11\\1043-partition-array-for-maximum-sum\\1043-partition-array-for-maximum-sum.cpp",
+        "children": [
+          {
+            "type": "com.dse.testdata.object.GlobalRootDataNode",
+            "name": "GLOBAL",
+            "virtual_name": "NON_VALUE",
+            "functionNode": ".\\p11\\1043-partition-array-for-maximum-sum\\1043-partition-array-for-maximum-sum.cpp\\Solution\\maxSumAfterPartitioning(vector\u003cint\u003e\u0026,int)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": false,
+                "correspondingVar": ".\\p11\\1043-partition-array-for-maximum-sum\\1043-partition-array-for-maximum-sum.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p11\\1043-partition-array-for-maximum-sum\\1043-partition-array-for-maximum-sum.cpp\\Solution"
+              }
+            ],
+            "level": "GLOBAL",
+            "children": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": true,
+                "correspondingVar": ".\\p11\\1043-partition-array-for-maximum-sum\\1043-partition-array-for-maximum-sum.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p11\\1043-partition-array-for-maximum-sum\\1043-partition-array-for-maximum-sum.cpp\\Solution",
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.SubClassDataNode",
+                    "name": "AKA_INSTANCE___Solution",
+                    "virtual_name": "AKA_INSTANCE___Solution",
+                    "dataType": "::Solution",
+                    "realType": "::Solution",
+                    "external": false,
+                    "correspondingVar": ".\\p11\\1043-partition-array-for-maximum-sum\\1043-partition-array-for-maximum-sum.cpp\\Solution\\AKA_INSTANCE___Solution",
+                    "correspondingType": ".\\p11\\1043-partition-array-for-maximum-sum\\1043-partition-array-for-maximum-sum.cpp\\Solution",
+                    "rawType": "::Solution",
+                    "selectedConstructor": "Solution()",
+                    "variableType": "::Solution",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                        "name": "Solution()",
+                        "virtual_name": "AKA_INSTANCE___Solution",
+                        "dataType": "::Solution",
+                        "realType": "::Solution",
+                        "functionNode": "\\Solution()"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "com.dse.testdata.object.SubprogramNode",
+            "name": "maxSumAfterPartitioning(vector\u003cint\u003e\u0026,int)",
+            "virtual_name": "NON_VALUE",
+            "dataType": "int",
+            "realType": "int",
+            "functionNode": ".\\p11\\1043-partition-array-for-maximum-sum\\1043-partition-array-for-maximum-sum.cpp\\Solution\\maxSumAfterPartitioning(vector\u003cint\u003e\u0026,int)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                "name": "a",
+                "virtual_name": "EXPECTED_a",
+                "dataType": "vector\u003cint\u003e",
+                "realType": "vector\u003cint\u003e\u0026",
+                "external": false,
+                "correspondingVar": ".\\p11\\1043-partition-array-for-maximum-sum\\1043-partition-array-for-maximum-sum.cpp\\Solution\\maxSumAfterPartitioning(vector\u003cint\u003e\u0026,int)\\a",
+                "correspondingType": "STLListBaseType",
+                "templateArg": "int"
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "k",
+                "virtual_name": "EXPECTED_k",
+                "dataType": "int",
+                "realType": "int",
+                "external": false,
+                "correspondingVar": ".\\p11\\1043-partition-array-for-maximum-sum\\1043-partition-array-for-maximum-sum.cpp\\Solution\\maxSumAfterPartitioning(vector\u003cint\u003e\u0026,int)\\k",
+                "correspondingType": "int",
+                "value": "null"
+              }
+            ],
+            "children": [
+              {
+                "type": "com.dse.testdata.object.RootDataNode",
+                "name": "STATIC",
+                "virtual_name": "NON_VALUE",
+                "functionNode": ".\\p11\\1043-partition-array-for-maximum-sum\\1043-partition-array-for-maximum-sum.cpp\\Solution\\maxSumAfterPartitioning(vector\u003cint\u003e\u0026,int)",
+                "level": "STATIC"
+              },
+              {
+                "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                "name": "a",
+                "virtual_name": "a",
+                "dataType": "vector\u003cint\u003e",
+                "realType": "vector\u003cint\u003e\u0026",
+                "external": false,
+                "correspondingVar": ".\\p11\\1043-partition-array-for-maximum-sum\\1043-partition-array-for-maximum-sum.cpp\\Solution\\maxSumAfterPartitioning(vector\u003cint\u003e\u0026,int)\\a",
+                "correspondingType": "STLListBaseType",
+                "templateArg": "int"
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "k",
+                "virtual_name": "k",
+                "dataType": "int",
+                "realType": "int",
+                "external": false,
+                "correspondingVar": ".\\p11\\1043-partition-array-for-maximum-sum\\1043-partition-array-for-maximum-sum.cpp\\Solution\\maxSumAfterPartitioning(vector\u003cint\u003e\u0026,int)\\k",
+                "correspondingType": "int",
+                "value": "0"
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "RETURN",
+                "virtual_name": "AKA_EXPECTED_OUTPUT",
+                "dataType": "int",
+                "realType": "int",
+                "external": false,
+                "correspondingVar": ".\\p11\\1043-partition-array-for-maximum-sum\\1043-partition-array-for-maximum-sum.cpp\\Solution\\maxSumAfterPartitioning(vector\u003cint\u003e\u0026,int)\\RETURN",
+                "correspondingType": "int",
+                "value": "null"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.RootDataNode",
+        "name": "STUB",
+        "virtual_name": "NON_VALUE",
+        "functionNode": ".\\p11\\1043-partition-array-for-maximum-sum\\1043-partition-array-for-maximum-sum.cpp\\Solution\\maxSumAfterPartitioning(vector\u003cint\u003e\u0026,int)",
+        "level": "STUB"
+      }
+    ]
+  },
+  "procedures": [
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "n \u003d\u003d 0",
+      "isSelected": false,
+      "location": 98,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "function_call",
+      "value": "helperMaxSum();",
+      "isSelected": false,
+      "location": 256,
+      "calls": [],
+      "children": []
+    }
+  ]
+}

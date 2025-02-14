@@ -1,0 +1,178 @@
+{
+  "name": "ListNode_random_1",
+  "status": "success",
+  "testCaseUserCode": {
+    "includePaths": [],
+    "setUpContent": "// set up\n;",
+    "tearDownContent": "// tear down\n;"
+  },
+  "path": ".\\\\aka-working-space\\\\p5\\\\test-cases\\ListNode_random_1.json",
+  "sourceCode": ".\\\\aka-working-space\\\\p5\\\\test-drivers\\ListNode_random_1.cpp",
+  "testPath": ".\\\\aka-working-space\\\\p5\\\\test-paths\\ListNode_random_1.tp",
+  "executable": ".\\\\aka-working-space\\\\p5\\\\exe\\ListNode_random_1.exe",
+  "commandConfig": ".\\aka-working-space\\p5\\test-case-commands\\ListNode_random_1.json",
+  "commandDebug": ".\\\\aka-working-space\\\\p5\\\\debugger\\\\commands\\ListNode_random_1.json",
+  "breakPoint": ".\\\\aka-working-space\\\\p5\\\\debugger\\\\breakpoints\\ListNode_random_1.br.json",
+  "debugExecutable": ".\\\\aka-working-space\\\\p5\\\\exe\\debug_ListNode_random_1.exe",
+  "executionResult": ".\\\\aka-working-space\\\\p5\\\\execution-results\\ListNode_random_1.xml",
+  "creationDate": "2025-02-14T10:42:41.031494500",
+  "executionDate": "2025-02-14T10:42:41.508832",
+  "rootDataNode": {
+    "type": "com.dse.testdata.object.RootDataNode",
+    "name": "ROOT",
+    "virtual_name": "NON_VALUE",
+    "functionNode": ".\\p5\\0445-add-two-numbers-ii\\0445-add-two-numbers-ii.cpp\\ListNode\\ListNode()",
+    "level": "ROOT",
+    "children": [
+      {
+        "type": "com.dse.testdata.object.UnitUnderTestNode",
+        "name": "0445-add-two-numbers-ii.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\p5\\0445-add-two-numbers-ii\\0445-add-two-numbers-ii.cpp",
+        "children": [
+          {
+            "type": "com.dse.testdata.object.GlobalRootDataNode",
+            "name": "GLOBAL",
+            "virtual_name": "NON_VALUE",
+            "functionNode": ".\\p5\\0445-add-two-numbers-ii\\0445-add-two-numbers-ii.cpp\\ListNode\\ListNode()",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.StructDataNode",
+                "name": "AKA_INSTANCE___ListNode",
+                "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___ListNode",
+                "dataType": "::ListNode",
+                "realType": "::ListNode",
+                "external": false,
+                "correspondingVar": ".\\p5\\0445-add-two-numbers-ii\\0445-add-two-numbers-ii.cpp\\ListNode\\AKA_INSTANCE___ListNode",
+                "correspondingType": ".\\p5\\0445-add-two-numbers-ii\\0445-add-two-numbers-ii.cpp\\ListNode",
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.SubStructDataNode",
+                    "name": "AKA_INSTANCE___ListNode",
+                    "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___ListNode",
+                    "dataType": "::ListNode",
+                    "realType": "::ListNode",
+                    "external": false,
+                    "correspondingVar": ".\\p5\\0445-add-two-numbers-ii\\0445-add-two-numbers-ii.cpp\\ListNode\\AKA_INSTANCE___ListNode",
+                    "correspondingType": ".\\p5\\0445-add-two-numbers-ii\\0445-add-two-numbers-ii.cpp\\ListNode",
+                    "rawType": "::ListNode",
+                    "selectedConstructor": "ListNode()",
+                    "variableType": "::ListNode",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                        "name": "ListNode()",
+                        "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___ListNode",
+                        "dataType": "::ListNode",
+                        "realType": "::ListNode",
+                        "functionNode": ".\\p5\\0445-add-two-numbers-ii\\0445-add-two-numbers-ii.cpp\\ListNode\\ListNode()"
+                      },
+                      {
+                        "type": "com.dse.testdata.object.NormalNumberDataNode",
+                        "name": "val",
+                        "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___ListNode-\u003eval",
+                        "dataType": "int",
+                        "realType": "int",
+                        "external": false,
+                        "correspondingVar": ".\\p5\\0445-add-two-numbers-ii\\0445-add-two-numbers-ii.cpp\\ListNode\\val",
+                        "correspondingType": "int",
+                        "value": "null"
+                      },
+                      {
+                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                        "name": "next",
+                        "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___ListNode-\u003enext",
+                        "dataType": "ListNode*",
+                        "realType": "ListNode*",
+                        "external": false,
+                        "correspondingVar": ".\\p5\\0445-add-two-numbers-ii\\0445-add-two-numbers-ii.cpp\\ListNode\\next",
+                        "correspondingType": ".\\p5\\0445-add-two-numbers-ii\\0445-add-two-numbers-ii.cpp\\ListNode",
+                        "level": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "level": "GLOBAL",
+            "children": [
+              {
+                "type": "com.dse.testdata.object.StructDataNode",
+                "name": "AKA_INSTANCE___ListNode",
+                "virtual_name": "AKA_INSTANCE___ListNode",
+                "dataType": "::ListNode",
+                "realType": "::ListNode",
+                "external": true,
+                "correspondingVar": ".\\p5\\0445-add-two-numbers-ii\\0445-add-two-numbers-ii.cpp\\ListNode\\AKA_INSTANCE___ListNode",
+                "correspondingType": ".\\p5\\0445-add-two-numbers-ii\\0445-add-two-numbers-ii.cpp\\ListNode",
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.SubStructDataNode",
+                    "name": "AKA_INSTANCE___ListNode",
+                    "virtual_name": "AKA_INSTANCE___ListNode",
+                    "dataType": "::ListNode",
+                    "realType": "::ListNode",
+                    "external": false,
+                    "correspondingVar": ".\\p5\\0445-add-two-numbers-ii\\0445-add-two-numbers-ii.cpp\\ListNode\\AKA_INSTANCE___ListNode",
+                    "correspondingType": ".\\p5\\0445-add-two-numbers-ii\\0445-add-two-numbers-ii.cpp\\ListNode",
+                    "rawType": "::ListNode",
+                    "selectedConstructor": "ListNode()",
+                    "variableType": "::ListNode",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                        "name": "ListNode()",
+                        "virtual_name": "AKA_INSTANCE___ListNode",
+                        "dataType": "::ListNode",
+                        "realType": "::ListNode",
+                        "functionNode": ".\\p5\\0445-add-two-numbers-ii\\0445-add-two-numbers-ii.cpp\\ListNode\\ListNode()"
+                      },
+                      {
+                        "type": "com.dse.testdata.object.NormalNumberDataNode",
+                        "name": "val",
+                        "virtual_name": "AKA_INSTANCE___ListNode-\u003eval",
+                        "dataType": "int",
+                        "realType": "int",
+                        "external": false,
+                        "correspondingVar": ".\\p5\\0445-add-two-numbers-ii\\0445-add-two-numbers-ii.cpp\\ListNode\\val",
+                        "correspondingType": "int",
+                        "value": "null"
+                      },
+                      {
+                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                        "name": "next",
+                        "virtual_name": "AKA_INSTANCE___ListNode-\u003enext",
+                        "dataType": "ListNode*",
+                        "realType": "ListNode*",
+                        "external": false,
+                        "correspondingVar": ".\\p5\\0445-add-two-numbers-ii\\0445-add-two-numbers-ii.cpp\\ListNode\\next",
+                        "correspondingType": ".\\p5\\0445-add-two-numbers-ii\\0445-add-two-numbers-ii.cpp\\ListNode",
+                        "level": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "com.dse.testdata.object.SubprogramNode",
+            "name": "ListNode()",
+            "virtual_name": "NON_VALUE",
+            "dataType": "",
+            "realType": "",
+            "functionNode": ".\\p5\\0445-add-two-numbers-ii\\0445-add-two-numbers-ii.cpp\\ListNode\\ListNode()"
+          }
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.RootDataNode",
+        "name": "STUB",
+        "virtual_name": "NON_VALUE",
+        "functionNode": ".\\p5\\0445-add-two-numbers-ii\\0445-add-two-numbers-ii.cpp\\ListNode\\ListNode()",
+        "level": "STUB"
+      }
+    ]
+  },
+  "procedures": []
+}

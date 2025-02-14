@@ -1,0 +1,41 @@
+{
+  "path": ".\\p4\\0419-battleships-in-a-board\\0419-battleships-in-a-board.cpp",
+  "dependency": [
+    {
+      "start": ".\\p4\\0419-battleships-in-a-board\\0419-battleships-in-a-board.cpp\\Solution\\countBattleships(vector\u003cvector\u003cchar\u003e\u003e\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "5e9248036353576155e9b11521835109",
+      "end": ".\\p4\\0419-battleships-in-a-board\\0419-battleships-in-a-board.cpp\\Solution",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "61048f989511167e3660c52a766e1b93"
+    },
+    {
+      "start": ".\\p4\\0419-battleships-in-a-board\\0419-battleships-in-a-board.cpp\\Solution\\dfs(int,int,int,int,vector\u003cvector\u003cchar\u003e\u003e\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "6856dcd1c4974bf43297eb6b622dfc99",
+      "end": ".\\p4\\0419-battleships-in-a-board\\0419-battleships-in-a-board.cpp\\Solution",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "61048f989511167e3660c52a766e1b93"
+    },
+    {
+      "start": ".\\p4\\0419-battleships-in-a-board\\0419-battleships-in-a-board.cpp\\Solution\\dfs(int,int,int,int,vector\u003cvector\u003cchar\u003e\u003e\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "6856dcd1c4974bf43297eb6b622dfc99",
+      "end": ".\\p4\\0419-battleships-in-a-board\\0419-battleships-in-a-board.cpp\\Solution\\dfs(int,int,int,int,vector\u003cvector\u003cchar\u003e\u003e\u0026)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "6856dcd1c4974bf43297eb6b622dfc99"
+    },
+    {
+      "start": ".\\p4\\0419-battleships-in-a-board\\0419-battleships-in-a-board.cpp\\Solution\\countBattleships(vector\u003cvector\u003cchar\u003e\u003e\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "5e9248036353576155e9b11521835109",
+      "end": ".\\p4\\0419-battleships-in-a-board\\0419-battleships-in-a-board.cpp\\Solution\\dfs(int,int,int,int,vector\u003cvector\u003cchar\u003e\u003e\u0026)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "6856dcd1c4974bf43297eb6b622dfc99"
+    }
+  ]
+}

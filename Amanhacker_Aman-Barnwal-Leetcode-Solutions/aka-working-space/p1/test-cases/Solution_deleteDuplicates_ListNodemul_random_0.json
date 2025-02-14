@@ -1,0 +1,419 @@
+{
+  "name": "Solution_deleteDuplicates_ListNodemul_random_0",
+  "status": "failed",
+  "testCaseUserCode": {
+    "includePaths": [],
+    "setUpContent": "// set up\n;",
+    "tearDownContent": "// tear down\n;"
+  },
+  "path": ".\\\\aka-working-space\\\\p1\\\\test-cases\\Solution_deleteDuplicates_ListNodemul_random_0.json",
+  "sourceCode": ".\\\\aka-working-space\\\\p1\\\\test-drivers\\Solution_deleteDuplicates_ListNodemul_random_0.cpp",
+  "testPath": ".\\\\aka-working-space\\\\p1\\\\test-paths\\Solution_deleteDuplicates_ListNodemul_random_0.tp",
+  "executable": ".\\\\aka-working-space\\\\p1\\\\exe\\Solution_deleteDuplicates_ListNodemul_random_0.exe",
+  "commandConfig": ".\\aka-working-space\\p1\\test-case-commands\\Solution_deleteDuplicates_ListNodemul_random_0.json",
+  "commandDebug": ".\\\\aka-working-space\\\\p1\\\\debugger\\\\commands\\Solution_deleteDuplicates_ListNodemul_random_0.json",
+  "breakPoint": ".\\\\aka-working-space\\\\p1\\\\debugger\\\\breakpoints\\Solution_deleteDuplicates_ListNodemul_random_0.br.json",
+  "debugExecutable": ".\\\\aka-working-space\\\\p1\\\\exe\\debug_Solution_deleteDuplicates_ListNodemul_random_0.exe",
+  "executionResult": ".\\\\aka-working-space\\\\p1\\\\execution-results\\Solution_deleteDuplicates_ListNodemul_random_0.xml",
+  "creationDate": "2025-02-13T16:13:03.528591800",
+  "executionDate": "2025-02-13T16:13:05.620878400",
+  "rootDataNode": {
+    "type": "com.dse.testdata.object.RootDataNode",
+    "name": "ROOT",
+    "virtual_name": "NON_VALUE",
+    "functionNode": ".\\p1\\0082-remove-duplicates-from-sorted-list-ii\\0082-remove-duplicates-from-sorted-list-ii.cpp\\Solution\\deleteDuplicates(ListNode*)",
+    "level": "ROOT",
+    "children": [
+      {
+        "type": "com.dse.testdata.object.UnitUnderTestNode",
+        "name": "0082-remove-duplicates-from-sorted-list-ii.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\p1\\0082-remove-duplicates-from-sorted-list-ii\\0082-remove-duplicates-from-sorted-list-ii.cpp",
+        "children": [
+          {
+            "type": "com.dse.testdata.object.GlobalRootDataNode",
+            "name": "GLOBAL",
+            "virtual_name": "NON_VALUE",
+            "functionNode": ".\\p1\\0082-remove-duplicates-from-sorted-list-ii\\0082-remove-duplicates-from-sorted-list-ii.cpp\\Solution\\deleteDuplicates(ListNode*)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": false,
+                "correspondingVar": ".\\p1\\0082-remove-duplicates-from-sorted-list-ii\\0082-remove-duplicates-from-sorted-list-ii.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p1\\0082-remove-duplicates-from-sorted-list-ii\\0082-remove-duplicates-from-sorted-list-ii.cpp\\Solution"
+              }
+            ],
+            "level": "GLOBAL",
+            "children": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": true,
+                "correspondingVar": ".\\p1\\0082-remove-duplicates-from-sorted-list-ii\\0082-remove-duplicates-from-sorted-list-ii.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p1\\0082-remove-duplicates-from-sorted-list-ii\\0082-remove-duplicates-from-sorted-list-ii.cpp\\Solution",
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.SubClassDataNode",
+                    "name": "AKA_INSTANCE___Solution",
+                    "virtual_name": "AKA_INSTANCE___Solution",
+                    "dataType": "::Solution",
+                    "realType": "::Solution",
+                    "external": false,
+                    "correspondingVar": ".\\p1\\0082-remove-duplicates-from-sorted-list-ii\\0082-remove-duplicates-from-sorted-list-ii.cpp\\Solution\\AKA_INSTANCE___Solution",
+                    "correspondingType": ".\\p1\\0082-remove-duplicates-from-sorted-list-ii\\0082-remove-duplicates-from-sorted-list-ii.cpp\\Solution",
+                    "rawType": "::Solution",
+                    "selectedConstructor": "Solution()",
+                    "variableType": "::Solution",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                        "name": "Solution()",
+                        "virtual_name": "AKA_INSTANCE___Solution",
+                        "dataType": "::Solution",
+                        "realType": "::Solution",
+                        "functionNode": "\\Solution()"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "com.dse.testdata.object.SubprogramNode",
+            "name": "deleteDuplicates(ListNode*)",
+            "virtual_name": "NON_VALUE",
+            "dataType": "ListNode*",
+            "realType": "ListNode*",
+            "functionNode": ".\\p1\\0082-remove-duplicates-from-sorted-list-ii\\0082-remove-duplicates-from-sorted-list-ii.cpp\\Solution\\deleteDuplicates(ListNode*)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.PointerStructureDataNode",
+                "name": "head",
+                "virtual_name": "EXPECTED_head",
+                "dataType": "ListNode*",
+                "realType": "ListNode*",
+                "external": false,
+                "correspondingVar": ".\\p1\\0082-remove-duplicates-from-sorted-list-ii\\0082-remove-duplicates-from-sorted-list-ii.cpp\\Solution\\deleteDuplicates(ListNode*)\\head",
+                "correspondingType": ".\\p1\\0082-remove-duplicates-from-sorted-list-ii\\0082-remove-duplicates-from-sorted-list-ii.cpp\\ListNode",
+                "level": 1
+              }
+            ],
+            "children": [
+              {
+                "type": "com.dse.testdata.object.RootDataNode",
+                "name": "STATIC",
+                "virtual_name": "NON_VALUE",
+                "functionNode": ".\\p1\\0082-remove-duplicates-from-sorted-list-ii\\0082-remove-duplicates-from-sorted-list-ii.cpp\\Solution\\deleteDuplicates(ListNode*)",
+                "level": "STATIC"
+              },
+              {
+                "type": "com.dse.testdata.object.PointerStructureDataNode",
+                "name": "head",
+                "virtual_name": "head",
+                "dataType": "ListNode*",
+                "realType": "ListNode*",
+                "external": false,
+                "correspondingVar": ".\\p1\\0082-remove-duplicates-from-sorted-list-ii\\0082-remove-duplicates-from-sorted-list-ii.cpp\\Solution\\deleteDuplicates(ListNode*)\\head",
+                "correspondingType": ".\\p1\\0082-remove-duplicates-from-sorted-list-ii\\0082-remove-duplicates-from-sorted-list-ii.cpp\\ListNode",
+                "level": 1,
+                "size": 3,
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.StructDataNode",
+                    "name": "head[0]",
+                    "virtual_name": "head[0]",
+                    "dataType": "ListNode",
+                    "realType": "ListNode",
+                    "external": false,
+                    "correspondingVar": ".\\p1\\0082-remove-duplicates-from-sorted-list-ii\\0082-remove-duplicates-from-sorted-list-ii.cpp\\Solution\\deleteDuplicates(ListNode*)\\head\\head[0]",
+                    "correspondingType": ".\\p1\\0082-remove-duplicates-from-sorted-list-ii\\0082-remove-duplicates-from-sorted-list-ii.cpp\\ListNode",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.SubStructDataNode",
+                        "name": "head",
+                        "virtual_name": "head[0]",
+                        "dataType": "::ListNode",
+                        "realType": "::ListNode",
+                        "external": false,
+                        "correspondingVar": ".\\p1\\0082-remove-duplicates-from-sorted-list-ii\\0082-remove-duplicates-from-sorted-list-ii.cpp\\Solution\\deleteDuplicates(ListNode*)\\head\\head",
+                        "correspondingType": ".\\p1\\0082-remove-duplicates-from-sorted-list-ii\\0082-remove-duplicates-from-sorted-list-ii.cpp\\ListNode",
+                        "rawType": "::ListNode",
+                        "selectedConstructor": "ListNode(int,ListNode*)",
+                        "variableType": "::ListNode",
+                        "children": [
+                          {
+                            "type": "com.dse.testdata.object.ConstructorDataNode",
+                            "name": "ListNode(int,ListNode*)",
+                            "virtual_name": "head[0]",
+                            "dataType": "::ListNode",
+                            "realType": "::ListNode",
+                            "functionNode": ".\\p1\\0082-remove-duplicates-from-sorted-list-ii\\0082-remove-duplicates-from-sorted-list-ii.cpp\\ListNode\\ListNode(int,ListNode*)",
+                            "children": [
+                              {
+                                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                "name": "x",
+                                "virtual_name": "head0_x",
+                                "dataType": "int",
+                                "realType": "int",
+                                "external": false,
+                                "correspondingVar": ".\\p1\\0082-remove-duplicates-from-sorted-list-ii\\0082-remove-duplicates-from-sorted-list-ii.cpp\\ListNode\\ListNode(int,ListNode*)\\x",
+                                "correspondingType": "int",
+                                "value": "-562694030"
+                              },
+                              {
+                                "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                "name": "next",
+                                "virtual_name": "head0_next",
+                                "dataType": "ListNode*",
+                                "realType": "ListNode*",
+                                "external": false,
+                                "correspondingVar": ".\\p1\\0082-remove-duplicates-from-sorted-list-ii\\0082-remove-duplicates-from-sorted-list-ii.cpp\\ListNode\\ListNode(int,ListNode*)\\next",
+                                "correspondingType": ".\\p1\\0082-remove-duplicates-from-sorted-list-ii\\0082-remove-duplicates-from-sorted-list-ii.cpp\\ListNode",
+                                "level": 1
+                              }
+                            ]
+                          },
+                          {
+                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                            "name": "val",
+                            "virtual_name": "head[0].val",
+                            "dataType": "int",
+                            "realType": "int",
+                            "external": false,
+                            "correspondingVar": ".\\p1\\0082-remove-duplicates-from-sorted-list-ii\\0082-remove-duplicates-from-sorted-list-ii.cpp\\ListNode\\val",
+                            "correspondingType": "int",
+                            "value": "null"
+                          },
+                          {
+                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                            "name": "next",
+                            "virtual_name": "head[0].next",
+                            "dataType": "ListNode*",
+                            "realType": "ListNode*",
+                            "external": false,
+                            "correspondingVar": ".\\p1\\0082-remove-duplicates-from-sorted-list-ii\\0082-remove-duplicates-from-sorted-list-ii.cpp\\ListNode\\next",
+                            "correspondingType": ".\\p1\\0082-remove-duplicates-from-sorted-list-ii\\0082-remove-duplicates-from-sorted-list-ii.cpp\\ListNode",
+                            "level": 1
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "com.dse.testdata.object.StructDataNode",
+                    "name": "head[1]",
+                    "virtual_name": "head[1]",
+                    "dataType": "ListNode",
+                    "realType": "ListNode",
+                    "external": false,
+                    "correspondingVar": ".\\p1\\0082-remove-duplicates-from-sorted-list-ii\\0082-remove-duplicates-from-sorted-list-ii.cpp\\Solution\\deleteDuplicates(ListNode*)\\head\\head[1]",
+                    "correspondingType": ".\\p1\\0082-remove-duplicates-from-sorted-list-ii\\0082-remove-duplicates-from-sorted-list-ii.cpp\\ListNode",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.SubStructDataNode",
+                        "name": "head",
+                        "virtual_name": "head[1]",
+                        "dataType": "::ListNode",
+                        "realType": "::ListNode",
+                        "external": false,
+                        "correspondingVar": ".\\p1\\0082-remove-duplicates-from-sorted-list-ii\\0082-remove-duplicates-from-sorted-list-ii.cpp\\Solution\\deleteDuplicates(ListNode*)\\head\\head",
+                        "correspondingType": ".\\p1\\0082-remove-duplicates-from-sorted-list-ii\\0082-remove-duplicates-from-sorted-list-ii.cpp\\ListNode",
+                        "rawType": "::ListNode",
+                        "selectedConstructor": "ListNode()",
+                        "variableType": "::ListNode",
+                        "children": [
+                          {
+                            "type": "com.dse.testdata.object.ConstructorDataNode",
+                            "name": "ListNode()",
+                            "virtual_name": "head[1]",
+                            "dataType": "::ListNode",
+                            "realType": "::ListNode",
+                            "functionNode": ".\\p1\\0082-remove-duplicates-from-sorted-list-ii\\0082-remove-duplicates-from-sorted-list-ii.cpp\\ListNode\\ListNode()"
+                          },
+                          {
+                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                            "name": "val",
+                            "virtual_name": "head[1].val",
+                            "dataType": "int",
+                            "realType": "int",
+                            "external": false,
+                            "correspondingVar": ".\\p1\\0082-remove-duplicates-from-sorted-list-ii\\0082-remove-duplicates-from-sorted-list-ii.cpp\\ListNode\\val",
+                            "correspondingType": "int",
+                            "value": "null"
+                          },
+                          {
+                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                            "name": "next",
+                            "virtual_name": "head[1].next",
+                            "dataType": "ListNode*",
+                            "realType": "ListNode*",
+                            "external": false,
+                            "correspondingVar": ".\\p1\\0082-remove-duplicates-from-sorted-list-ii\\0082-remove-duplicates-from-sorted-list-ii.cpp\\ListNode\\next",
+                            "correspondingType": ".\\p1\\0082-remove-duplicates-from-sorted-list-ii\\0082-remove-duplicates-from-sorted-list-ii.cpp\\ListNode",
+                            "level": 1
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "com.dse.testdata.object.StructDataNode",
+                    "name": "head[2]",
+                    "virtual_name": "head[2]",
+                    "dataType": "ListNode",
+                    "realType": "ListNode",
+                    "external": false,
+                    "correspondingVar": ".\\p1\\0082-remove-duplicates-from-sorted-list-ii\\0082-remove-duplicates-from-sorted-list-ii.cpp\\Solution\\deleteDuplicates(ListNode*)\\head\\head[2]",
+                    "correspondingType": ".\\p1\\0082-remove-duplicates-from-sorted-list-ii\\0082-remove-duplicates-from-sorted-list-ii.cpp\\ListNode",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.SubStructDataNode",
+                        "name": "head",
+                        "virtual_name": "head[2]",
+                        "dataType": "::ListNode",
+                        "realType": "::ListNode",
+                        "external": false,
+                        "correspondingVar": ".\\p1\\0082-remove-duplicates-from-sorted-list-ii\\0082-remove-duplicates-from-sorted-list-ii.cpp\\Solution\\deleteDuplicates(ListNode*)\\head\\head",
+                        "correspondingType": ".\\p1\\0082-remove-duplicates-from-sorted-list-ii\\0082-remove-duplicates-from-sorted-list-ii.cpp\\ListNode",
+                        "rawType": "::ListNode",
+                        "selectedConstructor": "ListNode(int)",
+                        "variableType": "::ListNode",
+                        "children": [
+                          {
+                            "type": "com.dse.testdata.object.ConstructorDataNode",
+                            "name": "ListNode(int)",
+                            "virtual_name": "head[2]",
+                            "dataType": "::ListNode",
+                            "realType": "::ListNode",
+                            "functionNode": ".\\p1\\0082-remove-duplicates-from-sorted-list-ii\\0082-remove-duplicates-from-sorted-list-ii.cpp\\ListNode\\ListNode(int)",
+                            "children": [
+                              {
+                                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                "name": "x",
+                                "virtual_name": "head2_x",
+                                "dataType": "int",
+                                "realType": "int",
+                                "external": false,
+                                "correspondingVar": ".\\p1\\0082-remove-duplicates-from-sorted-list-ii\\0082-remove-duplicates-from-sorted-list-ii.cpp\\ListNode\\ListNode(int)\\x",
+                                "correspondingType": "int",
+                                "value": "0"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                            "name": "val",
+                            "virtual_name": "head[2].val",
+                            "dataType": "int",
+                            "realType": "int",
+                            "external": false,
+                            "correspondingVar": ".\\p1\\0082-remove-duplicates-from-sorted-list-ii\\0082-remove-duplicates-from-sorted-list-ii.cpp\\ListNode\\val",
+                            "correspondingType": "int",
+                            "value": "null"
+                          },
+                          {
+                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                            "name": "next",
+                            "virtual_name": "head[2].next",
+                            "dataType": "ListNode*",
+                            "realType": "ListNode*",
+                            "external": false,
+                            "correspondingVar": ".\\p1\\0082-remove-duplicates-from-sorted-list-ii\\0082-remove-duplicates-from-sorted-list-ii.cpp\\ListNode\\next",
+                            "correspondingType": ".\\p1\\0082-remove-duplicates-from-sorted-list-ii\\0082-remove-duplicates-from-sorted-list-ii.cpp\\ListNode",
+                            "level": 1
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "com.dse.testdata.object.PointerStructureDataNode",
+                "name": "RETURN",
+                "virtual_name": "AKA_EXPECTED_OUTPUT",
+                "dataType": "ListNode*",
+                "realType": "ListNode*",
+                "external": false,
+                "correspondingVar": ".\\p1\\0082-remove-duplicates-from-sorted-list-ii\\0082-remove-duplicates-from-sorted-list-ii.cpp\\Solution\\deleteDuplicates(ListNode*)\\RETURN",
+                "correspondingType": ".\\p1\\0082-remove-duplicates-from-sorted-list-ii\\0082-remove-duplicates-from-sorted-list-ii.cpp\\ListNode",
+                "level": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.RootDataNode",
+        "name": "STUB",
+        "virtual_name": "NON_VALUE",
+        "functionNode": ".\\p1\\0082-remove-duplicates-from-sorted-list-ii\\0082-remove-duplicates-from-sorted-list-ii.cpp\\Solution\\deleteDuplicates(ListNode*)",
+        "level": "STUB"
+      }
+    ]
+  },
+  "procedures": [
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "head \u003d\u003d NULL",
+      "isSelected": false,
+      "location": 59,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "temp !\u003d NULL",
+      "isSelected": false,
+      "location": 263,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "temp-\u003enext !\u003d NULL",
+      "isSelected": false,
+      "location": 309,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "temp-\u003enext !\u003d NULL",
+      "isSelected": false,
+      "location": 309,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "temp-\u003eval \u003d\u003d temp-\u003enext-\u003eval",
+      "isSelected": false,
+      "location": 331,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "temp-\u003eval \u003d\u003d temp-\u003enext-\u003eval",
+      "isSelected": false,
+      "location": 331,
+      "calls": [],
+      "children": []
+    }
+  ]
+}

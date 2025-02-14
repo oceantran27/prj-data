@@ -1,0 +1,77 @@
+{
+  "path": ".\\p6\\0623-add-one-row-to-tree\\0623-add-one-row-to-tree.cpp",
+  "dependency": [
+    {
+      "start": ".\\p6\\0623-add-one-row-to-tree\\0623-add-one-row-to-tree.cpp\\TreeNode\\TreeNode()",
+      "start-type": "ConstructorNode",
+      "start-md5": "866757dd49ee1720a0f45556eb39c07f",
+      "end": ".\\p6\\0623-add-one-row-to-tree\\0623-add-one-row-to-tree.cpp\\TreeNode",
+      "end-type": "StructNode",
+      "type": "RealParentDependency",
+      "end-md5": "af8c4729b7f783f897357a4f57d1eaa2"
+    },
+    {
+      "start": ".\\p6\\0623-add-one-row-to-tree\\0623-add-one-row-to-tree.cpp\\TreeNode\\TreeNode(int)",
+      "start-type": "ConstructorNode",
+      "start-md5": "bb87074b4f35e01debcefc666303a286",
+      "end": ".\\p6\\0623-add-one-row-to-tree\\0623-add-one-row-to-tree.cpp\\TreeNode",
+      "end-type": "StructNode",
+      "type": "RealParentDependency",
+      "end-md5": "af8c4729b7f783f897357a4f57d1eaa2"
+    },
+    {
+      "start": ".\\p6\\0623-add-one-row-to-tree\\0623-add-one-row-to-tree.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)",
+      "start-type": "ConstructorNode",
+      "start-md5": "f428e6143c89cb81fb9ca01cfbd1bb91",
+      "end": ".\\p6\\0623-add-one-row-to-tree\\0623-add-one-row-to-tree.cpp\\TreeNode",
+      "end-type": "StructNode",
+      "type": "RealParentDependency",
+      "end-md5": "af8c4729b7f783f897357a4f57d1eaa2"
+    },
+    {
+      "start": ".\\p6\\0623-add-one-row-to-tree\\0623-add-one-row-to-tree.cpp\\Solution\\addOneRow(TreeNode*,int,int)",
+      "start-type": "FunctionNode",
+      "start-md5": "7abaec788c5709e746451074f664235b",
+      "end": ".\\p6\\0623-add-one-row-to-tree\\0623-add-one-row-to-tree.cpp\\TreeNode\\TreeNode(int)",
+      "end-type": "ConstructorNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "bb87074b4f35e01debcefc666303a286"
+    },
+    {
+      "start": ".\\p6\\0623-add-one-row-to-tree\\0623-add-one-row-to-tree.cpp\\Solution\\addOneRow(TreeNode*,int,int)",
+      "start-type": "FunctionNode",
+      "start-md5": "7abaec788c5709e746451074f664235b",
+      "end": ".\\p6\\0623-add-one-row-to-tree\\0623-add-one-row-to-tree.cpp\\Solution",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "bfefba3db8d40e2d47346079ddab4c82"
+    },
+    {
+      "start": ".\\p6\\0623-add-one-row-to-tree\\0623-add-one-row-to-tree.cpp\\Solution\\insert(TreeNode*\u0026,int,int,int)",
+      "start-type": "FunctionNode",
+      "start-md5": "4e3a0668c885a38354a1289701080da0",
+      "end": ".\\p6\\0623-add-one-row-to-tree\\0623-add-one-row-to-tree.cpp\\Solution",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "bfefba3db8d40e2d47346079ddab4c82"
+    },
+    {
+      "start": ".\\p6\\0623-add-one-row-to-tree\\0623-add-one-row-to-tree.cpp\\Solution\\insert(TreeNode*\u0026,int,int,int)",
+      "start-type": "FunctionNode",
+      "start-md5": "4e3a0668c885a38354a1289701080da0",
+      "end": ".\\p6\\0623-add-one-row-to-tree\\0623-add-one-row-to-tree.cpp\\Solution\\insert(TreeNode*\u0026,int,int,int)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "4e3a0668c885a38354a1289701080da0"
+    },
+    {
+      "start": ".\\p6\\0623-add-one-row-to-tree\\0623-add-one-row-to-tree.cpp\\Solution\\addOneRow(TreeNode*,int,int)",
+      "start-type": "FunctionNode",
+      "start-md5": "7abaec788c5709e746451074f664235b",
+      "end": ".\\p6\\0623-add-one-row-to-tree\\0623-add-one-row-to-tree.cpp\\Solution\\insert(TreeNode*\u0026,int,int,int)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "4e3a0668c885a38354a1289701080da0"
+    }
+  ]
+}

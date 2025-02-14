@@ -1,0 +1,14 @@
+{
+  "path": ".\\p3\\0121-best-time-to-buy-and-sell-stock\\0121-best-time-to-buy-and-sell-stock.cpp",
+  "dependency": [
+    {
+      "start": ".\\p3\\0121-best-time-to-buy-and-sell-stock\\0121-best-time-to-buy-and-sell-stock.cpp\\Solution\\maxProfit(vector\u003cint\u003e\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "3b6570679b636e40264d4d66f120999c",
+      "end": ".\\p3\\0121-best-time-to-buy-and-sell-stock\\0121-best-time-to-buy-and-sell-stock.cpp\\Solution",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "629525f3cb57877c235a601d190d6985"
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "path": ".\\p11",
+  "type": "com.dse.parser.object.ProjectNode",
+  "children": [
+    {
+      "path": ".\\p11\\1026-maximum-difference-between-node-and-ancestor",
+      "type": "com.dse.parser.object.FolderNode",
+      "children": [
+        {
+          "path": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp",
+          "type": "com.dse.parser.object.CppFileNode",
+          "last-modified": "02/14/2025 10:47:56",
+          "children": [
+            {
+              "path": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\1026-maximum-difference-between-node-and-ancestor.cpp\\",
+              "type": "com.dse.parser.object.UnspecifiedDeclaration"
+            }
+          ]
+        },
+        {
+          "path": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\NOTES.md",
+          "type": "com.dse.parser.object.UnknowObjectNode"
+        },
+        {
+          "path": ".\\p11\\1026-maximum-difference-between-node-and-ancestor\\README.md",
+          "type": "com.dse.parser.object.UnknowObjectNode"
+        }
+      ]
+    },
+    {
+      "path": ".\\p11\\103-binary-tree-zigzag-level-order-traversal",
+      "type": "com.dse.parser.object.FolderNode",
+      "children": [
+        {
+          "path": ".\\p11\\103-binary-tree-zigzag-level-order-traversal\\103-binary-tree-zigzag-level-order-traversal.cpp",
+          "type": "com.dse.parser.object.CppFileNode",
+          "last-modified": "02/14/2025 10:48:15",
+          "children": [
+            {
+              "path": ".\\p11\\103-binary-tree-zigzag-level-order-traversal\\103-binary-tree-zigzag-level-order-traversal.cpp\\",
+              "type": "com.dse.parser.object.UnspecifiedDeclaration"
+            }
+          ]
+        },
+        {
+          "path": ".\\p11\\103-binary-tree-zigzag-level-order-traversal\\NOTES.md",
+          "type": "com.dse.parser.object.UnknowObjectNode"
+        },
+        {
+          "path": ".\\p11\\103-binary-tree-zigzag-level-order-traversal\\README.md",
+          "type": "com.dse.parser.object.UnknowObjectNode"
+        }
+      ]
+    },
+    {
+      "path": ".\\p11\\1030-matrix-cells-in-distance-order",
+      "type": "com.dse.parser.object.FolderNode",
+      "children": [
+        {
+          "path": ".\\p11\\1030-matrix-cells-in-distance-order\\1030-matrix-cells-in-distance-order.cpp",
+          "type": "com.dse.parser.object.CppFileNode",
+          "last-modified": "02/12/2025 06:29:03",
+          "children": [
+            {
+              "path": ".\\p11\\1030-matrix-cells-in-distance-order\\1030-matrix-cells-in-distance-order.cpp\\",
+              "type": "com.dse.parser.object.UnspecifiedDeclaration"
+            }
+          ]
+        },
+        {
+          "path": ".\\p11\\1030-matrix-cells-in-distance-order\\NOTES.md",
+          "type": "com.dse.parser.object.UnknowObjectNode"
+        },
+        {
+          "path": ".\\p11\\1030-matrix-cells-in-distance-order\\README.md",
+          "type": "com.dse.parser.object.UnknowObjectNode"
+        }
+      ]
+    },
+    {
+      "path": ".\\p11\\104-maximum-depth-of-binary-tree",
+      "type": "com.dse.parser.object.FolderNode",
+      "children": [
+        {
+          "path": ".\\p11\\104-maximum-depth-of-binary-tree\\104-maximum-depth-of-binary-tree.cpp",
+          "type": "com.dse.parser.object.CppFileNode",
+          "last-modified": "02/14/2025 10:48:37",
+          "children": [
+            {
+              "path": ".\\p11\\104-maximum-depth-of-binary-tree\\104-maximum-depth-of-binary-tree.cpp\\",
+              "type": "com.dse.parser.object.UnspecifiedDeclaration"
+            }
+          ]
+        },
+        {
+          "path": ".\\p11\\104-maximum-depth-of-binary-tree\\NOTES.md",
+          "type": "com.dse.parser.object.UnknowObjectNode"
+        },
+        {
+          "path": ".\\p11\\104-maximum-depth-of-binary-tree\\README.md",
+          "type": "com.dse.parser.object.UnknowObjectNode"
+        }
+      ]
+    },
+    {
+      "path": ".\\p11\\1043-partition-array-for-maximum-sum",
+      "type": "com.dse.parser.object.FolderNode",
+      "children": [
+        {
+          "path": ".\\p11\\1043-partition-array-for-maximum-sum\\1043-partition-array-for-maximum-sum.cpp",
+          "type": "com.dse.parser.object.CppFileNode",
+          "last-modified": "02/12/2025 06:29:03",
+          "children": [
+            {
+              "path": ".\\p11\\1043-partition-array-for-maximum-sum\\1043-partition-array-for-maximum-sum.cpp\\",
+              "type": "com.dse.parser.object.UnspecifiedDeclaration"
+            }
+          ]
+        },
+        {
+          "path": ".\\p11\\1043-partition-array-for-maximum-sum\\NOTES.md",
+          "type": "com.dse.parser.object.UnknowObjectNode"
+        },
+        {
+          "path": ".\\p11\\1043-partition-array-for-maximum-sum\\README.md",
+          "type": "com.dse.parser.object.UnknowObjectNode"
+        }
+      ]
+    }
+  ]
+}

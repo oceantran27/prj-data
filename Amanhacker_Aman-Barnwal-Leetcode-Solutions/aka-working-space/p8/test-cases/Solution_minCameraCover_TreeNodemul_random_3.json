@@ -1,0 +1,692 @@
+{
+  "name": "Solution_minCameraCover_TreeNodemul_random_3",
+  "status": "runtime error",
+  "testCaseUserCode": {
+    "includePaths": [],
+    "setUpContent": "// set up\n;",
+    "tearDownContent": "// tear down\n;"
+  },
+  "path": ".\\\\aka-working-space\\\\p8\\\\test-cases\\Solution_minCameraCover_TreeNodemul_random_3.json",
+  "sourceCode": ".\\\\aka-working-space\\\\p8\\\\test-drivers\\Solution_minCameraCover_TreeNodemul_random_3.cpp",
+  "testPath": ".\\\\aka-working-space\\\\p8\\\\test-paths\\Solution_minCameraCover_TreeNodemul_random_3.tp",
+  "executable": ".\\\\aka-working-space\\\\p8\\\\exe\\Solution_minCameraCover_TreeNodemul_random_3.exe",
+  "commandConfig": ".\\aka-working-space\\p8\\test-case-commands\\Solution_minCameraCover_TreeNodemul_random_3.json",
+  "commandDebug": ".\\\\aka-working-space\\\\p8\\\\debugger\\\\commands\\Solution_minCameraCover_TreeNodemul_random_3.json",
+  "breakPoint": ".\\\\aka-working-space\\\\p8\\\\debugger\\\\breakpoints\\Solution_minCameraCover_TreeNodemul_random_3.br.json",
+  "debugExecutable": ".\\\\aka-working-space\\\\p8\\\\exe\\debug_Solution_minCameraCover_TreeNodemul_random_3.exe",
+  "executionResult": ".\\\\aka-working-space\\\\p8\\\\execution-results\\Solution_minCameraCover_TreeNodemul_random_3.xml",
+  "creationDate": "2025-02-14T08:43:45.328624100",
+  "executionDate": "2025-02-14T08:44:50.395518700",
+  "rootDataNode": {
+    "type": "com.dse.testdata.object.RootDataNode",
+    "name": "ROOT",
+    "virtual_name": "NON_VALUE",
+    "functionNode": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\Solution\\minCameraCover(TreeNode*)",
+    "level": "ROOT",
+    "children": [
+      {
+        "type": "com.dse.testdata.object.UnitUnderTestNode",
+        "name": "0968-binary-tree-cameras.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp",
+        "children": [
+          {
+            "type": "com.dse.testdata.object.GlobalRootDataNode",
+            "name": "GLOBAL",
+            "virtual_name": "NON_VALUE",
+            "functionNode": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\Solution\\minCameraCover(TreeNode*)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": false,
+                "correspondingVar": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\Solution"
+              }
+            ],
+            "level": "GLOBAL",
+            "children": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": true,
+                "correspondingVar": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\Solution",
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.SubClassDataNode",
+                    "name": "AKA_INSTANCE___Solution",
+                    "virtual_name": "AKA_INSTANCE___Solution",
+                    "dataType": "::Solution",
+                    "realType": "::Solution",
+                    "external": false,
+                    "correspondingVar": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\Solution\\AKA_INSTANCE___Solution",
+                    "correspondingType": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\Solution",
+                    "rawType": "::Solution",
+                    "selectedConstructor": "Solution()",
+                    "variableType": "::Solution",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                        "name": "Solution()",
+                        "virtual_name": "AKA_INSTANCE___Solution",
+                        "dataType": "::Solution",
+                        "realType": "::Solution",
+                        "functionNode": "\\Solution()"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "com.dse.testdata.object.SubprogramNode",
+            "name": "minCameraCover(TreeNode*)",
+            "virtual_name": "NON_VALUE",
+            "dataType": "int",
+            "realType": "int",
+            "functionNode": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\Solution\\minCameraCover(TreeNode*)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.PointerStructureDataNode",
+                "name": "root",
+                "virtual_name": "EXPECTED_root",
+                "dataType": "TreeNode*",
+                "realType": "TreeNode*",
+                "external": false,
+                "correspondingVar": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\Solution\\minCameraCover(TreeNode*)\\root",
+                "correspondingType": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode",
+                "level": 1
+              }
+            ],
+            "children": [
+              {
+                "type": "com.dse.testdata.object.RootDataNode",
+                "name": "STATIC",
+                "virtual_name": "NON_VALUE",
+                "functionNode": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\Solution\\minCameraCover(TreeNode*)",
+                "level": "STATIC"
+              },
+              {
+                "type": "com.dse.testdata.object.PointerStructureDataNode",
+                "name": "root",
+                "virtual_name": "root",
+                "dataType": "TreeNode*",
+                "realType": "TreeNode*",
+                "external": false,
+                "correspondingVar": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\Solution\\minCameraCover(TreeNode*)\\root",
+                "correspondingType": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode",
+                "level": 1,
+                "size": 1,
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.StructDataNode",
+                    "name": "root[0]",
+                    "virtual_name": "root[0]",
+                    "dataType": "TreeNode",
+                    "realType": "TreeNode",
+                    "external": false,
+                    "correspondingVar": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\Solution\\minCameraCover(TreeNode*)\\root\\root[0]",
+                    "correspondingType": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.SubStructDataNode",
+                        "name": "root",
+                        "virtual_name": "root[0]",
+                        "dataType": "::TreeNode",
+                        "realType": "::TreeNode",
+                        "external": false,
+                        "correspondingVar": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\Solution\\minCameraCover(TreeNode*)\\root\\root",
+                        "correspondingType": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode",
+                        "rawType": "::TreeNode",
+                        "selectedConstructor": "TreeNode(int,TreeNode*,TreeNode*)",
+                        "variableType": "::TreeNode",
+                        "children": [
+                          {
+                            "type": "com.dse.testdata.object.ConstructorDataNode",
+                            "name": "TreeNode(int,TreeNode*,TreeNode*)",
+                            "virtual_name": "root[0]",
+                            "dataType": "::TreeNode",
+                            "realType": "::TreeNode",
+                            "functionNode": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)",
+                            "children": [
+                              {
+                                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                "name": "x",
+                                "virtual_name": "root0_x",
+                                "dataType": "int",
+                                "realType": "int",
+                                "external": false,
+                                "correspondingVar": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)\\x",
+                                "correspondingType": "int",
+                                "value": "-564371557"
+                              },
+                              {
+                                "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                "name": "left",
+                                "virtual_name": "root0_left",
+                                "dataType": "TreeNode*",
+                                "realType": "TreeNode*",
+                                "external": false,
+                                "correspondingVar": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)\\left",
+                                "correspondingType": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode",
+                                "level": 1,
+                                "size": 3,
+                                "children": [
+                                  {
+                                    "type": "com.dse.testdata.object.StructDataNode",
+                                    "name": "left[0]",
+                                    "virtual_name": "root0_left[0]",
+                                    "dataType": "TreeNode",
+                                    "realType": "TreeNode",
+                                    "external": false,
+                                    "correspondingVar": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)\\left\\left[0]",
+                                    "correspondingType": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode",
+                                    "children": [
+                                      {
+                                        "type": "com.dse.testdata.object.SubStructDataNode",
+                                        "name": "left",
+                                        "virtual_name": "root0_left[0]",
+                                        "dataType": "::TreeNode",
+                                        "realType": "::TreeNode",
+                                        "external": false,
+                                        "correspondingVar": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)\\left\\left",
+                                        "correspondingType": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode",
+                                        "rawType": "::TreeNode",
+                                        "selectedConstructor": "TreeNode()",
+                                        "variableType": "::TreeNode",
+                                        "children": [
+                                          {
+                                            "type": "com.dse.testdata.object.ConstructorDataNode",
+                                            "name": "TreeNode()",
+                                            "virtual_name": "root0_left[0]",
+                                            "dataType": "::TreeNode",
+                                            "realType": "::TreeNode",
+                                            "functionNode": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode\\TreeNode()"
+                                          },
+                                          {
+                                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                            "name": "val",
+                                            "virtual_name": "root0_left[0].val",
+                                            "dataType": "int",
+                                            "realType": "int",
+                                            "external": false,
+                                            "correspondingVar": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode\\val",
+                                            "correspondingType": "int",
+                                            "value": "null"
+                                          },
+                                          {
+                                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                            "name": "left",
+                                            "virtual_name": "root0_left[0].left",
+                                            "dataType": "TreeNode*",
+                                            "realType": "TreeNode*",
+                                            "external": false,
+                                            "correspondingVar": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode\\left",
+                                            "correspondingType": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode",
+                                            "level": 1
+                                          },
+                                          {
+                                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                            "name": "right",
+                                            "virtual_name": "root0_left[0].right",
+                                            "dataType": "TreeNode*",
+                                            "realType": "TreeNode*",
+                                            "external": false,
+                                            "correspondingVar": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode\\right",
+                                            "correspondingType": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode",
+                                            "level": 1
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "com.dse.testdata.object.StructDataNode",
+                                    "name": "left[1]",
+                                    "virtual_name": "root0_left[1]",
+                                    "dataType": "TreeNode",
+                                    "realType": "TreeNode",
+                                    "external": false,
+                                    "correspondingVar": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)\\left\\left[1]",
+                                    "correspondingType": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode",
+                                    "children": [
+                                      {
+                                        "type": "com.dse.testdata.object.SubStructDataNode",
+                                        "name": "left",
+                                        "virtual_name": "root0_left[1]",
+                                        "dataType": "::TreeNode",
+                                        "realType": "::TreeNode",
+                                        "external": false,
+                                        "correspondingVar": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)\\left\\left",
+                                        "correspondingType": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode",
+                                        "rawType": "::TreeNode",
+                                        "selectedConstructor": "TreeNode()",
+                                        "variableType": "::TreeNode",
+                                        "children": [
+                                          {
+                                            "type": "com.dse.testdata.object.ConstructorDataNode",
+                                            "name": "TreeNode()",
+                                            "virtual_name": "root0_left[1]",
+                                            "dataType": "::TreeNode",
+                                            "realType": "::TreeNode",
+                                            "functionNode": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode\\TreeNode()"
+                                          },
+                                          {
+                                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                            "name": "val",
+                                            "virtual_name": "root0_left[1].val",
+                                            "dataType": "int",
+                                            "realType": "int",
+                                            "external": false,
+                                            "correspondingVar": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode\\val",
+                                            "correspondingType": "int",
+                                            "value": "null"
+                                          },
+                                          {
+                                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                            "name": "left",
+                                            "virtual_name": "root0_left[1].left",
+                                            "dataType": "TreeNode*",
+                                            "realType": "TreeNode*",
+                                            "external": false,
+                                            "correspondingVar": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode\\left",
+                                            "correspondingType": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode",
+                                            "level": 1
+                                          },
+                                          {
+                                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                            "name": "right",
+                                            "virtual_name": "root0_left[1].right",
+                                            "dataType": "TreeNode*",
+                                            "realType": "TreeNode*",
+                                            "external": false,
+                                            "correspondingVar": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode\\right",
+                                            "correspondingType": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode",
+                                            "level": 1
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  },
+                                  {
+                                    "type": "com.dse.testdata.object.StructDataNode",
+                                    "name": "left[2]",
+                                    "virtual_name": "root0_left[2]",
+                                    "dataType": "TreeNode",
+                                    "realType": "TreeNode",
+                                    "external": false,
+                                    "correspondingVar": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)\\left\\left[2]",
+                                    "correspondingType": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode",
+                                    "children": [
+                                      {
+                                        "type": "com.dse.testdata.object.SubStructDataNode",
+                                        "name": "left",
+                                        "virtual_name": "root0_left[2]",
+                                        "dataType": "::TreeNode",
+                                        "realType": "::TreeNode",
+                                        "external": false,
+                                        "correspondingVar": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)\\left\\left",
+                                        "correspondingType": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode",
+                                        "rawType": "::TreeNode",
+                                        "selectedConstructor": "TreeNode()",
+                                        "variableType": "::TreeNode",
+                                        "children": [
+                                          {
+                                            "type": "com.dse.testdata.object.ConstructorDataNode",
+                                            "name": "TreeNode()",
+                                            "virtual_name": "root0_left[2]",
+                                            "dataType": "::TreeNode",
+                                            "realType": "::TreeNode",
+                                            "functionNode": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode\\TreeNode()"
+                                          },
+                                          {
+                                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                            "name": "val",
+                                            "virtual_name": "root0_left[2].val",
+                                            "dataType": "int",
+                                            "realType": "int",
+                                            "external": false,
+                                            "correspondingVar": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode\\val",
+                                            "correspondingType": "int",
+                                            "value": "null"
+                                          },
+                                          {
+                                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                            "name": "left",
+                                            "virtual_name": "root0_left[2].left",
+                                            "dataType": "TreeNode*",
+                                            "realType": "TreeNode*",
+                                            "external": false,
+                                            "correspondingVar": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode\\left",
+                                            "correspondingType": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode",
+                                            "level": 1
+                                          },
+                                          {
+                                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                            "name": "right",
+                                            "virtual_name": "root0_left[2].right",
+                                            "dataType": "TreeNode*",
+                                            "realType": "TreeNode*",
+                                            "external": false,
+                                            "correspondingVar": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode\\right",
+                                            "correspondingType": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode",
+                                            "level": 1
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                "name": "right",
+                                "virtual_name": "root0_right",
+                                "dataType": "TreeNode*",
+                                "realType": "TreeNode*",
+                                "external": false,
+                                "correspondingVar": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)\\right",
+                                "correspondingType": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode",
+                                "level": 1
+                              }
+                            ]
+                          },
+                          {
+                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                            "name": "val",
+                            "virtual_name": "root[0].val",
+                            "dataType": "int",
+                            "realType": "int",
+                            "external": false,
+                            "correspondingVar": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode\\val",
+                            "correspondingType": "int",
+                            "value": "null"
+                          },
+                          {
+                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                            "name": "left",
+                            "virtual_name": "root[0].left",
+                            "dataType": "TreeNode*",
+                            "realType": "TreeNode*",
+                            "external": false,
+                            "correspondingVar": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode\\left",
+                            "correspondingType": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode",
+                            "level": 1,
+                            "size": 3,
+                            "children": [
+                              {
+                                "type": "com.dse.testdata.object.StructDataNode",
+                                "name": "left[0]",
+                                "virtual_name": "root[0].left[0]",
+                                "dataType": "TreeNode",
+                                "realType": "TreeNode",
+                                "external": false,
+                                "correspondingVar": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode\\left\\left[0]",
+                                "correspondingType": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode",
+                                "children": [
+                                  {
+                                    "type": "com.dse.testdata.object.SubStructDataNode",
+                                    "name": "left",
+                                    "virtual_name": "root[0].left[0]",
+                                    "dataType": "::TreeNode",
+                                    "realType": "::TreeNode",
+                                    "external": false,
+                                    "correspondingVar": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode\\left\\left",
+                                    "correspondingType": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode",
+                                    "rawType": "::TreeNode",
+                                    "selectedConstructor": "TreeNode()",
+                                    "variableType": "::TreeNode",
+                                    "children": [
+                                      {
+                                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                                        "name": "TreeNode()",
+                                        "virtual_name": "root[0].left[0]",
+                                        "dataType": "::TreeNode",
+                                        "realType": "::TreeNode",
+                                        "functionNode": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode\\TreeNode()"
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                        "name": "val",
+                                        "virtual_name": "root[0].left[0].val",
+                                        "dataType": "int",
+                                        "realType": "int",
+                                        "external": false,
+                                        "correspondingVar": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode\\val",
+                                        "correspondingType": "int",
+                                        "value": "null"
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                        "name": "left",
+                                        "virtual_name": "root[0].left[0].left",
+                                        "dataType": "TreeNode*",
+                                        "realType": "TreeNode*",
+                                        "external": false,
+                                        "correspondingVar": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode\\left",
+                                        "correspondingType": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode",
+                                        "level": 1
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                        "name": "right",
+                                        "virtual_name": "root[0].left[0].right",
+                                        "dataType": "TreeNode*",
+                                        "realType": "TreeNode*",
+                                        "external": false,
+                                        "correspondingVar": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode\\right",
+                                        "correspondingType": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode",
+                                        "level": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "com.dse.testdata.object.StructDataNode",
+                                "name": "left[1]",
+                                "virtual_name": "root[0].left[1]",
+                                "dataType": "TreeNode",
+                                "realType": "TreeNode",
+                                "external": false,
+                                "correspondingVar": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode\\left\\left[1]",
+                                "correspondingType": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode",
+                                "children": [
+                                  {
+                                    "type": "com.dse.testdata.object.SubStructDataNode",
+                                    "name": "left",
+                                    "virtual_name": "root[0].left[1]",
+                                    "dataType": "::TreeNode",
+                                    "realType": "::TreeNode",
+                                    "external": false,
+                                    "correspondingVar": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode\\left\\left",
+                                    "correspondingType": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode",
+                                    "rawType": "::TreeNode",
+                                    "selectedConstructor": "TreeNode()",
+                                    "variableType": "::TreeNode",
+                                    "children": [
+                                      {
+                                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                                        "name": "TreeNode()",
+                                        "virtual_name": "root[0].left[1]",
+                                        "dataType": "::TreeNode",
+                                        "realType": "::TreeNode",
+                                        "functionNode": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode\\TreeNode()"
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                        "name": "val",
+                                        "virtual_name": "root[0].left[1].val",
+                                        "dataType": "int",
+                                        "realType": "int",
+                                        "external": false,
+                                        "correspondingVar": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode\\val",
+                                        "correspondingType": "int",
+                                        "value": "null"
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                        "name": "left",
+                                        "virtual_name": "root[0].left[1].left",
+                                        "dataType": "TreeNode*",
+                                        "realType": "TreeNode*",
+                                        "external": false,
+                                        "correspondingVar": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode\\left",
+                                        "correspondingType": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode",
+                                        "level": 1
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                        "name": "right",
+                                        "virtual_name": "root[0].left[1].right",
+                                        "dataType": "TreeNode*",
+                                        "realType": "TreeNode*",
+                                        "external": false,
+                                        "correspondingVar": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode\\right",
+                                        "correspondingType": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode",
+                                        "level": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              },
+                              {
+                                "type": "com.dse.testdata.object.StructDataNode",
+                                "name": "left[2]",
+                                "virtual_name": "root[0].left[2]",
+                                "dataType": "TreeNode",
+                                "realType": "TreeNode",
+                                "external": false,
+                                "correspondingVar": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode\\left\\left[2]",
+                                "correspondingType": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode",
+                                "children": [
+                                  {
+                                    "type": "com.dse.testdata.object.SubStructDataNode",
+                                    "name": "left",
+                                    "virtual_name": "root[0].left[2]",
+                                    "dataType": "::TreeNode",
+                                    "realType": "::TreeNode",
+                                    "external": false,
+                                    "correspondingVar": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode\\left\\left",
+                                    "correspondingType": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode",
+                                    "rawType": "::TreeNode",
+                                    "selectedConstructor": "TreeNode()",
+                                    "variableType": "::TreeNode",
+                                    "children": [
+                                      {
+                                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                                        "name": "TreeNode()",
+                                        "virtual_name": "root[0].left[2]",
+                                        "dataType": "::TreeNode",
+                                        "realType": "::TreeNode",
+                                        "functionNode": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode\\TreeNode()"
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                        "name": "val",
+                                        "virtual_name": "root[0].left[2].val",
+                                        "dataType": "int",
+                                        "realType": "int",
+                                        "external": false,
+                                        "correspondingVar": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode\\val",
+                                        "correspondingType": "int",
+                                        "value": "null"
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                        "name": "left",
+                                        "virtual_name": "root[0].left[2].left",
+                                        "dataType": "TreeNode*",
+                                        "realType": "TreeNode*",
+                                        "external": false,
+                                        "correspondingVar": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode\\left",
+                                        "correspondingType": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode",
+                                        "level": 1
+                                      },
+                                      {
+                                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                        "name": "right",
+                                        "virtual_name": "root[0].left[2].right",
+                                        "dataType": "TreeNode*",
+                                        "realType": "TreeNode*",
+                                        "external": false,
+                                        "correspondingVar": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode\\right",
+                                        "correspondingType": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode",
+                                        "level": 1
+                                      }
+                                    ]
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                            "name": "right",
+                            "virtual_name": "root[0].right",
+                            "dataType": "TreeNode*",
+                            "realType": "TreeNode*",
+                            "external": false,
+                            "correspondingVar": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode\\right",
+                            "correspondingType": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\TreeNode",
+                            "level": 1
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "RETURN",
+                "virtual_name": "AKA_EXPECTED_OUTPUT",
+                "dataType": "int",
+                "realType": "int",
+                "external": false,
+                "correspondingVar": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\Solution\\minCameraCover(TreeNode*)\\RETURN",
+                "correspondingType": "int",
+                "value": "null"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.RootDataNode",
+        "name": "STUB",
+        "virtual_name": "NON_VALUE",
+        "functionNode": ".\\p8\\0968-binary-tree-cameras\\0968-binary-tree-cameras.cpp\\Solution\\minCameraCover(TreeNode*)",
+        "level": "STUB"
+      }
+    ]
+  },
+  "procedures": [
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "root \u003d\u003d NULL",
+      "isSelected": false,
+      "location": 129,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "function_call",
+      "value": "dfs();",
+      "isSelected": false,
+      "location": 239,
+      "calls": [],
+      "children": []
+    }
+  ]
+}

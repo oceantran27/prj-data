@@ -1,0 +1,109 @@
+{
+  "path": ".\\p3",
+  "type": "com.dse.parser.object.ProjectNode",
+  "children": [
+    {
+      "path": ".\\p3\\0117-populating-next-right-pointers-in-each-node-ii",
+      "type": "com.dse.parser.object.FolderNode",
+      "children": [
+        {
+          "path": ".\\p3\\0117-populating-next-right-pointers-in-each-node-ii\\0117-populating-next-right-pointers-in-each-node-ii.cpp",
+          "type": "com.dse.parser.object.CppFileNode",
+          "last-modified": "02/13/2025 16:40:05",
+          "children": [
+            {
+              "path": ".\\p3\\0117-populating-next-right-pointers-in-each-node-ii\\0117-populating-next-right-pointers-in-each-node-ii.cpp\\",
+              "type": "com.dse.parser.object.UnspecifiedDeclaration"
+            }
+          ]
+        },
+        {
+          "path": ".\\p3\\0117-populating-next-right-pointers-in-each-node-ii\\NOTES.md",
+          "type": "com.dse.parser.object.UnknowObjectNode"
+        },
+        {
+          "path": ".\\p3\\0117-populating-next-right-pointers-in-each-node-ii\\README.md",
+          "type": "com.dse.parser.object.UnknowObjectNode"
+        }
+      ]
+    },
+    {
+      "path": ".\\p3\\0118-pascals-triangle",
+      "type": "com.dse.parser.object.FolderNode",
+      "children": [
+        {
+          "path": ".\\p3\\0118-pascals-triangle\\NOTES.md",
+          "type": "com.dse.parser.object.UnknowObjectNode"
+        },
+        {
+          "path": ".\\p3\\0118-pascals-triangle\\README.md",
+          "type": "com.dse.parser.object.UnknowObjectNode"
+        }
+      ]
+    },
+    {
+      "path": ".\\p3\\0119-pascals-triangle-ii",
+      "type": "com.dse.parser.object.FolderNode",
+      "children": [
+        {
+          "path": ".\\p3\\0119-pascals-triangle-ii\\NOTES.md",
+          "type": "com.dse.parser.object.UnknowObjectNode"
+        },
+        {
+          "path": ".\\p3\\0119-pascals-triangle-ii\\README.md",
+          "type": "com.dse.parser.object.UnknowObjectNode"
+        }
+      ]
+    },
+    {
+      "path": ".\\p3\\0121-best-time-to-buy-and-sell-stock",
+      "type": "com.dse.parser.object.FolderNode",
+      "children": [
+        {
+          "path": ".\\p3\\0121-best-time-to-buy-and-sell-stock\\0121-best-time-to-buy-and-sell-stock.cpp",
+          "type": "com.dse.parser.object.CppFileNode",
+          "last-modified": "02/12/2025 06:29:03",
+          "children": [
+            {
+              "path": ".\\p3\\0121-best-time-to-buy-and-sell-stock\\0121-best-time-to-buy-and-sell-stock.cpp\\",
+              "type": "com.dse.parser.object.UnspecifiedDeclaration"
+            }
+          ]
+        },
+        {
+          "path": ".\\p3\\0121-best-time-to-buy-and-sell-stock\\NOTES.md",
+          "type": "com.dse.parser.object.UnknowObjectNode"
+        },
+        {
+          "path": ".\\p3\\0121-best-time-to-buy-and-sell-stock\\README.md",
+          "type": "com.dse.parser.object.UnknowObjectNode"
+        }
+      ]
+    },
+    {
+      "path": ".\\p3\\0148-sort-list",
+      "type": "com.dse.parser.object.FolderNode",
+      "children": [
+        {
+          "path": ".\\p3\\0148-sort-list\\0148-sort-list.cpp",
+          "type": "com.dse.parser.object.CppFileNode",
+          "last-modified": "02/13/2025 16:40:41",
+          "children": [
+            {
+              "path": ".\\p3\\0148-sort-list\\0148-sort-list.cpp\\",
+              "type": "com.dse.parser.object.UnspecifiedDeclaration"
+            }
+          ]
+        },
+        {
+          "path": ".\\p3\\0148-sort-list\\NOTES.md",
+          "type": "com.dse.parser.object.UnknowObjectNode"
+        },
+        {
+          "path": ".\\p3\\0148-sort-list\\README.md",
+          "type": "com.dse.parser.object.UnknowObjectNode"
+        }
+      ]
+    }
+  ]
+}

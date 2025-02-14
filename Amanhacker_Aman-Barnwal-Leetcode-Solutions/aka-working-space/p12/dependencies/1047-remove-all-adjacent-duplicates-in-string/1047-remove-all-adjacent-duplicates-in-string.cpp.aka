@@ -1,0 +1,14 @@
+{
+  "path": ".\\p12\\1047-remove-all-adjacent-duplicates-in-string\\1047-remove-all-adjacent-duplicates-in-string.cpp",
+  "dependency": [
+    {
+      "start": ".\\p12\\1047-remove-all-adjacent-duplicates-in-string\\1047-remove-all-adjacent-duplicates-in-string.cpp\\Solution\\removeDuplicates(string)",
+      "start-type": "FunctionNode",
+      "start-md5": "181704c87c5d5254fd7daa370942d758",
+      "end": ".\\p12\\1047-remove-all-adjacent-duplicates-in-string\\1047-remove-all-adjacent-duplicates-in-string.cpp\\Solution",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "9cac407a4aae0ebe2934100a4403d91e"
+    }
+  ]
+}

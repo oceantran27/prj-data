@@ -1,0 +1,50 @@
+{
+  "path": ".\\p5\\0450-delete-node-in-a-bst\\0450-delete-node-in-a-bst.cpp",
+  "dependency": [
+    {
+      "start": ".\\p5\\0450-delete-node-in-a-bst\\0450-delete-node-in-a-bst.cpp\\TreeNode\\TreeNode()",
+      "start-type": "ConstructorNode",
+      "start-md5": "866757dd49ee1720a0f45556eb39c07f",
+      "end": ".\\p5\\0450-delete-node-in-a-bst\\0450-delete-node-in-a-bst.cpp\\TreeNode",
+      "end-type": "StructNode",
+      "type": "RealParentDependency",
+      "end-md5": "af8c4729b7f783f897357a4f57d1eaa2"
+    },
+    {
+      "start": ".\\p5\\0450-delete-node-in-a-bst\\0450-delete-node-in-a-bst.cpp\\TreeNode\\TreeNode(int)",
+      "start-type": "ConstructorNode",
+      "start-md5": "bb87074b4f35e01debcefc666303a286",
+      "end": ".\\p5\\0450-delete-node-in-a-bst\\0450-delete-node-in-a-bst.cpp\\TreeNode",
+      "end-type": "StructNode",
+      "type": "RealParentDependency",
+      "end-md5": "af8c4729b7f783f897357a4f57d1eaa2"
+    },
+    {
+      "start": ".\\p5\\0450-delete-node-in-a-bst\\0450-delete-node-in-a-bst.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)",
+      "start-type": "ConstructorNode",
+      "start-md5": "f428e6143c89cb81fb9ca01cfbd1bb91",
+      "end": ".\\p5\\0450-delete-node-in-a-bst\\0450-delete-node-in-a-bst.cpp\\TreeNode",
+      "end-type": "StructNode",
+      "type": "RealParentDependency",
+      "end-md5": "af8c4729b7f783f897357a4f57d1eaa2"
+    },
+    {
+      "start": ".\\p5\\0450-delete-node-in-a-bst\\0450-delete-node-in-a-bst.cpp\\Solution\\deleteNode(TreeNode*,int)",
+      "start-type": "FunctionNode",
+      "start-md5": "850c2574b578d9216b8317f93bb8e940",
+      "end": ".\\p5\\0450-delete-node-in-a-bst\\0450-delete-node-in-a-bst.cpp\\Solution",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "faf90457075b3e52ec056c8f7473f67d"
+    },
+    {
+      "start": ".\\p5\\0450-delete-node-in-a-bst\\0450-delete-node-in-a-bst.cpp\\Solution\\deleteNode(TreeNode*,int)",
+      "start-type": "FunctionNode",
+      "start-md5": "850c2574b578d9216b8317f93bb8e940",
+      "end": ".\\p5\\0450-delete-node-in-a-bst\\0450-delete-node-in-a-bst.cpp\\Solution\\deleteNode(TreeNode*,int)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "850c2574b578d9216b8317f93bb8e940"
+    }
+  ]
+}

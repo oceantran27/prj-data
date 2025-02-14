@@ -8,8 +8,6 @@
 #include <algorithm>
 using namespace std;
 
-/*
-// Definition for a Node.
 class Node {
 public:
     int val;
@@ -26,7 +24,6 @@ public:
         children = _children;
     }
 };
-*/
 
 class Solution {
 public:

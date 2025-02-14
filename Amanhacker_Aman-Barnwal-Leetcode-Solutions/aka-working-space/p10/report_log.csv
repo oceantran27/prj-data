@@ -1,0 +1,40 @@
+Start autogen for function:#TreeNode()#Source code file:#D:\Projects\AKAUT\prj-data\Amanhacker_Aman-Barnwal-Leetcode-Solutions\p10\1022-sum-of-root-to-leaf-binary-numbers\1022-sum-of-root-to-leaf-binary-numbers.cpp#at time: #2025-02-14 10:18:03#
+Start autogen for function:#TreeNode(int)#Source code file:#D:\Projects\AKAUT\prj-data\Amanhacker_Aman-Barnwal-Leetcode-Solutions\p10\1022-sum-of-root-to-leaf-binary-numbers\1022-sum-of-root-to-leaf-binary-numbers.cpp#at time: #2025-02-14 10:18:03#
+End autogen for function:#TreeNode()#at time: #2025-02-14 10:18:20#
+Start autogen for function:#TreeNode(int,TreeNode*,TreeNode*)#Source code file:#D:\Projects\AKAUT\prj-data\Amanhacker_Aman-Barnwal-Leetcode-Solutions\p10\1022-sum-of-root-to-leaf-binary-numbers\1022-sum-of-root-to-leaf-binary-numbers.cpp#at time: #2025-02-14 10:18:20#
+End autogen for function:#TreeNode(int)#at time: #2025-02-14 10:19:23#
+Start autogen for function:#findNumber(vector<int>)#Source code file:#D:\Projects\AKAUT\prj-data\Amanhacker_Aman-Barnwal-Leetcode-Solutions\p10\1022-sum-of-root-to-leaf-binary-numbers\1022-sum-of-root-to-leaf-binary-numbers.cpp#at time: #2025-02-14 10:19:23#
+End autogen for function:#TreeNode(int,TreeNode*,TreeNode*)#at time: #2025-02-14 10:19:35#
+Start autogen for function:#dfs(TreeNode*,vector<int>,int&)#Source code file:#D:\Projects\AKAUT\prj-data\Amanhacker_Aman-Barnwal-Leetcode-Solutions\p10\1022-sum-of-root-to-leaf-binary-numbers\1022-sum-of-root-to-leaf-binary-numbers.cpp#at time: #2025-02-14 10:19:35#
+End autogen for function:#findNumber(vector<int>)#at time: #2025-02-14 10:20:49#
+Start autogen for function:#sumRootToLeaf(TreeNode*)#Source code file:#D:\Projects\AKAUT\prj-data\Amanhacker_Aman-Barnwal-Leetcode-Solutions\p10\1022-sum-of-root-to-leaf-binary-numbers\1022-sum-of-root-to-leaf-binary-numbers.cpp#at time: #2025-02-14 10:20:49#
+End autogen for function:#dfs(TreeNode*,vector<int>,int&)#at time: #2025-02-14 10:21:01#
+Start autogen for function:#levelOrder(TreeNode*)#Source code file:#D:\Projects\AKAUT\prj-data\Amanhacker_Aman-Barnwal-Leetcode-Solutions\p10\102-binary-tree-level-order-traversal\102-binary-tree-level-order-traversal.cpp#at time: #2025-02-14 10:21:01#
+End autogen for function:#sumRootToLeaf(TreeNode*)#at time: #2025-02-14 10:22:13#
+Start autogen for function:#TreeNode()#Source code file:#D:\Projects\AKAUT\prj-data\Amanhacker_Aman-Barnwal-Leetcode-Solutions\p10\102-binary-tree-level-order-traversal\102-binary-tree-level-order-traversal.cpp#at time: #2025-02-14 10:22:13#
+End autogen for function:#levelOrder(TreeNode*)#at time: #2025-02-14 10:22:25#
+Start autogen for function:#TreeNode(int)#Source code file:#D:\Projects\AKAUT\prj-data\Amanhacker_Aman-Barnwal-Leetcode-Solutions\p10\102-binary-tree-level-order-traversal\102-binary-tree-level-order-traversal.cpp#at time: #2025-02-14 10:22:25#
+End autogen for function:#TreeNode()#at time: #2025-02-14 10:22:29#
+Start autogen for function:#TreeNode(int,TreeNode*,TreeNode*)#Source code file:#D:\Projects\AKAUT\prj-data\Amanhacker_Aman-Barnwal-Leetcode-Solutions\p10\102-binary-tree-level-order-traversal\102-binary-tree-level-order-traversal.cpp#at time: #2025-02-14 10:22:29#
+End autogen for function:#TreeNode(int)#at time: #2025-02-14 10:23:48#
+Start autogen for function:#ListNode()#Source code file:#D:\Projects\AKAUT\prj-data\Amanhacker_Aman-Barnwal-Leetcode-Solutions\p10\1019-next-greater-node-in-linked-list\1019-next-greater-node-in-linked-list.cpp#at time: #2025-02-14 10:23:48#
+End autogen for function:#TreeNode(int,TreeNode*,TreeNode*)#at time: #2025-02-14 10:23:50#
+Start autogen for function:#ListNode(int)#Source code file:#D:\Projects\AKAUT\prj-data\Amanhacker_Aman-Barnwal-Leetcode-Solutions\p10\1019-next-greater-node-in-linked-list\1019-next-greater-node-in-linked-list.cpp#at time: #2025-02-14 10:23:50#
+End autogen for function:#ListNode()#at time: #2025-02-14 10:24:04#
+Start autogen for function:#ListNode(int,ListNode*)#Source code file:#D:\Projects\AKAUT\prj-data\Amanhacker_Aman-Barnwal-Leetcode-Solutions\p10\1019-next-greater-node-in-linked-list\1019-next-greater-node-in-linked-list.cpp#at time: #2025-02-14 10:24:04#
+End autogen for function:#ListNode(int)#at time: #2025-02-14 10:25:10#
+Start autogen for function:#nextLargerNodes(ListNode*)#Source code file:#D:\Projects\AKAUT\prj-data\Amanhacker_Aman-Barnwal-Leetcode-Solutions\p10\1019-next-greater-node-in-linked-list\1019-next-greater-node-in-linked-list.cpp#at time: #2025-02-14 10:25:10#
+End autogen for function:#ListNode(int,ListNode*)#at time: #2025-02-14 10:25:22#
+Start autogen for function:#TreeNode()#Source code file:#D:\Projects\AKAUT\prj-data\Amanhacker_Aman-Barnwal-Leetcode-Solutions\p10\101-symmetric-tree\101-symmetric-tree.cpp#at time: #2025-02-14 10:25:22#
+End autogen for function:#TreeNode()#at time: #2025-02-14 10:25:38#
+Start autogen for function:#TreeNode(int)#Source code file:#D:\Projects\AKAUT\prj-data\Amanhacker_Aman-Barnwal-Leetcode-Solutions\p10\101-symmetric-tree\101-symmetric-tree.cpp#at time: #2025-02-14 10:25:38#
+End autogen for function:#nextLargerNodes(ListNode*)#at time: #2025-02-14 10:26:18#
+Start autogen for function:#TreeNode(int,TreeNode*,TreeNode*)#Source code file:#D:\Projects\AKAUT\prj-data\Amanhacker_Aman-Barnwal-Leetcode-Solutions\p10\101-symmetric-tree\101-symmetric-tree.cpp#at time: #2025-02-14 10:26:18#
+End autogen for function:#TreeNode(int)#at time: #2025-02-14 10:27:01#
+Start autogen for function:#isSymmetricHelper(TreeNode*,TreeNode*)#Source code file:#D:\Projects\AKAUT\prj-data\Amanhacker_Aman-Barnwal-Leetcode-Solutions\p10\101-symmetric-tree\101-symmetric-tree.cpp#at time: #2025-02-14 10:27:01#
+End autogen for function:#TreeNode(int,TreeNode*,TreeNode*)#at time: #2025-02-14 10:27:35#
+Start autogen for function:#isSymmetric(TreeNode*)#Source code file:#D:\Projects\AKAUT\prj-data\Amanhacker_Aman-Barnwal-Leetcode-Solutions\p10\101-symmetric-tree\101-symmetric-tree.cpp#at time: #2025-02-14 10:27:35#
+End autogen for function:#isSymmetricHelper(TreeNode*,TreeNode*)#at time: #2025-02-14 10:28:21#
+Start autogen for function:#bitwiseComplement(int)#Source code file:#D:\Projects\AKAUT\prj-data\Amanhacker_Aman-Barnwal-Leetcode-Solutions\p10\1009-complement-of-base-10-integer\1009-complement-of-base-10-integer.cpp#at time: #2025-02-14 10:28:21#
+End autogen for function:#isSymmetric(TreeNode*)#at time: #2025-02-14 10:28:56#
+End autogen for function:#bitwiseComplement(int)#at time: #2025-02-14 10:29:41#

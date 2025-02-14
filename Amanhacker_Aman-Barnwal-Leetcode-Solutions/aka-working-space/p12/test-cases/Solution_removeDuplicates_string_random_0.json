@@ -1,0 +1,203 @@
+{
+  "name": "Solution_removeDuplicates_string_random_0",
+  "status": "success",
+  "testCaseUserCode": {
+    "includePaths": [],
+    "setUpContent": "// set up\n;",
+    "tearDownContent": "// tear down\n;"
+  },
+  "path": ".\\\\aka-working-space\\\\p12\\\\test-cases\\Solution_removeDuplicates_string_random_0.json",
+  "sourceCode": ".\\\\aka-working-space\\\\p12\\\\test-drivers\\Solution_removeDuplicates_string_random_0.cpp",
+  "testPath": ".\\\\aka-working-space\\\\p12\\\\test-paths\\Solution_removeDuplicates_string_random_0.tp",
+  "executable": ".\\\\aka-working-space\\\\p12\\\\exe\\Solution_removeDuplicates_string_random_0.exe",
+  "commandConfig": ".\\aka-working-space\\p12\\test-case-commands\\Solution_removeDuplicates_string_random_0.json",
+  "commandDebug": ".\\\\aka-working-space\\\\p12\\\\debugger\\\\commands\\Solution_removeDuplicates_string_random_0.json",
+  "breakPoint": ".\\\\aka-working-space\\\\p12\\\\debugger\\\\breakpoints\\Solution_removeDuplicates_string_random_0.br.json",
+  "debugExecutable": ".\\\\aka-working-space\\\\p12\\\\exe\\debug_Solution_removeDuplicates_string_random_0.exe",
+  "executionResult": ".\\\\aka-working-space\\\\p12\\\\execution-results\\Solution_removeDuplicates_string_random_0.xml",
+  "creationDate": "2025-02-14T11:49:46.389478700",
+  "executionDate": "2025-02-14T11:49:46.903152500",
+  "rootDataNode": {
+    "type": "com.dse.testdata.object.RootDataNode",
+    "name": "ROOT",
+    "virtual_name": "NON_VALUE",
+    "functionNode": ".\\p12\\1047-remove-all-adjacent-duplicates-in-string\\1047-remove-all-adjacent-duplicates-in-string.cpp\\Solution\\removeDuplicates(string)",
+    "level": "ROOT",
+    "children": [
+      {
+        "type": "com.dse.testdata.object.UnitUnderTestNode",
+        "name": "1047-remove-all-adjacent-duplicates-in-string.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\p12\\1047-remove-all-adjacent-duplicates-in-string\\1047-remove-all-adjacent-duplicates-in-string.cpp",
+        "children": [
+          {
+            "type": "com.dse.testdata.object.GlobalRootDataNode",
+            "name": "GLOBAL",
+            "virtual_name": "NON_VALUE",
+            "functionNode": ".\\p12\\1047-remove-all-adjacent-duplicates-in-string\\1047-remove-all-adjacent-duplicates-in-string.cpp\\Solution\\removeDuplicates(string)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": false,
+                "correspondingVar": ".\\p12\\1047-remove-all-adjacent-duplicates-in-string\\1047-remove-all-adjacent-duplicates-in-string.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p12\\1047-remove-all-adjacent-duplicates-in-string\\1047-remove-all-adjacent-duplicates-in-string.cpp\\Solution"
+              }
+            ],
+            "level": "GLOBAL",
+            "children": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": true,
+                "correspondingVar": ".\\p12\\1047-remove-all-adjacent-duplicates-in-string\\1047-remove-all-adjacent-duplicates-in-string.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p12\\1047-remove-all-adjacent-duplicates-in-string\\1047-remove-all-adjacent-duplicates-in-string.cpp\\Solution",
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.SubClassDataNode",
+                    "name": "AKA_INSTANCE___Solution",
+                    "virtual_name": "AKA_INSTANCE___Solution",
+                    "dataType": "::Solution",
+                    "realType": "::Solution",
+                    "external": false,
+                    "correspondingVar": ".\\p12\\1047-remove-all-adjacent-duplicates-in-string\\1047-remove-all-adjacent-duplicates-in-string.cpp\\Solution\\AKA_INSTANCE___Solution",
+                    "correspondingType": ".\\p12\\1047-remove-all-adjacent-duplicates-in-string\\1047-remove-all-adjacent-duplicates-in-string.cpp\\Solution",
+                    "rawType": "::Solution",
+                    "selectedConstructor": "Solution()",
+                    "variableType": "::Solution",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                        "name": "Solution()",
+                        "virtual_name": "AKA_INSTANCE___Solution",
+                        "dataType": "::Solution",
+                        "realType": "::Solution",
+                        "functionNode": "\\Solution()"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "com.dse.testdata.object.SubprogramNode",
+            "name": "removeDuplicates(string)",
+            "virtual_name": "NON_VALUE",
+            "dataType": "string",
+            "realType": "string",
+            "functionNode": ".\\p12\\1047-remove-all-adjacent-duplicates-in-string\\1047-remove-all-adjacent-duplicates-in-string.cpp\\Solution\\removeDuplicates(string)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.NormalStringDataNode",
+                "name": "s",
+                "virtual_name": "EXPECTED_s",
+                "dataType": "string",
+                "realType": "string",
+                "external": false,
+                "correspondingVar": ".\\p12\\1047-remove-all-adjacent-duplicates-in-string\\1047-remove-all-adjacent-duplicates-in-string.cpp\\Solution\\removeDuplicates(string)\\s",
+                "correspondingType": "string",
+                "value": "null"
+              }
+            ],
+            "children": [
+              {
+                "type": "com.dse.testdata.object.RootDataNode",
+                "name": "STATIC",
+                "virtual_name": "NON_VALUE",
+                "functionNode": ".\\p12\\1047-remove-all-adjacent-duplicates-in-string\\1047-remove-all-adjacent-duplicates-in-string.cpp\\Solution\\removeDuplicates(string)",
+                "level": "STATIC"
+              },
+              {
+                "type": "com.dse.testdata.object.NormalStringDataNode",
+                "name": "s",
+                "virtual_name": "s",
+                "dataType": "string",
+                "realType": "string",
+                "external": false,
+                "correspondingVar": ".\\p12\\1047-remove-all-adjacent-duplicates-in-string\\1047-remove-all-adjacent-duplicates-in-string.cpp\\Solution\\removeDuplicates(string)\\s",
+                "correspondingType": "string",
+                "value": "1",
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.NormalCharacterDataNode",
+                    "name": "s[0]",
+                    "virtual_name": "s[0]",
+                    "dataType": "char",
+                    "realType": "char",
+                    "external": false,
+                    "correspondingVar": ".\\p12\\1047-remove-all-adjacent-duplicates-in-string\\1047-remove-all-adjacent-duplicates-in-string.cpp\\Solution\\removeDuplicates(string)\\s\\s[0]",
+                    "correspondingType": "char",
+                    "value": "115"
+                  }
+                ]
+              },
+              {
+                "type": "com.dse.testdata.object.NormalStringDataNode",
+                "name": "RETURN",
+                "virtual_name": "AKA_EXPECTED_OUTPUT",
+                "dataType": "string",
+                "realType": "string",
+                "external": false,
+                "correspondingVar": ".\\p12\\1047-remove-all-adjacent-duplicates-in-string\\1047-remove-all-adjacent-duplicates-in-string.cpp\\Solution\\removeDuplicates(string)\\RETURN",
+                "correspondingType": "string",
+                "value": "null"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.RootDataNode",
+        "name": "STUB",
+        "virtual_name": "NON_VALUE",
+        "functionNode": ".\\p12\\1047-remove-all-adjacent-duplicates-in-string\\1047-remove-all-adjacent-duplicates-in-string.cpp\\Solution\\removeDuplicates(string)",
+        "level": "STUB"
+      }
+    ]
+  },
+  "procedures": [
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "i\u003cs.length()",
+      "isSelected": false,
+      "location": 134,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "w.empty() \u003d\u003d true",
+      "isSelected": false,
+      "location": 185,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "top \u003d\u003d s[i]",
+      "isSelected": false,
+      "location": 357,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "w.empty() \u003d\u003d false",
+      "isSelected": false,
+      "location": 534,
+      "calls": [],
+      "children": []
+    }
+  ]
+}

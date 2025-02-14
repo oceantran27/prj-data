@@ -1,0 +1,283 @@
+{
+  "name": "Solution_equationsPossible_vector_string_random_1",
+  "status": "success",
+  "testCaseUserCode": {
+    "includePaths": [],
+    "setUpContent": "// set up\n;",
+    "tearDownContent": "// tear down\n;"
+  },
+  "path": ".\\\\aka-working-space\\\\p8\\\\test-cases\\Solution_equationsPossible_vector_string_random_1.json",
+  "sourceCode": ".\\\\aka-working-space\\\\p8\\\\test-drivers\\Solution_equationsPossible_vector_string_random_1.cpp",
+  "testPath": ".\\\\aka-working-space\\\\p8\\\\test-paths\\Solution_equationsPossible_vector_string_random_1.tp",
+  "executable": ".\\\\aka-working-space\\\\p8\\\\exe\\Solution_equationsPossible_vector_string_random_1.exe",
+  "commandConfig": ".\\aka-working-space\\p8\\test-case-commands\\Solution_equationsPossible_vector_string_random_1.json",
+  "commandDebug": ".\\\\aka-working-space\\\\p8\\\\debugger\\\\commands\\Solution_equationsPossible_vector_string_random_1.json",
+  "breakPoint": ".\\\\aka-working-space\\\\p8\\\\debugger\\\\breakpoints\\Solution_equationsPossible_vector_string_random_1.br.json",
+  "debugExecutable": ".\\\\aka-working-space\\\\p8\\\\exe\\debug_Solution_equationsPossible_vector_string_random_1.exe",
+  "executionResult": ".\\\\aka-working-space\\\\p8\\\\execution-results\\Solution_equationsPossible_vector_string_random_1.xml",
+  "creationDate": "2025-02-14T08:36:14.996386200",
+  "executionDate": "2025-02-14T08:36:39.056213500",
+  "rootDataNode": {
+    "type": "com.dse.testdata.object.RootDataNode",
+    "name": "ROOT",
+    "virtual_name": "NON_VALUE",
+    "functionNode": ".\\p8\\0990-satisfiability-of-equality-equations\\0990-satisfiability-of-equality-equations.cpp\\Solution\\equationsPossible(vector\u003cstring\u003e\u0026)",
+    "level": "ROOT",
+    "children": [
+      {
+        "type": "com.dse.testdata.object.UnitUnderTestNode",
+        "name": "0990-satisfiability-of-equality-equations.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\p8\\0990-satisfiability-of-equality-equations\\0990-satisfiability-of-equality-equations.cpp",
+        "children": [
+          {
+            "type": "com.dse.testdata.object.GlobalRootDataNode",
+            "name": "GLOBAL",
+            "virtual_name": "NON_VALUE",
+            "functionNode": ".\\p8\\0990-satisfiability-of-equality-equations\\0990-satisfiability-of-equality-equations.cpp\\Solution\\equationsPossible(vector\u003cstring\u003e\u0026)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": false,
+                "correspondingVar": ".\\p8\\0990-satisfiability-of-equality-equations\\0990-satisfiability-of-equality-equations.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p8\\0990-satisfiability-of-equality-equations\\0990-satisfiability-of-equality-equations.cpp\\Solution"
+              }
+            ],
+            "level": "GLOBAL",
+            "children": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": true,
+                "correspondingVar": ".\\p8\\0990-satisfiability-of-equality-equations\\0990-satisfiability-of-equality-equations.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p8\\0990-satisfiability-of-equality-equations\\0990-satisfiability-of-equality-equations.cpp\\Solution",
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.SubClassDataNode",
+                    "name": "AKA_INSTANCE___Solution",
+                    "virtual_name": "AKA_INSTANCE___Solution",
+                    "dataType": "::Solution",
+                    "realType": "::Solution",
+                    "external": false,
+                    "correspondingVar": ".\\p8\\0990-satisfiability-of-equality-equations\\0990-satisfiability-of-equality-equations.cpp\\Solution\\AKA_INSTANCE___Solution",
+                    "correspondingType": ".\\p8\\0990-satisfiability-of-equality-equations\\0990-satisfiability-of-equality-equations.cpp\\Solution",
+                    "rawType": "::Solution",
+                    "selectedConstructor": "Solution()",
+                    "variableType": "::Solution",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                        "name": "Solution()",
+                        "virtual_name": "AKA_INSTANCE___Solution",
+                        "dataType": "::Solution",
+                        "realType": "::Solution",
+                        "functionNode": "\\Solution()"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "com.dse.testdata.object.SubprogramNode",
+            "name": "equationsPossible(vector\u003cstring\u003e\u0026)",
+            "virtual_name": "NON_VALUE",
+            "dataType": "bool",
+            "realType": "bool",
+            "functionNode": ".\\p8\\0990-satisfiability-of-equality-equations\\0990-satisfiability-of-equality-equations.cpp\\Solution\\equationsPossible(vector\u003cstring\u003e\u0026)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                "name": "equations",
+                "virtual_name": "EXPECTED_equations",
+                "dataType": "vector\u003cstring\u003e",
+                "realType": "vector\u003cstring\u003e\u0026",
+                "external": false,
+                "correspondingVar": ".\\p8\\0990-satisfiability-of-equality-equations\\0990-satisfiability-of-equality-equations.cpp\\Solution\\equationsPossible(vector\u003cstring\u003e\u0026)\\equations",
+                "correspondingType": "STLListBaseType",
+                "templateArg": "string"
+              }
+            ],
+            "children": [
+              {
+                "type": "com.dse.testdata.object.RootDataNode",
+                "name": "STATIC",
+                "virtual_name": "NON_VALUE",
+                "functionNode": ".\\p8\\0990-satisfiability-of-equality-equations\\0990-satisfiability-of-equality-equations.cpp\\Solution\\equationsPossible(vector\u003cstring\u003e\u0026)",
+                "level": "STATIC"
+              },
+              {
+                "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                "name": "equations",
+                "virtual_name": "equations",
+                "dataType": "vector\u003cstring\u003e",
+                "realType": "vector\u003cstring\u003e\u0026",
+                "external": false,
+                "correspondingVar": ".\\p8\\0990-satisfiability-of-equality-equations\\0990-satisfiability-of-equality-equations.cpp\\Solution\\equationsPossible(vector\u003cstring\u003e\u0026)\\equations",
+                "correspondingType": "STLListBaseType",
+                "templateArg": "string",
+                "size": 3,
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.NormalStringDataNode",
+                    "name": "element #0",
+                    "virtual_name": "equations_element0",
+                    "dataType": "string",
+                    "realType": "string",
+                    "external": false,
+                    "correspondingVar": ".\\p8\\0990-satisfiability-of-equality-equations\\0990-satisfiability-of-equality-equations.cpp\\Solution\\equationsPossible(vector\u003cstring\u003e\u0026)\\equations\\element #0",
+                    "correspondingType": "string",
+                    "value": "2",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.NormalCharacterDataNode",
+                        "name": "element #0[0]",
+                        "virtual_name": "equations_element0[0]",
+                        "dataType": "char",
+                        "realType": "char",
+                        "external": false,
+                        "correspondingVar": ".\\p8\\0990-satisfiability-of-equality-equations\\0990-satisfiability-of-equality-equations.cpp\\Solution\\equationsPossible(vector\u003cstring\u003e\u0026)\\equations\\element #0\\element #0[0]",
+                        "correspondingType": "char",
+                        "value": "47"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "com.dse.testdata.object.NormalStringDataNode",
+                    "name": "element #1",
+                    "virtual_name": "equations_element1",
+                    "dataType": "string",
+                    "realType": "string",
+                    "external": false,
+                    "correspondingVar": ".\\p8\\0990-satisfiability-of-equality-equations\\0990-satisfiability-of-equality-equations.cpp\\Solution\\equationsPossible(vector\u003cstring\u003e\u0026)\\equations\\element #1",
+                    "correspondingType": "string",
+                    "value": "2",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.NormalCharacterDataNode",
+                        "name": "element #1[0]",
+                        "virtual_name": "equations_element1[0]",
+                        "dataType": "char",
+                        "realType": "char",
+                        "external": false,
+                        "correspondingVar": ".\\p8\\0990-satisfiability-of-equality-equations\\0990-satisfiability-of-equality-equations.cpp\\Solution\\equationsPossible(vector\u003cstring\u003e\u0026)\\equations\\element #1\\element #1[0]",
+                        "correspondingType": "char",
+                        "value": "-71"
+                      }
+                    ]
+                  },
+                  {
+                    "type": "com.dse.testdata.object.NormalStringDataNode",
+                    "name": "element #2",
+                    "virtual_name": "equations_element2",
+                    "dataType": "string",
+                    "realType": "string",
+                    "external": false,
+                    "correspondingVar": ".\\p8\\0990-satisfiability-of-equality-equations\\0990-satisfiability-of-equality-equations.cpp\\Solution\\equationsPossible(vector\u003cstring\u003e\u0026)\\equations\\element #2",
+                    "correspondingType": "string",
+                    "value": "1",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.NormalCharacterDataNode",
+                        "name": "element #2[0]",
+                        "virtual_name": "equations_element2[0]",
+                        "dataType": "char",
+                        "realType": "char",
+                        "external": false,
+                        "correspondingVar": ".\\p8\\0990-satisfiability-of-equality-equations\\0990-satisfiability-of-equality-equations.cpp\\Solution\\equationsPossible(vector\u003cstring\u003e\u0026)\\equations\\element #2\\element #2[0]",
+                        "correspondingType": "char",
+                        "value": "-35"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "RETURN",
+                "virtual_name": "AKA_EXPECTED_OUTPUT",
+                "dataType": "bool",
+                "realType": "bool",
+                "external": false,
+                "correspondingVar": ".\\p8\\0990-satisfiability-of-equality-equations\\0990-satisfiability-of-equality-equations.cpp\\Solution\\equationsPossible(vector\u003cstring\u003e\u0026)\\RETURN",
+                "correspondingType": "bool",
+                "value": "null"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.RootDataNode",
+        "name": "STUB",
+        "virtual_name": "NON_VALUE",
+        "functionNode": ".\\p8\\0990-satisfiability-of-equality-equations\\0990-satisfiability-of-equality-equations.cpp\\Solution\\equationsPossible(vector\u003cstring\u003e\u0026)",
+        "level": "STUB"
+      }
+    ]
+  },
+  "procedures": [
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "auto \u0026x",
+      "isSelected": false,
+      "location": 164,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "auto \u0026x",
+      "isSelected": false,
+      "location": 164,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "s[1] \u003d\u003d \u0027\u003d\u0027",
+      "isSelected": false,
+      "location": 258,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "x[1] \u003d\u003d \u0027!\u0027",
+      "isSelected": false,
+      "location": 463,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "function_call",
+      "value": "dfs();",
+      "isSelected": false,
+      "location": 782,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "flag \u003d\u003d true",
+      "isSelected": false,
+      "location": 885,
+      "calls": [],
+      "children": []
+    }
+  ]
+}

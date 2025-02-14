@@ -1,0 +1,33 @@
+<pre>...
+...
+...
+...
+<b style="color: grey;">8     </b>#include &lt;algorithm&gt;
+<b style="color: grey;">9     </b>using namespace std;
+<b style="color: grey;">10     </b>
+<b style="color: grey;">11    </b>class Solution {
+<b style="color: grey;">12    </b>public:
+<b style="color: grey;">13    </b>    
+<b style="color: grey;">14    </b>    int maxProfit(vector&lt;int&gt;&amp; prices) {
+<b style="color: grey;">15    </b>    
+<b style="color: grey;">16    </b>        <b style="background-color:yellow;color:black";>int res = INT_MIN;</b>
+<b style="color: grey;">17    </b>        <b style="background-color:yellow;color:black";>int n = prices.size();</b>
+<b style="color: grey;">18    </b>        
+<b style="color: grey;">19    </b>        <b style="background-color:yellow;color:black";>vector&lt;int&gt; maxPrice(n);</b>
+<b style="color: grey;">20    </b>        <b style="background-color:yellow;color:black";>int maxi = INT_MIN;</b>
+<b style="color: grey;">21    </b>        
+<b style="color: grey;">22    </b>        for(<b style="background-color:yellow;color:black";>int i=n-1, k=n-1;</b> <b style="background-color:yellow;color:black";>i&gt;=0</b>; <b style="background-color:yellow;color:black";>i--</b>) {
+<b style="color: grey;">23    </b>            <b style="background-color:yellow;color:black";>maxi = max(maxi, prices[i]);</b>
+<b style="color: grey;">24    </b>            <b style="background-color:yellow;color:black";>maxPrice[k--] = maxi;</b>
+<b style="color: grey;">25    </b>        }
+<b style="color: grey;">26    </b>        
+<b style="color: grey;">27    </b>        for(<b style="background-color:yellow;color:black";>int i=0;</b> <b style="background-color:yellow;color:black";>i&lt;n</b>; <b style="background-color:yellow;color:black";>i++</b>) {
+<b style="color: grey;">28    </b>            <b style="background-color:yellow;color:black";>res = max(res, maxPrice[i] - prices[i]);</b>
+<b style="color: grey;">29    </b>        }
+<b style="color: grey;">30    </b>        
+<b style="color: grey;">31    </b>        <b style="background-color:yellow;color:black";>return res;</b>
+...
+...
+...
+...
+</pre>

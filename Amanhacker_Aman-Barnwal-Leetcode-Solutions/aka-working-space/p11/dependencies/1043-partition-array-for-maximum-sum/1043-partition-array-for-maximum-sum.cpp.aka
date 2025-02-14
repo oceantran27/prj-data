@@ -1,0 +1,41 @@
+{
+  "path": ".\\p11\\1043-partition-array-for-maximum-sum\\1043-partition-array-for-maximum-sum.cpp",
+  "dependency": [
+    {
+      "start": ".\\p11\\1043-partition-array-for-maximum-sum\\1043-partition-array-for-maximum-sum.cpp\\Solution\\helperMaxSum(vector\u003cint\u003e\u0026,int,int,int,int\u0026,vector\u003cint\u003e\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "6a6e8267d80d385e0362b2e82de3ac96",
+      "end": ".\\p11\\1043-partition-array-for-maximum-sum\\1043-partition-array-for-maximum-sum.cpp\\Solution",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "88f9d559a8917d81e73e9cac671e462f"
+    },
+    {
+      "start": ".\\p11\\1043-partition-array-for-maximum-sum\\1043-partition-array-for-maximum-sum.cpp\\Solution\\maxSumAfterPartitioning(vector\u003cint\u003e\u0026,int)",
+      "start-type": "FunctionNode",
+      "start-md5": "0b238c382a8b3992ee63ee98cd9af2c8",
+      "end": ".\\p11\\1043-partition-array-for-maximum-sum\\1043-partition-array-for-maximum-sum.cpp\\Solution",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "88f9d559a8917d81e73e9cac671e462f"
+    },
+    {
+      "start": ".\\p11\\1043-partition-array-for-maximum-sum\\1043-partition-array-for-maximum-sum.cpp\\Solution\\helperMaxSum(vector\u003cint\u003e\u0026,int,int,int,int\u0026,vector\u003cint\u003e\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "6a6e8267d80d385e0362b2e82de3ac96",
+      "end": ".\\p11\\1043-partition-array-for-maximum-sum\\1043-partition-array-for-maximum-sum.cpp\\Solution\\helperMaxSum(vector\u003cint\u003e\u0026,int,int,int,int\u0026,vector\u003cint\u003e\u0026)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "6a6e8267d80d385e0362b2e82de3ac96"
+    },
+    {
+      "start": ".\\p11\\1043-partition-array-for-maximum-sum\\1043-partition-array-for-maximum-sum.cpp\\Solution\\maxSumAfterPartitioning(vector\u003cint\u003e\u0026,int)",
+      "start-type": "FunctionNode",
+      "start-md5": "0b238c382a8b3992ee63ee98cd9af2c8",
+      "end": ".\\p11\\1043-partition-array-for-maximum-sum\\1043-partition-array-for-maximum-sum.cpp\\Solution\\helperMaxSum(vector\u003cint\u003e\u0026,int,int,int,int\u0026,vector\u003cint\u003e\u0026)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "6a6e8267d80d385e0362b2e82de3ac96"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "path": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp",
+  "dependency": [
+    {
+      "start": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\TreeNode(int)",
+      "start-type": "ConstructorNode",
+      "start-md5": "bb87074b4f35e01debcefc666303a286",
+      "end": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode",
+      "end-type": "StructNode",
+      "type": "RealParentDependency",
+      "end-md5": "af8c4729b7f783f897357a4f57d1eaa2"
+    },
+    {
+      "start": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\TreeNode()",
+      "start-type": "ConstructorNode",
+      "start-md5": "866757dd49ee1720a0f45556eb39c07f",
+      "end": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode",
+      "end-type": "StructNode",
+      "type": "RealParentDependency",
+      "end-md5": "af8c4729b7f783f897357a4f57d1eaa2"
+    },
+    {
+      "start": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)",
+      "start-type": "ConstructorNode",
+      "start-md5": "f428e6143c89cb81fb9ca01cfbd1bb91",
+      "end": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\TreeNode",
+      "end-type": "StructNode",
+      "type": "RealParentDependency",
+      "end-md5": "af8c4729b7f783f897357a4f57d1eaa2"
+    },
+    {
+      "start": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\Solution\\pruneHelper(TreeNode*\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "8063e521c996aa47803d84208bfaf9b2",
+      "end": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\Solution",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "e432971ba797cf90f84012ff7e0cc9ae"
+    },
+    {
+      "start": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\Solution\\pruneTree(TreeNode*)",
+      "start-type": "FunctionNode",
+      "start-md5": "1765ccf0f2dc0cf9288ac885c44e4c0d",
+      "end": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\Solution",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "e432971ba797cf90f84012ff7e0cc9ae"
+    },
+    {
+      "start": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\Solution\\pruneHelper(TreeNode*\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "8063e521c996aa47803d84208bfaf9b2",
+      "end": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\Solution\\pruneHelper(TreeNode*\u0026)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "8063e521c996aa47803d84208bfaf9b2"
+    },
+    {
+      "start": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\Solution\\pruneTree(TreeNode*)",
+      "start-type": "FunctionNode",
+      "start-md5": "1765ccf0f2dc0cf9288ac885c44e4c0d",
+      "end": ".\\p7\\0814-binary-tree-pruning\\0814-binary-tree-pruning.cpp\\Solution\\pruneHelper(TreeNode*\u0026)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "8063e521c996aa47803d84208bfaf9b2"
+    }
+  ]
+}

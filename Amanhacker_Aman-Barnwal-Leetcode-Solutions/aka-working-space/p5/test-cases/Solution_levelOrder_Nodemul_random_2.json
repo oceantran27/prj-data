@@ -1,0 +1,397 @@
+{
+  "name": "Solution_levelOrder_Nodemul_random_2",
+  "status": "success",
+  "testCaseUserCode": {
+    "includePaths": [],
+    "setUpContent": "// set up\n;",
+    "tearDownContent": "// tear down\n;"
+  },
+  "path": ".\\\\aka-working-space\\\\p5\\\\test-cases\\Solution_levelOrder_Nodemul_random_2.json",
+  "sourceCode": ".\\\\aka-working-space\\\\p5\\\\test-drivers\\Solution_levelOrder_Nodemul_random_2.cpp",
+  "testPath": ".\\\\aka-working-space\\\\p5\\\\test-paths\\Solution_levelOrder_Nodemul_random_2.tp",
+  "executable": ".\\\\aka-working-space\\\\p5\\\\exe\\Solution_levelOrder_Nodemul_random_2.exe",
+  "commandConfig": ".\\aka-working-space\\p5\\test-case-commands\\Solution_levelOrder_Nodemul_random_2.json",
+  "commandDebug": ".\\\\aka-working-space\\\\p5\\\\debugger\\\\commands\\Solution_levelOrder_Nodemul_random_2.json",
+  "breakPoint": ".\\\\aka-working-space\\\\p5\\\\debugger\\\\breakpoints\\Solution_levelOrder_Nodemul_random_2.br.json",
+  "debugExecutable": ".\\\\aka-working-space\\\\p5\\\\exe\\debug_Solution_levelOrder_Nodemul_random_2.exe",
+  "executionResult": ".\\\\aka-working-space\\\\p5\\\\execution-results\\Solution_levelOrder_Nodemul_random_2.xml",
+  "creationDate": "2025-02-14T00:22:30.356668",
+  "executionDate": "2025-02-14T00:23:19.544631400",
+  "rootDataNode": {
+    "type": "com.dse.testdata.object.RootDataNode",
+    "name": "ROOT",
+    "virtual_name": "NON_VALUE",
+    "functionNode": ".\\p5\\0429-n-ary-tree-level-order-traversal\\0429-n-ary-tree-level-order-traversal.cpp\\Solution\\levelOrder(Node*)",
+    "level": "ROOT",
+    "children": [
+      {
+        "type": "com.dse.testdata.object.UnitUnderTestNode",
+        "name": "0429-n-ary-tree-level-order-traversal.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\p5\\0429-n-ary-tree-level-order-traversal\\0429-n-ary-tree-level-order-traversal.cpp",
+        "children": [
+          {
+            "type": "com.dse.testdata.object.GlobalRootDataNode",
+            "name": "GLOBAL",
+            "virtual_name": "NON_VALUE",
+            "functionNode": ".\\p5\\0429-n-ary-tree-level-order-traversal\\0429-n-ary-tree-level-order-traversal.cpp\\Solution\\levelOrder(Node*)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": false,
+                "correspondingVar": ".\\p5\\0429-n-ary-tree-level-order-traversal\\0429-n-ary-tree-level-order-traversal.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p5\\0429-n-ary-tree-level-order-traversal\\0429-n-ary-tree-level-order-traversal.cpp\\Solution"
+              }
+            ],
+            "level": "GLOBAL",
+            "children": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": true,
+                "correspondingVar": ".\\p5\\0429-n-ary-tree-level-order-traversal\\0429-n-ary-tree-level-order-traversal.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p5\\0429-n-ary-tree-level-order-traversal\\0429-n-ary-tree-level-order-traversal.cpp\\Solution",
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.SubClassDataNode",
+                    "name": "AKA_INSTANCE___Solution",
+                    "virtual_name": "AKA_INSTANCE___Solution",
+                    "dataType": "::Solution",
+                    "realType": "::Solution",
+                    "external": false,
+                    "correspondingVar": ".\\p5\\0429-n-ary-tree-level-order-traversal\\0429-n-ary-tree-level-order-traversal.cpp\\Solution\\AKA_INSTANCE___Solution",
+                    "correspondingType": ".\\p5\\0429-n-ary-tree-level-order-traversal\\0429-n-ary-tree-level-order-traversal.cpp\\Solution",
+                    "rawType": "::Solution",
+                    "selectedConstructor": "Solution()",
+                    "variableType": "::Solution",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                        "name": "Solution()",
+                        "virtual_name": "AKA_INSTANCE___Solution",
+                        "dataType": "::Solution",
+                        "realType": "::Solution",
+                        "functionNode": "\\Solution()"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "com.dse.testdata.object.SubprogramNode",
+            "name": "levelOrder(Node*)",
+            "virtual_name": "NON_VALUE",
+            "dataType": "vector\u003cvector\u003cint\u003e\u003e",
+            "realType": "vector\u003cvector\u003cint\u003e\u003e",
+            "functionNode": ".\\p5\\0429-n-ary-tree-level-order-traversal\\0429-n-ary-tree-level-order-traversal.cpp\\Solution\\levelOrder(Node*)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.PointerStructureDataNode",
+                "name": "root",
+                "virtual_name": "EXPECTED_root",
+                "dataType": "Node*",
+                "realType": "Node*",
+                "external": false,
+                "correspondingVar": ".\\p5\\0429-n-ary-tree-level-order-traversal\\0429-n-ary-tree-level-order-traversal.cpp\\Solution\\levelOrder(Node*)\\root",
+                "correspondingType": ".\\p5\\0429-n-ary-tree-level-order-traversal\\0429-n-ary-tree-level-order-traversal.cpp\\Node",
+                "level": 1
+              }
+            ],
+            "children": [
+              {
+                "type": "com.dse.testdata.object.RootDataNode",
+                "name": "STATIC",
+                "virtual_name": "NON_VALUE",
+                "functionNode": ".\\p5\\0429-n-ary-tree-level-order-traversal\\0429-n-ary-tree-level-order-traversal.cpp\\Solution\\levelOrder(Node*)",
+                "level": "STATIC"
+              },
+              {
+                "type": "com.dse.testdata.object.PointerStructureDataNode",
+                "name": "root",
+                "virtual_name": "root",
+                "dataType": "Node*",
+                "realType": "Node*",
+                "external": false,
+                "correspondingVar": ".\\p5\\0429-n-ary-tree-level-order-traversal\\0429-n-ary-tree-level-order-traversal.cpp\\Solution\\levelOrder(Node*)\\root",
+                "correspondingType": ".\\p5\\0429-n-ary-tree-level-order-traversal\\0429-n-ary-tree-level-order-traversal.cpp\\Node",
+                "level": 1,
+                "size": 3,
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.ClassDataNode",
+                    "name": "root[0]",
+                    "virtual_name": "root[0]",
+                    "dataType": "Node",
+                    "realType": "Node",
+                    "external": false,
+                    "correspondingVar": ".\\p5\\0429-n-ary-tree-level-order-traversal\\0429-n-ary-tree-level-order-traversal.cpp\\Solution\\levelOrder(Node*)\\root\\root[0]",
+                    "correspondingType": ".\\p5\\0429-n-ary-tree-level-order-traversal\\0429-n-ary-tree-level-order-traversal.cpp\\Node",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.SubClassDataNode",
+                        "name": "root",
+                        "virtual_name": "root[0]",
+                        "dataType": "::Node",
+                        "realType": "::Node",
+                        "external": false,
+                        "correspondingVar": ".\\p5\\0429-n-ary-tree-level-order-traversal\\0429-n-ary-tree-level-order-traversal.cpp\\Solution\\levelOrder(Node*)\\root\\root",
+                        "correspondingType": ".\\p5\\0429-n-ary-tree-level-order-traversal\\0429-n-ary-tree-level-order-traversal.cpp\\Node",
+                        "rawType": "::Node",
+                        "selectedConstructor": "Node(int)",
+                        "variableType": "::Node",
+                        "children": [
+                          {
+                            "type": "com.dse.testdata.object.ConstructorDataNode",
+                            "name": "Node(int)",
+                            "virtual_name": "root[0]",
+                            "dataType": "::Node",
+                            "realType": "::Node",
+                            "functionNode": ".\\p5\\0429-n-ary-tree-level-order-traversal\\0429-n-ary-tree-level-order-traversal.cpp\\Node\\Node(int)",
+                            "children": [
+                              {
+                                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                "name": "_val",
+                                "virtual_name": "root0__val",
+                                "dataType": "int",
+                                "realType": "int",
+                                "external": false,
+                                "correspondingVar": ".\\p5\\0429-n-ary-tree-level-order-traversal\\0429-n-ary-tree-level-order-traversal.cpp\\Node\\Node(int)\\_val",
+                                "correspondingType": "int",
+                                "value": "-1427400582"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                            "name": "val",
+                            "virtual_name": "root[0].val",
+                            "dataType": "int",
+                            "realType": "int",
+                            "external": false,
+                            "correspondingVar": ".\\p5\\0429-n-ary-tree-level-order-traversal\\0429-n-ary-tree-level-order-traversal.cpp\\Node\\val",
+                            "correspondingType": "int",
+                            "value": "null"
+                          },
+                          {
+                            "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                            "name": "children",
+                            "virtual_name": "root[0].children",
+                            "dataType": "vector\u003cNode*\u003e",
+                            "realType": "vector\u003cNode*\u003e",
+                            "external": false,
+                            "correspondingVar": ".\\p5\\0429-n-ary-tree-level-order-traversal\\0429-n-ary-tree-level-order-traversal.cpp\\Node\\children",
+                            "correspondingType": "STLListBaseType",
+                            "templateArg": "Node*"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "com.dse.testdata.object.ClassDataNode",
+                    "name": "root[1]",
+                    "virtual_name": "root[1]",
+                    "dataType": "Node",
+                    "realType": "Node",
+                    "external": false,
+                    "correspondingVar": ".\\p5\\0429-n-ary-tree-level-order-traversal\\0429-n-ary-tree-level-order-traversal.cpp\\Solution\\levelOrder(Node*)\\root\\root[1]",
+                    "correspondingType": ".\\p5\\0429-n-ary-tree-level-order-traversal\\0429-n-ary-tree-level-order-traversal.cpp\\Node",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.SubClassDataNode",
+                        "name": "root",
+                        "virtual_name": "root[1]",
+                        "dataType": "::Node",
+                        "realType": "::Node",
+                        "external": false,
+                        "correspondingVar": ".\\p5\\0429-n-ary-tree-level-order-traversal\\0429-n-ary-tree-level-order-traversal.cpp\\Solution\\levelOrder(Node*)\\root\\root",
+                        "correspondingType": ".\\p5\\0429-n-ary-tree-level-order-traversal\\0429-n-ary-tree-level-order-traversal.cpp\\Node",
+                        "rawType": "::Node",
+                        "selectedConstructor": "Node(int,vector\u003cNode*\u003e)",
+                        "variableType": "::Node",
+                        "children": [
+                          {
+                            "type": "com.dse.testdata.object.ConstructorDataNode",
+                            "name": "Node(int,vector\u003cNode*\u003e)",
+                            "virtual_name": "root[1]",
+                            "dataType": "::Node",
+                            "realType": "::Node",
+                            "functionNode": ".\\p5\\0429-n-ary-tree-level-order-traversal\\0429-n-ary-tree-level-order-traversal.cpp\\Node\\Node(int,vector\u003cNode*\u003e)",
+                            "children": [
+                              {
+                                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                "name": "_val",
+                                "virtual_name": "root1__val",
+                                "dataType": "int",
+                                "realType": "int",
+                                "external": false,
+                                "correspondingVar": ".\\p5\\0429-n-ary-tree-level-order-traversal\\0429-n-ary-tree-level-order-traversal.cpp\\Node\\Node(int,vector\u003cNode*\u003e)\\_val",
+                                "correspondingType": "int",
+                                "value": "-209023766"
+                              },
+                              {
+                                "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                                "name": "_children",
+                                "virtual_name": "root1__children",
+                                "dataType": "vector\u003cNode*\u003e",
+                                "realType": "vector\u003cNode*\u003e",
+                                "external": false,
+                                "correspondingVar": ".\\p5\\0429-n-ary-tree-level-order-traversal\\0429-n-ary-tree-level-order-traversal.cpp\\Node\\Node(int,vector\u003cNode*\u003e)\\_children",
+                                "correspondingType": "STLListBaseType",
+                                "templateArg": "Node*",
+                                "size": 1,
+                                "children": [
+                                  {
+                                    "type": "com.dse.testdata.object.PointerStructureDataNode",
+                                    "name": "element #0",
+                                    "virtual_name": "root1__children_element0",
+                                    "dataType": "Node*",
+                                    "realType": "Node*",
+                                    "external": false,
+                                    "correspondingVar": ".\\p5\\0429-n-ary-tree-level-order-traversal\\0429-n-ary-tree-level-order-traversal.cpp\\Node\\Node(int,vector\u003cNode*\u003e)\\_children\\element #0",
+                                    "correspondingType": "",
+                                    "level": 1
+                                  }
+                                ]
+                              }
+                            ]
+                          },
+                          {
+                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                            "name": "val",
+                            "virtual_name": "root[1].val",
+                            "dataType": "int",
+                            "realType": "int",
+                            "external": false,
+                            "correspondingVar": ".\\p5\\0429-n-ary-tree-level-order-traversal\\0429-n-ary-tree-level-order-traversal.cpp\\Node\\val",
+                            "correspondingType": "int",
+                            "value": "null"
+                          },
+                          {
+                            "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                            "name": "children",
+                            "virtual_name": "root[1].children",
+                            "dataType": "vector\u003cNode*\u003e",
+                            "realType": "vector\u003cNode*\u003e",
+                            "external": false,
+                            "correspondingVar": ".\\p5\\0429-n-ary-tree-level-order-traversal\\0429-n-ary-tree-level-order-traversal.cpp\\Node\\children",
+                            "correspondingType": "STLListBaseType",
+                            "templateArg": "Node*"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "com.dse.testdata.object.ClassDataNode",
+                    "name": "root[2]",
+                    "virtual_name": "root[2]",
+                    "dataType": "Node",
+                    "realType": "Node",
+                    "external": false,
+                    "correspondingVar": ".\\p5\\0429-n-ary-tree-level-order-traversal\\0429-n-ary-tree-level-order-traversal.cpp\\Solution\\levelOrder(Node*)\\root\\root[2]",
+                    "correspondingType": ".\\p5\\0429-n-ary-tree-level-order-traversal\\0429-n-ary-tree-level-order-traversal.cpp\\Node",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.SubClassDataNode",
+                        "name": "root",
+                        "virtual_name": "root[2]",
+                        "dataType": "::Node",
+                        "realType": "::Node",
+                        "external": false,
+                        "correspondingVar": ".\\p5\\0429-n-ary-tree-level-order-traversal\\0429-n-ary-tree-level-order-traversal.cpp\\Solution\\levelOrder(Node*)\\root\\root",
+                        "correspondingType": ".\\p5\\0429-n-ary-tree-level-order-traversal\\0429-n-ary-tree-level-order-traversal.cpp\\Node",
+                        "rawType": "::Node",
+                        "selectedConstructor": "Node()",
+                        "variableType": "::Node",
+                        "children": [
+                          {
+                            "type": "com.dse.testdata.object.ConstructorDataNode",
+                            "name": "Node()",
+                            "virtual_name": "root[2]",
+                            "dataType": "::Node",
+                            "realType": "::Node",
+                            "functionNode": ".\\p5\\0429-n-ary-tree-level-order-traversal\\0429-n-ary-tree-level-order-traversal.cpp\\Node\\Node()"
+                          },
+                          {
+                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                            "name": "val",
+                            "virtual_name": "root[2].val",
+                            "dataType": "int",
+                            "realType": "int",
+                            "external": false,
+                            "correspondingVar": ".\\p5\\0429-n-ary-tree-level-order-traversal\\0429-n-ary-tree-level-order-traversal.cpp\\Node\\val",
+                            "correspondingType": "int",
+                            "value": "null"
+                          },
+                          {
+                            "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                            "name": "children",
+                            "virtual_name": "root[2].children",
+                            "dataType": "vector\u003cNode*\u003e",
+                            "realType": "vector\u003cNode*\u003e",
+                            "external": false,
+                            "correspondingVar": ".\\p5\\0429-n-ary-tree-level-order-traversal\\0429-n-ary-tree-level-order-traversal.cpp\\Node\\children",
+                            "correspondingType": "STLListBaseType",
+                            "templateArg": "Node*"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                "name": "RETURN",
+                "virtual_name": "AKA_EXPECTED_OUTPUT",
+                "dataType": "vector\u003cvector\u003cint\u003e\u003e",
+                "realType": "vector\u003cvector\u003cint\u003e\u003e",
+                "external": false,
+                "correspondingVar": ".\\p5\\0429-n-ary-tree-level-order-traversal\\0429-n-ary-tree-level-order-traversal.cpp\\Solution\\levelOrder(Node*)\\RETURN",
+                "correspondingType": "STLListBaseType",
+                "templateArg": "vector\u003cint\u003e"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.RootDataNode",
+        "name": "STUB",
+        "virtual_name": "NON_VALUE",
+        "functionNode": ".\\p5\\0429-n-ary-tree-level-order-traversal\\0429-n-ary-tree-level-order-traversal.cpp\\Solution\\levelOrder(Node*)",
+        "level": "STUB"
+      }
+    ]
+  },
+  "procedures": [
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "root \u003d\u003d NULL",
+      "isSelected": false,
+      "location": 107,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "function_call",
+      "value": "bfs();",
+      "isSelected": false,
+      "location": 179,
+      "calls": [],
+      "children": []
+    }
+  ]
+}

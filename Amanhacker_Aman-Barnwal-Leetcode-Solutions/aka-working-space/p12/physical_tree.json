@@ -1,0 +1,131 @@
+{
+  "path": ".\\p12",
+  "type": "com.dse.parser.object.ProjectNode",
+  "children": [
+    {
+      "path": ".\\p12\\1046-last-stone-weight",
+      "type": "com.dse.parser.object.FolderNode",
+      "children": [
+        {
+          "path": ".\\p12\\1046-last-stone-weight\\1046-last-stone-weight.cpp",
+          "type": "com.dse.parser.object.CppFileNode",
+          "last-modified": "02/12/2025 06:29:03",
+          "children": [
+            {
+              "path": ".\\p12\\1046-last-stone-weight\\1046-last-stone-weight.cpp\\",
+              "type": "com.dse.parser.object.UnspecifiedDeclaration"
+            }
+          ]
+        },
+        {
+          "path": ".\\p12\\1046-last-stone-weight\\NOTES.md",
+          "type": "com.dse.parser.object.UnknowObjectNode"
+        },
+        {
+          "path": ".\\p12\\1046-last-stone-weight\\README.md",
+          "type": "com.dse.parser.object.UnknowObjectNode"
+        }
+      ]
+    },
+    {
+      "path": ".\\p12\\1047-remove-all-adjacent-duplicates-in-string",
+      "type": "com.dse.parser.object.FolderNode",
+      "children": [
+        {
+          "path": ".\\p12\\1047-remove-all-adjacent-duplicates-in-string\\1047-remove-all-adjacent-duplicates-in-string.cpp",
+          "type": "com.dse.parser.object.CppFileNode",
+          "last-modified": "02/12/2025 06:29:03",
+          "children": [
+            {
+              "path": ".\\p12\\1047-remove-all-adjacent-duplicates-in-string\\1047-remove-all-adjacent-duplicates-in-string.cpp\\",
+              "type": "com.dse.parser.object.UnspecifiedDeclaration"
+            }
+          ]
+        },
+        {
+          "path": ".\\p12\\1047-remove-all-adjacent-duplicates-in-string\\NOTES.md",
+          "type": "com.dse.parser.object.UnknowObjectNode"
+        },
+        {
+          "path": ".\\p12\\1047-remove-all-adjacent-duplicates-in-string\\README.md",
+          "type": "com.dse.parser.object.UnknowObjectNode"
+        }
+      ]
+    },
+    {
+      "path": ".\\p12\\105-construct-binary-tree-from-preorder-and-inorder-traversal",
+      "type": "com.dse.parser.object.FolderNode",
+      "children": [
+        {
+          "path": ".\\p12\\105-construct-binary-tree-from-preorder-and-inorder-traversal\\105-construct-binary-tree-from-preorder-and-inorder-traversal.cpp",
+          "type": "com.dse.parser.object.CppFileNode",
+          "last-modified": "02/14/2025 11:44:18",
+          "children": [
+            {
+              "path": ".\\p12\\105-construct-binary-tree-from-preorder-and-inorder-traversal\\105-construct-binary-tree-from-preorder-and-inorder-traversal.cpp\\",
+              "type": "com.dse.parser.object.UnspecifiedDeclaration"
+            }
+          ]
+        },
+        {
+          "path": ".\\p12\\105-construct-binary-tree-from-preorder-and-inorder-traversal\\NOTES.md",
+          "type": "com.dse.parser.object.UnknowObjectNode"
+        },
+        {
+          "path": ".\\p12\\105-construct-binary-tree-from-preorder-and-inorder-traversal\\README.md",
+          "type": "com.dse.parser.object.UnknowObjectNode"
+        }
+      ]
+    },
+    {
+      "path": ".\\p12\\1054-distant-barcodes",
+      "type": "com.dse.parser.object.FolderNode",
+      "children": [
+        {
+          "path": ".\\p12\\1054-distant-barcodes\\1054-distant-barcodes.cpp",
+          "type": "com.dse.parser.object.CppFileNode",
+          "last-modified": "02/12/2025 06:29:03",
+          "children": [
+            {
+              "path": ".\\p12\\1054-distant-barcodes\\1054-distant-barcodes.cpp\\",
+              "type": "com.dse.parser.object.UnspecifiedDeclaration"
+            }
+          ]
+        },
+        {
+          "path": ".\\p12\\1054-distant-barcodes\\NOTES.md",
+          "type": "com.dse.parser.object.UnknowObjectNode"
+        },
+        {
+          "path": ".\\p12\\1054-distant-barcodes\\README.md",
+          "type": "com.dse.parser.object.UnknowObjectNode"
+        }
+      ]
+    },
+    {
+      "path": ".\\p12\\1056-confusing-number",
+      "type": "com.dse.parser.object.FolderNode",
+      "children": [
+        {
+          "path": ".\\p12\\1056-confusing-number\\1056-confusing-number.cpp",
+          "type": "com.dse.parser.object.CppFileNode",
+          "last-modified": "02/12/2025 06:29:03",
+          "children": [
+            {
+              "path": ".\\p12\\1056-confusing-number\\1056-confusing-number.cpp\\",
+              "type": "com.dse.parser.object.UnspecifiedDeclaration"
+            }
+          ]
+        },
+        {
+          "path": ".\\p12\\1056-confusing-number\\NOTES.md",
+          "type": "com.dse.parser.object.UnknowObjectNode"
+        },
+        {
+          "path": ".\\p12\\1056-confusing-number\\README.md",
+          "type": "com.dse.parser.object.UnknowObjectNode"
+        }
+      ]
+    }
+  ]
+}

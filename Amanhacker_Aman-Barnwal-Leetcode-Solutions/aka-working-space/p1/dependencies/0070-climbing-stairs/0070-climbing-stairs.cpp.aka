@@ -1,0 +1,14 @@
+{
+  "path": ".\\p1\\0070-climbing-stairs\\0070-climbing-stairs.cpp",
+  "dependency": [
+    {
+      "start": ".\\p1\\0070-climbing-stairs\\0070-climbing-stairs.cpp\\Solution\\climbStairs(int)",
+      "start-type": "FunctionNode",
+      "start-md5": "652c08acf6a47327dfaf1dbfd3c6103c",
+      "end": ".\\p1\\0070-climbing-stairs\\0070-climbing-stairs.cpp\\Solution",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "b8aa25f1b8a91870777969782a19f6ac"
+    }
+  ]
+}

@@ -1,0 +1,439 @@
+{
+  "name": "Solution_nextLargerNodes_ListNodemul_random_3",
+  "status": "success",
+  "testCaseUserCode": {
+    "includePaths": [],
+    "setUpContent": "// set up\n;",
+    "tearDownContent": "// tear down\n;"
+  },
+  "path": ".\\\\aka-working-space\\\\p10\\\\test-cases\\Solution_nextLargerNodes_ListNodemul_random_3.json",
+  "sourceCode": ".\\\\aka-working-space\\\\p10\\\\test-drivers\\Solution_nextLargerNodes_ListNodemul_random_3.cpp",
+  "testPath": ".\\\\aka-working-space\\\\p10\\\\test-paths\\Solution_nextLargerNodes_ListNodemul_random_3.tp",
+  "executable": ".\\\\aka-working-space\\\\p10\\\\exe\\Solution_nextLargerNodes_ListNodemul_random_3.exe",
+  "commandConfig": ".\\aka-working-space\\p10\\test-case-commands\\Solution_nextLargerNodes_ListNodemul_random_3.json",
+  "commandDebug": ".\\\\aka-working-space\\\\p10\\\\debugger\\\\commands\\Solution_nextLargerNodes_ListNodemul_random_3.json",
+  "breakPoint": ".\\\\aka-working-space\\\\p10\\\\debugger\\\\breakpoints\\Solution_nextLargerNodes_ListNodemul_random_3.br.json",
+  "debugExecutable": ".\\\\aka-working-space\\\\p10\\\\exe\\debug_Solution_nextLargerNodes_ListNodemul_random_3.exe",
+  "executionResult": ".\\\\aka-working-space\\\\p10\\\\execution-results\\Solution_nextLargerNodes_ListNodemul_random_3.xml",
+  "creationDate": "2025-02-14T10:25:10.888779700",
+  "executionDate": "2025-02-14T10:26:01.408515700",
+  "rootDataNode": {
+    "type": "com.dse.testdata.object.RootDataNode",
+    "name": "ROOT",
+    "virtual_name": "NON_VALUE",
+    "functionNode": ".\\p10\\1019-next-greater-node-in-linked-list\\1019-next-greater-node-in-linked-list.cpp\\Solution\\nextLargerNodes(ListNode*)",
+    "level": "ROOT",
+    "children": [
+      {
+        "type": "com.dse.testdata.object.UnitUnderTestNode",
+        "name": "1019-next-greater-node-in-linked-list.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\p10\\1019-next-greater-node-in-linked-list\\1019-next-greater-node-in-linked-list.cpp",
+        "children": [
+          {
+            "type": "com.dse.testdata.object.GlobalRootDataNode",
+            "name": "GLOBAL",
+            "virtual_name": "NON_VALUE",
+            "functionNode": ".\\p10\\1019-next-greater-node-in-linked-list\\1019-next-greater-node-in-linked-list.cpp\\Solution\\nextLargerNodes(ListNode*)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": false,
+                "correspondingVar": ".\\p10\\1019-next-greater-node-in-linked-list\\1019-next-greater-node-in-linked-list.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p10\\1019-next-greater-node-in-linked-list\\1019-next-greater-node-in-linked-list.cpp\\Solution"
+              }
+            ],
+            "level": "GLOBAL",
+            "children": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": true,
+                "correspondingVar": ".\\p10\\1019-next-greater-node-in-linked-list\\1019-next-greater-node-in-linked-list.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p10\\1019-next-greater-node-in-linked-list\\1019-next-greater-node-in-linked-list.cpp\\Solution",
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.SubClassDataNode",
+                    "name": "AKA_INSTANCE___Solution",
+                    "virtual_name": "AKA_INSTANCE___Solution",
+                    "dataType": "::Solution",
+                    "realType": "::Solution",
+                    "external": false,
+                    "correspondingVar": ".\\p10\\1019-next-greater-node-in-linked-list\\1019-next-greater-node-in-linked-list.cpp\\Solution\\AKA_INSTANCE___Solution",
+                    "correspondingType": ".\\p10\\1019-next-greater-node-in-linked-list\\1019-next-greater-node-in-linked-list.cpp\\Solution",
+                    "rawType": "::Solution",
+                    "selectedConstructor": "Solution()",
+                    "variableType": "::Solution",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                        "name": "Solution()",
+                        "virtual_name": "AKA_INSTANCE___Solution",
+                        "dataType": "::Solution",
+                        "realType": "::Solution",
+                        "functionNode": "\\Solution()"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "com.dse.testdata.object.SubprogramNode",
+            "name": "nextLargerNodes(ListNode*)",
+            "virtual_name": "NON_VALUE",
+            "dataType": "vector\u003cint\u003e",
+            "realType": "vector\u003cint\u003e",
+            "functionNode": ".\\p10\\1019-next-greater-node-in-linked-list\\1019-next-greater-node-in-linked-list.cpp\\Solution\\nextLargerNodes(ListNode*)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.PointerStructureDataNode",
+                "name": "head",
+                "virtual_name": "EXPECTED_head",
+                "dataType": "ListNode*",
+                "realType": "ListNode*",
+                "external": false,
+                "correspondingVar": ".\\p10\\1019-next-greater-node-in-linked-list\\1019-next-greater-node-in-linked-list.cpp\\Solution\\nextLargerNodes(ListNode*)\\head",
+                "correspondingType": ".\\p10\\1019-next-greater-node-in-linked-list\\1019-next-greater-node-in-linked-list.cpp\\ListNode",
+                "level": 1
+              }
+            ],
+            "children": [
+              {
+                "type": "com.dse.testdata.object.RootDataNode",
+                "name": "STATIC",
+                "virtual_name": "NON_VALUE",
+                "functionNode": ".\\p10\\1019-next-greater-node-in-linked-list\\1019-next-greater-node-in-linked-list.cpp\\Solution\\nextLargerNodes(ListNode*)",
+                "level": "STATIC"
+              },
+              {
+                "type": "com.dse.testdata.object.PointerStructureDataNode",
+                "name": "head",
+                "virtual_name": "head",
+                "dataType": "ListNode*",
+                "realType": "ListNode*",
+                "external": false,
+                "correspondingVar": ".\\p10\\1019-next-greater-node-in-linked-list\\1019-next-greater-node-in-linked-list.cpp\\Solution\\nextLargerNodes(ListNode*)\\head",
+                "correspondingType": ".\\p10\\1019-next-greater-node-in-linked-list\\1019-next-greater-node-in-linked-list.cpp\\ListNode",
+                "level": 1,
+                "size": 3,
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.StructDataNode",
+                    "name": "head[0]",
+                    "virtual_name": "head[0]",
+                    "dataType": "ListNode",
+                    "realType": "ListNode",
+                    "external": false,
+                    "correspondingVar": ".\\p10\\1019-next-greater-node-in-linked-list\\1019-next-greater-node-in-linked-list.cpp\\Solution\\nextLargerNodes(ListNode*)\\head\\head[0]",
+                    "correspondingType": ".\\p10\\1019-next-greater-node-in-linked-list\\1019-next-greater-node-in-linked-list.cpp\\ListNode",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.SubStructDataNode",
+                        "name": "head",
+                        "virtual_name": "head[0]",
+                        "dataType": "::ListNode",
+                        "realType": "::ListNode",
+                        "external": false,
+                        "correspondingVar": ".\\p10\\1019-next-greater-node-in-linked-list\\1019-next-greater-node-in-linked-list.cpp\\Solution\\nextLargerNodes(ListNode*)\\head\\head",
+                        "correspondingType": ".\\p10\\1019-next-greater-node-in-linked-list\\1019-next-greater-node-in-linked-list.cpp\\ListNode",
+                        "rawType": "::ListNode",
+                        "selectedConstructor": "ListNode(int)",
+                        "variableType": "::ListNode",
+                        "children": [
+                          {
+                            "type": "com.dse.testdata.object.ConstructorDataNode",
+                            "name": "ListNode(int)",
+                            "virtual_name": "head[0]",
+                            "dataType": "::ListNode",
+                            "realType": "::ListNode",
+                            "functionNode": ".\\p10\\1019-next-greater-node-in-linked-list\\1019-next-greater-node-in-linked-list.cpp\\ListNode\\ListNode(int)",
+                            "children": [
+                              {
+                                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                "name": "x",
+                                "virtual_name": "head0_x",
+                                "dataType": "int",
+                                "realType": "int",
+                                "external": false,
+                                "correspondingVar": ".\\p10\\1019-next-greater-node-in-linked-list\\1019-next-greater-node-in-linked-list.cpp\\ListNode\\ListNode(int)\\x",
+                                "correspondingType": "int",
+                                "value": "821295622"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                            "name": "val",
+                            "virtual_name": "head[0].val",
+                            "dataType": "int",
+                            "realType": "int",
+                            "external": false,
+                            "correspondingVar": ".\\p10\\1019-next-greater-node-in-linked-list\\1019-next-greater-node-in-linked-list.cpp\\ListNode\\val",
+                            "correspondingType": "int",
+                            "value": "null"
+                          },
+                          {
+                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                            "name": "next",
+                            "virtual_name": "head[0].next",
+                            "dataType": "ListNode*",
+                            "realType": "ListNode*",
+                            "external": false,
+                            "correspondingVar": ".\\p10\\1019-next-greater-node-in-linked-list\\1019-next-greater-node-in-linked-list.cpp\\ListNode\\next",
+                            "correspondingType": ".\\p10\\1019-next-greater-node-in-linked-list\\1019-next-greater-node-in-linked-list.cpp\\ListNode",
+                            "level": 1
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "com.dse.testdata.object.StructDataNode",
+                    "name": "head[1]",
+                    "virtual_name": "head[1]",
+                    "dataType": "ListNode",
+                    "realType": "ListNode",
+                    "external": false,
+                    "correspondingVar": ".\\p10\\1019-next-greater-node-in-linked-list\\1019-next-greater-node-in-linked-list.cpp\\Solution\\nextLargerNodes(ListNode*)\\head\\head[1]",
+                    "correspondingType": ".\\p10\\1019-next-greater-node-in-linked-list\\1019-next-greater-node-in-linked-list.cpp\\ListNode",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.SubStructDataNode",
+                        "name": "head",
+                        "virtual_name": "head[1]",
+                        "dataType": "::ListNode",
+                        "realType": "::ListNode",
+                        "external": false,
+                        "correspondingVar": ".\\p10\\1019-next-greater-node-in-linked-list\\1019-next-greater-node-in-linked-list.cpp\\Solution\\nextLargerNodes(ListNode*)\\head\\head",
+                        "correspondingType": ".\\p10\\1019-next-greater-node-in-linked-list\\1019-next-greater-node-in-linked-list.cpp\\ListNode",
+                        "rawType": "::ListNode",
+                        "selectedConstructor": "ListNode(int)",
+                        "variableType": "::ListNode",
+                        "children": [
+                          {
+                            "type": "com.dse.testdata.object.ConstructorDataNode",
+                            "name": "ListNode(int)",
+                            "virtual_name": "head[1]",
+                            "dataType": "::ListNode",
+                            "realType": "::ListNode",
+                            "functionNode": ".\\p10\\1019-next-greater-node-in-linked-list\\1019-next-greater-node-in-linked-list.cpp\\ListNode\\ListNode(int)",
+                            "children": [
+                              {
+                                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                "name": "x",
+                                "virtual_name": "head1_x",
+                                "dataType": "int",
+                                "realType": "int",
+                                "external": false,
+                                "correspondingVar": ".\\p10\\1019-next-greater-node-in-linked-list\\1019-next-greater-node-in-linked-list.cpp\\ListNode\\ListNode(int)\\x",
+                                "correspondingType": "int",
+                                "value": "1356708371"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                            "name": "val",
+                            "virtual_name": "head[1].val",
+                            "dataType": "int",
+                            "realType": "int",
+                            "external": false,
+                            "correspondingVar": ".\\p10\\1019-next-greater-node-in-linked-list\\1019-next-greater-node-in-linked-list.cpp\\ListNode\\val",
+                            "correspondingType": "int",
+                            "value": "null"
+                          },
+                          {
+                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                            "name": "next",
+                            "virtual_name": "head[1].next",
+                            "dataType": "ListNode*",
+                            "realType": "ListNode*",
+                            "external": false,
+                            "correspondingVar": ".\\p10\\1019-next-greater-node-in-linked-list\\1019-next-greater-node-in-linked-list.cpp\\ListNode\\next",
+                            "correspondingType": ".\\p10\\1019-next-greater-node-in-linked-list\\1019-next-greater-node-in-linked-list.cpp\\ListNode",
+                            "level": 1
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "type": "com.dse.testdata.object.StructDataNode",
+                    "name": "head[2]",
+                    "virtual_name": "head[2]",
+                    "dataType": "ListNode",
+                    "realType": "ListNode",
+                    "external": false,
+                    "correspondingVar": ".\\p10\\1019-next-greater-node-in-linked-list\\1019-next-greater-node-in-linked-list.cpp\\Solution\\nextLargerNodes(ListNode*)\\head\\head[2]",
+                    "correspondingType": ".\\p10\\1019-next-greater-node-in-linked-list\\1019-next-greater-node-in-linked-list.cpp\\ListNode",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.SubStructDataNode",
+                        "name": "head",
+                        "virtual_name": "head[2]",
+                        "dataType": "::ListNode",
+                        "realType": "::ListNode",
+                        "external": false,
+                        "correspondingVar": ".\\p10\\1019-next-greater-node-in-linked-list\\1019-next-greater-node-in-linked-list.cpp\\Solution\\nextLargerNodes(ListNode*)\\head\\head",
+                        "correspondingType": ".\\p10\\1019-next-greater-node-in-linked-list\\1019-next-greater-node-in-linked-list.cpp\\ListNode",
+                        "rawType": "::ListNode",
+                        "selectedConstructor": "ListNode(int)",
+                        "variableType": "::ListNode",
+                        "children": [
+                          {
+                            "type": "com.dse.testdata.object.ConstructorDataNode",
+                            "name": "ListNode(int)",
+                            "virtual_name": "head[2]",
+                            "dataType": "::ListNode",
+                            "realType": "::ListNode",
+                            "functionNode": ".\\p10\\1019-next-greater-node-in-linked-list\\1019-next-greater-node-in-linked-list.cpp\\ListNode\\ListNode(int)",
+                            "children": [
+                              {
+                                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                                "name": "x",
+                                "virtual_name": "head2_x",
+                                "dataType": "int",
+                                "realType": "int",
+                                "external": false,
+                                "correspondingVar": ".\\p10\\1019-next-greater-node-in-linked-list\\1019-next-greater-node-in-linked-list.cpp\\ListNode\\ListNode(int)\\x",
+                                "correspondingType": "int",
+                                "value": "0"
+                              }
+                            ]
+                          },
+                          {
+                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                            "name": "val",
+                            "virtual_name": "head[2].val",
+                            "dataType": "int",
+                            "realType": "int",
+                            "external": false,
+                            "correspondingVar": ".\\p10\\1019-next-greater-node-in-linked-list\\1019-next-greater-node-in-linked-list.cpp\\ListNode\\val",
+                            "correspondingType": "int",
+                            "value": "null"
+                          },
+                          {
+                            "type": "com.dse.testdata.object.PointerStructureDataNode",
+                            "name": "next",
+                            "virtual_name": "head[2].next",
+                            "dataType": "ListNode*",
+                            "realType": "ListNode*",
+                            "external": false,
+                            "correspondingVar": ".\\p10\\1019-next-greater-node-in-linked-list\\1019-next-greater-node-in-linked-list.cpp\\ListNode\\next",
+                            "correspondingType": ".\\p10\\1019-next-greater-node-in-linked-list\\1019-next-greater-node-in-linked-list.cpp\\ListNode",
+                            "level": 1
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                "name": "RETURN",
+                "virtual_name": "AKA_EXPECTED_OUTPUT",
+                "dataType": "vector\u003cint\u003e",
+                "realType": "vector\u003cint\u003e",
+                "external": false,
+                "correspondingVar": ".\\p10\\1019-next-greater-node-in-linked-list\\1019-next-greater-node-in-linked-list.cpp\\Solution\\nextLargerNodes(ListNode*)\\RETURN",
+                "correspondingType": "STLListBaseType",
+                "templateArg": "int"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.RootDataNode",
+        "name": "STUB",
+        "virtual_name": "NON_VALUE",
+        "functionNode": ".\\p10\\1019-next-greater-node-in-linked-list\\1019-next-greater-node-in-linked-list.cpp\\Solution\\nextLargerNodes(ListNode*)",
+        "level": "STUB"
+      }
+    ]
+  },
+  "procedures": [
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "temp !\u003d NULL",
+      "isSelected": false,
+      "location": 169,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "i\u003e\u003d0",
+      "isSelected": false,
+      "location": 412,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "w.empty() \u003d\u003d true",
+      "isSelected": false,
+      "location": 455,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "w.empty() \u003d\u003d true",
+      "isSelected": false,
+      "location": 455,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "w.top() \u003e v[i]",
+      "isSelected": false,
+      "location": 551,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "w.top() \u003c\u003d v[i]",
+      "isSelected": false,
+      "location": 648,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "w.top() \u003c\u003d v[i]",
+      "isSelected": false,
+      "location": 648,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "w.empty() \u003d\u003d false",
+      "isSelected": false,
+      "location": 692,
+      "calls": [],
+      "children": []
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "name": "Solution_countBits_int_random_0",
+  "status": "success",
+  "testCaseUserCode": {
+    "includePaths": [],
+    "setUpContent": "// set up\n;",
+    "tearDownContent": "// tear down\n;"
+  },
+  "path": ".\\\\aka-working-space\\\\p4\\\\test-cases\\Solution_countBits_int_random_0.json",
+  "sourceCode": ".\\\\aka-working-space\\\\p4\\\\test-drivers\\Solution_countBits_int_random_0.cpp",
+  "testPath": ".\\\\aka-working-space\\\\p4\\\\test-paths\\Solution_countBits_int_random_0.tp",
+  "executable": ".\\\\aka-working-space\\\\p4\\\\exe\\Solution_countBits_int_random_0.exe",
+  "commandConfig": ".\\aka-working-space\\p4\\test-case-commands\\Solution_countBits_int_random_0.json",
+  "commandDebug": ".\\\\aka-working-space\\\\p4\\\\debugger\\\\commands\\Solution_countBits_int_random_0.json",
+  "breakPoint": ".\\\\aka-working-space\\\\p4\\\\debugger\\\\breakpoints\\Solution_countBits_int_random_0.br.json",
+  "debugExecutable": ".\\\\aka-working-space\\\\p4\\\\exe\\debug_Solution_countBits_int_random_0.exe",
+  "executionResult": ".\\\\aka-working-space\\\\p4\\\\execution-results\\Solution_countBits_int_random_0.xml",
+  "creationDate": "2025-02-13T16:59:02.685167400",
+  "executionDate": "2025-02-13T16:59:03.206823700",
+  "rootDataNode": {
+    "type": "com.dse.testdata.object.RootDataNode",
+    "name": "ROOT",
+    "virtual_name": "NON_VALUE",
+    "functionNode": ".\\p4\\0338-counting-bits\\0338-counting-bits.cpp\\Solution\\countBits(int)",
+    "level": "ROOT",
+    "children": [
+      {
+        "type": "com.dse.testdata.object.UnitUnderTestNode",
+        "name": "0338-counting-bits.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\p4\\0338-counting-bits\\0338-counting-bits.cpp",
+        "children": [
+          {
+            "type": "com.dse.testdata.object.GlobalRootDataNode",
+            "name": "GLOBAL",
+            "virtual_name": "NON_VALUE",
+            "functionNode": ".\\p4\\0338-counting-bits\\0338-counting-bits.cpp\\Solution\\countBits(int)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": false,
+                "correspondingVar": ".\\p4\\0338-counting-bits\\0338-counting-bits.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p4\\0338-counting-bits\\0338-counting-bits.cpp\\Solution"
+              }
+            ],
+            "level": "GLOBAL",
+            "children": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": true,
+                "correspondingVar": ".\\p4\\0338-counting-bits\\0338-counting-bits.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p4\\0338-counting-bits\\0338-counting-bits.cpp\\Solution",
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.SubClassDataNode",
+                    "name": "AKA_INSTANCE___Solution",
+                    "virtual_name": "AKA_INSTANCE___Solution",
+                    "dataType": "::Solution",
+                    "realType": "::Solution",
+                    "external": false,
+                    "correspondingVar": ".\\p4\\0338-counting-bits\\0338-counting-bits.cpp\\Solution\\AKA_INSTANCE___Solution",
+                    "correspondingType": ".\\p4\\0338-counting-bits\\0338-counting-bits.cpp\\Solution",
+                    "rawType": "::Solution",
+                    "selectedConstructor": "Solution()",
+                    "variableType": "::Solution",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                        "name": "Solution()",
+                        "virtual_name": "AKA_INSTANCE___Solution",
+                        "dataType": "::Solution",
+                        "realType": "::Solution",
+                        "functionNode": "\\Solution()"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "com.dse.testdata.object.SubprogramNode",
+            "name": "countBits(int)",
+            "virtual_name": "NON_VALUE",
+            "dataType": "vector\u003cint\u003e",
+            "realType": "vector\u003cint\u003e",
+            "functionNode": ".\\p4\\0338-counting-bits\\0338-counting-bits.cpp\\Solution\\countBits(int)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "n",
+                "virtual_name": "EXPECTED_n",
+                "dataType": "int",
+                "realType": "int",
+                "external": false,
+                "correspondingVar": ".\\p4\\0338-counting-bits\\0338-counting-bits.cpp\\Solution\\countBits(int)\\n",
+                "correspondingType": "int",
+                "value": "null"
+              }
+            ],
+            "children": [
+              {
+                "type": "com.dse.testdata.object.RootDataNode",
+                "name": "STATIC",
+                "virtual_name": "NON_VALUE",
+                "functionNode": ".\\p4\\0338-counting-bits\\0338-counting-bits.cpp\\Solution\\countBits(int)",
+                "level": "STATIC"
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "n",
+                "virtual_name": "n",
+                "dataType": "int",
+                "realType": "int",
+                "external": false,
+                "correspondingVar": ".\\p4\\0338-counting-bits\\0338-counting-bits.cpp\\Solution\\countBits(int)\\n",
+                "correspondingType": "int",
+                "value": "1"
+              },
+              {
+                "type": "com.dse.testdata.object.stl.containers.sequence.VectorDataNode",
+                "name": "RETURN",
+                "virtual_name": "AKA_EXPECTED_OUTPUT",
+                "dataType": "vector\u003cint\u003e",
+                "realType": "vector\u003cint\u003e",
+                "external": false,
+                "correspondingVar": ".\\p4\\0338-counting-bits\\0338-counting-bits.cpp\\Solution\\countBits(int)\\RETURN",
+                "correspondingType": "STLListBaseType",
+                "templateArg": "int"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.RootDataNode",
+        "name": "STUB",
+        "virtual_name": "NON_VALUE",
+        "functionNode": ".\\p4\\0338-counting-bits\\0338-counting-bits.cpp\\Solution\\countBits(int)",
+        "level": "STUB"
+      }
+    ]
+  },
+  "procedures": [
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "n \u003d\u003d 0",
+      "isSelected": false,
+      "location": 85,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "n \u003d\u003d 1",
+      "isSelected": false,
+      "location": 142,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "i\u003c\u003dn",
+      "isSelected": false,
+      "location": 286,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "num \u003e 0",
+      "isSelected": false,
+      "location": 490,
+      "calls": [],
+      "children": []
+    }
+  ]
+}

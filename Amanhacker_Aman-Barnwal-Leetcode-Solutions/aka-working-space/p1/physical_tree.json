@@ -1,0 +1,112 @@
+{
+  "path": ".\\p1",
+  "type": "com.dse.parser.object.ProjectNode",
+  "children": [
+    {
+      "path": ".\\p1\\0 - 1 Knapsack Problem - GFG",
+      "type": "com.dse.parser.object.FolderNode",
+      "children": [
+        {
+          "path": ".\\p1\\0 - 1 Knapsack Problem - GFG\\0-1-knapsack-problem.cpp",
+          "type": "com.dse.parser.object.CppFileNode",
+          "last-modified": "02/12/2025 06:29:03",
+          "children": [
+            {
+              "path": ".\\p1\\0 - 1 Knapsack Problem - GFG\\0-1-knapsack-problem.cpp\\",
+              "type": "com.dse.parser.object.UnspecifiedDeclaration"
+            }
+          ]
+        },
+        {
+          "path": ".\\p1\\0 - 1 Knapsack Problem - GFG\\README.md",
+          "type": "com.dse.parser.object.UnknowObjectNode"
+        }
+      ]
+    },
+    {
+      "path": ".\\p1\\0005-longest-palindromic-substring",
+      "type": "com.dse.parser.object.FolderNode",
+      "children": [
+        {
+          "path": ".\\p1\\0005-longest-palindromic-substring\\0005-longest-palindromic-substring.cpp",
+          "type": "com.dse.parser.object.CppFileNode",
+          "last-modified": "02/12/2025 06:29:03",
+          "children": [
+            {
+              "path": ".\\p1\\0005-longest-palindromic-substring\\0005-longest-palindromic-substring.cpp\\",
+              "type": "com.dse.parser.object.UnspecifiedDeclaration"
+            }
+          ]
+        },
+        {
+          "path": ".\\p1\\0005-longest-palindromic-substring\\NOTES.md",
+          "type": "com.dse.parser.object.UnknowObjectNode"
+        },
+        {
+          "path": ".\\p1\\0005-longest-palindromic-substring\\README.md",
+          "type": "com.dse.parser.object.UnknowObjectNode"
+        }
+      ]
+    },
+    {
+      "path": ".\\p1\\000k-closest-points-to-origin",
+      "type": "com.dse.parser.object.FolderNode",
+      "children": [
+        {
+          "path": ".\\p1\\000k-closest-points-to-origin\\README.md",
+          "type": "com.dse.parser.object.UnknowObjectNode"
+        }
+      ]
+    },
+    {
+      "path": ".\\p1\\0070-climbing-stairs",
+      "type": "com.dse.parser.object.FolderNode",
+      "children": [
+        {
+          "path": ".\\p1\\0070-climbing-stairs\\0070-climbing-stairs.cpp",
+          "type": "com.dse.parser.object.CppFileNode",
+          "last-modified": "02/12/2025 06:29:03",
+          "children": [
+            {
+              "path": ".\\p1\\0070-climbing-stairs\\0070-climbing-stairs.cpp\\",
+              "type": "com.dse.parser.object.UnspecifiedDeclaration"
+            }
+          ]
+        },
+        {
+          "path": ".\\p1\\0070-climbing-stairs\\NOTES.md",
+          "type": "com.dse.parser.object.UnknowObjectNode"
+        },
+        {
+          "path": ".\\p1\\0070-climbing-stairs\\README.md",
+          "type": "com.dse.parser.object.UnknowObjectNode"
+        }
+      ]
+    },
+    {
+      "path": ".\\p1\\0082-remove-duplicates-from-sorted-list-ii",
+      "type": "com.dse.parser.object.FolderNode",
+      "children": [
+        {
+          "path": ".\\p1\\0082-remove-duplicates-from-sorted-list-ii\\0082-remove-duplicates-from-sorted-list-ii.cpp",
+          "type": "com.dse.parser.object.CppFileNode",
+          "last-modified": "02/13/2025 16:11:47",
+          "children": [
+            {
+              "path": ".\\p1\\0082-remove-duplicates-from-sorted-list-ii\\0082-remove-duplicates-from-sorted-list-ii.cpp\\",
+              "type": "com.dse.parser.object.UnspecifiedDeclaration"
+            }
+          ]
+        },
+        {
+          "path": ".\\p1\\0082-remove-duplicates-from-sorted-list-ii\\NOTES.md",
+          "type": "com.dse.parser.object.UnknowObjectNode"
+        },
+        {
+          "path": ".\\p1\\0082-remove-duplicates-from-sorted-list-ii\\README.md",
+          "type": "com.dse.parser.object.UnknowObjectNode"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+<pre>...
+...
+...
+...
+<b style="color: grey;">44    </b>        
+<b style="color: grey;">45    </b>        findMinMax(root, node-&gt;left, mini, maxi);
+<b style="color: grey;">46    </b>        findMinMax(root, node-&gt;right, mini, maxi);
+<b style="color: grey;">47    </b>        
+<b style="color: grey;">48    </b>        return;
+<b style="color: grey;">49    </b>    }
+<b style="color: grey;">50    </b>    
+<b style="color: grey;">51    </b>    bool isLeafNode(TreeNode* root) {
+<b style="color: grey;">52    </b>        <b style="background-color:yellow;color:black";>return (root-&gt;left == NULL &amp;&amp; root-&gt;right == NULL);</b>
+<b style="color: grey;">53    </b>    }
+<b style="color: grey;">54    </b>    
+<b style="color: grey;">55    </b>    // For each node, find the min and max value of its descendants of its subtree
+<b style="color: grey;">56    </b>    
+<b style="color: grey;">57    </b>    void dfs(TreeNode* root, int &amp;res) {
+<b style="color: grey;">58    </b>        
+<b style="color: grey;">59    </b>        if(<b style="background-color:yellow;color:black";>root == NULL</b>)                            <b style="background-color:yellow;color:black";>return;</b>
+<b style="color: grey;">60    </b>        
+<b style="color: grey;">61    </b>        <b style="background-color:yellow;color:black";>int mini = INT_MAX, maxi = INT_MIN;</b>
+<b style="color: grey;">62    </b>        
+<b style="color: grey;">63    </b>        if(<b style="background-color:yellow;color:black";>isLeafNode(root) == false</b>) {
+<b style="color: grey;">64    </b>           
+<b style="color: grey;">65    </b>            findMinMax(root, root, mini, maxi);
+<b style="color: grey;">66    </b>            
+<b style="color: grey;">67    </b>            int diff = max( abs(root-&gt;val - maxi), abs(root-&gt;val - mini) );
+<b style="color: grey;">68    </b>            res = max(res, diff);
+<b style="color: grey;">69    </b>        }
+<b style="color: grey;">70    </b>        
+<b style="color: grey;">71    </b>        <b style="background-color:yellow;color:black";>dfs(root-&gt;left, res);</b>
+<b style="color: grey;">72    </b>        <b style="background-color:yellow;color:black";>dfs(root-&gt;right, res);</b>
+<b style="color: grey;">73    </b>        
+<b style="color: grey;">74    </b>        <b style="background-color:yellow;color:black";>return;</b>
+<b style="color: grey;">75    </b>    }
+<b style="color: grey;">76    </b>    
+<b style="color: grey;">77    </b>    int maxAncestorDiff(TreeNode* root) {
+<b style="color: grey;">78    </b>    
+<b style="color: grey;">79    </b>        <b style="background-color:yellow;color:black";>int res = INT_MIN;</b>
+<b style="color: grey;">80    </b>        
+<b style="color: grey;">81    </b>        if(<b style="background-color:yellow;color:black";>root == NULL</b>)                            return res;
+<b style="color: grey;">82    </b>        
+<b style="color: grey;">83    </b>        <b style="background-color:yellow;color:black";>dfs(root, res);</b>
+<b style="color: grey;">84    </b>        
+<b style="color: grey;">85    </b>        <b style="background-color:yellow;color:black";>return res;</b>
+<b style="color: grey;">86    </b>    }
+...
+...
+...
+...
+</pre>

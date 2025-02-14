@@ -1,0 +1,49 @@
+<pre>...
+...
+...
+...
+<b style="color: grey;">28    </b>            }
+<b style="color: grey;">29    </b>        }
+<b style="color: grey;">30    </b>        
+<b style="color: grey;">31    </b>        return;
+<b style="color: grey;">32    </b>    }
+<b style="color: grey;">33    </b>    
+<b style="color: grey;">34    </b>    bool equationsPossible(vector&lt;string&gt;&amp; equations) {
+<b style="color: grey;">35    </b>    
+<b style="color: grey;">36    </b>        <b style="background-color:yellow;color:black";>unordered_map&lt;char, vector&lt;char&gt;&gt; adj;</b>
+<b style="color: grey;">37    </b>        <b style="background-color:yellow;color:black";>int n = equations.size();</b>
+<b style="color: grey;">38    </b>        
+<b style="color: grey;">39    </b>        for(<b style="background-color:#3D9970;color:white";>&nbsp;T&nbsp;</b>&nbsp;<b style="background-color:yellow;color:black";>auto &amp;x</b> : equations) {
+<b style="color: grey;">40    </b>            
+<b style="color: grey;">41    </b>            <b style="background-color:yellow;color:black";>string s = x;</b>
+<b style="color: grey;">42    </b>            
+<b style="color: grey;">43    </b>            if(<b style="background-color:#FF4136;color:white";>&nbsp;F&nbsp;</b>&nbsp;<b style="background-color:yellow;color:black";>s[1] == &#39;=&#39;</b>) {
+<b style="color: grey;">44    </b>                adj[s[0]].push_back(s[3]);
+<b style="color: grey;">45    </b>                adj[s[3]].push_back(s[0]);
+<b style="color: grey;">46    </b>            }
+<b style="color: grey;">47    </b>        }
+<b style="color: grey;">48    </b>        
+<b style="color: grey;">49    </b>        for(<b style="background-color:#3D9970;color:white";>&nbsp;T&nbsp;</b>&nbsp;<b style="background-color:yellow;color:black";>auto &amp;x</b> : equations) {
+<b style="color: grey;">50    </b>            
+<b style="color: grey;">51    </b>            if(<b style="background-color:#FF4136;color:white";>&nbsp;F&nbsp;</b>&nbsp;<b style="background-color:yellow;color:black";>x[1] == &#39;!&#39;</b>) {
+<b style="color: grey;">52    </b>                
+<b style="color: grey;">53    </b>                char node1 = x[0];
+<b style="color: grey;">54    </b>                char node2 = x[3];
+<b style="color: grey;">55    </b>                
+<b style="color: grey;">56    </b>                // Check whether node1 and node2 are connected by any chance
+<b style="color: grey;">57    </b>                bool flag = false;
+<b style="color: grey;">58    </b>                unordered_map&lt;char, int&gt; vis;
+<b style="color: grey;">59    </b>                
+<b style="color: grey;">60    </b>                dfs(node1, node2, adj, vis, flag);
+<b style="color: grey;">61    </b>                vis.clear();
+<b style="color: grey;">62    </b>                
+<b style="color: grey;">63    </b>                if(flag == true)                        return false;
+<b style="color: grey;">64    </b>            }
+<b style="color: grey;">65    </b>        }
+<b style="color: grey;">66    </b>        
+<b style="color: grey;">67    </b>        <b style="background-color:yellow;color:black";>return true;</b>
+...
+...
+...
+...
+</pre>

@@ -1,0 +1,19 @@
+{
+  ".\\p3\\0117-populating-next-right-pointers-in-each-node-ii\\0117-populating-next-right-pointers-in-each-node-ii.cpp\\": "f60be50875ede180e993ae30bf30e846",
+  ".\\p3\\0117-populating-next-right-pointers-in-each-node-ii\\0117-populating-next-right-pointers-in-each-node-ii.cpp\\Solution\\connect(Node*)": "104a32e71418bf7e7474acbd28f15759",
+  ".\\p3\\\"algorithm\"": "87ea0a57bca218522dc3140d82335caa",
+  ".\\p3\\\"map\"": "918f04924b7de456b0f7db4c97515a37",
+  ".\\p3\\0117-populating-next-right-pointers-in-each-node-ii\\0117-populating-next-right-pointers-in-each-node-ii.cpp\\Node\\Node(int)": "f85762e86d10ebe67cf74a3114f5c1ff",
+  ".\\p3\\\"unordered_map\"": "434e25dd82c1b5ad0bbf8c796fa8a611",
+  ".\\p3\\0117-populating-next-right-pointers-in-each-node-ii\\0117-populating-next-right-pointers-in-each-node-ii.cpp\\Node\\Node()": "2e1aeaa7a36c7fc68235df05b343eed2",
+  ".\\p3\\\"set\"": "942a9a338433ad23b0d19a746b9615bd",
+  ".\\p3\\\"bits\\stdc++.h\"": "aa49054fa454b4485dcb9f07d72b51f0",
+  ".\\p3\\0117-populating-next-right-pointers-in-each-node-ii\\0117-populating-next-right-pointers-in-each-node-ii.cpp\\Node\\Node(int,Node*,Node*,Node*)": "22cb5d71298093fc9d022146e53e0082",
+  ".\\p3\\0117-populating-next-right-pointers-in-each-node-ii\\0117-populating-next-right-pointers-in-each-node-ii.cpp\\Solution": "eb711b094328d4133db4ce7ab4d2c6f6",
+  "NAME_FILE": ".\\p3\\0117-populating-next-right-pointers-in-each-node-ii\\0117-populating-next-right-pointers-in-each-node-ii.cpp",
+  ".\\p3\\\"string\"": "77292ea3b83e6dd9466a527810302d0e",
+  ".\\p3\\0117-populating-next-right-pointers-in-each-node-ii\\0117-populating-next-right-pointers-in-each-node-ii.cpp\\Node": "821abba93b3e188bcbe1d0c1c441da3b",
+  ".\\p3\\\"iostream\"": "bdee703c89c64c546a69ae2d4a9671da",
+  ".\\p3\\0117-populating-next-right-pointers-in-each-node-ii\\0117-populating-next-right-pointers-in-each-node-ii.cpp\\Solution\\bfs(Node*\u0026)": "9b07f986a0b647cd53201e63bd32a716",
+  ".\\p3\\\"vector\"": "1e847903a574cdd099485ab12094070a"
+}

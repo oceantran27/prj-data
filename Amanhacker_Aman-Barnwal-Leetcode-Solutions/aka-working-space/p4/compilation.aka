@@ -1,0 +1,20 @@
+{
+  "compilationCommands": {
+    ".\\p4\\0386-lexicographical-numbers\\0386-lexicographical-numbers.cpp": "g++\u003c\u003cAKA_U00A0\u003e\u003e-c\u003c\u003cAKA_U00A0\u003e\u003e-std\u003dgnu++14\u003c\u003cAKA_U00A0\u003e\u003e-w\u003c\u003cAKA_U00A0\u003e\u003e\".\\p4\\0386-lexicographical-numbers\\0386-lexicographical-numbers.cpp\"\u003c\u003cAKA_U00A0\u003e\u003e-I\"D:\\\\Projects\\\\AKAUT\\\\prj-data\\\\Amanhacker_Aman-Barnwal-Leetcode-Solutions\\\\aka-working-space\\\\p4\\\\user_code\\\\environment\"\u003c\u003cAKA_U00A0\u003e\u003e-o\"D:\\\\Projects\\\\AKAUT\\\\prj-data\\\\Amanhacker_Aman-Barnwal-Leetcode-Solutions\\\\aka-working-space\\\\p4\\\\instruments\\0386-lexicographical-numbers\\0386-lexicographical-numbers.akaignore.cpp.out\"",
+    ".\\p4\\0338-counting-bits\\0338-counting-bits.cpp": "g++\u003c\u003cAKA_U00A0\u003e\u003e-c\u003c\u003cAKA_U00A0\u003e\u003e-std\u003dgnu++14\u003c\u003cAKA_U00A0\u003e\u003e-w\u003c\u003cAKA_U00A0\u003e\u003e\".\\p4\\0338-counting-bits\\0338-counting-bits.cpp\"\u003c\u003cAKA_U00A0\u003e\u003e-I\"D:\\\\Projects\\\\AKAUT\\\\prj-data\\\\Amanhacker_Aman-Barnwal-Leetcode-Solutions\\\\aka-working-space\\\\p4\\\\user_code\\\\environment\"\u003c\u003cAKA_U00A0\u003e\u003e-o\"D:\\\\Projects\\\\AKAUT\\\\prj-data\\\\Amanhacker_Aman-Barnwal-Leetcode-Solutions\\\\aka-working-space\\\\p4\\\\instruments\\0338-counting-bits\\0338-counting-bits.akaignore.cpp.out\"",
+    ".\\p4\\0419-battleships-in-a-board\\0419-battleships-in-a-board.cpp": "g++\u003c\u003cAKA_U00A0\u003e\u003e-c\u003c\u003cAKA_U00A0\u003e\u003e-std\u003dgnu++14\u003c\u003cAKA_U00A0\u003e\u003e-w\u003c\u003cAKA_U00A0\u003e\u003e\".\\p4\\0419-battleships-in-a-board\\0419-battleships-in-a-board.cpp\"\u003c\u003cAKA_U00A0\u003e\u003e-I\"D:\\\\Projects\\\\AKAUT\\\\prj-data\\\\Amanhacker_Aman-Barnwal-Leetcode-Solutions\\\\aka-working-space\\\\p4\\\\user_code\\\\environment\"\u003c\u003cAKA_U00A0\u003e\u003e-o\"D:\\\\Projects\\\\AKAUT\\\\prj-data\\\\Amanhacker_Aman-Barnwal-Leetcode-Solutions\\\\aka-working-space\\\\p4\\\\instruments\\0419-battleships-in-a-board\\0419-battleships-in-a-board.akaignore.cpp.out\"",
+    ".\\p4\\0211-design-add-and-search-words-data-structure\\0211-design-add-and-search-words-data-structure.cpp": "g++\u003c\u003cAKA_U00A0\u003e\u003e-c\u003c\u003cAKA_U00A0\u003e\u003e-std\u003dgnu++14\u003c\u003cAKA_U00A0\u003e\u003e-w\u003c\u003cAKA_U00A0\u003e\u003e\".\\p4\\0211-design-add-and-search-words-data-structure\\0211-design-add-and-search-words-data-structure.cpp\"\u003c\u003cAKA_U00A0\u003e\u003e-I\"D:\\\\Projects\\\\AKAUT\\\\prj-data\\\\Amanhacker_Aman-Barnwal-Leetcode-Solutions\\\\aka-working-space\\\\p4\\\\user_code\\\\environment\"\u003c\u003cAKA_U00A0\u003e\u003e-o\"D:\\\\Projects\\\\AKAUT\\\\prj-data\\\\Amanhacker_Aman-Barnwal-Leetcode-Solutions\\\\aka-working-space\\\\p4\\\\instruments\\0211-design-add-and-search-words-data-structure\\0211-design-add-and-search-words-data-structure.akaignore.cpp.out\""
+  },
+  "linkEntry": {
+    "command": "g++ -std\u003dgnu++14 -w",
+    "outFlag": "-o",
+    "exeFile": "D:\\Projects\\AKAUT\\prj-data\\Amanhacker_Aman-Barnwal-Leetcode-Solutions\\p4\\program.exe",
+    "binFiles": [
+      ".\\\\aka-working-space\\\\p4\\\\instruments\\0211-design-add-and-search-words-data-structure\\0211-design-add-and-search-words-data-structure.akaignore.cpp.out",
+      ".\\\\aka-working-space\\\\p4\\\\instruments\\0338-counting-bits\\0338-counting-bits.akaignore.cpp.out",
+      ".\\\\aka-working-space\\\\p4\\\\instruments\\0386-lexicographical-numbers\\0386-lexicographical-numbers.akaignore.cpp.out",
+      ".\\\\aka-working-space\\\\p4\\\\instruments\\0419-battleships-in-a-board\\0419-battleships-in-a-board.akaignore.cpp.out"
+    ]
+  },
+  "executablePath": ""
+}

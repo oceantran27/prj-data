@@ -1,0 +1,285 @@
+{
+  "name": "Solution_dfs_char_char_unordered_map_char_vector_char_unordered_map_char_int_bool_random_0",
+  "status": "success",
+  "testCaseUserCode": {
+    "includePaths": [],
+    "setUpContent": "// set up\n;",
+    "tearDownContent": "// tear down\n;"
+  },
+  "path": ".\\\\aka-working-space\\\\p8\\\\test-cases\\Solution_dfs_char_char_unordered_map_char_vector_char_unordered_map_char_int_bool_random_0.json",
+  "sourceCode": ".\\\\aka-working-space\\\\p8\\\\test-drivers\\Solution_dfs_char_char_unordered_map_char_vector_char_unordered_map_char_int_bool_random_0.cpp",
+  "testPath": ".\\\\aka-working-space\\\\p8\\\\test-paths\\Solution_dfs_char_char_unordered_map_char_vector_char_unordered_map_char_int_bool_random_0.tp",
+  "executable": ".\\\\aka-working-space\\\\p8\\\\exe\\Solution_dfs_char_char_unordered_map_char_vector_char_unordered_map_char_int_bool_random_0.exe",
+  "commandConfig": ".\\aka-working-space\\p8\\test-case-commands\\Solution_dfs_char_char_unordered_map_char_vector_char_unordered_map_char_int_bool_random_0.json",
+  "commandDebug": ".\\\\aka-working-space\\\\p8\\\\debugger\\\\commands\\Solution_dfs_char_char_unordered_map_char_vector_char_unordered_map_char_int_bool_random_0.json",
+  "breakPoint": ".\\\\aka-working-space\\\\p8\\\\debugger\\\\breakpoints\\Solution_dfs_char_char_unordered_map_char_vector_char_unordered_map_char_int_bool_random_0.br.json",
+  "debugExecutable": ".\\\\aka-working-space\\\\p8\\\\exe\\debug_Solution_dfs_char_char_unordered_map_char_vector_char_unordered_map_char_int_bool_random_0.exe",
+  "executionResult": ".\\\\aka-working-space\\\\p8\\\\execution-results\\Solution_dfs_char_char_unordered_map_char_vector_char_unordered_map_char_int_bool_random_0.xml",
+  "creationDate": "2025-02-14T08:36:14.581773800",
+  "executionDate": "2025-02-14T08:36:15.392257800",
+  "rootDataNode": {
+    "type": "com.dse.testdata.object.RootDataNode",
+    "name": "ROOT",
+    "virtual_name": "NON_VALUE",
+    "functionNode": ".\\p8\\0990-satisfiability-of-equality-equations\\0990-satisfiability-of-equality-equations.cpp\\Solution\\dfs(char,char,unordered_map\u003cchar,vector\u003cchar\u003e\u003e\u0026,unordered_map\u003cchar,int\u003e\u0026,bool\u0026)",
+    "level": "ROOT",
+    "children": [
+      {
+        "type": "com.dse.testdata.object.UnitUnderTestNode",
+        "name": "0990-satisfiability-of-equality-equations.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\p8\\0990-satisfiability-of-equality-equations\\0990-satisfiability-of-equality-equations.cpp",
+        "children": [
+          {
+            "type": "com.dse.testdata.object.GlobalRootDataNode",
+            "name": "GLOBAL",
+            "virtual_name": "NON_VALUE",
+            "functionNode": ".\\p8\\0990-satisfiability-of-equality-equations\\0990-satisfiability-of-equality-equations.cpp\\Solution\\dfs(char,char,unordered_map\u003cchar,vector\u003cchar\u003e\u003e\u0026,unordered_map\u003cchar,int\u003e\u0026,bool\u0026)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": false,
+                "correspondingVar": ".\\p8\\0990-satisfiability-of-equality-equations\\0990-satisfiability-of-equality-equations.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p8\\0990-satisfiability-of-equality-equations\\0990-satisfiability-of-equality-equations.cpp\\Solution"
+              }
+            ],
+            "level": "GLOBAL",
+            "children": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Solution",
+                "virtual_name": "AKA_INSTANCE___Solution",
+                "dataType": "::Solution",
+                "realType": "::Solution",
+                "external": true,
+                "correspondingVar": ".\\p8\\0990-satisfiability-of-equality-equations\\0990-satisfiability-of-equality-equations.cpp\\Solution\\AKA_INSTANCE___Solution",
+                "correspondingType": ".\\p8\\0990-satisfiability-of-equality-equations\\0990-satisfiability-of-equality-equations.cpp\\Solution",
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.SubClassDataNode",
+                    "name": "AKA_INSTANCE___Solution",
+                    "virtual_name": "AKA_INSTANCE___Solution",
+                    "dataType": "::Solution",
+                    "realType": "::Solution",
+                    "external": false,
+                    "correspondingVar": ".\\p8\\0990-satisfiability-of-equality-equations\\0990-satisfiability-of-equality-equations.cpp\\Solution\\AKA_INSTANCE___Solution",
+                    "correspondingType": ".\\p8\\0990-satisfiability-of-equality-equations\\0990-satisfiability-of-equality-equations.cpp\\Solution",
+                    "rawType": "::Solution",
+                    "selectedConstructor": "Solution()",
+                    "variableType": "::Solution",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                        "name": "Solution()",
+                        "virtual_name": "AKA_INSTANCE___Solution",
+                        "dataType": "::Solution",
+                        "realType": "::Solution",
+                        "functionNode": "\\Solution()"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "com.dse.testdata.object.SubprogramNode",
+            "name": "dfs(char,char,unordered_map\u003cchar,vector\u003cchar\u003e\u003e\u0026,unordered_map\u003cchar,int\u003e\u0026,bool\u0026)",
+            "virtual_name": "NON_VALUE",
+            "dataType": "void",
+            "realType": "void",
+            "functionNode": ".\\p8\\0990-satisfiability-of-equality-equations\\0990-satisfiability-of-equality-equations.cpp\\Solution\\dfs(char,char,unordered_map\u003cchar,vector\u003cchar\u003e\u003e\u0026,unordered_map\u003cchar,int\u003e\u0026,bool\u0026)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.stl.containers.unordered.UnorderedMapDataNode",
+                "name": "adj",
+                "virtual_name": "EXPECTED_adj",
+                "dataType": "unordered_map\u003cchar, vector\u003cchar\u003e\u003e",
+                "realType": "unordered_map\u003cchar,vector\u003cchar\u003e\u003e\u0026",
+                "external": false,
+                "correspondingVar": ".\\p8\\0990-satisfiability-of-equality-equations\\0990-satisfiability-of-equality-equations.cpp\\Solution\\dfs(char,char,unordered_map\u003cchar,vector\u003cchar\u003e\u003e\u0026,unordered_map\u003cchar,int\u003e\u0026,bool\u0026)\\adj",
+                "correspondingType": "STLListBaseType",
+                "templateArg": "std::pair\u003cchar, vector\u003cchar\u003e\u003e"
+              },
+              {
+                "type": "com.dse.testdata.object.stl.containers.unordered.UnorderedMapDataNode",
+                "name": "vis",
+                "virtual_name": "EXPECTED_vis",
+                "dataType": "unordered_map\u003cchar, int\u003e",
+                "realType": "unordered_map\u003cchar,int\u003e\u0026",
+                "external": false,
+                "correspondingVar": ".\\p8\\0990-satisfiability-of-equality-equations\\0990-satisfiability-of-equality-equations.cpp\\Solution\\dfs(char,char,unordered_map\u003cchar,vector\u003cchar\u003e\u003e\u0026,unordered_map\u003cchar,int\u003e\u0026,bool\u0026)\\vis",
+                "correspondingType": "STLListBaseType",
+                "templateArg": "std::pair\u003cchar, int\u003e"
+              },
+              {
+                "type": "com.dse.testdata.object.NormalCharacterDataNode",
+                "name": "dest",
+                "virtual_name": "EXPECTED_dest",
+                "dataType": "char",
+                "realType": "char",
+                "external": false,
+                "correspondingVar": ".\\p8\\0990-satisfiability-of-equality-equations\\0990-satisfiability-of-equality-equations.cpp\\Solution\\dfs(char,char,unordered_map\u003cchar,vector\u003cchar\u003e\u003e\u0026,unordered_map\u003cchar,int\u003e\u0026,bool\u0026)\\dest",
+                "correspondingType": "char",
+                "value": "null"
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "flag",
+                "virtual_name": "EXPECTED_flag",
+                "dataType": "bool\u0026",
+                "realType": "bool\u0026",
+                "external": false,
+                "correspondingVar": ".\\p8\\0990-satisfiability-of-equality-equations\\0990-satisfiability-of-equality-equations.cpp\\Solution\\dfs(char,char,unordered_map\u003cchar,vector\u003cchar\u003e\u003e\u0026,unordered_map\u003cchar,int\u003e\u0026,bool\u0026)\\flag",
+                "correspondingType": "bool\u0026",
+                "value": "null"
+              },
+              {
+                "type": "com.dse.testdata.object.NormalCharacterDataNode",
+                "name": "node1",
+                "virtual_name": "EXPECTED_node1",
+                "dataType": "char",
+                "realType": "char",
+                "external": false,
+                "correspondingVar": ".\\p8\\0990-satisfiability-of-equality-equations\\0990-satisfiability-of-equality-equations.cpp\\Solution\\dfs(char,char,unordered_map\u003cchar,vector\u003cchar\u003e\u003e\u0026,unordered_map\u003cchar,int\u003e\u0026,bool\u0026)\\node1",
+                "correspondingType": "char",
+                "value": "null"
+              }
+            ],
+            "children": [
+              {
+                "type": "com.dse.testdata.object.RootDataNode",
+                "name": "STATIC",
+                "virtual_name": "NON_VALUE",
+                "functionNode": ".\\p8\\0990-satisfiability-of-equality-equations\\0990-satisfiability-of-equality-equations.cpp\\Solution\\dfs(char,char,unordered_map\u003cchar,vector\u003cchar\u003e\u003e\u0026,unordered_map\u003cchar,int\u003e\u0026,bool\u0026)",
+                "level": "STATIC"
+              },
+              {
+                "type": "com.dse.testdata.object.NormalCharacterDataNode",
+                "name": "node1",
+                "virtual_name": "node1",
+                "dataType": "char",
+                "realType": "char",
+                "external": false,
+                "correspondingVar": ".\\p8\\0990-satisfiability-of-equality-equations\\0990-satisfiability-of-equality-equations.cpp\\Solution\\dfs(char,char,unordered_map\u003cchar,vector\u003cchar\u003e\u003e\u0026,unordered_map\u003cchar,int\u003e\u0026,bool\u0026)\\node1",
+                "correspondingType": "char",
+                "value": "-49"
+              },
+              {
+                "type": "com.dse.testdata.object.NormalCharacterDataNode",
+                "name": "dest",
+                "virtual_name": "dest",
+                "dataType": "char",
+                "realType": "char",
+                "external": false,
+                "correspondingVar": ".\\p8\\0990-satisfiability-of-equality-equations\\0990-satisfiability-of-equality-equations.cpp\\Solution\\dfs(char,char,unordered_map\u003cchar,vector\u003cchar\u003e\u003e\u0026,unordered_map\u003cchar,int\u003e\u0026,bool\u0026)\\dest",
+                "correspondingType": "char",
+                "value": "52"
+              },
+              {
+                "type": "com.dse.testdata.object.stl.containers.unordered.UnorderedMapDataNode",
+                "name": "adj",
+                "virtual_name": "adj",
+                "dataType": "unordered_map\u003cchar, vector\u003cchar\u003e\u003e",
+                "realType": "unordered_map\u003cchar,vector\u003cchar\u003e\u003e\u0026",
+                "external": false,
+                "correspondingVar": ".\\p8\\0990-satisfiability-of-equality-equations\\0990-satisfiability-of-equality-equations.cpp\\Solution\\dfs(char,char,unordered_map\u003cchar,vector\u003cchar\u003e\u003e\u0026,unordered_map\u003cchar,int\u003e\u0026,bool\u0026)\\adj",
+                "correspondingType": "STLListBaseType",
+                "templateArg": "std::pair\u003cchar, vector\u003cchar\u003e\u003e"
+              },
+              {
+                "type": "com.dse.testdata.object.stl.containers.unordered.UnorderedMapDataNode",
+                "name": "vis",
+                "virtual_name": "vis",
+                "dataType": "unordered_map\u003cchar, int\u003e",
+                "realType": "unordered_map\u003cchar,int\u003e\u0026",
+                "external": false,
+                "correspondingVar": ".\\p8\\0990-satisfiability-of-equality-equations\\0990-satisfiability-of-equality-equations.cpp\\Solution\\dfs(char,char,unordered_map\u003cchar,vector\u003cchar\u003e\u003e\u0026,unordered_map\u003cchar,int\u003e\u0026,bool\u0026)\\vis",
+                "correspondingType": "STLListBaseType",
+                "templateArg": "std::pair\u003cchar, int\u003e"
+              },
+              {
+                "type": "com.dse.testdata.object.NormalNumberDataNode",
+                "name": "flag",
+                "virtual_name": "flag",
+                "dataType": "bool\u0026",
+                "realType": "bool\u0026",
+                "external": false,
+                "correspondingVar": ".\\p8\\0990-satisfiability-of-equality-equations\\0990-satisfiability-of-equality-equations.cpp\\Solution\\dfs(char,char,unordered_map\u003cchar,vector\u003cchar\u003e\u003e\u0026,unordered_map\u003cchar,int\u003e\u0026,bool\u0026)\\flag",
+                "correspondingType": "bool\u0026",
+                "value": "false"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.RootDataNode",
+        "name": "STUB",
+        "virtual_name": "NON_VALUE",
+        "functionNode": ".\\p8\\0990-satisfiability-of-equality-equations\\0990-satisfiability-of-equality-equations.cpp\\Solution\\dfs(char,char,unordered_map\u003cchar,vector\u003cchar\u003e\u003e\u0026,unordered_map\u003cchar,int\u003e\u0026,bool\u0026)",
+        "level": "STUB"
+      }
+    ]
+  },
+  "procedures": [
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "function_call",
+      "value": "dfs();",
+      "isSelected": false,
+      "location": 5,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "flag \u003d\u003d true",
+      "isSelected": false,
+      "location": 139,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "node1 \u003d\u003d dest",
+      "isSelected": false,
+      "location": 245,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "auto \u0026ch",
+      "isSelected": false,
+      "location": 343,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "condition",
+      "value": "vis[ch] \u003d\u003d 0",
+      "isSelected": false,
+      "location": 384,
+      "calls": [],
+      "children": []
+    },
+    {
+      "className": "com.dse.testdata.functionscalls_and_conditions.ProcedureDataNode",
+      "type": "function_call",
+      "value": "dfs();",
+      "isSelected": false,
+      "location": 417,
+      "calls": [],
+      "children": []
+    }
+  ]
+}

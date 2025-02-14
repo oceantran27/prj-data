@@ -1,0 +1,49 @@
+{
+  "path": ".\\p1\\0 - 1 Knapsack Problem - GFG\\0-1-knapsack-problem.cpp",
+  "dependency": [
+    {
+      "start": ".\\p1\\0 - 1 Knapsack Problem - GFG\\0-1-knapsack-problem.cpp\\Solution\\knapsackHelper(int,int[],int[],int)",
+      "start-type": "FunctionNode",
+      "start-md5": "112e695fc45cc0956d1743383aca5381",
+      "end": ".\\p1\\0 - 1 Knapsack Problem - GFG\\0-1-knapsack-problem.cpp\\Solution",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "602a446406227d6488bcf6fd099e415b"
+    },
+    {
+      "start": ".\\p1\\0 - 1 Knapsack Problem - GFG\\0-1-knapsack-problem.cpp\\Solution\\knapSack(int,int[],int[],int)",
+      "start-type": "FunctionNode",
+      "start-md5": "634668addb014b1a3a7396e9a5dc7dfd",
+      "end": ".\\p1\\0 - 1 Knapsack Problem - GFG\\0-1-knapsack-problem.cpp\\Solution",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "602a446406227d6488bcf6fd099e415b"
+    },
+    {
+      "start": ".\\p1\\0 - 1 Knapsack Problem - GFG\\0-1-knapsack-problem.cpp\\Solution\\knapSack(int,int[],int[],int)",
+      "start-type": "FunctionNode",
+      "start-md5": "634668addb014b1a3a7396e9a5dc7dfd",
+      "end": ".\\p1\\0 - 1 Knapsack Problem - GFG\\0-1-knapsack-problem.cpp\\Solution\\knapsackHelper(int,int[],int[],int)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "112e695fc45cc0956d1743383aca5381"
+    },
+    {
+      "start": ".\\p1\\0 - 1 Knapsack Problem - GFG\\0-1-knapsack-problem.cpp\\main()",
+      "start-type": "FunctionNode",
+      "start-md5": "653ef642fa6002c68163678619bf9e46",
+      "end": ".\\p1\\0 - 1 Knapsack Problem - GFG\\0-1-knapsack-problem.cpp\\Solution\\knapSack(int,int[],int[],int)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "634668addb014b1a3a7396e9a5dc7dfd"
+    },
+    {
+      "start": ".\\p1\\0 - 1 Knapsack Problem - GFG\\0-1-knapsack-problem.cpp\\main()",
+      "start-type": "FunctionNode",
+      "start-md5": "653ef642fa6002c68163678619bf9e46",
+      "end": ".\\p1\\0 - 1 Knapsack Problem - GFG\\0-1-knapsack-problem.cpp",
+      "end-type": "CppFileNode",
+      "type": "RealParentDependency"
+    }
+  ]
+}

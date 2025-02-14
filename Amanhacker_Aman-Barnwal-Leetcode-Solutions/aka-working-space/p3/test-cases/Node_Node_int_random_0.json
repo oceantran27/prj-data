@@ -1,0 +1,248 @@
+{
+  "name": "Node_Node_int_random_0",
+  "status": "success",
+  "testCaseUserCode": {
+    "includePaths": [],
+    "setUpContent": "// set up\n;",
+    "tearDownContent": "// tear down\n;"
+  },
+  "path": ".\\\\aka-working-space\\\\p3\\\\test-cases\\Node_Node_int_random_0.json",
+  "sourceCode": ".\\\\aka-working-space\\\\p3\\\\test-drivers\\Node_Node_int_random_0.cpp",
+  "testPath": ".\\\\aka-working-space\\\\p3\\\\test-paths\\Node_Node_int_random_0.tp",
+  "executable": ".\\\\aka-working-space\\\\p3\\\\exe\\Node_Node_int_random_0.exe",
+  "commandConfig": ".\\aka-working-space\\p3\\test-case-commands\\Node_Node_int_random_0.json",
+  "commandDebug": ".\\\\aka-working-space\\\\p3\\\\debugger\\\\commands\\Node_Node_int_random_0.json",
+  "breakPoint": ".\\\\aka-working-space\\\\p3\\\\debugger\\\\breakpoints\\Node_Node_int_random_0.br.json",
+  "debugExecutable": ".\\\\aka-working-space\\\\p3\\\\exe\\debug_Node_Node_int_random_0.exe",
+  "executionResult": ".\\\\aka-working-space\\\\p3\\\\execution-results\\Node_Node_int_random_0.xml",
+  "creationDate": "2025-02-13T16:44:40.549463700",
+  "executionDate": "2025-02-13T16:44:41.413470900",
+  "rootDataNode": {
+    "type": "com.dse.testdata.object.RootDataNode",
+    "name": "ROOT",
+    "virtual_name": "NON_VALUE",
+    "functionNode": ".\\p3\\0117-populating-next-right-pointers-in-each-node-ii\\0117-populating-next-right-pointers-in-each-node-ii.cpp\\Node\\Node(int)",
+    "level": "ROOT",
+    "children": [
+      {
+        "type": "com.dse.testdata.object.UnitUnderTestNode",
+        "name": "0117-populating-next-right-pointers-in-each-node-ii.cpp",
+        "virtual_name": "NON_VALUE",
+        "sourceNode": ".\\p3\\0117-populating-next-right-pointers-in-each-node-ii\\0117-populating-next-right-pointers-in-each-node-ii.cpp",
+        "children": [
+          {
+            "type": "com.dse.testdata.object.GlobalRootDataNode",
+            "name": "GLOBAL",
+            "virtual_name": "NON_VALUE",
+            "functionNode": ".\\p3\\0117-populating-next-right-pointers-in-each-node-ii\\0117-populating-next-right-pointers-in-each-node-ii.cpp\\Node\\Node(int)",
+            "paramExpectedOuputs": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Node",
+                "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___Node",
+                "dataType": "::Node",
+                "realType": "::Node",
+                "external": false,
+                "correspondingVar": ".\\p3\\0117-populating-next-right-pointers-in-each-node-ii\\0117-populating-next-right-pointers-in-each-node-ii.cpp\\Node\\AKA_INSTANCE___Node",
+                "correspondingType": ".\\p3\\0117-populating-next-right-pointers-in-each-node-ii\\0117-populating-next-right-pointers-in-each-node-ii.cpp\\Node",
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.SubClassDataNode",
+                    "name": "AKA_INSTANCE___Node",
+                    "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___Node",
+                    "dataType": "::Node",
+                    "realType": "::Node",
+                    "external": false,
+                    "correspondingVar": ".\\p3\\0117-populating-next-right-pointers-in-each-node-ii\\0117-populating-next-right-pointers-in-each-node-ii.cpp\\Node\\AKA_INSTANCE___Node",
+                    "correspondingType": ".\\p3\\0117-populating-next-right-pointers-in-each-node-ii\\0117-populating-next-right-pointers-in-each-node-ii.cpp\\Node",
+                    "rawType": "::Node",
+                    "selectedConstructor": "Node(int)",
+                    "variableType": "::Node",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                        "name": "Node(int)",
+                        "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___Node",
+                        "dataType": "::Node",
+                        "realType": "::Node",
+                        "functionNode": ".\\p3\\0117-populating-next-right-pointers-in-each-node-ii\\0117-populating-next-right-pointers-in-each-node-ii.cpp\\Node\\Node(int)",
+                        "children": [
+                          {
+                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                            "name": "_val",
+                            "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___Node__val",
+                            "dataType": "int",
+                            "realType": "int",
+                            "external": false,
+                            "correspondingVar": ".\\p3\\0117-populating-next-right-pointers-in-each-node-ii\\0117-populating-next-right-pointers-in-each-node-ii.cpp\\Node\\Node(int)\\_val",
+                            "correspondingType": "int",
+                            "value": "null"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "com.dse.testdata.object.NormalNumberDataNode",
+                        "name": "val",
+                        "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___Node-\u003eval",
+                        "dataType": "int",
+                        "realType": "int",
+                        "external": false,
+                        "correspondingVar": ".\\p3\\0117-populating-next-right-pointers-in-each-node-ii\\0117-populating-next-right-pointers-in-each-node-ii.cpp\\Node\\val",
+                        "correspondingType": "int",
+                        "value": "null"
+                      },
+                      {
+                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                        "name": "left",
+                        "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___Node-\u003eleft",
+                        "dataType": "Node*",
+                        "realType": "Node*",
+                        "external": false,
+                        "correspondingVar": ".\\p3\\0117-populating-next-right-pointers-in-each-node-ii\\0117-populating-next-right-pointers-in-each-node-ii.cpp\\Node\\left",
+                        "correspondingType": ".\\p3\\0117-populating-next-right-pointers-in-each-node-ii\\0117-populating-next-right-pointers-in-each-node-ii.cpp\\Node",
+                        "level": 1
+                      },
+                      {
+                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                        "name": "right",
+                        "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___Node-\u003eright",
+                        "dataType": "Node*",
+                        "realType": "Node*",
+                        "external": false,
+                        "correspondingVar": ".\\p3\\0117-populating-next-right-pointers-in-each-node-ii\\0117-populating-next-right-pointers-in-each-node-ii.cpp\\Node\\right",
+                        "correspondingType": ".\\p3\\0117-populating-next-right-pointers-in-each-node-ii\\0117-populating-next-right-pointers-in-each-node-ii.cpp\\Node",
+                        "level": 1
+                      },
+                      {
+                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                        "name": "next",
+                        "virtual_name": "EXPECTED_AKA_GLOBAL_AKA_INSTANCE___Node-\u003enext",
+                        "dataType": "Node*",
+                        "realType": "Node*",
+                        "external": false,
+                        "correspondingVar": ".\\p3\\0117-populating-next-right-pointers-in-each-node-ii\\0117-populating-next-right-pointers-in-each-node-ii.cpp\\Node\\next",
+                        "correspondingType": ".\\p3\\0117-populating-next-right-pointers-in-each-node-ii\\0117-populating-next-right-pointers-in-each-node-ii.cpp\\Node",
+                        "level": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "level": "GLOBAL",
+            "children": [
+              {
+                "type": "com.dse.testdata.object.ClassDataNode",
+                "name": "AKA_INSTANCE___Node",
+                "virtual_name": "AKA_INSTANCE___Node",
+                "dataType": "::Node",
+                "realType": "::Node",
+                "external": true,
+                "correspondingVar": ".\\p3\\0117-populating-next-right-pointers-in-each-node-ii\\0117-populating-next-right-pointers-in-each-node-ii.cpp\\Node\\AKA_INSTANCE___Node",
+                "correspondingType": ".\\p3\\0117-populating-next-right-pointers-in-each-node-ii\\0117-populating-next-right-pointers-in-each-node-ii.cpp\\Node",
+                "children": [
+                  {
+                    "type": "com.dse.testdata.object.SubClassDataNode",
+                    "name": "AKA_INSTANCE___Node",
+                    "virtual_name": "AKA_INSTANCE___Node",
+                    "dataType": "::Node",
+                    "realType": "::Node",
+                    "external": false,
+                    "correspondingVar": ".\\p3\\0117-populating-next-right-pointers-in-each-node-ii\\0117-populating-next-right-pointers-in-each-node-ii.cpp\\Node\\AKA_INSTANCE___Node",
+                    "correspondingType": ".\\p3\\0117-populating-next-right-pointers-in-each-node-ii\\0117-populating-next-right-pointers-in-each-node-ii.cpp\\Node",
+                    "rawType": "::Node",
+                    "selectedConstructor": "Node(int)",
+                    "variableType": "::Node",
+                    "children": [
+                      {
+                        "type": "com.dse.testdata.object.ConstructorDataNode",
+                        "name": "Node(int)",
+                        "virtual_name": "AKA_INSTANCE___Node",
+                        "dataType": "::Node",
+                        "realType": "::Node",
+                        "functionNode": ".\\p3\\0117-populating-next-right-pointers-in-each-node-ii\\0117-populating-next-right-pointers-in-each-node-ii.cpp\\Node\\Node(int)",
+                        "children": [
+                          {
+                            "type": "com.dse.testdata.object.NormalNumberDataNode",
+                            "name": "_val",
+                            "virtual_name": "AKA_INSTANCE___Node__val",
+                            "dataType": "int",
+                            "realType": "int",
+                            "external": false,
+                            "correspondingVar": ".\\p3\\0117-populating-next-right-pointers-in-each-node-ii\\0117-populating-next-right-pointers-in-each-node-ii.cpp\\Node\\Node(int)\\_val",
+                            "correspondingType": "int",
+                            "value": "-1095403229"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "com.dse.testdata.object.NormalNumberDataNode",
+                        "name": "val",
+                        "virtual_name": "AKA_INSTANCE___Node-\u003eval",
+                        "dataType": "int",
+                        "realType": "int",
+                        "external": false,
+                        "correspondingVar": ".\\p3\\0117-populating-next-right-pointers-in-each-node-ii\\0117-populating-next-right-pointers-in-each-node-ii.cpp\\Node\\val",
+                        "correspondingType": "int",
+                        "value": "null"
+                      },
+                      {
+                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                        "name": "left",
+                        "virtual_name": "AKA_INSTANCE___Node-\u003eleft",
+                        "dataType": "Node*",
+                        "realType": "Node*",
+                        "external": false,
+                        "correspondingVar": ".\\p3\\0117-populating-next-right-pointers-in-each-node-ii\\0117-populating-next-right-pointers-in-each-node-ii.cpp\\Node\\left",
+                        "correspondingType": ".\\p3\\0117-populating-next-right-pointers-in-each-node-ii\\0117-populating-next-right-pointers-in-each-node-ii.cpp\\Node",
+                        "level": 1
+                      },
+                      {
+                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                        "name": "right",
+                        "virtual_name": "AKA_INSTANCE___Node-\u003eright",
+                        "dataType": "Node*",
+                        "realType": "Node*",
+                        "external": false,
+                        "correspondingVar": ".\\p3\\0117-populating-next-right-pointers-in-each-node-ii\\0117-populating-next-right-pointers-in-each-node-ii.cpp\\Node\\right",
+                        "correspondingType": ".\\p3\\0117-populating-next-right-pointers-in-each-node-ii\\0117-populating-next-right-pointers-in-each-node-ii.cpp\\Node",
+                        "level": 1
+                      },
+                      {
+                        "type": "com.dse.testdata.object.PointerStructureDataNode",
+                        "name": "next",
+                        "virtual_name": "AKA_INSTANCE___Node-\u003enext",
+                        "dataType": "Node*",
+                        "realType": "Node*",
+                        "external": false,
+                        "correspondingVar": ".\\p3\\0117-populating-next-right-pointers-in-each-node-ii\\0117-populating-next-right-pointers-in-each-node-ii.cpp\\Node\\next",
+                        "correspondingType": ".\\p3\\0117-populating-next-right-pointers-in-each-node-ii\\0117-populating-next-right-pointers-in-each-node-ii.cpp\\Node",
+                        "level": 1
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "type": "com.dse.testdata.object.SubprogramNode",
+            "name": "Node(int)",
+            "virtual_name": "NON_VALUE",
+            "dataType": "",
+            "realType": "",
+            "functionNode": ".\\p3\\0117-populating-next-right-pointers-in-each-node-ii\\0117-populating-next-right-pointers-in-each-node-ii.cpp\\Node\\Node(int)"
+          }
+        ]
+      },
+      {
+        "type": "com.dse.testdata.object.RootDataNode",
+        "name": "STUB",
+        "virtual_name": "NON_VALUE",
+        "functionNode": ".\\p3\\0117-populating-next-right-pointers-in-each-node-ii\\0117-populating-next-right-pointers-in-each-node-ii.cpp\\Node\\Node(int)",
+        "level": "STUB"
+      }
+    ]
+  },
+  "procedures": []
+}

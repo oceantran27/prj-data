@@ -1,0 +1,68 @@
+{
+  "path": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp",
+  "dependency": [
+    {
+      "start": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\TreeNode(int)",
+      "start-type": "ConstructorNode",
+      "start-md5": "bb87074b4f35e01debcefc666303a286",
+      "end": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+      "end-type": "StructNode",
+      "type": "RealParentDependency",
+      "end-md5": "af8c4729b7f783f897357a4f57d1eaa2"
+    },
+    {
+      "start": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\TreeNode()",
+      "start-type": "ConstructorNode",
+      "start-md5": "866757dd49ee1720a0f45556eb39c07f",
+      "end": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+      "end-type": "StructNode",
+      "type": "RealParentDependency",
+      "end-md5": "af8c4729b7f783f897357a4f57d1eaa2"
+    },
+    {
+      "start": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode\\TreeNode(int,TreeNode*,TreeNode*)",
+      "start-type": "ConstructorNode",
+      "start-md5": "f428e6143c89cb81fb9ca01cfbd1bb91",
+      "end": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\TreeNode",
+      "end-type": "StructNode",
+      "type": "RealParentDependency",
+      "end-md5": "af8c4729b7f783f897357a4f57d1eaa2"
+    },
+    {
+      "start": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\Solution\\isSymmetricHelper(TreeNode*,TreeNode*)",
+      "start-type": "FunctionNode",
+      "start-md5": "4507344bbc1c273b1569bfc7209714ba",
+      "end": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\Solution",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "4f7fd4bdb572035bdf40c7ddc3275564"
+    },
+    {
+      "start": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\Solution\\isSymmetric(TreeNode*)",
+      "start-type": "FunctionNode",
+      "start-md5": "372ba22ae90494497f3fce99ba43ddee",
+      "end": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\Solution",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "4f7fd4bdb572035bdf40c7ddc3275564"
+    },
+    {
+      "start": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\Solution\\isSymmetricHelper(TreeNode*,TreeNode*)",
+      "start-type": "FunctionNode",
+      "start-md5": "4507344bbc1c273b1569bfc7209714ba",
+      "end": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\Solution\\isSymmetricHelper(TreeNode*,TreeNode*)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "4507344bbc1c273b1569bfc7209714ba"
+    },
+    {
+      "start": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\Solution\\isSymmetric(TreeNode*)",
+      "start-type": "FunctionNode",
+      "start-md5": "372ba22ae90494497f3fce99ba43ddee",
+      "end": ".\\p10\\101-symmetric-tree\\101-symmetric-tree.cpp\\Solution\\isSymmetricHelper(TreeNode*,TreeNode*)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "4507344bbc1c273b1569bfc7209714ba"
+    }
+  ]
+}

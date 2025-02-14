@@ -1,0 +1,20 @@
+{
+  "function": ".\\p4\\0211-design-add-and-search-words-data-structure\\0211-design-add-and-search-words-data-structure.cpp\\WordDictionary\\addWord(string)",
+  "testdataGenStrategy": "BEST COVERAGE",
+  "theMaxNumberOfIterations": 10,
+  "floatAndDoubleDelta": 0.1,
+  "lowerBoundOfOtherNumberVars": "MIN",
+  "upperBoundOfOtherNumberVars": "MAX",
+  "lowerBoundOfOtherCharacterVars": "MIN",
+  "upperBoundOfOtherCharacterVars": "MAX",
+  "lowerBoundOfOtherArrays": "1",
+  "upperBoundOfOtherArrays": "3",
+  "lowerBoundOfOtherPointers": "0",
+  "upperBoundOfOtherPointers": "3",
+  "boundOfArguments": [
+    {
+      "type_class": "com.dse.config.UndefinedBound",
+      "name": "word"
+    }
+  ]
+}

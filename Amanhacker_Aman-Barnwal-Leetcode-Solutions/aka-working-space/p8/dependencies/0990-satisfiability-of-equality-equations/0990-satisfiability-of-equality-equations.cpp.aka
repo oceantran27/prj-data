@@ -1,0 +1,41 @@
+{
+  "path": ".\\p8\\0990-satisfiability-of-equality-equations\\0990-satisfiability-of-equality-equations.cpp",
+  "dependency": [
+    {
+      "start": ".\\p8\\0990-satisfiability-of-equality-equations\\0990-satisfiability-of-equality-equations.cpp\\Solution\\dfs(char,char,unordered_map\u003cchar,vector\u003cchar\u003e\u003e\u0026,unordered_map\u003cchar,int\u003e\u0026,bool\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "da3e8615920b6ea70318c93ebd515879",
+      "end": ".\\p8\\0990-satisfiability-of-equality-equations\\0990-satisfiability-of-equality-equations.cpp\\Solution",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "e5ef25951d3778b2a0b125ea22f93b9e"
+    },
+    {
+      "start": ".\\p8\\0990-satisfiability-of-equality-equations\\0990-satisfiability-of-equality-equations.cpp\\Solution\\equationsPossible(vector\u003cstring\u003e\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "cb64be15f6baf7f399a6bf5ac7896d91",
+      "end": ".\\p8\\0990-satisfiability-of-equality-equations\\0990-satisfiability-of-equality-equations.cpp\\Solution",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "e5ef25951d3778b2a0b125ea22f93b9e"
+    },
+    {
+      "start": ".\\p8\\0990-satisfiability-of-equality-equations\\0990-satisfiability-of-equality-equations.cpp\\Solution\\dfs(char,char,unordered_map\u003cchar,vector\u003cchar\u003e\u003e\u0026,unordered_map\u003cchar,int\u003e\u0026,bool\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "da3e8615920b6ea70318c93ebd515879",
+      "end": ".\\p8\\0990-satisfiability-of-equality-equations\\0990-satisfiability-of-equality-equations.cpp\\Solution\\dfs(char,char,unordered_map\u003cchar,vector\u003cchar\u003e\u003e\u0026,unordered_map\u003cchar,int\u003e\u0026,bool\u0026)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "da3e8615920b6ea70318c93ebd515879"
+    },
+    {
+      "start": ".\\p8\\0990-satisfiability-of-equality-equations\\0990-satisfiability-of-equality-equations.cpp\\Solution\\equationsPossible(vector\u003cstring\u003e\u0026)",
+      "start-type": "FunctionNode",
+      "start-md5": "cb64be15f6baf7f399a6bf5ac7896d91",
+      "end": ".\\p8\\0990-satisfiability-of-equality-equations\\0990-satisfiability-of-equality-equations.cpp\\Solution\\dfs(char,char,unordered_map\u003cchar,vector\u003cchar\u003e\u003e\u0026,unordered_map\u003cchar,int\u003e\u0026,bool\u0026)",
+      "end-type": "FunctionNode",
+      "type": "FunctionCallDependency",
+      "end-md5": "da3e8615920b6ea70318c93ebd515879"
+    }
+  ]
+}

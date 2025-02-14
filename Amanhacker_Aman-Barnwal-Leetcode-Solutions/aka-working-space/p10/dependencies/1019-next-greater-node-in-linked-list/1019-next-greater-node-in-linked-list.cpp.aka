@@ -1,0 +1,41 @@
+{
+  "path": ".\\p10\\1019-next-greater-node-in-linked-list\\1019-next-greater-node-in-linked-list.cpp",
+  "dependency": [
+    {
+      "start": ".\\p10\\1019-next-greater-node-in-linked-list\\1019-next-greater-node-in-linked-list.cpp\\ListNode\\ListNode()",
+      "start-type": "ConstructorNode",
+      "start-md5": "ae7bb241a2e5e4a765be952cfc5c3af9",
+      "end": ".\\p10\\1019-next-greater-node-in-linked-list\\1019-next-greater-node-in-linked-list.cpp\\ListNode",
+      "end-type": "StructNode",
+      "type": "RealParentDependency",
+      "end-md5": "1dd73393ed845198d075d5effe40ba5d"
+    },
+    {
+      "start": ".\\p10\\1019-next-greater-node-in-linked-list\\1019-next-greater-node-in-linked-list.cpp\\ListNode\\ListNode(int)",
+      "start-type": "ConstructorNode",
+      "start-md5": "b5e677eb70453eb29eda4c14fe2024d1",
+      "end": ".\\p10\\1019-next-greater-node-in-linked-list\\1019-next-greater-node-in-linked-list.cpp\\ListNode",
+      "end-type": "StructNode",
+      "type": "RealParentDependency",
+      "end-md5": "1dd73393ed845198d075d5effe40ba5d"
+    },
+    {
+      "start": ".\\p10\\1019-next-greater-node-in-linked-list\\1019-next-greater-node-in-linked-list.cpp\\ListNode\\ListNode(int,ListNode*)",
+      "start-type": "ConstructorNode",
+      "start-md5": "a9f3de08bd0afe634a0e4e1f3e85902b",
+      "end": ".\\p10\\1019-next-greater-node-in-linked-list\\1019-next-greater-node-in-linked-list.cpp\\ListNode",
+      "end-type": "StructNode",
+      "type": "RealParentDependency",
+      "end-md5": "1dd73393ed845198d075d5effe40ba5d"
+    },
+    {
+      "start": ".\\p10\\1019-next-greater-node-in-linked-list\\1019-next-greater-node-in-linked-list.cpp\\Solution\\nextLargerNodes(ListNode*)",
+      "start-type": "FunctionNode",
+      "start-md5": "51f0f724f6d96972b6b32c89fbc162c5",
+      "end": ".\\p10\\1019-next-greater-node-in-linked-list\\1019-next-greater-node-in-linked-list.cpp\\Solution",
+      "end-type": "ClassNode",
+      "type": "RealParentDependency",
+      "end-md5": "84204799a41a57339e09fb5b95220bc1"
+    }
+  ]
+}

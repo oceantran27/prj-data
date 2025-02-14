@@ -1,0 +1,37 @@
+Start autogen for function:#helperMaxSum(vector<int>&,int,int,int,int&,vector<int>&)#Source code file:#D:\Projects\AKAUT\prj-data\Amanhacker_Aman-Barnwal-Leetcode-Solutions\p11\1043-partition-array-for-maximum-sum\1043-partition-array-for-maximum-sum.cpp#at time: #2025-02-14 10:49:58#
+End autogen for function:#helperMaxSum(vector<int>&,int,int,int,int&,vector<int>&)#at time: #2025-02-14 10:51:19#
+Start autogen for function:#maxSumAfterPartitioning(vector<int>&,int)#Source code file:#D:\Projects\AKAUT\prj-data\Amanhacker_Aman-Barnwal-Leetcode-Solutions\p11\1043-partition-array-for-maximum-sum\1043-partition-array-for-maximum-sum.cpp#at time: #2025-02-14 10:51:19#
+End autogen for function:#maxSumAfterPartitioning(vector<int>&,int)#at time: #2025-02-14 10:52:38#
+Start autogen for function:#TreeNode()#Source code file:#D:\Projects\AKAUT\prj-data\Amanhacker_Aman-Barnwal-Leetcode-Solutions\p11\104-maximum-depth-of-binary-tree\104-maximum-depth-of-binary-tree.cpp#at time: #2025-02-14 10:52:38#
+End autogen for function:#TreeNode()#at time: #2025-02-14 10:52:54#
+Start autogen for function:#TreeNode(int)#Source code file:#D:\Projects\AKAUT\prj-data\Amanhacker_Aman-Barnwal-Leetcode-Solutions\p11\104-maximum-depth-of-binary-tree\104-maximum-depth-of-binary-tree.cpp#at time: #2025-02-14 10:52:54#
+End autogen for function:#TreeNode(int)#at time: #2025-02-14 10:54:14#
+Start autogen for function:#TreeNode(int,TreeNode*,TreeNode*)#Source code file:#D:\Projects\AKAUT\prj-data\Amanhacker_Aman-Barnwal-Leetcode-Solutions\p11\104-maximum-depth-of-binary-tree\104-maximum-depth-of-binary-tree.cpp#at time: #2025-02-14 10:54:14#
+End autogen for function:#TreeNode(int,TreeNode*,TreeNode*)#at time: #2025-02-14 10:55:33#
+Start autogen for function:#height(TreeNode*)#Source code file:#D:\Projects\AKAUT\prj-data\Amanhacker_Aman-Barnwal-Leetcode-Solutions\p11\104-maximum-depth-of-binary-tree\104-maximum-depth-of-binary-tree.cpp#at time: #2025-02-14 10:55:33#
+End autogen for function:#height(TreeNode*)#at time: #2025-02-14 10:56:55#
+Start autogen for function:#maxDepth(TreeNode*)#Source code file:#D:\Projects\AKAUT\prj-data\Amanhacker_Aman-Barnwal-Leetcode-Solutions\p11\104-maximum-depth-of-binary-tree\104-maximum-depth-of-binary-tree.cpp#at time: #2025-02-14 10:56:55#
+End autogen for function:#maxDepth(TreeNode*)#at time: #2025-02-14 10:57:59#
+Start autogen for function:#allCellsDistOrder(int,int,int,int)#Source code file:#D:\Projects\AKAUT\prj-data\Amanhacker_Aman-Barnwal-Leetcode-Solutions\p11\1030-matrix-cells-in-distance-order\1030-matrix-cells-in-distance-order.cpp#at time: #2025-02-14 10:57:59#
+End autogen for function:#allCellsDistOrder(int,int,int,int)#at time: #2025-02-14 10:59:29#
+Start autogen for function:#TreeNode()#Source code file:#D:\Projects\AKAUT\prj-data\Amanhacker_Aman-Barnwal-Leetcode-Solutions\p11\103-binary-tree-zigzag-level-order-traversal\103-binary-tree-zigzag-level-order-traversal.cpp#at time: #2025-02-14 10:59:29#
+End autogen for function:#TreeNode()#at time: #2025-02-14 10:59:46#
+Start autogen for function:#TreeNode(int)#Source code file:#D:\Projects\AKAUT\prj-data\Amanhacker_Aman-Barnwal-Leetcode-Solutions\p11\103-binary-tree-zigzag-level-order-traversal\103-binary-tree-zigzag-level-order-traversal.cpp#at time: #2025-02-14 10:59:46#
+End autogen for function:#TreeNode(int)#at time: #2025-02-14 11:01:06#
+Start autogen for function:#TreeNode(int,TreeNode*,TreeNode*)#Source code file:#D:\Projects\AKAUT\prj-data\Amanhacker_Aman-Barnwal-Leetcode-Solutions\p11\103-binary-tree-zigzag-level-order-traversal\103-binary-tree-zigzag-level-order-traversal.cpp#at time: #2025-02-14 11:01:06#
+End autogen for function:#TreeNode(int,TreeNode*,TreeNode*)#at time: #2025-02-14 11:02:25#
+Start autogen for function:#zigzagLevelOrder(TreeNode*)#Source code file:#D:\Projects\AKAUT\prj-data\Amanhacker_Aman-Barnwal-Leetcode-Solutions\p11\103-binary-tree-zigzag-level-order-traversal\103-binary-tree-zigzag-level-order-traversal.cpp#at time: #2025-02-14 11:02:25#
+End autogen for function:#zigzagLevelOrder(TreeNode*)#at time: #2025-02-14 11:03:48#
+Start autogen for function:#TreeNode()#Source code file:#D:\Projects\AKAUT\prj-data\Amanhacker_Aman-Barnwal-Leetcode-Solutions\p11\1026-maximum-difference-between-node-and-ancestor\1026-maximum-difference-between-node-and-ancestor.cpp#at time: #2025-02-14 11:03:48#
+End autogen for function:#TreeNode()#at time: #2025-02-14 11:04:04#
+Start autogen for function:#TreeNode(int)#Source code file:#D:\Projects\AKAUT\prj-data\Amanhacker_Aman-Barnwal-Leetcode-Solutions\p11\1026-maximum-difference-between-node-and-ancestor\1026-maximum-difference-between-node-and-ancestor.cpp#at time: #2025-02-14 11:04:04#
+End autogen for function:#TreeNode(int)#at time: #2025-02-14 11:05:25#
+Start autogen for function:#TreeNode(int,TreeNode*,TreeNode*)#Source code file:#D:\Projects\AKAUT\prj-data\Amanhacker_Aman-Barnwal-Leetcode-Solutions\p11\1026-maximum-difference-between-node-and-ancestor\1026-maximum-difference-between-node-and-ancestor.cpp#at time: #2025-02-14 11:05:25#
+End autogen for function:#TreeNode(int,TreeNode*,TreeNode*)#at time: #2025-02-14 11:06:44#
+Start autogen for function:#findMinMax(TreeNode*,TreeNode*,int&,int&)#Source code file:#D:\Projects\AKAUT\prj-data\Amanhacker_Aman-Barnwal-Leetcode-Solutions\p11\1026-maximum-difference-between-node-and-ancestor\1026-maximum-difference-between-node-and-ancestor.cpp#at time: #2025-02-14 11:06:44#
+End autogen for function:#findMinMax(TreeNode*,TreeNode*,int&,int&)#at time: #2025-02-14 11:08:16#
+Start autogen for function:#isLeafNode(TreeNode*)#Source code file:#D:\Projects\AKAUT\prj-data\Amanhacker_Aman-Barnwal-Leetcode-Solutions\p11\1026-maximum-difference-between-node-and-ancestor\1026-maximum-difference-between-node-and-ancestor.cpp#at time: #2025-02-14 11:08:16#
+End autogen for function:#isLeafNode(TreeNode*)#at time: #2025-02-14 11:09:22#
+Start autogen for function:#dfs(TreeNode*,int&)#Source code file:#D:\Projects\AKAUT\prj-data\Amanhacker_Aman-Barnwal-Leetcode-Solutions\p11\1026-maximum-difference-between-node-and-ancestor\1026-maximum-difference-between-node-and-ancestor.cpp#at time: #2025-02-14 11:09:22#
+End autogen for function:#dfs(TreeNode*,int&)#at time: #2025-02-14 11:10:48#
+Start autogen for function:#maxAncestorDiff(TreeNode*)#Source code file:#D:\Projects\AKAUT\prj-data\Amanhacker_Aman-Barnwal-Leetcode-Solutions\p11\1026-maximum-difference-between-node-and-ancestor\1026-maximum-difference-between-node-and-ancestor.cpp#at time: #2025-02-14 11:10:48#
