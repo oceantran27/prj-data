@@ -18,6 +18,12 @@ using namespace std;
  * };
  */
 
+ class ImmutableListNode {
+ public:
+    void printValue(); // print the value of the node.
+    ImmutableListNode* getNext(); // return the next node.
+ };
+
 class Solution {
 public:
     
